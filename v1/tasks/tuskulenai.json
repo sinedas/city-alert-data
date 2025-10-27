@@ -1,0 +1,152 @@
+[
+    {
+        "id": "1",
+        "name": "Tuskulėnų dvaro rūmai",
+        "lat": 54.6990436702467,
+        "lng": 25.303356395621584,
+        "image": "violet.png",
+        "text": "Spalva?",
+        "answer": "violetine",
+        "points": 5 ,
+        "attempts": 2,
+        "time": 6
+    },
+    {
+        "id": "2",
+        "name": "Žirmūnų biblioteka",
+        "lat": 54.69892839600735,   
+        "lng": 25.30018131216362,
+        "image": "sveikas.gif",
+        "text": "Eik po žingsnelį nuo raidės 'K' ir rask atsakymą.",
+        "answer": "kareivio sveiko nuotykiai",
+        "points": 3,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "3",
+        "name": "VRM rūmai",
+        "lat": 54.69676344039737,   
+        "lng": 25.30033912031935,
+        "image": "mohican.gif",
+        "text": "Dėlionė.",
+        "answer": "paskutinis mohikanas",
+        "points": 4,
+        "attempts": 5,
+        "time": 6
+    },
+    {
+        "id": "4",
+        "name": "Užduotis Jūreivis",
+        "lat": 54.69822219778956, 
+        "lng": 25.30017374319044,
+        
+        "text": "Atlikdamas užduotis, gali sutikti jureivį. Sužinok jo vardą.",
+        "answer": "francisekas",
+        "points": 3,
+        "attempts": 5,
+        "time": 60
+    },
+    {
+        "id": "5",
+        "name": "Užduotis Gydytojas",
+        "lat": 54.69822014990648, 
+        "lng": 25.301319989984012,
+        "text": "Jei sutiksi gydytoją, paklausk kokį almanachą jis išleido.",
+        "answer": "athenaeum",
+        "points": 4,
+        "attempts": 5,
+        "time": 60
+    },
+    {
+        "id": "6",
+        "name": "Šv. Terezės koplytėlė",
+        "lat": 54.69747123508226, 
+        "lng": 25.302705141614247,
+        "text": "1 eilutė, 1 žodis iš galo, 1 raidė\n3 eilutė, 1 žodis, 5 raidė\n4 eilutė, 2 žodis, 1 raidė\n1 eilutė, 1 žodis iš galo, 1 raidė\nPaskutinė žodis, 3 raidė iš galo\n5 eilutė, 2 žodis, 1 raidė\nPavadinimas, paskutinė raidė\n6 eilutė, 2 žodis, 8 raidė\n6 eilutė, 2 žodis, 8 raidė\nPavadinimas, paskutinė raidė",
+        "answer": "pagalvele",
+        "points": 5,
+        "attempts": 5,
+        "time": 6
+    },
+    {
+        "id": "7",
+        "name": "Tuskulėnų koplytėlė-kolumbariumas",
+        "lat": 54.698016440003485, 
+        "lng": 25.30311978032033,
+        "image": "matches.gif",
+        "text": "Tau reik uždegti dektuką koplėtėlės kolumbariume. Vieną degtuką perkelk, o kitą pasiimk, kad sąlyga būtų teisinga. Sąlygą užrašyk paprastais skaitmenimis ir ženklais.",
+        "answer": "3+5=8",
+        "points": 5,
+        "attempts": 5,
+        "time": 6
+    },
+    {
+        "id": "8",
+        "name": "Tuskulėnų vaiduoklis",
+        "lat": 54.69804029130771, 
+        "lng": 25.303352680183856,       
+        "text": "Surask lakūną. Jis ir yra Tuskulėnų vaiduoklis. Paklausk jo, kokį partizanų metraštį jis leido. Lakūnas padės tau rasti ir kitus vaiduoklius, padėsiančius išspresti kitas užduotis.",
+        "answer": "laisves zvalgas",
+        "points": 3,
+        "attempts": 5,
+        "time": 60
+    },
+    {
+        "id": "9",
+        "name": "Kančių karūna",
+        "image": "bishop.gif",
+        "lat": 54.69816342551371,  
+        "lng": 25.30227412688501,       
+        "text": "Surask vyskūpą. Jo vardas padės išspresti šią užduotį. X = Vyskūpo vardas. Surask Y.",
+        "answer": "euras",
+        "points": 6,
+        "attempts": 5,
+        "time": 60
+    },
+    {
+        "id": "10",
+        "name": "Tuskulėnų dvaro paslaptys",
+        "image": "morze.gif",
+        "lat": 54.69675536193789, 
+        "lng": 25.301736572827075,       
+        "text": "Surask šį asmenį. Sužinok šio asmes antrą pavardę.",
+        "answer": "bauer",
+        "points": 5,
+        "attempts": 3,
+        "time": 6
+    },
+    {
+        "id": "11",
+        "name": "Angelų sargų skveras",
+        "lat": 54.69641578073588,  
+        "lng": 25.299926448017278,       
+        "text": "Rask angelų sargų skvero stendą. Pirmas žodis trečioj eilutėje brailio rašu.",
+        "answer": "krite",
+        "points": 5,
+        "attempts": 5,
+        "time": 6
+    },
+    {
+        "id": "12",
+        "name": "Angelų sargų akmuo",
+        "lat": 54.69624220023633, 
+        "lng": 25.300527982398144,       
+        "text": "Rask angelų sargų akmenį.Padaryk akmens nuotrauką. Atsakyme įrašyk akmuo.",
+        "answer": "akmuo",
+        "points": 2,
+        "attempts": 1,
+        "time": 6
+    },
+    {
+        "id": "13",
+        "name": "Akmens užduotis",
+        "lat": 54.69823815193618, 
+        "lng": 5.303964564718232,       
+        "text": "Koks medis paminėtas angеlų sargų akmenyje?",
+        "answer": "azuolas",
+        "points": 4,
+        "attempts": 2,
+        "time": 30
+    }
+]
