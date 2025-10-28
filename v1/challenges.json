@@ -11,7 +11,7 @@
     "duration": 60,
     "active": true,
     "locked": false,
-    "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją"
+    "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją."
   },
   {
     "code": "ona",
@@ -20,12 +20,12 @@
       "lat": 54.6864,
       "lng": 25.2900
     },
-    "initialDiameter": 1500,
+    "initialDiameter": 1000,
     "finalDiameter": 150,
     "duration": 25,
-    "active": false,
-    "locked": true,
-    "description": "Atraskite Šv. Onos bažnyčios paslaptis ir istoriją"
+    "active": true,
+    "locked": false,
+    "description": "Atskleiskite Šv. Onos bažnyčios paslaptis."
   },
   {
     "code": "cathedral",
