@@ -9,5 +9,16 @@
         "points": 3,
         "attempts": 3,
         "time": 1
-    }    
+    },
+    {  
+        "id": "2",
+        "name": "Šv. Onos bažnyčios paslaptys",
+        "lat": 54.681768004918894,  
+        "lng": 25.293593691932042,
+        "text": "test",
+        "answer": "test",
+        "points": 3,
+        "attempts": 3,
+        "time": 1
+    }
 ]
