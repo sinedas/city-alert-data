@@ -22,7 +22,7 @@
     },
     "initialDiameter": 1000,
     "finalDiameter": 150,
-    "duration": 25,
+    "duration": 5,
     "active": true,
     "locked": false,
     "description": "Atskleiskite Šv. Onos bažnyčios paslaptis."
