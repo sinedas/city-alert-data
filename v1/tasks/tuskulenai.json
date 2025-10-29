@@ -19,7 +19,7 @@
         "image": "sveikas.gif",
         "text": "Eik po žingsnelį nuo raidės 'K' ir rask atsakymą.",
         "answer": "kareivio sveiko nuotykiai",
-        "points": 3,
+        "points": 4,
         "attempts": 5,
         "time": 5
     },
@@ -39,13 +39,11 @@
         "id": "4",
         "name": "Užduotis Jūreivis",
         "lat": 54.69822219778956, 
-        "lng": 25.30017374319044,
-        
+        "lng": 25.30017374319044,        
         "text": "Atlikdamas užduotis, gali sutikti jureivį. Sužinok jo vardą.",
         "answer": "francisekas",
-        "points": 3,
-        "attempts": 5,
-        "time": 60
+        "points": 4,
+        "attempts": 5
     },
     {
         "id": "5",
@@ -54,9 +52,8 @@
         "lng": 25.301319989984012,
         "text": "Jei sutiksi gydytoją, paklausk kokį almanachą jis išleido.",
         "answer": "athenaeum",
-        "points": 4,
-        "attempts": 5,
-        "time": 60
+        "points": 5,
+        "attempts": 5
     },
     {
         "id": "6",
@@ -88,9 +85,9 @@
         "lng": 25.303352680183856,       
         "text": "Surask lakūną. Jis ir yra Tuskulėnų vaiduoklis. Paklausk jo, kokį partizanų metraštį jis leido. Lakūnas padės tau rasti ir kitus vaiduoklius, padėsiančius išspresti kitas užduotis.",
         "answer": "laisves zvalgas",
-        "points": 3,
+        "points": 5,
         "attempts": 5,
-        "time": 60
+        "time": 6
     },
     {
         "id": "9",
@@ -101,8 +98,7 @@
         "text": "Surask vyskūpą. Jo vardas padės išspresti šią užduotį. X = Vyskūpo vardas. Surask Y.",
         "answer": "euras",
         "points": 6,
-        "attempts": 5,
-        "time": 60
+        "attempts": 5
     },
     {
         "id": "10",
@@ -112,9 +108,8 @@
         "lng": 25.301736572827075,       
         "text": "Surask šį asmenį. Sužinok šio asmes antrą pavardę.",
         "answer": "bauer",
-        "points": 5,
-        "attempts": 3,
-        "time": 6
+        "points": 8,
+        "attempts": 3
     },
     {
         "id": "11",
@@ -123,7 +118,7 @@
         "lng": 25.299926448017278,       
         "text": "Rask angelų sargų skvero stendą. Pirmas žodis trečioj eilutėje brailio rašu.",
         "answer": "krite",
-        "points": 5,
+        "points": 6,
         "attempts": 5,
         "time": 6
     },
@@ -135,7 +130,7 @@
         "text": "Rask angelų sargų akmenį.Padaryk akmens nuotrauką. Atsakyme įrašyk akmuo.",
         "answer": "akmuo",
         "points": 2,
-        "attempts": 1,
+        "attempts": 2,
         "time": 6
     },
     {
@@ -146,7 +141,6 @@
         "text": "Koks medis paminėtas angеlų sargų akmenyje?",
         "answer": "azuolas",
         "points": 4,
-        "attempts": 2,
-        "time": 30
+        "attempts": 2
     }
 ]
