@@ -4,8 +4,9 @@
         "name": "Šv. Onos bažnyčia",
         "lat": 54.6824329599667, 
         "lng": 25.293005394627453,
-        "text": "napolean.png",
-        "answer": "Įdėmiai perskaityk Šv. Onos bažyčios aprašymą. Sujunk Vilniaus centrą su Paryžiaus centru, o Napoleoną su Ona ir gausi reikiamą datą.",
+        "image": "napolean.png",
+        "text": "Įdėmiai perskaityk Šv. Onos bažyčios aprašymą. Sujunk Vilniaus centrą su Paryžiaus centru, o Napoleoną su Ona ir gausi reikiamą datą.",
+        "answer": "1992",
         "points": 3,
         "attempts": 3,
         "time": 1
