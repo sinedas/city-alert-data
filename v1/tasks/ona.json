@@ -21,5 +21,16 @@
         "answer": "test",
         "points": 3,
         "attempts": 3
+    },
+    {
+        "id": "3",
+        "name": "Signatarų namai",
+        "lat": 54.6823720496498,
+        "lng": 25.28919959284475,
+        "image": "mohican.gif",
+        "text": "test",
+        "answer": "test",
+        "points": 3,
+        "attempts": 3
     }
 ]
