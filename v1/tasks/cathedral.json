@@ -6,7 +6,7 @@
         "lng": 25.287,
         "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqn5_uec6IBkuh3DVCA0Q3yjcoTD-UFe5WpVyBPa_VQZH8A-PqIpkCxVNLJQbiUhXGpFMvZgKjAfo73rPpnV97usLm9zQQ_Zx0lWWBAvr-NpE1nrQyAd1Z5ujWYffiD1rYymedFhg=s1360-w1360-h1020-rw",
         "text": "This iconic tower stands on Gediminas Hill and is a symbol of Vilnius. Built in the 14th century, it was part of the Upper Castle. What is the name of the legendary Grand Duke who is said to have founded Vilnius after dreaming of an iron wolf?",
-        "answer": "Gediminas",
+        "answer": ["Gediminas"],
         "points": 3,
         "attempts": 3,
         "time": 1
@@ -18,7 +18,7 @@
         "lng": 25.288,
         "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
         "text": "In Cathedral Square, there is a famous tile that locals believe brings good luck. According to legend, if you stand on this tile and make a wish while turning around three times, your wish will come true. What is this tile commonly called?",
-        "answer": "Stebuklas",
+        "answer": ["Stebuklas"],
         "points": 3,
         "attempts": 2,
         "time": 1
@@ -30,7 +30,7 @@
         "lng": 25.312,
         "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
         "text": "Užupis is known as the 'Republic of Užupis' and has its own constitution. This bohemian district is famous for its artistic community. What is the name of the river that flows through Užupis?",
-        "answer": "Vilnia",
+        "answer": ["Vilnia"],
         "points": 4,
         "attempts": 5,
         "time": 1
@@ -42,7 +42,7 @@
         "lng": 25.2797,
         "image": "independence.png",
         "text": "Išspreskite galvosukį",
-        "answer": "t",
+        "answer": ["t"],
         "points": 2,
         "attempts": 1,
         "time": 1
@@ -53,7 +53,7 @@
         "lat": 54.690,
         "lng": 25.260,
         "text": "test",
-        "answer": "test",
+        "answer": ["test"],
         "points": 1,
         "attempts": 3,
         "time": 1
@@ -64,7 +64,7 @@
         "lat": 54.687,
         "lng": 25.270,
         "text": "test",
-        "answer": "test",
+        "answer": ["test"],
         "points": 1,
         "attempts": 2,
         "time": 1

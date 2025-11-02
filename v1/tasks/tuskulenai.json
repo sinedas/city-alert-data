@@ -6,7 +6,7 @@
         "lng": 25.303356395621584,
         "image": "violet.png",
         "text": "Spalva?",
-        "answer": "violetine",
+        "answer": ["violetine"],
         "points": 5 ,
         "attempts": 2,
         "time": 6
@@ -18,7 +18,7 @@
         "lng": 25.30018131216362,
         "image": "sveikas.gif",
         "text": "Eik po žingsnelį nuo raidės 'K' ir rask atsakymą.",
-        "answer": "kareivio sveiko nuotykiai",
+        "answer": ["kareivio sveiko nuotykiai"],
         "points": 4,
         "attempts": 5,
         "time": 5
@@ -30,7 +30,7 @@
         "lng": 25.30033912031935,
         "image": "mohican.gif",
         "text": "Dėlionė.",
-        "answer": "paskutinis mohikanas",
+        "answer": ["paskutinis mohikanas"],
         "points": 4,
         "attempts": 5,
         "time": 6
@@ -41,7 +41,7 @@
         "lat": 54.69822219778956, 
         "lng": 25.30017374319044,        
         "text": "Atlikdamas užduotis, gali sutikti jureivį. Sužinok jo vardą.",
-        "answer": "francisekas",
+        "answer": ["francisekas"],
         "points": 4,
         "attempts": 5
     },
@@ -51,7 +51,7 @@
         "lat": 54.69822014990648, 
         "lng": 25.301319989984012,
         "text": "Jei sutiksi gydytoją, paklausk kokį almanachą jis išleido.",
-        "answer": "athenaeum",
+        "answer": ["athenaeum"],
         "points": 5,
         "attempts": 5
     },
@@ -61,7 +61,7 @@
         "lat": 54.69747123508226, 
         "lng": 25.302705141614247,
         "text": "1 eilutė, 1 žodis iš galo, 1 raidė\n3 eilutė, 1 žodis, 5 raidė\n4 eilutė, 2 žodis, 1 raidė\n1 eilutė, 1 žodis iš galo, 2 raidė\nPaskutinė žodis, 3 raidė iš galo\n5 eilutė, 2 žodis, 1 raidė\nPavadinimas, paskutinė raidė\n6 eilutė, 2 žodis, 8 raidė\n6 eilutė, 2 žodis, 8 raidė\nPavadinimas, paskutinė raidė",
-        "answer": "pagalvele",
+        "answer": ["pagalvele"],
         "points": 5,
         "attempts": 5,
         "time": 6
@@ -73,7 +73,7 @@
         "lng": 25.30311978032033,
         "image": "matches.gif",
         "text": "Tau reik uždegti dektuką koplėtėlės kolumbariume. Vieną degtuką perkelk, o kitą pasiimk, kad sąlyga būtų teisinga. Sąlygą užrašyk paprastais skaitmenimis ir ženklais.",
-        "answer": "3+5=8",
+        "answer": ["3+5=8", "8-6=2"],
         "points": 5,
         "attempts": 5,
         "time": 6
@@ -84,7 +84,7 @@
         "lat": 54.69804029130771, 
         "lng": 25.303352680183856,       
         "text": "Surask lakūną. Jis ir yra Tuskulėnų vaiduoklis. Paklausk jo, kokį partizanų metraštį jis leido. Lakūnas padės tau rasti ir kitus vaiduoklius, padėsiančius išspresti kitas užduotis.",
-        "answer": "laisves zvalgas",
+        "answer": ["laisves zvalgas"],
         "points": 5,
         "attempts": 5,
         "time": 6
@@ -96,7 +96,7 @@
         "lat": 54.69816342551371,  
         "lng": 25.30227412688501,       
         "text": "Surask vyskupą. Jo vardas padės išspresti šią užduotį. X = Vyskupo vardas. Surask ?.",
-        "answer": "euras",
+        "answer": ["euras"],
         "points": 6,
         "attempts": 5
     },
@@ -107,7 +107,7 @@
         "lat": 54.69675536193789, 
         "lng": 25.301736572827075,       
         "text": "Surask šį asmenį. Sužinok šio asmes antrą pavardę.",
-        "answer": "bauer",
+        "answer": ["bauer"],
         "points": 8,
         "attempts": 3
     },
@@ -117,7 +117,7 @@
         "lat": 54.69641578073588,  
         "lng": 25.299926448017278,       
         "text": "Rask angelų sargų skvero stendą. Pirmas žodis paskutinėje eilutėje brailio rašu.",
-        "answer": "krite",
+        "answer": ["krite"],
         "points": 6,
         "attempts": 5,
         "time": 6
@@ -128,7 +128,7 @@
         "lat": 54.69624220023633, 
         "lng": 25.300527982398144,       
         "text": "Rask angelų sargų akmenį.Padaryk akmens nuotrauką. Atsakyme įrašyk akmuo.",
-        "answer": "akmuo",
+        "answer": ["akmuo"],
         "points": 2,
         "attempts": 2,
         "time": 6
@@ -139,7 +139,7 @@
         "lat": 54.69822843658545, 
         "lng": 25.303956499215914,  
         "text": "Koks medis paminėtas angеlų sargų akmenyje?",
-        "answer": "azuolas",
+        "answer": ["azuolas"],
         "points": 4,
         "attempts": 2
     }

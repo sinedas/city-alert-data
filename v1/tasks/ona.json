@@ -6,7 +6,7 @@
         "lng": 25.293005394627453,
         "image": "napoleon.png",
         "text": "Įdėmiai perskaityk Šv. Onos bažyčios aprašymą. Sujunk Vilniaus centrą su Paryžiaus centru, o Napoleoną su Ona ir gausi reikiamą datą.",
-        "answer": "1992",
+        "answer": ["1992"],
         "points": 3,
         "attempts": 3,
         "time": 1
@@ -18,7 +18,7 @@
         "lng": 25.293593691932042,
         "image": "mohican.gif",
         "text": "test",
-        "answer": "test",
+        "answer": ["test"],
         "points": 3,
         "attempts": 3
     },
@@ -29,7 +29,7 @@
         "lng": 25.28919959284475,
         "image": "mohican.gif",
         "text": "test",
-        "answer": "test",
+        "answer": ["test"],
         "points": 3,
         "attempts": 3,
         "time": 1
@@ -41,7 +41,7 @@
         "lng":  25.295798806564804,
         "image": "mohican.gif",
         "text": "test",
-        "answer": "test",
+        "answer": ["test"],
         "points": 3,
         "attempts": 3
     }
