@@ -31,6 +31,18 @@
         "text": "test",
         "answer": "test",
         "points": 3,
+        "attempts": 3,
+        "time": 1
+    },
+    {
+        "id": "4",
+        "name": "Užupio konstitucija",
+        "lat": 54.68006063600668,
+        "lng":  25.295798806564804,
+        "image": "mohican.gif",
+        "text": "test",
+        "answer": "test",
+        "points": 3,
         "attempts": 3
     }
 ]
