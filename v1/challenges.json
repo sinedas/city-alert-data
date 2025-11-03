@@ -25,7 +25,8 @@
     "duration": 10,
     "active": true,
     "locked": false,
-    "description": "Atskleiskite Šv. Onos bažnyčios paslaptis."
+    "description": "Atskleiskite Šv. Onos bažnyčios paslaptis.",
+    "hints": 1
   },
   {
     "code": "cathedral",
