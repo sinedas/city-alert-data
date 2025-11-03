@@ -36,7 +36,7 @@
     },
     "initialDiameter": 3000,
     "finalDiameter": 300,
-    "duration": 20,
+    "duration": 1,
     "active": false,
     "locked": true,
     "description": "Išspręskite Vilniaus katedros paslaptis ir atraskite lobį"
