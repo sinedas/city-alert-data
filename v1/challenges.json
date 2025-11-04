@@ -41,5 +41,19 @@
     "active": true,
     "locked": false,
     "description": "Išspręskite Vilniaus katedros paslaptis ir atraskite lobį"
+  },
+  {
+    "code": "soviets",
+    "title": "Žydų kapinės ir sovietiniai monstrai",
+    "location": {
+      "lat": 554.69079963514012, 
+      "lng": 25.290875962339644
+    },
+    "initialDiameter": 2500,
+    "finalDiameter": 250,
+    "duration": 60,
+    "active": true,
+    "locked": false,
+    "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką."
   }
 ]
