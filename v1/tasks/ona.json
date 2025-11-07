@@ -14,7 +14,7 @@
             "text": "Žodį sujunk suprask tiesiogiai. Brėžk linijas nuo žodžio iki žodžio.",
             "points": 2
         },
-        "completion": {
+        "reward": {
             "text": "Jūs gaunate žemėlapį. \n [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].",
             "image": "map.webp"
         }
