@@ -13,5 +13,20 @@
             "text": "Jūs gaunate žemėlapį. \n [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].",
             "image": "map.webp"
         }
+    },
+    {  
+        "id": "2",
+        "name": "Mickevičiaus paminklas",
+        "lat": 54.681768004918894,  
+        "lng": 25.293593691932042,
+        "image": "mohican.gif",
+        "text": "test",
+        "answer": ["test"],
+        "points": 3,
+        "attempts": 3,
+        "hint": {
+            "text": "Žodį sujunk suprask tiesiogiai. Brėžk linijas nuo žodžio iki žodžio. \n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]",
+            "points": 2
+        }
     }
 ]
