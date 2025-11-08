@@ -14,7 +14,8 @@
     "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
     "start": "Žirmūnų biblioteka arba VRM rūmai",
     "finish": "Tuskulėnų dvaras",
-    "hints": 2
+    "hints": 2,
+    "checkLocation": true
   },
   {
     "code": "ona",
@@ -31,7 +32,8 @@
     "description": "Atskleiskite Šv. Onos bažnyčios paslaptis.",
     "start": "Signatarų rūmai",
     "finish": "Adomo Mickevičiaus paminklas",
-    "hints": 3
+    "hints": 3,
+    "checkLocation": true
   },
   {
     "code": "cathedral",
@@ -47,7 +49,8 @@
     "locked": false,
     "description": "Išspręskite Vilniaus katedros paslaptis ir atraskite lobį",
     "start": "Kudirkos aikštė",
-    "finish": "Katedra"
+    "finish": "Katedra",
+    "checkLocation": true
   },
   {
     "code": "soviets",
@@ -61,6 +64,7 @@
     "duration": 10,
     "active": true,
     "locked": false,
-    "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką."
+    "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką.",
+    "checkLocation": false
   }
 ]
