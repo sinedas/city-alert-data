@@ -9,7 +9,11 @@
         "answer": ["violetine"],
         "points": 5 ,
         "attempts": 2,
-        "time": 6
+        "time": 6,
+        "hint": {
+            "text": "Prisiminkite dailės pamokas. \n Žalia ir raudona yra ruda. Raudona ir geltona yra oranžinė. \n Kokias spalvas dar maišėte mokykloje?",
+            "points": 2
+        }
     },
     {
         "id": "2",
@@ -37,7 +41,11 @@
         "answer": ["paskutinis mohikanas"],
         "points": 4,
         "attempts": 5,
-        "time": 6
+        "time": 6,
+        "hint": {
+            "image": "mohican_hint.png",
+            "points": 2
+        }
     },
     {
         "id": "4",
