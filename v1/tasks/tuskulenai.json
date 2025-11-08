@@ -21,7 +21,11 @@
         "answer": ["kareivio sveiko nuotykiai"],
         "points": 4,
         "attempts": 5,
-        "time": 5
+        "time": 5,
+        "hint": {
+            "image": "sveikas_hint.png",
+            "points": 2
+        }
     },
     {
         "id": "3",
@@ -97,8 +101,12 @@
         "lng": 25.30227412688501,       
         "text": "Surask vyskupą. Jo vardas padės išspresti šią užduotį. X = Vyskupo vardas. Surask ?.",
         "answer": ["euras"],
-        "points": 6,
-        "attempts": 5
+        "points": 8,
+        "attempts": 5,
+        "hint": {
+            "text": "Tai visai ne matematinė užduotis. Kokias raides reikia atimti iš žodžio kad gauti- ką?",
+            "points": 4
+        }
     },
     {
         "id": "10",
@@ -109,7 +117,11 @@
         "text": "Surask šį asmenį. Sužinok šio asmes antrą pavardę.",
         "answer": ["bauer"],
         "points": 8,
-        "attempts": 3
+        "attempts": 3,
+        "hint": {
+            "text": "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]",
+            "points": 2
+        }
     },
     {
         "id": "11",
@@ -120,7 +132,11 @@
         "answer": ["krite"],
         "points": 6,
         "attempts": 5,
-        "time": 6
+        "time": 6,
+        "hint": {
+            "text": "Jums padės \n [href=\"https://lt.wikipedia.org/wiki/Brailio_ra%C5%A1tas#Raid%C4%97s_ir_skaitmenys\"]Brailio raštas[/href]\n O gal paprasčiau paskaičiuoti, kuris tai žodis nuo galo?",
+            "points": 2
+        }
     },
     {
         "id": "12",

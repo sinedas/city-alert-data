@@ -13,7 +13,8 @@
     "locked": false,
     "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
     "start": "Žirmūnų biblioteka arba VRM rūmai",
-    "finish": "Tuskulėnų dvaras"
+    "finish": "Tuskulėnų dvaras",
+    "hints": 2
   },
   {
     "code": "ona",
