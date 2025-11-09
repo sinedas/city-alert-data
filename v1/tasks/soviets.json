@@ -1,36 +1,40 @@
 [
     {
         "id": "1",
-        "name": "Žydų kapinės ir sovietiniai monstrai",
+        "name": "Pirma užduotis- Vaikų pasaulis",
         "lat": 54.6871299384548, 
         "lng": 25.279237543339477,  
-        "text": "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.\nMašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate parduotuvėje „Vaikų pasaulis\", kur radote juodą dėžutę su rašteliu nuo Izaoko Goldšteino\":\n„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį Vilnių. Aš atvykau jūsų gelbėti. Įvykdyte reikiamas užduotis, sužinote šios dienos datą ir ateikite į senasias žydų kapines, kur lauksiu jūsų.\nŠioje dėžutėje yra pirmasis daiktas kuris jums padės. Tai daiktas kuriame prie vienuolikos pridėjus šešis gaunami penki. Koks tai daiktas?\nJūsų draugas Izaokas Goldšteinas.",
+        "text": "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.\nMašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate parduotuvėje „Vaikų pasaulis\", kur radote juodą dėžutę su rašteliu nuo Izaoko Goldšteino\":\n„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį Vilnių. Aš atvykau jūsų gelbėti. Įvykdyte reikiamas užduotis, sužinote šios dienos datą ir laiką, ir ateikite į senasias žydų kapines, kur lauksiu jūsų.\nŠioje dėžutėje yra pirmasis daiktas, kuris jums padės. Tai daiktas kuriame prie vienuolikos pridėjus šešis gaunami penki. Koks tai daiktas?\nJūsų draugas Izaokas Goldšteinas.",
         "answer": ["laikrodis"],
-        "points": 5,
+        "points": 4,
         "attempts": 5,
         "time": 4,
         "hint": {
             "text": "Tai sudurtinis žodis, kurio dalis minima užduotyje. Šį daiktą dažnai nešiojate ant rankos.",
-            "points": 3
+            "points": 2
         },
         "reward": {
-            "text": "Jūs gaunate žemėlapį. \n [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].",
+            "text": "Jūs gaunate laikrodį. Tik jo rodyklės labai keistos. Įdomu kokį laiką jis rodo?\n\nO dabar eikite į Vilniaus gatvę ir raskite lagaminą.",
             "image": "map.webp"
         }
     },
     {  
         "id": "2",
-        "name": "Mickevičiaus paminklas",
+        "name": "Paslaptingas lagaminėlis",
         "lat": 54.681768004918894,  
         "lng": 25.293593691932042,
-        "text": "test",
-        "answer": ["test"],
-        "points": 3,
+        "text": "Jūs radote lagaminėlį su kodų spynele. Taip pat sąrašą pasaulio valstybių sostinių. Spynos kodas- pirmosios sostinių raidės. Išbraukite kitus miestus ir gausite kodą:\n\n\nTALINAS\nBONA\nAMSTERDAMAS\nLIUBLIANA\nPRAHA\nZAGREBAS\nTIRANA\nMINSKAS\nISLAMABADAS\nSEULAS\nRIGA\nPODGORICA\nTEHERANAS\nBAKU\nANKARA\nSTOKHOLMAS",
+        "answer": ["baptistas"],
+        "points": 5,
         "attempts": 3,
         "time": 1,
         "hint": {
-            "text": "Žodį sujunk suprask tiesiogiai. Brėžk linijas nuo žodžio iki žodžio. \n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]",
+            "text": "Jūs esate sovietiniame laike. Kiek Vokietijų buvo tuo metu? Kokių valstybių nebuvo? Kurios šiuolaikinės šalys įėjo į TSRS, Čekoslovakijos ir Jugoslavijos sudėtį?",
             "points": 2
+        },
+        "reward": {
+            "text": "Jūs gaunate žemėlapį. \n [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].\n Jis padės jums atlikti kitas užduotis.\n Eikite į Černiahovskio aikštę.",
+            "image": "map.webp"
         }
     }
 ]
