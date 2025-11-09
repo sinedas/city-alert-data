@@ -50,6 +50,7 @@
     "description": "Išspręskite Vilniaus katedros paslaptis ir atraskite lobį",
     "start": "Kudirkos aikštė",
     "finish": "Katedra",
+    "hints": 2,
     "checkLocation": true
   },
   {
@@ -65,6 +66,10 @@
     "active": true,
     "locked": false,
     "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką.",
+    "hints": 1,
+    "start": "Pirma užduotis- Vaikų pasaulis",
+    "finish": "Žydų kapinės",
+    "hinsts": 1,
     "checkLocation": false
   }
 ]
