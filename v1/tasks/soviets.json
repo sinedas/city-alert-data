@@ -2,13 +2,17 @@
     {
         "id": "1",
         "name": "Žydų kapinės ir sovietiniai monstrai",
-        "lat": 54.68717307124667, 
-        "lng": 25.279349860561652,  
-        "text": "Įdėmiai perskaityk Šv. Onos bažyčios aprašymą. Sujunk Vilniaus centrą su Paryžiaus centru, o Napoleoną su Ona ir gausi reikiamą datą.",
-        "answer": ["1992"],
+        "lat": 54.6871299384548, 
+        "lng": 25.279237543339477,  
+        "text": "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.\n\nMašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate parduotuvėje „Vaikų pasaulis\", kur radote juodą dėžutę su rašteliu nuo Izaoko Goldšteino\":\n\n„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį Vilnių. Aš atvykau jūsų gelbėti. Įvykdyte reikiamas užduotis, sužinote šios dienos datą ir ateikite į senasias žydų kapines, kur lauksiu jūsų.\n\nŠioje dėžutėje yra pirmasis daiktas kuris jums padės. Tai daiktas kuriame prie vienuolikos pridėjus šešis gaunami penki. Koks tai daiktas?\n\nJūsų draugas Izaokas Goldšteinas.",
+        "answer": ["laikrodis"],
         "points": 5,
-        "attempts": 3,
-        "time": 6,
+        "attempts": 5,
+        "time": 4,
+        "hint": {
+            "text": "Tai sudurtinis žodis, kurio dalis minima užduotyje. Šį daiktą dažnai nešiojate ant rankos.",
+            "points": 3
+        },
         "reward": {
             "text": "Jūs gaunate žemėlapį. \n [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].",
             "image": "map.webp"
