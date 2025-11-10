@@ -45,7 +45,7 @@
     "initialDiameter": 3000,
     "finalDiameter": 300,
     "duration": 2,
-    "active": true,
+    "active": false,
     "locked": false,
     "description": "Išspręskite Vilniaus katedros paslaptis ir atraskite lobį",
     "start": "Kudirkos aikštė",
