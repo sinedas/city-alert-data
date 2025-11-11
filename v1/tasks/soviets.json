@@ -52,7 +52,8 @@
             "image": "julius_hint.png"
         },        
         "reward": {
-            "text": "Eikitе į kinoteatrą Pergalė P. Cvirkos gatvėje."
+            "text": "Eikitе į kinoteatrą Pergalė P. Cvirkos gatvėje.\n\nLaišką pasiimkite su savimi.",
+            "image": "julius.png"
         }
     }
 ]
