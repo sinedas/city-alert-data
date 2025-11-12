@@ -69,5 +69,17 @@
         "reward": {
             "text": "Eikite į profsajungos rūmus."
         }
+    },
+    {
+       "id": "5",
+       "name": "Centrinė universalinė parduotuvė",
+       "lat": 54.69415743699224,  
+       "lng": 25.276610722754306,
+       "image": "cup.png",
+       "text": "Jūs atėjote prie CUP'o. Bet parduotuvė buvo uždaryta. Per vitriną jūs pamatėte laikrodį nuo sienos nukritusį ant žemės. Jis rodė laiką 10:51. Po minutės pradėjo rodyti 20:51. Kokį laiką jis rodis dar po minutės?",
+       "answer": ["15:03","30:51"],
+       "points": 4,
+       "attempts": 5,
+       "time": 4
     }
 ]
