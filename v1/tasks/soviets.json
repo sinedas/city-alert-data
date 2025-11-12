@@ -21,8 +21,8 @@
     {  
         "id": "2",
         "name": "Paslaptingas lagaminėlis",
-        "lat": 54.681768004918894,  
-        "lng": 25.293593691932042,
+        "lat": 54.68543396595221,   
+        "lng": 25.27949601604409,
         "text": "Jūs radote lagaminėlį su kodų spynele. Taip pat sąrašą pasaulio valstybių sostinių. Spynos kodas- pirmosios sostinių raidės. Išbraukite kitus miestus ir gausite kodą:\nTALINAS\nBONA\nAMSTERDAMAS\nLIUBLIANA\nPRAHA\nZAGREBAS\nTIRANA\nMINSKAS\nISLAMABADAS\nSEULAS\nRIGA\nPODGORICA\nTEHERANAS\nBAKU\nANKARA\nSTOKHOLMAS",
         "answer": ["baptistas"],
         "points": 6,
@@ -76,10 +76,21 @@
        "lat": 54.69415743699224,  
        "lng": 25.276610722754306,
        "image": "cup.png",
-       "text": "Jūs atėjote prie CUP'o. Bet parduotuvė buvo uždaryta. Per vitriną jūs pamatėte laikrodį nuo sienos nukritusį ant žemės. Jis rodė laiką 10:51. Po minutės pradėjo rodyti 20:51. Kokį laiką jis rodis dar po minutės?",
+       "text": "Jūs atėjote prie CUP'o. Bet parduotuvė buvo uždaryta. Per vitriną jūs pamatėte laikrodį nuo sienos nukritusį ant žemės. Jis rodė laiką 10:51. Po minutės pradėjo rodyti 20:51.\n\n Kokį laiką jis rodys po minutės?",
        "answer": ["15:03","30:51"],
        "points": 4,
        "attempts": 5,
        "time": 4
+    },
+    {
+        "id": "6",
+        "name": "Juliaus draugai",
+        "lat": 54.69081365272571,    
+        "lng": 25.27477371366788,
+        "text": "Jūs sutinkate berniuką Julių su draugų kompaniją. Julius stovi krašte. Jei Onytė stovėtų šalia Renato, tai Marius stovėtų šalia savo bendravardžio. Kas yra kas?\n\nAtsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę).",
+        "answer": ["JRMOM"],
+        "points": 3,
+        "attempts": 3,
+        "time": 4
     }
 ]
