@@ -58,7 +58,7 @@
     },
     {
         "id": "4",
-        "name": "Pergalė",
+        "name": "Kinoteatras",
         "lat": 54.686212098541745, 
         "lng": 25.275113220466167,
         "text": "Jūs atėjote į kinoteatrą „Pergalė“. Kokį filmą Julius ir draugai atėjo pažiūrėti? Atsakymai į šiuos klausimus padės sužinoti filmo pavadinimą.\n\n1. Kinoteatro Lietuva numeris žemėlapyje (Komjaunimo gatvė).\n\n2. Gatvė į kurią atsiremią Liepkalnio gatvė.\n\n3. Rusiška raidė „ i “.\n\n4. Naminis gyvūnas.",
@@ -71,7 +71,19 @@
         }
     },
     {
-       "id": "5",
+        "id": "5",
+        "name": "Profsajungų rūmai",
+        "lat": 54.6852062308052,     
+        "lng": 25.26888653054785,
+        "image": "marks.png",
+        "text": "Jūs atėjote į profsajungos rūmus, kur vyksta komunistų partijos veteranų susirinkimas su jaunimu ir vaikais. Visi susirinkę nešioja ženkliukus. Surikiuokite ženkliukus pagal jų nešiotojų amžių.\\nAtsakyme įrašykite raides.",
+        "answer": ["cbdae"],
+        "points": 3,
+        "attempts": 3,
+        "time": 5
+    },
+    {
+       "id": "6",
        "name": "Centrinė universalinė parduotuvė",
        "lat": 54.69415743699224,  
        "lng": 25.276610722754306,
@@ -83,14 +95,15 @@
        "time": 4
     },
     {
-        "id": "6",
+        "id": "7",
         "name": "Juliaus draugai",
         "lat": 54.69081365272571,    
         "lng": 25.27477371366788,
+        "image": "children.png",
         "text": "Jūs sutinkate berniuką Julių su draugų kompaniją. Julius stovi krašte. Jei Onytė stovėtų šalia Renato, tai Marius stovėtų šalia savo bendravardžio. Kas yra kas?\n\nAtsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę).",
-        "answer": ["JRMOM"],
+        "answer": ["jrmom"],
         "points": 3,
         "attempts": 3,
-        "time": 4
+        "time": 5
     }
 ]
