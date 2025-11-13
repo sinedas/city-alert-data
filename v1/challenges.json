@@ -51,7 +51,7 @@
     "start": "Kudirkos aikštė",
     "finish": "Katedra",
     "hints": 2,
-    "checkLocation": true
+    "checkLocation": false
   },
   {
     "code": "soviets",
@@ -60,9 +60,9 @@
       "lat": 54.69079963514012, 
       "lng": 25.290875962339644
     },
-    "initialDiameter": 2500,
+    "initialDiameter": 3500,
     "finalDiameter": 250,
-    "duration": 3,
+    "duration": 10,
     "active": true,
     "locked": false,
     "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką.",
