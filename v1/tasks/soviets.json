@@ -4,7 +4,7 @@
         "name": "Pirma užduotis- Vaikų pasaulis",
         "lat": 54.6871299384548, 
         "lng": 25.279237543339477,  
-        "text": "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.\nMašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate parduotuvėje „Vaikų pasaulis\", kur radote juodą dėžutę su rašteliu nuo Izaoko Goldšteino\":\n„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į senasias žydų kapines, kur lauksiu jūsų.\nŠioje dėžutėje yra pirmasis daiktas, kuris jums padės. Tai daiktas kuriame prie vienuolikos pridėjus šešis gaunami penki. Koks tai daiktas?\n\nJūsų draugas Izaokas Goldšteinas.“",
+        "text": "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.\nMašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate parduotuvėje „Vaikų pasaulis\", kur radote juodą dėžutę su rašteliu nuo Izaoko Goldšteino:\n„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į senasias žydų kapines, kur lauksiu jūsų.\nŠioje dėžutėje yra pirmasis daiktas, kuris jums padės. Tai daiktas kuriame prie vienuolikos pridėjus šešis gaunami penki. Koks tai daiktas?\n\nJūsų draugas Izaokas Goldšteinas.“",
         "answer": ["laikrodis"],
         "points": 4,
         "attempts": 5,
@@ -84,6 +84,22 @@
     },
     {
         "id": "6",
+        "name": "Lozungas",
+        "lat": 54.68738064202568,     
+        "lng": 25.269217158322057,
+        "image": "proletars.png",
+        "text": "Jūs stovite Tauro kalno papėdėje. Ant profsajungų rūmų kabo plakatas su lozungu. Eikite po žingsnelį nuo raidės 'V' ir perskaitykite šūkį. Atsakyme įrašykite ketvirtą šūkio žodį.",
+        "answer": ["vienykites"],
+        "points": 4,
+        "attempts": 4,
+        "time": 6,
+        "hint": {
+            "image": "proletars_hint.png",
+            "points": 2
+        }
+    },
+    {
+        "id": "7",
         "name": "Lenino aištė",
         "lat": 54.68957496153824,     
         "lng": 25.270880824560535,
@@ -95,19 +111,19 @@
         "time": 7
     },
     {
-       "id": "7",
+       "id": "8",
        "name": "Centrinė universalinė parduotuvė",
        "lat": 54.69415743699224,  
        "lng": 25.276610722754306,
        "image": "cup.png",
        "text": "Jūs atėjote prie CUP'o. Bet parduotuvė uždaryta. Per vitriną jūs pamatėte laikrodį nuo sienos nukritusį ant žemės. Jis rodė laiką 10:51. Po minutės pradėjo rodyti 20:51.\n\nKokį laiką jis rodys dar po minutės?",
-       "answer": ["15:03","30:51"],
+       "answer": ["15:03"],
        "points": 4,
        "attempts": 5,
        "time": 4
     },
     {
-        "id": "8",
+        "id": "9",
         "name": "Juliaus draugai",
         "lat": 54.69081365272571,    
         "lng": 25.27477371366788,
