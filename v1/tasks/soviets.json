@@ -129,8 +129,8 @@
     {
         "id": "9",
         "name": "Gedimino aištė",
-        "lat": 54.68957496153824,     
-        "lng": 25.270880824560535,
+        "lat": 54.68588089749477,      
+        "lng": 25.286420244189877,
         "image": "words.png",
         "text": "Gedimino aikštėj jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo. Atspėti padės šis kryžiažodis. Kaip sovietiniais laikais vadinosi šios gatvės?\n1. Daukanto aikštė.\n2. Goštauto.\n3. Šventaragio.\n4. Gedimino prospektas.\n5. Juozapavičiaus.\n6. Pelesos.\n7. Kalvarijų.\n8. Kaštonų.",
         "answer": ["komjaunimo tiesa"],
@@ -138,7 +138,7 @@
         "attempts": 4,
         "time": 7,
         "reward": {
-            "text": "Žalgirio stadionas."
+            "text": "Laikraštis labai sulytas. Bet jus sugebate perskaityti kąi ką labai naudingo:\n“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo. Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“\n\nEikite į Žalgirio stadioną, Eikite per Žaliajį tiltą (Karaliaus Mindaugo tuo metu nebuvo), trumpam užsukite į CUP'ą (centrinę universalinę parduotuvę)."
         }
     },
     {
