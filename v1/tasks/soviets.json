@@ -99,8 +99,7 @@
         "name": "Lenino aištė",
         "lat": 54.68957496153824,     
         "lng": 25.270880824560535,
-        "image": "words.png",
-        "text": "Lenino aiktėj jūs randate juodą dėžute su rašteliu:\n“Daiktas dėžutėje jums pravers. Šiame daikte prie mano pavardės raidžių skaičiaus pridėjus mano vardo raidžių skaičių, gausite šešis.\n\nJūsų draugas I.G..“",
+        "text": "Lenino aiktėj jūs randate juodą dėžute su rašteliu:\n“Daiktas dėžutėje jums pravers. Šiame daikte prie mano pavardės raidžių skaičiaus pridėjus mano vardo raidžių skaičių, gausite šešis.\nKas tai per daiktas?\n\nJūsų draugas I.G..“",
         "answer": ["laikrodis"],
         "points": 5,
         "attempts": 4,
@@ -138,7 +137,7 @@
         "attempts": 4,
         "time": 7,
         "reward": {
-            "text": "Laikraštis labai sulytas. Bet jus sugebate perskaityti kąi ką labai naudingo:\n“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo. Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“\n\nEikite į Žalgirio stadioną, Eikite per Žaliajį tiltą (Karaliaus Mindaugo tuo metu nebuvo), trumpam užsukite į CUP'ą (centrinę universalinę parduotuvę)."
+            "text": "Laikraštis labai sulytas. Bet jus sugebate perskaityti kai ką labai naudingo:\n“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo. Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“\n\nEikite į Žalgirio stadioną per Žaliajį tiltą (Karaliaus Mindaugo tuo metu nebuvo), trumpam užsukite į CUP'ą (centrinę universalinę parduotuvę)."
         }
     },
     {
