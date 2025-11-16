@@ -172,7 +172,7 @@
         "name": "Žaliasis tiltas",
         "lat": 54.691421015928526,      
         "lng": 25.27987946683256,
-        "image": "monuments.png",
+        "image": "monuments.jpg",
         "text": "Jūs priėjote Žaliąjį tiltą, kuris buvo žymūs savo skulptūromis. Bet sovietinės skulptūros stovėjo ir kitose Vilniaus vietose. Surašykite kas kur stovėjo:\n 1.Kudirkos aištėje.\n2.Ant Žaliojo tilto.\n3.Petro Cvirkos aikštėje.\n4.Lukiškių aikštėje.",
         "answer": ["dcba"],
         "points": 4,
