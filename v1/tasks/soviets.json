@@ -115,12 +115,15 @@
        "name": "Centrinė universalinė parduotuvė",
        "lat": 54.69415743699224,  
        "lng": 25.276610722754306,
-       "image": "cup.png",
        "text": "Jūs atėjote prie CUP'o. Bet parduotuvė uždaryta. Per vitriną jūs pamatėte laikrodį nuo sienos nukritusį ant žemės. Jis rodė laiką 10:51. Po minutės pradėjo rodyti 20:51.\n\nKokį laiką jis rodys dar po minutės?",
        "answer": ["15:03"],
-       "points": 4,
+       "points": 5,
        "attempts": 5,
-       "time": 4
+       "time": 4,
+       "hint": {
+        "image": "cup_hint.png",
+        "points": 2
+       }
     },
     {
         "id": "9",
@@ -128,8 +131,8 @@
         "lat": 54.69081365272571,    
         "lng": 25.27477371366788,
         "image": "children.png",
-        "text": "Jūs sutinkate berniuką Julių su draugų kompanija. Julius stovi krašte. Jei Onytė stovėtų šalia Renato, tai Marius stovėtų šalia savo bendravardžio. Kas yra kas?\n\nAtsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę).",
-        "answer": ["jrmom"],
+        "text": "Jūs sutinkate berniuką Julių su draugų kompanija. Julius stovi krašte. Jei Onytė stovėtų šalia geriausio Juliaus draugo, tai Renatas stovėtų šalia savo bendravardžio. Kas yra kas?\n\nAtsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę).",
+        "answer": ["jmror"],
         "points": 3,
         "attempts": 3,
         "time": 5
