@@ -62,14 +62,13 @@
     },
     "initialDiameter": 3500,
     "finalDiameter": 250,
-    "duration": 10,
+    "duration": 90,
     "active": true,
     "locked": false,
     "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką.",
-    "hints": 1,
+    "hints": 3,
     "start": "Pirma užduotis- Vaikų pasaulis",
     "finish": "Žydų kapinės",
-    "hinsts": 2,
     "checkLocation": false
   }
 ]
