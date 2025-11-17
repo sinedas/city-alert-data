@@ -180,6 +180,10 @@
        "hint": {
         "image": "cup_hint.png",
         "points": 2
+       },
+       "reward": {
+        "text": "Jūs gaunate sieninį kalendorių. Gal jis pravers?",
+        "image": "tigras.jpg"
        }
     },
     {
