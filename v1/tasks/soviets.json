@@ -173,8 +173,8 @@
     {
         "id": "110",
         "name": "Spaudos kioskas",
-        "lat": 54.69460006487408,      
-        "lng": 25.28907148345453,
+        "lat": 54.69237548522928,
+        "lng": 25.280446799393413,
         "text": "Jūs radote lapelį, kur surašytos sovietinės šventės ir vaikų gimtadieniai.\na) Juliaus gimtadienis\nb) Nauji metai,\nc) Spalio revoliucija,\nd) Mаriaus gimtadienis,\ne) Pergalės diena,\nf) Sovietinės kariuomenės diena,\ng) Tarptautinė darbo diena.\nSurikiuokite dienas pagal eilę kalendoriuje (irašykite raides).",
         "answer": ["bfgedac"],
         "points": 3,
