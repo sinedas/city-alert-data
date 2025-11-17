@@ -5,7 +5,7 @@
         "lat": 54.6871299384548, 
         "lng": 25.279237543339477, 
         "type": "team_name",
-        "text": "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.\nMašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate parduotuvėje „Vaikų pasaulis\", kur radote raštelį nuo Izaoko Goldšteino:\n„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į senasias žydų kapines, kur lauksiu jūsų.\nPirma užduotis, apsimeskite grupe iš sovietinės gamyklos ar kolūkio. Sugalvokite grupės pavadinimą. Jame turėtų būti žodis raudonas ar kitas sovietinis atributas.\n\nJūsų draugas Izaokas Goldšteinas.“",
+        "text": "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.\nMašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate parduotuvėje „Vaikų pasaulis\", kur radote raštelį nuo Izaoko Goldšteino:\n„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į senasias žydų kapines, kur lauksiu jūsų.\nPirma užduotis, apsimeskite kolektyvu iš kokios nors sovietinės organizacijos. Sugalvokite organizacijos pavadinimą.\n\nJūsų draugas Izaokas Goldšteinas.“",
         "answer": [],
         "points": 2,
         "attempts": 1,
@@ -63,23 +63,11 @@
         "attempts": 5,
         "time": 5,
         "reward": {
-            "text": "Eikite į profsajungos rūmus."
+            "text": "Eikite toliau P. Cvirkos gatve."
         }
     },
     {
         "id": "5",
-        "name": "Profsajungų rūmai",
-        "lat": 54.6852062308052,     
-        "lng": 25.26888653054785,
-        "image": "marks.png",
-        "text": "Julius su broliu Ignu atėjo į profsajungos rūmus, kur vyksta komunistų partijos veteranų susitikimas su jaunimu ir vaikais. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi Algiu, studentu Vytu ir komunistu veteranu Nikolajumi tokia tvarka:\nVYTAS, IGNAS, NIKOLAJUS, JULIUS, ALGIS.\nKiekvienas nešioja po ženkliuką. Surikiuokite ženkliukus pagal nešiojančių eilę (įrašykite ženkliuku raides).",
-        "answer": ["dceba"],
-        "points": 4,
-        "attempts": 3,
-        "time": 5
-    },
-    {
-        "id": "6",
         "name": "Lozungas",
         "lat": 54.68738064202568,     
         "lng": 25.269217158322057,
@@ -95,11 +83,26 @@
         }
     },
     {
+        "id": "6",
+        "name": "Profsajungų rūmai",
+        "lat": 54.6852062308052,     
+        "lng": 25.26888653054785,
+        "image": "marks.png",
+        "text": "Julius su broliu Ignu atėjo į profsajungos rūmus, kur vyksta komunistų partijos veteranų susitikimas su jaunimu ir vaikais. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi Algiu, studentu Vytu ir komunistu veteranu Nikolajumi tokia tvarka:\nVYTAS, IGNAS, NIKOLAJUS, JULIUS, ALGIS.\nKiekvienas nešioja po ženkliuką. Surikiuokite ženkliukus pagal nešiojančių eilę (įrašykite ženkliuku raides).",
+        "answer": ["dceba"],
+        "points": 4,
+        "attempts": 3,
+        "time": 5,
+        "reward": {
+            "text": "Eikite į Lenino aikštę."
+        }
+    },
+    {
         "id": "7",
         "name": "Lenino aištė",
         "lat": 54.68957496153824,     
         "lng": 25.270880824560535,
-        "text": "Lenino aiktėj jūs randate juodą dėžute su rašteliu:\n“Daiktas dėžutėje jums pravers. Šiame daikte prie mano pavardės raidžių skaičiaus pridėjus mano vardo raidžių skaičių, gausite šešis.\nKas tai per daiktas?\n\nJūsų draugas I.G..“",
+        "text": "Lenino aikštėje jūs randate juodą dėžute su rašteliu:\n“Daiktas dėžutėje jums pravers. Šiame daikte prie mano pavardės raidžių skaičiaus pridėjus mano vardo raidžių skaičių, gausite šešis.\nKas tai per daiktas?\n\nJūsų draugas I.G..“",
         "answer": ["laikrodis"],
         "points": 5,
         "attempts": 4,
@@ -115,18 +118,6 @@
     },
     {
         "id": "8",
-        "name": "Juliaus draugai",
-        "lat": 54.69081365272571,    
-        "lng": 25.27477371366788,
-        "image": "children.png",
-        "text": "Jūs sutinkate berniuką Julių su draugų kompanija. Julius stovi krašte. Jei Onytė stovėtų šalia geriausio Juliaus draugo, tai Renatas stovėtų šalia savo bendravardžio. Kas yra kas?\n\nAtsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę).",
-        "answer": ["jmror"],
-        "points": 4,
-        "attempts": 3,
-        "time": 5
-    },
-    {
-        "id": "9",
         "name": "Centrinis knygynas",
         "lat": 54.68747426097519,     
         "lng": 25.279149899861608,
@@ -136,6 +127,18 @@
         "points": 6,
         "attempts": 5,
         "time": 7
+    },
+    {
+        "id": "9",
+        "name": "Juliaus draugai",
+        "lat": 54.68710582412033,     
+        "lng": 25.28256590963746,
+        "image": "children.png",
+        "text": "Jūs sutinkate berniuką Julių su draugų kompanija. Julius stovi krašte. Jei Onytė stovėtų šalia geriausio Juliaus draugo, tai Renatas stovėtų šalia savo bendravardžio. Kas yra kas?\n\nAtsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę).",
+        "answer": ["jmror"],
+        "points": 4,
+        "attempts": 3,
+        "time": 5
     },
     {
         "id": "10",
@@ -149,11 +152,23 @@
         "attempts": 4,
         "time": 7,
         "reward": {
-            "text": "Laikraštis labai sulytas. Bet jus sugebate perskaityti kai ką labai naudingo:\n“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo. Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“\n\nEikite į Žalgirio stadioną per Žaliajį tiltą (Karaliaus Mindaugo tuo metu nebuvo), trumpam užsukite į CUP'ą (centrinę universalinę parduotuvę)."
+            "text": "Laikraštis labai sulytas. Bet jus sugebate perskaityti kai ką labai naudingo:\n“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo. Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“\n\nEikite į Žalgirio stadioną per Žaliajį tiltą, trumpam užsukite į CUP'ą (centrinę universalinę parduotuvę)."
         }
     },
     {
-       "id": "11",
+        "id": "11",
+        "name": "Žaliasis tiltas",
+        "lat": 54.691421015928526,      
+        "lng": 25.27987946683256,
+        "image": "monuments.jpg",
+        "text": "Jūs priėjote Žaliąjį tiltą, kuris buvo žymūs savo skulptūromis. Bet sovietinės skulptūros stovėjo ir kitose Vilniaus vietose. Surašykite kas kur stovėjo:\n 1.Kudirkos aištėje.\n2.Ant Žaliojo tilto.\n3.Petro Cvirkos aikštėje.\n4.Lukiškių aikštėje.",
+        "answer": ["dcba"],
+        "points": 4,
+        "attempts": 2,
+        "time": 4
+    },
+    {
+       "id": "12",
        "name": "Centrinė universalinė parduotuvė",
        "lat": 54.69415743699224,  
        "lng": 25.276610722754306,
@@ -166,17 +181,5 @@
         "image": "cup_hint.png",
         "points": 2
        }
-    },
-    {
-        "id": "12",
-        "name": "Žaliasis tiltas",
-        "lat": 54.691421015928526,      
-        "lng": 25.27987946683256,
-        "image": "monuments.jpg",
-        "text": "Jūs priėjote Žaliąjį tiltą, kuris buvo žymūs savo skulptūromis. Bet sovietinės skulptūros stovėjo ir kitose Vilniaus vietose. Surašykite kas kur stovėjo:\n 1.Kudirkos aištėje.\n2.Ant Žaliojo tilto.\n3.Petro Cvirkos aikštėje.\n4.Lukiškių aikštėje.",
-        "answer": ["dcba"],
-        "points": 4,
-        "attempts": 2,
-        "time": 4
     }
 ]
