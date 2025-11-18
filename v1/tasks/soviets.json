@@ -168,10 +168,14 @@
         "answer": ["dcba"],
         "points": 4,
         "attempts": 2,
-        "time": 4
+        "time": 4,
+        "reward": {
+            "text": "Prie jūsų prisijungia grupė pionierių su vėliavėlių emblemomis.",
+            "image": "flags.jpg"
+        }
     },
     {
-        "id": "110",
+        "id": "12",
         "name": "Spaudos kioskas",
         "lat": 54.69237548522928,
         "lng": 25.280446799393413,
@@ -186,7 +190,7 @@
         }
     },
     {
-       "id": "12",
+       "id": "13",
        "name": "Centrinė universalinė parduotuvė",
        "lat": 54.69415743699224,  
        "lng": 25.276610722754306,
@@ -201,13 +205,13 @@
        }
     },
     {
-        "id": "13",
+        "id": "14",
         "name": "Žalgirio stadionas",
         "lat": 54.69460006487408,      
         "lng": 25.28907148345453,
         "image": "zalgiris.jpg",
         "text": "Jūs atėjote į Žalgirio stadioną, švieslentėje švietė vakarykščių varžybų rezultatas. Tik įdomu, ką jis galėtų reikšti.",
-        "answer": ["5:3"],
+        "answer": ["6:3"],
         "points": 3,
         "attempts": 5,
         "time": 5,
@@ -217,6 +221,41 @@
         },
         "reward": {
             "text": "O dabar eikite į Pionierių rūmus Pionierių gatvėje. Eikite per pontoninį tiltą, dabartinio Mindaugo tilto vietoje."
+        }
+    },
+    {
+        "id": "15",
+        "name": "Pionierių rūmai",
+        "lat": 54.687117040653064, 
+        "lng": 25.289704062144757,
+        "image": "herbs.png",
+        "text": "Pionierių rūmuose vyksta SSSR respublikų pionierių suvažiavimas. Suvažiavimo salėje yra stalai su simboliais. Susodinkite pionierius į savo vietas. Įrašykite raides.",
+        "answer": ["fdbeca"],
+        "points": 3,
+        "attempts": 3,
+        "time": 5,
+        "hint": {
+            "text": "[href=\"https://lt.wikipedia.org/wiki/Taryb%C5%B3_S%C4%85jungos_respublikos\"]TSRS respublikos[/href]",
+            "points": 2
+        },  
+        "reward": {
+            "text": "Eikite į žydų kapines."
+        }
+    },
+    {
+        "id": "16",
+        "name": "Žydų kapines",
+        "lat": 54.69042368388208,    
+        "lng": 25.292940189993235,
+        "image": "herbs.png",
+        "text": "Žydų kapinėse jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.\nKad galėtų jūsų gražinti, Izaokas turi įvesti tikslią data ir laiką, kuriame esate dabar. Laiką rodo laikrodis iš paslaptingos juodos dėžutės. Data ir laiką įrašykite formatu:\n\nyyyy-MM-dd hh:mm:ss .",
+        "answer": ["1974-06-04 16:50:00"],
+        "points": 12,
+        "attempts": 7,
+        "time": 12,
+        "hint": {
+            "text": "Dieną jūs jau sužinojote. Kad atspėti metus jūs gavote ne vieną užuominą:\n   tigras каlendoriuje,\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nNa o laiką apskaičiuokite patys.",
+            "points": 5
         }
     }
 ]
