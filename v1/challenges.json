@@ -68,7 +68,7 @@
     "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką.",
     "hints": 3,
     "start": "Pirma užduotis- Vaikų pasaulis",
-    "finish": "Žydų kapinės",
+    "finish": "Žydų kapinės\nAtlikę užduotį gausite nurodymą kitai užduočiai. Užduotis atlikite nurodyta tvarka.",
     "checkLocation": false
   }
 ]
