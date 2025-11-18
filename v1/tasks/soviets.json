@@ -244,7 +244,7 @@
     },
     {
         "id": "16",
-        "name": "Žydų kapines",
+        "name": "Žydų kapinės",
         "lat": 54.69042368388208,    
         "lng": 25.292940189993235,
         "text": "Žydų kapinėse jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.\n\nKad galėtų jūsų gražinti, Izaokas turi įvesti tikslią data ir laiką, kuriame esate dabar. Laiką rodo laikrodis iš paslaptingos juodos dėžutės. Data ir laiką įrašykite formatu:\n\nyyyy-MM-dd hh:mm:ss .",
@@ -253,7 +253,7 @@
         "attempts": 7,
         "time": 12,
         "hint": {
-            "text": "Dieną jūs jau sužinojote. Kad atspėti metus jūs gavote ne vieną užuominą:\n   tigras каlendoriuje,\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nNa o laiką apskaičiuokite patys.",
+            "text": "Dieną jūs jau sužinojote. Atspėti metus jūs gavote ne vieną užuominą:\n\n   Tigras kаlendoriuje,\n\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nNa o laiką apskaičiuokite patys.",
             "points": 5
         }
     }
