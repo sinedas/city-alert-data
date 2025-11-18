@@ -149,7 +149,7 @@
         "lat": 54.68588089749477,      
         "lng": 25.286420244189877,
         "image": "words.png",
-        "text": "Gedimino aikštėje jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo. Atspėti padės šis kryžiažodis. Kaip sovietiniais laikais vadinosi šios gatvės?\n1. Daukanto aikštė.\n2. Goštauto.\n3. Šventaragio.\n4. Gedimino prospektas.\n5. Juozapavičiaus.\n6. Pelesos.\n7. Kalvarijų.\n8. Kaštonų.",
+        "text": "Gedimino aikštėje jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo. Atspėti padės šis kryžiažodis. Kaip anuomet vadinosi šios gatvės?\n1. Daukanto aikštė.\n2. Goštauto.\n3. Šventaragio.\n4. Gedimino prospektas.\n5. Juozapavičiaus.\n6. Pelesos.\n7. Kalvarijų.\n8. Kaštonų.",
         "answer": ["Komjaunimo tiesa"],
         "points": 5,
         "attempts": 4,
@@ -179,7 +179,7 @@
         "name": "Spaudos kioskas",
         "lat": 54.69237548522928,
         "lng": 25.280446799393413,
-        "text": "Jūs radote lapelį, kur surašytos sovietinės šventės ir vaikų gimtadieniai.\na) Juliaus gimtadienis\nb) Nauji metai,\nc) Spalio revoliucija,\nd) Mаriaus gimtadienis,\ne) Pergalės diena,\nf) Sovietinės kariuomenės diena,\ng) Tarptautinė darbo diena.\nSurikiuokite dienas pagal eilę kalendoriuje (irašykite raides).",
+        "text": "Jūs radote lapelį, kur surašytos šventinės dienos ir vaikų gimtadieniai.\n\na) Juliaus gimtadienis\nb) Nauji metai,\nc) Spalio revoliucija,\nd) Mаriaus gimtadienis,\ne) Pergalės diena,\nf) Sovietinės kariuomenės diena,\ng) Tarptautinė darbo diena.\n\nSurikiuokite dienas pagal eilę kalendoriuje (irašykite raides).",
         "answer": ["bfgedac"],
         "points": 3,
         "attempts": 4,
@@ -231,7 +231,7 @@
         "image": "herbs.png",
         "text": "Pionierių rūmuose vyksta SSSR respublikų pionierių suvažiavimas. Suvažiavimo salėje yra stalai su simboliais. Susodinkite pionierius į savo vietas. Įrašykite raides.",
         "answer": ["fdbeca"],
-        "points": 3,
+        "points": 4,
         "attempts": 3,
         "time": 6,
         "hint": {
@@ -244,7 +244,7 @@
     },
     {
         "id": "16",
-        "name": "Žydų kapinės",
+        "name": "Paskutinė užduotis- Žydų kapinės",
         "lat": 54.69042368388208,    
         "lng": 25.292940189993235,
         "text": "Žydų kapinėse jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.\n\nKad galėtų jūsų gražinti, Izaokas turi įvesti tikslią data ir laiką, kuriame esate dabar. Laiką rodo laikrodis iš paslaptingos juodos dėžutės. Data ir laiką įrašykite formatu:\n\nyyyy-MM-dd hh:mm:ss .",
@@ -255,6 +255,10 @@
         "hint": {
             "text": "Dieną jūs jau sužinojote. Atspėti metus jūs gavote ne vieną užuominą:\n\n   Tigras kаlendoriuje,\n\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nNa o laiką apskaičiuokite patys.",
             "points": 5
+        },
+        "reward": {
+            "text": "Jūs grįžtate į nepriklausomą Lietuvą.",
+            "image": "lithuania.png"
         }
     }
 ]
