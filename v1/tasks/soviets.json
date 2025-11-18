@@ -171,7 +171,7 @@
         "time": 4,
         "reward": {
             "text": "Prie jūsų prisijungia grupė pionierių su vėliavėlių emblemomis.",
-            "image": "flags.jpg"
+            "image": "flags.png"
         }
     },
     {
@@ -228,12 +228,11 @@
         "name": "Pionierių rūmai",
         "lat": 54.687117040653064, 
         "lng": 25.289704062144757,
-        "image": "herbs.png",
         "text": "Pionierių rūmuose vyksta SSSR respublikų pionierių suvažiavimas. Suvažiavimo salėje yra stalai su simboliais. Susodinkite pionierius į savo vietas. Įrašykite raides.",
         "answer": ["fdbeca"],
         "points": 3,
         "attempts": 3,
-        "time": 5,
+        "time": 6,
         "hint": {
             "text": "[href=\"https://lt.wikipedia.org/wiki/Taryb%C5%B3_S%C4%85jungos_respublikos\"]TSRS respublikos[/href]",
             "points": 2
@@ -248,7 +247,7 @@
         "lat": 54.69042368388208,    
         "lng": 25.292940189993235,
         "image": "herbs.png",
-        "text": "Žydų kapinėse jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.\nKad galėtų jūsų gražinti, Izaokas turi įvesti tikslią data ir laiką, kuriame esate dabar. Laiką rodo laikrodis iš paslaptingos juodos dėžutės. Data ir laiką įrašykite formatu:\n\nyyyy-MM-dd hh:mm:ss .",
+        "text": "Žydų kapinėse jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.\n\nKad galėtų jūsų gražinti, Izaokas turi įvesti tikslią data ir laiką, kuriame esate dabar. Laiką rodo laikrodis iš paslaptingos juodos dėžutės. Data ir laiką įrašykite formatu:\n\nyyyy-MM-dd hh:mm:ss .",
         "answer": ["1974-06-04 16:50:00"],
         "points": 12,
         "attempts": 7,
