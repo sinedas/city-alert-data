@@ -60,9 +60,9 @@
       "lat": 54.69079963514012, 
       "lng": 25.290875962339644
     },
-    "initialDiameter": 3500,
+    "initialDiameter": 4500,
     "finalDiameter": 250,
-    "duration": 90,
+    "duration": 9,
     "active": true,
     "locked": false,
     "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką.",
