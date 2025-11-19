@@ -80,6 +80,7 @@
         "points": 5,
         "attempts": 4,
         "time": 6,
+        "dependency": ["1", "2"],
         "hint": {
             "image": "proletars_hint.png",
             "points": 2
@@ -96,6 +97,7 @@
         "points": 4,
         "attempts": 3,
         "time": 5,
+        "dependency": ["1", "2"],
         "reward": {
             "text": "Eikite į Lenino aikštę."
         }
@@ -110,6 +112,7 @@
         "points": 5,
         "attempts": 4,
         "time": 5,
+        "dependency": ["1", "2"],
         "hint": {
             "text": "Daiktas, kuriame 11+7=6. Šį daiktą dažnai nešiojate ant rankos.",
             "points": 2
@@ -129,7 +132,8 @@
         "answer": ["Timūras ir jo draugai"],
         "points": 6,
         "attempts": 5,
-        "time": 7
+        "time": 7,
+        "dependency": ["1", "2"]
     },
     {
         "id": "9",
@@ -142,6 +146,7 @@
         "points": 4,
         "attempts": 3,
         "time": 5,
+        "dependency": ["1", "2", "3"],
         "reward": {
             "text": "Jūs pakalbėjote su Juliumi ir jo draugais. Sužinojote, kad Juliaus gimtadienis yra spalio 28-ą, Marius gimė dviem savaitėm anksčiau."
         }
@@ -157,6 +162,7 @@
         "points": 5,
         "attempts": 4,
         "time": 7,
+        "dependency": ["1", "2"],
         "reward": {
             "text": "Laikraštis labai sulytas. Bet jus sugebate perskaityti kai ką labai naudingo:\n“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo. Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“\n\nEikite į Žalgirio stadioną per Žaliajį tiltą, trumpam užsukite į CUP'ą (centrinę universalinę parduotuvę)."
         }
@@ -172,6 +178,7 @@
         "points": 4,
         "attempts": 2,
         "time": 4,
+        "dependency": ["1", "2", "10"],
         "reward": {
             "text": "Prie jūsų prisijungia grupė pionierių su vėliavėlių emblemomis.",
             "image": "flags.png"
@@ -187,6 +194,7 @@
         "points": 3,
         "attempts": 4,
         "time": 5,
+        "dependency": ["1", "2"],
         "reward": {
             "text": "Jūs gaunate sieninį kalendorių. Gal jis pravers?",
             "image": "tigras.jpg"
@@ -202,6 +210,7 @@
        "points": 5,
        "attempts": 5,
        "time": 4,
+       "dependency": ["1", "2", "10"],
        "hint": {
         "image": "cup_hint.png",
         "points": 2
@@ -218,6 +227,7 @@
         "points": 3,
         "attempts": 5,
         "time": 5,
+        "dependency": ["1", "2", "10"],
         "hint": {
             "text": "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]",
             "points": 1
@@ -237,6 +247,7 @@
         "points": 4,
         "attempts": 3,
         "time": 6,
+        "dependency": ["1", "2", "11"],
         "hint": {
             "text": "[href=\"https://lt.wikipedia.org/wiki/Taryb%C5%B3_S%C4%85jungos_respublikos\"]TSRS respublikos[/href]",
             "points": 2
@@ -255,6 +266,7 @@
         "points": 12,
         "attempts": 7,
         "time": 12,
+        "dependency": ["1", "2", "7", "13", "14", "15"],
         "hint": {
             "text": "Dieną jūs jau sužinojote. Atspėti metus jūs gavote ne vieną užuominą:\n\n   Tigras kаlendoriuje,\n\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nNa o laiką apskaičiuokite patys.",
             "points": 5

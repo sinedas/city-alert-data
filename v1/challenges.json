@@ -62,7 +62,7 @@
     },
     "initialDiameter": 4500,
     "finalDiameter": 250,
-    "duration": 9,
+    "duration": 90,
     "active": true,
     "locked": false,
     "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką.",
