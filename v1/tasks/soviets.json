@@ -128,7 +128,7 @@
         "lat": 54.68747426097519,     
         "lng": 25.279149899861608,
         "image": "timuras.png",
-        "text": "Sudėliokite dėlionę ir sužinokite pavadinimą.",
+        "text": "Sudėliokite dėlionę ir sužinokite knygos pavadinimą.",
         "answer": ["Timūras ir jo draugai"],
         "points": 6,
         "attempts": 5,
@@ -157,7 +157,7 @@
         "lat": 54.68588089749477,      
         "lng": 25.286420244189877,
         "image": "streets.png",
-        "text": "Gedimino aikštėje jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo.\nKOKS LAIKRAŠČIO PAVADINIMAS?\nAtspėti padės šis kryžiažodis.\nKоkia gatvė dabar yra?\n1. Dzeržinskio gatvė\n2. Poželos\nKaip anuomet vadinosi šios gatvės?\n3. Šventaragio.\n4. Gedimino prospektas.\n5. Vokiečių.\n6. Pelesos.\n7. Juocapavičiaus.\n8. Kaštonų.",
+        "text": "Gedimino aikštėje jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo.KOKS LAIKRAŠČIO PAVADINIMAS?Atspėti padės šis kryžiažodis.\nKоkia gatvė dabar yra?\n1. Dzeržinskio gatvė\n2. Poželos\nKaip anuomet vadinosi šios gatvės?\n3. Šventaragio.\n4. Gedimino prospektas.\n5. Vokiečių.\n6. Pelesos.\n7. Juocapavičiaus.\n8. Kaštonų.",
         "answer": ["Komjaunimo tiesa"],
         "points": 5,
         "attempts": 4,
@@ -193,7 +193,7 @@
         "answer": ["bfgedac"],
         "points": 3,
         "attempts": 4,
-        "time": 5,
+        "time": 6,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
         "reward": {
             "text": "Jūs gaunate sieninį kalendorių. Gal jis pravers?",
@@ -271,7 +271,7 @@
         "time": 12,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
         "hint": {
-            "text": "Atspėti dieną padės žinojimas, kad varžybos baigėsi varkar. Atspėti metus jūs gavote ne vieną užuominą:\n\n   Tigras kаlendoriuje,\n\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nLaiką rodo laikrodis juodoje dėžutėje. Minutės ir sekundės tikslus skaičius. Valanda ne. Na o laiką apskaičiuokite patys.",
+            "text": "Atspėti dieną padės žinojimas, kad varžybos baigėsi vakar. Atspėti metus jūs gavote ne vieną užuominą:\n\n   Tigras kаlendoriuje,\n\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nLaiką rodo laikrodis juodoje dėžutėje. Minutės ir sekundės tikslus skaičius. Valanda ne. Tai koks tas laikas?.",
             "points": 5
         },
         "reward": {
