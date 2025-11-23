@@ -9,7 +9,11 @@
         "answer": ["Gediminas"],
         "points": 3,
         "attempts": 3,
-        "time": 0.1
+        "time": 0.1,
+        "hint": {
+            "text": "Gedimino Tower is a symbol of Vilnius. It was built in the 14th century and was part of the Upper Castle. What is the name of the legendary Grand Duke who is said to have founded Vilnius after dreaming of an iron wolf?",
+            "points": 1
+        }
     },
     {
         "id": "2",
