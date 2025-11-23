@@ -23,7 +23,7 @@
         "answer": ["Baptistas"],
         "points": 6,
         "attempts": 3,
-        "time": 6,
+        "time": 7,
         "dependency": ["1"],
         "hint": {
             "text": "Jūs esate sovietiniame laike. Kiek Vokietijų buvo tuo metu? Kokių valstybių nebuvo? Kurios šiuolaikinės šalys įėjo į TSRS, Čekoslovakijos ir Jugoslavijos sudėtį?",
@@ -44,8 +44,8 @@
         "answer": ["Pergalė"],
         "points": 6,
         "attempts": 3,
-        "time": 7,
-        "dependency": ["1"],
+        "time": 10,
+        "dependency": ["1", "2"],
         "hint": {
             "image": "julius_hint.png"
         },        
@@ -64,7 +64,7 @@
         "points": 5,
         "attempts": 5,
         "time": 5,
-        "dependency": ["1", "2"],
+        "dependency": ["1", "2", "3"],
         "reward": {
             "text": "Eikite toliau P. Cvirkos gatve."
         }
@@ -80,7 +80,7 @@
         "points": 5,
         "attempts": 4,
         "time": 6,
-        "dependency": ["1", "2"],
+        "dependency": ["1", "2", "3", "4"],
         "hint": {
             "image": "proletars_hint.png",
             "points": 2
@@ -96,8 +96,8 @@
         "answer": ["dceba"],
         "points": 4,
         "attempts": 3,
-        "time": 5,
-        "dependency": ["1", "2"],
+        "time": 6,
+        "dependency": ["1", "2", "3", "4", "5"],
         "reward": {
             "text": "Eikite į Lenino aikštę."
         }
@@ -107,12 +107,12 @@
         "name": "Lenino aištė",
         "lat": 54.68957496153824,     
         "lng": 25.270880824560535,
-        "text": "Lenino aikštėje jūs randate juodą dėžute su rašteliu:\n“Daiktas dėžutėje jums pravers. Šiame daikte prie mano pavardės raidžių skaičiaus pridėjus mano vardo raidžių skaičių, gausite šešis.\nKas tai per daiktas?\n\nJūsų draugas I.G..“",
+        "text": "Lenino aikštėje jūsų draugas žydų profesorius paliko jums juodą dėžute su rašteliu:\n“Daiktas dėžutėje jums pravers. Šiame daikte prie mano pavardės raidžių skaičiaus pridėjus mano vardo raidžių skaičių, gausite šešis.\nKas tai per daiktas?\n\nJūsų draugas I.G..“",
         "answer": ["Laikrodis"],
         "points": 5,
         "attempts": 4,
         "time": 5,
-        "dependency": ["1", "2"],
+        "dependency": ["1", "2", "3", "4", "5", "6"],
         "hint": {
             "text": "Daiktas, kuriame 11+7=6. Šį daiktą dažnai nešiojate ant rankos.",
             "points": 2
@@ -132,8 +132,8 @@
         "answer": ["Timūras ir jo draugai"],
         "points": 6,
         "attempts": 5,
-        "time": 7,
-        "dependency": ["1", "2"]
+        "time": 8,
+        "dependency": ["1", "2", "3", "4", "5", "6", "7"]
     },
     {
         "id": "9",
@@ -145,8 +145,8 @@
         "answer": ["jmror"],
         "points": 4,
         "attempts": 3,
-        "time": 5,
-        "dependency": ["1", "2", "3"],
+        "time": 6,
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8"],
         "reward": {
             "text": "Jūs pakalbėjote su Juliumi ir jo draugais. Sužinojote, kad Juliaus gimtadienis yra spalio 28-ą, Marius gimė dviem savaitėm anksčiau."
         }
@@ -157,12 +157,12 @@
         "lat": 54.68588089749477,      
         "lng": 25.286420244189877,
         "image": "streets.png",
-        "text": "Gedimino aikštėje jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo. Atspėti padės šis kryžiažodis.\nKоkia gatvė dabar yra?\n1. Dzeržinskio gatvė\n2. Poželos\nKaip anuomet vadinosi šios gatvės?\n3. Šventaragio.\n4. Gedimino prospektas.\n5. Vokiečių.\n6. Pelesos.\n7. Juocapavičiaus.\n8. Kaštonų.",
+        "text": "Gedimino aikštėje jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo.\nKOKS LAIKRAŠČIO PAVADINIMAS?\nAtspėti padės šis kryžiažodis.\nKоkia gatvė dabar yra?\n1. Dzeržinskio gatvė\n2. Poželos\nKaip anuomet vadinosi šios gatvės?\n3. Šventaragio.\n4. Gedimino prospektas.\n5. Vokiečių.\n6. Pelesos.\n7. Juocapavičiaus.\n8. Kaštonų.",
         "answer": ["Komjaunimo tiesa"],
         "points": 5,
         "attempts": 4,
         "time": 7,
-        "dependency": ["1", "2"],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
         "reward": {
             "text": "Laikraštis labai sulytas. Bet jus sugebate perskaityti kai ką labai naudingo:\n“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo. Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“\n\nEikite į Žalgirio stadioną per Žaliajį tiltą, trumpam užsukite į CUP'ą (centrinę universalinę parduotuvę)."
         }
@@ -178,7 +178,7 @@
         "points": 4,
         "attempts": 2,
         "time": 4,
-        "dependency": ["1", "2", "10"],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
         "reward": {
             "text": "Prie jūsų prisijungia grupė pionierių su vėliavėlių emblemomis.",
             "image": "flags.png"
@@ -194,7 +194,7 @@
         "points": 3,
         "attempts": 4,
         "time": 5,
-        "dependency": ["1", "2"],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
         "reward": {
             "text": "Jūs gaunate sieninį kalendorių. Gal jis pravers?",
             "image": "tigras.jpg"
@@ -210,10 +210,13 @@
        "points": 5,
        "attempts": 5,
        "time": 4,
-       "dependency": ["1", "2", "10"],
+       "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
        "hint": {
         "image": "cup_hint.png",
         "points": 2
+       },
+       "reward": {
+        "text": "Jūs gaunate informaciją apie CUP. Gal ji pravers?\n\n[href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href]"
        }
     },
     {
@@ -227,13 +230,13 @@
         "points": 3,
         "attempts": 5,
         "time": 5,
-        "dependency": ["1", "2", "10"],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"],
         "hint": {
             "text": "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]",
             "points": 1
         },
         "reward": {
-            "text": "O dabar eikite į Pionierių rūmus Pionierių gatvėje. Eikite per pontoninį tiltą, dabartinio Mindaugo tilto vietoje."
+            "text": "O dabar eikite į Pionierių rūmus Pionierių gatvėje. Eikite per pontoninį tiltą, dabartinio Mindaugo tilto vietoje.\nBeje, šiek tiek info apie jį:\n[href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href]"
         }
     },
     {
@@ -247,7 +250,7 @@
         "points": 4,
         "attempts": 3,
         "time": 6,
-        "dependency": ["1", "2", "11"],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"],
         "hint": {
             "text": "[href=\"https://lt.wikipedia.org/wiki/Taryb%C5%B3_S%C4%85jungos_respublikos\"]TSRS respublikos[/href]",
             "points": 2
@@ -266,9 +269,9 @@
         "points": 12,
         "attempts": 7,
         "time": 12,
-        "dependency": ["1", "2", "7", "13", "14", "15"],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
         "hint": {
-            "text": "Dieną jūs jau sužinojote. Atspėti metus jūs gavote ne vieną užuominą:\n\n   Tigras kаlendoriuje,\n\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nNa o laiką apskaičiuokite patys.",
+            "text": "Atspėti dieną padės žinojimas, kad varžybos baigėsi varkar. Atspėti metus jūs gavote ne vieną užuominą:\n\n   Tigras kаlendoriuje,\n\n   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],\n\n   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .\n\nLaiką rodo laikrodis juodoje dėžutėje. Minutės ir sekundės tikslus skaičius. Valanda ne. Na o laiką apskaičiuokite patys.",
             "points": 5
         },
         "reward": {
