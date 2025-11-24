@@ -12,7 +12,8 @@
         "time": 5,
         "reward": {
             "text": "O dabar eikite į Vilniaus gatvę ir raskite paslaptingą lagaminą."
-        }
+        },
+        "nextTaskId": "2"
     },
     {  
         "id": "2",
@@ -32,7 +33,8 @@
         "reward": {
             "text": "Jūs gaunate žemėlapį. \n [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].\n Jis padės jums atlikti kitas užduotis.\n Eikite į toliau ir pasukite J. Karoso gatvę.",
             "image": "map.webp"
-        }
+        },
+        "nextTaskId": "3"
     },
     {
         "id": "3",
