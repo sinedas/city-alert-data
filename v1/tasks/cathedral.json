@@ -25,7 +25,11 @@
         "answer": ["Stebuklas"],
         "points": 3,
         "attempts": 2,
-        "time": 0.25
+        "time": 0.25,
+        "hint": {
+            "text": "Cathedral Square is a famous square in Vilnius. It is known for its famous tile that locals believe brings good luck. According to legend, if you stand on this tile and make a wish while turning around three times, your wish will come true. What is this tile commonly called?",
+            "points": 1
+        }
     },
     {
         "id": "3",

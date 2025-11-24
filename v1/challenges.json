@@ -50,7 +50,7 @@
     "description": "Išspręskite Vilniaus katedros paslaptis ir atraskite lobį",
     "start": "Kudirkos aikštė",
     "finish": "Katedra",
-    "hints": 1,
+    "hints": 2,
     "checkLocation": false
   },
   {
