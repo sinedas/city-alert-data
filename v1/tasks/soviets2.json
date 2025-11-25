@@ -39,13 +39,13 @@
     {
         "id": "3",
         "name": "Juliaus laiškas",
-        "lat": 54.67938142191038, 
-        "lng": 25.28828666785653,
+        "lat": 54.6841549218278,  
+        "lng": 25.27813934543183,
         "text": "Pionierius Julius pametė laiškelį parašytą savo geriausiam draugui. Pats to nežinodamas Julius sugalvojo šriftą naudojamą dar Julijaus Cezario laikais. Berniukas naudojo neigiamą dviejų raidžių žingsnį. \n\nPerskaitykite Juliaus laišką. Kuriame kinoteatre jis laukia savo draugo? Atsakyme įrašykite kinoteatro pavadinimą.\n",
         "image": "julius.png",
         "answer": ["Spalis"],
         "points": 6,
-        "attempts": 
+        "attempts": 3,
         "time": 10,
         "dependency": ["1", "2"],
         "hint": {
@@ -59,8 +59,8 @@
     {
         "id": "4",
         "name": "Kinoteatras",
-        "lat": 54.686212098541745, 
-        "lng": 25.275113220466167,
+        "lat": 54.67938142191038, 
+        "lng": 25.28828666785653,
         "text": "Jūs atėjote į kinoteatrą. Kokį filmą Julius ir draugai atėjo pažiūrėti? Atsakymai į šiuos klausimus padės sužinoti filmo pavadinimą.\n\n1. Kinoteatro Lietuva numeris žemėlapyje (Komjaunimo gatvė).\n\n2. Gatvė į kurią atsiremią Liepkalnio gatvė.\n\n3. Rusiška raidė „ i “.\n\n4. Naminis gyvūnas.",
         "answer": ["4 tankistai ir šuo", "Keturi tankistai ir šuo"],
         "points": 5,
