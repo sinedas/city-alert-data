@@ -47,10 +47,28 @@
     "duration": 2,
     "active": true,
     "locked": false,
-    "description": "Išspręskite Vilniaus katedros paslaptis ir atraskite lobį",
+    "description": "Vilniaus katedros paslaptys ir paslėptas lobis",
     "start": "Kudirkos aikštė",
     "finish": "Katedra",
     "hints": 2,
+    "checkLocation": false
+  },
+  {
+    "code": "soviets2",
+    "title": "Žydų kapinės ir sovietiniai monstrai (Version 2)",
+    "location": {
+      "lat": 54.69079963514012, 
+      "lng": 25.290875962339644
+    },
+    "initialDiameter": 9000,
+    "finalDiameter": 1000,
+    "duration": 120,
+    "active": true,
+    "locked": false,
+    "description": "Atnaujinta versija. Laiko mašina grįžkite į sovietinį laiką.",
+    "hints": 7,
+    "start": "Pirma užduotis- Vaikų pasaulis",
+    "finish": "Žydų kapinės\nAtlikę užduotį gausite nurodymą kitai užduočiai. Užduotis atlikite nurodyta tvarka.",
     "checkLocation": false
   },
   {
@@ -65,7 +83,7 @@
     "duration": 120,
     "active": true,
     "locked": false,
-    "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grižkite į sovietinį laiką.",
+    "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grįžkite į sovietinį laiką.",
     "hints": 7,
     "start": "Pirma užduotis- Vaikų pasaulis",
     "finish": "Žydų kapinės\nAtlikę užduotį gausite nurodymą kitai užduočiai. Užduotis atlikite nurodyta tvarka.",
