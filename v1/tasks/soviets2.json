@@ -39,20 +39,20 @@
     {
         "id": "3",
         "name": "Juliaus laiškas",
-        "lat": 54.6841549218278,  
-        "lng": 25.27813934543183,
-        "text": "Pionierius Julius skubėdamas pametė laišką. Pats to nežinodamas Julius sugalvojo šriftą naudojamą dar Julijaus Cezario laikais. Berniukas naudojo trijų raidžių žingsnį. \n\nPerskaitykite Juliaus laišką. Kuriame kinoteatre jis laukia savo draugo? Atsakyme įrašykite kinoteatro pavadinimą.\n",
+        "lat": 54.67938142191038, 
+        "lng": 25.28828666785653,
+        "text": "Pionierius Julius pametė laiškelį parašytą savo geriausiam draugui. Pats to nežinodamas Julius sugalvojo šriftą naudojamą dar Julijaus Cezario laikais. Berniukas naudojo neigiamą dviejų raidžių žingsnį. \n\nPerskaitykite Juliaus laišką. Kuriame kinoteatre jis laukia savo draugo? Atsakyme įrašykite kinoteatro pavadinimą.\n",
         "image": "julius.png",
-        "answer": ["Pergalė"],
+        "answer": ["Spalis"],
         "points": 6,
-        "attempts": 3,
+        "attempts": 
         "time": 10,
         "dependency": ["1", "2"],
         "hint": {
             "image": "julius_hint.png"
         },        
         "reward": {
-            "text": "Eikitе į kinoteatrą Pergalė P. Cvirkos gatvėje.\n\nLaišką pasiimkite su savimi.",
+            "text": "Apsisukite ir eikite Vilniaus gatve, tuomet Giedrio (dabar Šv.Ignoto), Antokolskio (Siklių) į kinoteatrą Spalis Didžiojoje gatvėje.\n\nLaišką pasiimkite su savimi.",
             "image": "julius.png"
         }
     },
