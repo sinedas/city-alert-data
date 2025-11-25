@@ -52,23 +52,23 @@
             "image": "julius_hint.png"
         },        
         "reward": {
-            "text": "Apsisukite ir eikite Vilniaus gatve, tuomet Giedrio (dabar Šv.Ignoto), Antokolskio (Siklių) į kinoteatrą Spalis Didžiojoje gatvėje.\n\nLaišką pasiimkite su savimi.",
+            "text": "Apsisukite ir eikite Vilniaus gatve, tuomet Giedrio (dabar Šv.Ignoto), Antokolskio (Stiklių) į kinoteatrą Spalis Didžiojoje gatvėje.\n\nLaišką pasiimkite su savimi.",
             "image": "julius.png"
         }
     },
     {
         "id": "4",
         "name": "Kinoteatras",
-        "lat": 54.67938142191038, 
-        "lng": 25.28828666785653,
-        "text": "Jūs atėjote į kinoteatrą. Kokį filmą Julius ir draugai atėjo pažiūrėti? Atsakymai į šiuos klausimus padės sužinoti filmo pavadinimą.\n\n1. Kinoteatro Lietuva numeris žemėlapyje (Komjaunimo gatvė).\n\n2. Gatvė į kurią atsiremią Liepkalnio gatvė.\n\n3. Rusiška raidė „ i “.\n\n4. Naminis gyvūnas.",
-        "answer": ["4 tankistai ir šuo", "Keturi tankistai ir šuo"],
+        "lat": 54.679384830822855, 
+        "lng": 25.28826013482359,
+        "text": "Jūs atėjote į kinoteatrą, kur Julius susitiko su draugu. Kokį filmą jie atėjo pažiūrėti?  Įrašyk į [] vietas atsakymus į klausimą ir sužinosi pavadinimą.\n[1][2]i iš [3]о [4]о\n1. Žemaitė sėdi ir žiūri į kavinę kitoje Lenino prospekto pusėje. Kavinės numeris žemėlapyje.\n2. Spirk su ...\n3. Kinoteatro Pergalė P. Cvirkos gatvėje numeris.\n4. Žemo antonimas.\n\n[href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].",
+        "answer": ["Aštuonkojai iš antro aukšto", "Aštunkojai iš antro aukšto"],
         "points": 5,
         "attempts": 5,
         "time": 5,
         "dependency": ["1", "2", "3"],
         "reward": {
-            "text": "Eikite toliau P. Cvirkos gatve."
+            "text": "Grįžkite atgal ir eikitę P. Cvirkos gatve (Pamėnkalnio) kur rasite užduotį Lozungas."
         }
     },
     {
