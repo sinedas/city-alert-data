@@ -10,10 +10,10 @@
         "points": 2,
         "attempts": 1,
         "time": 5,
+        "nextTaskId": "2",
         "reward": {
             "text": "O dabar eikite žemyn Vilniaus gatve. Izaokas Goldšteinas ten paliko jums lagaminą."
-        },
-        "nextTaskId": "2"
+        }
     },
     {  
         "id": "2",
@@ -26,6 +26,7 @@
         "attempts": 3,
         "time": 7,
         "dependency": ["1"],
+        "nextTaskId": "3",
         "hint": {
             "text": "Jūs esate sovietiniame laike. Kiek Vokietijų buvo tuo metu? Kokių valstybių nebuvo? Kurios šiuolaikinės šalys įėjo į TSRS, Čekoslovakijos ir Jugoslavijos sudėtį?",
             "points": 2
@@ -33,8 +34,7 @@
         "reward": {
             "text": "Izaokas Goldšteinas lagamine paslėpė žemėlapį. \n [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].\n Jis padės jums atlikti kitas užduotis.\n Eikite toliau, pasukite į dešinę, į J. Karoso gatvę (Islandijos gatvė šiais laikais).",
             "image": "map.webp"
-        },
-        "nextTaskId": "3"
+        }
     },
     {
         "id": "3",
@@ -48,6 +48,7 @@
         "attempts": 3,
         "time": 10,
         "dependency": ["1", "2"],
+        "nextTaskId": "4",
         "hint": {
             "image": "julius_hint.png"
         },        
@@ -67,6 +68,7 @@
         "attempts": 5,
         "time": 5,
         "dependency": ["1", "2", "3"],
+        "nextTaskId": "5",
         "reward": {
             "text": "Grįžkite atgal ir eikitę P. Cvirkos gatve (Pamėnkalnio) kur rasite užduotį Lozungas."
         }
@@ -83,6 +85,7 @@
         "attempts": 4,
         "time": 6,
         "dependency": ["1", "2", "3", "4"],
+        "nextTaskId": "6",
         "hint": {
             "image": "proletars_hint.png",
             "points": 2
@@ -99,10 +102,11 @@
         "points": 5,
         "attempts": 3,
         "time": 6,
-        "dependency": [],
+        "dependency": ["1", "2", "3", "4", "5"],
+        "nextTaskId": "7",
         "reward": {
             "image": "coffee.jpg",
-            "text": "Jūs gaunate KAVOS dėžutę, paliktą jums Izaoko Goldšteino. Kava buvo didelis deficitinė prekė tuo metu ir jos nebuvo galima įsigyti parduotuvėse.Eikite į Lenino aikštę."
+            "text": "Jūs gaunate KAVOS dėžutę, paliktą jums Izaoko Goldšteino. Kava buvo deficitinė prekė tuo metu ir jos nebuvo galima įsigyti parduotuvėse.Eikite į Lenino aikštę."
         }
     },
     {
@@ -116,8 +120,9 @@
         "attempts": 4,
         "time": 5,
         "dependency": ["1", "2", "3", "4", "5", "6"],
+        "nextTaskId": "8",
         "hint": {
-            "text": "Daiktas, kuriame 11+7=6. Šį daiktą dažnai nešiojate ant rankos.",
+            "text": "Daiktas, kuriame 11 + 7 = 6. Šį daiktą dažnai nešiojate ant rankos.",
             "points": 2
         },
         "reward": {
@@ -136,7 +141,8 @@
         "points": 6,
         "attempts": 5,
         "time": 8,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7"]
+        "dependency": ["1", "2", "3", "4", "5", "6", "7"],
+        "nextTaskId": "9",
     },
     {
         "id": "9",
@@ -144,14 +150,15 @@
         "lat": 54.68710582412033,     
         "lng": 25.28256590963746,
         "image": "children.png",
-        "text": "Jūs sutinkate berniuką Julių su draugų kompanija. Julius stovi krašte. Jei Onytė stovėtų šalia geriausio Juliaus draugo, tai Renatas stovėtų šalia savo bendravardžio. Kas yra kas?\n\nAtsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę).",
-        "answer": ["jmror"],
+        "text": "Jūs sutinkate berniuką Julių su draugų kompanija. Julius stovi krašte. Jei Onytė stovėtų šalia geriausio Juliaus draugo, tai Marius stovėtų šalia savo bendravardžio. Kas yra kas?\n\nAtsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę).",
+        "answer": ["jdmom"],
         "points": 4,
         "attempts": 3,
         "time": 6,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8"],
+        "nextTaskId": "10",
         "reward": {
-            "text": "Jūs pakalbėjote su Juliumi ir jo draugais. Sužinojote, kad Juliaus gimtadienis yra spalio 28-ą, Marius gimė dviem savaitėm anksčiau."
+            "text": "REWORK. VASARIO 23 AND SO ON.Jūs pakalbėjote su Juliumi ir jo draugais. Sužinojote, kad Juliaus gimtadienis yra spalio 28-ą, Marius gimė dviem savaitėm anksčiau."
         }
     },
     {
@@ -159,16 +166,14 @@
         "name": "Gedimino aikštė",
         "lat": 54.68588089749477,      
         "lng": 25.286420244189877,
-        "image": "streets.png",
-        "text": "Gedimino aikštėje jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo.KOKS LAIKRAŠČIO PAVADINIMAS?Atspėti padės šis kryžiažodis.\nKоkia gatvė dabar yra?\n1. Dzeržinskio gatvė\n2. Poželos\nKaip anuomet vadinosi šios gatvės?\n3. Šventaragio.\n4. Gedimino prospektas.\n5. Vokiečių.\n6. Pelesos.\n7. Juocapavičiaus.\n8. Kaštonų.",
-        "answer": ["Komjaunimo tiesa"],
+        "image": "clock.png",
+        "text": "Katedros Varpinės laikrodis dėl nepriežiūros sugedo. Meistrai sutvarkė laikrodį, bet reikia nustatyti gerą dienos laiką. Laiką jums parodys laikrodis kurį radote dėžutėje Lenino aikštėje.\nAtsakyme įrašykite laiką formatu: hh:mm .",
+        "answer": ["19:10"],
         "points": 5,
         "attempts": 4,
-        "time": 7,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
-        "reward": {
-            "text": "Laikraštis labai sulytas. Bet jus sugebate perskaityti kai ką labai naudingo:\n“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo. Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“\n\nEikite į Žalgirio stadioną per Žaliajį tiltą, trumpam užsukite į CUP'ą (centrinę universalinę parduotuvę)."
-        }
+        "time": 5,
+        
+        "nextTaskId": "11"
     },
     {
         "id": "11",
