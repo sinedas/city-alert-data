@@ -94,12 +94,12 @@
         "lat": 54.6852062308052,     
         "lng": 25.26888653054785,
         "image": "marks.png",
-        "text": "Julius su broliu Ignu atėjo į profsajungos rūmus, kur vyksta komunistų partijos veteranų susitikimas su jaunimu ir vaikais. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi Algiu, studentu Vytu ir komunistu veteranu Nikolajumi tokia tvarka:\nVYTAS, IGNAS, NIKOLAJUS, JULIUS, ALGIS.\nKiekvienas nešioja po ženkliuką. Surikiuokite ženkliukus pagal nešiojančių eilę (įrašykite ženkliuku raides).",
-        "answer": ["dceba"],
-        "points": 4,
+        "text": "Julius su broliu Ignu atėjo į profsajungos rūmus, kur vyksta komunistų partijos veteranų susitikimas su jaunimu ir vaikais. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi Algiu, komunistu veteranu Nikolajumi ir studentu Vytu tokia tvarka:\nIGNAS, VYTAS, JULIUS, ALGIS, NIKOLAJUS.\nKiekvienas nešioja po ženkliuką. Surikiuokite ženkliukus pagal nešiojančių eilę, gausite. Tai ... ?",
+        "answer": ["kavos"],
+        "points": 5,
         "attempts": 3,
         "time": 6,
-        "dependency": ["1", "2", "3", "4", "5"],
+        "dependency": [],
         "reward": {
             "text": "Eikite į Lenino aikštę."
         }
