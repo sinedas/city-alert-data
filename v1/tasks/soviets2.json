@@ -281,8 +281,7 @@
         ],
         "points": 4,
         "attempts": 3,
-        "time": 6,
-        
+        "time": 6,        
         "nextTaskId": "10",
         "reward": {
             "text": [
@@ -331,8 +330,8 @@
     {
         "id": "11",
         "name": "Katedra",
-        "lat": 54.68747426097519,
-        "lng": 25.279149899861608,
+        "lat": 54.68589069084243,
+        "lng": 25.287196886180215,
         "text": [
             "Sovietiniais laikais katedroje buvo įrengta Paveikslų galerija. Šalia katedros jūs randate kalendorių su sovietinėmis šventėmis ir vaikų gimtadieniais:",
             "",
