@@ -185,6 +185,7 @@
         "answer": [
             "kavos"
         ],
+        "minusPointsOnAttempt": 1,
         "points": 5,
         "attempts": 3,
         "time": 6,
