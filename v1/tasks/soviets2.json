@@ -133,14 +133,16 @@
         "points": 5,
         "attempts": 5,
         "time": 5,
-        "dependency": [
-            "1",
-            "2",
-            "3"
-        ],
+        
         "nextTaskId": "5",
         "reward": {
             "text": [
+                "Įšėję iš Kinoteatro randate seną nuo laiko pageltonijųsį laikraštį rusų kalba. Jame perskaitote:",
+                "",
+                "„Revoliucija Rusijoje",
+                "",
+                "Spalio 25 dieną Petrapilyje bolševikai įvykdė perversmą ir užėmė Žiemos rūmus.“",
+                "",
                 "Grįžkite atgal ir eikitę P. Cvirkos gatve (Pamėnkalnio) kur rasite užduotį Lozungas."
             ]
         }
@@ -333,7 +335,7 @@
         "lat": 54.68589069084243,
         "lng": 25.287196886180215,
         "text": [
-            "Sovietiniais laikais katedroje buvo įrengta Paveikslų galerija. Šalia katedros jūs randate kalendorių su sovietinėmis šventėmis ir vaikų gimtadieniais:",
+            "Sovietiniais laikais katedroje buvo įrengta Paveikslų galerija. Šalia įėjimo į ją randate užrašinę su sovietinėmis šventėmis ir vaikų gimtadieniais:",
             "",
             "S) Nauji metai",
             "I) Spalio revoliucija",
@@ -351,6 +353,12 @@
         "attempts": 5,
         "time": 6,        
         "nextTaskId": "12",
+        "hint": {
+            "text": [
+                "Laikraštis jus suklaidino. Rusijoje revoliucija įvyko lapkričio 7-ą dieną. Spalio 25 d. revoliucija įvyko pagal tuo metu Rusijoje galiojusį senąjį (Julijaus) kalendorių."
+            ],
+            "points": 2
+        },
         "reward": {
             "text": [
                 "1988 m. Katedra buvo grąžinta tikintiesiems. Eikite per žaliąji tiltą link Centrinės universalinės parduotuvės."
