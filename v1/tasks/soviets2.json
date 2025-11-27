@@ -93,10 +93,7 @@
         "points": 6,
         "attempts": 3,
         "time": 10,
-        "dependency": [
-            "1",
-            "2"
-        ],
+        "dependency": ["1", "2"],
         "nextTaskId": "4",
         "hint": {
             "image": "julius_hint.png"
@@ -133,7 +130,7 @@
         "points": 5,
         "attempts": 5,
         "time": 5,
-        
+        "dependency": ["1", "2", "3"],        
         "nextTaskId": "5",
         "reward": {
             "text": [
@@ -256,15 +253,7 @@
         "points": 6,
         "attempts": 5,
         "time": 8,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7"
-        ],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7"],
         "nextTaskId": "9"
     },
     {
@@ -283,7 +272,8 @@
         ],
         "points": 4,
         "attempts": 3,
-        "time": 6,        
+        "time": 6,
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8"],
         "nextTaskId": "10",
         "reward": {
             "text": [
@@ -311,17 +301,7 @@
         "points": 5,
         "attempts": 4,
         "time": 5,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9"
-        ],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
         "nextTaskId": "11",
         "reward": {
             "text": [
@@ -351,7 +331,8 @@
         ],
         "points": 6,
         "attempts": 5,
-        "time": 6,        
+        "time": 6,
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
         "nextTaskId": "12",
         "hint": {
             "text": [
@@ -372,35 +353,29 @@
         "lng": 25.27987946683256,
         "image": "monuments.jpg",
         "text": [
-            "Jūs priėjote Žaliąjį tiltą, kuris buvo žymūs savo skulptūromis. Bet sovietinės skulptūros stovėjo ir kitose Vilniaus vietose. Surašykite kas kur stovėjo:",
-            " 1.Kudirkos aištėje.",
-            "2.Ant Žaliojo tilto.",
-            "3.Petro Cvirkos aikštėje.",
-            "4.Lukiškių aikštėje."
+            "Jūs priėjote Žaliąjį tiltą, kuriame stovėjo sovietinės skulptūros. Bet sovietiniai paminklai stovėjo ir kitose Vilniaus vietose. Surašykite kas kur stovėjo:",
+            "",
+            "А.Jakšto- Kaštonų g sankryžoje.",
+            "Lukiškių aikštėje.",
+            "Ant Žaliojo tilto.",        
+            "Kudirkos aištėje.",    
+            "Petro Cvirkos aikštėje."
         ],
         "answer": [
-            "dcba"
+            "KAUŠT"
         ],
         "points": 4,
-        "attempts": 2,
+        "attempts": 3,
         "time": 4,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
-        ],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "nextTaskId": "13",
         "reward": {
             "text": [
-                "Prie jūsų prisijungia grupė pionierių su vėliavėlių emblemomis."
-            ],
-            "image": "flags.png"
+                "Sovietinių paminklų Vilniuje nebeliko.",
+                "Leninas sėkmingai rudija Grūto parke, Generolas Černiahovskis iškeliavo į gimtąjį Voronežą.",
+                "Komunisto Zigmonto Angariečio (A.Jakšto-Kaštonų g sankryžoje), Petro Cvirkos ir žaliojo tilto skulptūrų likimas žaidimo kūrėjams nėra žinomas.",
+                "Eikite Dzeržinskio (Kalvarijų) gatve."
+            ]
         }
     },
     {
@@ -409,42 +384,20 @@
         "lat": 54.69237548522928,
         "lng": 25.280446799393413,
         "text": [
-            "Jūs radote lapelį, kur surašytos šventinės dienos ir vaikų gimtadieniai.",
-            "",
-            "a) Juliaus gimtadienis",
-            "b) Nauji metai,",
-            "c) Spalio revoliucija,",
-            "d) Mаriaus gimtadienis,",
-            "e) Pergalės diena,",
-            "f) Sovietinės kariuomenės diena,",
-            "g) Tarptautinė darbo diena.",
-            "",
-            "Surikiuokite dienas pagal eilę kalendoriuje (irašykite raides)."
+            "Tegu vienas ar keli komandos nariai užlipa ant kėdės ar kitos pakylos ir pavaizduoja ką nors iš skulptūrų. Nuotrauką išsiųskite adresu: city.alert.game@gmail.com. Užduoties atsakymas atkeliaus paštu."
         ],
         "answer": [
-            "bfgedac"
+            "CITY ALERT"
         ],
-        "points": 3,
-        "attempts": 4,
+        "points": 6,
+        "attempts": 3,
         "time": 6,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11"
-        ],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+        "nextTaskId": "14",
         "reward": {
             "text": [
-                "Jūs gaunate sieninį kalendorių. Gal jis pravers?"
-            ],
-            "image": "tigras.jpg"
+                "Eikite į Centrinę universalinę parduotuvę."
+            ]
         }
     },
     {
@@ -462,21 +415,8 @@
         ],
         "points": 5,
         "attempts": 5,
-        "time": 4,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12"
-        ],
+        "time": 5,
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"],
         "hint": {
             "image": "cup_hint.png",
             "points": 2
