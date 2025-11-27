@@ -364,9 +364,9 @@
         "answer": [
             "KAUŠT"
         ],
-        "points": 4,
+        "points": 5,
         "attempts": 3,
-        "time": 4,
+        "time": 5,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
         "nextTaskId": "13",
         "reward": {
@@ -384,7 +384,12 @@
         "lat": 54.69237548522928,
         "lng": 25.280446799393413,
         "text": [
-            "Tegu vienas ar keli komandos nariai užlipa ant kėdės ar kitos pakylos ir pavaizduoja ką nors iš skulptūrų. Nuotrauką išsiųskite adresu: city.alert.game@gmail.com. Užduoties atsakymas atkeliaus paštu."
+            "Tegu vienas ar keli komandos nariai užlipa ant kėdės ar kitos pakylos ir pavaizduoja ką nors iš skulptūrų.",
+            "Nuotrauką išsiųskite e-paštu:",
+            "",
+            "city.alert.game@gmail.com",
+            "",
+            "Užduoties atsakymas atkeliaus paštu."
         ],
         "answer": [
             "CITY ALERT"
@@ -417,6 +422,7 @@
         "attempts": 5,
         "time": 5,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"],
+        "nextTaskId": "15",
         "hint": {
             "image": "cup_hint.png",
             "points": 2
