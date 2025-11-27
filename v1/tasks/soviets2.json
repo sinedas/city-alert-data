@@ -331,7 +331,8 @@
             "PILKAS"
         ],
         "points": 6,
-        "attempts": 5,
+        "attempts": 4,
+        "minusPointsOnAttempt": 1,
         "time": 6,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
         "nextTaskId": "12",
@@ -367,6 +368,7 @@
         ],
         "points": 5,
         "attempts": 3,
+        "minusPointsOnAttempt": 1,
         "time": 5,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
         "nextTaskId": "13",
@@ -396,7 +398,7 @@
             "CITY ALERT"
         ],
         "points": 6,
-        "attempts": 3,
+        "attempts": 5,
         "time": 6,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
         "nextTaskId": "14",
