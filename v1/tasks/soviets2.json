@@ -370,7 +370,7 @@
         "attempts": 3,
         "minusPointsOnAttempt": 1,
         "time": 5,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
         "nextTaskId": "13",
         "reward": {
             "text": [
@@ -432,42 +432,66 @@
         },
         "reward": {
             "text": [
-                "Jūs gaunate informaciją apie CUP. Gal ji pravers?",
-                "",
-                "[href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href]"
+                "Eikite prie Planetariumo."
             ]
         }
     },
     {
         "id": "15",
+        "name": "Planetariumas",
+        "lat": 54.69348780477008, 
+        "lng": 25.27830735712732,
+        "image": "words.jpg",
+        "text": [
+            "Šalia planetariumo jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo.",
+            "KOKS LAIKRAŠČIO PAVADINIMAS?",
+            "Atspėti padės šis kryžiažodis",
+            "",
+            "Kaip anuomet vadinosi gatvės?",
+            "1. Pelesos.",
+            "2. Švitrigailos.",
+            "4. Pamėnkalnio.",
+            "Kaip dabar vadanasi gatvės?",
+            "3. Мuziejaus.",
+            "5. Poželos.",
+            "",
+            " [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href]."
+        ],
+        "answer": [
+            "Tiesa"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 6,
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"],
+        "nextTaskId": "16",
+        "reward": {
+            "text": ["Laikraštis labai sulytas. Bet jus sugebate perskaityti kai ką labai naudingo:",
+            "“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo.",
+            "Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“",
+            "",
+            "Eikite į Žalgirio stadioną."
+            ]
+        }
+    },
+    {
+        "id": "16",
         "name": "Žalgirio stadionas",
         "lat": 54.69460006487408,
         "lng": 25.28907148345453,
         "image": "zalgiris.jpg",
         "text": [
-            "Jūs atėjote į Žalgirio stadioną, švieslentėje švietė vakarykščių varžybų rezultatas. Tik įdomu, ką jis galėtų reikšti."
+            "Jūs atėjote į Žalgirio stadioną, švieslentėje švietė vakarykščių varžybų rezultatas.",  
+            "Tik įdomu, ką jis galėtų reikšti. Įrašykite šios dienos datą formatu: MM:dd"
         ],
         "answer": [
-            "6:3"
+            "06:04", "6:3"
         ],
         "points": 3,
-        "attempts": 5,
+        "attempts": 3,
         "time": 5,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13"
-        ],
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
+        "nextTaskId": "17",
         "hint": {
             "text": [
                 "Morzės kodas jums padės:",
@@ -477,52 +501,7 @@
         },
         "reward": {
             "text": [
-                "O dabar eikite į Pionierių rūmus Pionierių gatvėje. Eikite per pontoninį tiltą, dabartinio Mindaugo tilto vietoje.",
-                "Beje, šiek tiek info apie jį:",
-                "[href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href]"
-            ]
-        }
-    },
-    {
-        "id": "16",
-        "name": "Pionierių rūmai",
-        "lat": 54.687117040653064,
-        "lng": 25.289704062144757,
-        "image": "herbs.png",
-        "text": [
-            "Pionierių rūmuose vyksta SSSR respublikų pionierių suvažiavimas. Suvažiavimo salėje yra stalai su simboliais. Susodinkite pionierius į savo vietas. Įrašykite raides."
-        ],
-        "answer": [
-            "fdbeca"
-        ],
-        "points": 4,
-        "attempts": 3,
-        "time": 6,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14"
-        ],
-        "hint": {
-            "text": [
-                "[href=\"https://lt.wikipedia.org/wiki/Taryb%C5%B3_S%C4%85jungos_respublikos\"]TSRS respublikos[/href]"
-            ],
-            "points": 2
-        },
-        "reward": {
-            "text": [
-                "Eikite į žydų kapines."
+                "Eikite prie Vilniaus Pramogų ir Sporto rūmų."
             ]
         }
     },
