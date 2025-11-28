@@ -357,7 +357,7 @@
         "text": [
             "Jūs priėjote Žaliąjį tiltą, kuriame stovėjo sovietinės skulptūros. Bet sovietiniai paminklai stovėjo ir kitose Vilniaus vietose. Surašykite kas kur stovėjo:",
             "",
-            "А.Jakšto- Kaštonų g sankryžoje.",
+            "A.Jakšto- Kaštonų g sankryžoje.",
             "Lukiškių aikštėje.",
             "Ant Žaliojo tilto.",        
             "Kudirkos aištėje.",    
@@ -414,12 +414,13 @@
         "lat": 54.69415743699224,
         "lng": 25.276610722754306,
         "text": [
-            "Jūs atėjote prie CUP'o. Bet parduotuvė uždaryta. Per vitriną jūs pamatėte laikrodį nuo sienos nukritusį ant žemės. Jis rodė laiką 10:51. Po minutės pradėjo rodyti 20:51.",
+            "Jūs atėjote prie CUP'o. Bet parduotuvė uždaryta. Per vitriną jūs pamatėte veidrodį, kuriame atsispindėjo elektroninis laikrodis.",
+            "Jis rodė laiką 00:21. Po minutės pradėjo rodyti 10:21. Koks keistas laikrodis.",
             "",
             "Koks laikas bus dar po minutės?"
         ],
         "answer": [
-            "15:03"
+            "15:02"
         ],
         "points": 5,
         "attempts": 5,
@@ -446,7 +447,6 @@
             "Šalia planetariumo jūs radote laikrašį. Laikraštis sulytas ir neįmanoma perskaityti jo pavadinimo.",
             "KOKS LAIKRAŠČIO PAVADINIMAS?",
             "Atspėti padės šis kryžiažodis",
-            "",
             "Kaip anuomet vadinosi gatvės?",
             "1. Pelesos.",
             "2. Švitrigailos.",
@@ -454,7 +454,6 @@
             "Kaip dabar vadanasi gatvės?",
             "3. Мuziejaus.",
             "5. Poželos.",
-            "",
             " [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href]."
         ],
         "answer": [
@@ -467,7 +466,7 @@
         "nextTaskId": "16",
         "reward": {
             "text": [
-                "Laikraštis labai sulytas. Bet jus sugebate perskaityti kai ką labai naudingo:",
+                "Laikraštis labai sulytas. Bet jūs sugebate perskaityti kai ką labai naudingo:",
                 "“Vakar Žalgirio stadione vyko futbolo varžybos tarp Vilniaus Žalgirio ir Tbilisio Dinamo.",
                 "Koks keistas sutapimas varžybos baigėsi rezultatu lygiu šios dienos mėnesiui ir dienai.“",
                 "",
@@ -482,24 +481,17 @@
         "lng": 25.28907148345453,
         "image": "zalgiris.jpg",
         "text": [
-            "Jūs atėjote į Žalgirio stadioną, švieslentėje švietė vakarykščių varžybų rezultatas.",  
-            "Tik įdomu, ką jis galėtų reikšti. Įrašykite šios dienos datą formatu: MM:dd"
+            "Jūs atėjote į Žalgirio stadioną. Varžybos baigėsi lygiu rezultatu. Bet švieslentėje rezultatas nelygus. Perkelkite vieną brukšniuką rezultate, kad lygybė būtų teisinga.",  
+            "Atsakyme įrašykite šios dienos datą formatu: MM:dd"
         ],
         "answer": [
-            "06:04", "6:3"
+            "05:04"
         ],
         "points": 3,
         "attempts": 3,
         "time": 5,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
         "nextTaskId": "17",
-        "hint": {
-            "text": [
-                "Morzės kodas jums padės:",
-                " [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]"
-            ],
-            "points": 1
-        },
         "reward": {
             "text": [
                 "Eikite prie Vilniaus Pramogų ir Sporto rūmų."
