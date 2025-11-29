@@ -513,14 +513,14 @@
         "text": [
             "Žydų kapinėse jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.",
             "",
-            "Kad galėtų jūsų gražinti, Izaokas turi įvesti metus, kuriuose esate dabar."
+            "Kad galėtų jūsų gražinti, Izaokas mašinoje turi įvesti metus, kuriuose esate dabar. Kokie dabar metai?"
         ],
         "answer": [
             "1986"
         ],
         "points": 5,
-        "attempts": 5,
-        "time": 12,
+        "attempts": 3,
+        "time": 7,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
         "reward": {
             "text": [
