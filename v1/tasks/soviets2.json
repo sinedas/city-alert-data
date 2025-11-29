@@ -478,17 +478,15 @@
         "name": "Vilniaus Pramogų ir Sporto rūmai",
         "lat": 54.691183285139836, 
         "lng": 25.29044027923212,
-        "image": "boys.png",
+        "image": "boys.jpg",
         "text": [
             "Prie Vilniaus sporto ir parodų rūmų jūs sutikote keturis jaunuoliuos: panką, hipį, metalistą ir rokerį.",
             "Jie nenori pasakyti jums savo vardų. Bet jūs žinote, kad:",
-            "",
             "Petras nėra metalistas.",
             "Jonas nėra nei pankas, nei rokeris.",
             "Martynas nėra pankas, nei hipis.",
             "Algis nėra metalistas.",    
             "Surašykite pirmasias vardų raides tvarka: (pvz.: PJMA)",
-            "",
             "PANKAS HIPIS METALISTAS ROKERIS"
         ],
         "answer": [
