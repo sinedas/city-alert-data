@@ -460,7 +460,7 @@
             "Atsakyme įrašykite šios dienos datą formatu: MM:dd"
         ],
         "answer": [
-            "05:04"
+            "05:06"
         ],
         "points": 3,
         "attempts": 3,
@@ -496,7 +496,14 @@
         "attempts": 3,
         "time": 5,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"],
-        "nextTaskId": "18"
+        "nextTaskId": "18",
+        "reward": {
+            "text": [
+                "Jūs pakalbėjote su jaunuoliais. Sužinojote, kad Petras yra Juliaus brolis.",
+                "Kai gimė mažasis Marius, Darius buvo dvigubai vyresnis už Julių.",
+                "Dariui dabar 11, Juliui 9 metai."
+            ]
+        }
     },
     {
         "id": "18",
@@ -506,32 +513,15 @@
         "text": [
             "Žydų kapinėse jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.",
             "",
-            "Kad galėtų jūsų gražinti, Izaokas turi įvesti tikslią data ir laiką, kuriame esate dabar. Laiką rodo laikrodis iš paslaptingos juodos dėžutės. Data ir laiką įrašykite formatu:",
-            "",
-            "yyyy-MM-dd hh:mm:ss ."
+            "Kad galėtų jūsų gražinti, Izaokas turi įvesti metus, kuriuose esate dabar."
         ],
         "answer": [
-            "1974-06-04 16:50:00"
+            "1986"
         ],
-        "points": 12,
-        "attempts": 7,
+        "points": 5,
+        "attempts": 5,
         "time": 12,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
-        "nextTaskId": "19",
-        "hint": {
-            "text": [
-                "Atspėti dieną padės žinojimas, kad varžybos baigėsi vakar. Atspėti metus jūs gavote ne vieną užuominą:",
-                "",
-                "   Tigras kаlendoriuje,",
-                "",
-                "   [href=\"https://madeinvilnius.lt/vilniaus-istorija/ilgiausiai-vilniuje-veikiancio-prekybos-centro-istorija\"]Centrinė universalinė parduotuvė[/href],",
-                "",
-                "   [href=\"https://lt.wikipedia.org/wiki/Pontoninis_tiltas_Vilniuje\"]Vilniaus pontoninio tilto istorija[/href] .",
-                "",
-                "Laiką rodo laikrodis juodoje dėžutėje. Minutės ir sekundės tikslus skaičius. Valanda ne. Tai koks tas laikas?."
-            ],
-            "points": 5
-        },
         "reward": {
             "text": [
                 "Jūs grįžtate į nepriklausomą Lietuvą. О Vilniuje po dviejų metų prasidės Sąjudis. Laukia pokyčiai."
