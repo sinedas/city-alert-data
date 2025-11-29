@@ -131,7 +131,7 @@
         "attempts": 5,
         "time": 5,
         "dependency": ["1", "2", "3"],        
-        "nextTaskId": "5",
+        "nextTaskId": "6",
         "reward": {
             "text": [
                 "Įšėję iš Kinoteatro randate seną nuo laiko pageltonijųsį laikraštį rusų kalba. Jame perskaitote:",
@@ -140,35 +140,8 @@
                 "",
                 "Spalio 25 dieną Petrapilyje bolševikai įvykdė perversmą ir užėmė Žiemos rūmus.“",
                 "",
-                "Grįžkite atgal ir eikitę P. Cvirkos gatve (Pamėnkalnio) kur rasite užduotį Lozungas."
+                "Grįžkite atgal ir eikitę Profsajungų rūmus."
             ]
-        }
-    },
-    {
-        "id": "5",
-        "name": "Lozungas",
-        "lat": 54.68738064202568,
-        "lng": 25.269217158322057,
-        "image": "proletars.png",
-        "text": [
-            "Jūs stovite Tauro kalno papėdėje. Ant profsajungų rūmų kabo plakatas su lozungu. Eikite po žingsnelį nuo raidės 'V' ir perskaitykite šūkį. Atsakyme įrašykite ketvirtą šūkio žodį."
-        ],
-        "answer": [
-            "Vienykitės"
-        ],
-        "points": 5,
-        "attempts": 4,
-        "time": 6,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4"
-        ],
-        "nextTaskId": "6",
-        "hint": {
-            "image": "proletars_hint.png",
-            "points": 2
         }
     },
     {
@@ -178,7 +151,7 @@
         "lng": 25.26888653054785,
         "image": "marks2.png",
         "text": [
-            "Julius su broliu Ignu atėjo į profsajungos rūmus, kur vyksta komunistų partijos veteranų susitikimas su jaunimu ir vaikais. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi Algiu, komunistu veteranu Nikolajumi ir studentu Vytu tokia tvarka:",
+            "Julius su broliu Ignu atėjo į profsajungos rūmus, kur vyksta sovietinė valdžios renginys vaikams ir jaunimu. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi Algiu, KGB veteranu Nikolajumi ir studentu Vytu tokia tvarka:",
             "IGNAS, VYTAS, JULIUS, ALGIS, NIKOLAJUS.",
             "Kiekvienas nešioja po ženkliuką. Surikiuokite ženkliukus pagal nešiojančių eilę, gausite ... ?"
         ],
@@ -189,13 +162,7 @@
         "points": 5,
         "attempts": 3,
         "time": 6,
-        "dependency": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"
-        ],
+        "dependency": ["1", "2", "3", "4", "5"],
         "nextTaskId": "7",
         "reward": {
             "image": "coffee.jpg",
@@ -246,6 +213,7 @@
         "lng": 25.279149899861608,
         "image": "timuras.png",
         "text": [
+            "Kavos indelį jūs įteikėte centrinio knygyno vedėjai. Ji įteikė jums knygą. Bet kokią?",
             "Sudėliokite dėlionę ir sužinokite knygos pavadinimą."
         ],
         "answer": [
@@ -255,7 +223,14 @@
         "attempts": 5,
         "time": 8,
         "dependency": ["1", "2", "3", "4", "5", "6", "7"],
-        "nextTaskId": "9"
+        "nextTaskId": "9",
+        "reward": {
+            "text": [
+                "Knygyno vedėja pasakė jums kad šitą ženklą nešioja Petras.",
+                "Eikite link katedros, pakeliui sutiksite Julių su draugais."
+            ],
+            "image": "hipis.jpg"
+        }
     },
     {
         "id": "9",
@@ -500,6 +475,33 @@
     },
     {
         "id": "17",
+        "name": "Vilniaus Pramogų ir Sporto rūmai",
+        "lat": 54.691183285139836, 
+        "lng": 25.29044027923212,
+        "image": "boys.png",
+        "text": [
+            "Prie Vilniaus sporto ir parodų rūmų jūs sutikote keturis jaunuoliuos: panką, hipį, metalistą ir rokerį.",
+            "Jie nenori pasakyti jums savo vardų. Bet jūs žinote, kad:",
+            "",
+            "Petras nėra metalistas.",
+            "Jonas nėra nei pankas, nei rokeris.",
+            "Martynas nėra pankas, nei hipis.",
+            "Algis nėra metalistas.",    
+            "Surašykite pirmasias vardų raides tvarka: (pvz.: PJMA)",
+            ""
+            "PANKAS HIPIS METALISTAS ROKERIS"
+        ],
+        "answer": [
+            "APJM"
+        ],
+        "points": 4,
+        "attempts": 3,
+        "time": 5,
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"],
+        "nextTaskId": "18",
+    },
+    {
+        "id": "18",
         "name": "Paskutinė užduotis- Žydų kapinės",
         "lat": 54.69042368388208,
         "lng": 25.292940189993235,
@@ -516,23 +518,14 @@
         "points": 12,
         "attempts": 7,
         "time": 12,
-        "dependency": [
-            "1",
+        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
             "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"
-        ],
+        "nextTaskId": "19",
+        "reward": {
+            "text": [
+                "Eikite į Žydų kapinės."
+            ]
+        },
         "hint": {
             "text": [
                 "Atspėti dieną padės žinojimas, kad varžybos baigėsi vakar. Atspėti metus jūs gavote ne vieną užuominą:",
@@ -549,7 +542,7 @@
         },
         "reward": {
             "text": [
-                "Jūs grįžtate į nepriklausomą Lietuvą."
+                "Jūs grįžtate į nepriklausomą Lietuvą. О Vilniuje po dviejų metų prasidės Sąjudis. Laukia pokyčiai."
             ],
             "image": "lithuania.png"
         }
