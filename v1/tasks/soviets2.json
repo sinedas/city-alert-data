@@ -488,7 +488,7 @@
             "Martynas nėra pankas, nei hipis.",
             "Algis nėra metalistas.",    
             "Surašykite pirmasias vardų raides tvarka: (pvz.: PJMA)",
-            ""
+            "",
             "PANKAS HIPIS METALISTAS ROKERIS"
         ],
         "answer": [
@@ -498,7 +498,7 @@
         "attempts": 3,
         "time": 5,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"],
-        "nextTaskId": "18",
+        "nextTaskId": "18"
     },
     {
         "id": "18",
@@ -519,13 +519,7 @@
         "attempts": 7,
         "time": 12,
         "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
-            "2",
         "nextTaskId": "19",
-        "reward": {
-            "text": [
-                "Eikite į Žydų kapinės."
-            ]
-        },
         "hint": {
             "text": [
                 "Atspėti dieną padės žinojimas, kad varžybos baigėsi vakar. Atspėti metus jūs gavote ne vieną užuominą:",
