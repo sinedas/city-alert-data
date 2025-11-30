@@ -4,7 +4,7 @@
         "name": "Test",
         "lat": 54.6990436702467,
         "lng": 25.303356395621584,
-        "image": "violet.png",
+        "image": "mohican.gif",
         "text": "Test 't'",
         "answer": ["t"],
         "points": 5,
