@@ -27,7 +27,7 @@
     "initialDiameter": 1000,
     "finalDiameter": 150,
     "duration": 10,
-    "active": true,
+    "active": false,
     "locked": false,
     "description": "Atskleiskite Šv. Onos bažnyčios paslaptis.",
     "start": "Signatarų rūmai",
@@ -45,7 +45,7 @@
     "initialDiameter": 3000,
     "finalDiameter": 300,
     "duration": 2,
-    "active": true,
+    "active": false,
     "locked": false,
     "description": "Vilniaus katedros paslaptys ir paslėptas lobis",
     "start": "Kudirkos aikštė",
@@ -55,7 +55,7 @@
   },
   {
     "code": "soviets2",
-    "title": "Žydų kapinės ir sovietiniai monstrai (Version 2)",
+    "title": "Žydų kapinės ir sovietiniai monstrai",
     "location": {
       "lat": 54.69079963514012, 
       "lng": 25.290875962339644
@@ -73,7 +73,7 @@
   },
   {
     "code": "soviets",
-    "title": "Žydų kapinės ir sovietiniai monstrai",
+    "title": "Žydų kapinės ir sovietiniai monstrai (old version)",
     "location": {
       "lat": 54.69079963514012, 
       "lng": 25.290875962339644
@@ -81,9 +81,9 @@
     "initialDiameter": 9000,
     "finalDiameter": 1000,
     "duration": 120,
-    "active": true,
+    "active": false,
     "locked": false,
-    "description": "Mokomasis žaidimas be vietų paieškos. Laiko mašina grįžkite į sovietinį laiką.",
+    "description": "Laiko mašina grįžkite į sovietinį laiką.",
     "hints": 7,
     "start": "Pirma užduotis- Vaikų pasaulis",
     "finish": "Žydų kapinės\nAtlikę užduotį gausite nurodymą kitai užduočiai. Užduotis atlikite nurodyta tvarka.",
