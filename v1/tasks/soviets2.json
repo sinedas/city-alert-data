@@ -140,8 +140,26 @@
                 "",
                 "Spalio 25 dieną Petrapilyje bolševikai įvykdė perversmą ir užėmė Žiemos rūmus.“",
                 "",
-                "Grįžkite atgal ir eikitę Profsajungų rūmus."
+                "Grįžkite atgal ir eikitę Petro Cvirkos gatve link profsajungų rūmų."
             ]
+        }
+    },
+    {
+        "id": "5",
+        "name": "Lozungas",
+        "lat": 54.68738064202568,     
+        "lng": 25.269217158322057,
+        "image": "lenin.jpg",
+        "text": "Jūs stovite Tauro kalno papėdėje. Ant profsajungų rūmų kabo plakatas su lozungu. Eikite po žingsnelį rodyklėmis nuo raidės 'L': ↑, ← , ↓, → ir perskaitykite šūkį. Atsakyme įrašykite paskutinį šūkio žodį.",
+        "answer": ["nemarios"],
+        "points": 5,
+        "attempts": 4,
+        "time": 7,
+        "dependency": ["1", "2", "3", "4"],
+        "nextTaskId": "6",
+        "hint": {
+            "image": "lenin_hint.jpg",
+            "points": 2
         }
     },
     {

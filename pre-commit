@@ -1,0 +1,76 @@
+﻿#!/bin/sh
+#
+# Pre-commit hook to validate JSON files
+# This hook checks all JSON files in the repository for syntax errors
+#
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+echo "ðŸ” Validating all JSON files..."
+
+ERRORS=0
+FILES_CHECKED=0
+
+# Check all JSON files in v1/tasks/ directory
+if [ -d "v1/tasks" ]; then
+    echo "ðŸ“ Checking task files in v1/tasks/:"
+    for FILE in v1/tasks/*.json; do
+        if [ -f "$FILE" ]; then
+            FILES_CHECKED=$((FILES_CHECKED + 1))
+            echo "  Checking: $FILE"
+            
+            # Try to parse JSON file
+            if python3 -c "import json, sys; json.load(open('$FILE', 'r', encoding='utf-8'))" 2>/dev/null; then
+                echo "    ${GREEN}âœ“ Valid JSON${NC}"
+            else
+                echo "    ${RED}âœ— Invalid JSON${NC}"
+                python3 -c "import json, sys; json.load(open('$FILE', 'r', encoding='utf-8'))" 2>&1 | head -5
+                ERRORS=$((ERRORS + 1))
+            fi
+        fi
+    done
+fi
+
+# Check other important JSON files
+echo ""
+echo "ðŸ“ Checking other JSON files:"
+
+# Check meta.json
+if [ -f "meta.json" ]; then
+    FILES_CHECKED=$((FILES_CHECKED + 1))
+    echo "  Checking: meta.json"
+    if python3 -c "import json, sys; json.load(open('meta.json', 'r', encoding='utf-8'))" 2>/dev/null; then
+        echo "    ${GREEN}âœ“ Valid JSON${NC}"
+    else
+        echo "    ${RED}âœ— Invalid JSON${NC}"
+        python3 -c "import json, sys; json.load(open('meta.json', 'r', encoding='utf-8'))" 2>&1 | head -5
+        ERRORS=$((ERRORS + 1))
+    fi
+fi
+
+# Check challenges.json
+if [ -f "v1/challenges.json" ]; then
+    FILES_CHECKED=$((FILES_CHECKED + 1))
+    echo "  Checking: v1/challenges.json"
+    if python3 -c "import json, sys; json.load(open('v1/challenges.json', 'r', encoding='utf-8'))" 2>/dev/null; then
+        echo "    ${GREEN}âœ“ Valid JSON${NC}"
+    else
+        echo "    ${RED}âœ— Invalid JSON${NC}"
+        python3 -c "import json, sys; json.load(open('v1/challenges.json', 'r', encoding='utf-8'))" 2>&1 | head -5
+        ERRORS=$((ERRORS + 1))
+    fi
+fi
+
+echo ""
+if [ $ERRORS -gt 0 ]; then
+    echo "${RED}âŒ Found $ERRORS JSON file(s) with errors (checked $FILES_CHECKED files)${NC}"
+    echo "${YELLOW}Please fix the errors before committing.${NC}"
+    exit 1
+else
+    echo "${GREEN}âœ… All JSON files are valid (checked $FILES_CHECKED files)${NC}"
+    exit 0
+fi
