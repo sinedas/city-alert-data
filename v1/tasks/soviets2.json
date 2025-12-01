@@ -160,6 +160,11 @@
         "hint": {
             "image": "lenin_hint.jpg",
             "points": 2
+        },
+        "reward": {
+            "text": [
+                "Eikite į profsajungų rūmus."
+            ]
         }
     },
     {
