@@ -65,11 +65,12 @@
     "duration": 120,
     "active": true,
     "locked": false,
-    "description": "Atnaujinta versija. Laiko mašina grįžkite į sovietinį laiką.",
+    "description": "Laiko mašina grįžkite į sovietinį laiką.",
     "hints": 7,
     "start": "Pirma užduotis- Vaikų pasaulis",
     "finish": "Žydų kapinės",
-    "checkLocation": false
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 10
   },
   {
     "code": "soviets",
@@ -105,6 +106,7 @@
     "start": "Žirmūnų biblioteka",
     "finish": "Tuskulėnų dvaras",
     "hints": 1,
-    "checkLocation": false
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 1
   }
 ]
