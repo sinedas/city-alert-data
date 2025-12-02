@@ -97,9 +97,9 @@
       "lat": 54.698039582832486, 
       "lng": 25.302702381449947
     },
-    "initialDiameter": 700,
+    "initialDiameter": 9000,
     "finalDiameter": 150,
-    "duration": 2,
+    "duration": 20,
     "active": true,
     "locked": false,
     "description": "Test challenge",

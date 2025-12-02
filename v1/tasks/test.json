@@ -1,6 +1,30 @@
 [
     {
         "id": "1",
+        "name": "Laiko kapsulė",
+        "lat": 54.6990436702467,
+        "lng": 25.298344931018725,
+        "text": [
+            "Jūsų komanda prabunda Izaoko Goldšteino laiko kapsulėje. Laiko kapsulėje betvarkė, viskas išvartyta. Jūs patys kabote aukštyn kojomis.",
+            "Pasigirsta automatinis pranešimas.",
+            "Deja, negalėjau grąžinti jūsų namo. Teko išsiųsti jus keliais dešimtmečiais į ateitį. Kur įvyko didelė nelaimė. Atlikite reikiamas užduotis, įminkite nelaimės paslaptį ir grįžkite namo. Beje saugokitės tamsos. Viską padaryti turite iki saulėlydžio.",
+            "Beje, kad išeiti iš kapsulės, įrašykit metų kuriuose esate skaičių. Jūsų draugas Izaokas.",
+            "Prie kapsulės išėjimo liuko matote skaičius: [digital]9902[/digital]."
+        ],
+        "answer": ["2066"],
+        "points": 3,
+        "attempts": 5,
+        "time": 5,
+        "hint": {
+            "text": "Jūs kabote aukštyn kojomis.",
+            "points": 2
+        },
+        "reward": {
+            "text": "Jūs išlipote iš laiko kapsulės Vilniuje, šalia Žirmūnų iki parduotuvės. Vilniaus neįmanoma pažinti. Kas čia atsitiko? "
+        }
+    },
+    {
+        "id": "2",
         "name": "Test",
         "lat": 54.6990436702467,
         "lng": 25.303356395621584,
