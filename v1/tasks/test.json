@@ -5,10 +5,10 @@
         "lat": 54.6990436702467,
         "lng": 25.303356395621584,
         "image": "mohican.gif",
-        "type": "imageCarousel",
-        "imageCarousel": {
+        "startType": "carousel",
+        "startCarousel": {
             "text": ["Jūs einate ten ir ten,", "matote ta ir ana..."],
-            "images": ["rinktines1.jpg", "rinktines2.jpg", "rinktines3.jpg", "rinktines4.jpg", "rinktines5.jpg"],
+            "images": ["rinktines1.webp", "rinktines2.jpg", "rinktines3.jpg", "rinktines4.jpg", "rinktines5.jpg"],
             "changeInterval": 3
         },
         "text": "Test 't'",
@@ -20,8 +20,11 @@
             "text": "Hint test",
             "points": 2
         },
-        "reward": {
-            "text": "Reward test"
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": ["Jūs gavote atlygį!", "Tai yra reward carousel..."],
+            "images": ["rinktines1.webp", "rinktines2.jpg", "rinktines3.jpg", "rinktines4.jpg", "rinktines5.jpg"],
+            "changeInterval": 3
         }
     }
 ]
