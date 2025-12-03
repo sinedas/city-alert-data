@@ -417,7 +417,7 @@
         "lng": 25.276610722754306,
         "text": [
             "Jūs atėjote prie CUP'o. Bet parduotuvė uždaryta. Per vitriną jūs pamatėte veidrodį, kuriame atsispindėjo elektroninis laikrodis.",
-            "Jis rodė laiką 00:21. Po minutės pradėjo rodyti 10:21. Koks keistas laikrodis.",
+            "Jis rodė laiką [digital]00:21[/digital]. Po minutės pradėjo rodyti [digital]10:21[/digital]. Koks keistas laikrodis.",
             "",
             "Koks laikas bus dar po minutės?"
         ],
