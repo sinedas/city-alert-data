@@ -32,7 +32,6 @@
         "name": "Laikrodis",
         "lat": 54.6962236067816, 
         "lng": 25.297479189064575,
-        "image": "mohican.gif",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -47,6 +46,7 @@
             "Laikrodis, kurį radote, turi keistas rodykles. Jos vienodos.",
             "Kokį laiką jis rodo. Atsakyme įrašykite laiką formatu: hh:mm:ss (valandoms naudokite tik 00-11 valandas)."
         ],
+        "image": "clock.jpg",
         "answer": ["07:10:00"],
         "points": 5,
         "attempts": 5,
