@@ -24,7 +24,38 @@
             "text": "Jūs išlipote iš laiko kapsulės Vilniuje, šalia Žirmūnų iki parduotuvės. Vilniaus neįmanoma pažinti. Kas čia atsitiko? ",
             "images": ["zirmunu1.jpg", "zirmunu2.jpg", "zirmunu3.jpg"],
             "changeInterval": 3
-        }
+        },
+        "nextTaskId": "2"
+    },
+    {
+        "id": "2",
+        "name": "Laikrodis",
+        "lat": 54.6962236067816, 
+        "lng": 25.297479189064575,
+        "image": "mohican.gif",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs einate link ofisų buvusių Šeimyniškių gatvėje. Ant šaligatvio pamatote daiktą. Atrodo, tai laikrodis.",
+                "",
+                "Užduočiai atlikti, turite 6 minutes."
+            ],
+            "images": ["watch.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Laikrodis, kurį radote, turi keistas rodykles. Jos vienodos.",
+            "Kokį laiką jis rodo. Atsakyme įrašykite laiką formatu: hh:mm:ss (valandoms naudokite tik 00-11 valandas)."
+        ],
+        "answer": ["07:10:00"],
+        "points": 5,
+        "attempts": 5,
+        "time": 6,
+        "reward": {
+            "text": "Laikrodis rodo 07:10. Reik tikėtis, kad šiuo metu rytas. Izaokas Goldšteinas įspėjo išspresti užduotis iki saulėlydžio."
+        },
+        "nextTaskId": "3",
+        "dependency": ["1"]
     },
     {
         "id": "3",
