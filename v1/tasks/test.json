@@ -136,12 +136,6 @@
         "hint": {
             "text": "Hint test",
             "points": 2
-        },
-        "rewardType": "carousel",
-        "rewardCarousel": {
-            "text": ["Jūs gavote atlygį!", "Tai yra reward carousel..."],
-            "images": ["rinktines1.webp", "rinktines2.jpg", "rinktines3.jpg", "rinktines4.jpg", "rinktines5.jpg"],
-            "changeInterval": 3
         }
     }
 ]
