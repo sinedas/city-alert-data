@@ -87,6 +87,37 @@
         "dependency": ["1", "2"]
     },
     {
+        "id": "4",
+        "name": "Wi-Fi tinklas",
+        "lat": 54.69493353669392, 
+        "lng": 25.2908361627996,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Netoli nuo buvusių ofisų jūs pagaunate Wi-Fi 'Filmas'. Kaip jis gali veikti? Kas šaltinis?",
+                "Priėje arčiau rasite popieriaus lapą priklijuotą prie suskilusio stiklo.",
+                "Raidės lape kažką reiškia. Ženklas 'Z' jums padės.",
+                "",
+                "Užduočiai atlikti turite 6-ias minutes."
+            ],
+            "images": ["ofisai.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Pradėkite nuo paskutinės raidės. Prisijunkite prie Wi-Fi tinklo."
+        ],
+        "image": "lapas.jpg",
+        "answer": ["Atgal į ateitį"],
+        "points": 5,
+        "attempts": 5,
+        "time": 5,
+        "reward": {
+            "text": "Eikite toliau Šeimyniškių gatve."
+        },
+        "nextTaskId": "5",
+        "dependency": ["1", "2", "3"]
+    },
+    {
         "id": "5",
         "name": "Test",
         "lat": 54.6990436702467,
@@ -95,7 +126,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": ["Jūs einate ten ir ten,", "matote ta ir ana..."],
-            "images": ["rinktines1.webp", "rinktines2.jpg", "rinktines3.jpg", "rinktines4.jpg", "rinktines5.jpg"],
+            "images": ["rinktines1.webp", "rinktines2.jpg", "rinktines3v2.jpg", "rinktines4.jpg", "rinktines5.jpg"],
             "changeInterval": 3
         },
         "text": "Test 't'",
