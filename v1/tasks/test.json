@@ -44,7 +44,7 @@
         },
         "text": [
             "Laikrodis, kurį radote, turi keistas rodykles. Jos vienodos.",
-            "Kokį laiką jis rodo. Atsakyme įrašykite laiką formatu: hh:mm:ss (valandoms naudokite tik 00-11 valandas)."
+            "Kokį laiką jis rodo? Atsakyme įrašykite laiką formatu: hh:mm:ss (valandoms naudokite tik 00-11 valandas)."
         ],
         "image": "clock.jpg",
         "answer": ["07:10:00"],
@@ -59,6 +59,35 @@
     },
     {
         "id": "3",
+        "name": "Telefonas",
+        "lat": 54.69558310548432, 
+        "lng": 25.297748810446233,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs einate link buvusios Cirkle K degalinės. Priėję randate telefoną. Telefonas veikiantis. Tik jį reikią atrakinti. Pradėkite nuo keturių.",
+                "",
+                "Užduočiai atlikti, turite 5 minutes."
+            ],
+            "images": ["adform1.jpg", "adform2.jpg", "adform3.jpg", "adform4.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Atrakinkite telefoną. Įrašykite skaičių."
+        ],
+        "image": "question.jpg",
+        "answer": ["41236580"],
+        "points": 3,
+        "attempts": 4,
+        "time": 4,
+        "reward": {
+            "text": "Eikite toliau Šeimyniškių gatve."
+        },
+        "nextTaskId": "4",
+        "dependency": ["1", "2"]
+    },
+    {
+        "id": "5",
         "name": "Test",
         "lat": 54.6990436702467,
         "lng": 25.303356395621584,
