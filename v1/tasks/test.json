@@ -81,7 +81,12 @@
         "attempts": 4,
         "time": 4,
         "reward": {
-            "text": "Eikite toliau Šeimyniškių gatve."
+            "text": [
+                "Telefoną pavyko atrakinti. Bet ryšis neveikia, internetas irgi.",
+                "Prieš einant toliau pamatot stendą su senų filmų plakatais. Jis turėtų kažką reikšti.",
+                "Telefonų pasidarote plakato nuotrauką."
+            ],
+            "image": "films.jpg"
         },
         "nextTaskId": "4",
         "dependency": ["1", "2"]
