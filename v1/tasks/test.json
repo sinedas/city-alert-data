@@ -133,7 +133,15 @@
             "images": ["rinktines1.webp", "rinktines2.jpg", "rinktines3v2.jpg", "rinktines4.jpg", "rinktines5.jpg"],
             "changeInterval": 3
         },
-        "text": "Test 't'",
+        "text": [
+            "Vienoje iš pašto dėžučių jus randate mažą lagaminėlį, su raidiniu užraktu ir kryžiažodžiu ant nugarėlės. Kryžiažodžio atsakymas ir yra užrakto raktas.",
+            "Kryžiažodžio klausimai kažkaip susiję su filmais, kuriuos matėte anksčiau.",
+            
+            "1. Šuns vardas pirmame filme.",
+            "2. Pagrindinių herojų pavardė.",
+            "3. Filmo pavadinimo paskutinė raidė.",
+            "[href=\"https://drive.google.com/file/d/1EU4J5okzmNO2uT8uow_o8btpvLRl3dVF/views\"]Nuotrauka telefone.[/href]"
+        ],
         "answer": ["t"],
         "points": 5,
         "attempts": 2,
