@@ -140,9 +140,9 @@
             "1. Šuns vardas pirmame filme.",
             "2. Pagrindinių herojų pavardė.",
             "3. Filmo pavadinimo paskutinė raidė.",
-            "[href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/films.jpg"]Nuotrauka telefone.[/href]"
+            "[href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/films.jpg\"]Nuotrauka telefone.[/href]"
         ],
-        "answer": ["t"],
+        "answer": ["Stalker"],
         "points": 5,
         "attempts": 2,
         "time": 1,
