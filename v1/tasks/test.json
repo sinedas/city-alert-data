@@ -84,7 +84,7 @@
             "text": [
                 "Telefoną pavyko atrakinti. Bet ryšis neveikia, internetas irgi.",
                 "Prieš einant toliau pamatot stendą su senų filmų plakatais. Jis turėtų kažką reikšti.",
-                "Telefonų pasidarote plakato nuotrauką."
+                "Telefonu pasidarote plakato nuotrauką."
             ],
             "image": "films.jpg"
         },
@@ -140,7 +140,7 @@
             "1. Šuns vardas pirmame filme.",
             "2. Pagrindinių herojų pavardė.",
             "3. Filmo pavadinimo paskutinė raidė.",
-            "[href=\"https://drive.google.com/file/d/1EU4J5okzmNO2uT8uow_o8btpvLRl3dVF/views\"]Nuotrauka telefone.[/href]"
+            "[href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/films.jpg"]Nuotrauka telefone.[/href]"
         ],
         "answer": ["t"],
         "points": 5,
