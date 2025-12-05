@@ -124,32 +124,32 @@
     },
     {
         "id": "5",
-        "name": "Test",
-        "lat": 54.6990436702467,
-        "lng": 25.303356395621584,
+        "name": "Lagaminiukas",
+        "lat": 54.694734122684736,
+        "lng": 25.28866254112623,
         "startType": "carousel",
         "startCarousel": {
-            "text": ["Jūs einate ten ir ten,", "matote ta ir ana..."],
+            "text": ["Jūs įeinate į ofisų pastatą Rinktinės gatvėje. Viduje randate siuntų dėžučių sieną."],
             "images": ["rinktines1.webp", "rinktines2.jpg", "rinktines3v2.jpg", "rinktines4.jpg", "rinktines5.jpg"],
             "changeInterval": 3
         },
+        "image": "lagaminas.jpg",
         "text": [
-            "Vienoje iš pašto dėžučių jus randate mažą lagaminėlį, su raidiniu užraktu ir kryžiažodžiu ant nugarėlės. Kryžiažodžio atsakymas ir yra užrakto raktas.",
-            "Kryžiažodžio klausimai kažkaip susiję su filmais, kuriuos matėte anksčiau.",
-            
-            "1. Šuns vardas pirmame filme.",
-            "2. Pagrindinių herojų pavardė.",
-            "3. Filmo pavadinimo paskutinė raidė.",
+            "Vienoje iš siuntų dėžučių jus randate nedidelį lagaminėlį, su raidiniu užraktu ir kryžiažodžiu ant nugarėlės. Kryžiažodžio atsakymas ir yra užrakto raktas.",
+            "Kryžiažodžio klausimai kažkaip susiję su filmais, kuriuos matėte anksčiau.",            
+            "1. Viso pirmo filmo dalių.",
+            "2. Profesoriaus šuns vardas pirmame filme.",
+            "3. Кą herojai gaudė pirmame filme, kad grįžti namo.",
+            "4. Ketvirto filmo pavadinimo paskutinis žodis.",
+            "5. Antro filmo herojų pavardė.",
+            "6. Pagrindinio herojaus vardas.",
+            "7. Mėlyna ar ...?",
             "[href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/films.jpg\"]Nuotrauka telefone.[/href]"
         ],
         "answer": ["Stalker"],
-        "points": 5,
-        "attempts": 2,
-        "time": 1,
-        "hint": {
-            "text": "Hint test",
-            "points": 2
-        }
+        "points": 4,
+        "attempts": 5,
+        "time": 5
     }
 ]
 
