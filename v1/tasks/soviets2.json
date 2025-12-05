@@ -131,7 +131,7 @@
         "attempts": 5,
         "time": 5,
         "dependency": ["1", "2", "3"],        
-        "nextTaskId": "6",
+        "nextTaskId": "5",
         "reward": {
             "text": [
                 "Įšėję iš Kinoteatro randate seną nuo laiko pageltonijųsį laikraštį rusų kalba. Jame perskaitote:",
