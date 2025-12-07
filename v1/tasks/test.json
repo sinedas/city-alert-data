@@ -170,12 +170,21 @@
             "changeInterval": 3
         },
         "text": [
-            "Jūs radote ginklų parduotuvės ženklą. Įrašykite ženklą."
+            "Ginklų parduotuvės grotos atrakinamos elektronine spyną. Išsprendę lygtį, gausite spynos kodą (ABC)."
         ],
-        "answer": ["Ginklų parduotuvė"],
-        "points": 4,
+        "answer": ["198"],
+        "points": 6,
         "attempts": 5,
-        "time": 5
+        "time": 5,
+        "hint": {
+            "text": [
+                "Žvelgiant į lygtį aiškiai matosi jog:",
+                "",
+                "A + B = 10",
+                "A = 0, 1 arba 2"
+            ],
+            "points": 3
+        }
     }
 ]
 
