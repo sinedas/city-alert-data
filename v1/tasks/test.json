@@ -116,6 +116,7 @@
         "time": 6,
         "nextTaskId": "5",
         "reward": {
+            "image": "prezidentura.jpg",
             "text": [
                 "Prisijungę prie Wi-Fi, bandode naršyti internete. Radote įdomią nuorodą į Yotube.",
                 "",
@@ -150,6 +151,28 @@
             "[href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/films.jpg\"]Nuotrauka telefone.[/href]"
         ],
         "answer": ["Stalker"],
+        "points": 4,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "6",
+        "name": "Ginklų parduotuvė",
+        "lat": 54.69516497128628, 
+        "lng": 25.277428796153,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": ["Jūs einate toliau į Konstitucijos prospektą. Prieinate ginklų pardutuvę. Ant jos dar likusios grotos.",
+                "Ginklai jums nepakenktų.",
+                "Užduočiai atlikti, turite 6 minutes."
+            ],
+            "images": ["konstitucijos1.jpg", "konstitucijos2.jpg", "konstitucijos3.jpg", "konstitucijos4.jpg", "konstitucijos5.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Jūs radote ginklų parduotuvės ženklą. Įrašykite ženklą."
+        ],
+        "answer": ["Ginklų parduotuvė"],
         "points": 4,
         "attempts": 5,
         "time": 5
