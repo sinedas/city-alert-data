@@ -54,8 +54,7 @@
         "reward": {
             "text": "Laikrodis rodo 07:10. Reik tikėtis, kad šiuo metu rytas. Izaokas Goldšteinas įspėjo išspresti užduotis iki saulėlydžio."
         },
-        "nextTaskId": "3",
-        "dependency": ["1"]
+        "nextTaskId": "3"
     },
     {
         "id": "3",
@@ -88,8 +87,7 @@
             ],
             "image": "films.jpg"
         },
-        "nextTaskId": "4",
-        "dependency": ["1", "2"]
+        "nextTaskId": "4"
     },
     {
         "id": "4",
@@ -105,7 +103,7 @@
                 "",
                 "Užduočiai atlikti turite 6-ias minutes."
             ],
-            "images": ["ofisai.jpg"],
+            "images": ["ofisaiv2.jpg"],
             "changeInterval": 3
         },
         "text": [
@@ -116,11 +114,16 @@
         "points": 5,
         "attempts": 5,
         "time": 6,
-        "reward": {
-            "text": "Eikite toliau Šeimyniškių gatve."
-        },
         "nextTaskId": "5",
-        "dependency": ["1", "2", "3"]
+        "reward": {
+            "text": [
+                "Prisijungę prie Wi-Fi, bandode naršyti internete. Radote įdomią nuorodą į Yotube.",
+                "",
+                "Šis video įrašas gali būti naudingas.",
+                "",
+                "[href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"]Paskutinė prezidento kalba[/href]"
+            ]
+        }
     },
     {
         "id": "5",
