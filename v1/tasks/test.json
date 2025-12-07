@@ -153,7 +153,8 @@
         "answer": ["Stalker"],
         "points": 4,
         "attempts": 5,
-        "time": 5
+        "time": 5,
+        "nextTaskId": "6"
     },
     {
         "id": "6",
@@ -185,7 +186,16 @@
                 "A = 0, 1 arba 2"
             ],
             "points": 3
-        }
+        },
+        "reward": {
+            "text": [
+                "Deja, bet ginklų parduotuvė jau seniai buvo ištuštinta. Joje mėtėsi keli nereikalingi baldai.",
+                "Kol jūs sprendėte lygtį, jauniasis komandos narys nusileido pasižvalgyti į tamsią perėją po konstitucijos prospektu, kur kažkas jį užpuolė ir smarkiai apdraskė jo ranką.",
+                "Būkite atsargūs ir saugokitės tamsių vietų."
+            ],
+            "image": "ranka_vyro.jpg"
+        },
+        "nextTaskId": "7"
     }
 ]
 
