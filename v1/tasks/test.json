@@ -154,7 +154,13 @@
         "points": 4,
         "attempts": 5,
         "time": 5,
-        "nextTaskId": "6"
+        "nextTaskId": "6",
+        "reward": {
+            "text": [
+                "Jūs atrakinote lagaminėlį. Jame jūs randate alchemiko rinkinį."
+            ],
+            "image": "elementai.jpg"
+        }
     },
     {
         "id": "6",
@@ -190,7 +196,7 @@
         "reward": {
             "text": [
                 "Deja, bet ginklų parduotuvė jau seniai buvo ištuštinta. Joje mėtėsi keli nereikalingi baldai.",
-                "Kol jūs sprendėte lygtį, jauniasis komandos narys nusileido pasižvalgyti į tamsią perėją po konstitucijos prospektu, kur kažkas jį užpuolė ir smarkiai apdraskė jo ranką.",
+                "Kol jūs sprendėte lygtį, jauniausias komandos narys nusileido pasižvalgyti į tamsią perėją po konstitucijos prospektu, kur kažkas jį užpuolė ir smarkiai apdraskė jo ranką.",
                 "Būkite atsargūs ir saugokitės tamsių vietų."
             ],
             "image": "ranka.jpg"
