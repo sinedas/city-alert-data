@@ -214,15 +214,16 @@
                 "Jus einate toliau upės link.",
                 "Staiga kažkas atsitiko jūsų jauniausiam komandos nariui. Jam prasidėjo \"Rabies zombificata\".",
                 "",
-                "Užduočiai atlikti turite 6 minutes."
+                "Užduočiai atlikti turite 7 minutes."
             ],
-            "images": ["konstitucijos1.jpg", "konstitucijos2.jpg", "konstitucijos3.jpg", "konstitucijos4.jpg", "konstitucijos5.jpg"],
+            "images": ["pasiutlige1.jpg", "pasiutlige2.jpg", "pasiutlige3.jpg"],
             "changeInterval": 3
         },
+        "image": "zombis.jpg",
         "text": [
             "Jūsų jauniausiam komandos nariui prasidėjo \"Zombinė pasiutligė\". Oda pažaliavo, akys paraudonavo, žvilgsnis pasidarė klaikus, iš burnos ėmė veržtis putos.",
             "Jūs turite tik kelias minutes jį išgelbėti. Atidarykite lagaminėlį ir pagaminkite senovinę mikstūrą.",
-            "Ši pasaka padės sužinoti 4 reikiamus elementus ir jų įdėjimo į kolbą tvarka.",
+            "Ši pasaka padės sužinoti 4 reikiamus elementus ir jų įdėjimo į kolbą tvarką.",
             "Koščėjaus mirtis.",
             "Už trijų devynių marių,",
             "Už trijų devynių žemių",
@@ -235,12 +236,13 @@
             "Pasieksi ... , išgerk jį.",
             "Paieksi ... , išgerk jį.",
             "Tada rasį koščėjaus mirtį, ... adatą. Sulayžyk ją.",
-            "Atsakyme įrašyk elementus."
+            "Atsakyme įrašyk elementus (pvz. Au Zr Fe C )."
         ],        
         "answer": ["NaCl Au Si Fe"],
         "points": 6,
         "attempts": 5,
-        "time": 6
+        "time": 7,
+        "nextTaskId": "8"
     }
 ]
 
