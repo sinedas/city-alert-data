@@ -157,7 +157,7 @@
         "nextTaskId": "6",
         "reward": {
             "text": [
-                "Jūs atrakinote lagaminėlį. Jame jūs randate alchemiko rinkinį."
+                "Jūs atrakinote lagaminėlį. Jame randate alchemiko rinkinį."
             ],
             "image": "elementaiv2.jpg"
         }
@@ -202,6 +202,45 @@
             "image": "ranka.jpg"
         },
         "nextTaskId": "7"
+    },
+    {
+        "id": "7",
+        "name": "Rabies zombificata",
+        "lat": 54.694479565214905, 
+        "lng": 25.275471297064456,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jus einate toliau upės link.",
+                "Staiga kažkas atsitiko jūsų jauniausiam komandos nariui. Jam prasidėjo \"Rabies zombificata\".",
+                "",
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["konstitucijos1.jpg", "konstitucijos2.jpg", "konstitucijos3.jpg", "konstitucijos4.jpg", "konstitucijos5.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Jūsų jauniausiam komandos nariui prasidėjo \"Zombinė pasiutligė\". Oda pažaliavo, akys paraudonavo, žvilgsnis pasidarė klaikus, iš burnos ėmė veržtis putos.",
+            "Jūs turite tik kelias minutes jį išgelbėti. Atidarykite lagaminėlį ir pagaminkite senovinę mikstūrą.",
+            "Ši pasaka padės sužinoti 4 reikiamus elementus ir jų įdėjimo į kolbą tvarka.",
+            "Koščėjaus mirtis.",
+            "Už trijų devynių marių,",
+            "Už trijų devynių žemių",
+            "Auga ažuolas, apjuostas grandinėmis.",
+            "Nukirpk gradines, kurios laiko skrynią.",
+            "Atidaryk skrynią, iš jos iššoks zuikis.",
+            "Nušauk zuikį, išskirsk antis.",
+            "Nušauk antį, iškris kiaušinis.",
+            "Pradurk kiaušinyje skylutę, paberk ...",
+            "Pasieksi ... , išgerk jį.",
+            "Paieksi ... , išgerk jį.",
+            "Tada rasį koščėjaus mirtį, ... adatą. Sulayžyk ją.",
+            "Atsakyme įrašyk elementus."
+        ],        
+        "answer": ["NaCl Au Si Fe"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6
     }
 ]
 
