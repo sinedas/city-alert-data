@@ -1,31 +1,5 @@
 [
-    {
-        "id": "0",
-        "name": "Valtis",
-        "lat": 54.69183393434865,
-        "lng": 25.27901662840188,
-        "startType": "carousel",
-        "startCarousel": {
-            "text": [
-            "Jūs einate link Neries. Planuojate persikelti į kitą upės pusę. Bet deja Žaliojo tilto nebelikę.",
-            "Krantinėje jūs randate valtį pririštą grandine.",
-            "",
-            "Užduočiai atlikti turite penkias minutes."
-            ],
-            "images": ["zaliasis1v2.jpg", "zaliasis2v2.jpg", "zaliasis3v2.jpg"],
-            "changeInterval": 3
-        },
-        "image": "penki2.jpg",
-        "text": [
-            "Valtis pririšta grandine su su skaitmenine spyna. Valtyje yra popieriaus lapas su skaitine lygybe. Skaitmenys ir ženklai sudaryti iš juodų brūkšnelių.",
-            "Perkelkite vieną brūkšnelį, kad lygybė būtų teisinga. Tai ir yra spynos kodas."
-        ],
-        "answer": ["545+5=550"],
-        "points": 3,
-        "attempts": 5,
-        "time": 5,
-        "nextTaskId": "1"
-    },
+    
     {
         "id": "1",
         "name": "Laiko kapsulė",
@@ -271,6 +245,33 @@
         "attempts": 5,
         "time": 7,
         "nextTaskId": "8"
+    },
+    {
+        "id": "8",
+        "name": "Valtis",
+        "lat": 54.69183393434865,
+        "lng": 25.27901662840188,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+            "Jūs einate link Neries. Planuojate persikelti į kitą upės pusę. Bet deja Žaliojo tilto nebelikę.",
+            "Krantinėje jūs randate valtį pririštą grandine.",
+            "",
+            "Užduočiai atlikti turite penkias minutes."
+            ],
+            "images": ["zaliasis1v2.jpg", "zaliasis2v2.jpg", "zaliasis3v2.jpg"],
+            "changeInterval": 3
+        },
+        "image": "penki2.jpg",
+        "text": [
+            "Valtis pririšta grandine su su skaitmenine spyna. Valtyje yra popieriaus lapas su skaitine lygybe. Skaitmenys ir ženklai sudaryti iš juodų brūkšnelių.",
+            "Perkelkite vieną brūkšnelį, kad lygybė būtų teisinga. Tai ir yra spynos kodas."
+        ],
+        "answer": ["545+5=550"],
+        "points": 3,
+        "attempts": 5,
+        "time": 5,
+        "nextTaskId": "9"
     }
 ]
 
