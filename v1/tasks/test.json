@@ -1,5 +1,28 @@
 [
     {
+        "id": "0",
+        "name": "Valtis",
+        "lat": 54.68947126784314, 
+        "lng": 25.287594587001774,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs einate prie Neries."
+            ],
+            "images": ["zaliasis1.jpg", "zaliasis2.jpg", "zaliasis3.jpg"],
+            "changeInterval": 3
+        },
+        "image": "penki2.jpg",
+        "text": [
+            "Lygtis."
+        ],
+        "answer": ["5"],
+        "points": 3,
+        "attempts": 5,
+        "time": 5,
+        "nextTaskId": "1"
+    },
+    {
         "id": "1",
         "name": "Laiko kapsulė",
         "lat": 54.696758801413715, 
