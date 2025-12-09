@@ -36,24 +36,6 @@
     "checkLocation": true
   },
   {
-    "code": "cathedral",
-    "title": "Katedros lobis",
-    "location": {
-      "lat": 54.6868,
-      "lng": 25.2872
-    },
-    "initialDiameter": 3000,
-    "finalDiameter": 300,
-    "duration": 2,
-    "active": false,
-    "locked": false,
-    "description": "Vilniaus katedros paslaptys ir paslėptas lobis",
-    "start": "Kudirkos aikštė",
-    "finish": "Katedra",
-    "hints": 2,
-    "checkLocation": false
-  },
-  {
     "code": "soviets2",
     "title": "Žydų kapinės ir sovietiniai monstrai",
     "location": {
@@ -91,8 +73,8 @@
     "checkLocation": false
   },
   {
-    "code": "test",
-    "title": "Test",
+    "code": "future",
+    "title": "Vilnius- Apokalipsė",
     "location": {
       "lat": 54.698039582832486, 
       "lng": 25.302702381449947
@@ -102,11 +84,29 @@
     "duration": 20,
     "active": true,
     "locked": false,
-    "description": "Test challenge",
-    "start": "Žirmūnų biblioteka",
-    "finish": "Tuskulėnų dvaras",
+    "description": "Keliaukite į apokaliptinį ateities Vilnių.",
+    "start": "Žirmūnų Iki",
+    "finish": "Tauro kalnas",
     "hints": 1,
     "checkLocation": false,
     "pointsPerLeftMinutes": 1
+  },
+  {
+    "code": "cathedral",
+    "title": "Katedros lobis",
+    "location": {
+      "lat": 54.6868,
+      "lng": 25.2872
+    },
+    "initialDiameter": 3000,
+    "finalDiameter": 300,
+    "duration": 2,
+    "active": false,
+    "locked": false,
+    "description": "Vilniaus katedros paslaptys ir paslėptas lobis",
+    "start": "Kudirkos aikštė",
+    "finish": "Katedra",
+    "hints": 2,
+    "checkLocation": false
   }
 ]
