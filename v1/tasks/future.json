@@ -240,7 +240,7 @@
             "Tada rasį koščėjaus mirtį, ... adatą. Sulayžyk ją.",
             "Atsakyme įrašyk elementus (pvz. Au Zr Fe C )."
         ],        
-        "answer": ["NaCl Au Si Fe"],
+        "answer": ["NaCl Si Au Fe"],
         "points": 6,
         "attempts": 5,
         "time": 7,
