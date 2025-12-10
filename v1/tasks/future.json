@@ -4,6 +4,12 @@
         "name": "Durys",
         "lat": 54.68938189833022, 
         "lng": 25.28181180950075,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": "Jūs išlipote iš laiko kapsulės Vilniuje, šalia Žirmūnų iki parduotuvės. Vilniaus neįmanoma pažinti. Kas čia atsitiko? ",
+            "images": ["tilto.jpg", "tilto2.jpg"],
+            "changeInterval": 3
+        },
         "type": "audio",
         "audio": "morse.wav",
         "image": "tilto.jpg",
@@ -17,12 +23,6 @@
         "hint": {
             "text": "Morzes abecele.",
             "points": 2
-        },
-        "rewardType": "carousel",
-        "rewardCarousel": {
-            "text": "Jūs išlipote iš laiko kapsulės Vilniuje, šalia Žirmūnų iki parduotuvės. Vilniaus neįmanoma pažinti. Kas čia atsitiko? ",
-            "images": ["tilto.jpg", "tilto2.jpg"],
-            "changeInterval": 3
         },
         "nextTaskId": "1"
     },
