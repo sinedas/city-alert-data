@@ -24,6 +24,18 @@
             "text": "Morzes abecele.",
             "points": 2
         },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Išsigande jūs bėgate ...",
+                "Per kiemus, apleistus tunelius.",
+                "Lipate per tvoras",
+                "Grįžtate atgal, vėl bėgate ...",
+                "..."
+            ],
+            "images": ["morze1.jpg", "morze2.jpg", "morze3.jpg", "morze4.jpg", "morze5.jpg", "morze6.jpg", "morze7.jpg"],
+            "changeInterval": 1
+        },
         "nextTaskId": "1"
     },
     {
