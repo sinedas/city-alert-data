@@ -296,10 +296,10 @@
         "image": "clock.png",
         "text": [
             "Katedros Varpinės laikrodis dėl nepriežiūros sugedo. Meistrai sutvarkė laikrodį, bet reikia nustatyti gerą dienos laiką. Laiką jums parodys laikrodis kurį radote dėžutėje Lenino aikštėje.",
-            "Atsakyme įrašykite laiką formatu: hh:mm (valandoms naudokite tik 00-11 valandas)."
+            "Atsakyme įrašykite laiką formatu: hh:mm:ss (valandoms naudokite tik 00-11 valandas)."
         ],
         "answer": [
-            "07:10"
+            "07:10:00"
         ],
         "points": 5,
         "attempts": 4,
