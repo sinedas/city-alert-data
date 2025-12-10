@@ -4,9 +4,10 @@
         "name": "Durys",
         "lat": 54.68938189833022, 
         "lng": 25.28181180950075,
+        "type": "audio",
         "audio": "morse.wav",
         "text": [
-            "Už durų pasigirdo garas."
+            "Už durų pasigirdo garsas."
         ],
         "answer": ["Bėkit"],
         "points": 3,
@@ -22,7 +23,7 @@
             "images": ["zirmunu1.jpg", "zirmunu2.jpg", "zirmunu3.jpg"],
             "changeInterval": 3
         },
-        "nextTaskId": "2"
+        "nextTaskId": "1"
     },
     {
         "id": "1",
