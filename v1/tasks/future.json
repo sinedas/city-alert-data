@@ -1,5 +1,37 @@
 [
     {
+        "id": "0",
+        "name": "Ginklų parduotuvė",
+        "lat": 54.686757490797966, 
+        "lng": 25.286434439132556,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": ["Jūs einate toliau į Konstitucijos prospektą. Prieinate ginklų pardutuvę. Ant jos dar likusios grotos.",
+                "Ginklai jums nepakenktų.",
+                "Užduočiai atlikti, turite 6 minutes."
+            ],
+            "images": ["konstitucijos1.jpg", "konstitucijos2.jpg", "konstitucijos3.jpg", "konstitucijos4.jpg", "konstitucijos5.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Ginklų parduotuvės grotos atrakinamos elektronine spyną. Išsprendę lygtį, gausite spynos kodą (ABC)."
+        ],
+        "image": "lempute.jpg",
+        "answer": ["ginklai"],
+        "points": 6,
+        "attempts": 5,
+        "time": 5,
+        "reward": {
+            "text": [
+                "Deja, bet ginklų parduotuvė jau seniai buvo ištuštinta. Joje mėtėsi keli nereikalingi baldai.",
+                "Kol jūs sprendėte lygtį, jauniausias komandos narys nusileido pasižvalgyti į tamsią perėją po konstitucijos prospektu, kur kažkas jį užpuolė ir smarkiai apdraskė jo ranką.",
+                "Būkite atsargūs ir saugokitės tamsių vietų."
+            ],
+            "image": "ranka.jpg"
+        },
+        "nextTaskId": "1"
+    },
+    {
         "id": "1",
         "name": "Laiko kapsulė",
         "lat": 54.696758801413715, 
@@ -280,7 +312,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Persiire į kitą upės pusę, jūs einate į Tilto gatvę. Staiga, už vienų namo durų jūs išgirdote garsą.",
+                "Persiyre į kitą upės pusę, jūs einate į Tilto gatvę. Staiga, už vienų namo durų jūs išgirdote garsą.",
                 "",
                 "Užduočiai atlikti turite 7 minutes."
             ],
