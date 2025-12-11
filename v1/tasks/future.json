@@ -1,44 +1,5 @@
 [
     {
-        "id": "0",
-        "name": "Durys",
-        "lat": 54.68938189833022, 
-        "lng": 25.28181180950075,
-        "startType": "carousel",
-        "startCarousel": {
-            "text": "Jūs išlipote iš laiko kapsulės Vilniuje, šalia Žirmūnų iki parduotuvės. Vilniaus neįmanoma pažinti. Kas čia atsitiko? ",
-            "images": ["tilto.jpg", "tilto2.jpg", "durys2.jpg"],
-            "changeInterval": 3
-        },
-        "type": "audio",
-        "audio": "morse.wav",
-        "image": "durys2.jpg",
-        "text": [
-            "Už durų pasigirdo garsas."
-        ],
-        "answer": ["Bėkit"],
-        "points": 3,
-        "attempts": 5,
-        "time": 5,
-        "hint": {
-            "text": "Morzes abecele.",
-            "points": 2
-        },
-        "rewardType": "carousel",
-        "rewardCarousel": {
-            "text": [
-                "Išsigande jūs bėgate ...",
-                "Per kiemus, apleistus tunelius.",
-                "Lipate per tvoras",
-                "Grįžtate atgal, vėl bėgate ...",
-                "..."
-            ],
-            "images": ["morze1.jpg", "morze2.jpg", "morze3.jpg", "morze4.jpg", "morze5.jpg", "morze6.jpg", "morze7.jpg"],
-            "changeInterval": 1
-        },
-        "nextTaskId": "1"
-    },
-    {
         "id": "1",
         "name": "Laiko kapsulė",
         "lat": 54.696758801413715, 
@@ -310,6 +271,48 @@
         "attempts": 5,
         "time": 5,
         "nextTaskId": "9"
+    },
+    {
+        "id": "9",
+        "name": "Durys",
+        "lat": 54.68938189833022, 
+        "lng": 25.28181180950075,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Persiire į kitą upės pusę, jūs einate į Tilto gatvę. Staiga, už vienų namo durų jūs išgirdote garsą.",
+                "",
+                "Užduočiai atlikti turite 7 minutes."
+            ],
+            "images": ["tilto.jpg", "tilto2.jpg", "durys2.jpg"],
+            "changeInterval": 3
+        },
+        "type": "audio",
+        "audio": "morse.wav",
+        "image": "durys2.jpg",
+        "text": [
+            "Už namo durų gidisi pypsėjimas. Ką jis turėtų reikšti?",
+            "",
+            "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]"
+        ],
+        "answer": ["Bėkit"],
+        "points": 3,
+        "attempts": 5,
+        "time": 7,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Kažkas ėmė jus persioketi.",
+                "Išsigande jūs bėgate ...",
+                "Per kiemus, apleistus tunelius.",
+                "Lipate per tvoras",
+                "Grįžtate atgal, vėl bėgate ...",
+                "..."
+            ],
+            "images": ["morze1.jpg", "morze2.jpg", "morze3.jpg", "morze4.jpg", "morze5.jpg", "morze6.jpg", "morze7.jpg"],
+            "changeInterval": 1
+        },
+        "nextTaskId": "10"
     }
 ]
 
