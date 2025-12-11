@@ -7,12 +7,12 @@
         "startType": "carousel",
         "startCarousel": {
             "text": "Jūs išlipote iš laiko kapsulės Vilniuje, šalia Žirmūnų iki parduotuvės. Vilniaus neįmanoma pažinti. Kas čia atsitiko? ",
-            "images": ["tilto.jpg", "tilto2.jpg"],
+            "images": ["tilto.jpg", "tilto2.jpg", "durys2.jpg"],
             "changeInterval": 3
         },
         "type": "audio",
         "audio": "morse.wav",
-        "image": "tilto.jpg",
+        "image": "durys2.jpg",
         "text": [
             "Už durų pasigirdo garsas."
         ],
