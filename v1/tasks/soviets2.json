@@ -544,9 +544,21 @@
         "answer": [
             "1986"
         ],
-        "points": 5,
+        "points": 8,
         "attempts": 3,
-        "time": 7,
+        "time": 9,
+        "hint": {
+            "text": [
+                "Prisiminkite viską ką sužinojote.",
+                "",
+                "Šiandien yra gegužės 6-а diena.",
+                "Julius gimė spalio 28 dieną. Jam 9 metai.",
+                "Darius gimė lapkričio 18 dieną. Jam 11 metų.",
+                "Mažasis Marius gimė 1980 m. gegužės 9-ą dieną.",
+                "Kai Marius gimė, Darius buvo dvigubai vyresnis už Julių."
+            ],
+            "points": 3
+        },
         "reward": {
             "text": [
                 "Jūs grįžtate į nepriklausomą Lietuvą. О Vilniuje po dviejų metų prasidės Sąjudis. Laukia pokyčiai."
