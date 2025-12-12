@@ -54,9 +54,6 @@
         "points": 6,
         "attempts": 3,
         "time": 7,
-        "dependency": [
-            "1"
-        ],
         "nextTaskId": "3",
         "hint": {
             "text": [
@@ -93,7 +90,6 @@
         "points": 6,
         "attempts": 3,
         "time": 10,
-        "dependency": ["1", "2"],
         "nextTaskId": "4",
         "hint": {
             "image": "julius_hint.png"
@@ -130,7 +126,6 @@
         "points": 5,
         "attempts": 5,
         "time": 5,
-        "dependency": ["1", "2", "3"],        
         "nextTaskId": "5",
         "reward": {
             "text": [
@@ -155,7 +150,6 @@
         "points": 5,
         "attempts": 4,
         "time": 7,
-        "dependency": ["1", "2", "3", "4"],
         "nextTaskId": "6",
         "hint": {
             "image": "lenin_hint.jpg",
@@ -185,7 +179,6 @@
         "points": 5,
         "attempts": 3,
         "time": 6,
-        "dependency": ["1", "2", "3", "4", "5"],
         "nextTaskId": "7",
         "reward": {
             "image": "coffee.jpg",
@@ -212,7 +205,6 @@
         "points": 5,
         "attempts": 4,
         "time": 5,
-        "dependency": ["1", "2", "3", "4", "5", "6"],
         "nextTaskId": "8",
         "hint": {
             "text": [
@@ -245,7 +237,6 @@
         "points": 5,
         "attempts": 5,
         "time": 8,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7"],
         "nextTaskId": "9",
         "reward": {
             "text": [
@@ -276,7 +267,6 @@
         "points": 4,
         "attempts": 3,
         "time": 6,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8"],
         "nextTaskId": "10",
         "reward": {
             "text": [
@@ -304,7 +294,6 @@
         "points": 5,
         "attempts": 4,
         "time": 5,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
         "nextTaskId": "11",
         "reward": {
             "text": [
@@ -336,7 +325,6 @@
         "attempts": 4,
         "minusPointsOnAttempt": 1,
         "time": 6,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
         "nextTaskId": "12",
         "hint": {
             "text": [
@@ -372,7 +360,6 @@
         "attempts": 3,
         "minusPointsOnAttempt": 1,
         "time": 5,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
         "nextTaskId": "13",
         "reward": {
             "text": [
@@ -402,7 +389,6 @@
         "points": 6,
         "attempts": 5,
         "time": 6,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
         "nextTaskId": "14",
         "reward": {
             "text": [
@@ -427,7 +413,6 @@
         "points": 5,
         "attempts": 5,
         "time": 5,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"],
         "nextTaskId": "15",
         "hint": {
             "image": "cup_hint.png",
@@ -464,7 +449,6 @@
         "points": 5,
         "attempts": 5,
         "time": 6,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"],
         "nextTaskId": "16",
         "reward": {
             "text": [
@@ -492,7 +476,6 @@
         "points": 3,
         "attempts": 3,
         "time": 5,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
         "nextTaskId": "17",
         "reward": {
             "text": [
@@ -522,7 +505,6 @@
         "points": 4,
         "attempts": 3,
         "time": 5,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"],
         "nextTaskId": "18",
         "reward": {
             "text": [
@@ -548,7 +530,6 @@
         "points": 5,
         "attempts": 3,
         "time": 7,
-        "dependency": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
         "reward": {
             "text": [
                 "Jūs grįžtate į nepriklausomą Lietuvą. О Vilniuje po dviejų metų prasidės Sąjudis. Laukia pokyčiai."
