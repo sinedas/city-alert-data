@@ -510,6 +510,15 @@
         "attempts": 3,
         "time": 5,
         "nextTaskId": "18",
+        "hint": {
+            "image": "hipis.jpg",
+            "text": [
+                "Tai yra hipių ženklas.",
+                "",
+                "O ką jums pasakė knygyno vedėja?"
+            ],
+            "points": 2
+        },
         "reward": {
             "text": [
                 "Jūs pakalbėjote su jaunuoliais. Sužinojote, kad Petras yra Juliaus brolis.",

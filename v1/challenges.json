@@ -48,7 +48,7 @@
     "active": true,
     "locked": false,
     "description": "Laiko mašina grįžkite į sovietinį laiką.",
-    "hints": 7,
+    "hints": 8,
     "start": "Pirma užduotis- Vaikų pasaulis",
     "finish": "Žydų kapinės",
     "checkLocation": false,
