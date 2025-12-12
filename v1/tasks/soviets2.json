@@ -52,7 +52,7 @@
             "Batistas"
         ],
         "points": 6,
-        "attempts": 3,
+        "attempts": 5,
         "time": 7,
         "nextTaskId": "3",
         "hint": {
@@ -88,7 +88,7 @@
             "Spalis"
         ],
         "points": 6,
-        "attempts": 3,
+        "attempts": 5,
         "time": 10,
         "nextTaskId": "4",
         "hint": {
@@ -123,6 +123,10 @@
             "Aštuonkojai iš antro aukšto",
             "Aštunkojai iš antro aukšto"
         ],
+        "hint": {
+            "text": "Žemaitės paminklas yra netoli Lukiškių aištės.",
+            "points": 2
+        },
         "points": 5,
         "attempts": 5,
         "time": 5,
@@ -131,7 +135,7 @@
             "text": [
                 "Įšėję iš Kinoteatro randate seną nuo laiko pageltonijųsį laikraštį rusų kalba. Jame perskaitote:",
                 "",
-                "„Revoliucija Rusijoje",
+                "„REVOLIUCIJA RUSIJOJE",
                 "",
                 "Spalio 25 dieną Petrapilyje bolševikai įvykdė perversmą ir užėmė Žiemos rūmus.“",
                 "",
@@ -265,7 +269,7 @@
             "jdmom"
         ],
         "points": 4,
-        "attempts": 3,
+        "attempts": 4,
         "time": 6,
         "nextTaskId": "10",
         "reward": {
@@ -286,7 +290,10 @@
         "image": "clock.png",
         "text": [
             "Katedros Varpinės laikrodis dėl nepriežiūros sugedo. Meistrai sutvarkė laikrodį, bet reikia nustatyti gerą dienos laiką. Laiką jums parodys laikrodis kurį radote dėžutėje Lenino aikštėje.",
-            "Atsakyme įrašykite laiką formatu: hh:mm:ss (valandoms naudokite tik 00-11 valandas)."
+            "Atsakyme įrašykite laiką formatu: HH:mm:ss",
+            "(valandoms naudokite tik 00-11 valandas).",
+            "",
+            "[href=\"https://storage.googleapis.com/city-alert/soviets/clock.png\"]Laikrodis[/href]"
         ],
         "answer": [
             "07:10:00"
