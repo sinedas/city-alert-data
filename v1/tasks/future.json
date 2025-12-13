@@ -1,36 +1,5 @@
 [
     {
-        "id": "0",
-        "name": "Ginklų parduotuvė",
-        "lat": 54.686757490797966, 
-        "lng": 25.286434439132556,
-        "startType": "carousel",
-        "startCarousel": {
-            "text": [
-                "Jūs einate Gedimino prospektu. Prieinate pinigų muziejų.",
-                "Keista langai turi grotas, o duris plienines duris. Kažkas ten turėtų būti.",
-                "",
-                "Užduočiai atlikti, turite 6 minutes."
-            ],
-            "images": ["pinigai1.jpg", "pinigai2.jpg", "pinigai3.jpg"],
-            "changeInterval": 3
-        },
-        "text": [
-            "",
-            "Pinigų muziejus irgi turi elektroninę spyną. Šalia durų pamatote skardinę lentutę su monetomis.",
-            "Vilniuje paskutiniais šimtmečiais cirkuliavo įvairios monetos.",
-            "Surikiuokite jas pagal išleidimo metus. Tai ir bus 6-ių raidžių spynos kodas.",
-            "Jei neįžiūrite A monetoje parašyta- \"Gyvybės eliksyras\"",
-            "E monetoje parašyta- \"Lietuvos valstybei 40 metų.\""
-        ],
-        "image": "monetos2.jpg",
-        "answer": ["DBECFA"],
-        "points": 6,
-        "attempts": 3,
-        "time": 6,
-        "nextTaskId": "1"
-    },
-    {
         "id": "1",
         "name": "Laiko kapsulė",
         "lat": 54.696758801413715, 
@@ -348,6 +317,53 @@
             "changeInterval": 1
         },
         "nextTaskId": "10"
+    },
+    {
+        "id": "10",
+        "name": "Pinigų muziejus",
+        "lat": 54.686645208246716, 
+        "lng": 25.28243971944625,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs einate Gedimino prospektu. Prieinate pinigų muziejų.",
+                "Keista, langai turi grotas, ir yra įstatytos plieninės durys. Kažkas ten turėtų būti.",
+                "",
+                "Užduočiai atlikti, turite 6 minutes."
+            ],
+            "images": ["pinigai1.jpg", "pinigai2.jpg", "pinigai3v2.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Pinigų muziejus irgi turi elektroninę spyną. Šalia durų pamatote skardinę lentutę su monetomis.",
+            "Vilniuje paskutiniais šimtmečiais cirkuliavo įvairios monetos.",
+            "Surikiuokite jas pagal išleidimo metus. Tai ir bus 6-ių raidžių spynos kodas.",
+            "",
+            "A monetoje parašyta- \"Gyvybės eliksyras\"",
+            "E monetoje parašyta- \"Lietuvos valstybei 40 metų.\""
+        ],
+        "image": "monetos2.jpg",
+        "answer": ["DBECFA"],
+        "points": 6,
+        "attempts": 3,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Gyvybės eliksyras buvo paminėtas prezidento kalboje.",
+                "",
+                "[href=\"https://www.youtube.com/watch?v=ZgJEKkCSU_E\"]Paskutinė prezidento kalba[/href]"
+               
+            ],
+            "points": 2
+        },
+        "reward": {
+            "text": [
+                "Pinigų muziejus turėjo daug sidabrinių monetų, kurios buvo perlydytos į šovinių tūtas.",
+                "Ant grindų randate dėžę sidabrinių kulkų."
+            ],
+            "image": "pinigai1.jpg"
+        },
+        "nextTaskId": "11"
     }
 ]
 
