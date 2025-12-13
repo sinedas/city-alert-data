@@ -16,16 +16,17 @@
         "text": [
             "Ginklų parduotuvės grotos atrakinamos elektronine spyną. Išsprendę lygtį, gausite spynos kodą (ABC)."
         ],
-        "image": "monetos.jpg",
-        "answer": ["t"],
+        "image": "monetos2.jpg",
+        "answer": ["DBECFA"],
         "points": 6,
-        "attempts": 5,
-        "time": 5,
+        "attempts": 3,
+        "time": 6,
         "reward": {
             "text": [
-                "Deja, bet ginklų parduotuvė jau seniai buvo ištuštinta. Joje mėtėsi keli nereikalingi baldai.",
-                "Kol jūs sprendėte lygtį, jauniausias komandos narys nusileido pasižvalgyti į tamsią perėją po konstitucijos prospektu, kur kažkas jį užpuolė ir smarkiai apdraskė jo ranką.",
-                "Būkite atsargūs ir saugokitės tamsių vietų."
+                "Vilniuje paskutiniais šimtmečiais cirkuliavo įvairios monetos.",
+                "Surikiuokite jas pagal išleidimo metus. Tai ir bus 6-ių raidžių spynos kodas.",
+                "Jei neįžiūrite A monetoje parašyta- \"Gyvybės eliksyras\"",
+                "E monetoje parašyta- \"Lietuvos valstybei 40 metų.\""
             ],
             "image": "ranka.jpg"
         },
