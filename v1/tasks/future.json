@@ -320,6 +320,40 @@
     },
     {
         "id": "10",
+        "name": "Ginklų parduotuvė",
+        "lat": 54.68674765285703, 
+        "lng": 25.28641615895847,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs atsidūrėte šalia Katedros aikštės. Ten radote dar viena ginklų parduotuvę.",
+                "Parduotuvė turi plienines duris su elektronine spyna. O šalia kabo kažkokia lentelė.",
+                "",
+                "Užduočiai atlikti, turite 7 minutes."
+            ],
+            "images": ["ginklai2.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Išspreskite lygtį ir sužinosite spynos kodą."
+        ],
+        "image": "lemputes3.jpg",
+        "answer": ["143"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6,
+        "reward": {
+            "text": [
+                "Pardutuvėje randate automatinius ginklus. Dabar jūs ginkluoti.",
+                "",
+                "Bet kur gauti šovinių?"
+            ],
+            "image": "automatai.jpg"
+        },
+        "nextTaskId": "11"
+    },
+    {
+        "id": "11",
         "name": "Pinigų muziejus",
         "lat": 54.686645208246716, 
         "lng": 25.28243971944625,
@@ -363,7 +397,7 @@
             ],
             "image": "kulkos.jpg"
         },
-        "nextTaskId": "11"
+        "nextTaskId": "12"
     }
 ]
 
