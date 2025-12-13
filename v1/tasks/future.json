@@ -6,30 +6,28 @@
         "lng": 25.286434439132556,
         "startType": "carousel",
         "startCarousel": {
-            "text": ["Jūs einate toliau į Konstitucijos prospektą. Prieinate ginklų pardutuvę. Ant jos dar likusios grotos.",
-                "Ginklai jums nepakenktų.",
+            "text": [
+                "Jūs einate Gedimino prospektu. Prieinate pinigų muziejų.",
+                "Keista langai turi grotas, o duris plienines duris. Kažkas ten turėtų būti.",
+                "",
                 "Užduočiai atlikti, turite 6 minutes."
             ],
-            "images": ["konstitucijos1.jpg", "konstitucijos2.jpg", "konstitucijos3.jpg", "konstitucijos4.jpg", "konstitucijos5.jpg"],
+            "images": ["pinigai1.jpg", "pinigai2.jpg", "pinigai3.jpg"],
             "changeInterval": 3
         },
         "text": [
-            "Ginklų parduotuvės grotos atrakinamos elektronine spyną. Išsprendę lygtį, gausite spynos kodą (ABC)."
+            "",
+            "Pinigų muziejus irgi turi elektroninę spyną. Šalia durų pamatote skardinę lentutę su monetomis.",
+            "Vilniuje paskutiniais šimtmečiais cirkuliavo įvairios monetos.",
+            "Surikiuokite jas pagal išleidimo metus. Tai ir bus 6-ių raidžių spynos kodas.",
+            "Jei neįžiūrite A monetoje parašyta- \"Gyvybės eliksyras\"",
+            "E monetoje parašyta- \"Lietuvos valstybei 40 metų.\""
         ],
         "image": "monetos2.jpg",
         "answer": ["DBECFA"],
         "points": 6,
         "attempts": 3,
         "time": 6,
-        "reward": {
-            "text": [
-                "Vilniuje paskutiniais šimtmečiais cirkuliavo įvairios monetos.",
-                "Surikiuokite jas pagal išleidimo metus. Tai ir bus 6-ių raidžių spynos kodas.",
-                "Jei neįžiūrite A monetoje parašyta- \"Gyvybės eliksyras\"",
-                "E monetoje parašyta- \"Lietuvos valstybei 40 metų.\""
-            ],
-            "image": "ranka.jpg"
-        },
         "nextTaskId": "1"
     },
     {
