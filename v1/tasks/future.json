@@ -16,8 +16,8 @@
         "text": [
             "Ginklų parduotuvės grotos atrakinamos elektronine spyną. Išsprendę lygtį, gausite spynos kodą (ABC)."
         ],
-        "image": "lemputes3.jpg",
-        "answer": ["ginklai"],
+        "image": "monetos.jpg",
+        "answer": ["t"],
         "points": 6,
         "attempts": 5,
         "time": 5,
