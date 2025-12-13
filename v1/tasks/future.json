@@ -295,7 +295,7 @@
         "audio": "morse.wav",
         "image": "durys2.jpg",
         "text": [
-            "Už namo durų gidisi pypsėjimas. Ką jis turėtų reikšti?",
+            "Už namo durų girdisi pypsėjimas. Ką jis turėtų reikšti?",
             "",
             "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]"
         ],
@@ -313,7 +313,7 @@
                 "Grįžtate atgal, vėl bėgate ...",
                 "..."
             ],
-            "images": ["morze1.jpg", "morze2.jpg", "morze3.jpg", "morze4.jpg", "morze5.jpg", "morze6.jpg", "morze7.jpg"],
+            "images": ["morze1.jpg", "morze2.jpg", "morze3.jpg", "morze4v2.jpg", "morze5.jpg", "morze6.jpg", "morze7.jpg"],
             "changeInterval": 1
         },
         "nextTaskId": "10"
@@ -361,7 +361,7 @@
                 "Pinigų muziejus turėjo daug sidabrinių monetų, kurios buvo perlydytos į šovinių tūtas.",
                 "Ant grindų randate dėžę sidabrinių kulkų."
             ],
-            "image": "pinigai1.jpg"
+            "image": "kulkos.jpg"
         },
         "nextTaskId": "11"
     }
