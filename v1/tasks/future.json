@@ -54,7 +54,9 @@
         },
         "rewardType": "carousel",
         "rewardCarousel": {
-            "text": "Jūs išlipote iš laiko kapsulės Vilniuje, šalia Žirmūnų iki parduotuvės. Vilniaus neįmanoma pažinti. Kas čia atsitiko? ",
+            "text": [
+                "Jūs išlipote iš laiko kapsulės Vilniuje, šalia Žirmūnų iki parduotuvės. Vilniaus neįmanoma pažinti. Kas čia atsitiko? "
+            ],
             "images": ["zirmunu1.jpg", "zirmunu2.jpg", "zirmunu3.jpg"],
             "changeInterval": 3
         },
@@ -85,7 +87,9 @@
         "attempts": 5,
         "time": 6,
         "reward": {
-            "text": "Laikrodis rodo 07:10. Reik tikėtis, kad šiuo metu rytas. Izaokas Goldšteinas įspėjo išspresti užduotis iki saulėlydžio."
+            "text": [
+                "Laikrodis rodo 07:10. Reik tikėtis, kad šiuo metu rytas. Izaokas Goldšteinas įspėjo išspresti užduotis iki saulėlydžio."
+            ]
         },
         "nextTaskId": "3"
     },
