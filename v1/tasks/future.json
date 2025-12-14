@@ -408,20 +408,21 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs atėjote prie prezidentūros, kur jūsų laukė Izaokas Goldšteinas su kapsule", 
+                "Jūs atėjote prie prezidentūros, kur jūsų laukė Izaokas Goldšteinas iš ateities su laiko kapsule", 
                 "Telefone atsirado GPS ryšis ir į jį atkeliavo failas su moskliniais duomenimis, padėsiančiais išgelbėti žmoniją.",
                 "Bet kaip jį atverti?",
-                "",
-                "O tuo metu",
-                "Saulė ėmė leistis žemiau pastatų, iš namų pakampių pradėjo lysti zombiai, vampyrai, kipšai ir kiti tamsos padarai. Vienas jūsų komandos narių paleido kelis šuvius.",
-                "",
+                "",                
                 "Paskubėkit, užduočiai atlikti turite į minutes."
             ],
             "images": ["daukanto1.jpg"],
             "changeInterval": 3
         },
+        "image": "daukanto1.jpg",
         "text": [
-            "Išspreskite lygtį ir atverkite failą."
+            "Išspreskite lygtį ir atverkite failą.",
+            "",
+            "O tuo metu.",
+            "Saulė ėmė leistis žemiau pastatų, iš namų pakampių pradėjo lysti zombiai, vampyrai, kipšai ir kiti tamsos padarai. Vienas jūsų komandos narių paleido kelis šuvius."
         ],
         "answer": ["2066"],
         "points": 3,
