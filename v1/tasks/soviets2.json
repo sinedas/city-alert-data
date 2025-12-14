@@ -42,7 +42,6 @@
             "ISLAMABADAS",
             "SEULAS",
             "RIGA",
-            "PODGORICA",
             "TEHERANAS",
             "BAKU",
             "ANKARA",
@@ -413,7 +412,7 @@
             "Koks laikas bus dar po minutės?"
         ],
         "answer": [
-            "12:02"
+            "15:02"
         ],
         "points": 5,
         "attempts": 5,
