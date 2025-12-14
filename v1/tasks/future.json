@@ -181,13 +181,14 @@
             "changeInterval": 3
         },
         "text": [
-            "Ginklų parduotuvės grotos atrakinamos elektronine spyną. Išsprendę lygtį, gausite spynos kodą (ABC)."
+            "Ginklų parduotuvės grotos atrakinamos elektronine spyną.",
+            "Išsprendę lygtį, gausite spynos kodą (ABC)."
         ],
         "image": "lygtisv2.jpg",
         "answer": ["198"],
         "points": 6,
         "attempts": 5,
-        "time": 5,
+        "time": 6,
         "hint": {
             "text": [
                 "Žvelgiant į lygtį aiškiai matosi jog:",
@@ -398,6 +399,47 @@
             "image": "kulkos.jpg"
         },
         "nextTaskId": "12"
+    },
+    {
+        "id": "12",
+        "name": "Paskutinis failas",
+        "lat": 54.683614205650365, 
+        "lng": 25.286154779323535,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs atėjote prie prezidentūros, kur jūsų laukė Izaokas Goldšteinas su kapsule", 
+                "Telefone atsirado GPS ryšis ir į jį atkeliavo failas su moskliniais duomenimis, padėsiančiais išgelbėti žmoniją.",
+                "Bet kaip jį atverti?",
+                "",
+                "O tuo metu",
+                "Saulė ėmė leistis žemiau pastatų, iš namų pakampių pradėjo lysti zombiai, vampyrai, kipšai ir kiti tamsos padarai. Vienas jūsų komandos narių paleido kelis šuvius.",
+                "",
+                "Paskubėkit, užduočiai atlikti turite į minutes."
+            ],
+            "images": ["daukanto.jpg"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Išspreskite lygtį ir atverkite failą."
+        ],
+        "answer": ["2066"],
+        "points": 3,
+        "attempts": 5,
+        "time": 5,
+        "hint": {
+            "text": "Lygtis",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Jūs atvėrėte failą. Jo duomenys padės mokslininkams išsiaiškinti, kas sukėlė zombėjimo pasiutligę ir kitas ligas.",
+                "Laikas grįžti namo."
+            ],
+            "images": ["kulkos.jpg"],
+            "changeInterval": 3
+        }
     }
 ]
 
