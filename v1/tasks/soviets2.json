@@ -92,7 +92,8 @@
         "time": 10,
         "nextTaskId": "4",
         "hint": {
-            "image": "julius_hint.png"
+            "image": "julius_hint.png",
+            "points": 2
         },
         "reward": {
             "text": [

@@ -54,7 +54,7 @@
         "attempts": 5,
         "time": 6,
         "hint": {
-            "text": "Paverskite laikrodį kad viena rodyklių rodytų 12. Аr laikas korektiškas? Jei, ne pamėginkite tą patį su kitomis rodyklėmis.",
+            "text": "Paverskite laikrodį kad viena rodyklių rodytų 12. Аr laikas korektiškas? Jei ne, pamėginkite tą patį su kitomis rodyklėmis.",
             "points": 2
         },
         "reward": {
@@ -88,7 +88,8 @@
         "attempts": 4,
         "time": 4,
         "hint": {
-            "text": "Klaustuko forma tai ir yra slaptažodis. Pradėkite nuo skaičiaus 4 ir eikite tarsi per telefono skaičių mygtukus."
+            "text": "Klaustuko forma tai ir yra slaptažodis. Pradėkite nuo skaičiaus 4 ir eikite tarsi per telefono skaičių mygtukus.",
+            "points": 2
         },
         "reward": {
             "text": [
@@ -296,7 +297,7 @@
         },
         "image": "penki2.jpg",
         "text": [
-            "Valtis pririšta grandine su su skaitmenine spyna. Valtyje yra popieriaus lapas su skaitine lygybe. Skaitmenys ir ženklai sudaryti iš juodų brūkšnelių.",
+            "Valtis pririšta grandine su skaitmenine spyna. Valtyje yra popieriaus lapas su skaitine lygybe. Skaitmenys ir ženklai sudaryti iš juodų brūkšnelių.",
             "Perkelkite vieną brūkšnelį, kad lygybė būtų teisinga. Tai ir yra spynos kodas."
         ],
         "answer": ["545+5=550"],
@@ -338,7 +339,7 @@
             "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]"
         ],
         "answer": ["Bėkit"],
-        "points": 3,
+        "points": 5,
         "attempts": 5,
         "time": 7,
         "rewardType": "carousel",
@@ -380,6 +381,15 @@
         "points": 6,
         "attempts": 5,
         "time": 6,
+        "hint": {
+            "text": [
+                "Tai jums padės:",
+                "Kiek valandų rodo laikrodžiai?",
+                "Kokia skaičių skaičiuotuvuose suma?",
+                "Lemputės 15 taškų gauti sudauginus blyksnių virš lemputės skaičių ir cokoliaus sriegių skaičiaus."
+            ],
+            "points": 2
+        },
         "reward": {
             "text": [
                 "Pardutuvėje randate automatinius ginklus. Dabar jūs ginkluoti.",
@@ -389,7 +399,7 @@
             "image": "automatai.jpg"
         },
         "nextTaskId": "11"
-    },
+    },  
     {
         "id": "11",
         "name": "Pinigų muziejus",
