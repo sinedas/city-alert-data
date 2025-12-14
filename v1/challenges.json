@@ -76,18 +76,18 @@
     "code": "future",
     "title": "Vilnius- Apokalipsė",
     "location": {
-      "lat": 54.698039582832486, 
-      "lng": 25.302702381449947
+      "lat": 54.683614205650365, 
+      "lng": 25.286154779323535
     },
-    "initialDiameter": 9000,
-    "finalDiameter": 150,
-    "duration": 20,
+    "initialDiameter": 5000,
+    "finalDiameter": 4950,
+    "duration": 120,
     "active": true,
     "locked": false,
     "description": "Keliaukite į apokaliptinį ateities Vilnių.",
     "start": "Žirmūnų Iki",
-    "finish": "Tauro kalnas",
-    "hints": 1,
+    "finish": "Prezidentūra",
+    "hints": 6,
     "checkLocation": false,
     "pointsPerLeftMinutes": 1
   },
