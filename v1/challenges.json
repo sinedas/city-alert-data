@@ -87,7 +87,7 @@
     "description": "Keliaukite į apokaliptinį ateities Vilnių.",
     "start": "Žirmūnų Iki",
     "finish": "Prezidentūra",
-    "hints": 6,
+    "hints": 8,
     "checkLocation": false,
     "pointsPerLeftMinutes": 1
   },

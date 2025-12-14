@@ -53,6 +53,10 @@
         "points": 5,
         "attempts": 5,
         "time": 6,
+        "hint": {
+            "text": "Paverskite laikrodį kad viena rodyklių rodytų 12. Аr laikas korektiškas? Jei, ne pamėginkite tą patį su kitomis rodyklėmis.",
+            "points": 2
+        },
         "reward": {
             "text": [
                 "Laikrodis rodo 07:10. Reik tikėtis, kad šiuo metu rytas. Izaokas Goldšteinas įspėjo išspresti užduotis iki saulėlydžio."
@@ -78,11 +82,14 @@
         "text": [
             "Atrakinkite telefoną. Įrašykite skaičių."
         ],
-        "image": "question.jpg",
+        "image": "questionv2.jpg",
         "answer": ["41236580"],
         "points": 3,
         "attempts": 4,
         "time": 4,
+        "hint": {
+            "text": "Klaustuko forma tai ir yra slaptažodis. Pradėkite nuo skaičiaus 4 ir eikite tarsi per telefono skaičių mygtukus."
+        },
         "reward": {
             "text": [
                 "Telefoną pavyko atrakinti. Bet ryšis neveikia, internetas irgi.",
@@ -119,6 +126,10 @@
         "attempts": 5,
         "time": 6,
         "nextTaskId": "5",
+        "hint": {
+            "text": "Pradėkite nuo paskutinės raidės ir brėžkite ženklą Z. Turėtų gautis filmo pavadinimas.",
+            "points": 2
+        },
         "reward": {
             "image": "prezidentura.jpg",
             "text": [
@@ -194,7 +205,9 @@
                 "Žvelgiant į lygtį aiškiai matosi jog:",
                 "",
                 "A + B = 10",
-                "A = 0, 1 arba 2"
+                "A = 0, 1 arba 2",
+                "",
+                "Pamėginkite įvairias kombinacijas."
             ],
             "points": 3
         },
@@ -248,7 +261,22 @@
         "points": 6,
         "attempts": 5,
         "time": 7,
-        "nextTaskId": "8"
+        "nextTaskId": "8",
+        "hint": {
+            "text": [
+                "Prisiminkite mįsle: Pradursi ledą, rasi sidabrą. Išgersį sidabrą rasi auksą. Kas?",
+                "Ką beriate ant kiaušinių?",
+                "Kokios būna adatos?",
+                "",
+                "[href=\"https://skaiciuokle.lt/resources/i/calculators/mendelejevo-lentele-2.png\"]Mendelejevo lentelė[/href]"
+            ],
+            "points": 3
+        },
+        "reward": {
+            "text": [
+                "Jums pavyko išgelbėti komandos narį. Eikite toliau link Žaliojo tilto."
+            ]
+        }
     },
     {
         "id": "8",
@@ -272,9 +300,19 @@
             "Perkelkite vieną brūkšnelį, kad lygybė būtų teisinga. Tai ir yra spynos kodas."
         ],
         "answer": ["545+5=550"],
-        "points": 3,
+        "points": 5,
         "attempts": 5,
         "time": 5,
+        "hint": {
+            "text": "Pеrkelkite brūkšnelį pirmame pliuso ženkle. Gausite ?",
+            "points": 3
+        },
+        "reward": {
+            "text": [
+                "Jūs atrakinote valtį ir persikėlėte į kitą upės pusę."
+            ],
+            "image": "valtis.jpg"
+        },
         "nextTaskId": "9"
     },
     {
@@ -307,7 +345,7 @@
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "Kažkas ėmė jus persioketi.",
+                "Kažkas ėmė jus persiokioti.",
                 "Išsigande jūs bėgate ...",
                 "Per kiemus, apleistus tunelius.",
                 "Lipate per tvoras",
@@ -412,7 +450,7 @@
                 "Telefone atsirado GPS ryšis ir į jį atkeliavo failas su moskliniais duomenimis, padėsiančiais išgelbėti žmoniją.",
                 "Bet kaip jį atverti?",
                 "",                
-                "Paskubėkit, užduočiai atlikti turite į minutes."
+                "Paskubėkit, užduočiai atlikti turite 5 minutes."
             ],
             "images": ["daukanto1.jpg"],
             "changeInterval": 3
