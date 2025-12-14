@@ -107,6 +107,6 @@
     "start": "Kudirkos aikštė",
     "finish": "Katedra",
     "hints": 2,
-    "checkLocation": false
+    "checkLocation": true
   }
 ]
