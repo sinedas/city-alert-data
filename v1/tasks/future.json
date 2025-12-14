@@ -310,8 +310,7 @@
         "reward": {
             "text": [
                 "Jūs atrakinote valtį ir persikėlėte į kitą upės pusę."
-            ],
-            "image": "valtis.jpg"
+            ]
         },
         "nextTaskId": "9"
     },
