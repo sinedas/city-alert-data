@@ -455,38 +455,38 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs atėjote prie prezidentūros, kur jūsų laukė Izaokas Goldšteinas iš ateities su laiko kapsule", 
+                "Jūs atėjote prie prezidentūros, kur jūsų laukė Izaokas Goldšteinas iš ateities su laiko kapsule.", 
                 "Telefone atsirado GPS ryšis ir į jį atkeliavo failas su moskliniais duomenimis, padėsiančiais išgelbėti žmoniją.",
                 "Bet kaip jį atverti?",
-                "",                
-                "Paskubėkit, užduočiai atlikti turite 5 minutes."
+                "",
+                "Beje, skaičiuokite šovinius.",                
+                "Paskubėkit, užduočiai atlikti turite 6 minutes."
             ],
             "images": ["daukanto1.jpg"],
             "changeInterval": 3
         },
-        "image": "daukanto1.jpg",
+        "image": "failasv2.jpg",
         "text": [
-            "Išspreskite lygtį ir atverkite failą.",
+            "Atsiųstas failas yra užšifruotas. Klaustukas ir yra šifro raktas.",
             "",
             "O tuo metu.",
             "Saulė ėmė leistis žemiau pastatų, iš namų pakampių pradėjo lysti zombiai, vampyrai, kipšai ir kiti tamsos padarai. Vienas jūsų komandos narių paleido kelis šuvius."
         ],
-        "answer": ["2066"],
-        "points": 3,
-        "attempts": 5,
-        "time": 5,
+        "answer": ["13"],
+        "points": 5,
+        "attempts": 3,
+        "time": 6,
         "hint": {
-            "text": "Lygtis",
-            "points": 2
+            "text": "Skaičiuokite šovinius kiekviename skaičiuje. Šovinių skaičius skaičiuje ir yra atsakymas.",
+            "points": 3
         },
-        "rewardType": "carousel",
-        "rewardCarousel": {
+        "reward": {
             "text": [
-                "Jūs atvėrėte failą. Jo duomenys padės mokslininkams išsiaiškinti, kas sukėlė zombėjimo pasiutligę ir kitas ligas.",
-                "Laikas grįžti namo."
+                "Jūs atvėrėte failą. Jo duomenys padės dabarties mokslininkams išsiaiškinti, kas sukėlė zombėjimo pasiutligę ir kitas ligas.",
+                "Laikas grįžti namo.",
+                "Jus geriausia City Alert komanda!"
             ],
-            "images": ["kulkos.jpg"],
-            "changeInterval": 3
+            "image": ["kulkos.jpg"]
         }
     }
 ]
