@@ -89,7 +89,7 @@
     "finish": "Prezidentūra",
     "hints": 8,
     "checkLocation": false,
-    "pointsPerLeftMinutes": 1
+    "pointsPerLeftMinutes": 10
   },
   {
     "code": "cathedral",
