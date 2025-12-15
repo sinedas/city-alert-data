@@ -305,7 +305,7 @@
         "attempts": 5,
         "time": 5,
         "hint": {
-            "text": "Pеrkelkite brūkšnelį pirmame pliuso ženkle. Gausite ?",
+            "text": "Pеrkelkite brūkšnelį pirmame pliuso ženkle. Gausite.",
             "points": 3
         },
         "reward": {
@@ -323,7 +323,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Persiyre į kitą upės pusę, jūs einate į Tilto gatvę. Staiga, už vienų namo durų jūs išgirdote garsą.",
+                "Persiyrę į kitą upės pusę, jūs einate į Tilto gatvę. Staiga, už vienų namo durų jūs išgirdote garsą.",
                 "",
                 "Užduočiai atlikti turite 7 minutes."
             ],
@@ -386,7 +386,7 @@
                 "Tai jums padės:",
                 "Kiek valandų rodo laikrodžiai?",
                 "Kokia skaičių skaičiuotuvuose suma?",
-                "Lemputės 15 taškų gauti sudauginus blyksnių virš lemputės skaičių ir cokoliaus sriegių skaičiaus."
+                "Lemputės taškai- blyksnių ir cokoliaus sriegių sandauga."
             ],
             "points": 2
         },
@@ -455,10 +455,8 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs atėjote prie prezidentūros, kur jūsų laukė Izaokas Goldšteinas iš ateities su laiko kapsule.", 
-                "Telefone atsirado GPS ryšis ir į jį atkeliavo failas su moskliniais duomenimis, padėsiančiais išgelbėti žmoniją.",
-                "Bet kaip jį atverti?",
-                "",
+                "Jūs atėjote prie prezidentūros, kur jūsų laukė Izaokas Goldšteinas su laiko kapsule.", 
+                "Telefone atsirado GPS ryšis ir į jį atkeliavo failas su moskliniais duomenimis, padėsiančiais išgelbėti žmoniją. Bet kaip jį atverti?",
                 "Beje, skaičiuokite šovinius.",                
                 "Paskubėkit, užduočiai atlikti turite 6 minutes."
             ],
@@ -477,7 +475,7 @@
         "attempts": 3,
         "time": 6,
         "hint": {
-            "text": "Skaičiuokite šovinius kiekviename skaičiuje. Šovinių skaičius skaičiuje ir yra atsakymas.",
+            "text": "Skaičiuokite šovinius kiekviename skaičiuje. Šovinių skaičius ir yra atsakymas.",
             "points": 3
         },
         "reward": {
@@ -486,7 +484,7 @@
                 "Laikas grįžti namo.",
                 "Jus geriausia City Alert komanda!"
             ],
-            "image": ["kulkos.jpg"]
+            "image": ["ghostbusters.jpg"]
         }
     }
 ]
