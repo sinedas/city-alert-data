@@ -484,7 +484,7 @@
                 "Laikas grįžti namo.",
                 "Jus geriausia City Alert komanda!"
             ],
-            "image": ["ghostbusters.jpg"]
+            "image": "ghostbusters.jpg"
         }
     }
 ]
