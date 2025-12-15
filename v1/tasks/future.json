@@ -370,7 +370,7 @@
                 "",
                 "Užduočiai atlikti, turite 7 minutes."
             ],
-            "images": ["ginklai2.jpg"],
+            "images": ["ginklai1.jpg","ginklai2.jpg"],
             "changeInterval": 3
         },
         "text": [
