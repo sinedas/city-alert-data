@@ -450,8 +450,8 @@
     {
         "id": "12",
         "name": "Paskutinis failas",
-        "lat": 54.68314911442479,
-        "lng": 25.285887343411485,
+        "lat": 54.683614205650365, 
+        "lng": 25.286154779323535,
         "startType": "carousel",
         "startCarousel": {
             "text": [
