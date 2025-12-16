@@ -110,7 +110,7 @@
         "lng": 25.28826013482359,
         "image": "kinas.png",
         "text": [
-            "Jūs atėjote į kinoteatrą, kur Julius susitiko su draugu. Kokį filmą jie atėjo pažiūrėti?  Įrašyk į [] atsakymus į klausimą ir sužinosi pavadinimą.",
+            "Jūs atėjote į kinoteatrą, kur Julius susitiko su draugu. Kokį filmą jie atėjo pažiūrėti?  Įrašyk į [] atsakymus į klausimus ir sužinosi pavadinimą.",
             "",
             "1. Žemaitė sėdi ir žiūri į kavinę kitoje Lenino prospekto pusėje. Kavinės numeris žemėlapyje.",
             "2. Spirk su ...",
@@ -124,7 +124,7 @@
             "Aštunkojai iš antro aukšto"
         ],
         "hint": {
-            "text": "Žemaitės paminklas yra netoli Lukiškių aištės.",
+            "text": "Žemaitės paminklas yra netoli Lukiškių aikštės.",
             "points": 2
         },
         "points": 5,
@@ -133,13 +133,13 @@
         "nextTaskId": "5",
         "reward": {
             "text": [
-                "Įšėję iš Kinoteatro randate seną nuo laiko pageltonijųsį laikraštį rusų kalba. Jame perskaitote:",
+                "Išėję iš kinoteatro randate seną nuo laiko pageltonijusį laikraštį rusų kalba. Jame perskaitote:",
                 "",
                 "„REVOLIUCIJA RUSIJOJE",
                 "",
                 "Spalio 25 dieną Petrapilyje bolševikai įvykdė perversmą ir užėmė Žiemos rūmus.“",
                 "",
-                "Grįžkite atgal ir eikitę Petro Cvirkos gatve link profsajungų rūmų."
+                "Grįžkite atgal ir eikite Petro Cvirkos gatve link profsąjungų rūmų."
             ]
         }
     },
@@ -149,7 +149,7 @@
         "lat": 54.68738064202568,     
         "lng": 25.269217158322057,
         "image": "lenin.jpg",
-        "text": "Jūs stovite Tauro kalno papėdėje. Ant profsajungų rūmų kabo plakatas su lozungu. Eikite po žingsnelį rodyklėmis nuo raidės 'L': ↑, ← , ↓, → ir perskaitykite šūkį. Atsakyme įrašykite paskutinį šūkio žodį.",
+        "text": "Jūs stovite Tauro kalno papėdėje. Ant profsąjungų rūmų kabo plakatas su lozungu. Eikite po žingsnelį pagal rodykles nuo raidės 'L': ↑, ← , ↓, → ir perskaitykite šūkį. Atsakyme įrašykite paskutinį šūkio žodį.",
         "answer": ["nemarios"],
         "points": 5,
         "attempts": 4,
@@ -161,18 +161,18 @@
         },
         "reward": {
             "text": [
-                "Eikite į profsajungų rūmus."
+                "Eikite į profsąjungų rūmus."
             ]
         }
     },
     {
         "id": "6",
-        "name": "Profsajungų rūmai",
+        "name": "Profsąjungų rūmai",
         "lat": 54.6852062308052,
         "lng": 25.26888653054785,
         "image": "marks2.png",
         "text": [
-            "Julius su broliu Ignu atėjo į profsajungos rūmus, kur vyksta sovietinė valdžios renginys vaikams ir jaunimu. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi Algiu, KGB veteranu Nikolajumi ir studentu Vytu tokia tvarka:",
+            "Julius su broliu Ignu atėjo į profsąjungos rūmus, kur vyksta sovietinės valdžios renginys vaikams ir jaunimu. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi Algiu, KGB veteranu Nikolajumi ir studentu Vytu tokia tvarka:",
             "IGNAS, VYTAS, JULIUS, ALGIS, NIKOLAJUS.",
             "Kiekvienas nešioja po ženkliuką. Surikiuokite ženkliukus pagal nešiojančių eilę, gausite ... ?"
         ],
@@ -187,7 +187,7 @@
         "reward": {
             "image": "coffee.jpg",
             "text": [
-                "Jūs gaunate KAVOS dėžutę, paliktą jums Izaoko Goldšteino. Kava buvo deficitinė prekė tuo metu ir jos nebuvo galima įsigyti parduotuvėse.Eikite į Lenino aikštę."
+                "Jūs gaunate KAVOS dėžutę, paliktą jums Izaoko Goldšteino. Kava buvo deficitinė prekė tuo metu ir jos nebuvo galima įsigyti parduotuvėse. Eikite į Lenino aikštę."
             ]
         }
     },
@@ -197,7 +197,7 @@
         "lat": 54.68957496153824,
         "lng": 25.270880824560535,
         "text": [
-            "Lenino aikštėje jūsų draugas žydų profesorius paliko jums juodą dėžute su rašteliu:",
+            "Lenino aikštėje jūsų draugas žydų profesorius paliko jums juodą dėžutę su rašteliu:",
             "“Daiktas dėžutėje jums pravers. Šiame daikte prie mano pavardės raidžių skaičiaus pridėjus mano vardo raidžių skaičių, gausite šešis.",
             "Kas tai per daiktas?",
             "",
@@ -232,7 +232,7 @@
         "lng": 25.279149899861608,
         "image": "guliveris.png",
         "text": [
-            "Kavos indelį jūs įteikėte centrinio knygyno vedėjai. Ji įteikė jums knygą. Bet kokią?",
+            "Kavos indelį įteikėte centrinio knygyno vedėjai. Ji įteikė jums knygą. Bet kokią?",
             "Sudėliokite dėlionę ir sužinokite knygos pavadinimą."
         ],
         "answer": [
@@ -263,7 +263,7 @@
         "text": [
             "Jūs sutinkate berniuką Julių su draugų kompanija. Julius stovi krašte. Jei Onytė stovėtų šalia geriausio Juliaus draugo, tai Marius stovėtų šalia savo bendravardžio. Kas yra kas?",
             "",
-            "Atsakyme įrašykite pirmas vaikų vardų raides (iš kairės į dešinę)."
+            "Atsakyme įrašykite pirmąsias vaikų vardų raides (iš kairės į dešinę)."
         ],
         "answer": [
             "jdmom"
@@ -273,12 +273,12 @@
         "time": 6,
         "nextTaskId": "10",
         "hint": {
-            "text": "Jūs turbū pamiršote, kad geriausio Juliaus draugo vardas yra Darius.",
+            "text": "Jūs turbūt pamiršote, kad geriausio Juliaus draugo vardas yra Darius.",
             "points": 1
         },
         "reward": {
             "text": [
-                "Jūs pakalbėjote su Juliumi ir jo draugais",
+                "Jūs pakalbėjote su Juliumi ir jo draugais.",
                 "Julius gimė spalio 28 dieną.",
                 "Darius 3 savaitėmis vėliau.",
                 "Ona – vasario 23-ią. Koks sutapimas – tai Sovietinės kariuomenės diena.",
@@ -294,7 +294,7 @@
         "image": "clockv2.jpg",
         "text": [
             "Katedros Varpinės laikrodis dėl nepriežiūros sugedo. Meistrai sutvarkė laikrodį, bet reikia nustatyti gerą dienos laiką. Laiką jums parodys laikrodis kurį radote dėžutėje Lenino aikštėje.",
-            "Atsakyme įrašykite laiką formatu: HH:MM:SS",
+            "Atsakyme įrašykite laiką formatu HH:MM:SS",
             "(valandoms naudokite tik 00-11 valandas)."],
         "answer": [
             "04:50:00", "4:50:00", "4:50:0"
@@ -315,7 +315,7 @@
         "lat": 54.68589069084243,
         "lng": 25.287196886180215,
         "text": [
-            "Sovietiniais laikais katedroje buvo įrengta Paveikslų galerija. Šalia įėjimo į ją randate užrašinę su sovietinėmis šventėmis ir vaikų gimtadieniais:",
+            "Sovietiniais laikais katedroje buvo įrengta paveikslų galerija. Šalia įėjimo į ją randate užrašinę su sovietinėmis šventėmis ir vaikų gimtadieniais:",
             "",
             "S) Nauji metai",
             "I) Spalio revoliucija",
@@ -358,7 +358,7 @@
             "A.Jakšto- Kaštonų g sankryžoje.",
             "Lukiškių aikštėje.",
             "Ant Žaliojo tilto.",        
-            "Kudirkos aištėje.",    
+            "Kudirkos aikštėje.",    
             "Petro Cvirkos aikštėje."
         ],
         "answer": [
@@ -446,7 +446,7 @@
             "1. Pelesos.",
             "2. Švitrigailos.",
             "4. Pamėnkalnio.",
-            "Kaip dabar vadanasi gatvės?",
+            "Kaip dabar vadinasi gatvės?",
             "3. Мuziejaus.",
             "5. Poželos.",
             " [href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href]."
@@ -475,7 +475,7 @@
         "lng": 25.28907148345453,
         "image": "zalgiris.jpg",
         "text": [
-            "Jūs atėjote į Žalgirio stadioną. Varžybos baigėsi lygiu rezultatu. Bet švieslentėje rezultatas nelygus. Perkelkite vieną brukšniuką rezultate, kad lygybė būtų teisinga.",  
+            "Jūs atėjote į Žalgirio stadioną. Varžybos baigėsi lygiu rezultatu. Bet švieslentėje rezultatas nelygus. Perkelkite vieną brūkšnelį rezultate, kad lygybė būtų teisinga.",  
             "Atsakyme įrašykite šios dienos datą formatu: MM:dd"
         ],
         "answer": [
@@ -502,13 +502,13 @@
         "lng": 25.29044027923212,
         "image": "boys.jpg",
         "text": [
-            "Prie Vilniaus sporto ir parodų rūmų jūs sutikote keturis jaunuoliuos: panką, hipį, metalistą ir rokerį.",
+            "Prie Vilniaus sporto ir parodų rūmų jūs sutikote keturis jaunuolius: panką, hipį, metalistą ir rokerį.",
             "Jie nenori pasakyti jums savo vardų. Bet jūs žinote, kad:",
             "Petras nėra metalistas.",
             "Jonas nėra nei pankas, nei rokeris.",
             "Martynas nėra pankas, nei hipis.",
             "Algis nėra metalistas.",    
-            "Surašykite pirmasias vardų raides tvarka: (pvz.: PJMA)",
+            "Surašykite pirmąsias vardų raides tvarka: (pvz.: PJMA)",
             "PANKAS HIPIS METALISTAS ROKERIS"
         ],
         "answer": [
@@ -543,7 +543,7 @@
         "text": [
             "Žydų kapinėse jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.",
             "",
-            "Kad galėtų jūsų gražinti, Izaokas mašinoje turi įvesti metus, kuriuose esate dabar. Kokie dabar metai?"
+            "Kad galėtų jūsų grąžinti, Izaokas mašinoje turi įvesti metus, kuriuose esate dabar. Kokie dabar metai?"
         ],
         "answer": [
             "1986"
