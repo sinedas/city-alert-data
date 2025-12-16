@@ -377,7 +377,7 @@
             "Išspreskite lygtį ir sužinosite spynos kodą."
         ],
         "image": "lemputes3.jpg",
-        "answer": ["143"],
+        "answer": ["141"],
         "points": 6,
         "attempts": 5,
         "time": 7,
@@ -456,7 +456,7 @@
         "startCarousel": {
             "text": [
                 "Jūs atėjote prie prezidentūros, kur jūsų laukė Izaokas Goldšteinas su laiko kapsule.", 
-                "Telefone atsirado GPS ryšis ir į jį atkeliavo failas su moskliniais duomenimis, padėsiančiais išgelbėti žmoniją. Bet kaip jį atverti?",
+                "Telefone atsirado GPS ryšis ir į jį atkeliavo failas su moksliniais duomenimis, padėsiančiais išgelbėti žmoniją. Bet kaip jį atverti?",
                 "Beje, skaičiuokite šovinius.",                
                 "Paskubėkit, užduočiai atlikti turite 6 minutes."
             ],
