@@ -175,7 +175,7 @@
             "text": [
                 "Jūs atrakinote lagaminėlį. Jame randate alchemiko rinkinį."
             ],
-            "image": "elementaiv2.jpg"
+            "image": "elementaiv3.jpg"
         }
     },
     {
@@ -241,7 +241,7 @@
         "image": "zombisv2.jpg",
         "text": [
             "Jūsų jauniausiam komandos nariui prasidėjo \"Zombinė pasiutligė\". Oda pažaliavo, akys paraudonavo, žvilgsnis pasidarė klaikus, iš burnos ėmė veržtis putos.",
-            "Jūs turite tik kelias minutes jį išgelbėti. Atidarykite [href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/elementaiv2.jpg\"]alchemiko lagaminėlį[/href] ir pagaminkite senovinę mikstūrą.",
+            "Jūs turite tik kelias minutes jį išgelbėti. Atidarykite [href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/elementaiv3.jpg\"]alchemiko lagaminėlį[/href] ir pagaminkite senovinę mikstūrą.",
             "Ši pasaka padės sužinoti 4 reikiamus elementus ir jų įdėjimo į kolbą tvarką.",
             "",
             "KOŠČĖJAUS MIRTIS",
@@ -258,7 +258,7 @@
             "Tada rasį koščėjaus mirtį, ..?.. adatą. Sulayžyk ją.",
             "Atsakyme įrašyk elementus (pvz. Au Zr Fe C )."
         ],        
-        "answer": ["NaCl Si Au Fe"],
+        "answer": ["NaCl Ag Au Fe"],
         "points": 6,
         "attempts": 5,
         "time": 7,
@@ -290,7 +290,7 @@
             "Jūs einate link Neries. Planuojate persikelti į kitą upės pusę. Bet deja Žaliojo tilto nebelikę.",
             "Krantinėje jūs randate valtį pririštą grandine.",
             "",
-            "Užduočiai atlikti turite penkias minutes."
+            "Užduočiai atlikti turite 5 minutes."
             ],
             "images": ["zaliasis1v2.jpg", "zaliasis2v2.jpg", "zaliasis3v2.jpg"],
             "changeInterval": 3
@@ -380,7 +380,7 @@
         "answer": ["143"],
         "points": 6,
         "attempts": 5,
-        "time": 6,
+        "time": 7,
         "hint": {
             "text": [
                 "Tai jums padės:",
@@ -427,7 +427,7 @@
         "image": "monetos2.jpg",
         "answer": ["DBECFA"],
         "points": 6,
-        "attempts": 3,
+        "attempts": 4,
         "time": 6,
         "hint": {
             "text": [
