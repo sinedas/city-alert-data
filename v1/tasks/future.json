@@ -41,15 +41,17 @@
                 "",
                 "Užduočiai atlikti, turite 6 minutes."
             ],
-            "images": ["watch.jpg"],
+            "images": ["watchv2.jpg"],
             "changeInterval": 3
         },
         "text": [
             "Laikrodis, kurį radote, turi keistas rodykles. Jos vienodos.",
-            "Kokį laiką jis rodo? Atsakyme įrašykite laiką formatu: hh:mm:ss (valandoms naudokite tik 00-11 valandas)."
+            "Kokį laiką jis rodo? Atsakyme įrašykite laiką formatu:",
+            "hh:mm:ss",
+            "(valandoms naudokite tik 00-11 valandas)."
         ],
-        "image": "clock2.jpg",
-        "answer": ["07:10:00"],
+        "image": "clockv3.jpg",
+        "answer": ["07:10:00", "7:10:00", "7:10:0"],
         "points": 5,
         "attempts": 5,
         "time": 6,
