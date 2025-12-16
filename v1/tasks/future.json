@@ -460,7 +460,7 @@
                 "Beje, skaičiuokite šovinius.",                
                 "Paskubėkit, užduočiai atlikti turite 6 minutes."
             ],
-            "images": ["daukanto1.jpg"],
+            "images": ["daukanto1v2.jpg", "daukanto2.jpg", "daukanto3.jpg"],
             "changeInterval": 3
         },
         "image": "failasv3.jpg",
