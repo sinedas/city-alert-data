@@ -47,7 +47,7 @@
         "text": [
             "Laikrodis, kurį radote, turi keistas rodykles. Jos vienodos.",
             "Kokį laiką jis rodo? Atsakyme įrašykite laiką formatu:",
-            "hh:mm:ss",
+            "HH:MM:SS",
             "(valandoms naudokite tik 00-11 valandas)."
         ],
         "image": "clockv3.jpg",
