@@ -38,6 +38,7 @@
   {
     "code": "soviets2",
     "title": "Žydų kapinės ir sovietiniai monstrai",
+    "image": "sovietsv3.jpg",
     "location": {
       "lat": 54.69079963514012, 
       "lng": 25.290875962339644
@@ -52,8 +53,7 @@
     "start": "Pirma užduotis- Vaikų pasaulis",
     "finish": "Žydų kapinės",
     "checkLocation": false,
-    "pointsPerLeftMinutes": 10,
-    "image": "sovietsv3.jpg"
+    "pointsPerLeftMinutes": 10
   },
   {
     "code": "soviets",
