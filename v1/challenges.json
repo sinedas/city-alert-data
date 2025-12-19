@@ -52,8 +52,7 @@
     "start": "Pirma užduotis- Vaikų pasaulis",
     "finish": "Žydų kapinės",
     "checkLocation": false,
-    "pointsPerLeftMinutes": 10,
-    "image": "sovietsv3.jpg"
+    "pointsPerLeftMinutes": 10
   },
   {
     "code": "soviets",
