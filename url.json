@@ -1,3 +1,4 @@
 {
-    "baseUrl": "https://raw.githubusercontent.com/sinedas/city-alert-data/dev"
+    "baseUrl": "https://raw.githubusercontent.com/sinedas/city-alert-data/dev",
+    "mediaBaseUrl": "https://cdn.jsdelivr.net/gh/sinedas/city-alert-data@dev"
 }
