@@ -104,12 +104,12 @@
     "initialDiameter": 3000,
     "finalDiameter": 100,
     "duration": 2,
-    "active": false,
+    "active": true,
     "locked": false,
     "description": "Vilniaus katedros paslaptys ir paslėptas lobis",
     "start": "Kudirkos aikštė",
     "finish": "Katedra",
     "hints": 2,
-    "checkLocation": true
+    "checkLocation": false
   }
 ]

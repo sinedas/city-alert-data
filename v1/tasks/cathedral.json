@@ -2,6 +2,10 @@
     {
         "id": "1",
         "name": "Gedimino Tower",
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra zmogus?"
+        },
         "lat": 54.686,
         "lng": 25.287,
         "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqn5_uec6IBkuh3DVCA0Q3yjcoTD-UFe5WpVyBPa_VQZH8A-PqIpkCxVNLJQbiUhXGpFMvZgKjAfo73rPpnV97usLm9zQQ_Zx0lWWBAvr-NpE1nrQyAd1Z5ujWYffiD1rYymedFhg=s1360-w1360-h1020-rw",
@@ -9,7 +13,7 @@
         "answer": ["Gediminas"],
         "points": 3,
         "attempts": 3,
-        "time": 0.1,
+        "time": 1,
         "hint": {
             "text": "Gedimino Tower is a symbol of Vilnius. It was built in the 14th century and was part of the Upper Castle. What is the name of the legendary Grand Duke who is said to have founded Vilnius after dreaming of an iron wolf?",
             "points": 1
