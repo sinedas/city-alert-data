@@ -102,8 +102,8 @@
       "lng": 25.2872
     },
     "initialDiameter": 3000,
-    "finalDiameter": 100,
-    "duration": 2,
+    "finalDiameter": 2950,
+    "duration": 10,
     "active": true,
     "locked": false,
     "description": "Vilniaus katedros paslaptys ir paslėptas lobis",
