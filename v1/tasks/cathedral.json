@@ -10,7 +10,8 @@
         "lng": 25.287,
         "text": "Padarykite jaunausio komandos nario nuotrauką.",
         "points": 3,
-        "time": 3
+        "time": 3,
+        "nextTaskId": "2"
     },
     {
         "id": "2",
@@ -26,7 +27,8 @@
         "hint": {
             "text": "Cathedral Square is a famous square in Vilnius. It is known for its famous tile that locals believe brings good luck. According to legend, if you stand on this tile and make a wish while turning around three times, your wish will come true. What is this tile commonly called?",
             "points": 1
-        }
+        },
+        "nextTaskId": "3"
     },
     {
         "id": "3",
@@ -38,7 +40,8 @@
         "answer": ["Vilnia"],
         "points": 4,
         "attempts": 5,
-        "time": 1
+        "time": 1,
+        "nextTaskId": "4"
     },
     {
         "id": "4",
@@ -50,7 +53,8 @@
         "answer": ["t"],
         "points": 2,
         "attempts": 1,
-        "time": 1
+        "time": 1,
+        "nextTaskId": "5"
     },
     {
         "id": "5",
@@ -61,7 +65,8 @@
         "answer": ["test"],
         "points": 1,
         "attempts": 3,
-        "time": 1
+        "time": 1,
+        "nextTaskId": "6"
     },
     {
         "id": "6",
