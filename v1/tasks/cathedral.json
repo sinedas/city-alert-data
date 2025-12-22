@@ -5,7 +5,7 @@
         "type": "photoValidation",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra zmogus?",
-            "transformationPrompt": "Transform the person in photo to zombie. White black scetch."
+            "transformationPrompt": "transform this person into a stylized horror art character, black and white pencil sketch style, dramatic shadows, artistic interpretation."
         },
         "lat": 54.686,
         "lng": 25.287,
