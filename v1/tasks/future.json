@@ -525,6 +525,7 @@
                 "changeInterval": 3
             },
             "image": "failasv3.jpg",
+            "transformedImage": "111",
             "text": [
                 "Atsiųstas failas yra užšifruotas. Klaustukas ir yra šifro raktas.",
                 "",
@@ -546,6 +547,7 @@
                     "Jūs- geriausia City Alert komanda!",
                     "[href=\"https://www.youtube.com/watch?v=Zzg5pGFex5A\"]O čia daina apie jus.[/href]"
                 ],
+                "transformedImage": "111",
                 "image": "ghostbusters.jpg"
             }
         }
