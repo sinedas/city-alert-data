@@ -525,6 +525,7 @@
                 "changeInterval": 3
             },
             "image": "failasv3.jpg",
+            "transformedImage": "111",
             "text": [
                 "Atsiųstas failas yra užšifruotas. Klaustukas ir yra šifro raktas.",
                 "",
