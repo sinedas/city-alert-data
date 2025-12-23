@@ -110,6 +110,7 @@
     "start": "Kudirkos aikštė",
     "finish": "Katedra",
     "hints": 2,
-    "checkLocation": false
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 2
   }
 ]
