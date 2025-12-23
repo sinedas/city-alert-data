@@ -101,6 +101,33 @@
                 ],
                 "image": "films.jpg"
             },
+            "nextTaskId": "31"
+        },
+        {
+            "id": "31",
+            "name": "Nuotrauka",
+            "lat": 54.69557018892672,  
+            "lng": 25.295573169720146,  
+            "startType": "carousel",
+            "startCarousel": {
+                "text": [
+                    "Į telefoną atėjo SMS žinutė."
+                ],
+                "images": ["sms.jpg"]
+            },
+            "type": "photoValidation",
+            "photoValidation": {
+                "prompt": "Ar nuotraukoje matomas vienas tikras žmogus, nufotografuotas telefonu",
+                "transformationPrompt": "Transform this person into a stylized horror art character, black and white pencil sketch style, dramatic shadows, artistic interpretation."
+            },
+            "text": [
+                "\"Sveiki. Matau jums sekasi gerai. Moksliniais tikslais svarbu stebėti, kaip kelionės laiku veikia žmones ir jų sveikatą.",
+                "Padarykite jauniausio komandos nario nuotrauką (iki pusės) ir išsiųskite ją man.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "points": 3,
+            "time": 5,
             "nextTaskId": "4"
         },
         {
@@ -240,6 +267,7 @@
                 "images": ["pasiutlige1.jpg", "pasiutlige2.jpg", "pasiutlige3.jpg"],
                 "changeInterval": 3
             },
+            "transformedImage": "31",
             "image": "zombisv2.jpg",
             "text": [
                 "Jūsų jauniausiam komandos nariui prasidėjo \"Zombinė pasiutligė\". Oda pažaliavo, akys paraudonavo, žvilgsnis pasidarė klaikus, iš burnos ėmė veržtis putos.",
