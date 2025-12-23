@@ -15,8 +15,8 @@
     {
         "id": "2",
         "name": "Cathedral Square",
-        "lat": 54.685,
-        "lng": 25.288,
+        "lat": 54.683614205650365, 
+        "lng": 25.286154779323535,
         "image": "independence.png",
         "text": "Štai kaip atrodytų jūsų komandos narys siaubo filme! Dabar atsakykite į klausimą: In Cathedral Square, there is a famous tile that locals believe brings good luck. According to legend, if you stand on this tile and make a wish while turning around three times, your wish will come true. What is this tile commonly called?",
         "answer": ["t"],
