@@ -27,5 +27,24 @@
             "text": "Cathedral Square is a famous square in Vilnius. It is known for its famous tile that locals believe brings good luck. According to legend, if you stand on this tile and make a wish while turning around three times, your wish will come true. What is this tile commonly called?",
             "points": 1
         }
+    },
+    {
+        "id": "3",
+        "name": "Juliaus laiškas",
+        "lat": 54.6841549218278,
+        "lng": 25.27813934543183,
+        "text": [
+            "Pionierius Julius pametė laiškelį parašytą savo geriausiam draugui. Pats to nežinodamas Julius sugalvojo šriftą naudojamą dar Julijaus Cezario laikais. Berniukas naudojo neigiamą dviejų raidžių žingsnį. ",
+            "",
+            "Perskaitykite Juliaus laišką. Kuriame kinoteatre jis laukia savo draugo? Atsakyme įrašykite kinoteatro pavadinimą.",
+            ""
+        ],
+        "image": "juliusv2.jpg",
+        "answer": [
+            "Spalis"
+        ],
+        "points": 6,
+        "attempts": 5,
+        "time": 0.15
     }
 ]
