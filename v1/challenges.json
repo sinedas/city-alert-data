@@ -102,7 +102,7 @@
       "lng": 25.2872
     },
     "initialDiameter": 3000,
-    "finalDiameter": 2950,
+    "finalDiameter": 100,
     "duration": 10,
     "active": true,
     "locked": false,
