@@ -103,7 +103,7 @@
     },
     "initialDiameter": 3000,
     "finalDiameter": 100,
-    "duration": 10,
+    "duration": 3,
     "active": true,
     "locked": false,
     "description": "Vilniaus katedros paslaptys ir paslėptas lobis",
