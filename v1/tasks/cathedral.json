@@ -45,5 +45,28 @@
         "points": 6,
         "attempts": 5,
         "time": 0.15
+    },
+    {
+        "id": "5",
+        "name": "Lagaminiukas",
+        "lat": 54.694734122684736,
+        "lng": 25.28866254112623,
+        "image": "lagaminas.jpg",
+        "text": [
+            "Vienoje iš siuntų dėžučių jūs randate nedidelį lagaminėlį, su raidiniu užraktu ir kryžiažodžiu ant nugarėlės. Kryžiažodžio atsakymas ir yra užrakto raktas.",
+            "Kryžiažodžio klausimai kažkaip susiję su filmais, kuriuos matėte anksčiau.",            
+            "1. Viso pirmo filmo dalių?",
+            "2. Profesoriaus šuns vardas pirmame filme.",
+            "3. Кą herojai gaudė pirmame filme, kad grįžtų namo.",
+            "4. Ketvirto filmo pavadinimo paskutinis žodis.",
+            "5. Antro filmo herojų pavardė.",
+            "6. Pagrindinio herojaus vardas.",
+            "7. Mėlyna ar ...?",
+            "[href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/films.jpg\"]Nuotrauka telefone.[/href]"
+        ],
+        "answer": ["Stalker"],
+        "points": 4,
+        "attempts": 5,
+        "time": 6
     }
 ]
