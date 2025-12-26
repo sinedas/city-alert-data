@@ -1,15 +1,16 @@
 [
     {
         "id": "1",
-        "name": "Gedimino Tower",
+        "name": "Atspėk žodį: Muzika",
         "lat": 54.685,
         "lng": 25.288,
-        "image": "independence.png",
-        "text": "test",
-        "answer": ["test"],        
-        "points": 3,
-        "attempts": 3,
-        "time": 3
+        "type": "wordle",
+        "text": "Atspėk 6 raidžių žodį",
+        "answer": ["GITARA"],       
+        "points": 10,
+        "minusPointsOnAttempt": 1,
+        "attempts": 10,
+        "time": 300
     },
     {
         "id": "2",
