@@ -195,7 +195,7 @@
                 "3. Кą herojai gaudė pirmame filme, kad grįžtų namo.",
                 "4. Ketvirto filmo pavadinimo paskutinis žodis.",
                 "5. Antro filmo herojų pavardė.",
-                "6. Pagrindinio herojaus vardas.",
+                "6. Trečio filmo pagrindinio herojaus vardas.",
                 "7. Mėlyna ar ...?",
                 "[href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/films.jpg\"]Nuotrauka telefone.[/href]"
             ],
@@ -291,7 +291,7 @@
                 "Pasieksi ..?.. , išgerk jį.",
                 "Tada rasi koščėjaus mirtį, ..?.. adatą. Sulayžyk ją.",
                 "Atsakyme įrašyk elementus (pvz. Au Zr Fe C )."
-            ],        
+            ],          
             "answer": ["NaCl Ag Au Fe"],
             "points": 6,
             "attempts": 5,
@@ -483,7 +483,7 @@
                 "Surikiuokite jas pagal išleidimo metus. Tai ir bus 6 raidžių spynos kodas.",
                 "",
                 "A monetoje parašyta- \"Gyvybės eliksyras\"",
-                "E monetoje parašyta- \"Lietuvos valstybei 40 metų.\""
+                "F monetoje parašyta- \"Lietuvos valstybei 40 metų.\""
             ],
             "image": "monetos2.jpg",
             "answer": ["DBECFA"],
