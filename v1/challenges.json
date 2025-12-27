@@ -57,24 +57,6 @@
     "pointsPerLeftMinutes": 10
   },
   {
-    "code": "soviets",
-    "title": "Žydų kapinės ir sovietiniai monstrai (old version)",
-    "location": {
-      "lat": 54.69079963514012, 
-      "lng": 25.290875962339644
-    },
-    "initialDiameter": 4000,
-    "finalDiameter": 4000,
-    "duration": 120,
-    "active": false,
-    "locked": false,
-    "description": "Laiko mašina grįžkite į sovietinį laiką.",
-    "hints": 7,
-    "start": "Pirma užduotis- Vaikų pasaulis",
-    "finish": "Žydų kapinės\nAtlikę užduotį gausite nurodymą kitai užduočiai. Užduotis atlikite nurodyta tvarka.",
-    "checkLocation": false
-  },
-  {
     "code": "future",
     "title": "Vilnius- Apokalipsė",
     "image": "future.jpg",
@@ -95,6 +77,24 @@
     "pointsPerLeftMinutes": 10
   },
   {
+    "code": "soviets",
+    "title": "Žydų kapinės ir sovietiniai monstrai (old version)",
+    "location": {
+      "lat": 54.69079963514012, 
+      "lng": 25.290875962339644
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 4000,
+    "duration": 120,
+    "active": false,
+    "locked": false,
+    "description": "Laiko mašina grįžkite į sovietinį laiką.",
+    "hints": 7,
+    "start": "Pirma užduotis- Vaikų pasaulis",
+    "finish": "Žydų kapinės\nAtlikę užduotį gausite nurodymą kitai užduočiai. Užduotis atlikite nurodyta tvarka.",
+    "checkLocation": false
+  },
+  {
     "code": "cathedral",
     "title": "Žaidimas Worlde",
     "location": {
@@ -103,7 +103,7 @@
     },
     "initialDiameter": 4000,
     "finalDiameter": 3950,
-    "duration": 3,
+    "duration": 1,
     "active": true,
     "locked": false,
     "description": "Spėkite žodžius",
