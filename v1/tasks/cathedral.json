@@ -17,7 +17,8 @@
         "id": "2",
         "name": "Worlde",
         "lat": 54.6962236067816, 
-            "lng": 25.297479189064575,
+        "lng": 25.297479189064575,
+        "type": "wordle",
         "text": [
             "Atspėk 5 raidžių žodį"
         ],
@@ -35,6 +36,7 @@
         "name": "Worlde",
         "lat": 54.69558310548432, 
         "lng": 25.297748810446233,
+        "type": "wordle",
         "text": [
             "Atspėk 6 raidžių žodį"
         ],
@@ -52,6 +54,7 @@
         "name": "Worlde",
         "lat": 54.69493353669392, 
         "lng": 25.2908361627996,
+        "type": "wordle",
         "text": [
             "Atspėk 7 raidžių žodį"
         ],
@@ -70,6 +73,7 @@
         "name": "Worlde",
         "lat": 54.694734122684736,
         "lng": 25.28866254112623,
+        "type": "wordle",
         "text": [
             "Atspėk 6 raidžių žodį"
         ],
@@ -87,6 +91,7 @@
         "name": "Worlde",
         "lat": 54.69516497128628, 
         "lng": 25.277428796153,
+        "type": "wordle",
         "text": [
             "Atspėk 6 raidžių žodį"
         ],
