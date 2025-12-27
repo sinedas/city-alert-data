@@ -1,73 +1,95 @@
 [
     {
         "id": "1",
-        "name": "Atspėk žodį: Muzika",
-        "lat": 54.685,
-        "lng": 25.288,
+        "name": "Worlde",
+        "lat": 54.696758801413715, 
+        "lng": 25.29833485738192,
         "type": "wordle",
         "text": "Atspėk 6 raidžių žodį",
-        "answer": ["GITARA"],       
+        "answer": ["LYGUMA"],       
         "points": 10,
         "minusPointsOnAttempt": 1,
         "attempts": 10,
-        "time": 300
+        "time": 5
     },
     {
         "id": "2",
-        "name": "Cathedral Square",
-        "lat": 54.683614205650365, 
-        "lng": 25.286154779323535,
-        "image": "independence.png",
-        "text": "Štai kaip atrodytų jūsų komandos narys siaubo filme! Dabar atsakykite į klausimą: In Cathedral Square, there is a famous tile that locals believe brings good luck. According to legend, if you stand on this tile and make a wish while turning around three times, your wish will come true. What is this tile commonly called?",
-        "answer": ["t"],
-        "points": 4,
-        "attempts": 2,
-        "time": 1,
-        "hint": {
-            "text": "Cathedral Square is a famous square in Vilnius. It is known for its famous tile that locals believe brings good luck. According to legend, if you stand on this tile and make a wish while turning around three times, your wish will come true. What is this tile commonly called?",
-            "points": 1
-        }
+        "name": "Worlde",
+        "lat": 54.6962236067816, 
+            "lng": 25.297479189064575,
+        "text": [
+            "Atspėk 5 raidžių žodį"
+        ],
+        "answer": [
+            "SLYVA"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5
     },
     {
         "id": "3",
-        "name": "Juliaus laiškas",
-        "lat": 54.6841549218278,
-        "lng": 25.27813934543183,
+        "name": "Worlde",
+        "lat": 54.69558310548432, 
+        "lng": 25.297748810446233,
         "text": [
-            "Pionierius Julius pametė laiškelį parašytą savo geriausiam draugui. Pats to nežinodamas Julius sugalvojo šriftą naudojamą dar Julijaus Cezario laikais. Berniukas naudojo neigiamą dviejų raidžių žingsnį. ",
-            "",
-            "Perskaitykite Juliaus laišką. Kuriame kinoteatre jis laukia savo draugo? Atsakyme įrašykite kinoteatro pavadinimą.",
-            ""
+            "Atspėk 6 raidžių žodį"
         ],
-        "image": "juliusv2.jpg",
         "answer": [
-            "Spalis"
+            "VILTIS"
         ],
-        "points": 6,
-        "attempts": 5,
-        "time": 0.15
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Worlde",
+        "lat": 54.69493353669392, 
+        "lng": 25.2908361627996,
+        "text": [
+            "Atspėk 7 raidžių žodį"
+        ],
+        "answer": [
+            "OBUOLYS"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5
     },
     {
         "id": "5",
-        "name": "Lagaminiukas",
+        "name": "Worlde",
         "lat": 54.694734122684736,
         "lng": 25.28866254112623,
-        "image": "lagaminas.jpg",
         "text": [
-            "Vienoje iš siuntų dėžučių jūs randate nedidelį lagaminėlį, su raidiniu užraktu ir kryžiažodžiu ant nugarėlės. Kryžiažodžio atsakymas ir yra užrakto raktas.",
-            "Kryžiažodžio klausimai kažkaip susiję su filmais, kuriuos matėte anksčiau.",            
-            "1. Viso pirmo filmo dalių?",
-            "2. Profesoriaus šuns vardas pirmame filme.",
-            "3. Кą herojai gaudė pirmame filme, kad grįžtų namo.",
-            "4. Ketvirto filmo pavadinimo paskutinis žodis.",
-            "5. Antro filmo herojų pavardė.",
-            "6. Pagrindinio herojaus vardas.",
-            "7. Mėlyna ar ...?",
-            "[href=\"https://storage.googleapis.com/city-alert/vilnius-apocaliptics/films.jpg\"]Nuotrauka telefone.[/href]"
+            "Atspėk 6 raidžių žodį"
         ],
-        "answer": ["Stalker"],
-        "points": 4,
-        "attempts": 5,
-        "time": 6
+        "answer": [
+            "RAGENA"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5
+    },
+    {
+        "id": "6",
+        "name": "Worlde",
+        "lat": 54.69516497128628, 
+        "lng": 25.277428796153,
+        "text": [
+            "Atspėk 6 raidžių žodį"
+        ],
+        "answer": [
+            "SUDUVA"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5
     }
 ]

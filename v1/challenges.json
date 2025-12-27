@@ -96,21 +96,21 @@
   },
   {
     "code": "cathedral",
-    "title": "Katedros lobis",
+    "title": "Žaidimas Worlde",
     "location": {
-      "lat": 54.6868,
-      "lng": 25.2872
+      "lat": 54.69516497128628, 
+      "lng": 25.277428796153
     },
-    "initialDiameter": 3000,
-    "finalDiameter": 100,
+    "initialDiameter": 4000,
+    "finalDiameter": 3950,
     "duration": 3,
     "active": true,
     "locked": false,
-    "description": "Vilniaus katedros paslaptys ir paslėptas lobis",
-    "start": "Kudirkos aikštė",
-    "finish": "Katedra",
-    "hints": 2,
-    "checkLocation": true,
-    "pointsPerLeftMinutes": 2
+    "description": "Spėkite žodžius",
+    "start": "Žirmūnų Iki",
+    "finish": "Prezidentūra",
+    "hints": 0,
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 3
   }
 ]
