@@ -19,19 +19,12 @@
     },
     {
         "id": "2",
-        "name": "Worlde",
+        "name": "Ruletė",
         "lat": 54.6962236067816, 
         "lng": 25.297479189064575,
-        "type": "wordle",
-        "text": [
-            "Atspėk 5 raidžių žodį"
-        ],
-        "answer": [
-            "SLYVA"
-        ],
-        "points": 10,
-        "attempts": 10,
-        "minusPointsOnAttempt": 1,
+        "type": "roulette",
+        "answer": [],
+        "points": 3,
         "time": 5,
         "nextTaskId": "3"
     },
