@@ -233,7 +233,7 @@
             "answer": ["198"],
             "points": 6,
             "attempts": 5,
-            "time": 6,
+            "time": 7,
             "hint": {
                 "text": [
                     "Žvelgiant į lygtį aiškiai, matosi jog:",
@@ -375,7 +375,7 @@
             "answer": ["Bėkit"],
             "points": 5,
             "attempts": 5,
-            "time": 7,
+            "time": 8,
             "rewardType": "carousel",
             "rewardCarousel": {
                 "text": [

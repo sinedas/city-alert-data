@@ -37,26 +37,6 @@
     "checkLocation": true
   },
   {
-    "code": "soviets2",
-    "title": "Žydų kapinės ir sovietiniai monstrai",
-    "image": "sovietsv3.jpg",
-    "location": {
-      "lat": 54.69079963514012, 
-      "lng": 25.290875962339644
-    },
-    "initialDiameter": 4000,
-    "finalDiameter": 3900,
-    "duration": 120,
-    "active": true,
-    "locked": false,
-    "description": "Laiko mašina grįžkite į sovietinį laiką.",
-    "hints": 8,
-    "start": "Pirma užduotis- Vaikų pasaulis",
-    "finish": "Žydų kapinės",
-    "checkLocation": false,
-    "pointsPerLeftMinutes": 10
-  },
-  {
     "code": "future",
     "title": "Vilnius- Apokalipsė",
     "image": "future.jpg",
@@ -73,6 +53,26 @@
     "start": "Žirmūnų Iki",
     "finish": "Prezidentūra",
     "hints": 8,
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 10
+  },
+  {
+    "code": "soviets2",
+    "title": "Žydų kapinės ir sovietiniai monstrai",
+    "image": "sovietsv3.jpg",
+    "location": {
+      "lat": 54.69079963514012, 
+      "lng": 25.290875962339644
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 3900,
+    "duration": 120,
+    "active": true,
+    "locked": false,
+    "description": "Laiko mašina grįžkite į sovietinį laiką.",
+    "hints": 8,
+    "start": "Pirma užduotis- Vaikų pasaulis",
+    "finish": "Žydų kapinės",
     "checkLocation": false,
     "pointsPerLeftMinutes": 10
   },
