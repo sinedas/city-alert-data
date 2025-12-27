@@ -1,15 +1,19 @@
 [
     {
         "id": "1",
-        "name": "Worlde",
+        "name": "Laiko kapsulė",
         "lat": 54.696758801413715, 
         "lng": 25.29833485738192,
-        "type": "wordle",
-        "text": "Atspėk 6 raidžių žodį",
-        "answer": ["LYGUMA"],       
-        "points": 10,
-        "minusPointsOnAttempt": 1,
-        "attempts": 10,
+        "text": [
+            "Jūsų komanda prabunda profesoriaus Izaoko Goldšteino laiko kapsulėje. Laiko kapsulėje- betvarkė, viskas išvartyta. Jūs patys kabote aukštyn kojomis.",
+            "Pasigirsta automatinis pranešimas.",
+            "„Su jumis kalbu aš, jūsų draugas Izaokas Goldšteinas. Deja, negalėjau grąžinti jūsų namo. Teko išsiųsti jus keliais dešimtmečiais į ateitį. Ten įvyko didelė nelaimė. Atlikite reikiamas užduotis, įminkite nelaimės paslaptį ir grįžkite namo. Beje, saugokitės tamsos. Viską padaryti turite iki saulėlydžio.",
+            "Ir dar, kad išeitumėte iš kapsulės, įrašykite metų, kuriuose esate, skaičių. Jūsų draugas Izaokas.“",
+            "Prie kapsulės išėjimo liuko matote skaičius: [digital]9902[/digital]."
+        ],
+        "answer": ["2066"],
+        "points": 3,
+        "attempts": 5,
         "time": 5,
         "nextTaskId": "2"
     },
