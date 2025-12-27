@@ -95,7 +95,7 @@
     "checkLocation": false
   },
   {
-    "code": "cathedral",
+    "code": "worlde",
     "title": "Žaidimas Worlde",
     "location": {
       "lat": 54.69516497128628, 
@@ -103,7 +103,7 @@
     },
     "initialDiameter": 4000,
     "finalDiameter": 3950,
-    "duration": 1,
+    "duration": 30,
     "active": true,
     "locked": false,
     "description": "Spėkite žodžius",
