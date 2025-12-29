@@ -33,17 +33,19 @@
         "name": "Worlde",
         "lat": 54.69558310548432, 
         "lng": 25.297748810446233,
-        "type": "wordle",
-        "text": [
-            "Atspėk 6 raidžių žodį"
+        "type": "timeline",
+        "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujiausios)",
+        "events": [
+            { "name": "Google", "year": 1998 },
+            { "name": "Microsoft", "year": 1975 },
+            { "name": "Apple", "year": 1976 },
+            { "name": "Amazon", "year": 1994 }
         ],
-        "answer": [
-            "VILTIS"
-        ],
-        "points": 10,
-        "attempts": 10,
+        "answer": [],
+        "points": 5,
+        "attempts": 5,
         "minusPointsOnAttempt": 1,
-        "time": 5,
+        "time": 4,
         "nextTaskId": "4"
     },
     {
