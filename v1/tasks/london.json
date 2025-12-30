@@ -49,8 +49,7 @@
         "startCarousel": {
             "text": [
                 "Jūs pakilote į Big Eye viršų. Pažaiskime Žodlę (žodžių žaidimą).",
-                "Spėkite žodį. Atspėta raidė savo vietoje bus žalia. Atspėta bet ne savo vietoje- geltona.",
-                "Neatspėta raidė- pilka. Turite 10 bandymų (10 taškų). Kiekvienas bandymas- minus 1 taškas.",
+                "Spėkite žodį. Atspėta raidė savo vietoje bus žalia. Atspėta bet ne savo vietoje- geltona. Neatspėta raidė- pilka. Turite 10 bandymų (10 taškų). Kiekvienas bandymas- minus 1 taškas.",
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": ["eye.jpg"]
