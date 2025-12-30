@@ -31,6 +31,9 @@
             "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
             "transformationPrompt": "Transform photo. People are staying on London Tower Bridge, and holding lot of money in their hands. Also money falling from air."
         },
+        "text": [
+            "Esate visai šalia Parlamento Rūmų. Jūsų užduotis padaryti komandos nuotrauką."
+        ],
         "points": 3,
         "time": 5,
         "nextTaskId": "3"
