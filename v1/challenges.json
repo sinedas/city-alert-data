@@ -95,6 +95,25 @@
     "checkLocation": false
   },
   {
+    "code": "london",
+    "title": "Royal casino",
+    "location": {
+      "lat": 51.505422981517235,  
+      "lng": -0.07542087725371183
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 3950,
+    "duration": 45,
+    "active": true,
+    "locked": false,
+    "description": "Nežinomas miestas. Nežinomas laikas. Spreskite užduotis, bandykite sėkmę.",
+    "start": "Nežinoma",
+    "finish": "Nežinoma",
+    "hints": 0,
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 3
+  },
+  {
     "code": "worlde",
     "title": "Žaidimas Worlde",
     "location": {
