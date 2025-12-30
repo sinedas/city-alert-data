@@ -1,17 +1,18 @@
 [
     {
         "id": "1",
-        "name": "Big Ben",
+        "name": "Westminsterio tiltas",
         "lat": 51.500729,
         "lng": -0.124625,
         "type": "team_name",
         "image": "big_ben.jpg",
         "text": [
-            "Jūsų komanda Izaoko Goldšteino laiko ir erdvės mašina nukeliavote į Londoną.",
+            "Jūsų komanda Izaoko Goldšteino laiko ir erdvės mašina nukeliavote į Londoną. Jūs stovite ant Westminsterio tiltą. Priešais parlamento rūai ir Big Ben'as.",
             "Spreskite užduotis, bandykite sėkmę ir taip rinkite taškus.",
             "Pirmoji užduotis- sugalvokite komandos pavadinimą."
         ],
         "points": 2,
+        "attempts": 1,
         "time": 5,
         "nextTaskId": "2"
     },
@@ -40,22 +41,23 @@
     },
     {
         "id": "3",
-        "name": "Worlde",
-        "lat": 54.69558310548432, 
-        "lng": 25.297748810446233,
-        "type": "timeline",
-        "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujiausios)",
-        "events": [
-            { "name": "Google", "year": 1998 },
-            { "name": "Microsoft", "year": 1975 },
-            { "name": "Apple", "year": 1976 },
-            { "name": "Amazon", "year": 1994 }
-        ],
-        "answer": [],
-        "points": 5,
-        "attempts": 5,
+        "name": "Londono Akis",
+        "lat": 51.50349925563062, 
+        "lng": -0.11967875312898077,
+        "startCarousel": {
+            "text": [
+                "Jūs pakilote į Big Eye viršų. Pažaiskime Žodlę (žodžių žaidimą).",
+                "Spėkite žodį. Atspėta raidė savo vietoje bus žalia. Atspėta bet ne savo vietoje- geltona.",
+                "Neatspėta raidė- pilka. Turite 10 bandymų (10 taškų). Kiekvienas bandymas- minus 1 taškas.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["eye.jpg"]
+        },
+        "type": "wordle",
+        "points": 10,
+        "attempts": 10,
         "minusPointsOnAttempt": 1,
-        "time": 4,
+        "time": 5,
         "nextTaskId": "4"
     },
     {
