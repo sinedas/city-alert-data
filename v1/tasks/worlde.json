@@ -71,20 +71,17 @@
     },
     {
         "id": "5",
-        "name": "Worlde",
+        "name": "Random Imonių Data",
         "lat": 54.694734122684736,
         "lng": 25.28866254112623,
-        "type": "wordle",
-        "text": [
-            "Atspėk 6 raidžių žodį"
-        ],
-        "answer": [
-            "RAGENA"
-        ],
-        "points": 10,
-        "attempts": 10,
+        "type": "timepointer",
+        "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujiausios)",
+        "random": "companies_lt",
+        "answer": [],
+        "points": 5,
+        "attempts": 5,
         "minusPointsOnAttempt": 1,
-        "time": 5,
+        "time": 4,
         "nextTaskId": "6"
     },
     {
