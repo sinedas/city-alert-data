@@ -44,6 +44,7 @@
         "name": "Londono Akis",
         "lat": 51.50349925563062, 
         "lng": -0.11967875312898077,
+        "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Jūs pakilote į Big Eye viršų. Pažaiskime Žodlę (žodžių žaidimą).",
