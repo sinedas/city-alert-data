@@ -53,17 +53,19 @@
         "name": "Worlde",
         "lat": 54.69493353669392, 
         "lng": 25.2908361627996,
-        "type": "wordle",
-        "text": [
-            "Atspėk 7 raidžių žodį"
+        "type": "timepointer",
+        "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujiausios)",
+        "events": [
+            { "name": "Google", "year": 1998 },
+            { "name": "Microsoft", "year": 1975 },
+            { "name": "Apple", "year": 1976 },
+            { "name": "Amazon", "year": 1994 }
         ],
-        "answer": [
-            "OBUOLYS"
-        ],
-        "points": 10,
-        "attempts": 10,
+        "answer": [],
+        "points": 5,
+        "attempts": 5,
         "minusPointsOnAttempt": 1,
-        "time": 5,
+        "time": 4,
         "nextTaskId": "5"
 
     },
