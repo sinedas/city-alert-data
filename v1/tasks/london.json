@@ -110,7 +110,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Užduočiai atlikti turite 5 minutes."
+                "Užduočiai atlikti turite 4 minutes."
             ],
             "images": ["piccadilly.jpg"]
         },
@@ -121,24 +121,126 @@
         "points": 5,
         "attempts": 5,
         "minusPointsOnAttempt": 1,
-        "time": 5,
+        "time": 4,
         "nextTaskId": "7"
     },
     {
         "id": "7",
-        "name": "Worlde",
+        "name": "Empire Casino",
         "lat": 54.69516497128628, 
         "lng": 25.277428796153,
+        "type": "roulette",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Empire Kazino randate 2 svarų monetą. Nusprendžiate užeiti į Kazino pažaisti ruletę. 1 svaras- 1 taškas. Laimėjimo metu suma dbigubinasi. Pralaimėjimo atveju sudega viskas."
+            ],
+            "images": ["empire.jpg"]
+        },
+        "answer": [],
+        "points": 2,
+        "time": 5,
+        "nextTaskId": "8"
+    },
+    {
+        "id": "8",
+        "name": "Trafalgaro aikštė",
+        "lat": 51.50856066360781, 
+        "lng": -0.12825513100902566,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Trafalgaro aikštė. Užduoties laikas mažėja iki 4 minučių.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["trafalgar.jpg"]
+        },
         "type": "wordle",
-        "text": [
-            "Atspėk 6 raidžių žodį"
-        ],
-        "answer": [
-            "SUDUVA"
-        ],
-        "points": 10,
-        "attempts": 10,
+        "points": 9,
+        "attempts": 9,
         "minusPointsOnAttempt": 1,
-        "time": 5
+        "time": 4,
+        "nextTaskId": "9"
+    },
+    {
+        "id": "9",
+        "name": "Tower of London",
+        "lat": 51.508803650062156,
+        "lng": -0.0785585770626463,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Londono pilis.",
+                "",
+                "Žodlė. Užduočiai atlikti turite 4 minutes."
+            ],
+            "images": ["tower.jpg"]
+        },
+        "type": "wordle",
+        "points": 9,
+        "attempts": 9,
+        "minusPointsOnAttempt": 1,
+        "time": 3,
+        "nextTaskId": "10"
+    },
+    {
+        "id": "10",
+        "name": "Tower Bridge",
+        "lat": 51.50663179191841, 
+        "lng": -0.07467169767970523,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Žodlė. Užduočiai atlikti turite 3 minutes."
+            ],
+            "images": ["bridge.webp"]
+        },
+        "type": "wordle",
+        "points": 9,
+        "attempts": 9,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "nextTaskId": "11"
+    },
+    {
+        "id": "11",
+        "name": "National Gallery",
+        "lat": 51.50815417745316,
+        "lng":  -0.12868651006843868,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Sugrįžote atgal i Trafalgaro aikštę prie Nacionalinės galerijos."
+            ],
+            "images": ["gallery.jpg"]
+        },
+        "type": "timepointer",
+        "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujausios)",
+        "random": "companies_lt",
+        "answer": [],
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 4,
+        "nextTaskId": "12"
+    },
+    {
+        "id": "12",
+        "name": "Hippodrome Casino",
+        "lat": 51.51138479837589, 
+        "lng":  -0.1284114467450233,
+        "type": "roulette",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Hipodromo Kazino randate 10 svarų banknotą. Gal vėl pamėginti laimę?"
+            ],
+            "images": ["casino.jpg"]
+        },
+        "answer": [],
+        "points": 2,
+        "time": 5,
+        "nextTaskId": "8"
     }
 ]
