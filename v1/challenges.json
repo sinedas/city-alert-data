@@ -98,11 +98,11 @@
     "code": "london",
     "title": "Royal casino",
     "location": {
-      "lat": 51.505422981517235,  
-      "lng": -0.07542087725371183
+      "lat": 51.51034741846675,  
+      "lng": -0.13011532716004548
     },
-    "initialDiameter": 4000,
-    "finalDiameter": 3950,
+    "initialDiameter": 5000,
+    "finalDiameter": 4950,
     "duration": 45,
     "active": true,
     "locked": false,
