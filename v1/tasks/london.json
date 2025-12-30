@@ -127,8 +127,8 @@
     {
         "id": "7",
         "name": "Empire Casino",
-        "lat": 54.69516497128628, 
-        "lng": 25.277428796153,
+        "lat": 51.51075517599216,
+        "lng":  -0.13029922951056883,
         "type": "roulette",
         "startType": "carousel",
         "startCarousel": {
