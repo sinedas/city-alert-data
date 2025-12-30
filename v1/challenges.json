@@ -101,8 +101,8 @@
       "lat": 51.50793763006128,
       "lng": -0.08772282506082148
     },
-    "initialDiameter": 10000,
-    "finalDiameter": 9950,
+    "initialDiameter": 13000,
+    "finalDiameter": 12950,
     "duration": 80,
     "active": true,
     "locked": false,
