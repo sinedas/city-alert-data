@@ -98,12 +98,12 @@
     "code": "london",
     "title": "Royal casino",
     "location": {
-      "lat": 51.51034741846675,  
-      "lng": -0.13011532716004548
+      "lat": 51.50793763006128,
+      "lng": -0.08772282506082148
     },
-    "initialDiameter": 5000,
-    "finalDiameter": 4950,
-    "duration": 45,
+    "initialDiameter": 10000,
+    "finalDiameter": 9950,
+    "duration": 80,
     "active": true,
     "locked": false,
     "description": "Nežinomas miestas. Nežinomas laikas. Spreskite užduotis, bandykite sėkmę.",
@@ -111,7 +111,7 @@
     "finish": "Nežinoma",
     "hints": 0,
     "checkLocation": false,
-    "pointsPerLeftMinutes": 3
+    "pointsPerLeftMinutes": 10
   },
   {
     "code": "worlde",
