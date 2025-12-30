@@ -1,13 +1,13 @@
 [
     {
         "id": "1",
-        "name": "Westminster bridge",
+        "name": "Vestminsterio tiltas",
         "lat": 51.50080274096389,
         "lng":  -0.12209882501787074,
         "type": "team_name",
         "image": "big_ben.jpg",
         "text": [
-            "Jūsų komanda Izaoko Goldšteino laiko ir erdvės mašina nukeliavote į Londoną. Jūs stovite ant Vestminsterio tilto. Priešais parlamento rūai ir Big Ben'as.",
+            "Jūs atsidūrėte Londone.",
             "Spreskite užduotis, bandykite sėkmę ir taip rinkite taškus.",
             "Pirmoji užduotis- sugalvokite komandos pavadinimą."
         ],
@@ -18,16 +18,16 @@
     },
     {
         "id": "2",
-        "name": "House of parliament",
+        "name": "Houses of Parliament",
         "lat": 51.50085837642932,
         "lng": -0.12383467226999799,
         "type": "photoValidation",
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Parlamento rūmai"
+                "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["parlament.jpg"]
+            "images": ["parlament.webp"]
         },
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
@@ -48,7 +48,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs pakilote į Londono akies viršų. Pažaiskime Žodlę (žodžių žaidimą).",
+                "Jūs pakilote į Londono akies viršų. Pažaiskime Žodlę.",
                 "Spėkite žodį. Atspėta raidė savo vietoje bus žalia. Atspėta bet ne savo vietoje- geltona. Neatspėta raidė- pilka. Turite 10 bandymų (10 taškų). Kiekvienas bandymas- minus 1 taškas.",
                 "Užduočiai atlikti turite 5 minutes."
             ],
@@ -63,14 +63,12 @@
     },
     {
         "id": "4",
-        "name": "Westminster abbey",
+        "name": "Vestminsterio vienuolynas",
         "lat": 51.49902732571633, 
         "lng":  -0.12739075156914137,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Vestminsterio vienuolynas. Kita užduotis Žodlė.",
-                "",
+            "text": [                
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": ["eye.jpg"]
