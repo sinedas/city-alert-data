@@ -1,18 +1,13 @@
 [
     {
         "id": "1",
-        "name": "Worlde",
+        "name": "Worlde 3 attempts",
         "lat": 54.696758801413715, 
         "lng": 25.29833485738192,
         "type": "wordle",
-        "text": [
-            "Atspėk 6 raidžių žodį"
-        ],
-        "answer": [
-            "LYGUMA"
-        ],
-        "points": 10,
-        "attempts": 10,
+        
+        "points": 3,
+        "attempts": 3,
         "minusPointsOnAttempt": 1,
         "time": 5,
         "nextTaskId": "2"
