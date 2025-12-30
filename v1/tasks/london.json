@@ -89,11 +89,30 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Bekinhemo rūmai.",
+                "Bekinhemo rūmai. Užduoties taškų ir bandymų skaičius mažėja iki 9.",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": ["buckingham.jpg"]
+        },
+        "type": "wordle",
+        "points": 9,
+        "attempts": 9,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "nextTaskId": "6"
+    },
+    {
+        "id": "6",
+        "name": "Picadilly circus",
+        "lat": 51.50993767400209,
+        "lng": -0.13461210919238184,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["piccadilly.jpg"]
         },
         "type": "timepointer",
         "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujausios)",
@@ -102,11 +121,11 @@
         "points": 5,
         "attempts": 5,
         "minusPointsOnAttempt": 1,
-        "time": 4,
-        "nextTaskId": "6"
+        "time": 5,
+        "nextTaskId": "7"
     },
     {
-        "id": "6",
+        "id": "7",
         "name": "Worlde",
         "lat": 54.69516497128628, 
         "lng": 25.277428796153,
