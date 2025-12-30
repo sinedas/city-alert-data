@@ -154,7 +154,7 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["trafalgar.jpg"]
+            "images": ["trafalgar.webp"]
         },
         "type": "wordle",
         "points": 9,
