@@ -241,6 +241,15 @@
         "answer": [],
         "points": 2,
         "time": 5,
-        "nextTaskId": "8"
+        "nextTaskId": "8",
+        "reward": {
+            "text": [
+                "Tai paskutinė užduotis Londone.",
+                "Laikas grįžti namo.",
+                "Jūs- geriausia City Alert komanda!"
+            ],
+            "transformedImage": "2",
+            "image": "piccadilly.jpg"
+        }
     }
 ]
