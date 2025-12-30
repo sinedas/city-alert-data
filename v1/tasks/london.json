@@ -73,7 +73,7 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["eye.jpg"]
+            "images": ["abbey.jpg"]
         },
         "type": "wordle",
         "points": 10,
@@ -88,6 +88,7 @@
         "name": "Buckingham Palace",
         "lat": 51.502013910137904, 
         "lng": -0.1400057311445804,
+        "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Bekinhemo rūmai.",
