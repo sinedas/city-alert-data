@@ -150,9 +150,9 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Trafalgaro aikštė. Užduoties laikas mažėja iki 4 minučių.",
+                "Trafalgaro aikštė.",
                 "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Užduoties laikas trumpėja iki 4 minučių."
             ],
             "images": ["trafalgar.webp"]
         },
@@ -161,6 +161,66 @@
         "attempts": 9,
         "minusPointsOnAttempt": 1,
         "time": 4,
+        "nextTaskId": "81"
+    },
+    {
+        "id": "81",
+        "name": "Kings cross station",
+        "lat": 51.53161419821,
+        "lng": -0.12447090193320982,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs sėdate į metro ir keliaujate į Kings Cross stotį.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["cross_outside.jpg"]
+        },
+        "text": [
+            "Kings Cross stotyje yra viena nematoma platforma. Koks jos numeris? "
+        ],
+        "image": "platform.jpg",
+        "answer": ["9.75", "9,75", "9 3/4", "9 3:4", "9 34"],
+        "points": 5,
+        "attempts": 7,
+        "time": 5,
+        "hint": {
+            "text": "Iš šitos platformos mokiniai keliauja i Hogvardsą.",
+            "points": 2
+        },
+        "reward": {
+            "image": "platform.jpg",
+            "text": [
+                "Iš čia keliaujate į Grinvitčą."
+            ]
+        },
+        "nextTaskId": "82"
+    },
+    {
+        "id": "82",
+        "name": "Royal Observatory Greenwich",
+        "lat": 51.47688929598302,
+        "lng": 0,
+        
+        "text": [
+            "Esate Grinvičo Obervatorije. Jūsų vietos platuma yra 51.47688929598302. Kažin kokia yra ilguma?"
+        ],
+        "image": "observatory.jpg",
+        "answer": ["0", "Nulis"],
+        "points": 5,
+        "attempts": 7,
+        "time": 5,
+        "hint": {
+            "text": "Vietoje, kur esate, eina pagrindinis Grinvičo meridianas. Nuo čia skaičiuojamos visos pasaulio ilgumos.",
+            "points": 2
+        },
+        "reward": {
+            "image": "grinwitch.webp",
+            "text": [
+                "Laikas keliauti į centrinį Londoną."
+            ]
+        },
         "nextTaskId": "9"
     },
     {
