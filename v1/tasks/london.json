@@ -275,6 +275,7 @@
             ],
             "images": ["gallery.jpg"]
         },
+        "type": "timepointer",
         "text": "Surušiuokite dailinkus pagal paveikslų numeriukus.",
         "events": [
             { "name": "Van Gog", "year": 1, "image": "vangog.jpg" },
