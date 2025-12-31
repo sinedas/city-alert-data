@@ -276,11 +276,11 @@
             "images": ["gallery.jpg"]
         },
         "type": "timepointer",
-        "text": "Surušiuokite dailinkus pagal paveikslų numeriukus.",
+        "text": "Surikiuokite dailininkus.",
         "events": [
             { "name": "Van Gog", "year": 1, "image": "vangog.jpg" },
             { "name": "Leonardo Da Vinči", "year": 2, "image": "leonardo.jpg" },
-            { "name": "Rembrantas", "year": 3, "image": "rembrandt.jpg  " },
+            { "name": "Rembrantas", "year": 3, "image": "rembrandt.jpg" },
             { "name": "Monė", "year": 4, "image": "mone.jpg" }
         ],
         "answer": [],
