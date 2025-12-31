@@ -42,7 +42,7 @@
     },
     {
         "id": "3",
-        "name": "Big Eye",
+        "name": "London Eye",
         "lat": 51.50349925563062, 
         "lng": -0.11967875312898077,
         "startType": "carousel",
@@ -171,7 +171,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs sėdate į metro ir keliaujate į Kings Cross stotį.",
+                "Jūs sėdate į traukinį ir keliaujate į Kings Cross stotį.",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
@@ -181,7 +181,7 @@
             "Kings Cross stotyje yra viena nematoma platforma. Koks jos numeris? "
         ],
         "image": "cross.jpg",
-        "answer": ["9.75", "9,75", "9 3/4", "9 3:4", "9 34"],
+        "answer": ["9 3/4", "9¾", "9.75", "9,75", "9 3 4", "9-3/4", "9 3\\4", "9 3.4", "9 3,4", "9 3|4"],
         "points": 5,
         "attempts": 7,
         "time": 5,
@@ -218,7 +218,7 @@
         "reward": {
             "image": "grinwitch.webp",
             "text": [
-                "Laikas keliauti į centrinį Londoną."
+                "Laikas grįžti traukiniu į centrinį Londoną."
             ]
         },
         "nextTaskId": "9"
@@ -233,7 +233,7 @@
             "text": [
                 "Londono pilis.",
                 "",
-                "Žodlė. Užduočiai atlikti turite 4 minutes."
+                "Žodlė. Užduočiai atlikti turite 3 minutes."
             ],
             "images": ["tower.jpg"]
         },
@@ -260,7 +260,12 @@
         "points": 9,
         "attempts": 9,
         "minusPointsOnAttempt": 1,
-        "time": 5,
+        "time": 3,
+        "reward": {
+            "text": [
+                "Vėl lipate į metro."
+            ]
+        },
         "nextTaskId": "11"
     },
     {
@@ -306,7 +311,6 @@
         "answer": [],
         "points": 2,
         "time": 5,
-        "nextTaskId": "8",
         "reward": {
             "text": [
                 "Tai paskutinė užduotis Londone.",
