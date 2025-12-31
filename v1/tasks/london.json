@@ -180,7 +180,7 @@
         "text": [
             "Kings Cross stotyje yra viena nematoma platforma. Koks jos numeris? "
         ],
-        "image": "platform.jpg",
+        "image": "cross.jpg",
         "answer": ["9.75", "9,75", "9 3/4", "9 3:4", "9 34"],
         "points": 5,
         "attempts": 7,
@@ -275,9 +275,13 @@
             ],
             "images": ["gallery.jpg"]
         },
-        "type": "timepointer",
-        "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujausios)",
-        "random": "companies_lt",
+        "text": "Surušiuokite dailinkus pagal paveikslų numeriukus.",
+        "events": [
+            { "name": "Van Gog", "year": 1, "image": "vangog.jpg" },
+            { "name": "Leonardo Da Vinči", "year": 2, "image": "leonardo.jpg" },
+            { "name": "Rembrantas", "year": 3, "image": "rembrandt.jpg  " },
+            { "name": "Monė", "year": 4, "image": "mone.jpg" }
+        ],
         "answer": [],
         "points": 5,
         "attempts": 5,
