@@ -109,7 +109,7 @@
     "description": "Nežinomas miestas. Nežinomas laikas. Spreskite užduotis, bandykite sėkmę.",
     "start": "Nežinoma",
     "finish": "Nežinoma",
-    "hints": 0,
+    "hints": 2,
     "checkLocation": false,
     "pointsPerLeftMinutes": 10
   },
