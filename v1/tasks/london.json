@@ -73,9 +73,12 @@
             ],
             "images": ["abbey.jpg"]
         },
-        "type": "wordle",
-        "points": 10,
-        "attempts": 10,
+        "type": "timepointer",
+        "text": "Surikiuokite Didžiosios Britanijos miestus pagal dydį.",
+        "random": "britain_cities",
+        "answer": [],
+        "points": 5,
+        "attempts": 5,
         "minusPointsOnAttempt": 1,
         "time": 5,
         "nextTaskId": "5"
