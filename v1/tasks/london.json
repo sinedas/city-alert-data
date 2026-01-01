@@ -181,7 +181,7 @@
             "Kings Cross stotyje yra viena nematoma platforma. Koks jos numeris? "
         ],
         "image": "cross.jpg",
-        "answer": ["9 3/4", "9¾", "9.75", "9,75", "9 3 4", "9-3/4", "9 3\\4", "9 3.4", "9 3,4", "9 3|4"],
+        "answer": ["9 3/4", "93/4", "934", "9 34", "9¾", "9.75", "9,75", "9 3 4", "9-3/4", "9 3\\4", "9 3.4", "9 3,4", "9 3|4"],
         "points": 5,
         "attempts": 7,
         "time": 5,
@@ -283,10 +283,10 @@
         "type": "timepointer",
         "text": "Surikiuokite dailininkus.",
         "events": [
-            { "name": "Van Gog", "year": 1, "image": "vangog.jpg" },
-            { "name": "Leonardo Da Vinči", "year": 2, "image": "leonardo.jpg" },
-            { "name": "Rembrantas", "year": 3, "image": "rembrandt.jpg" },
-            { "name": "Monė", "year": 4, "image": "mone.jpg" }
+            { "name": "Van Gog", "order": 1, "image": "vangog.jpg" },
+            { "name": "Leonardo Da Vinči", "order": 2, "image": "leonardo.jpg" },
+            { "name": "Rembrantas", "order": 3, "image": "rembrandt.jpg" },
+            { "name": "Monė", "order": 4, "image": "mone.jpg" }
         ],
         "answer": [],
         "points": 5,
