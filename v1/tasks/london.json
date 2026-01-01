@@ -285,12 +285,7 @@
         },
         "type": "timepointer",
         "text": "Surikiuokite dailininkus.",
-        "events": [
-            { "name": "Van Gog", "order": 1, "image": "vangog.jpg" },
-            { "name": "Leonardo Da Vinči", "order": 2, "image": "leonardo.jpg" },
-            { "name": "Rembrantas", "order": 3, "image": "rembrandt.jpg" },
-            { "name": "Monė", "order": 4, "image": "mone.jpg" }
-        ],
+        "random": "paintings",
         "answer": [],
         "points": 5,
         "attempts": 5,
