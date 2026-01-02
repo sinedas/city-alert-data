@@ -236,15 +236,17 @@
             "text": [
                 "Londono pilis.",
                 "",
-                "Žodlė. Užduočiai atlikti turite 3 minutes."
+                "Užduočiai atlikti turite 5 minutes."
             ],
             "images": ["tower.jpg"]
         },
-        "type": "wordle",
-        "points": 9,
-        "attempts": 9,
+        "type": "timepointer",
+        "text": "Surikiuokite Anglijos istorijos įvykius.",
+        "random": "monarchs_lt",
+        "points": 5,
+        "attempts": 5,
         "minusPointsOnAttempt": 1,
-        "time": 3,
+        "time": 5,
         "nextTaskId": "10"
     },
     {
