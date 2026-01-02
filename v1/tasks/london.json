@@ -181,6 +181,7 @@
             "images": ["cross_outside.jpg"]
         },
         "image": "cross.jpg",
+        "type": "timepointer",
         "text": "Surikiuokite kerus pagal eilę: EXPELLIARMUS, LUMOS, ALOHOMORA, ACCIO",
         "events": [
             { "name": "Nuginklavimo kerai", "order": 1, "text": "EXPELLIARMUS" },
@@ -204,6 +205,7 @@
         "name": "Royal Observatory Greenwich",
         "lat": 51.47688929598302,
         "lng": 0,
+        "type": "timepointer",
         "text": "Išrikiuokite Jupiterio palydovus pagal nuotolį nuo planetos",
         "events": [
             { "name": "Ijo", "order": 1, "text": "422.000" },
