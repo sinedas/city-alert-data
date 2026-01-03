@@ -31,7 +31,7 @@
         },
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
-            "transformationPrompt": "Transform photo. {team_name} members are staying on London Tower Bridge, and holding lot of money in their hands. Also money falling from air."
+            "transformationPrompt": "Transformuokite nuotrauką. Žmonės stovi ant London Tower Bridge tilto, rankose laiko daug pinigų, o banknotai krenta iš oro aplink juos. Visi atrodo natūraliai, tarsi būtų realioje situacijoje, be dirbtinumo ar karikatūriškumo; moterys turi atrodyti ypač tvarkingai, estetiškai ir mielai, su natūraliu, švelniai paryškintu grožiu, švariomis veido linijomis, maloniomis išraiškomis ir be perdėto makiažo. Bendra scena realistiška, gyva, su miesto atmosfera, matomas tilto mastelis ir Londono aplinka, stilius realistiškas ir subalansuotas."
         },
         "text": [
             "Esate visai šalia Parlamento Rūmų. Jūsų užduotis padaryti komandos nuotrauką."
@@ -119,7 +119,7 @@
         },
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
-            "transformationPrompt": "Transform photo. People inside of Wembley stadium. They are dressed- {team_name}. Fooball arena is seen as well."
+            "transformationPrompt": "Transformuokite nuotrauką. Žmonės yra Wembley stadione, futbolo rungtynių metu, atrodo natūraliai, tarsi būtų gyvai stadione – su tikromis emocijomis, be dirbtinumo; moterys turi atrodyti ypač tvarkingai, mielai ir estetiškai, su natūraliu, švelniai paryškintu grožiu ir be perdėto makiažo. Visi vilki raudonus marškinėlius su „{team_name}“ simbolika, taip pat laiko raudonus šalikus su „{team_name}“ simboliu, kai kurie komandos nariai dėvi „{team_name}“ fanų kepures, o vienas iš komandos narių dėvi didelę linksmą kepurę su skambaliukais, būdingą stadiono fanams. Fone aiškiai matoma futbolo arena ir tribūnos, jaučiama gyva rungtynių atmosfera, stadiono mastelis ir energija, stilius realistiškas, šiltas ir natūralus, be karikatūriškumo."
         },
         "text": [
             "ChinaTown'e jus sutinkate futbolo fanų grupę. Padarykite komandos nuotrauką tarsi fotografuotumėtės su futbolo fanais. Rankas laikykite iškeltas į viršų, tarsi laikote šalykus."
