@@ -220,10 +220,32 @@
         "reward": {
             "image": "grinwitch.webp",
             "text": [
-                "Laikas grįžti traukiniu į centrinį Londoną."
+                "Prisimėte, jog futbolo fanai minėjo, jog šiandien varžybos. Sėdate į traukinį ir vykstate į Wemblį."
             ]
         },
-        "nextTaskId": "9"
+        "nextTaskId": "81"
+    },
+    {
+        "id": "81",
+        "name": "Wembley stadium",
+        "lat": 51.55534381874639,
+        "lng":  -0.2841655822170812,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Wembley stationas.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["tower.jpg"]
+        },
+        "type": "timepointer",
+        "random": "football_clubs",
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "nextTaskId": "10"
     },
     {
         "id": "9",
