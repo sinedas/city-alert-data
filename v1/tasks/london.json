@@ -189,7 +189,7 @@
     },
     {
         "id": "81",
-        "name": "King’s Cross Station",
+        "name": "King's Cross Station",
         "lat": 51.53161419821,
         "lng": -0.12447090193320982,
         "startType": "carousel",
@@ -210,6 +210,10 @@
             { "name": "Atrakinimo", "order": 3, "text": "ALOHOMORA" },
             { "name": "Daikto iššaukimo kerai", "order": 4, "text": "ACCIO" }
         ],
+        "alternative": {
+            "type": "timepointer",
+            "random": "harry_potter"           
+        },
         "points": 5,
         "attempts": 5,
         "time": 5,
@@ -234,6 +238,10 @@
             { "name": "Ganimedas", "order": 3, "text": "1.070.000" },
             { "name": "Kalisto", "order": 4, "text": "1.883.000" }
         ],
+        "alternative": {
+            "type": "timepointer",
+            "random": "astronomy"
+        },
         "image": "observatory.jpg",
         "points": 5,
         "attempts": 5,

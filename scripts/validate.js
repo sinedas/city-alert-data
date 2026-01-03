@@ -310,24 +310,24 @@ function validateMission(filename, challengeCode) {
       error(`${taskPrefix}: time must be positive`);
     }
     
-    // 2l. Fallback validation
-    if (task.fallback) {
-      if (!task.fallback.type) {
-        error(`${taskPrefix}: fallback must have "type" field`);
-      } else if (!VALID_TASK_TYPES.includes(task.fallback.type)) {
-        error(`${taskPrefix}: fallback.type "${task.fallback.type}" is invalid`);
+    // 2l. Alternative validation (renamed from fallback)
+    if (task.alternative) {
+      if (!task.alternative.type) {
+        error(`${taskPrefix}: alternative must have "type" field`);
+      } else if (!VALID_TASK_TYPES.includes(task.alternative.type)) {
+        error(`${taskPrefix}: alternative.type "${task.alternative.type}" is invalid`);
       }
       
-      if (task.fallback.random && !availableCollections.includes(task.fallback.random)) {
-        error(`${taskPrefix}: fallback collection "${task.fallback.random}.json" not found`);
+      if (task.alternative.random && !availableCollections.includes(task.alternative.random)) {
+        error(`${taskPrefix}: alternative collection "${task.alternative.random}.json" not found`);
       }
       
-      if (task.fallback.image && !task.fallback.image.startsWith('http')) {
-        const imgPath = path.join(imgDir, task.fallback.image);
+      if (task.alternative.image && !task.alternative.image.startsWith('http')) {
+        const imgPath = path.join(imgDir, task.alternative.image);
         if (!fileExists(imgPath)) {
-          error(`${taskPrefix}: fallback image not found: ${task.fallback.image}`);
+          error(`${taskPrefix}: alternative image not found: ${task.alternative.image}`);
         } else {
-          usedImages.add(task.fallback.image);
+          usedImages.add(task.alternative.image);
         }
       }
     }
