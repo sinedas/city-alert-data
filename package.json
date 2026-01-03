@@ -1,0 +1,17 @@
+{
+  "name": "city-alert-data",
+  "version": "1.0.0",
+  "description": "Mission data for City Alert game",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "validate:mission": "node scripts/validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/city-alert-data.git"
+  },
+  "keywords": ["city-alert", "missions", "data"],
+  "author": "",
+  "license": "ISC"
+}
+
