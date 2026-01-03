@@ -258,7 +258,7 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["wembpleyv2.jpg"]
+            "images": ["wembpleyv3.jpg"]
         },
         "type": "timepointer",
         "random": "football_clubs",
@@ -268,7 +268,7 @@
         "time": 5,
         "reward": {
             "text": [
-                "Stebite futbolo varžabas Wembley stadione."
+                "Stebite futbolo varžybas Wembley stadione."
             ],
             "transformedImage": "51"
         },
