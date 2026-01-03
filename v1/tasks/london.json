@@ -115,7 +115,7 @@
             "text": [
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["parlament.webp"]
+            "images": ["soho.webp"]
         },
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
@@ -241,7 +241,7 @@
         "reward": {
             "image": "grinwitch.webp",
             "text": [
-                "Prisimėte, jog futbolo fanai minėjo, jog šiandien varžybos. Sėdate į traukinį ir vykstate į Wemblį."
+                "Prisiminėte, jog futbolo fanai minėjo, kad šiandien varžybos. Sėdate į traukinį."
             ]
         },
         "nextTaskId": "83"
@@ -258,7 +258,7 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["tower.jpg"]
+            "images": ["wembpley.jpg"]
         },
         "type": "timepointer",
         "random": "football_clubs",
@@ -270,8 +270,7 @@
             "text": [
                 "Stebite futbolo varžabas Wembley stadione."
             ],
-            "transformedImage": "2",
-            "image": "piccadilly.jpg"
+            "transformedImage": "51"
         },
         "nextTaskId": "9"
     },
