@@ -9,7 +9,7 @@
         "text": [
             "Izaoko Goldšteino kapsulė išsiūntė jus į Londoną.",
             "Spręskite užduotis, bandykite sėkmę ir taip rinkite taškus.",
-            "Pirmoji užduotis- sugalvokite komandos pavadinimą. Komandos pavadinimas turi būti susijęs su mėgstamiausios futbolo komandos pavadinimu."
+            "Pirmoji užduotis - sugalvokite komandos pavadinimą. Komandos pavadinimas turi būti susijęs su mėgstamiausios futbolo komandos pavadinimu."
         ],
         "points": 2,
         "attempts": 1,
@@ -91,7 +91,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Bekingemo rūmai. Užduoties taškų ir bandymų skaičius mažėja iki 9.",
+                "Bekinhemo rūmai. Užduoties taškų ir bandymų skaičius mažėja iki 9.",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
@@ -122,7 +122,7 @@
             "transformationPrompt": "Transformuokite nuotrauką. Žmonės yra Wembley stadione, futbolo rungtynių metu, atrodo natūraliai, tarsi būtų gyvai stadione – su tikromis emocijomis, be dirbtinumo; moterys turi atrodyti ypač tvarkingai, mielai ir estetiškai, su natūraliu, švelniai paryškintu grožiu ir be perdėto makiažo. Visi vilki raudonus marškinėlius su „{team_name}“ simbolika, taip pat laiko raudonus šalikus su „{team_name}“ simboliu, kai kurie komandos nariai dėvi „{team_name}“ fanų kepures, o vienas iš komandos narių dėvi didelę linksmą kepurę su skambaliukais, būdingą stadiono fanams. Fone aiškiai matoma futbolo arena ir tribūnos, jaučiama gyva rungtynių atmosfera, stadiono mastelis ir energija, stilius realistiškas, šiltas ir natūralus, be karikatūriškumo."
         },
         "text": [
-            "ChinaTown'e jus sutinkate futbolo fanų grupę. Padarykite komandos nuotrauką tarsi fotografuotumėtės su futbolo fanais. Rankas laikykite iškeltas į viršų, tarsi laikote šalykus."
+            "Chinatown'e jus sutinkate futbolo fanų grupę. Padarykite komandos nuotrauką tarsi fotografuotumėtės su futbolo fanais. Rankas laikykite iškeltas į viršų, tarsi laikote šalikus."
         ],
         "points": 3,
         "time": 5,
@@ -158,7 +158,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Šalia Empire Kazino randate 2 svarų monetą. Nusprendžiate užeiti į kazino pažaisti ruletę. 1 svaras- 1 taškas. Laimėjimo metu suma dvigubinasi. Pralaimėjimo atveju sudega viskas."
+                "Šalia Empire kazino randate 2 svarų monetą. Nusprendžiate užeiti į kazino pažaisti ruletę. 1 svaras- 1 taškas. Laimėjimo metu suma dvigubinasi. Pralaimėjimo atveju sudega viskas."
             ],
             "images": ["empire.jpg"]
         },
@@ -254,7 +254,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Wembley stationas.",
+                "Wembley stadionas.",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
@@ -282,7 +282,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Po futbolo varžybų sėdate i Traukinį ir vykstate į Londono pilį.",
+                "Po futbolo varžybų sėdate i traukinį ir vykstate į Londono pilį.",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
@@ -362,7 +362,7 @@
             "text": [
                 "Tai paskutinė užduotis Londone.",
                 "Laikas grįžti namo.",
-                "Jūs- geriausia City Alert komanda!"
+                "Jūs - geriausia City Alert komanda!"
             ],
             "transformedImage": "2",
             "image": "piccadilly.jpg"
