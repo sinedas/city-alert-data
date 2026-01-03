@@ -7,9 +7,9 @@
         "type": "team_name",
         "image": "big_ben.jpg",
         "text": [
-            "Jūs atsidūrėte Londone.",
+            "Izaoko Goldšteino kapsulė išsiūntė jus į Londoną.",
             "Spręskite užduotis, bandykite sėkmę ir taip rinkite taškus.",
-            "Pirmoji užduotis- sugalvokite komandos pavadinimą."
+            "Pirmoji užduotis- sugalvokite komandos pavadinimą. Komandos pavadinimas turi būti susijęs su mėgstamiausios futbolo komandos pavadinimu."
         ],
         "points": 2,
         "attempts": 1,
@@ -31,7 +31,7 @@
         },
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
-            "transformationPrompt": "Transform photo. People are staying on London Tower Bridge, and holding lot of money in their hands. Also money falling from air."
+            "transformationPrompt": "Transform photo. {team_name} members are staying on London Tower Bridge, and holding lot of money in their hands. Also money falling from air."
         },
         "text": [
             "Esate visai šalia Parlamento Rūmų. Jūsų užduotis padaryti komandos nuotrauką."
@@ -76,7 +76,6 @@
         "type": "timepointer",
         "text": "Surikiuokite Didžiosios Britanijos miestus pagal dydį.",
         "random": "britain_cities",
-        "answer": [],
         "points": 5,
         "attempts": 5,
         "minusPointsOnAttempt": 1,
@@ -103,6 +102,30 @@
         "attempts": 9,
         "minusPointsOnAttempt": 1,
         "time": 5,
+        "nextTaskId": "51"
+    },
+    {
+        "id": "51",
+        "name": "Soho",
+        "lat": 51.51178723162537,
+        "lng": -0.13245958996556553,
+        "type": "photoValidation",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["parlament.webp"]
+        },
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
+            "transformationPrompt": "Transform photo. People inside of Wembley stadium. They are dressed- {team_name}. Fooball arena is seen as well."
+        },
+        "text": [
+            "ChinaTown'e jus sutinkate futbolo fanų grupę. Padarykite komandos nuotrauką tarsi fotografuotumėtės su futbolo fanais. Rankas laikykite iškeltas į viršų, tarsį laikytų šalykus."
+        ],
+        "points": 3,
+        "time": 5,
         "nextTaskId": "6"
     },
     {
@@ -120,7 +143,6 @@
         "type": "timepointer",
         "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujausios)",
         "random": "companies_lt",
-        "answer": [],
         "points": 5,
         "attempts": 5,
         "minusPointsOnAttempt": 1,
@@ -140,7 +162,6 @@
             ],
             "images": ["empire.jpg"]
         },
-        "answer": [],
         "points": 2,
         "time": 5,
         "nextTaskId": "8"
@@ -329,7 +350,6 @@
             ],
             "images": ["casino.jpg"]
         },
-        "answer": [],
         "points": 10,
         "time": 5,
         "reward": {

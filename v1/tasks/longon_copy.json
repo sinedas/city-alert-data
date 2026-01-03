@@ -106,6 +106,31 @@
         "nextTaskId": "6"
     },
     {
+        "id": "51",
+        "name": "Soho",
+        "lat": 51.51178723162537,
+        "lng": -0.13245958996556553,
+        "type": "photoValidation",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["parlament.webp"]
+        },
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
+            "transformationPrompt": "Transform photo. People inside of Wembley stadium. They are dressed- {team_name}. Fooball arena is seen as well."
+        },
+        "text": [
+            "ChinaTown'e jus sutinkate futbolo fanų grupę. Padarykite komandos nuotrauką tarsi fotografuotumėtės su futbolo fanais. Rankas laikykite iškeltas į viršų, tarsį laikytų šalykus."
+        ],
+        "points": 3,
+        "time": 5,
+        "nextTaskId": "51"
+    },
+    
+    {
         "id": "6",
         "name": "Piccadilly Circus",
         "lat": 51.50993767400209,
