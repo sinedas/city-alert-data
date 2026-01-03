@@ -106,7 +106,7 @@
     "duration": 75,
     "active": true,
     "locked": false,
-    "description": "Keliaukite į Lodoną. Spreskite užduotis, bandykite sėkmę.",
+    "description": "Keliaukite į Londoną. Spreskite užduotis, bandykite sėkmę.",
     "start": "Westminster Bridge",
     "finish": "Tower Bridge",
     "hints": 2,
