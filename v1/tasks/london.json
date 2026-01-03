@@ -115,7 +115,7 @@
             "text": [
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["soho.webp"]
+            "images": ["sohov2.jpg"]
         },
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmonės, nufotografuoti telefonu",
@@ -258,7 +258,7 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["wembpley.jpg"]
+            "images": ["wembpleyv2.jpg"]
         },
         "type": "timepointer",
         "random": "football_clubs",
