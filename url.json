@@ -2,5 +2,7 @@
     "baseUrl": "https://raw.githubusercontent.com/sinedas/city-alert-data/dev",
     "mediaBaseUrl": "https://cdn.jsdelivr.net/gh/sinedas/city-alert-data@dev",
     "apiEnabled": true,
-    "apiUrl": "https://city-alert-backend-403536137676.europe-central2.run.app"
+    "apiUrl": "https://city-alert-backend-403536137676.europe-central2.run.app",
+
+    "remoteCollections": ["paintings"] 
 }
