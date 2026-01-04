@@ -31,10 +31,10 @@
         "type": "timeline",
         "text": "Surikiuokite įmones pagal įkūrimo datą (nuo seniausios iki naujiausios)",
         "events": [
-            { "name": "Google", "order": "4", "text": "1998" },
-            { "name": "Microsoft", "oder": "1",  "text": "1975" },
-            { "name": "Apple", "order": "2", "text": "1976" },
-            { "name": "Amazon", "order": "3", "text": "1994" }
+            { "name": "Google", "order": 4, "text": "1998" },
+            { "name": "Microsoft", "order": 1, "text": "1975" },
+            { "name": "Apple", "order": 2, "text": "1976" },
+            { "name": "Amazon", "order": 3, "text": "1994" }
         ],
         "answer": [],
         "points": 5,
