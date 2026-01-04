@@ -1,0 +1,12 @@
+[
+    {
+      "question": "Surikiuokite dailininkus.",
+      "events": [
+            { "name": "Fransiskas Goja", "order": 1, "image": "shared/paintings/goya.jpg" },
+            { "name": "Klodas Monė", "order": 2, "image": "shared/paintings/mone2.jpg" },
+            { "name": "Rubensas", "order": 3, "image": "shared/paintings/rubens.jpg" },
+            { "name": "Antonis Van Deikas", "order": 4, "image": "shared/paintings/van_dyck.jpg" }
+      ]
+    }
+    
+  ]
