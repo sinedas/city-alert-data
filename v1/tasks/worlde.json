@@ -94,6 +94,20 @@
         "points": 10,
         "attempts": 10,
         "minusPointsOnAttempt": 1,
-        "time": 5
+        "time": 5,
+        "nextTaskId": "7"
+    },
+    {
+        "id": "7",
+        "name": "Worlde 3 attempts",
+        "lat": 54.679384830822855,
+        "lng": 25.28826013482359,
+        "type": "wordle",
+        
+        "points": 3,
+        "attempts": 3,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "nextTaskId": "2"
     }
 ]
