@@ -202,17 +202,13 @@
             "images": ["cross_outside.jpg"]
         },
         "image": "cross.jpg",
-        "type": "timepointer",
-        "text": "Surikiuokite kerus pagal eilę: EXPELLIARMUS, LUMOS, ALOHOMORA, ACCIO",
-        "events": [
-            { "name": "Nuginklavimo kerai", "order": 1, "text": "EXPELLIARMUS" },
-            { "name": "Šviesos kerai", "order": 2, "text": "LUMOS" },
-            { "name": "Atrakinimo", "order": 3, "text": "ALOHOMORA" },
-            { "name": "Daikto iššaukimo kerai", "order": 4, "text": "ACCIO" }
+        "text": [
+            "Kings Cross stotyje yra platforma, minima kaip nematoma vienoje knygoje. Koks jos numeris? "
         ],
+        "answer": ["9 3/4", "93/4", "934", "9 34", "9¾", "9.75", "9,75", "9 3 4", "9-3/4", "9 3\\4", "9 3.4", "9 3,4", "9 3|4"],     
         "alternative": {
             "type": "timepointer",
-            "random": "harry_potter"           
+            "random": "fantasy_lt"           
         },
         "points": 5,
         "attempts": 5,
@@ -230,14 +226,10 @@
         "name": "Royal Observatory Greenwich",
         "lat": 51.47688929598302,
         "lng": 0,
-        "type": "timepointer",
-        "text": "Išrikiuokite Jupiterio palydovus pagal nuotolį nuo planetos",
-        "events": [
-            { "name": "Ijo", "order": 1, "text": "422.000" },
-            { "name": "Europa", "order": 2, "text": "671.000" },
-            { "name": "Ganimedas", "order": 3, "text": "1.070.000" },
-            { "name": "Kalisto", "order": 4, "text": "1.883.000" }
+        "text": [
+            "Esate Grinvičo observatorijoje. Jūsų vietos platuma yra 51.47688929598302. Kažin kokia yra ilguma?"
         ],
+        "answer": ["0", "Nulis"],
         "alternative": {
             "type": "timepointer",
             "random": "astronomy"
