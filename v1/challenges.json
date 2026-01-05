@@ -123,7 +123,7 @@
     "initialDiameter": 4000,
     "finalDiameter": 3950,
     "duration": 30,
-    "active": true,
+    "active": false,
     "locked": false,
     "description": "Spėkite žodžius",
     "start": "Žirmūnų Iki",
