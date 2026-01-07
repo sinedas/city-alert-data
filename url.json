@@ -3,7 +3,6 @@
     "mediaBaseUrl": "https://cdn.jsdelivr.net/gh/sinedas/city-alert-data@stage",
     "apiEnabled": true,
     "apiUrl": "https://city-alert-backend-403536137676.europe-central2.run.app",
-
     "remoteCollections": [],
     "remoteMissions": [],
     "remoteMissionList": false,
