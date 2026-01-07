@@ -4,7 +4,8 @@
   "description": "Mission data for City Alert game",
   "scripts": {
     "validate": "node scripts/validate.js",
-    "validate:mission": "node scripts/validate.js"
+    "validate:mission": "node scripts/validate.js",
+    "optimize": "node scripts/optimize-images.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,9 @@
   },
   "keywords": ["city-alert", "missions", "data"],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
 }
 
