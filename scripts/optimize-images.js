@@ -75,7 +75,11 @@ async function optimizeImage(inputPath, outputPath) {
         fit: 'inside',
         withoutEnlargement: true, // Don't upscale small images
       })
-      .webp({ quality: QUALITY })
+      .webp({ 
+        quality: QUALITY,
+        effort: 6,           // Maksimali kompresija (lėtesnis encoding, bet mažesni failai)
+        smartSubsample: true // Geresnė chrominance sampling (geresnė kokybė)
+      })
       .toFile(outputPath);
     
     // Get file sizes

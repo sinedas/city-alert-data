@@ -11,11 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/yourusername/city-alert-data.git"
   },
-  "keywords": ["city-alert", "missions", "data"],
+  "keywords": [
+    "city-alert",
+    "missions",
+    "data"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "sharp": "^0.33.5"
   }
 }
-
