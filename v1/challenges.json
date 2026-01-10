@@ -1,5 +1,24 @@
 [
   {
+    "code": "london",
+    "title": "Nuotykis Londone",
+    "location": {
+      "lat": 51.506068356134726,
+      "lng":  -0.12003858604762346
+    },
+    "initialDiameter": 26000,
+    "finalDiameter": 25950,
+    "duration": 75,
+    "active": true,
+    "locked": false,
+    "description": "Keliaukite į Londoną. Spreskite užduotis, bandykite sėkmę.",
+    "start": "Westminster Bridge",
+    "finish": "Tower Bridge",
+    "hints": 2,
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 5
+  },
+  {
     "code": "tuskulenai",
     "title": "Tuskulėnų vaiduoklis",
     "image": "tuskulenai.jpg",
@@ -93,25 +112,6 @@
     "start": "Pirma užduotis- Vaikų pasaulis",
     "finish": "Žydų kapinės\nAtlikę užduotį gausite nurodymą kitai užduočiai. Užduotis atlikite nurodyta tvarka.",
     "checkLocation": false
-  },
-  {
-    "code": "london",
-    "title": "Nuotykis Londone",
-    "location": {
-      "lat": 51.506068356134726,
-      "lng":  -0.12003858604762346
-    },
-    "initialDiameter": 26000,
-    "finalDiameter": 25950,
-    "duration": 75,
-    "active": true,
-    "locked": false,
-    "description": "Keliaukite į Londoną. Spreskite užduotis, bandykite sėkmę.",
-    "start": "Westminster Bridge",
-    "finish": "Tower Bridge",
-    "hints": 2,
-    "checkLocation": false,
-    "pointsPerLeftMinutes": 5
   },
   {
     "code": "worlde",
