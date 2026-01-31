@@ -12,7 +12,7 @@
  *   node scripts/optimize-images.js <input-folder> <output-folder>
  *   
  * Example:
- *   node scripts/optimize-images.js v1/img/future v1/img/future_optimized
+ *   node scripts/optimize-images.js v1/img/optimize v1/img/optimized
  */
 
 const fs = require('fs');
