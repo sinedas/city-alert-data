@@ -169,10 +169,14 @@
     "initialDiameter": 4000,
     "finalDiameter": 4000,
     "duration": 120,
+<<<<<<< HEAD
     "active": false,
 <<<<<<< HEAD
     "locked": true,
 =======
+=======
+    "active": true,
+>>>>>>> d1a1149 (soviets old)
     "locked": false,
 >>>>>>> f401808 (remote missions, ona locked)
     "description": "Laiko mašina grįžkite į sovietinį laiką.",
