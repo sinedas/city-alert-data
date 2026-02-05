@@ -1,0 +1,212 @@
+[
+  {
+    "code": "tuskulenai",
+    "title": "Tuskulėnų vaiduoklis",
+    "image": "tuskulenai.jpg",
+    "location": {
+      "lat": 54.698039582832486, 
+      "lng": 25.302702381449947
+    },
+    "initialDiameter": 700,
+    "finalDiameter": 150,
+    "duration": 60,
+    "active": true,
+    "locked": false,
+    "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
+    "start": "Žirmūnų biblioteka arba VRM rūmai",
+    "finish": "Tuskulėnų dvaras",
+    "hints": 2,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+            "Jūs pradėjote žaidimą. Pirma jūsų užduotis sugalvoti komandos pavadinimaą.",
+            "",
+            "Užduočiai atlikti turite 4 minutes."
+        ],
+        "points": 2
+    }
+  },
+  {
+    "code": "ona",
+    "title": "Šv. Onos paslaptis",
+    "location": {
+      "lat": 54.68307240086446, 
+      "lng": 25.29308522963397
+    },
+    "initialDiameter": 1000,
+    "finalDiameter": 150,
+    "duration": 10,
+    "active": true,
+    "locked": true,
+    "description": "Atskleiskite Šv. Onos bažnyčios paslaptis.",
+    "start": "Signatarų rūmai",
+    "finish": "Adomo Mickevičiaus paminklas",
+    "hints": 3,
+    "checkLocation": false
+  },
+  {
+    "code": "london",
+    "title": "Nuotykis Londone",
+    "image": "bridgev7.webp",
+    "location": {
+      "lat": 51.506068356134726,
+      "lng": -0.12003858604762346
+    },
+    "initialDiameter": 26000,
+    "finalDiameter": 25950,
+    "duration": 75,
+    "active": true,
+    "locked": false,
+    "description": "Keliaukite į Londoną. Spreskite užduotis, bandykite sėkmę.",
+    "start": "Westminster Bridge",
+    "finish": "Tower Bridge",
+    "hints": 2,
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 5,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+            "Izaoko Goldšteino kapsulė išsiūntė jus į Londoną, kur jūsų laukia įvairiausi nuotykiai ir užduotys.",
+            "Atlikus pirmą užduotį, pamatysite Londono žemėlapį.",
+            "Žemėlapyje bus markeriai, žymintys tuo metu aktyvią užduotį:",
+            "[img source=\"shield_icon.jpg\"/] ar [img source=\"photo_icon.jpg\"/] ",
+            "Spauskitę markerį, kad pakliutį į užduoties langą.",
+            "",
+            "Pirma užduotis- sugalvokite komandos pavadinimą.",
+            "Užduočiai atlikti turite 4 minutes."
+        ],
+        "points": 2
+    }
+  },
+  {
+    "code": "future",
+    "title": "Vilnius- Apokalipsė",
+    "image": "future.jpg",
+    "location": {
+      "lat": 54.68314911442479,
+      "lng": 25.285887343411485
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 3950,
+    "duration": 120,
+    "active": true,
+    "locked": false,
+    "description": "Keliaukite į apokaliptinį ateities Vilnių.",
+    "start": "Žirmūnų Iki",
+    "finish": "Prezidentūra",
+    "hints": 8,
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 10,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+            "Ištrauka iš Izaoko Goldšteino tyrimų žurnalo. Prieigos lygis: KONFIDENCIALU.",
+            "'Komandos nariai laiko kilpos perėjimą išgyveno sėkmingai. Jokių akivaizdžių šalutinių poveikių neužfiksuota. Kraujo rodikliai stabilūs. Kraujospūdis normos ribose. Širdies veikla sinchronizuota, nukrypimų nefiksuota.",
+            "Psichologinė būsena teigiama. Stebimas nepaaiškinamas pakylėjimo efektas — galimas laiko lauko poveikis.",
+            "Pastaba sau: komandai būtina suteikti pavadinimą. Identitetas gali turėti įtakos grupės stabilumui laiko anomalijose.'",
+            "",
+            "Sugalvokite komandos pavadinimą.",
+            "Užduočiai atlikti turite 4 minutes."
+        ],
+        "points": 2
+    }
+  },
+  {
+    "code": "soviets2",
+    "title": "Žydų kapinės ir sovietiniai monstrai",
+    "image": "sovietsv3.jpg",
+    "location": {
+      "lat": 54.69079963514012, 
+      "lng": 25.290875962339644
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 3900,
+    "duration": 120,
+    "active": true,
+    "locked": false,
+    "description": "Laiko mašina grįžkite į sovietinį laiką.",
+    "hints": 8,
+    "start": "Pirma užduotis- Vaikų pasaulis",
+    "finish": "Žydų kapinės",
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 10
+  },
+  {
+    "code": "soviets",
+    "title": "Žydų kapinės ir sovietiniai monstrai (old version)",
+    "location": {
+      "lat": 54.69079963514012, 
+      "lng": 25.290875962339644
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 4000,
+    "duration": 120,
+    "active": false,
+    "locked": false,
+    "description": "Laiko mašina grįžkite į sovietinį laiką.",
+    "hints": 7,
+    "start": "Pirma užduotis- Vaikų pasaulis",
+    "finish": "Žydų kapinės\nAtlikę užduotį gausite nurodymą kitai užduočiai. Užduotis atlikite nurodyta tvarka.",
+    "checkLocation": false
+  },
+  {
+    "code": "worlde",
+    "title": "Žaidimas Worlde",
+    "location": {
+      "lat": 54.69516497128628, 
+      "lng": 25.277428796153
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 3950,
+    "duration": 30,
+    "active": false,
+    "locked": false,
+    "description": "Spėkite žodžius",
+    "start": "Žirmūnų Iki",
+    "finish": "Prezidentūra",
+    "hints": 0,
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 3
+  },
+  {
+    "code": "test-virtual",
+    "title": "🧪 Test Virtual",
+    "location": {
+      "lat": 54.8985,
+      "lng": 23.8861
+    },
+    "initialDiameter": 50000,
+    "finalDiameter": 49900,
+    "duration": 60,
+    "active": false,
+    "locked": false,
+    "description": "Testavimo misija - visi užduočių tipai be geo.",
+    "start": "Bet kur",
+    "finish": "Bet kur",
+    "hints": 1,
+    "checkLocation": false
+  },
+  {
+    "code": "test-geo",
+    "title": "🧪 Test Geo",
+    "location": {
+      "lat": 54.69893,
+      "lng": 25.30018
+    },
+    "initialDiameter": 500,
+    "finalDiameter": 100,
+    "duration": 30,
+    "active": false,
+    "locked": false,
+    "description": "Testavimo misija - geo funkcionalumas.",
+    "start": "Namai",
+    "finish": "Balkonas",
+    "hints": 0,
+    "checkLocation": true
+  }
+]
+
