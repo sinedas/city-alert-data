@@ -200,7 +200,7 @@
     "initialDiameter": 500,
     "finalDiameter": 100,
     "duration": 30,
-    "active": false,
+    "active": true,
     "locked": false,
     "description": "Testavimo misija - geo funkcionalumas.",
     "start": "Namai",
