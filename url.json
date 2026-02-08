@@ -6,7 +6,7 @@
 
     "remoteCollections": [],
     "remoteMissions": [],
-    "remoteMissionList": true,
+    "remoteMissionList": false,
     
     "tileProvider": "osm"
 }
