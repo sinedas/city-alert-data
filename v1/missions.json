@@ -29,8 +29,6 @@
     }
   },
   {
-<<<<<<< HEAD
-=======
     "code": "ona",
     "title": "Šv. Onos paslaptis",
     "location": {
@@ -49,7 +47,6 @@
     "checkLocation": false
   },
   {
->>>>>>> f401808 (remote missions, ona locked)
     "code": "london",
     "title": "Nuotykis Londone",
     "image": "bridgev7.webp",
@@ -166,7 +163,7 @@
     "initialDiameter": 4000,
     "finalDiameter": 4000,
     "duration": 120,
-    "active": false,
+    "active": true,
     "locked": true,
     "description": "Laiko mašina grįžkite į sovietinį laiką.",
     "hints": 7,
