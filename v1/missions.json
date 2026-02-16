@@ -29,24 +29,6 @@
     }
   },
   {
-    "code": "ona",
-    "title": "Šv. Onos paslaptis",
-    "location": {
-      "lat": 54.68307240086446, 
-      "lng": 25.29308522963397
-    },
-    "initialDiameter": 1000,
-    "finalDiameter": 150,
-    "duration": 10,
-    "active": true,
-    "locked": true,
-    "description": "Atskleiskite Šv. Onos bažnyčios paslaptis.",
-    "start": "Signatarų rūmai",
-    "finish": "Adomo Mickevičiaus paminklas",
-    "hints": 3,
-    "checkLocation": false
-  },
-  {
     "code": "london",
     "title": "Nuotykis Londone",
     "image": "bridgev7.webp",
@@ -136,6 +118,24 @@
     "pointsPerLeftMinutes": 10
   },
   {
+    "code": "ona",
+    "title": "Šv. Onos paslaptis",
+    "location": {
+      "lat": 54.68307240086446, 
+      "lng": 25.29308522963397
+    },
+    "initialDiameter": 1500,
+    "finalDiameter": 150,
+    "duration": 120,
+    "active": true,
+    "locked": true,
+    "description": "Atskleiskite Šv. Onos bažnyčios paslaptis.",
+    "start": "Signatarų rūmai",
+    "finish": "Adomo Mickevičiaus paminklas",
+    "hints": 5,
+    "checkLocation": true
+  },
+  {
     "code": "soviets",
     "title": "Žydų kapinės ir sovietiniai monstrai (old version)",
     "location": {
@@ -146,7 +146,7 @@
     "finalDiameter": 4000,
     "duration": 120,
     "active": false,
-    "locked": false,
+    "locked": true,
     "description": "Laiko mašina grįžkite į sovietinį laiką.",
     "hints": 7,
     "start": "Pirma užduotis- Vaikų pasaulis",
@@ -200,7 +200,7 @@
     "initialDiameter": 500,
     "finalDiameter": 100,
     "duration": 30,
-    "active": true,
+    "active": false,
     "locked": false,
     "description": "Testavimo misija - geo funkcionalumas.",
     "start": "Namai",
