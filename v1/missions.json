@@ -139,7 +139,6 @@
     "pointsPerLeftMinutes": 10
   },
   {
-<<<<<<< HEAD
     "code": "ona",
     "title": "Šv. Onos paslaptis",
     "location": {
@@ -158,8 +157,6 @@
     "checkLocation": true
   },
   {
-=======
->>>>>>> f401808 (remote missions, ona locked)
     "code": "soviets",
     "title": "Žydų kapinės ir sovietiniai monstrai (old version)",
     "location": {
@@ -169,16 +166,8 @@
     "initialDiameter": 4000,
     "finalDiameter": 4000,
     "duration": 120,
-<<<<<<< HEAD
     "active": false,
-<<<<<<< HEAD
     "locked": true,
-=======
-=======
-    "active": true,
->>>>>>> d1a1149 (soviets old)
-    "locked": false,
->>>>>>> f401808 (remote missions, ona locked)
     "description": "Laiko mašina grįžkite į sovietinį laiką.",
     "hints": 7,
     "start": "Pirma užduotis- Vaikų pasaulis",
