@@ -29,24 +29,6 @@
     }
   },
   {
-    "code": "ona",
-    "title": "Šv. Onos paslaptis",
-    "location": {
-      "lat": 54.68307240086446, 
-      "lng": 25.29308522963397
-    },
-    "initialDiameter": 1000,
-    "finalDiameter": 150,
-    "duration": 10,
-    "active": true,
-    "locked": true,
-    "description": "Atskleiskite Šv. Onos bažnyčios paslaptis.",
-    "start": "Signatarų rūmai",
-    "finish": "Adomo Mickevičiaus paminklas",
-    "hints": 3,
-    "checkLocation": false
-  },
-  {
     "code": "london",
     "title": "Nuotykis Londone",
     "image": "bridgev7.webp",
