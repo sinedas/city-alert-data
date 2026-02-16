@@ -166,7 +166,7 @@
     "initialDiameter": 4000,
     "finalDiameter": 4000,
     "duration": 120,
-    "active": true,
+    "active": false,
     "locked": true,
     "description": "Laiko mašina grįžkite į sovietinį laiką.",
     "hints": 7,
