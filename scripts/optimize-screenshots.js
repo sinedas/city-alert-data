@@ -20,8 +20,8 @@ const path = require('path');
 const sharp = require('sharp');
 
 // Configuration
-const SCREENSHOT_WIDTH = 1290;
-const SCREENSHOT_HEIGHT = 2796;
+const SCREENSHOT_WIDTH = 1024
+const SCREENSHOT_HEIGHT = 1024
 const JPG_QUALITY = 90;
 const SUPPORTED_FORMATS = ['.jpg', '.jpeg', '.png', '.webp', '.gif'];
 
