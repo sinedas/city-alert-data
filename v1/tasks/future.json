@@ -29,27 +29,6 @@
                 "images": ["zirmunu1.webp", "zirmunu2.webp", "zirmunu3.webp"],
                 "changeInterval": 3
             },
-            "nextTaskId": "105"
-        },
-        {
-            "id": "105",
-            "name": "Žemėlapis",
-            "lat": 54.68268848611532,
-            "lng": 25.291494828450038,  
-            "image": "sliekas.jpg",
-            "text": [
-                "Lenkiskas.",
-                "1. Pakasyk sliekui ... .",
-                "2. Tau ne ... namie.",
-                "3. Lisk tu vabalo ... .",
-                "4. Po šimts ... .",
-                "5. Tu ... uodega .",
-                "[href=\"https://lietuvoskartografija.lt/lithuanianmaps/wp-content/uploads/2024/02/1921_Wilna_city_plan.jpg\"]Vilniaus žemėlapis[/href]."
-            ],
-            "answer": ["PILKA"],
-            "points": 8,
-            "attempts": 3,
-            "time": 8,
             "nextTaskId": "2"
         },
         {
