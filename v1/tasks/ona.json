@@ -1,0 +1,292 @@
+[
+    {
+        "id": "1",
+        "name": "Signatarų namai",
+        "lat": 54.68230198546044,
+        "lng": 25.289151856176485,
+        "image": "independence.png",
+        "text": "Eikite po žingsnelį ↑, ← , ↓ ar → nuo raidės 'N ir perskaitykite žodį.",
+        "answer": ["Nepriklausomybė"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "image": "independence_hint.png",
+            "points": 3
+        }
+    },
+    {
+        "id": "2",
+        "name": "Šv. Onos bažnyčia",
+        "lat": 54.68319749673784, 
+        "lng": 25.29293702706192,
+        "image": "napoleon.png",
+        "text": "Įdėmiai perskaityk Šv. Onos bažyčios aprašymą. Sujunk Vilniaus centrą su Paryžiaus centru, o Napoleoną su Ona ir gausi reikiamą datą.",
+        "answer": ["1992"],
+        "points": 6,
+        "attempts": 3,
+        "time": 6,
+        "hint": {
+            "text": "Žodį sujunk suprask tiesiogiai. Nubrėžk linijas nuo žodžio iki žodžio. Linijų susikirtimo vieta ir bus atsakymas.",
+            "points": 3
+        }
+    },
+    {
+        "id": "3",
+        "name": "Dailės akademija",
+        "lat": 54.683450007863286,
+        "lng": 25.293268345852436       ,
+        "image": "spalvos.webp",
+        "text": "Kokia spalva užšifruota šioje lygtyje?",
+        "answer": ["Oranžinė"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Prisiminkite dailės pamokas",
+                "Žalia ir raudona yra ruda", 
+                "Мėlyna ir geltona yra žalia.",
+                "Kokias spalvas dar maišėte mokykloje?"
+            ],
+            "points": 3
+        }
+    },
+    {
+        "id": "4",
+        "name": "Literatūrinis personažas",
+        "lat": 54.68160840104892,
+        "lng": 25.291646172148862,       
+        "image": "miunhauzenas.png",
+        "text": "Sudėliokite dėlionę ir sužinokite literatūrinį personažą.",
+        "answer": ["Baronas Miunhauzenas"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6        
+    },
+    {
+        "id": "5",
+        "name": "Juliaus kontrolinis",
+        "lat": 54.68278093252339,
+        "lng": 25.28977120905973,       
+        "image": "kontrolinisv2.png",
+        "text": [
+            "Žymaus lenkų poeto bendravardis Julius sėkmingai parašė kontrolinį. Kontrolinio klausimai buvo:",
+            "Pirmas Lietuvos vardo paminėjimas, Žalgirio mūšis, Napoleono žygis į Rusiją, Lietuvos nepriklausomybės paskelbimas.",
+            "Juliui labai padėjo skaičiai surašyti ant delno. Bet koks skaičius Juliui buvo laimingas?"
+        ],
+        "answer": ["77"],
+        "hint": {
+            "text": [
+                "Gal pamiršote šitas datas?",
+                "1009", "1410", "1812", "1918.",
+                "Prisiminę, sujunkite skaičius."
+            ],
+            "points": 3
+        },
+        "points": 7,
+        "attempts": 5,
+        "time": 6        
+    },
+    {
+        "id": "6",
+        "name": "Bernardinas Sienietis",
+        "lat": 54.682324650725874,
+        "lng": 25.293966869795465,       
+        "image": "degtukai.webp",
+        "text": [
+            "Perkelkite vieną degtuką, kad lygybė būtų teisinga.",
+            "Atsakyme parašykite lygybę arabiškais skaičiais ir ženklais."
+        ],
+        "answer": ["7-2=5"],
+        "points": 4,
+        "attempts": 5,
+        "time": 6        
+    },
+    {
+        "id": "7",
+        "name": "Dailės galerija",
+        "lat": 54.68063588325186, 
+        "lng": 25.288667028319995,
+        "type": "timepointer",
+        "text": "Surikiuokite pastatus pagal sąsajas su LDK didikų giminėmis.",
+        "events": [
+            { "name": "Sapiegos", "order": 1, "image": "sapiegos.webp"},
+            { "name": "Pacai", "order": 2, "image": "pacai.webp"},
+            { "name": "Radvilos", "order": 3, "image": "radvilos.webp"},
+            { "name": "Chodkevičiai", "order": 4, "image": "chodkeviciai.webp"},
+            { "name": "Tiškevičiai", "order": 5, "image": "tiskeviciai.webp"}
+        ],
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 4
+    },
+    {
+        "id": "8",
+        "name": "Bokšto gatvė",
+        "lat": 54.68111290939356,
+        "lng": 25.28969463655235,
+        "type": "audio",
+        "audio": "vilkas.wav",
+        "image": "boksto.webp",
+        "text": [
+            "Jūs gavote garsinį pranešimą, kuriame užkoduotas gyvūno pavadinimas. Koks tai gyvūnas?",
+            "",
+            "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]"
+        ],
+        "answer": ["Vilkas"],
+        "points": 7,
+        "attempts": 5,
+        "time": 7
+    },
+    {
+        "id": "9",
+        "name": "Monmartro tiltas",
+        "lat":  54.67928767866252,
+        "lng": 25.29570584987497,
+        "text": [
+            "Jei ELI yra 173, o LOIS yra 5107, tai kiek yra LESLIE?"
+        ],
+        "answer": ["317537"],
+        "points": 3,
+        "attempts": 5,
+        "time": 4
+    },
+    {
+        "id": "10",
+        "name": "Greičio testas",
+        "lat": 54.67846150885715,
+        "lng": 25.297418316609633,
+        "image": "kvadratai.png",
+        "text": [
+            "Suskaičiuokite kiek kvadratų yra paveikslėlyje?"
+        ],
+        "answer": ["11"],
+        "points": 2,
+        "attempts": 2,
+        "time": 2
+    },
+    {
+        "id": "11",
+        "name": "Tibeto skveras",
+        "lat": 54.681667135543776,
+        "lng":  25.29395809223854,  
+        "image": "pool.webp",
+        "text": [
+            "Paveikslėlyje parodyti pull'o kamuoliai. Kuriuos kamuolius sudėjus gaunama suma - 30?"
+        ],
+        "answer": ["6 11 13", "11 6 13", "11 13 6", "13 11 6"],
+        "points": 7,
+        "attempts": 5,
+        "time": 7,
+        "hint": {
+            "text": [
+                "Vienas kamuolys paveikslėlyje yra apsuktas 90 laipsnių. Tik įdomu kuris?"
+            ],
+            "points": 3
+        }
+    },
+    {
+        "id": "12",
+        "name": "Bernardinų šachmatai",
+        "lat": 54.682613367604326,
+        "lng": 25.296464998186046,  
+        "image": "chess.webp",
+        "text": [
+            "Baltųjų pergalingas ėjimas?"
+        ],
+        "answer": ["h4"],
+        "points": 8,
+        "attempts": 4,
+        "time": 8,
+        "hint": {
+            "text": [
+                "Bokšto b4 ėjimas. Tačiau kur jis eina?"
+            ],
+            "points": 4
+        }
+    },
+    {
+        "id": "13",
+        "name": "Napoleonas Orda",
+        "lat": 54.6834164264607, 
+        "lng": 25.291806368159083,
+        "type": "timepointer",
+        "text": "Atpažinkite Vilniaus vietas Napoleono Ordos akvarelėse.",
+        "events": [
+            { "name": "Vilniaus gatvė", "order": 1, "image": "vilniaus.webp"},
+            { "name": "Verkiai", "order": 2, "image": "verkiai.webp"},
+            { "name": "Pučkoriai", "order": 3, "image": "puckornia.webp"},
+            { "name": "Kalvarijos", "order": 4, "image": "kalvarija.webp"},
+            { "name": "Bernardinai", "order": 5, "image": "bernardiniai.webp"}
+        ],
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 4
+    },
+    {
+        "id": "14",
+        "name": "Grandinėlė",
+        "lat": 54.681027741216965,
+        "lng": 25.29279964301211,
+
+        "type": "chain",
+        "text": [
+            "Išspreskite gradinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
+            "Kiekvienas neteisingas bandymas- minus 1 taškas.",
+            "",
+            "1. Sutikote lenkų turistą. Jei paklaustumėte, kur jis yra, jis atsakytu ...?",
+            "2. Balta kaip sniegas, bet ne sniegas; šildo, bet ne ugnis.",
+            "3. Miestas, kur muzika skamba seniau nei radijas, o valsas sukasi greičiau nei laikrodis.",
+            "4. Kas ryte gimsta, vakare miršta?"
+        ],
+        "answer": ["Vilno", "Vilna", "Viena", "Diena"],
+        "points": 5,
+        "attempts": 5,
+        "time": 5,
+        "minusPointsOnAttempt": 1
+    },
+    {
+        "id": "15",
+        "name": "R. Kuncos dirbtuvė",
+        "lat": 54.68095901717674,
+        "lng": 25.293415077029966,  
+        "image": "sliekas.jpg",
+        "text": [
+            "Išsprendę kryžiažodį, sužinosite atsakymą.",
+            "1. Pakasyk sliekui ... .",
+            "2. Tau ne ... namie.",
+            "3. Lisk tu vabalo ... .",
+            "4. Po šimts ... .",
+            "5. Tu ... uodega ."
+        ],
+        "answer": ["PILKA"],
+        "points": 8,
+        "attempts": 3,
+        "time": 8
+    },
+    {
+        "id": "16",
+        "name": "Žemėlapis",
+        "lat": 54.68268848611532,
+        "lng": 25.291494828450038,  
+        "image": "sliekas.jpg",
+        "text": [
+            "Lenkiskas.",
+            "1. Pakasyk sliekui ... .",
+            "2. Tau ne ... namie.",
+            "3. Lisk tu vabalo ... .",
+            "4. Po šimts ... .",
+            "5. Tu ... uodega .",
+            "[href=\"https://lietuvoskartografija.lt/lithuanianmaps/wp-content/uploads/2024/02/1921_Wilna_city_plan.jpg\"]Vilniaus žemėlapis[/href]."
+        ],
+        "answer": ["PILKA"],
+        "points": 8,
+        "attempts": 3,
+        "time": 8
+    }
+
+    
+]

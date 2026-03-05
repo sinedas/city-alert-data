@@ -4,7 +4,7 @@
     "apiEnabled": true,
     "apiUrl": "https://city-alert-backend-403536137676.europe-central2.run.app",
     "remoteCollections": [],
-    "remoteMissions": [],
+    "remoteMissions": ["ona"],
     "remoteMissionList": false,
     
     "tileProvider": "osm"
