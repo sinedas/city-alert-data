@@ -272,14 +272,13 @@
         "name": "Žemėlapis",
         "lat": 54.68268848611532,
         "lng": 25.291494828450038,  
-        "image": "sliekas.jpg",
+        "image": "map.webp",
         "text": [
-            "Jus suradote seną 1920 metų žemėlapį lenkų kalba. Suraskite kaip vadinosi tuo metu.",
+            "Jus suradote seną 1920 metų žemėlapį lenkų kalba. Suraskite kaip vadinosi tuo metu, ir išsreskite kryžiažodį. Atsakyme įrašykite gautą pilką žodį.",
             "1. Pakasyk sliekui ... .",
             "2. Tau ne ... namie.",
             "3. Lisk tu vabalo ... .",
             "4. Po šimts ... .",
-            "5. Tu ... uodega .",
             "[href=\"https://lietuvoskartografija.lt/lithuanianmaps/wp-content/uploads/2024/02/1921_Wilna_city_plan.jpg\"]Vilniaus žemėlapis[/href]."
         ],
         "answer": ["AKLA"],
