@@ -274,7 +274,7 @@
         "lng": 25.291494828450038,  
         "image": "sliekas.jpg",
         "text": [
-            "Lenkiskas.",
+            "Jus suradote seną 1920 metų žemėlapį lenkų kalba. Suraskite kaip vadinosi tuo metu.",
             "1. Pakasyk sliekui ... .",
             "2. Tau ne ... namie.",
             "3. Lisk tu vabalo ... .",
@@ -282,7 +282,7 @@
             "5. Tu ... uodega .",
             "[href=\"https://lietuvoskartografija.lt/lithuanianmaps/wp-content/uploads/2024/02/1921_Wilna_city_plan.jpg\"]Vilniaus žemėlapis[/href]."
         ],
-        "answer": ["PILKA"],
+        "answer": ["AKLA"],
         "points": 8,
         "attempts": 3,
         "time": 8
