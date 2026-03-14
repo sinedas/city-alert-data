@@ -1,6 +1,41 @@
 [
     {
         "id": "1",
+        "name": "Gedimino paminklas",
+        "lat": 54.685334932066645,
+        "lng": 25.288574743825034,
+        "type": "timepointer",
+        "text": "Surikiuokite Lietuvos valdovus Aleksandro Gvanjinio imaginaciniuose portretuose.",
+        "events": [
+            { "name": "Mindaugas", "order": 1, "image": "mindaugas.webp"},
+            { "name": "Gediminas", "order": 2, "image": "gediminas.jpg"},
+            { "name": "Algirdas", "order": 3, "image": "algirdas.webp"},
+            { "name": "Vytautas", "order": 4, "image": "vytautas.webp"}
+        ],
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 4
+    },
+    {
+        "id": "2",
+        "name": "Pilių maketas",
+        "lat": 54.68506187586852,
+        "lng": 25.28874496691473,
+        "text": [
+            "Spėkite žodį: žymi istorinė asmenybė."
+        ],
+        "type": "wordle",
+        "answer": [
+            "Vytenis"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5
+    },
+    {
+        "id": "3",
         "name": "Signatarų namai",
         "lat": 54.68230198546044,
         "lng": 25.289151856176485,
@@ -16,7 +51,7 @@
         }
     },
     {
-        "id": "2",
+        "id": "4",
         "name": "Šv. Onos bažnyčia",
         "lat": 54.68319749673784, 
         "lng": 25.29293702706192,
@@ -32,7 +67,7 @@
         }
     },
     {
-        "id": "3",
+        "id": "5",
         "name": "Dailės akademija",
         "lat": 54.683450007863286,
         "lng": 25.293268345852436       ,
@@ -53,7 +88,7 @@
         }
     },
     {
-        "id": "4",
+        "id": "6",
         "name": "Literatūrinis personažas",
         "lat": 54.68160840104892,
         "lng": 25.291646172148862,       
@@ -65,7 +100,7 @@
         "time": 6        
     },
     {
-        "id": "5",
+        "id": "7",
         "name": "Juliaus kontrolinis",
         "lat": 54.68278093252339,
         "lng": 25.28977120905973,       
@@ -89,7 +124,7 @@
         "time": 6        
     },
     {
-        "id": "6",
+        "id": "8",
         "name": "Bernardinas Sienietis",
         "lat": 54.682324650725874,
         "lng": 25.293966869795465,       
@@ -104,7 +139,7 @@
         "time": 6        
     },
     {
-        "id": "7",
+        "id": "9",
         "name": "Dailės galerija",
         "lat": 54.68063588325186, 
         "lng": 25.288667028319995,
@@ -123,7 +158,7 @@
         "time": 4
     },
     {
-        "id": "8",
+        "id": "10",
         "name": "Bokšto gatvė",
         "lat": 54.68111290939356,
         "lng": 25.28969463655235,
@@ -141,11 +176,13 @@
         "time": 7
     },
     {
-        "id": "9",
+        "id": "11",
         "name": "Monmartro tiltas",
         "lat":  54.67928767866252,
         "lng": 25.29570584987497,
         "text": [
+            "Išspreskite šį uždavinį.",
+            "",
             "Jei ELI yra 173, o LOIS yra 5107, tai kiek yra LESLIE?"
         ],
         "answer": ["317537"],
@@ -154,7 +191,7 @@
         "time": 4
     },
     {
-        "id": "10",
+        "id": "12",
         "name": "Greičio testas",
         "lat": 54.67846150885715,
         "lng": 25.297418316609633,
@@ -168,7 +205,7 @@
         "time": 2
     },
     {
-        "id": "11",
+        "id": "13",
         "name": "Tibeto skveras",
         "lat": 54.681667135543776,
         "lng":  25.29395809223854,  
@@ -188,13 +225,15 @@
         }
     },
     {
-        "id": "12",
+        "id": "14",
         "name": "Bernardinų šachmatai",
-        "lat": 54.682613367604326,
-        "lng": 25.296464998186046,  
+        "lat": 54.68296622809605,
+        "lng": 25.29670771882843,  
         "image": "chess.webp",
         "text": [
-            "Baltųjų pergalingas ėjimas?"
+            "Baltųjų pergalingas ėjimas?",
+            "",
+            "Atsakyme įrašykite tik ėjimą, kur figura turi eiti, pvz.: A1"
         ],
         "answer": ["h4"],
         "points": 8,
@@ -208,7 +247,7 @@
         }
     },
     {
-        "id": "13",
+        "id": "15",
         "name": "Napoleonas Orda",
         "lat": 54.6834164264607, 
         "lng": 25.291806368159083,
@@ -227,7 +266,7 @@
         "time": 4
     },
     {
-        "id": "14",
+        "id": "16",
         "name": "Grandinėlė",
         "lat": 54.681027741216965,
         "lng": 25.29279964301211,
@@ -249,7 +288,7 @@
         "minusPointsOnAttempt": 1
     },
     {
-        "id": "15",
+        "id": "17",
         "name": "R. Kuncos dirbtuvė",
         "lat": 54.68095901717674,
         "lng": 25.293415077029966,  
@@ -268,13 +307,13 @@
         "time": 8
     },
     {
-        "id": "16",
+        "id": "18",
         "name": "Žemėlapis",
-        "lat": 54.68268848611532,
-        "lng": 25.291494828450038,  
+        "lat": 54.682761931971484,
+        "lng": 25.293114577068327,  
         "image": "mapv3.png",
         "text": [
-            "Jus suradote seną 1921 metų žemėlapį lenkų kalba. Kad išsresti kryžiažodį, suraskite kaip tuo metu vadinosi šios gatvės:",
+            "Jus suradote seną 1921 metų žemėlapį lenkų kalba. Kad išspresti kryžiažodį, suraskite kaip tuo metu vadinosi šios gatvės:",
             "1-2. Gedimino prospektas",
             "3. J. Basanavičiaus gatvė.",
             "4. Tauro kalnas \"Gora ...\".",
@@ -285,7 +324,218 @@
         "points": 8,
         "attempts": 5,
         "time": 7
+    },
+    {
+        "id": "19",
+        "name": "Šuniukai",
+        "lat": 54.68507564646802,
+        "lng": 25.29014353236047,
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat šunys arba šunų skulptūros."
+        },
+        "text": [
+            "Padarykite komandos narių nuotrauką, kurioje taip pat yra šunys arba šunų skulptūros.",
+            "",
+            "Užduočiai atlikti turite 7 minutes."
+        ],
+        "points": 6,
+        "time": 7
+    },
+    {
+        "id": "20",
+        "name": "Batukai",
+        "lat": 54.68206064111847,
+        "lng": 25.295210913988726,
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat didelių batų skulptūra.",
+            "transformationPrompt": "Transformuokite nuotrauką. Ant žmonių galvų uždėkite raudonas nykštukų kepures."
+        },
+        "text": [
+            "Padarykite komandos narių nuotrauką, kurioje taip pat yra batų skulptūra.",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+        ],
+        "points": 6,
+        "time": 5
+    },
+    {
+        "id": "21",
+        "name": "Užupio angelas",
+        "lat": 54.680620191758,
+        "lng": 25.295227674027846,
+        "type": "roulette",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Užupio Angelo jūs randate dviejų eurų monetą.", 
+                "Taip pat sutinkate cirko artistų grupę. Už monetą jie siūlo sukti laimės ratą ir spėti spalvą- raudoną ar juodą. Kiekvieną kartą atspėjus jūsų taškai dvigubinasi. Pralaimėjus liekate prie pradinės dviejų taškų sumos."
+            ],
+            "images": ["angelas.webp"]
+        },
+        "points": 2,
+        "time": 5
+    },
+    {
+        "id": "22",
+        "name": "Literatų gatvė",
+        "lat": 54.68226616137937,
+        "lng": 25.29037125191819,
+        "text": [
+            "Lazdynų pelėda žiūri į kairę ir dešinę rodyklių kryptimi. Kokį šešiaženklį skaičių ji mato?"
+        ],
+        "answer": ["162166"],
+        "points": 5,
+        "attempts": 5,
+        "time": 4
+    },
+    {
+        "id": "23",
+        "name": "Kareiviška milinė",
+        "lat": 54.68027172292484,
+        "lng": 25.29368065683996,
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės šalia kareiviškos milinės skulptūros.",
+            "transformationPrompt": "Transformuokite nuotrauką. Žmonės užsivilkę kareiviškas milines."
+        },
+        "text": [
+            "Suraskite kareivišką milinę. Padarykite komandos narių nuotrauką šalia jos.",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+        ],
+        "points": 5,
+        "time": 5
+    },
+    {
+        "id": "24",
+        "name": "Povandeninė mina",
+        "lat": 54.6822371948869,
+        "lng": 25.29563055590525,
+        "type": "bomb",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs randate povandeninę miną.",
+                "Ta proga, pažaiskime minų žaidimą", 
+                "Spėkite į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos visi taškai sudega",
+                "Laiku sustokite."
+            ],
+            "images": ["sodas.webp"]
+        },
+        "text": [
+            "Spėkite saugų laukelį jūrų laivui. Sėkmingas spėjimas +1 taškas. Užplaukus ant minos taškai sudega. Laiku sustokite."
+        ],
+        "points": 9,
+        "time": 5
+    },
+    {
+        "id": "25",
+        "name": "Napoleonas",
+        "lat": 54.682470334996175,
+        "lng": 25.292952332323157,
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės. Šalia jo delno yra šv. Onos bažnyčia.",
+            "transformationPrompt": "Transformuokite nuotrauką. Ant žmonių galvų uždėkite Napoleono laikų kepurę."
+        },
+        "text": [
+            "Pagal ledendą, būdamas Vilniuje, Napoleonas pasakė: \"Šią bažnyčią aš ant delno nusineščiau į Paryžių\"",
+            "Padarykite vieno komandos nario nuotrauką, tarsi jis ant delno laikytų šv. Onos bažnyčią.",
+            "",
+            "Užduočiai atlikti turite 7 minutes."
+        ],
+        "points": 6,
+        "time": 7
+    },
+    {
+        "id": "26",
+        "name": "Užupio tiltas",
+        "lat": 54.680497041037135,
+        "lng": 25.2924589784849,
+        "text": [
+            "Suraskite didelę spyną šalia ryškios mėlynos spynelės. Koks gyvūnas joje pavaizduotas?"
+        ],
+        "answer": ["Driežas"],
+        "points": 4,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "27",
+        "name": "Paplaujos tiltas",
+        "lat": 54.67932092988663,
+        "lng": 25.297845639114104,
+        "text": [
+            "Suraskite ryškiai raudoną Justynos ir Kšištofo vestuvių dienos spyną. Kokią jų vestuvių dienos data?"
+        ],
+        "answer": ["2017-08-26", "2017 08 26", "20170826"],
+        "points": 4,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "28",
+        "name": "IHS",
+        "lat": 54.682613311574706,
+        "lng": 25.289154890295826,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "IHS- Iesus Hominum Salvator – „Jėzus žmonijos gelbėtojas“."
+            ],
+            "images": ["ihs.webp"]
+        },
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas bažnyčios fragmentas su užrašu IHS."
+        },
+        "text": [
+            "Atlikdami užduotis rasite vietą, kur yra užrašas IHS.",
+            "Padarykite tos vietos nuotrauką",
+            "",
+            "Užduoties laikas neribojamas."
+        ],
+        "points": 4
+    },
+    {
+        "id": "29",
+        "name": "Literatų gatvė 2",
+        "lat": 54.68224867414797,
+        "lng": 25.29143262880245,
+        "text": [
+            "Ką rodo Juozas Erlickas?"
+        ],
+        "answer": ["Špygas"],
+        "points": 5,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "30",
+        "name": "Užupio konstitucija",
+        "lat": 54.68004924908212,
+        "lng": 25.295833431727665,  
+        "image": "uzupis.png",
+        "text": [
+            "Išsprendę kryžiažodį, sužinosite atsakymą.",
+            "1. Naminis gyvūnas, minimas konstitucijoje.",
+            "2. Tas, kam skirta konstitucija.",
+            "3. Dažniausiai vartojamas veiksmažodis.",
+            "4. Daiktavardis paminėtas 3 kartus.",
+            "5. Tas pats kas Justicija.",
+            "6. Šeimos narys paminėtas konstitucijoje."
+        ],
+        "answer": ["UŽUPIS"],
+        "points": 5,
+        "attempts": 5,
+        "time": 6
     }
+
+    
+
+   
 
     
 ]
