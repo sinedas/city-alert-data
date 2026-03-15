@@ -330,6 +330,7 @@
         "name": "Šuniukai",
         "lat": 54.68507564646802,
         "lng": 25.29014353236047,
+        "iconType": "photo",
         "type": "photoValidation",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat šunys arba šunų skulptūros."
@@ -347,6 +348,7 @@
         "name": "Batukai",
         "lat": 54.68206064111847,
         "lng": 25.295210913988726,
+        "iconType": "photo",
         "type": "photoValidation",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat didelių batų skulptūra.",
@@ -395,6 +397,7 @@
         "name": "Kareiviška milinė",
         "lat": 54.68027172292484,
         "lng": 25.29368065683996,
+        "iconType": "photo",
         "type": "photoValidation",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės šalia kareiviškos milinės skulptūros.",
@@ -487,6 +490,7 @@
             ],
             "images": ["ihs.webp"]
         },
+        "iconType": "photo",
         "type": "photoValidation",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas bažnyčios fragmentas su užrašu IHS."
