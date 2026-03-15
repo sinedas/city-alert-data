@@ -4,13 +4,22 @@
         "name": "Gedimino paminklas",
         "lat": 54.685334932066645,
         "lng": 25.288574743825034,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Gedimino paminklas.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["gedimino.webp"]
+        },
         "type": "timepointer",
         "text": "Surikiuokite Lietuvos valdovus Aleksandro Gvanjinio imaginaciniuose portretuose.",
         "events": [
-            { "name": "Mindaugas", "order": 1, "image": "mindaugas.webp"},
-            { "name": "Gediminas", "order": 2, "image": "gediminas.jpg"},
-            { "name": "Algirdas", "order": 3, "image": "algirdas.webp"},
-            { "name": "Vytautas", "order": 4, "image": "vytautas.webp"}
+            { "name": "Algirdas", "order": 1, "image": "algirdas.webp"},
+            { "name": "Mindaugas", "order": 2, "image": "mindaugas.webp"},
+            { "name": "Vytautas", "order": 3, "image": "vytautas.webp"},
+            { "name": "Gediminas", "order": 4, "image": "gediminas.jpg"}
         ],
         "points": 5,
         "attempts": 5,
@@ -19,9 +28,18 @@
     },
     {
         "id": "2",
-        "name": "Pilių maketas",
+        "name": "Vilniaus pilių maketas",
         "lat": 54.68506187586852,
         "lng": 25.28874496691473,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Vilniaus pilių maketas.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["maketasv2.webp"]
+        },
         "text": [
             "Spėkite žodį: žymi istorinė asmenybė."
         ],
@@ -32,7 +50,13 @@
         "points": 10,
         "attempts": 10,
         "minusPointsOnAttempt": 1,
-        "time": 5
+        "time": 5,
+        "reward": {
+            "text": [
+                "Nors rašytiniuose šaltiniuose Vilnius paminėtas 1323 metais Gedimino valdymo laikais, bet būtent Vytenio, vyresniojo Gedimino brolio valdymo metu, pradėtos statyti Vilniaus pilys, o pats Vilnius iš nedidelės amatininkų ir pirklių gyvenvietės ėmė virsti tikru miestu."
+            ],
+            "image": "vytenis.webp"
+        }
     },
     {
         "id": "3",
@@ -40,7 +64,7 @@
         "lat": 54.68230198546044,
         "lng": 25.289151856176485,
         "image": "independence.png",
-        "text": "Eikite po žingsnelį ↑, ← , ↓ ar → nuo raidės 'N ir perskaitykite žodį.",
+        "text": "Raidžių labirintas. Eikite po žingsnelį arba viršun, arba žemyn, arba dešinėn, arba kairėn nuo raidės \"N\" ir perskaitykite žodį.",
         "answer": ["Nepriklausomybė"],
         "points": 6,
         "attempts": 5,
@@ -48,6 +72,12 @@
         "hint": {
             "image": "independence_hint.png",
             "points": 3
+        },
+        "reward": {
+            "text": [
+                "1918 metų vasario 16 d. Jono Basanavičiaus namuose buvo pasirašytas Lietuvos nepriklausomybės aktas. Dabar šis pastatas vadinasi Signatarų Namai."
+            ],
+            "image": "signataraiv2.webp"
         }
     },
     {
@@ -56,14 +86,23 @@
         "lat": 54.68319749673784, 
         "lng": 25.29293702706192,
         "image": "napoleon.png",
-        "text": "Įdėmiai perskaityk Šv. Onos bažyčios aprašymą. Sujunk Vilniaus centrą su Paryžiaus centru, o Napoleoną su Ona ir gausi reikiamą datą.",
+        "text": [
+            "Įdėmiai perskaitykite Šv. Onos bažnyčios aprašymą.",
+            "Sujunkite Vilniaus centrą su Paryžiaus centru. Napoleoną sujunkite su Ona ir gausite reikiamą datą."
+        ],
         "answer": ["1992"],
-        "points": 6,
+        "points": 8,
         "attempts": 3,
         "time": 6,
         "hint": {
-            "text": "Žodį sujunk suprask tiesiogiai. Nubrėžk linijas nuo žodžio iki žodžio. Linijų susikirtimo vieta ir bus atsakymas.",
-            "points": 3
+            "text": "Žodį \"sujunkite\" supraskite tiesiogiai. Nubrėžkite linijas nuo žodžio iki žodžio. Linijų susikirtimo vieta ir bus atsakymas.",
+            "points": 4
+        },
+        "reward": {
+            "text": [
+                ""
+            ],
+            "image": "napoleonanswer.png"
         }
     },
     {
@@ -74,14 +113,14 @@
         "image": "spalvos.webp",
         "text": "Kokia spalva užšifruota šioje lygtyje?",
         "answer": ["Oranžinė"],
-        "points": 6,
+        "points": 7,
         "attempts": 5,
         "time": 6,
         "hint": {
             "text": [
                 "Prisiminkite dailės pamokas",
                 "Žalia ir raudona yra ruda", 
-                "Мėlyna ir geltona yra žalia.",
+                "Mėlyna ir geltona yra žalia.",
                 "Kokias spalvas dar maišėte mokykloje?"
             ],
             "points": 3
@@ -95,33 +134,46 @@
         "image": "miunhauzenas.png",
         "text": "Sudėliokite dėlionę ir sužinokite literatūrinį personažą.",
         "answer": ["Baronas Miunhauzenas"],
-        "points": 6,
+        "points": 7,
         "attempts": 5,
-        "time": 6        
+        "time": 6,
+        "hint": {
+            "image": "miunhauzenas_hint.png",
+            "points": 3
+        }    
     },
     {
         "id": "7",
         "name": "Juliaus kontrolinis",
         "lat": 54.68278093252339,
         "lng": 25.28977120905973,       
-        "image": "kontrolinisv2.png",
+        "image": "kontrolinisv3.png",
         "text": [
             "Žymaus lenkų poeto bendravardis Julius sėkmingai parašė kontrolinį. Kontrolinio klausimai buvo:",
-            "Pirmas Lietuvos vardo paminėjimas, Žalgirio mūšis, Napoleono žygis į Rusiją, Lietuvos nepriklausomybės paskelbimas.",
+            "Pirmas Lietuvos vardo paminėjimas, Žalgirio mūšis, Napoleono žygis į Rusiją, Lietuvos nepriklausomybės akto pasirašymas.",
             "Juliui labai padėjo skaičiai surašyti ant delno. Bet koks skaičius Juliui buvo laimingas?"
         ],
         "answer": ["77"],
         "hint": {
             "text": [
                 "Gal pamiršote šitas datas?",
-                "1009", "1410", "1812", "1918.",
-                "Prisiminę, sujunkite skaičius."
+                "1009- Lietuvos vardo paminėjimas",
+                "1410- Žalgirio mūšis",
+                "1812- Napoleono žygis į Rusiją", 
+                "1918- Lietuvos nepriklausomybės paskelbimas.",
+                "Prisiminę, sujunkite skaičius brukšneliais."
             ],
-            "points": 3
+            "points": 4
         },
-        "points": 7,
+        "points": 9,
         "attempts": 5,
-        "time": 6        
+        "time": 6,
+        "reward": {
+            "text": [
+                "Juliaus laimingas skaičius buvo 77."
+            ],
+            "image": "kontrolinisv4.png"
+        }        
     },
     {
         "id": "8",
@@ -136,7 +188,13 @@
         "answer": ["7-2=5"],
         "points": 4,
         "attempts": 5,
-        "time": 6        
+        "time": 6,
+        "reward": {
+            "text": [
+                ""
+            ],
+            "image": "degtukaianswer.webp"
+        }
     },
     {
         "id": "9",
@@ -181,7 +239,7 @@
         "lat":  54.67928767866252,
         "lng": 25.29570584987497,
         "text": [
-            "Išspreskite šį uždavinį.",
+            "Išspręskite šį uždavinį.",
             "",
             "Jei ELI yra 173, o LOIS yra 5107, tai kiek yra LESLIE?"
         ],
@@ -211,7 +269,8 @@
         "lng":  25.29395809223854,  
         "image": "pool.webp",
         "text": [
-            "Paveikslėlyje parodyti pull'o kamuoliai. Kuriuos kamuolius sudėjus gaunama suma - 30?"
+            "Paveikslėlyje parodyti pull'o kamuoliai. Kuriuos kamuolius sudėjus gaunama suma - 30?",
+            "Atsakyme įrašykite kamuolių skaičius, pvz.: 1, 3, 5."
         ],
         "answer": ["6 11 13", "11 6 13", "11 13 6", "13 11 6"],
         "points": 7,
@@ -267,16 +326,14 @@
     },
     {
         "id": "16",
-        "name": "Grandinėlė",
-        "lat": 54.681027741216965,
-        "lng": 25.29279964301211,
-
+        "name": "Šv. Baltramiejaus bažnyčia",
+        "lat": 54.680550526442424,
+        "lng": 25.297470477467403,
         "type": "chain",
         "text": [
-            "Išspreskite grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
-            "Kiekvienas neteisingas bandymas- minus 1 taškas.",
+            "Išspręskite grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
             "",
-            "1. Sutikote lenkų turistą. Jei paklaustumėte, kur jis yra, jis atsakytu ...?",
+            "1. Sutikote lenkų turistą. Jei paklaustumėte, kur jis yra, jis atsakytų ...?",
             "2. Balta kaip sniegas, bet ne sniegas; šildo, bet ne ugnis.",
             "3. Miestas, kur muzika skamba seniau nei radijas, o valsas sukasi greičiau nei laikrodis.",
             "4. Kas ryte gimsta, vakare miršta?"
@@ -291,14 +348,22 @@
         "id": "17",
         "name": "R. Kuncos dirbtuvė",
         "lat": 54.68095901717674,
-        "lng": 25.293415077029966,  
+        "lng": 25.293415077029966,
+        "startType": "carousel",
+        "startCarousel": {
+            "images": ["kunca.webp"],
+            "text": [
+                "R. Kuncos dirbtuvės. Apsidairykite.",
+                "Užduočiai atlikti turite 8 minutes."
+            ]
+        },
         "image": "sliekas.jpg",
         "text": [
             "Išsprendę kryžiažodį, sužinosite atsakymą.",
             "1. Pakasyk sliekui ... .",
             "2. Tau ne ... namie.",
             "3. Lisk tu vabalo ... .",
-            "4. Po šimts ... .",
+            "4. Ne \"Po šimts pypkių\", bet \"Po šimts ...\" .",
             "5. Tu ... uodega ."
         ],
         "answer": ["PILKA"],
@@ -313,7 +378,7 @@
         "lng": 25.293114577068327,  
         "image": "mapv3.png",
         "text": [
-            "Jus suradote seną 1921 metų žemėlapį lenkų kalba. Kad išspresti kryžiažodį, suraskite kaip tuo metu vadinosi šios gatvės:",
+            "Jus suradote seną 1921 metų žemėlapį lenkų kalba. Kad išspręsti kryžiažodį, suraskite kaip tuo metu vadinosi šios gatvės:",
             "1-2. Gedimino prospektas",
             "3. J. Basanavičiaus gatvė.",
             "4. Tauro kalnas \"Gora ...\".",
@@ -336,9 +401,7 @@
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat šunys arba šunų skulptūros."
         },
         "text": [
-            "Padarykite komandos narių nuotrauką, kurioje taip pat yra šunys arba šunų skulptūros.",
-            "",
-            "Užduočiai atlikti turite 7 minutes."
+            "Padarykite komandos narių nuotrauką, kurioje taip pat yra šunys arba šunų skulptūros."
         ],
         "points": 6,
         "time": 7
@@ -348,8 +411,8 @@
         "name": "Batukai",
         "lat": 54.68206064111847,
         "lng": 25.295210913988726,
-        "iconType": "photo",
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat didelių batų skulptūra.",
             "transformationPrompt": "Transformuokite nuotrauką. Ant žmonių galvų uždėkite raudonas nykštukų kepures."
@@ -397,8 +460,8 @@
         "name": "Kareiviška milinė",
         "lat": 54.68027172292484,
         "lng": 25.29368065683996,
-        "iconType": "photo",
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės šalia kareiviškos milinės skulptūros.",
             "transformationPrompt": "Transformuokite nuotrauką. Žmonės užsivilkę kareiviškas milines."
@@ -425,7 +488,7 @@
                 "Spėkite į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos visi taškai sudega",
                 "Laiku sustokite."
             ],
-            "images": ["sodas.webp"]
+            "images": ["mina.webp"]
         },
         "text": [
             "Spėkite saugų laukelį jūrų laivui. Sėkmingas spėjimas +1 taškas. Užplaukus ant minos taškai sudega. Laiku sustokite."
@@ -436,18 +499,19 @@
     {
         "id": "25",
         "name": "Napoleonas",
-        "lat": 54.682470334996175,
-        "lng": 25.292952332323157,
+        "lat": 54.68248495717746,
+        "lng": 25.292741540436776,
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės. Šalia jo delno yra šv. Onos bažnyčia.",
             "transformationPrompt": "Transformuokite nuotrauką. Ant žmonių galvų uždėkite Napoleono laikų kepurę."
         },
         "text": [
-            "Pagal ledendą, būdamas Vilniuje, Napoleonas pasakė: \"Šią bažnyčią aš ant delno nusineščiau į Paryžių\"",
-            "Padarykite vieno komandos nario nuotrauką, tarsi jis ant delno laikytų šv. Onos bažnyčią.",
+            "Pagal legendą, būdamas Vilniuje, Napoleonas pasakė:",
+            "\"Šią bažnyčią aš ant delno nusineščiau į Paryžių\"",
             "",
-            "Užduočiai atlikti turite 7 minutes."
+            "Padarykite vieno komandos nario nuotrauką, tarsi jis ant delno laikytų šv. Onos bažnyčią."
         ],
         "points": 6,
         "time": 7
@@ -458,7 +522,7 @@
         "lat": 54.680497041037135,
         "lng": 25.2924589784849,
         "text": [
-            "Suraskite didelę spyną šalia ryškios mėlynos spynelės. Koks gyvūnas joje pavaizduotas?"
+            "Suraskite didelę spyną šalia ryškios žydros spynelės. Koks gyvūnas joje pavaizduotas?"
         ],
         "answer": ["Driežas"],
         "points": 4,
@@ -471,7 +535,7 @@
         "lat": 54.67932092988663,
         "lng": 25.297845639114104,
         "text": [
-            "Suraskite ryškiai raudoną Justynos ir Kšištofo vestuvių dienos spyną. Kokią jų vestuvių dienos data?"
+            "Suraskite ryškiai raudoną Justynos ir Kšištofo vestuvių dienos spyną. Kokia jų vestuvių dienos data?"
         ],
         "answer": ["2017-08-26", "2017 08 26", "20170826"],
         "points": 4,
@@ -481,27 +545,22 @@
     {
         "id": "28",
         "name": "IHS",
-        "lat": 54.682613311574706,
-        "lng": 25.289154890295826,
-        "startType": "carousel",
-        "startCarousel": {
-            "text": [
-                "IHS- Iesus Hominum Salvator – „Jėzus žmonijos gelbėtojas“."
-            ],
-            "images": ["ihs.webp"]
-        },
-        "iconType": "photo",
+        "lat": 54.684608865994925,
+        "lng": 25.289517801781297,
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
-            "prompt": "Ar nuotraukoje matomas bažnyčios fragmentas su užrašu IHS."
+            "prompt": "Ar nuotraukoje yra pastato fragmentas su užrašu IHS?"
         },
         "text": [
             "Atlikdami užduotis rasite vietą, kur yra užrašas IHS.",
+            "IHS- Iesus Hominum Salvator – „Jėzus žmonijos gelbėtojas“.",
             "Padarykite tos vietos nuotrauką",
             "",
-            "Užduoties laikas neribojamas."
+            "Užduoties laikas 10 minučių."
         ],
-        "points": 4
+        "points": 4,
+        "time": 10
     },
     {
         "id": "29",
@@ -511,7 +570,7 @@
         "text": [
             "Ką rodo Juozas Erlickas?"
         ],
-        "answer": ["Špygas"],
+        "answer": ["Špygas", "Špygą"],
         "points": 5,
         "attempts": 5,
         "time": 5
@@ -521,14 +580,14 @@
         "name": "Užupio konstitucija",
         "lat": 54.68004924908212,
         "lng": 25.295833431727665,  
-        "image": "uzupis.png",
+        "image": "uzupisv2.png",
         "text": [
-            "Išsprendę kryžiažodį, sužinosite atsakymą.",
+            "Užupio konstitucija padės jums išspręsti kryžiažodį. Atsakyme įrašykite pilką žodį.",
             "1. Naminis gyvūnas, minimas konstitucijoje.",
             "2. Tas, kam skirta konstitucija.",
             "3. Dažniausiai vartojamas veiksmažodis.",
-            "4. Daiktavardis paminėtas 3 kartus.",
-            "5. Tas pats kas Justicija.",
+            "4. Žmogus turi teisę kartais nežinoti, ar jis turi ... .",
+            "5. Kitame kontekste šis žodis dar yra tas pats kas Justicija.",
             "6. Šeimos narys paminėtas konstitucijoje."
         ],
         "answer": ["UŽUPIS"],
