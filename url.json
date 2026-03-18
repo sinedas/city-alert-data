@@ -7,5 +7,5 @@
     "remoteMissions": ["tuskulenai", "ona"],
     "remoteMissionList": true,
     
-    "tileProvider": "mapbox"
+    "tileProvider": "maptiler"
 }
