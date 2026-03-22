@@ -1,0 +1,357 @@
+[
+    {
+        "id": "1",
+        "name": "Tuskulėnų dvaro rūmai",
+        "lat": 54.6990436702467,
+        "lng": 25.303356395621584,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["tuskulenaiv2.webp"],
+            "changeInterval": 0
+        },
+        "image": "violet2.png",
+        "text": "Spalva?",
+        "answer": ["violetinė"],
+        "points": 5 ,
+        "attempts": 2,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Prisiminkite dailės pamokas. ",
+                "",
+                "Žalia ir raudona sudaro rudą spalvą.",
+                "Raudona ir geltona sudaro oranžinę spalvą.",
+                "",
+                "Kokias spalvas dar maišėte mokykloje?"
+            ],
+            "points": 2
+        }
+    },
+    {
+        "id": "2",
+        "name": "Žirmūnų biblioteka",
+        "lat": 54.69892839600735,   
+        "lng": 25.30018131216362,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["bibliotekav2.webp"],
+            "changeInterval": 0
+        },    
+        "image": "petro.png",
+        "text": [
+            "Raidžių labirintas. Eikite po žingsnelį nuo raidės 'P' ir raskite knygos pavadinimą. Eiti galima žemyn, aukštyn, kairėn arba dešinėn."
+        ],
+        "answer": ["PETRO IMPERATORĖ"],
+        "points": 4,
+        "attempts": 5,
+        "time": 5,
+        "hint": {
+            "image": "petro_hint.png",
+            "points": 2
+        }
+    },
+    {
+        "id": "3",
+        "name": "VRM rūmai",
+        "lat": 54.69676344039737,   
+        "lng": 25.30033912031935,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["vrm.webp"],
+            "changeInterval": 0
+        }, 
+        "image": "mohican.png",
+        "text": "Dėlionė.",
+        "answer": ["paskutinis mohikanas"],
+        "points": 4,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "image": "mohican_hint.png",
+            "points": 2
+        }
+    },
+    {
+        "id": "4",
+        "name": "Užduotis Jūreivis",
+        "lat": 54.69822219778956, 
+        "lng": 25.30017374319044,        
+        "text": [
+            "",
+            "Atlikdami užduotis, galite sutikti jūreivį. Sužinokite jo vardą.",
+            "",
+            "Užduoties laikas neribojamas."
+        ],
+        "answer": ["Francišekas"],
+        "points": 4,
+        "attempts": 5
+    },
+    {
+        "id": "5",
+        "name": "Užduotis Gydytojas",
+        "lat": 54.69898155848207, 
+        "lng": 25.30228595842026,
+        "text": [
+            "",
+            "Jei sutiksite gydytoją, paklauskite, kokį almanachą jis išleido.",
+            "",
+            "Užduoties laikas neribojamas."
+        ],
+        "answer": ["athenaeum"],
+        "points": 5,
+        "attempts": 5
+    },
+    
+    {
+        "id": "6",
+        "name": "Šv. Terezės koplytėlė",
+        "lat": 54.69747123508226, 
+        "lng": 25.302705141614247,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["koplytele.webp"],
+            "changeInterval": 0
+        }, 
+        "text": [
+            "1 eilutė, 1 žodis iš galo, 1 raidė", 
+            "3 eilutė, 1 žodis, 5 raidė",
+            "4 eilutė, 2 žodis, 1 raidė",
+            "1 eilutė, 1 žodis iš galo, 2 raidė",
+            "Paskutinis žodis, 3 raidė iš galo", 
+            "5 eilutė, 2 žodis, 1 raidė",
+            "Pavadinimas, paskutinė raidė",
+            "6 eilutė, 2 žodis, 8 raidė",
+            "6 eilutė, 2 žodis, 8 raidė",
+            "Pavadinimas, paskutinė raidė"
+        ],
+        "answer": ["Pagalvėlė"],
+        "points": 5,
+        "attempts": 5,
+        "time": 6
+    },
+    {
+        "id": "7",
+        "name": "Tuskulėnų koplytėlė-kolumbariumas",
+        "lat": 54.698016440003485, 
+        "lng": 25.30311978032033,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["kolumbariumas.webp"],
+            "changeInterval": 0
+        }, 
+        "image": "matches.png",
+        "text": "Jums reikia uždegti dektuką koplytėlės kolumbariume. Vieną degtuką perkelkite, o kitą pasiimkite, kad sąlyga būtų teisinga. Sąlygą užrašykite paprastais skaitmenimis ir ženklais.",
+        "answer": [
+            "3+5=8", 
+            "8-6=2"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 6
+    },
+    {
+        "id": "8",
+        "name": "Tuskulėnų vaiduoklis",
+        "lat": 54.69804029130771, 
+        "lng": 25.303352680183856,       
+        "text": [
+            "",
+            "Suraskite lakūną. Jis ir yra Tuskulėnų vaiduoklis. Paklauskite jo, kokį partizanų metraštį jis leido.",
+            "Lakūnas padės jums rasti ir kitus vaiduoklius, padėsiančius išspręsti kitas užduotis."
+        ],
+        "answer": ["Laisvės žvalgas"],
+        "points": 5,
+        "attempts": 5,
+        "time": 6
+    },
+    {
+        "id": "9",
+        "name": "Kančių karūna",
+        "image": "bishop.gif",
+        "lat": 54.69816342551371,  
+        "lng": 25.30227412688501,       
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Užduoties laikas neribojamas."
+            ],
+            "images": ["karuna.webp"],
+            "changeInterval": 0
+        }, 
+        "text": [
+            "Suraskite vyskupą. Jo vardas padės išspręsti šią užduotį.",
+            "X = Vyskupo vardas.",
+            "Suraskite ?"]
+        ,
+        "answer": ["euras"],
+        "points": 8,
+        "attempts": 5,
+        "hint": {
+            "text": "Tai visai ne matematinė užduotis. Kokias raides reikia atimti iš žodžio, kad gautumėte kitą žodį?",
+            "points": 4
+        }
+    },
+    {
+        "id": "10",
+        "name": "Tuskulėnų dvaro paslaptys",
+        "image": "morze.gif",
+        "lat": 54.69675536193789, 
+        "lng": 25.301736572827075,       
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Užduoties laikas neribojamas."
+            ],
+            "images": ["oficina.webp"],
+            "changeInterval": 0
+        }, 
+        "text": "Suraskite šį asmenį. Sužinokite šio asmens antrąją pavardę.",
+        "answer": ["Bauer"],
+        "points": 8,
+        "attempts": 3,
+        "hint": {
+            "text": "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]",
+            "points": 2
+        }
+    },
+    {
+        "id": "11",
+        "name": "Angelų sargų skveras",
+        "lat": 54.69641578073588,  
+        "lng": 25.299926448017278,       
+        "text": [
+            "",
+            "Raskite Angelų sargų skvero stendą. Pirmasis žodis paskutinėje eilutėje parašytas Brailio raštu."
+        ],
+        "answer": ["Krite"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "text": "Jums padės \n [href=\"https://lt.wikipedia.org/wiki/Brailio_ra%C5%A1tas#Raid%C4%97s_ir_skaitmenys\"]Brailio raštas[/href]\n O gal paprasčiau paskaičiuoti, kuris tai žodis nuo galo?",
+            "points": 2
+        }
+    },
+    {
+        "id": "12",
+        "name": "Angelų sargų akmuo",
+        "lat": 54.69624220023633, 
+        "lng": 25.300527982398144,
+        "iconType": "photo",
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus ar žmonės ir akmuo?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, and adding a clean white cutout border around each figure, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },    
+        "text": [
+            "Raskite angelų sargų akmenį. Padarykite komandos narių nuotrauką šalia akmens."
+        ],
+        "points": 2,
+        "attempts": 2,
+        "time": 6
+    },
+    {
+        "id": "13",
+        "name": "Akmens užduotis",
+        "lat": 54.69822843658545, 
+        "lng": 25.303956499215914,  
+        "text": [
+            "",
+            "Koks medis paminėtas angelų sargų akmenyje?",
+            "",
+            "Užduoties laikas neribojamas."
+        ],
+        "answer": ["Ąžuolas"],
+        "points": 4,
+        "attempts": 2
+    },
+    {
+        "id": "14",
+        "name": "Troleibusas",
+        "lat": 54.69822014990648, 
+        "lng": 25.301319989984012,
+        "iconType": "photo",
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas žmogus ar žmonės troleibuso fone?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, and adding a clean white cutout border around each figure, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Padarykite komandos narių nuotrauką troleibuso fone."
+        ],
+        "time": 12,
+        "points": 3
+    },
+    {
+        "id": "15",
+        "name": "Tuskulėnų dvaras",
+        "lat": 54.69890668198933, 
+        "lng": 25.303071802357294,
+        "iconType": "photo",
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas žmogus ar žmonės pastato fone?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, and adding a clean white cutout border around each figure, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Padarykite komandos narių nuotrauką Tuskulėnų dvaro fone."
+        ],
+        "time": 5,
+        "points": 3
+    },
+    {
+        "id": "16",
+        "name": "Šuniukai",
+        "lat": 54.6984845673195, 
+        "lng": 25.299468238351395,
+        "iconType": "photo",
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas žmogus ar žmonės ir taip pat šuo ar šunys?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, and adding a clean white cutout border around each figure, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Atlikdami užduotis tikrai sutiksite žmonių su šunimis. Padarykite komandos narių nuotrauką kartu su šuniuku.",
+            "Užduoties laikas neribojamas."
+        ],
+        "points": 3
+    },
+    {
+        "id": "17",
+        "name": "Wordle",
+        "lat": 54.69721697602538, 
+        "lng": 25.303430815979173,        
+        "text": [
+            "Spėkite žodį: gyvūnas."
+        ],
+        "type": "wordle",
+        "answer": [
+            "BEBRAS"
+        ],
+        "points": 9,
+        "attempts": 9,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "reward": {
+            "text": [
+                "Neretai vakarais iš šitos vietos galima pamatyti šį gyvūną plaukiantį Nerimi."
+            ],
+            "image": "bebras.webp"
+        }
+    }
+]
