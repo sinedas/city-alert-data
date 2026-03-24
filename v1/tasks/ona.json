@@ -270,7 +270,7 @@
         "image": "pool.webp",
         "text": [
             "Paveikslėlyje parodyti pull'o kamuoliai. Kuriuos kamuolius sudėjus gaunama suma - 30?",
-            "Atsakyme įrašykite kamuolių skaičius, pvz.: 1, 3, 5."
+            "Atsakyme įrašykite kamuolių skaičius, pvz.: 1 3 5."
         ],
         "answer": ["6 11 13", "11 6 13", "11 13 6", "13 11 6"],
         "points": 7,
@@ -398,7 +398,8 @@
         "iconType": "photo",
         "type": "photoValidation",
         "photoValidation": {
-            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat šunys arba šunų skulptūros."
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat šunys arba šunų skulptūros.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
         },
         "text": [
             "Padarykite komandos narių nuotrauką, kurioje taip pat yra šunys arba šunų skulptūros."
@@ -415,7 +416,7 @@
         "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat didelių batų skulptūra.",
-            "transformationPrompt": "Transformuokite nuotrauką. Ant žmonių galvų uždėkite raudonas nykštukų kepures."
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation, using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent dark outlines, with a subtle watercolor texture. Replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style, each wearing a tall, pointed red fairy-tale gnome hat and matching curled-toe red boots. Ensure these characters maintain their original poses and clothing, but with uniform flat tan skin tones and a whimsical storybook aesthetic (avoiding Christmas motifs). The standees should have thick dark outlines and flat colors, integrating into the environment with consistent perspective while remaining more graphic than the background."
         },
         "text": [
             "Padarykite komandos narių nuotrauką, kurioje taip pat yra batų skulptūra.",
@@ -505,13 +506,13 @@
         "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės. Šalia jo delno yra šv. Onos bažnyčia.",
-            "transformationPrompt": "Transformuokite nuotrauką. Ant žmonių galvų uždėkite Napoleono laikų kepurę."
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them in Napoleonic-era clothing with a bicorne hat while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
         },
         "text": [
             "Pagal legendą, būdamas Vilniuje, Napoleonas pasakė:",
             "\"Šią bažnyčią aš ant delno nusineščiau į Paryžių\"",
             "",
-            "Padarykite vieno komandos nario nuotrauką, tarsi jis ant delno laikytų šv. Onos bažnyčią."
+            "Padarykite komandos nario ar narių nuotrauką, tarsi jis ar jie ant delno laikytų šv. Onos bažnyčią."
         ],
         "points": 6,
         "time": 7
@@ -550,12 +551,12 @@
         "type": "photoValidation",
         "iconType": "photo",
         "photoValidation": {
-            "prompt": "Ar nuotraukoje yra pastato fragmentas su užrašu IHS?"
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės, ir pastato fragmentas su užrašu IHS?"
         },
         "text": [
             "Atlikdami užduotis rasite vietą, kur yra užrašas IHS.",
             "IHS- Iesus Hominum Salvator – „Jėzus žmonijos gelbėtojas“.",
-            "Padarykite tos vietos nuotrauką",
+            "Padarykite komandos narių nuotrauką taip kad matytusi užrašas IHS.",
             "",
             "Užduoties laikas 10 minučių."
         ],

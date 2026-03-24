@@ -2,14 +2,15 @@
   {
     "code": "tuskulenai",
     "title": "Tuskulėnų vaiduoklis",
-    "image": "tuskulenai.jpg",
+    "image": "tuskulenaiv2.webp",
     "location": {
       "lat": 54.698039582832486, 
       "lng": 25.302702381449947
     },
     "initialDiameter": 700,
     "finalDiameter": 150,
-    "duration": 60,
+    "duration": 90,
+    "level": "Vidutinis",
     "active": true,
     "locked": false,
     "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
@@ -21,7 +22,8 @@
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-            "Jūs pradėjote žaidimą. Pirma jūsų užduotis sugalvoti komandos pavadinimaą.",
+            "",
+            "Jūs pradėjote žaidimą. Pirma jūsų užduotis sugalvoti komandos pavadinimą.",
             "",
             "Užduočiai atlikti turite 4 minutes."
         ],
@@ -39,6 +41,7 @@
     "initialDiameter": 26000,
     "finalDiameter": 25950,
     "duration": 75,
+    "level": "Lengvas",
     "active": true,
     "locked": false,
     "description": "Keliaukite į Londoną. Spreskite užduotis, bandykite sėkmę.",
@@ -51,7 +54,7 @@
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-            "Izaoko Goldšteino kapsulė išsiūntė jus į Londoną, kur jūsų laukia įvairiausi nuotykiai ir užduotys.",
+            "Jūs esate Londone, kur jūsų laukia įvairiausi nuotykiai ir užduotys.",
             "Atlikus pirmą užduotį, pamatysite Londono žemėlapį.",
             "Žemėlapyje bus markeriai, žymintys tuo metu aktyvią užduotį:",
             "[img source=\"shield_icon.jpg\"/] ar [img source=\"photo_icon.jpg\"/] ",
@@ -64,9 +67,46 @@
     }
   },
   {
+    "code": "london_en",
+    "folder": "london",
+    "title": "London Adventure",
+    "image": "bridgev7.webp",
+    "location": {
+      "lat": 51.506068356134726,
+      "lng": -0.12003858604762346
+    },
+    "initialDiameter": 26000,
+    "finalDiameter": 25950,
+    "duration": 75,
+    "level": "Easy",
+    "active": true,
+    "locked": false,
+    "description": "Travel to London. Solve tasks, guess words, try your luck.",
+    "start": "Westminster Bridge",
+    "finish": "Tower Bridge",
+    "hints": 2,
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 5,
+    "teamName": {
+      "title": "Team name",
+      "time": 4,
+      "text": [
+            "You are in London, where various adventures and tasks await.",
+            "After completing the first task, you will see the map of London.",
+            "On the map there will be markers for the currently active task:",
+            "[img source=\"shield_icon.jpg\"/] or [img source=\"photo_icon.jpg\"/] ",
+            "Tap the marker to open the task screen.",
+            "",
+            "First task: come up with a team name.",
+            "You have 4 minutes to complete the task."
+        ],
+        "points": 2
+    }
+  },
+  {
     "code": "future",
     "title": "Vilnius- Apokalipsė",
-    "image": "future.jpg",
+    "image": "future.webp",
     "location": {
       "lat": 54.68314911442479,
       "lng": 25.285887343411485
@@ -74,6 +114,7 @@
     "initialDiameter": 4000,
     "finalDiameter": 3950,
     "duration": 120,
+    "level": "Sunkus",
     "active": true,
     "locked": false,
     "description": "Keliaukite į apokaliptinį ateities Vilnių.",
@@ -90,7 +131,6 @@
             "'Komandos nariai laiko kilpos perėjimą išgyveno sėkmingai. Jokių akivaizdžių šalutinių poveikių neužfiksuota. Kraujo rodikliai stabilūs. Kraujospūdis normos ribose. Širdies veikla sinchronizuota, nukrypimų nefiksuota.",
             "Psichologinė būsena teigiama. Stebimas nepaaiškinamas pakylėjimo efektas — galimas laiko lauko poveikis.",
             "Pastaba sau: komandai būtina suteikti pavadinimą. Identitetas gali turėti įtakos grupės stabilumui laiko anomalijose.'",
-            "",
             "Sugalvokite komandos pavadinimą.",
             "Užduočiai atlikti turite 4 minutes."
         ],
@@ -99,8 +139,8 @@
   },
   {
     "code": "soviets2",
-    "title": "Žydų kapinės ir sovietiniai monstrai",
-    "image": "sovietsv3.jpg",
+    "title": "Sovietinis Vilnius",
+    "image": "sovietsv3.webp",
     "location": {
       "lat": 54.69079963514012, 
       "lng": 25.290875962339644
@@ -108,6 +148,7 @@
     "initialDiameter": 4000,
     "finalDiameter": 3900,
     "duration": 120,
+    "level": "Sunkus",
     "active": true,
     "locked": false,
     "description": "Laiko mašina grįžkite į sovietinį laiką.",
@@ -120,6 +161,38 @@
   {
     "code": "ona",
     "title": "Šv. Onos paslaptis",
+    "image": "ona.webp",
+    "location": {
+      "lat": 54.680644159957176,
+      "lng": 25.29538049958262
+    },
+    "initialDiameter": 1700,
+    "finalDiameter": 150,
+    "duration": 120,
+    "active": true,
+    "level": "Vidutinis",
+    "locked": true,
+    "description": "Vilniaus senamiestis, Bernardinų sodas, Užupis.",
+    "start": "Gedimino paminklas Katedros Aikštėje",
+    "finish": "Užupio angelas",
+    "hints": 5,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+            "Jūs pradėjote žaidimą. Pirma jūsų užduotis sugalvoti komandos pavadinimą.",
+            "",
+            "Užduočiai atlikti turite 4 minutes."
+        ],
+        "points": 2
+    }
+  },
+  {
+    "code": "ona_en",
+    "folder": "ona",
+    "title": "Vilnius Mysteries",
+    "image": "ona.webp",
     "location": {
       "lat": 54.68307240086446, 
       "lng": 25.29308522963397
@@ -127,11 +200,12 @@
     "initialDiameter": 1500,
     "finalDiameter": 150,
     "duration": 120,
-    "active": true,
+    "active": false,
+    "level": "Medium",
     "locked": true,
-    "description": "Atskleiskite Šv. Onos bažnyčios paslaptis.",
-    "start": "Signatarų rūmai",
-    "finish": "Adomo Mickevičiaus paminklas",
+    "description": "Vilniaus senamiestis, Bernardinų sodas, Užupis.",
+    "start": "Gedimino paminklas Katedros Aikštėje",
+    "finish": "Užupio angelas",
     "hints": 5,
     "checkLocation": true
   },
@@ -145,7 +219,7 @@
     "initialDiameter": 4000,
     "finalDiameter": 4000,
     "duration": 120,
-    "active": true,
+    "active": false,
     "locked": true,
     "description": "Laiko mašina grįžkite į sovietinį laiką.",
     "hints": 7,
@@ -207,6 +281,37 @@
     "finish": "Balkonas",
     "hints": 0,
     "checkLocation": true
+  },
+  {
+    "code": "kaunas",    
+    "title": "Senoji sostinė",
+    "image": "zalgiris.jpg",
+    "location": {    
+      "lat": 54.89299768651124,    
+      "lng": 23.905853229993056    
+    },    
+    "initialDiameter": 2500,    
+    "finalDiameter": 150,    
+    "duration": 90,    
+    "active": true,    
+    "level": "Vidutinis",    
+    "locked": false,    
+    "description": "Kauno naujamiestis: Vienybės aikštė, Laisvės alėja. Nemuno sala.",    
+    "start": "Karo muziejus",    
+    "finish": "Mokslo sala",    
+    "hints": 5,    
+    "checkLocation": true,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+            "Jūs pradėjote žaidimą. Pirma jūsų užduotis sugalvoti komandos pavadinimą.",
+            "",
+            "Užduočiai atlikti turite 4 minutes."
+        ],
+        "points": 2
+    }   
   }
+
 ]
 
