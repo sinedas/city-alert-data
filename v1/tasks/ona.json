@@ -14,14 +14,19 @@
             "images": ["gedimino.webp"]
         },
         "type": "timepointer",
-        "text": "Surikiuokite Lietuvos valdovus Aleksandro Gvanjinio imaginaciniuose portretuose.",
+        "text": "Surikiuokite LDK valdovus pagal jų valdymo trukmę monarcho arba submonarcho teisėmis. Nuo valdžiusio trumpiausiai iki ilgiausiai.",
         "events": [
-            { "name": "Algirdas", "order": 1, "image": "algirdas.webp"},
-            { "name": "Mindaugas", "order": 2, "image": "mindaugas.webp"},
-            { "name": "Vytautas", "order": 3, "image": "vytautas.webp"},
-            { "name": "Gediminas", "order": 4, "image": "gediminas.jpg"}
+            { "name": "Jogaila", "order": 1, "text": "1377-1392 - 15m."},
+            { "name": "Gediminas", "order": 2, "text": "1316-1341 - 25m."},
+            { "name": "Algirdas", "order": 3, "text": "1345-1377 - 32m"},
+            { "name": "Kęstutis", "order": 4, "text": "1345-1382 - 37m."},
+            { "name": "Vytautas", "order": 5, "text": "1392-1430 - 38m."}
         ],
-        "points": 5,
+        "hint": {
+            "text": "Gedimino paminklas jums gali padėti. Įdėmiai jį apžiūrėkite.",
+            "points": 1
+        },
+        "points": 7,
         "attempts": 5,
         "minusPointsOnAttempt": 1,
         "time": 4
@@ -551,7 +556,8 @@
         "type": "photoValidation",
         "iconType": "photo",
         "photoValidation": {
-            "prompt": "Ar nuotraukoje yra žmogus ar žmonės, ir pastato fragmentas su užrašu IHS?"
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės, ir pastato fragmentas su užrašu IHS?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
         },
         "text": [
             "Atlikdami užduotis rasite vietą, kur yra užrašas IHS.",
