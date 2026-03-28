@@ -601,6 +601,23 @@
         "points": 5,
         "attempts": 5,
         "time": 6
+    },
+    {
+        "id": "31",
+        "name": "Paveikslo rėmas",
+        "lat": 54.686116930167685,
+        "lng": 25.28667609645001,
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės įkišę galvas į paveikslo rėmą.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Suraskite paveikslo rėmą. Padarykite komandos narių nuotrauką, kur komandos narių galvos yra įkištos jame."
+        ],
+        "points": 3,
+        "time": 5
     }
 
     
