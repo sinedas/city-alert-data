@@ -34,7 +34,7 @@
         }
     },
     {
-        "id": "2",
+        "id": "3",
         "name": "Paslaptingas lagaminėlis",
         "lat": 54.69228800060232,
         "lng": 25.289487462503576,
@@ -93,7 +93,7 @@
         }
     },
     {
-        "id": "3",
+        "id": "4",
         "name": "Vilniaus Sporto rūmai",
         "lat": 54.69141585952002,
         "lng": 25.28962892500207,
@@ -127,7 +127,7 @@
         "time": 5
     },
     {
-        "id": "4",
+        "id": "6",
         "name": "Pontoninis tiltas",
         "lat": 54.68947278806482,
         "lng": 25.28853341123034,
@@ -163,7 +163,45 @@
         }
     },
     {
-        "id": "5",
+        "id": "7",
+        "name": "Pionierų namai",
+        "lat": 54.68616291121222,
+        "lng": 25.288291147952798,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Valdovų rūmų anuomet nebuvo. Jų vietoje stovėjo Šliosbergo rūmai, juose anuomet buvo įsikūrę pionierių namai.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["pionieriu_namai.webp"],
+            "changeInterval": 3
+        },
+        "image": "marks2.webp",
+        "text": [
+            "Pionierius Julius su broliu spaliuku Ignu atėjo į pionierių namus, kur vyksta sovietinės valdžios renginys vaikams ir jaunimui. Jie buvo susodinti eilėje kartu su parduotuvės direktoriumi komunistu Algiu, KGB veteranu komunistu Nikolajumi ir studentu komjaunuoliu Vytu tokia tvarka:",
+            "IGNAS, VYTAS, JULIUS, ALGIS, NIKOLAJUS.",
+            "Kiekvienas nešioja po ženkliuką. Surikiuokite ženkliukus pagal nešiojančių eilę, gausite ... ?"
+        ],
+        "answer": [
+            "KAVOS"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "text": "Surikiave raides gausite tai kas tuo metu buvo didelis deficitas.",
+            "points": 2
+        },
+        "reward": {
+            "image": "coffee.webp",
+            "text": [
+                "Jūs gaunate KAVOS dėžutę, paliktą jums Izaoko Goldšteino. Kava buvo deficitinė prekė tuo metu ir jos nebuvo galima įsigyti parduotuvėse."
+            ]
+        }
+    },
+    {
+        "id": "8",
         "name": "Katedros aikštė",
         "lat": 54.685851172662325,
         "lng": 25.286643927572907,
@@ -177,12 +215,12 @@
             "changeInterval": 3
         },
         "text": [
-            "Padarykite komandos narių nuotraukoje, taip kad joje matytųsi didelis daiktas kuriame prie vienuolikos pridėjus šešis gaunaute penkis."            
+            "Padarykite komandos narių nuotrauką, taip kad joje matytųsi didelis daiktas, kuriame prie vienuolikos pridėjus šešis gaunaute penkis."            
         ],
         "type": "photoValidation",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Vilniaus varpinės bokštas su laikrodžiu?",
-            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+            "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
         },
         "points": 5,
         "time": 6,
@@ -191,12 +229,11 @@
                 "Šį daiktą paprastai nešiojate ant rankos. Ką jis rodo?",
                 "Kur dar galite pamatyti šį daiktą?"
             ],
-
             "points": 2
         }
     },
     {
-        "id": "6",
+        "id": "9",
         "name": "Katedros varpinė",
         "lat": 54.685603314020796,
         "lng": 25.28651535946051,
@@ -233,7 +270,7 @@
         }
     },
     {
-        "id": "65",
+        "id": "10",
         "name": "Liūtukai",
         "lat": 54.68621456249128,
         "lng": 25.284671323460454,
@@ -250,7 +287,7 @@
         "time": 6
     },    
     {
-        "id": "7",
+        "id": "11",
         "name": "Lietuvos Paštas",
         "lat": 54.686532004704276,
         "lng": 25.282889263923398,
@@ -277,7 +314,33 @@
         "time": 5
     },
     {
-        "id": "8",
+        "id": "115",
+        "name": "Černiachovskio aikštė",
+        "lat": 54.68730803777586,
+        "lng": 25.280462445901197,
+        "type": "timepointer",
+        "text": "Jūs atėjote į Černiachovskio aikštę, kur stovėjo skulptūra sovietiniam generolui Černiahovskiui. Tačiau sovietinės skulptūros stovėjo ir kitose Vilniaus vietose. Surikiuokite, kas kur stovėjo:",
+        "events": [
+            { "name": "A.Jakšto- Kaštonų g sankryžoje.", "order": 1, "image": "jaksto_monument.webp"},
+            { "name": "Petro Cvirkos aikštėje.", "order": 2, "image": "cvirkos_monument.webp"},
+            { "name": "Kudirkos aikštėje", "order": 3, "image": "cerniachovskis_monument.webp"},
+            { "name": "Lukiškių aikštėje", "order": 4, "image": "lenino_monument.webp"},
+            { "name": "Ant Žaliojo tilto", "order": 5, "image": "zaliasis_monument.webp"}
+        ],
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 4,
+        "reward": {
+            "text": [
+                "Sovietinių paminklų Vilniuje nebeliko.",
+                "Leninas sėkmingai rudija Grūto parke, Generolas Černiahovskis iškeliavo į gimtąjį Voronežą.",
+                "Komunisto Zigmonto Angariečio (A.Jakšto-Kaštonų g sankryžoje), Petro Cvirkos ir Žaliojo tilto skulptūrų likimas žaidimo kūrėjams nėra žinomas."
+            ]
+        }
+    },
+    {
+        "id": "12",
         "name": "Vaikų pasaulis",
         "lat": 54.68715080531597,
         "lng": 25.27920708785223,
@@ -309,7 +372,7 @@
         "time": 5
     },
     {
-        "id": "9",
+        "id": "13",
         "name": "Centrinis knygynas",
         "lat": 54.68731222888022,
         "lng": 25.279374125506813,
@@ -338,7 +401,7 @@
         }
     },
     {
-        "id": "10",
+        "id": "14",
         "name": "Juliaus laiškas",
         "lat": 54.684811107668416,
         "lng": 25.276287105731818,
@@ -360,7 +423,7 @@
         }
     },
     {
-        "id": "11",
+        "id": "15",
         "name": "Kinoteatras",
         "lat": 54.6862437010621, 
         "lng": 25.275005803009805,
@@ -391,7 +454,7 @@
         
     },
     {
-        "id": "12",
+        "id": "16",
         "name": "Lozungas",
         "lat": 54.68723902915875,     
         "lng": 25.271600457362418,
