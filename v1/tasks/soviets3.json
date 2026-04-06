@@ -220,7 +220,7 @@
         "type": "photoValidation",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Vilniaus varpinės bokštas su laikrodžiu?",
-            "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
         },
         "points": 5,
         "time": 6,
