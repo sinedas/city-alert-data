@@ -138,27 +138,6 @@
     }
   },
   {
-    "code": "soviets2",
-    "title": "Sovietinis Vilnius",
-    "image": "sovietsv3.webp",
-    "location": {
-      "lat": 54.69079963514012, 
-      "lng": 25.290875962339644
-    },
-    "initialDiameter": 4000,
-    "finalDiameter": 3900,
-    "duration": 120,
-    "level": "Sunkus",
-    "active": true,
-    "locked": false,
-    "description": "Laiko mašina grįžkite į sovietinį laiką.",
-    "hints": 8,
-    "start": "Pirma užduotis- Vaikų pasaulis",
-    "finish": "Žydų kapinės",
-    "checkLocation": false,
-    "pointsPerLeftMinutes": 10
-  },
-  {
     "code": "ona",
     "title": "Šv. Onos paslaptis",
     "image": "ona.webp",
@@ -166,7 +145,7 @@
       "lat": 54.680644159957176,
       "lng": 25.29538049958262
     },
-    "initialDiameter": 1700,
+    "initialDiameter": 2000,
     "finalDiameter": 150,
     "duration": 120,
     "active": true,
@@ -188,6 +167,63 @@
         "points": 2
     }
   },
+  {
+    "code": "soviets3",
+    "title": "Sovietinis Vilnius",
+    "image": "soviets3.webp",
+    "location": {
+      "lat": 54.689519126507015,
+      "lng": 25.27091553917187
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 3900,
+    "duration": 120,
+    "level": "Vidutinis",
+    "active": true,
+    "locked": true,
+    "description": "Laiko mašina grįžkite į sovietinį laiką.",
+    "hints": 8,
+    "start": "Rinktinės 5",
+    "finish": "Lukiškių aikštė",
+    "checkLocation": true,
+    "pointsPerLeftMinutes": 10,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+          "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.",
+          "Mašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate šalia buvosio Žalgirio stadiono, kur radote raštelį nuo Izaoko Goldšteino:",
+          "„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį okupuotą Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į Lenino aikštę, kur lauksiu jūsų.",
+          "Pirma užduotis, apsimeskite kolektyvu iš kokios nors sovietinės organizacijos. Sugalvokite organizacijos pavadinimą.",
+          "",
+          "Jūsų draugas Izaokas Goldšteinas.“",
+          "Užduočiai atlikti turite 4 minutes."
+        ],
+        "points": 2
+    }
+  },
+  {
+    "code": "soviets2",
+    "title": "Sovietinis Vilnius",
+    "image": "sovietsv3.webp",
+    "location": {
+      "lat": 54.69079963514012, 
+      "lng": 25.290875962339644
+    },
+    "initialDiameter": 4000,
+    "finalDiameter": 3900,
+    "duration": 120,
+    "level": "Sunkus",
+    "active": true,
+    "locked": true,
+    "description": "Laiko mašina grįžkite į sovietinį laiką.",
+    "hints": 8,
+    "start": "Pirma užduotis- Vaikų pasaulis",
+    "finish": "Žydų kapinės",
+    "checkLocation": false,
+    "pointsPerLeftMinutes": 10
+  },
+  
   {
     "code": "ona_en",
     "folder": "ona",

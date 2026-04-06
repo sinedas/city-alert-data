@@ -1,0 +1,465 @@
+[
+
+    {
+        "id": "1",
+        "name": "Žalgirio stadionas",
+        "lat": 54.69462270359624,
+        "lng": 25.288656190486307,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs stovite šalia įėjimo į tuometinį Vilniaus Žalgirio stadiono.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["stadionas.webp"],
+            "changeInterval": 3
+        },
+        "image": "zalgiris.webp",
+        "text": [
+            "Jūs stovite šalia Žalgirio stadiono. Tenai neseniai vyko varžybos, kurios baigėsi lygiu rezultatu. Bet švieslentė sugedo ir rezultatas joje nelygus.",
+            "Perkelkite vieną brūkšnelį rezultate, kad lygybė būtų teisinga.",  
+            "Atsakyme įrašykite kiek viso įvarčių buvo imušta per varžybas."
+        ],
+        "answer": [
+            "10"
+        ],
+        "points": 4,
+        "attempts": 3,
+        "time": 5,
+        "reward": {
+            "text": [
+                "Varžybos baigėsi rezultatu 5:5."
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "name": "Paslaptingas lagaminėlis",
+        "lat": 54.69228800060232,
+        "lng": 25.289487462503576,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Eidami toliau jūs randate paslaptingą lagaminėlį.",
+                "",
+                "Užduočiai atlikti turite 8 minutes."
+            ],
+            "images": ["lagaminelis.webp"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Jūs radote lagaminėlį su kodų spynele. Taip pat sąrašą pasaulio valstybių sostinių. Spynos kodas- pirmosios sostinių raidės. Išbraukite kitus miestus ir gausite kodą:",
+            "TALINAS",
+            "BONA",
+            "AMSTERDAMAS",
+            "LIUBLIANA",
+            "PRAHA",
+            "ZAGREBAS",
+            "TIRANA",
+            "MINSKAS",
+            "ISLAMABADAS",
+            "SEULAS",
+            "RIGA",
+            "TEHERANAS",
+            "BAKU",
+            "ANKARA",
+            "STOKHOLMAS"
+        ],
+        "answer": [
+            "Baptistas"
+        ],
+        "points": 8,
+        "attempts": 5,
+        "time": 8,
+        "hint": {
+            "text": [
+                "Jūs esate sovietiniame laike.",
+                "Tuo metu buvo dvi Vokietijos. Vienos sostinė buvo Berlinas, o kitos Bona.",
+                "Tuo metu nebuvo kai kurių valstybių.",
+                "Estija, Baltarusija, Azerbaidžanas, Latvija įėjo į TSRS sudėtį.",
+                "Slovėnija, Kroatija įėjo į Jugoslavijos sudėtį."
+            ],
+            "points": 4
+        },
+        "reward": {
+            "text": [
+                "Izaokas Goldšteinas lagamine paslėpė žemėlapį. ",
+                "[href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href].",
+                "Jis padės jums atlikti kitas užduotis.",
+                "Eikite toliau, pasukite į dešinę, į J. Karoso gatvę (Islandijos gatvė šiais laikais)."
+            ],
+            "image": "map.webp"
+        }
+    },
+    {
+        "id": "3",
+        "name": "Vilniaus Sporto rūmai",
+        "lat": 54.69141585952002,
+        "lng": 25.28962892500207,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["sporto_rumai2.webp"],
+            "changeInterval": 3
+        },
+        "image": "sporto_rumai.webp",
+        "text": [
+            "Suraskite kieno pavarde sovietiniu metu buvo pavadinta šiuolaikinė Rinktinės gatvė, kurioje dabar esate.",
+            "Įrašykite tik pavardę.",
+            "Žemėlapis jums padės:",
+            "[href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href]"
+        ],
+        "answer": [
+            "Eidukevičiaus", "Eidukevičius"
+        ],
+        "reward": {
+            "text": [
+                "Okupuotoje sovietinėje Lietuvoje gatvės dažnai buvo pavadintos sovietinių ir komunistinių veikėjų vardais – tai buvo daroma ideologiniais tikslais, siekiant įtvirtinti tuo metu vyravusią sistemą.",                
+                "Vienas tokių pavyzdžių – mažiau žinomas komunistinis veikėjas [href=\"https://lt.wikipedia.org/wiki/Pranas_Eidukevi%C4%8Dius#:~:text=Pranas%20Eidukevi%C4%8Dius%20(slapyvardis%20Marcelka%3B%201869,Rusijos%20socialdemokrat%C5%B3%20darbinink%C5%B3%20partijos%20veik%C4%97jas\"]Pranas Eidukevičius.[/href]",                
+                "Atkūrus nepriklausomybę, dauguma šių pavadinimų buvo pakeisti, sugrąžinant istorinius ar vietos tradicijas atspindinčius gatvių vardus."
+            ]
+        },
+        "points": 2,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Pontoninis tiltas",
+        "lat": 54.68947278806482,
+        "lng": 25.28853341123034,
+        "image": "children.webp",        
+        "startCarousel": {
+            "text": [
+                "Jūs priėjote Nerį. Tuo metu Mindaugo tiltas dar nebuvo pastatytas, o vasaromis buvo įrengiamas laikinas pontoninis tiltas.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["pontonas.webp"],
+            "changeInterval": 3
+        },
+        "startType": "carousel",
+        "text": [
+            "Šalia pontoninio tilto, jūs sutinkate berniuką Julių su draugų kompanija.",
+            "Įsižiūrėkite į paveiksliuką.",
+            "Julius stovi krašte. Jei Onytė stovėtų šalia Dariaus, tai Marius stovėtų šalia savo bendravardžio. Kas yra kas?",
+            "",
+            "Atsakyme įrašykite pirmąsias vaikų vardų raides (iš kairės į dešinę)."
+        ],
+        "answer": [
+            "jdmom"
+        ],
+        "points": 4,
+        "attempts": 4,
+        "time": 6,
+        "reward": {
+            "image": "pontonas.webp",
+            "text": [
+                "1975 m. balandžio 13 d. įvykus Lietuvą sukrėtusiai tilto griūčiai, pareikalavusiai žmonių aukų, pontoninis tiltas buvo galutinai išmontuotas."
+            ]
+        }
+    },
+    {
+        "id": "5",
+        "name": "Katedros aikštė",
+        "lat": 54.685851172662325,
+        "lng": 25.286643927572907,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["katedra.webp"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Padarykite komandos narių nuotraukoje, taip kad joje matytųsi didelis daiktas kuriame prie vienuolikos pridėjus šešis gaunaute penkis."            
+        ],
+        "type": "photoValidation",
+            "photoValidation": {
+                "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Vilniaus varpinės bokštas su laikrodžiu?",
+                "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+            },
+        "points": 5,
+        "time": 6,
+        "hint": {
+            "text": [ 
+                "Šį daiktą paprastai nešiojate ant rankos. Ką jis rodo?",
+                "Kur dar galite pamatyti šį daiktą?"
+            ],
+
+            "points": 2
+        }
+    },
+    {
+        "id": "6",
+        "name": "Katedros varpinė",
+        "lat": 54.685603314020796,
+        "lng": 25.28651535946051,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["katedra.webp"],
+            "changeInterval": 3
+        },
+        "image": "clockv2.webp",
+        "text": [
+            "Katedros Varpinės laikrodis dėl nepriežiūros sugedo. Meistrai sutvarkė laikrodį, bet reikia nustatyti gerą dienos laiką.",
+            "Sužinoti koks dabar laikas jums padės šis laikrodis, tik nėra aiškų kuri rodyklė ką rodo.",
+            "Atsakyme įrašykite laiką formatu HH:MM:SS",
+            "(valandoms naudokite tik 00-11 valandas)."],
+        "answer": [
+            "04:50:00", "4:50:00", "4:50:0", "04:50", "4:50"
+        ],
+        "hint": {
+            "text": "Sekundžių rodyklė rodo 0. Pasukite laikrodį taip, kad sekundžių rodyklė būtų nukreipta į viršų. Ką rodo kitos rodyklės?",
+            "points": 2
+        },
+        "points": 7,
+        "attempts": 4,
+        "time": 5,        
+        "reward": {
+            "image": "clock_rez.webp",
+            "text": [
+                "Laikrodis dabar rodo teisingą laiką."
+            ]
+        }
+    },
+    {
+        "id": "65",
+        "name": "Kačiukai",
+        "lat": 54.68621456249128,
+        "lng": 25.284671323460454,
+        "text": [
+            "Suraskite kačiukus ir pasidarykite nuotrauką šalia kačiukų, kurioje komandos nariai būtų atsistoję ant visų keturių letenų ir imituotų kates."            
+        ],       
+        "type": "photoValidation",
+            "photoValidation": {
+                "prompt": "Ar nuotraukoje yra žmogus ar žmonės pasilenkę, galimai vaizduojantys katinus.",
+                "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle cat features: thin natural cat whiskers, small soft cat ears on top of the head, and a gently integrated cat tail that follows the body’s posture. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."
+            },
+        "points": 5,
+        "time": 6
+    },    
+    {
+        "id": "7",
+        "name": "Lietuvos Paštas",
+        "lat": 54.686532004704276,
+        "lng": 25.282889263923398,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["pastas.webp"],
+            "changeInterval": 3
+        },
+        "image": "pastas.webp",
+        "text": [
+            "Jūs stovite prieš tuo metu centrinį Lietuvos Pašto pastatą.",
+            "Tačiau kaip anuomet vadinosi Gedimino prospektas, kur esate dabar?",
+            "Žemėlapis jums padės:",
+            "[href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href]"
+        ],
+        "answer": [
+            "Lenino"
+        ],
+        "points": 2,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "8",
+        "name": "Vaikų pasaulis",
+        "lat": 54.68715080531597,
+        "lng": 25.27920708785223,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["vaiku_pasaulis.webp"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Jūs atėjote prie parduotuvės 'Vaikų pasaulis'. Bet parduotuvė uždaryta. Per vitriną jūs pamatėte veidrodį, kuriame atsispindėjo elektroninis laikrodis.",
+            "Jis rodė laiką [digital]00:21[/digital]. Po minutės pradėjo rodyti [digital]10:21[/digital]. Koks keistas laikrodis.",
+            "",
+            "Koks laikas bus dar po minutės?"
+        ],
+        "answer": [
+            "15:02"
+        ],
+        "hint": {
+            "text": "Laikrodis atsispindėjo veidrodyje.",
+            "image": "cup_hint.png",
+            "points": 2
+        },
+        "points": 5,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "9",
+        "name": "Centrinis knygynas",
+        "lat": 54.68731222888022,
+        "lng": 25.279374125506813,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["knygynas.webp"],
+            "changeInterval": 3
+        },
+        "image": "guliveris.png",
+        "text": [
+            "Vilniaus centrionio knygyno vedėja už kavos indelį įteikė jums knygą. Bet kokią?",
+            "Sudėliokite dėlionę ir sužinokite knygos pavadinimą."
+        ],
+        "answer": [
+            "Guliverio kelionės"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 8,        
+        "hint": {
+            "image": "guliveris_hint.png",
+            "points": 2
+        }
+    },
+    {
+        "id": "10",
+        "name": "Juliaus laiškas",
+        "lat": 54.684811107668416,
+        "lng": 25.276287105731818,
+        "text": [
+            "Pionierius Julius skubėdamas pametė laišką. Pats to nežinodamas Julius sugalvojo šriftą naudojamą dar Julijaus Cezario laikais. Berniukas naudojo trijų raidžių žingsnį. ",
+            "Perskaitykite Juliaus laišką. Kuriame kinoteatre jis laukia savo draugo? Atsakyme įrašykite, koks buvo kinoteatro pavadinimas."
+            
+        ],
+        "image": "julius.png",
+        "answer": [
+            "Pergalė"
+        ],
+        "points": 6,
+        "attempts": 5,
+        "time": 10,
+        "hint": {
+            "image": "julius_hint.png",
+            "points": 2
+        }
+    },
+    {
+        "id": "11",
+        "name": "Kinoteatras",
+        "lat": 54.6862437010621, 
+        "lng": 25.275005803009805,
+        
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 8 minutes."
+            ],
+            "images": ["pergale.webp"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Jūs atėjote į kinoteatrą, kur vėl sutikote berniuką Julių",
+            "Kokį lenkišką filmą Julius ir draugai atėjo pažiūrėti? Atsakymai į šiuos klausimus padės sužinoti filmo pavadinimą.",
+            "1. Kinoteatro Lietuva numeris žemėlapyje (Komjaunimo gatvė). Ir tai tikrai ne 3.",
+            "2. Gatvė į kurią atsiremią Liepkalnio gatvė, dabartinė Pelesos.",
+            "3. Rusiška raidė „ i “.",
+            "4. Naminis gyvūnas.",
+            "",
+            "Atsakymų ieškokite žemėlapyje:",
+            "[href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href]"
+        ],
+        "answer": ["4 tankistai ir šuo", "Keturi tankistai ir šuo"],
+        "points": 10,
+        "attempts": 5,
+        "time": 8
+        
+    },
+    {
+        "id": "12",
+        "name": "Lozungas",
+        "lat": 54.68723902915875,     
+        "lng": 25.271600457362418,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 7 minutes."
+            ],
+            "images": ["profsajunga.webp"],
+            "changeInterval": 3
+        },
+        "image": "lenin.jpg",
+        "text": [
+            "Jūs stovite Tauro kalno papėdėje. Ant profsąjungų rūmų kabo plakatas su lozungu.",
+            "Išspreskite raidžių labirintą.Eikite po žingsnelį pagal rodykles nuo raidės 'L' (eikite į ↑ arba ← arba ↓ arba → ir perskaitykite šūkį).",
+            "Atsakyme įrašykite paskutinį šūkio žodį."
+        ],
+        "answer": ["nemarios"],
+        "points": 6,
+        "attempts": 5,
+        "time": 7,        
+        "hint": {
+            "image": "lenin_hint.jpg",
+            "points": 2
+        }
+    },
+    {
+        "id": "18",
+        "name": "Lenino aikštė",
+        "lat":  54.68912380475053,   
+        "lng": 25.270910018666058,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Lenino aikštėje jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.",
+                "",
+                "Kad galėtų jūsų grąžinti, Izaokas mašinoje turi įvesti metus, kuriuose esate dabar. Jums reikės suskaičiuoti, kokie dabar metai?",
+                "",
+                "Užduočiai atlikti turite 8 minutes."
+            ],
+            "images": ["leninoaikste.webp"],
+            
+            "changeInterval": 3
+        },
+        "image": "leninoaikste.webp",
+        "text": [
+            "Draugai Julius ir Marius yra gimę tą pačia dieną.",
+            "Juliui šiemet sukanka 10 metų, o Mariui 8 metai.",
+            "1969 metais per jų gimimo dieną, Julius buvo vyresnis už Mariui lygiai du kartus.",
+            "Kokie yra dabar metai?"
+        ],
+        "answer": ["1975"],
+        "points": 8,
+        "attempts": 5,
+        "time": 8,        
+        "hint": {
+            "text": [
+                "Įsisvaizduokite, M yra Mariaus metai 1969 metais. Kadangi Julius tais metais buvo du kartus vyresnis, galima parašyti lygtį:",
+                "2 * M = M + 2",
+                "Išsprendę ją sužinosite, kiek Mariui sukako 1969 metais. Beliko suskaičiuoti kokie dabar metai."
+            ],
+            "points": 3
+        },
+        "reward": {
+            "text": [
+                "Izaokas Goldšteinas laiko mašinoje įvedė reikiamą informaciją ir jūs sėkmingai grįžote į nepriklausomą Lietuvą."
+            ],
+            "image": "veliavav2.webp"
+        }
+    }
+
+    
+]
