@@ -167,6 +167,7 @@
         "name": "Katedros aikštė",
         "lat": 54.685851172662325,
         "lng": 25.286643927572907,
+        "iconType": "photo",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -179,10 +180,10 @@
             "Padarykite komandos narių nuotraukoje, taip kad joje matytųsi didelis daiktas kuriame prie vienuolikos pridėjus šešis gaunaute penkis."            
         ],
         "type": "photoValidation",
-            "photoValidation": {
-                "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Vilniaus varpinės bokštas su laikrodžiu?",
-                "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
-            },
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Vilniaus varpinės bokštas su laikrodžiu?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
         "points": 5,
         "time": 6,
         "hint": {
@@ -236,6 +237,7 @@
         "name": "Kačiukai",
         "lat": 54.68621456249128,
         "lng": 25.284671323460454,
+        "iconType": "photo",
         "text": [
             "Suraskite kačiukus ir pasidarykite nuotrauką šalia kačiukų, kurioje komandos nariai būtų atsistoję ant visų keturių letenų ir imituotų kates."            
         ],       
