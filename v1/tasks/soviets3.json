@@ -234,18 +234,18 @@
     },
     {
         "id": "65",
-        "name": "Kačiukai",
+        "name": "Liūtukai",
         "lat": 54.68621456249128,
         "lng": 25.284671323460454,
         "iconType": "photo",
         "text": [
-            "Suraskite kačiukus ir pasidarykite nuotrauką šalia kačiukų, kurioje komandos nariai būtų atsistoję ant visų keturių letenų ir imituotų kates."            
+            "Suraskite liūtukus ir pasidarykite nuotrauką šalia liūtukų, kurioje komandos nariai būtų atsistoję ant visų keturių letenų ir imituotų liūtus."            
         ],       
         "type": "photoValidation",
-            "photoValidation": {
-                "prompt": "Ar nuotraukoje yra žmogus ar žmonės pasilenkę, galimai vaizduojantys katinus.",
-                "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle cat features: thin natural cat whiskers, small soft cat ears on top of the head, and a gently integrated cat tail that follows the body’s posture. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."
-            },
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės pasilenkę, galimai vaizduojantys liūtus.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle cat features: thin natural cat whiskers, and a gently integrated cat tail that follows the body’s posture. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."
+        },
         "points": 5,
         "time": 6
     },    
@@ -438,9 +438,9 @@
         },
         "image": "leninoaikste.webp",
         "text": [
-            "Draugai Julius ir Marius yra gimę tą pačia dieną.",
+            "Draugai Julius ir Marius yra gimę tą pačią dieną.",
             "Juliui šiemet sukanka 10 metų, o Mariui 8 metai.",
-            "1969 metais per jų gimimo dieną, Julius buvo vyresnis už Mariui lygiai du kartus.",
+            "1969 metais per jų gimimo dieną, Julius buvo vyresnis už Marių lygiai du kartus.",
             "Kokie yra dabar metai?"
         ],
         "answer": ["1975"],
