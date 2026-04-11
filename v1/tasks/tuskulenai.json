@@ -12,10 +12,10 @@
             "images": ["tuskulenaiv2.webp"],
             "changeInterval": 0
         },
-        "image": "violet2.png",
+        "image": "violetv3.png",
         "text": "Spalva?",
-        "answer": ["violetinė"],
-        "points": 5 ,
+        "answer": ["Violetinė"],
+        "points": 6,
         "attempts": 2,
         "time": 6,
         "hint": {
@@ -163,7 +163,14 @@
         ],
         "points": 5,
         "attempts": 5,
-        "time": 6
+        "time": 6,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Ši užduotis turi net 4 sprendimus. Vienas jų yra šis."
+            ],
+            "images": ["matches_solution.png"]
+        }
     },
     {
         "id": "8",
@@ -221,14 +228,14 @@
             "images": ["oficina.webp"],
             "changeInterval": 0
         }, 
-        "text": "Suraskite šį asmenį. Sužinokite šio asmens antrąją pavardę.",
+        "text": [
+            "Suraskite šį asmenį. Sužinokite šio asmens antrąją pavardę.",
+            "",
+            "[href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]"
+        ],
         "answer": ["Bauer"],
-        "points": 8,
-        "attempts": 3,
-        "hint": {
-            "text": "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]",
-            "points": 2
-        }
+        "points": 7,
+        "attempts": 5
     },
     {
         "id": "11",
@@ -236,17 +243,14 @@
         "lat": 54.69641578073588,  
         "lng": 25.299926448017278,       
         "text": [
+            "Raskite Angelų sargų skvero stendą. Pirmasis žodis paskutinėje eilutėje parašytas Brailio raštu:",
             "",
-            "Raskite Angelų sargų skvero stendą. Pirmasis žodis paskutinėje eilutėje parašytas Brailio raštu."
+            "[href=\"https://lt.wikipedia.org/wiki/Brailio_ra%C5%A1tas#Raid%C4%97s_ir_skaitmenys\"]Brailio raštas[/href]"
         ],
-        "answer": ["Krite"],
+        "answer": ["Kritę"],
         "points": 6,
-        "attempts": 5,
-        "time": 6,
-        "hint": {
-            "text": "Jums padės \n [href=\"https://lt.wikipedia.org/wiki/Brailio_ra%C5%A1tas#Raid%C4%97s_ir_skaitmenys\"]Brailio raštas[/href]\n O gal paprasčiau paskaičiuoti, kuris tai žodis nuo galo?",
-            "points": 2
-        }
+        "attempts": 4,
+        "time": 6
     },
     {
         "id": "12",
