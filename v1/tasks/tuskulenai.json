@@ -133,10 +133,9 @@
             "5 eilutė, 2 žodis, 1 raidė",
             "Pavadinimas, paskutinė raidė",
             "6 eilutė, 2 žodis, 8 raidė",
-            "6 eilutė, 2 žodis, 8 raidė",
             "Pavadinimas, paskutinė raidė"
         ],
-        "answer": ["Pagalvėlė"],
+        "answer": ["PAGALVĖLĖ"],
         "points": 5,
         "attempts": 5,
         "time": 6
@@ -158,7 +157,9 @@
         "text": "Jums reikia uždegti dektuką koplytėlės kolumbariume. Vieną degtuką perkelkite, o kitą pasiimkite, kad sąlyga būtų teisinga. Sąlygą užrašykite paprastais skaitmenimis ir ženklais.",
         "answer": [
             "3+5=8", 
-            "8-6=2"
+            "8-6=2",
+            "6-6=0",
+            "9-9=0"
         ],
         "points": 5,
         "attempts": 5,
