@@ -97,7 +97,7 @@
         ],
         "answer": ["1992"],
         "points": 8,
-        "attempts": 3,
+        "attempts": 4,
         "time": 6,
         "hint": {
             "text": "Žodį \"sujunkite\" supraskite tiesiogiai. Nubrėžkite linijas nuo žodžio iki žodžio. Linijų susikirtimo vieta ir bus atsakymas.",
@@ -212,16 +212,16 @@
         "type": "timepointer",
         "text": "Surikiuokite pastatus pagal sąsajas su LDK didikų giminėmis.",
         "events": [
-            { "name": "Sapiegos", "order": 1, "image": "sapiegos.webp"},
+            { "name": "Sapiegos", "order": 1, "image": "sapiegosv2.webp"},
             { "name": "Pacai", "order": 2, "image": "pacai.webp"},
             { "name": "Radvilos", "order": 3, "image": "radvilos.webp"},
             { "name": "Chodkevičiai", "order": 4, "image": "chodkeviciai.webp"},
             { "name": "Tiškevičiai", "order": 5, "image": "tiskeviciai.webp"}
         ],
-        "points": 5,
-        "attempts": 5,
+        "points": 7,
+        "attempts": 7,
         "minusPointsOnAttempt": 1,
-        "time": 4
+        "time": 5
     },
     {
         "id": "10",
@@ -327,10 +327,10 @@
             { "name": "Kalvarijos", "order": 4, "image": "kalvarija.webp"},
             { "name": "Bernardinai", "order": 5, "image": "bernardiniai.webp"}
         ],
-        "points": 5,
-        "attempts": 5,
+        "points": 7,
+        "attempts": 7,
         "minusPointsOnAttempt": 1,
-        "time": 4
+        "time": 5
     },
     {
         "id": "16",
