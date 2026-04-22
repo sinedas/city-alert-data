@@ -44,7 +44,7 @@
     "level": "Lengvas",
     "active": true,
     "locked": false,
-    "description": "Keliaukite į Londoną. Spreskite užduotis, bandykite sėkmę.",
+    "description": "Keliaukite į Londoną. Spręskite užduotis, bandykite sėkmę.",
     "start": "Westminster Bridge",
     "finish": "Tower Bridge",
     "hints": 2,
