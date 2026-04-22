@@ -14,7 +14,10 @@
             "images": ["gedimino.webp"]
         },
         "type": "timepointer",
-        "text": "Surikiuokite LDK valdovus pagal jų valdymo trukmę monarcho arba submonarcho teisėmis. Nuo valdžiusio trumpiausiai iki ilgiausiai.",
+        "text": [
+            "Surikiuokite LDK valdovus pagal jų valdymo trukmę monarcho arba submonarcho teisėmis. Nuo valdžiusio trumpiausiai iki ilgiausiai.",
+            "Gedimino paminklas jums gali padėti. Įdėmiai jį apžiūrėkite."
+        ],
         "events": [
             { "name": "Jogaila", "order": 1, "text": "1377-1392 - 15m."},
             { "name": "Gediminas", "order": 2, "text": "1316-1341 - 25m."},
@@ -22,14 +25,11 @@
             { "name": "Kęstutis", "order": 4, "text": "1345-1382 - 37m."},
             { "name": "Vytautas", "order": 5, "text": "1392-1430 - 38m."}
         ],
-        "hint": {
-            "text": "Gedimino paminklas jums gali padėti. Įdėmiai jį apžiūrėkite.",
-            "points": 1
-        },
+        
         "points": 7,
-        "attempts": 5,
+        "attempts": 7,
         "minusPointsOnAttempt": 1,
-        "time": 4
+        "time": 7
     },
     {
         "id": "2",
@@ -155,18 +155,21 @@
         "image": "kontrolinisv3.png",
         "text": [
             "Žymaus lenkų poeto bendravardis Julius sėkmingai parašė kontrolinį. Kontrolinio klausimai buvo:",
-            "Pirmas Lietuvos vardo paminėjimas, Žalgirio mūšis, Napoleono žygis į Rusiją, Lietuvos nepriklausomybės akto pasirašymas.",
+            "Pirmas Lietuvos vardo paminėjimas", 
+            "Žalgirio mūšis",
+            "Napoleono žygis į Rusiją", 
+            "Lietuvos nepriklausomybės akto pasirašymas.",
             "Juliui labai padėjo skaičiai surašyti ant delno. Bet koks skaičius Juliui buvo laimingas?"
         ],
         "answer": ["77"],
         "hint": {
             "text": [
                 "Gal pamiršote šitas datas?",
-                "1009- Lietuvos vardo paminėjimas",
-                "1410- Žalgirio mūšis",
-                "1812- Napoleono žygis į Rusiją", 
+                "1009- Lietuvos vardo paminėjimas.",
+                "1410- Žalgirio mūšis.",
+                "1812- Napoleono žygis į Rusiją.", 
                 "1918- Lietuvos nepriklausomybės paskelbimas.",
-                "Prisiminę, sujunkite skaičius brukšneliais."
+                "Prisiminę, suraskite datas ir sujunkite skaičius brukšneliais."
             ],
             "points": 4
         },
