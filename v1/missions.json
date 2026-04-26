@@ -152,7 +152,7 @@
     "level": "Vidutinis",
     "locked": true,
     "description": "Vilniaus senamiestis, Bernardinų sodas, Užupis.",
-    "start": "Gedimino paminklas Katedros Aikštėje",
+    "start": "Katedros varpinė",
     "finish": "Užupio angelas",
     "hints": 5,
     "checkLocation": true,
@@ -226,24 +226,33 @@
   
   {
     "code": "ona_en",
-    "folder": "ona",
-    "title": "Vilnius Mysteries",
+    "folder": "ona_en",
+    "title": "Vilnius Old Town Mystery",
     "image": "ona.webp",
     "location": {
       "lat": 54.68307240086446, 
       "lng": 25.29308522963397
     },
-    "initialDiameter": 1500,
+    "initialDiameter": 2000,
     "finalDiameter": 150,
     "duration": 120,
-    "active": false,
+    "active": true,
     "level": "Medium",
-    "locked": true,
-    "description": "Vilniaus senamiestis, Bernardinų sodas, Užupis.",
-    "start": "Gedimino paminklas Katedros Aikštėje",
-    "finish": "Užupio angelas",
-    "hints": 5,
-    "checkLocation": true
+    "locked": false,
+    "description": "Vilnius Old Town, Pilies Street, St. Anne’s Church, Bernardine Garden, Užupis",
+    "start": "Cathedral Bell Tower",
+    "finish": "Užupis Angel",
+    "checkLocation": true,
+    "teamName": {
+      "title": "Team name",
+      "time": 4,
+      "text": [
+        "You have started the game. Your first task is to come up with a team name.",
+        "",
+        "You have 4 minutes to complete this task."
+      ],
+      "points": 2
+    }
   },
   {
     "code": "soviets",

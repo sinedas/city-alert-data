@@ -1,0 +1,376 @@
+[
+    {
+        "id": "1",
+        "name": "Dobuzhinsky Frame Photo",
+        "lat": 54.68633639202634,
+        "lng": 25.286890322996783,
+        "type": "photoValidation",
+        "iconType": "photo",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Mstislav Dobuzhinsky picture frame.",
+                "",
+                "You have 5 minutes to complete this task."
+            ],
+            "images": ["dobuzinskis.jpg"]
+        },
+        "photoValidation": {
+            "prompt": "Does the photo show one or more people placing their heads inside the picture frame?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Find the picture frame of famous artist Mstislav Dobuzhinsky. Take a photo where your team members place their heads inside it."
+        ],
+        "points": 3,
+        "time": 5
+    },
+    {
+        "id": "2",
+        "name": "Gediminas Monument",
+        "lat": 54.685334932066645,
+        "lng": 25.288574743825034,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Gediminas Monument.",
+                "",
+                "You have 5 minutes to complete this task."
+            ],
+            "images": ["gedimino.webp"]
+        },
+        "type": "timepointer",
+        "text": [
+            "Arrange the rulers of the Grand Duchy of Lithuania by the length of their rule — from the shortest to the longest.",
+            "The Gediminas Monument may help you. Take a close look at it."
+        ],
+        "events": [
+            {"name": "Jogaila", "order": 1, "text": "1377–1392 — 15 years"},
+            {"name": "Gediminas", "order": 2, "text": "1316–1341 — 25 years"},
+            {"name": "Algirdas", "order": 3, "text": "1345–1377 — 32 years"},
+            {"name": "Kęstutis", "order": 4, "text": "1345–1382 — 37 years"},
+            {"name": "Vytautas", "order": 5, "text": "1392–1430 — 38 years"}
+        ],
+        "points": 7,
+        "attempts": 7,
+        "minusPointsOnAttempt": 1,
+        "time": 7
+    },
+    {
+        "id": "3",
+        "name": "Dogs",
+        "lat": 54.68613535436004,
+        "lng": 25.293654332452178,
+        "iconType": "photo",
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Does the photo show one or more real people, and also dogs or dog sculptures?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Take a photo of your team members together with the dog sculptures."
+        ],
+        "points": 4,
+        "time": 7
+    },
+    {
+        "id": "4",
+        "name": "IHS",
+        "lat": 54.68345580094904,
+        "lng": 25.289360203231464,
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Does the photo show one or more people and a building fragment with the inscription IHS?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Find a place where the inscription IHS is visible.",
+            "IHS — Iesus Hominum Salvator — means \"Jesus, Savior of Humanity\".",
+            "Take a photo of your team so that the IHS inscription is visible.",
+            "",
+            "You have 6 minutes to complete this task."
+        ],
+        "points": 4,
+        "time": 6
+    },
+    {
+        "id": "5",
+        "name": "House of the Signatories",
+        "lat": 54.68230198546044,
+        "lng": 25.289151856176485,
+        "image": "independence.png",
+        "text": [
+            "A hidden word lies within this letter maze.",
+            "Start from the letter \"I\" and connect the letters to form the word.",
+            "One letter in the maze does not belong."
+        ],        
+        "answer": ["INDEPENDENCE"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6,
+        "reward": {
+            "text": [
+                "On February 16, 1918, the Act of Independence of Lithuania was signed in this building. Today it is known as the House of the Signatories."
+            ],
+            "image": "signataraiv2.webp"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Art gallery",
+        "lat": 54.68063588325186, 
+        "lng": 25.288667028319995,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Play Wordle. A correct letter in the right place will be green. Correct but in the wrong place – yellow. Wrong – grey. E.g.: word KINGDOM, and you entered KITCHEN:",
+                "[img source=\"kitchen.jpg\" width=\"300\" height=\"50\"/]",
+                "You have 10 attempts (10 points). Each attempt minus 1 point."
+            ],
+            "images": ["chodkeviciai.webp"]
+        },
+        "text": [
+            "Guess the word: famous writer."
+        ],
+        "reward": {
+            "text": [
+                "Take a moment to look around — you may spot a commemorative plaque marking that Marie-Henri Beyle, better known as Stendhal, once stayed here in 1812."
+            ]
+        },
+        "type": "wordle",
+        "answer": ["STENDHAL"],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5
+    },
+    {
+        "id": "7",
+        "name": "Literatų Street",
+        "lat": 54.68228950391011,
+        "lng": 25.2903304569357,
+        "image": "baron.png",
+        "text": "Solve the puzzle to reveal the literary character.",
+        "answer": ["BARON MUNCHAUSEN"],
+        "points": 5,
+        "attempts": 5,
+        "time": 6
+      }
+    ,
+    {
+        "id": "8",
+        "name": "Vilnius Academy of Arts",
+        "lat": 54.683450007863286,
+        "lng": 25.293268345852436,
+        "image": "spalvos.webp",
+        "text": [
+            "What color is hidden in this equation?",
+            "Write the color name."
+        ],
+        "answer": ["ORANGE"],
+        "points": 7,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Think back to art class.",
+                "Green and red make brown.",
+                "Blue and yellow make green.",
+                "What other colors did you mix at school?"
+            ],
+            "points": 3
+        }
+    },
+    {
+        "id": "9",
+        "name": "St. Anne's Church",
+        "lat": 54.68319749673784, 
+        "lng": 25.29293702706192,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Play Wordle. A correct letter in the right place will be green. Correct but in the wrong place – yellow. Wrong – grey. E.g.: word KINGDOM, and you entered KITCHEN:",
+                "[img source=\"kitchen.jpg\" width=\"300\" height=\"50\"/]",
+                "You have 10 attempts (10 points). Each attempt minus 1 point."
+            ],
+            "images": ["ona.webp"]
+        },
+        "text": [
+            "Guess the word: very famous historical figure."
+        ],
+        "type": "wordle",
+        "answer": ["NAPOLEON"],
+        "reward": {
+            "text": [
+                "Nice! According to legend, Napoleon was so impressed by St. Anne’s Church that he wished he could take it back to Paris in the palm of his hand."
+            ]
+        },
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5
+    },
+    {
+        "id": "10",
+        "name": "Napoleon",
+        "lat": 54.68248495717746,
+        "lng": 25.292741540436776,
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Does the photo show one or more real people, with St. Anne’s Church appearing near the palm of the hand?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them in Napoleonic-era clothing with a bicorne hat while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+        },
+        "text": [
+            "According to legend, when Napoleon visited Vilnius, he said:",
+            "\"I would carry this church to Paris in the palm of my hand.\"",
+            "",
+            "Take a photo where one or more team members appear to hold St. Anne’s Church in the palm of their hand."
+        ],
+        "points": 6,
+        "time": 7
+    },
+    {
+        "id": "11",
+        "name": "Bernardine Wall",
+        "lat": 54.682324650725874,
+        "lng": 25.293966869795465,
+        "image": "degtukai.webp",
+        "text": [
+            "Move one matchstick to make the equation correct.",
+            "Write your answer as a full equation using numbers and standard symbols. Include the equals sign."
+        ],
+        "answer": ["7-2=5"],
+        "points": 4,
+        "attempts": 5,
+        "time": 6,
+        "reward": {
+            "text": [""],
+            "image": "degtukaianswer.webp"
+        }
+    },
+    {
+        "id": "12",
+        "name": "Underwater Mine",
+        "lat": 54.6822371948869,
+        "lng": 25.29563055590525,
+        "type": "bomb",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "You find an underwater mine.",
+                "Let’s play a minefield game.",
+                "Choose a tile where the ship can safely move. Each safe guess gives you +1 point. If you hit a mine, you lose all points.",
+                "Stop in time."
+            ],
+            "images": ["mina.webp"]
+        },
+        "text": [
+            "Choose a safe tile for the ship. Each successful guess gives you +1 point. If you hit a mine, you lose all points. Stop whenever you want."
+        ],
+        "points": 9,
+        "time": 5
+    },
+    {
+        "id": "13",
+        "name": "Shoe Sculpture",
+        "lat": 54.68206064111847,
+        "lng": 25.295210913988726,
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Does the photo show one or more real people, and also a large shoe sculpture?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation, using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent dark outlines, with a subtle watercolor texture. Replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style, each wearing a tall, pointed red fairy-tale gnome hat and matching curled-toe red boots. Ensure these characters maintain their original poses and clothing, but with uniform flat tan skin tones and a whimsical storybook aesthetic (avoiding Christmas motifs). The standees should have thick dark outlines and flat colors, integrating into the environment with consistent perspective while remaining more graphic than the background."
+        },
+        "text": [
+            "Take a photo of your team members next to the shoe sculpture.",
+            "",
+            "You have 5 minutes to complete this task."
+        ],
+        "points": 6,
+        "time": 5
+    },
+    
+    {
+        "id": "14",
+        "name": "Montmartre Bridge",
+        "lat": 54.67928767866252,
+        "lng": 25.29570584987497,
+        "text": [
+            "Solve this puzzle.",
+            "",
+            "If ELI is 173 and LOIS is 5107, what is LESLIE?"
+        ],
+        "answer": ["317537"],
+        "points": 3,
+        "attempts": 5,
+        "time": 4
+    },    
+    {
+        "id": "15",
+        "name": "Užupis Angel",
+        "lat": 54.680620191758,
+        "lng": 25.295227674027846,
+        "type": "roulette",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Near the Užupis Angel, you find a two-euro coin.",
+                "You also meet a group of circus performers. For the coin, they offer you a chance to spin the wheel of fortune and guess the color — red or black. Each correct guess doubles your points. If you lose, you return to the starting amount of two points."
+            ],
+            "images": ["angelas.webp"]
+        },
+        "points": 2,
+        "time": 5
+    },
+    {
+        "id": "16",
+        "name": "Military Coat",
+        "lat": 54.68027172292484,
+        "lng": 25.29368065683996,
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Does the photo show one or more real people next to the military coat sculpture?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Find the military coat sculpture and take a photo of your team next to it.",
+            "",
+            "You have 5 minutes to complete this task."
+        ],
+        "points": 5,
+        "time": 5
+    },
+    
+    
+    {
+        "id": "17",
+        "name": "Užupis Bridge",
+        "lat": 54.680497041037135,
+        "lng": 25.2924589784849,
+        "text": [
+            "Look for a large padlock near a bright blue lock on Užupis Bridge.",
+            "What animal is shown on the large padlock?"
+        ],
+        "answer": ["Lizard"],
+        "points": 4,
+        "attempts": 5,  
+        "time": 5
+    },
+    {
+        "id": "18",
+        "name": "Paplauja Bridge",
+        "lat": 54.67932092988663,
+        "lng": 25.297845639114104,
+        "text": [
+            "Look for the bright red wedding lock of Justyna and Krzysztof on Paplauja Bridge.",
+            "What is their wedding date?"
+        ],
+        "answer": ["2017-08-26", "2017 08 26", "20170826"],
+        "points": 4,
+        "attempts": 5,
+        "time": 5
+    }
+]
