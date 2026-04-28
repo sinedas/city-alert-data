@@ -150,7 +150,7 @@
     "duration": 120,
     "active": true,
     "level": "Vidutinis",
-    "locked": true,
+    "locked": false,
     "description": "Vilniaus senamiestis, Bernardinų sodas, Užupis.",
     "start": "Katedros varpinė",
     "finish": "Užupio angelas",
