@@ -335,8 +335,8 @@
       "lat": 54.89299768651124,    
       "lng": 23.905853229993056    
     },    
-    "initialDiameter": 2500,    
-    "finalDiameter": 150,    
+    "initialDiameter": 2700,    
+    "finalDiameter": 200,    
     "duration": 150,    
     "active": true,    
     "level": "Vidutinis",    
