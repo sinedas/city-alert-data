@@ -31,7 +31,7 @@
         },
         "image": "melyna.png",
         "text": "Kokia spalva yra užšifruota šioje lygtyje?",
-        "answer": ["MĖLYNA"],
+        "answer": ["ŽALIA"],
         "points": 6,
         "attempts": 3,
         "time": 6,
