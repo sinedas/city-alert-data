@@ -263,7 +263,7 @@
         "lng": 25.297418316609633,
         "image": "kvadratai.png",
         "text": [
-            "Suskaičiuokite kiek kvadratų yra paveikslėlyje?"
+            "Suskaičiuokite, kiek kvadratų yra paveikslėlyje?"
         ],
         "answer": ["11"],
         "points": 2,
@@ -444,7 +444,7 @@
         "startCarousel": {
             "text": [
                 "Šalia Užupio Angelo jūs randate dviejų eurų monetą.", 
-                "Taip pat sutinkate cirko artistų grupę. Už monetą jie siūlo sukti laimės ratą ir spėti spalvą- raudoną ar juodą. Kiekvieną kartą atspėjus jūsų taškai dvigubinasi. Pralaimėjus liekate prie pradinės dviejų taškų sumos."
+                "Taip pat sutinkate cirko artistų grupę. Už monetą jie siūlo sukti laimės ratą ir spėti spalvą – raudoną ar juodą. Kiekvieną kartą atspėjus jūsų taškai dvigubinasi. Pralaimėjus liekate prie pradinės dviejų taškų sumos."
             ],
             "images": ["angelas.webp"]
         },
@@ -494,7 +494,7 @@
             "text": [
                 "Jūs randate povandeninę miną.",
                 "Ta proga, pažaiskime minų žaidimą", 
-                "Spėkite į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos visi taškai sudega",
+                "Spėkite, į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos, visi taškai sudega",
                 "Laiku sustokite."
             ],
             "images": ["mina.webp"]

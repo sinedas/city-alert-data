@@ -329,7 +329,7 @@
   },
   {
     "code": "kaunas",    
-    "title": "Senoji sostinė",
+    "title": "Laikinoji sostinė",
     "image": "zalgiris.jpg",
     "location": {    
       "lat": 54.89299768651124,    
@@ -337,7 +337,7 @@
     },    
     "initialDiameter": 2500,    
     "finalDiameter": 150,    
-    "duration": 90,    
+    "duration": 150,    
     "active": true,    
     "level": "Vidutinis",    
     "locked": false,    

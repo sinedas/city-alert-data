@@ -249,7 +249,7 @@
             "changeInterval": 3
         },
         "text": [
-            "Padarykite komandos narių nuotrauką, taip kad joje matytųsi didelis daiktas, kuriame prie vienuolikos pridėjus šešis gaunaute penkis."            
+            "Padarykite komandos narių nuotrauką taip, kad joje matytųsi didelis daiktas, kuriame prie vienuolikos pridėjus šešis gaunama penki."            
         ],
         "type": "photoValidation",
         "photoValidation": {
