@@ -164,6 +164,16 @@
         "lat": 54.89746024885304, 
         "lng": 23.91349195947697,        
         "type": "wordle",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūsų užduotis – Žodlė. Spėkite žodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
+                "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
+            ],
+            "images": ["zalgiris.jpg"]
+        },
         "text": [
             "Spėkite žodį: atlikėjas."
         ],
@@ -382,6 +392,39 @@
         "points": 4,
         "attempts": 4,
         "time": 6
+    },
+    {
+        "id": "21",
+        "name": "Wordle",
+        "lat": 54.892879, 
+        "lng":  23.911551,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūsų užduotis – Žodlė. Spėkite žodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
+                "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
+            ],
+            "images": ["zalgiris.jpg"]
+        },       
+        "text": [
+            "Spėkite žodį: gyvūnas."
+        ],
+        "type": "wordle",
+        "answer": [
+            "ANTIS", "BARSUKAS", "DRAMBLYS"
+        ],
+        "points": 9,
+        "attempts": 9,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "reward": {
+            "text": [
+                "Neretai vakarais iš šitos vietos galima pamatyti šį gyvūną plaukiantį Nerimi."
+            ],
+            "image": "bebras.webp"
+        }
     }
     
 ]
