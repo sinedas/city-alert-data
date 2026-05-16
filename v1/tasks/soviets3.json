@@ -34,6 +34,33 @@
         }
     },
     {
+        "id": "2",
+        "name": "Žalgirio stadionas",
+        "lat": 54.69392131777821,
+        "lng":  25.290029537284926,
+        "iconType": "photo",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["stadionas.webp"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Vartai į stadioną buvo atrakinti. Jūs užėjote į vidų kur sutikote Žalgirio sirgalius",
+            "Jie pasiūlė nusifotografuoti.",
+            "Padarykite komandos narių nuotrauką, kur jie iškėlę rankas virš galvos."
+        ],
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės",
+            "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
+        },
+        "points": 5,
+        "time": 6
+    },
+    {
         "id": "3",
         "name": "Paslaptingas lagaminėlis",
         "lat": 54.69228800060232,
@@ -348,7 +375,7 @@
         "time": 5
     },
     {
-        "id": "115",
+        "id": "12",
         "name": "Černiachovskio aikštė",
         "lat": 54.68730803777586,
         "lng": 25.280462445901197,
@@ -374,7 +401,7 @@
         }
     },
     {
-        "id": "12",
+        "id": "13",
         "name": "Vaikų pasaulis",
         "lat": 54.68715080531597,
         "lng": 25.27920708785223,
@@ -406,7 +433,7 @@
         "time": 5
     },
     {
-        "id": "13",
+        "id": "14",
         "name": "Centrinis knygynas",
         "lat": 54.68731222888022,
         "lng": 25.279374125506813,
@@ -435,7 +462,7 @@
         }
     },
     {
-        "id": "14",
+        "id": "15",
         "name": "Juliaus laiškas",
         "lat": 54.684811107668416,
         "lng": 25.276287105731818,
@@ -457,7 +484,24 @@
         }
     },
     {
-        "id": "15",
+        "id": "16",
+        "name": "Petro Cvirkos aikštė",
+        "lat": 54.684352778235,
+        "lng": 25.276472036679984,
+        "iconType": "photo",        
+        "text": [
+            "Padarykite komandos narių nuotrauką, kur jie vaizduoja sovietinio paminklo skultūrą."
+        ],
+        "type": "photoValidation",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės",
+            "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
+        },
+        "points": 5,
+        "time": 6
+    },
+    {
+        "id": "17",
         "name": "Kinoteatras",
         "lat": 54.6862437010621, 
         "lng": 25.275005803009805,
@@ -488,7 +532,7 @@
         
     },
     {
-        "id": "16",
+        "id": "18",
         "name": "Lozungas",
         "lat": 54.68723902915875,     
         "lng": 25.271600457362418,
@@ -516,7 +560,7 @@
         }
     },
     {
-        "id": "18",
+        "id": "19",
         "name": "Lenino aikštė",
         "lat":  54.68912380475053,   
         "lng": 25.270910018666058,
