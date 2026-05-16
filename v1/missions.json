@@ -22,15 +22,15 @@
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-            "Jūs pradėjote žaidimą.",
-            "Susiplanuokite maršrutą, nes užduotis galėsite pradėti, tik jei jos yra raunoname užduočių rate.",
-            "Užduočių ratas tolygiai siaurėja",
-            "Atsakymus galėsite įvesti ir vėliau,  jei užduoties laikas nesibaigė.",
-            "Pirma jūsų užuotis sugalvoti komandos pavadinimą.",
-            "",
-            "Užduočiai atlikti turite 4 minutes."
-        ],
-        "points": 2
+        "Jūs pradėjote žaidimą.",
+        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
+        "Užduočių ratas tolygiai siaurėja.",
+        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
+        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
     }
   },
   {
@@ -163,14 +163,14 @@
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-            "Jūs pradėjote žaidimą.",
-            "Susiplanuokite maršrutą, nes užduotis galėsite pradėti, tik jei jos yra raunoname užduočių rate.",
-            "Užduočių ratas tolygiai siaurėja",
-            "Atsakymus galėsite įvesti ir vėliau,  jei užduoties laikas nesibaigė.",
-            "Pirma jūsų užuotis sugalvoti komandos pavadinimą.",
-            "",
-            "Užduočiai atlikti turite 4 minutes."
-        ],
+        "Jūs pradėjote žaidimą.",
+        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
+        "Užduočių ratas tolygiai siaurėja.",
+        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
+        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
       "points": 2
     }
   },
@@ -254,9 +254,13 @@
       "title": "Team name",
       "time": 4,
       "text": [
-        "You have started the game. Your first task is to come up with a team name.",
+        "You have started the game.",
+        "Plan your route, because you will only be able to start tasks when they are inside the red task zone.",
+        "The task zone gradually shrinks over time.",
+        "You will be able to submit answers later, as long as the task time has not expired.",
+        "Your first task is to come up with a team name.",
         "",
-        "You have 4 minutes to complete this task."
+        "You have 4 minutes to complete the task."
       ],
       "points": 2
     }
@@ -357,14 +361,14 @@
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-            "Jūs pradėjote žaidimą.",
-            "Susiplanuokite maršrutą, nes užduotis galėsite pradėti, tik jei jos yra raunoname užduočių rate.",
-            "Užduočių ratas tolygiai siaurėja",
-            "Atsakymus galėsite įvesti ir vėliau,  jei užduoties laikas nesibaigė.",
-            "Pirma jūsų užuotis sugalvoti komandos pavadinimą.",
-            "",
-            "Užduočiai atlikti turite 4 minutes."
-        ],
+        "Jūs pradėjote žaidimą.",
+        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
+        "Užduočių ratas tolygiai siaurėja.",
+        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
+        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
       "points": 2
     }   
   }
