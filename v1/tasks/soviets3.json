@@ -544,7 +544,7 @@
             "images": ["profsajunga.webp"],
             "changeInterval": 3
         },
-        "image": "lenin.jpg",
+        "image": "leninv2.jpg",
         "text": [
             "Jūs stovite Tauro kalno papėdėje. Ant profsąjungų rūmų kabo plakatas su lozungu.",
             "Išspreskite raidžių labirintą.Eikite po žingsnelį pagal rodykles nuo raidės 'L' (eikite į ↑ arba ← arba ↓ arba → ir perskaitykite šūkį).",
@@ -555,7 +555,7 @@
         "attempts": 5,
         "time": 7,        
         "hint": {
-            "image": "lenin_hint.jpg",
+            "image": "lenin_hintv2.jpg",
             "points": 2
         }
     },
