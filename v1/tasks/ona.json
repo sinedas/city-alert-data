@@ -234,9 +234,15 @@
         "text": [
             "Jūs gavote garsinį pranešimą, kuriame užkoduotas gyvūno pavadinimas. Koks tai gyvūnas?",
             "",
-            "Morzės kodas jums padės:\n [href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]"
+            "Morzės kodas jums padės:",
+            "A  ·−        G  −−·       M  −−        T  −    ",
+            "B  −···      H  ····         N  −·          U  ··−  ",
+            "C  −·−·     I  ··            O  −−−       V  ···− ",
+            "D  −··       J  ·−−−      P  ·−−·       Z  −−·· ",
+            "E  ·           K  −·−        R  ·−·",          
+            "F  ···−       L  ·−··        S  ··· "
         ],
-        "answer": ["Vilkas"],
+        "answer": ["VILKAS"],
         "points": 7,
         "attempts": 5,
         "time": 7

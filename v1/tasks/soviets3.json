@@ -561,6 +561,36 @@
     },
     {
         "id": "19",
+        "name": "Garso pranešimas",
+        "lat": 54.68865082399481,
+        "lng": 25.27151814057965,
+        "type": "audio",
+        "audio": "kgb.wav",
+        "image": "kgb.webp",
+        "text": [
+            "Į imtuvą kurį jums davė Izaokas Goldšteinas, jūs gavote garsinį pranešimą. Kas užkoduota pranešime?",
+            "",
+            "Morzės kodas jums padės:",
+            "A  ·−        G  −−·       M  −−        T  −    ",
+            "B  −···      H  ····         N  −·          U  ··−  ",
+            "C  −·−·     I  ··            O  −−−       V  ···− ",
+            "D  −··       J  ·−−−      P  ·−−·       Z  −−·· ",
+            "E  ·           K  −·−        R  ·−·",          
+            "F  ···−       L  ·−··        S  ··· "
+        ],
+        "answer": ["KGB"],
+        "points": 7,
+        "attempts": 5,
+        "time": 7,
+        "reward": {
+            "text": [
+                "Jūs esate šalia tuometinių KGB rūmų. Atrodo kažkokie žmonės ėmė jus sekti. Laikas paskubėti."
+            ],
+            "image": "kgb.webp"
+        }
+    },
+    {
+        "id": "20",
         "name": "Lenino aikštė",
         "lat":  54.68912380475053,   
         "lng": 25.270910018666058,
