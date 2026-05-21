@@ -191,9 +191,9 @@
         "image": "degtukai.webp",
         "text": [
             "Perkelkite vieną degtuką, kad lygybė būtų teisinga.",
-            "Atsakyme parašykite lygybę arabiškais skaičiais ir ženklais."
+            "Atsakyme parašykite lygybę paprastais skaičiais ir ženklais."
         ],
-        "answer": ["7-2=5"],
+        "answer": ["7-2=5", "6-2=4"],
         "points": 4,
         "attempts": 5,
         "time": 6,
