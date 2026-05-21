@@ -7,5 +7,13 @@
     "remoteMissions": ["tuskulenai", "ona", "soviets3", "ona_en", "kaunas"],
     "remoteMissionList": true,
     
-    "tileProvider": "osm"
+    "tileProvider": "osm",
+
+    "remoteMissionVersions": {  
+        "tuskulenai": "1.0.6",
+        "ona": "1.0.6",
+        "soviets3": "1.0.6",
+        "ona_en": "1.0.6",
+        "kaunas": "1.0.6"
+    }
 }
