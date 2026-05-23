@@ -241,7 +241,7 @@
             "Move one matchstick to make the equation correct.",
             "Write your answer as a full equation using numbers and standard symbols. Include the equals sign."
         ],
-        "answer": ["7-2=5"],
+        "answer": ["7-2=5", "6-2=4"],
         "points": 4,
         "attempts": 5,
         "time": 6,
