@@ -159,7 +159,8 @@
             "Žalgirio mūšis",
             "Napoleono žygis į Rusiją", 
             "Lietuvos nepriklausomybės akto pasirašymas.",
-            "Juliui labai padėjo skaičiai surašyti ant delno. Bet koks skaičius Juliui buvo laimingas?"
+            "Juliui labai padėjo skaičiai surašyti ant delno. Bet koks skaičius Juliui buvo laimingas?",
+            "Nubrėžkite linijas jungiančias datų linijas ir gausite dviženklį atsakymo skaičių."
         ],
         "answer": ["77"],
         "hint": {
@@ -169,7 +170,7 @@
                 "1410- Žalgirio mūšis.",
                 "1812- Napoleono žygis į Rusiją.", 
                 "1918- Lietuvos nepriklausomybės paskelbimas.",
-                "Prisiminę, suraskite datas ir sujunkite skaičius brukšneliais."
+                "Prisiminę, suraskite datas ir nubrėžkite linijas jungiančias datų linijas."
             ],
             "points": 4
         },
