@@ -10,7 +10,7 @@
     "tileProvider": "osm",
 
     "remoteMissionVersions": {  
-        "tuskulenai": "1.0.6",
+        "tuskulenai": "1.0.7",
         "ona": "1.0.6",
         "soviets3": "1.0.6",
         "ona_en": "1.0.6",
