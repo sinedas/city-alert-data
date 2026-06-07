@@ -351,7 +351,7 @@
     "duration": 150,    
     "active": true,    
     "level": "Vidutinis",    
-    "locked": false,    
+    "locked": true,    
     "description": "Kauno naujamiestis: Vienybės aikštė, Laisvės alėja. Nemuno sala.",    
     "start": "Karo muziejus",    
     "finish": "Mokslo sala",    
