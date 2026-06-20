@@ -250,6 +250,7 @@
     "start": "Cathedral Bell Tower",
     "finish": "Užupis Angel",
     "checkLocation": true,
+    "hints": 5,
     "teamName": {
       "title": "Team name",
       "time": 4,
