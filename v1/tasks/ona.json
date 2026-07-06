@@ -339,26 +339,26 @@
         "minusPointsOnAttempt": 1,
         "time": 5
     },
-    {
-        "id": "16",
-        "name": "Šv. Baltramiejaus bažnyčia",
-        "lat": 54.680550526442424,
-        "lng": 25.297470477467403,
-        "type": "chain",
-        "text": [
-            "Išspręskite grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
-            "",
-            "1. Sutikote lenkų turistą. Jei paklaustumėte, kur jis yra, jis atsakytų ...?",
-            "2. Balta kaip sniegas, bet ne sniegas; šildo, bet ne ugnis.",
-            "3. Miestas, kur muzika skamba seniau nei radijas, o valsas sukasi greičiau nei laikrodis.",
-            "4. Kas ryte gimsta, vakare miršta?"
-        ],
-        "answer": ["Vilno", "Vilna", "Viena", "Diena"],
-        "points": 5,
-        "attempts": 5,
-        "time": 5,
-        "minusPointsOnAttempt": 1
-    },
+        {
+            "id": "16",
+            "name": "Šv. Baltramiejaus bažnyčia",
+            "lat": 54.680550526442424,
+            "lng": 25.297470477467403,
+            "type": "chain",
+            "text": [
+                "Išspręskite grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
+                "",
+                "1. Sutikote lenkų turistą. Jei paklaustumėte, kur jis yra, jis atsakytų ...?",
+                "2. Balta kaip sniegas, bet ne sniegas; šildo, bet ne ugnis.",
+                "3. Miestas, kur muzika skamba seniau nei radijas, o valsas sukasi greičiau nei laikrodis.",
+                "4. Kas ryte gimsta, vakare miršta?"
+            ],
+            "answer": ["Vilno", "Vilna", "Viena", "Diena"],
+            "points": 5,
+            "attempts": 5,
+            "time": 5,
+            "minusPointsOnAttempt": 1
+        },
     {
         "id": "17",
         "name": "R. Kuncos dirbtuvė",
@@ -430,7 +430,7 @@
         "type": "photoValidation",
         "iconType": "photo",
         "photoValidation": {
-            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat didelių batų skulptūra.",
+            "prompt": "Ar nuotraukoje matomas bent vienas tikras žmogus ir vienas ar du dideli raudoni objektai, primenantys batus?",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation, using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent dark outlines, with a subtle watercolor texture. Replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style, each wearing a tall, pointed red fairy-tale gnome hat and matching curled-toe red boots. Ensure these characters maintain their original poses and clothing, but with uniform flat tan skin tones and a whimsical storybook aesthetic (avoiding Christmas motifs). The standees should have thick dark outlines and flat colors, integrating into the environment with consistent perspective while remaining more graphic than the background."
         },
         "text": [
