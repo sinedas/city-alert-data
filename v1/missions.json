@@ -371,7 +371,41 @@
         "Užduočiai atlikti turite 4 minutes."
       ],
       "points": 2
-    }   
+    }
+  },
+  {
+    "code": "bernardinu_burtininkas",
+    "title": "Bernardinų burtininkas",
+    "image": "lagaminas.webp",
+    "location": {
+      "lat": 54.6837165738804,
+      "lng": 25.297270020588194
+    },
+    "initialDiameter": 2000,
+    "finalDiameter": 1950,
+    "duration": 150,
+    "level": "Lengvas",
+    "active": true,
+    "locked": false,
+    "description": "Bernardinų burtininko lagaminas ir burtų lazdelė.",
+    "start": "Mindaugo paminklas",
+    "finish": "Bernardinų sodas",
+    "hints": 20,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+        "Jūs pradėjote magišką orientacinį žaidimą.",
+        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
+        "Užduočių ratas tolygiai siaurėja.",
+        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
+        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
+    }
   }
 
 ]
