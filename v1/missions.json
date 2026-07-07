@@ -378,12 +378,12 @@
     "title": "Bernardinų burtininkas",
     "image": "lagaminas.webp",
     "location": {
-      "lat": 54.6837165738804,
-      "lng": 25.297270020588194
+      "lat": 54.68287619480516,
+      "lng": 25.296818426190093
     },
     "initialDiameter": 2000,
-    "finalDiameter": 1950,
-    "duration": 150,
+    "finalDiameter": 250,
+    "duration": 120,
     "level": "Lengvas",
     "active": true,
     "locked": false,

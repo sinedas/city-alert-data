@@ -381,9 +381,9 @@
     },
     {   
         "id": "12",
-        "name": "Dailės akademija",
-        "lat": 54.683450007863286,
-        "lng": 25.293268345852436,
+        "name": "Bernardinų fontanas",
+        "lat": 54.6837898411773,
+        "lng": 25.297178483546183,
         "startType": "carousel",
         "startCarousel": {
             "text": [ 
@@ -396,7 +396,7 @@
         },
         "image": "colors2.webp",
         "text": [
-            "Kolbos prisipildė vandens, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
+            "Bernardinų fontanas pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
             "Kokia spalva yra užšifruota šioje lygtyje?"
         ],
         "answer": ["ŽALIA"],
@@ -771,45 +771,33 @@
             "images": ["sprendimas.webp"]
         }
     },
-    {   
+    {
         "id": "24",
-        "name": "Užsirakinęs lagaminas",
-        "lat": 54.68072166667506,
-        "lng": 25.29186789550304,
+        "name": "Karaliaus sostas",
+        "lat": 54.68480925687902,
+        "lng": 25.29388499154472,
         "startType": "carousel",
         "startCarousel": {
-            "text": [ 
-                "Jūsų lagaminas netikėtai užsirakino spyna.",                                
-                "Užduočiai atlikti turite 7 minutes."
+            "text": [
+                "Jūs priėjote sostą, kažkada priklausiusį karaliui.",
+                "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["varpelis.webp"],
-            "changeInterval": 0
+            "images": [
+                "sostas.webp"
+            ]
         },
-        "image": "varpelis.webp",
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas bent vienas žmogus, atsisėdęs ant skulptūros? Nuotraukoje gali būti ir kitų žmonių.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, clothing, poses, and recognizability unchanged. Add elegant golden royal crowns to every visible person's head, matching the same illustrated style, perspective, lighting, and scale, integrating them naturally into the scene without exaggeration or distortion."
+        },
         "text": [
-            "Lagaminas netikėtai užsirakino spyna. O ant nugarėlės atsirado varpelis.",
-            "Įveskite 4 skaitmenų kodą į spyną ir atrakinkite lagaminą"
+            "Žaiskite vaskiči. Laimėtojas tampa karaliumi ar karaliene. Tegu jis ar ji atsisėda į sostą, o likę atsistoja šalia.",
+            "Padarykite komandos nuotrauką"
         ],
-        "answer": ["8"],
-        "points": 8,
-        "attempts": 7,
-        "time": 7,
-        "hint": {
-            "text": [
-                "Pažiūrėkite į cerkvės viršų šalimais. Ar nieko nematote?"
-            ],
-            "points": 3
-        },
-        "rewardType": "carousel",
-        "rewardCarousel": {
-            "text": [
-                "Lagaminas atsirakino, o spyna išnyko."
-            ],
-            "images": ["katedra.webp"]
-        }
-    }
-
-
-    
+        "points": 4,
+        "time": 5
+    }   
 
 ]
