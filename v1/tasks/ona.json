@@ -628,5 +628,43 @@
         ],
         "points": 3,
         "time": 5
+    },
+    {   
+        "id": "32",
+        "name": "Lagaminas",
+        "lat": 54.68072166667506,
+        "lng": 25.29186789550304,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [ 
+                "Priešais Šv. Dievo Motinos cerkvę jus randate lagaminą su spyna.",
+                "",                               
+                "Užduočiai atlikti turite 7 minutes."
+            ],
+            "images": ["varpelis.webp"],
+            "changeInterval": 0
+        },
+        "image": "varpelis.webp",
+        "text": [
+            "Ant lagamino pavaizduotas varpelis. Lagaminas turi 4 skaitmenų kodo spyną.",
+            "Įveskite 4 skaitmenų kodą į spyną ir atrakinkite lagaminą"
+        ],
+        "answer": ["1421"],
+        "points": 8,
+        "attempts": 7,
+        "time": 7,
+        "hint": {
+            "text": [
+                "Pažiūrėkite į cerkvės viršų šalimais. Ar nieko nematote?"
+            ],
+            "points": 3
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Lagaminas atsirakino, o jame radote daug įdomių dalykų."
+            ],
+            "images": ["katedra.webp"]
+        }
     }
 ]

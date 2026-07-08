@@ -280,7 +280,7 @@
         "type": "photoValidation",
         "iconType": "photo",
         "photoValidation": {
-            "prompt": "Does the photo show one or more real people, and also a large shoe sculpture?",
+            "prompt": "Ar nuotraukoje matomas bent vienas tikras žmogus ir vienas ar du dideli raudoni objektai, primenantys batus?",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation, using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent dark outlines, with a subtle watercolor texture. Replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style, each wearing a tall, pointed red fairy-tale gnome hat and matching curled-toe red boots. Ensure these characters maintain their original poses and clothing, but with uniform flat tan skin tones and a whimsical storybook aesthetic (avoiding Christmas motifs). The standees should have thick dark outlines and flat colors, integrating into the environment with consistent perspective while remaining more graphic than the background."
         },
         "text": [
@@ -372,5 +372,43 @@
         "points": 4,
         "attempts": 5,
         "time": 5
+    },
+    {
+        "id": "19",
+        "name": "Suitcase",
+        "lat": 54.68072166667506,
+        "lng": 25.29186789550304,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "In front of the Church of St. Mary of the Mother of God, you find a suitcase with a lock.",
+                "",
+                "You have 7 minutes to complete this task."
+            ],
+            "images": ["varpelis.webp"],
+            "changeInterval": 0
+        },
+        "image": "varpelis.webp",
+        "text": [
+            "A bell is depicted on the suitcase. The suitcase has a 4-digit combination lock.",
+            "Enter the 4-digit code to unlock the suitcase."
+        ],
+        "answer": ["1421"],
+        "points": 8,
+        "attempts": 7,
+        "time": 7,
+        "hint": {
+            "text": [
+                "Look up at the nearby church roof. Do you see anything?"
+            ],
+            "points": 3
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The suitcase unlocked, and inside you found many interesting things."
+            ],
+            "images": ["katedra.webp"]
+        }
     }
 ]
