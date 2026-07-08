@@ -237,8 +237,8 @@
     "title": "Old Town Mystery",
     "image": "ona.webp",
     "location": {
-      "lat": 54.68307240086446, 
-      "lng": 25.29308522963397
+      "lat": 54.680644159957176,
+      "lng": 25.29538049958262
     },
     "initialDiameter": 2000,
     "finalDiameter": 150,
