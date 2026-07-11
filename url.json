@@ -4,7 +4,7 @@
     "apiEnabled": true,
     "apiUrl": "https://city-alert-backend-403536137676.europe-central2.run.app",
     "remoteCollections": [],
-    "remoteMissions": ["tuskulenai", "ona", "soviets3", "ona_en", "kaunas", "bernardinu_burtininkas"],
+    "remoteMissions": ["tuskulenai", "ona", "soviets3", "ona_en", "kaunas", "bernardinu_burtininkas", "vilnius_kuprine"],
     "remoteMissionList": true,
     
     "tileProvider": "osm",
@@ -15,6 +15,7 @@
         "soviets3": "1.0.6",
         "ona_en": "1.0.13",
         "kaunas": "1.0.6",
-        "bernardinu_burtininkas": "1.0.13"
+        "bernardinu_burtininkas": "1.0.13",
+        "vilnius_kuprine": "1.0.13"
     }
 }

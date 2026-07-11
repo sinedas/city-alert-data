@@ -26,7 +26,6 @@
         "type": "wordle",
         "answer": [
             "LYDEKA",
-            "FENIKSAS",
             "SLIBINAS"
         ],
         "points": 10,
@@ -340,44 +339,6 @@
         ],
         "points": 5,
         "time": 5
-    },
-    {
-        "id": "11",
-        "name": "Raidžių matematika",
-        "lat": 54.68559092175848,  
-        "lng": 25.290194702192323,
-        "startType": "carousel",
-        "startCarousel": {
-            "text": [
-                "Stebuklingos knygos viršelyje atsirado užrašas: 'Raidžių matematika'.",
-                "Atverskite knygą ir atlikite naują užduotį"
-            ],
-            "images": [
-                "matematika.webp"
-            ]
-        },    
-        "image": "matematika.webp",
-        "text": [
-            "Vienas turi 6",
-            "Du turi 2",
-            "Trys turi 4",
-            "Kiek turi Trylika?"
-        ],
-        "answer": ["7"],
-        "points": 5,
-        "attempts": 5,
-        "time": 5,
-        "hint": {
-            "text": "Atkreipkite dėmesį į žodį 'Raidžių'",
-            "points": 2
-        },
-        "rewardType": "carousel",
-        "rewardCarousel": {
-            "text": [
-                "Teisingas atsakymas – 7."
-            ],
-            "images": ["matematika.webp"]
-        }
     },
     {   
         "id": "12",
