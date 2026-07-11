@@ -11,11 +11,11 @@
 
     "remoteMissionVersions": {  
         "tuskulenai": "1.0.7",
-        "ona": "1.0.13",
+        "ona": "1.0.14",
         "soviets3": "1.0.6",
-        "ona_en": "1.0.13",
+        "ona_en": "1.0.14",
         "kaunas": "1.0.6",
-        "bernardinu_burtininkas": "1.0.13",
-        "vilnius_kuprine": "1.0.13"
+        "bernardinu_burtininkas": "1.0.14",
+        "vilnius_kuprine": "1.0.14"
     }
 }
