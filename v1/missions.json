@@ -445,8 +445,8 @@
       "lat": 54.6837165738804,
       "lng": 25.297270020588194
     },
-    "initialDiameter": 2100,
-    "finalDiameter": 300,
+    "initialDiameter": 1950,
+    "finalDiameter": 150,
     "duration": 120,
     "level": "Lengvas",
     "active": true,
