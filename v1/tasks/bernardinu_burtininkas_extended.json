@@ -87,6 +87,50 @@
         "text": "",
         "image": "lvovas.webp"
       }
-    }  
+    },
+    {
+      "id": "103",
+      "name": "Fotoalbumas",
+      "lat": 54.684898223560054,
+      "lng": 25.290054549755162,
+      "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        }, 
+      "type": "matchmaker",
+      "iconType": "book",
+      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+      "matchmaker": {
+        "images": [
+          "bona.webp",
+          "fontanas.webp",
+          "arkliukas.webp",
+          "azuoliukas.webp",
+          "lvovas.webp",
+          "vytis.webp",
+          "roze.webp",
+          "zuikis.webp",
+          "kubiliute.webp",
+          "mumis.webp"
+        ],
+        "displayCount": 10
+      },
+      "answer": ["roze.webp"],      
+      "points": 2,
+      "attempts": 1,
+      "time": 5,
+      "reward": {
+        "text": "",
+        "image": "roze.webp"
+      }
+    } 
   ]
   
