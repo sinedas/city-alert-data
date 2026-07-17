@@ -1,0 +1,92 @@
+[
+   
+    {
+      "id": "101",
+      "name": "Fotoalbumas",
+      "lat": 54.684437425877135,
+      "lng": 25.29342368235432,
+      "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        }, 
+      "type": "matchmaker",
+      "iconType": "book",
+      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+      "matchmaker": {
+        "images": [
+          "bona.webp",
+          "fontanas.webp",
+          "arkliukas.webp",
+          "azuoliukas.webp",
+          "lvovas.webp",
+          "vytis.webp",
+          "roze.webp",
+          "zuikis.webp",
+          "kubiliute.webp",
+          "mumis.webp"
+        ],
+        "displayCount": 10
+      },
+      "answer": ["zuikis.webp"],      
+      "points": 2,
+      "attempts": 1,
+      "time": 5,
+      "reward": {
+        "text": "",
+        "image": "zuikis.webp"
+      }
+    },
+    {
+      "id": "102",
+      "name": "Fotoalbumas",
+      "lat": 54.6866456268482,
+      "lng": 25.28884008198306,
+      "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        }, 
+      "type": "matchmaker",
+      "iconType": "book",
+      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+      "matchmaker": {
+        "images": [
+          "bona.webp",
+          "fontanas.webp",
+          "arkliukas.webp",
+          "azuoliukas.webp",
+          "lvovas.webp",
+          "vytis.webp",
+          "roze.webp",
+          "zuikis.webp",
+          "kubiliute.webp",
+          "mumis.webp"
+        ],
+        "displayCount": 10
+      },
+      "answer": ["lvovas.webp"],      
+      "points": 2,
+      "attempts": 1,
+      "time": 5,
+      "reward": {
+        "text": "",
+        "image": "lvovas.webp"
+      }
+    }  
+  ]
+  
