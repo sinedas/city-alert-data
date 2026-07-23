@@ -430,7 +430,7 @@
         "type": "photoValidation",
         "iconType": "photo",
         "photoValidation": {
-            "prompt": "Ar nuotraukoje matomas bent vienas tikras žmogus ir vienas ar du dideli raudoni objektai, primenantys batus?",
+            "prompt": "Ar nuotraukoje matomas bent vienas tikras žmogus ar žmonės?",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation, using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent dark outlines, with a subtle watercolor texture. Replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style, each wearing a tall, pointed red fairy-tale gnome hat and matching curled-toe red boots. Ensure these characters maintain their original poses and clothing, but with uniform flat tan skin tones and a whimsical storybook aesthetic (avoiding Christmas motifs). The standees should have thick dark outlines and flat colors, integrating into the environment with consistent perspective while remaining more graphic than the background."
         },
         "text": [
