@@ -279,9 +279,9 @@
     },
     {
         "id": "13",
-        "name": "Tibeto skveras",
-        "lat": 54.681667135543776,
-        "lng":  25.29395809223854,  
+        "name": "Pull'o kamuoliai",
+        "lat": 54.68533726997318,
+        "lng": 25.291641109178286, 
         "image": "pool.webp",
         "text": [
             "Paveikslėlyje parodyti pull'o kamuoliai. Kuriuos kamuolius sudėjus gaunama suma - 30?",
@@ -323,8 +323,8 @@
     {
         "id": "15",
         "name": "Napoleonas Orda",
-        "lat": 54.6834164264607, 
-        "lng": 25.291806368159083,
+        "lat": 54.686180730535796,
+        "lng": 25.288364910403498,
         "type": "timepointer",
         "text": "Atpažinkite Vilniaus vietas Napoleono Ordos akvarelėse.",
         "events": [
@@ -408,8 +408,8 @@
     {
         "id": "19",
         "name": "Šuniukai",
-        "lat": 54.68507564646802,
-        "lng": 25.29014353236047,
+        "lat": 54.686090803589956,
+        "lng": 25.293531057719957,
         "iconType": "photo",
         "type": "photoValidation",
         "photoValidation": {
@@ -464,9 +464,10 @@
         "lat": 54.68226616137937,
         "lng": 25.29037125191819,
         "text": [
-            "Lazdynų pelėda žiūri į kairę ir dešinę rodyklių kryptimi. Kokį šešiaženklį skaičių ji mato?"
+            "Lazdynų pelėda žiūri į kairę ir dešinę rodyklių kryptimi. Kokį šešiaženklį skaičių ji mato?",
+            "Pelėda trumparegė, todėl nežiūri labai toli."
         ],
-        "answer": ["162166"],
+        "answer": ["162166", "166162"],
         "points": 5,
         "attempts": 5,
         "time": 4
@@ -561,8 +562,8 @@
     {
         "id": "28",
         "name": "IHS",
-        "lat": 54.684608865994925,
-        "lng": 25.289517801781297,
+        "lat": 54.682836244351435,
+        "lng": 25.28918335960087,
         "type": "photoValidation",
         "iconType": "photo",
         "photoValidation": {
@@ -581,19 +582,6 @@
     },
     {
         "id": "29",
-        "name": "Literatų gatvė 2",
-        "lat": 54.68224867414797,
-        "lng": 25.29143262880245,
-        "text": [
-            "Ką rodo Juozas Erlickas?"
-        ],
-        "answer": ["Špygas", "Špygą"],
-        "points": 5,
-        "attempts": 5,
-        "time": 5
-    },
-    {
-        "id": "30",
         "name": "Užupio konstitucija",
         "lat": 54.68004924908212,
         "lng": 25.295833431727665,  
@@ -613,7 +601,7 @@
         "time": 6
     },
     {
-        "id": "31",
+        "id": "30",
         "name": "M. Dobužinskio rėmas",
         "lat": 54.686116930167685,
         "lng": 25.28667609645001,
@@ -630,7 +618,7 @@
         "time": 5
     },
     {   
-        "id": "32",
+        "id": "31",
         "name": "Lagaminas",
         "lat": 54.68072166667506,
         "lng": 25.29186789550304,
