@@ -1,0 +1,653 @@
+[
+    {
+      "id": "1",
+      "name": "Burtininko lagaminas",
+      "lat": 54.6437689365456,
+      "lng": 24.934509694576263,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Šalia Šokoladinės keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+          "Pažaiskime burtažodlę. Spėkite burtažodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
+          "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
+          "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+          "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
+        ],
+        "images": [
+          "lagaminasv2.webp"
+        ]
+      },
+      "text": [
+        "Keistas vyriškis nuskubėjo Trakų pilies link ir murmėjo:",
+        "- Pasakų gyvūnas, pasakų gyvūnas...",
+        "Paimkite burtų lazdelę ir pažaiskite Žodlę.",
+        "Atrodo, kad atspėjus pasakų gyvūną,  lagaminas atsidarys."
+      ],
+      "type": "wordle",
+      "answer": [
+        "LYDEKA",
+        "SLIBINAS"
+      ],
+      "points": 10,
+      "attempts": 10,
+      "minusPointsOnAttempt": 1,
+      "time": 5,
+      "rewardType": "carousel",
+      "rewardCarousel": {
+        "text": [
+          "Lagaminą pavyko atidaryti. Jame randate knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
+          "Paimkite lagaminą, knygą, lazdelę, ieškokite užduočių telefono žemėlapyje ir jas atlikite."
+        ],
+        "images": [
+          "atidarytasv3.webp"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Aikštelė",
+      "lat": 54.6444704718074,
+      "lng": 24.936231672763828,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Užduočiai atlikti turite 6 minutes."
+        ],
+        "images": [
+          "lagaminasv2.webp"
+        ],
+        "changeInterval": 3
+      },
+      "text": [
+        "Stebuklingame lagamine buvo daiktas, kuriame prie dešimt pridėjus septynis gaunama penki.",
+        "Kas tai per daiktas?"
+      ],
+      "answer": [
+        "Laikrodis"
+      ],
+      "points": 5,
+      "time": 6,
+      "hint": {
+        "text": [
+          "Štai atidarytas lagaminas."
+        ],
+        "image": "atidarytasv3.webp",
+        "points": 2
+      },
+      "rewardType": "carousel",
+      "rewardCarousel": {
+        "text": [
+          "Atsakymas – Laikrodis.",
+          "Tik tai – nepaprastas laikrodis, o laiko atsuktuvas, kuris dar gali jums pasitarnauti."
+        ],
+        "images": [
+          "atsuktuvas.webp"
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "name": "Pasaka",
+      "lat": 54.64540014258354,
+      "lng": 24.93654951453209,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Stebuklingos knygos viršelis vėl pasikeitė. Atverskite ją ir spėkite pasakos pavadinimą.",
+          "Užduočiai atlikti turite 5 minutes."
+        ],
+        "images": [
+          "pasakos.webp"
+        ],
+        "changeInterval": 0
+      },
+      "image": "katinas.png",
+      "text": "Sudėkite dėlionės dalis į kvadratą ir atspėkite pasakos pavadinimą.",
+      "answer": [
+        "Batuotas katinas"
+      ],
+      "points": 7,
+      "attempts": 5,
+      "time": 5,
+      "rewardType": "carousel",
+      "reward": {
+        "text": [
+          "Stebuklinga knyga atsivertė ties pasaka – Batuotas katinas."
+        ],
+        "image": "batuotas.webp"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Akiniai",
+      "lat": 54.646743092074495,
+      "lng": 24.939301800508222,
+      "startType": "carousel",
+      "startCarousel": {
+          "text": [
+              "Vieno jūsų komandos narių akiniai nukrito ir sudužo.",
+              "Laikas pasiimti burtų lazdelę ir spėti stebuklingą skaičių.",
+              ""
+          ],
+          "images": [
+              "akiniai_brokenv4.webp"
+          ]
+      },
+      "text": [
+          "Akinius sutaisyti gali burtų lazdelė. Kiek kartų mostelėti ja, gali padėti šis uždavinys.",
+          "8800 turi 6.",
+          "6900 turi 4.",
+          "8888 turi 8.",
+          "Kiek turi 6980 ?"
+      ],
+      
+      "answer": [
+          "5"
+      ],
+      "points": 5,
+      "attempts": 4,
+      "time": 5,
+      "hint": {
+          "text": [
+              "Kiek kiekvienas skaitmuo turi skrituliukų?"
+          ],
+          "points": 2
+      },
+      "rewardType": "carousel",
+      "reward": {
+          "text": [
+              "Burtai suveikė ir akiniai susitaisė."
+
+          ],
+          "image": "akiniaiv4.webp"
+      }
+    },
+    {
+        "id": "8",
+        "name": "Meilės kryžiažodis",
+        "lat": 54.645333874228996,
+        "lng": 24.93594280699373,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Trakų pusiasalio pilies knygos pavadinime atsirado užrašas: 'Meilės kryžiažodis'.",
+                "Atverskite knygą ir atlikite naują užduotį",
+                "",
+                "Užduočiai atlikti turite 7 minutes."
+            ],
+            "images": [
+                "sforca.webp"
+            ]
+        },
+        "image": "sirdis.jpg",
+        "text": [
+            "Į kryžiažodį įrašykite antrą įsimylėjėlį poroje. Atsakyme įrašykite pilką žodį.",
+            "1. ... ir Fiona",
+            "2. Eglė ir ...",
+            "3. Augustas ir ...",
+            "4. Romeo ir ...",
+            "5. Gražuolė ir ...",
+            "6. ... ir Hermiona"
+        ],
+        "answer": ["ŠIRDIS"],
+        "points": 6,
+        "attempts": 5,
+        "time": 7
+    },
+    {
+      "id": "12",
+      "name": "Galvės ežeras",
+      "lat": 54.648049354863346,
+      "lng": 24.934091269969944,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Kolba iš lagamino iššoko, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios.",
+          "Užduočiai atlikti turite 6 minutes."
+        ],
+        "images": [
+          "colors_start.webp"
+        ],
+        "changeInterval": 0
+      },
+      "image": "colors2.webp",
+      "text": [
+        "Galvės ežeras pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
+        "Kokia spalva yra užšifruota šioje lygtyje?"
+      ],
+      "answer": [
+        "ŽALIA"
+      ],
+      "points": 6,
+      "attempts": 4,
+      "time": 6,
+      "hint": {
+        "image": "colors_hint2.webp",
+        "text": [
+          "Prisiminkite dailės pamokas. ",
+          "",
+          "Geltona ir raudona sudaro oranžinę spalvą.",
+          "Raudona ir mėlyna sudaro violetinę spalvą.",
+          "",
+          "Kokias spalvas dar maišėte mokykloje?"
+        ],
+        "points": 2
+      },
+      "rewardType": "carousel",
+      "rewardCarousel": {
+        "text": [
+          "Lygties sprendimas – ŽALIA."
+        ],
+        "images": [
+          "colors_solution.webp"
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "Radijo imtuvas",
+      "lat": 54.65297174424046,
+      "lng": 24.933452904224396,
+      "type": "audio",
+      "audio": "elfas.wav",
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Lagaminas atsidarė. Jo neatrastame skyriuje vietoj matytų daiktų atsirado radijo imtuvas.",
+          "",
+          "Užduočiai atlikti turite 10 minučių."
+        ],
+        "images": [
+          "imtuvasv2.webp"
+        ],
+        "changeInterval": 0
+      },
+      "image": "imtuvasv2.webp",
+      "text": [
+        "Į imtuvą jūs gavote garsinį pranešimą. Jame užkoduotas pasakų veikėjo vardas.",
+        "",
+        "Morzės kodas jums padės:",
+        "A  ·−        G  −−·       M  −−        T  −    ",
+        "B  −···      H  ····         N  −·          U  ··−  ",
+        "C  −·−·     I  ··            O  −−−       V  ···− ",
+        "D  −··       J  ·−−−      P  ·−−·       Z  −−·· ",
+        "E  ·           K  −·−        R  ·−·",
+        "F  ··−·       L  ·−··        S  ··· "
+      ],
+      "answer": [
+        "ELFAS"
+      ],
+      "points": 10,
+      "attempts": 5,
+      "time": 10,
+      "rewardType": "carousel",
+      "reward": {
+        "text": [
+          "Pasakos personažas – Elfas."
+        ],
+        "image": "elfas.webp"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Stebuklingi degtukai",
+      "lat": 54.646239776881316,
+      "lng": 24.934096634387974,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Degtukų dėžutė netikėtai pati atsidarė",
+          "",
+          "Užduočiai atlikti turite 5 minutes."
+        ],
+        "images": [
+          "degtukai.webp"
+        ],
+        "changeInterval": 0
+      },
+      "image": "degtuku_uzduotis.webp",
+      "text": [
+        "Degtukai iššoko iš dėžutės ir susidėjo į lygybę, tačiau neteisingai.",
+        "Perkelkite vieną degtuką taip, kad lygybė būtų teisinga.",
+        "Atsakyme parašykite lygybę paprastais skaičiais ir ženklais."
+      ],
+      "answer": [
+        "3+6=9",
+        "3+5=8"
+      ],
+      "points": 5,
+      "attempts": 5,
+      "time": 5,
+      "rewardType": "carousel",
+      "rewardCarousel": {
+        "text": [
+          "Ši užduotis turi ne vieną sprendimą. Vienas jų yra šis."
+        ],
+        "images": [
+          "degtukai_sprendimas.webp"
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "Transporto priemonė",
+      "lat": 54.64946623232961,
+      "lng": 24.934354126453403,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Legenda pasakoja, kad Karaimų saloje vienas pirklys iš tolimųjų Rytų paliko stebuklingą transporto priemonę.",
+          "Ji pasislėpusi po nepermatoma uždanga.",
+          "",
+          "Užduočiai atlikti turite 5 minutes."
+        ],
+        "images": [
+          "zole.webp"
+        ]
+      },
+      "text": [
+        "Atspėkite, kokią stebuklingą transporto priemonę pirklys paliko Karaimų saloje. Pažaiskite Žodlę ir nepamirškite mostelėti burtų lazdele."
+      ],
+      "type": "wordle",
+      "answer": [
+        "KILIMAS"
+      ],
+      "points": 10,
+      "attempts": 10,
+      "minusPointsOnAttempt": 1,
+      "time": 5,
+      "rewardType": "carousel",
+      "reward": {
+        "text": [
+         "Po uždanga iš tiesų slėpėsi skraidantis kilimas. Burtininko lagaminas leido jums pasiimti jį į tolimesnę kelionę."
+        ],
+        "image": "kilimas.webp"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Laivų mūšis",
+      "lat": 54.65047451777183,
+      "lng": 24.933476105169966,
+      "type": "bomb",
+      "startType": "carousel",
+      "startCarousel": {
+          "text": [
+              "Karaimų saloje lagaminas netikėtai atsidarė, o jame atsirado laivų mūšis.",
+              "Spėkite, į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos, visi taškai sudega",
+              "Laiku sustokite."
+          ],
+          "images": ["mina.webp"]
+      },
+      "text": [
+          "Spėkite saugų laukelį jūrų laivui. Sėkmingas spėjimas +1 taškas. Užplaukus ant minos taškai sudega. Laiku sustokite."
+      ],
+      "points": 9,
+      "time": 5
+  },
+    {
+      "id": "18",
+      "name": "Laiko atsuktuvas",
+      "lat": 54.651500676460685,
+      "lng": 24.935046136379245,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Knygos viršelyje atsirado raidės ir susidėliojo į užrašą: 'Išradimai'.",
+          "Atverskite knygą ir atlikite naują užduotį"
+        ],
+        "images": [
+          "isradimai.webp"
+        ]
+      },
+      "type": "timepointer",
+      "text": [
+        "Jūsų užduotis yra suderinti laiko atsuktuvą.",
+        "Knyga atsivertė ties įvairių išradimų paveikslu",
+        "Surikiuokite šiuos išradimus pagal jų sukūrimo laiką."
+      ],
+      "image": "shared/museums/inventions1.webp",
+      "events": [
+        {
+          "name": "Kompasas",
+          "order": 1,
+          "text": "2-as amžius prieš m. e."
+        },
+        {
+          "name": "Knygų spaudos presas",
+          "order": 2,
+          "text": "1440"
+        },
+        {
+          "name": "Teleskopas",
+          "order": 3,
+          "text": "1608"
+        },
+        {
+          "name": "Oro balionas",
+          "order": 4,
+          "text": "1783"
+        }
+      ],
+      "points": 7,
+      "attempts": 7,
+      "minusPointsOnAttempt": 1,
+      "time": 4
+    },
+    {
+      "id": "23",
+      "name": "Matematinė lygtis",
+      "lat": 54.651966209998385,
+      "lng": 24.932467192411423,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Kolba iš lagamino iššoko, ir pasidalino į dvi kolbas.",
+          "Kolbos prisipildė vandens, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis.",
+          "Užduočiai atlikti turite 6 minutes."
+        ],
+        "images": [
+          "lygtis_start.webp"
+        ],
+        "changeInterval": 0
+      },
+      "image": "lygtis.webp",
+      "text": [
+        "Išspręskite lygtis su laiko atsuktuvu ir aukso ir sidabro skysčiais."
+      ],
+      "answer": [
+        "18"
+      ],
+      "points": 8,
+      "attempts": 5,
+      "time": 6,
+      "hint": {
+        "text": [
+          "Atkreipkite dėmesį į tai ką rodo laiko atsuktuvas."
+        ],
+        "points": 2
+      },
+      "rewardType": "carousel",
+      "rewardCarousel": {
+        "text": [
+          "Atsakymas – 18."
+        ],
+        "images": [
+          "sprendimas.webp"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Vytinė",
+      "lat": 54.643806914327286,
+      "lng":  24.9361478106685,      
+      "type": "chain",
+      "text": [
+          "Šalia Vytinės sutinkate senuką, kuris turi jums 4 mįsles.",
+          "Išspręskite senuko sugalvotą grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
+          "",
+          "1. Medžiaga iš kurios austas nepermatomas apsiaustas?",
+          "2. Kas pasakoje gaudė žuvis savo uodega?",
+          "3. Bjaurusis ančiukas buvo?",
+          "4. Karalių į karą lydi kareivių ...?",
+          "",
+          "Kiekvienas bandymas – minus 1 taškas."
+      ],
+      "answer": ["Šilkas", "Vilkas", "Pilkas", "Pulkas"],
+      "points": 7,
+      "attempts": 7,
+      "time": 5,
+      "minusPointsOnAttempt": 1
+    },
+    
+    {
+      "id": "31",
+      "name": "Nepomuko koplytstulpis",
+      "lat": 54.64442726018259,
+      "lng": 24.93568622181606,
+      "startType": "carousel",
+      "startCarousel": {
+          "text": [
+              "Teptukai ir dažai iš lagamino netikėtai iššoko iš atsidariusio lagamino ir atsidūrė vienos komandos nario rankose.",
+              "Reikės nupiešti paveikslą",
+              "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+              "painting.webp"
+          ]
+      },
+      "type": "photoValidation",
+      "iconType": "photo",
+      "photoValidation": {
+          "prompt": "Ar nuotraukoje yra žmogus ar žmonės?",
+          "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them as an early-1900s European painter wearing a traditional black painter's beret, period artist clothing, and a painter's smock while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+      },
+      "text": [
+          "Jūsų užduotis – sukurti Nepomuko piešinį.",
+          "Padarykite nuotrauką taip, kad keli komandos nariai iš rankų padaro paveikslo rėmą, o tame rėme yra Nepomukas."
+      
+      ],
+      "points": 4,
+      "time": 5
+    },
+    {
+      "id": "32",
+      "name": "Lazdelės išdaigos",
+      "lat": 54.65095342184176,
+      "lng": 24.93334484805103,
+      "startType": "carousel",
+      "startCarousel": {
+          "text": [
+              "Fėjos lazdelė ėmė išdikauti.",
+              "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+              "lazdele.webp"
+          ]
+      },
+      "type": "photoValidation",
+      "iconType": "photo",
+      "photoValidation": {
+          "prompt": "Ar nuotraukoje yra žmogus ar žmonės?",
+          "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally. Each person should hold a funny object such as a magic wand, frying pan, broom, clothes iron."
+      },
+      "text": [
+          "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
+          "O tuo metu Trak6 pilį puolė kryžiuočių būrys.",
+          "Padarykite nuotrauką taip, tarsi gintumėtės nuo užpuolikų ir rankose laikytumėte kardus, ietis bei skydus."
+      ],
+      "points": 5,
+      "time": 5
+    },
+    {
+      "id": "33",
+      "name": "Miško dvasia",
+      "lat": 54.6458957456852,
+      "lng": 24.93814303892829,
+      "startType": "carousel",
+      "startCarousel": {
+          "text": [
+              "Suraskite medžio drėvę.",
+              "",
+              "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+              "dreve.webp"
+          ]
+      },
+      "type": "photoValidation",
+      "iconType": "photo",
+      "photoValidation": {
+          "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės?",
+          "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them in elegant early-1900s Belle Époque / Edwardian attire with a tailored suit, waistcoat, tie, long overcoat if appropriate, and a tall black top hat, while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+      },
+      "text": [
+          "Medžio drėvėje yra pasislėpusi miško dvasia. Prakalbinti ją galima tik įlindus į drėvę.",
+          "",
+          "Padarykite komandos nario kai jis įlindęs į drėvę. Kiti gali stovėti šalia."
+      ],
+      "points": 6,
+      "time": 7
+  },
+  {
+    "id": "34",
+    "name": "Galvės laivai",
+    "lat": 54.64717452316563,
+    "lng": 24.935604976606818,
+    "startType": "carousel",
+    "startCarousel": {
+        "text": [
+            "Teptukai ir dažai iš lagamino netikėtai iššoko iš atsidariusio lagamino ir atsidūrė vienos komandos nario rankose.",
+            "Reikės nupiešti paveikslą",
+            "Užduočiai atlikti turite 5 minutes."
+        ],
+        "images": [
+            "painting.webp"
+        ]
+    },
+    "type": "photoValidation",
+    "iconType": "photo",
+    "photoValidation": {
+        "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir ežero laiveliai?",
+        "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them in Napoleonic-era clothing with a bicorne hat while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+    },
+    "text": [
+        "Padarykite komandos nuotrauką šalia laivelių. Iškelkite rankas tarsi atsisveikinate ir išplaukiate."
+    
+    ],
+    "points": 4,
+    "time": 5
+  },
+    {
+      "id": "35",
+      "name": "Tiškevičiai",
+      "lat": 54.65311189000591,
+      "lng": 24.93421041427952,
+      "startType": "carousel",
+      "startCarousel": {
+          "text": [
+              "Laiko atsuktuvas suveikė ir nukeldino jus į 1900 metus, o jus pavertė grafais Tiškevičiais.",
+              "",
+              "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+              "atsuktuvas.webp"
+          ]
+      },
+      "type": "photoValidation",
+      "iconType": "photo",
+      "photoValidation": {
+          "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės?",
+          "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them in elegant early-1900s Belle Époque / Edwardian attire with a tailored suit, waistcoat, tie, long overcoat if appropriate, and a tall black top hat, while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+      },
+      "text": [
+          "Grafai Tiškevičiai mėgdavo lankytis Trakų pilies saloje ir iš tolo stebėti savo dvaro statybas.",
+          "",
+          "Padarykite komandos nario ar narių nuotrauką, tarsi jis ar jie ant delno laikytų Užutrakio dvarą."
+      ],
+      "points": 6,
+      "time": 7
+  }
+
+]
