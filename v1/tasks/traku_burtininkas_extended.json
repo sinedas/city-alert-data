@@ -403,8 +403,8 @@
   {
     "id": "109",
     "name": "Fotoalbumas",
-    "lat": 54.64778138929329,
-    "lng": 24.933078950664083,
+    "lat": 54.647725247514245,
+    "lng": 24.933127532100077,
     "startType": "carousel",
     "startCarousel": {
       "text": [
@@ -430,12 +430,10 @@
         "klebonija.webp",
         "mama.webp",
         "deglai.webp",
-        "kibinlar.webp",
         "galve.webp",
         "galva.webp",
         "kepykla.webp",
-        "gaisrine.webp",
-        "stiklines.webp"
+        "gaisrine.webp"
       ],
       "displayCount": 10
     },
@@ -453,8 +451,8 @@
   {
     "id": "110",
     "name": "Fotoalbumas",
-    "lat": 54.64819471770282,
-    "lng": 24.9327443494625,
+    "lat": 54.64883510860692,
+    "lng": 24.932048484276063,
     "startType": "carousel",
     "startCarousel": {
       "text": [
