@@ -29,7 +29,9 @@
         "lvovas.webp",
         "kubiliute.webp",
         "fontanas.webp",
-        "azuoliukas.webp"
+        "azuoliukas.webp",        
+        "katinas.webp",
+        "navalni.webp"
       ],
       "displayCount": 10
     },
@@ -72,7 +74,9 @@
         "lvovas.webp",
         "kubiliute.webp",
         "fontanas.webp",
-        "azuoliukas.webp"
+        "azuoliukas.webp",        
+        "katinas.webp",
+        "navalni.webp"
       ],
       "displayCount": 10
     },
@@ -115,7 +119,9 @@
         "lvovas.webp",
         "kubiliute.webp",
         "fontanas.webp",
-        "azuoliukas.webp"
+        "azuoliukas.webp",
+        "katinas.webp",
+        "navalni.webp"
       ],
       "displayCount": 10
     },
@@ -158,7 +164,9 @@
         "lvovas.webp",
         "kubiliute.webp",
         "fontanas.webp",
-        "azuoliukas.webp"
+        "azuoliukas.webp",
+        "katinas.webp",
+        "navalni.webp"
       ],
       "displayCount": 10
     },
@@ -201,7 +209,9 @@
         "lvovas.webp",
         "kubiliute.webp",
         "fontanas.webp",
-        "azuoliukas.webp"
+        "azuoliukas.webp",
+        "katinas.webp",
+        "navalni.webp"
       ],
       "displayCount": 10
     },
@@ -244,7 +254,9 @@
         "lvovas.webp",
         "kubiliute.webp",
         "fontanas.webp",
-        "azuoliukas.webp"
+        "azuoliukas.webp",
+        "katinas.webp",
+        "navalni.webp"
       ],
       "displayCount": 10
     },
@@ -287,7 +299,9 @@
         "lvovas.webp",
         "kubiliute.webp",
         "fontanas.webp",
-        "azuoliukas.webp"
+        "azuoliukas.webp",
+        "katinas.webp",
+        "navalni.webp"
       ],
       "displayCount": 10
     },
@@ -298,6 +312,96 @@
     "reward": {
       "text": "",
       "image": "figos.webp"
+    }
+  },
+  {
+    "id": "108",
+    "name": "Photo Album",
+    "lat": 54.68098063480873,
+    "lng": 25.293470695606807,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp",
+        "katinas.webp",
+        "navalni.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["navalni.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "navalni.webp"
+    }
+  },
+  {
+    "id": "109",
+    "name": "Photo Album",
+    "lat": 54.68039337975295,
+    "lng": 25.295293096393408,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp",
+        "katinas.webp",
+        "navalni.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["katinas.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "katinas.webp"
     }
   }
 ]
