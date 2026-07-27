@@ -399,7 +399,6 @@
       "image": "vytautas.webp"
     }
   },
-
   {
     "id": "109",
     "name": "Fotoalbumas",
@@ -501,56 +500,6 @@
   {
     "id": "111",
     "name": "Fotoalbumas",
-    "lat": 54.65180792919389,
-    "lng": 24.93333988650561,
-    "startType": "carousel",
-    "startCarousel": {
-      "text": [
-        "Stebuklinga knyga staiga virto fotoalbumu.",
-        "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-        "",
-        "Užduočiai atlikti turite 5 minutes."
-      ],
-      "images": [
-        "fotoalbumas.webp"
-      ]
-    },
-    "type": "matchmaker",
-    "iconType": "book",
-    "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
-    "matchmaker": {
-      "images": [
-        "paulius.webp",
-        "namukas.webp",
-        "vytautas.webp",
-        "akis.webp",
-        "knyga.webp",
-        "klebonija.webp",
-        "mama.webp",
-        "deglai.webp",
-        "kibinlar.webp",
-        "galve.webp",
-        "galva.webp",
-        "kepykla.webp",
-        "gaisrine.webp",
-        "stiklines.webp"
-      ],
-      "displayCount": 10
-    },
-    "answer": [
-      "deglai.webp"
-    ],
-    "points": 2,
-    "attempts": 1,
-    "time": 5,
-    "reward": {
-      "text": "",
-      "image": "deglai.webp"
-    }
-  },
-  {
-    "id": "112",
-    "name": "Fotoalbumas",
     "lat": 54.64480261038556,
     "lng": 24.935428804507428,
     "startType": "carousel",
@@ -596,6 +545,56 @@
     "reward": {
       "text": "",
       "image": "galve.webp"
+    }
+  },
+  {
+    "id": "112",
+    "name": "Fotoalbumas",
+    "lat": 54.65180792919389,
+    "lng": 24.93333988650561,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Stebuklinga knyga staiga virto fotoalbumu.",
+        "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+        "",
+        "Užduočiai atlikti turite 5 minutes."
+      ],
+      "images": [
+        "fotoalbumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+    "matchmaker": {
+      "images": [
+        "paulius.webp",
+        "namukas.webp",
+        "vytautas.webp",
+        "akis.webp",
+        "knyga.webp",
+        "klebonija.webp",
+        "mama.webp",
+        "deglai.webp",
+        "kibinlar.webp",
+        "galve.webp",
+        "galva.webp",
+        "kepykla.webp",
+        "gaisrine.webp",
+        "stiklines.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": [
+      "deglai.webp"
+    ],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "deglai.webp"
     }
   }
 ]

@@ -1,0 +1,303 @@
+[
+  {
+    "id": "101",
+    "name": "Bell Tower",
+    "lat": 54.685809639250074,
+    "lng": 25.28664131733066,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["pedos.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "pedos.webp"
+    }
+  },
+  {
+    "id": "102",
+    "name": "Palace of the Grand Dukes",
+    "lat": 54.68572989399783,
+    "lng": 25.288776785385817,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["valdovai.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "valdovai.webp"
+    }
+  },
+  {
+    "id": "103",
+    "name": "Jewish Quarter",
+    "lat": 54.68104527267699,
+    "lng": 25.287726430098232,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["zydai.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "zydai.webp"
+    }
+  },
+  {
+    "id": "104",
+    "name": "Photo Album",
+    "lat": 54.684437425877135,
+    "lng": 25.29342368235432,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["mociute.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "mociute.webp"
+    }
+  },
+  {
+    "id": "105",
+    "name": "Lamplighter",
+    "lat": 54.682117797680576,
+    "lng": 25.287622017446708,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["avinelis.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "avinelis.webp"
+    }
+  },
+  {
+    "id": "106",
+    "name": "Tibet Square",
+    "lat": 54.681667135543776,
+    "lng": 25.29395809223854,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["pauksciai.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "pauksciai.webp"
+    }
+  },
+  {
+    "id": "107",
+    "name": "Erlickas Picture",
+    "lat": 54.68224867414797,
+    "lng": 25.29143262880245,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "You have 5 minutes to complete this task."
+      ],
+      "images": [
+        "albumas.webp"
+      ]
+    },
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Look around and choose the photo taken at this location.",
+    "matchmaker": {
+      "images": [
+        "zydai.webp",
+        "valdovai.webp",
+        "sirdis.webp",
+        "pedos.webp",
+        "pauksciai.webp",
+        "mociute.webp",
+        "figos.webp",
+        "avinelis.webp",
+        "lvovas.webp",
+        "kubiliute.webp",
+        "fontanas.webp",
+        "azuoliukas.webp"
+      ],
+      "displayCount": 10
+    },
+    "answer": ["figos.webp"],
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "reward": {
+      "text": "",
+      "image": "figos.webp"
+    }
+  }
+]
