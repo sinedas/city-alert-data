@@ -544,7 +544,13 @@
         "answer": ["Driežas"],
         "points": 4,
         "attempts": 5,
-        "time": 5
+        "time": 5,
+        "rewardCarousel": {
+            "text": [
+                "Driežas."
+            ],
+            "images": ["lizard.webp"]
+        }
     },
     {
         "id": "27",

@@ -357,7 +357,13 @@
         "answer": ["Lizard"],
         "points": 4,
         "attempts": 5,  
-        "time": 5
+        "time": 5,
+        "rewardCarousel": {
+            "text": [
+                "It's a lizard."
+            ],
+            "images": ["lizard.webp"]
+        }
     },
     {
         "id": "18",
