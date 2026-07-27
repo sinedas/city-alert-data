@@ -23,6 +23,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    # secrets cannot be referenced in `if:` — map to env first
+    env:
+      SMTP_HOST: ${{ secrets.SMTP_HOST }}
+      SMTP_PORT: ${{ secrets.SMTP_PORT }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASS: ${{ secrets.SMTP_PASS }}
+      NOTIFY_MAIL_TO: ${{ secrets.NOTIFY_MAIL_TO }}
 
     steps:
       - name: Checkout
@@ -41,17 +48,17 @@ jobs:
         run: npm test
 
       - name: Send failure email
-        if: ${{ failure() && secrets.SMTP_PASS != '' && secrets.NOTIFY_MAIL_TO != '' }}
+        if: failure() && env.SMTP_PASS != '' && env.NOTIFY_MAIL_TO != ''
         uses: dawidd6/action-send-mail@v3
         with:
-          server_address: ${{ secrets.SMTP_HOST || 'smtp.hostinger.com' }}
-          server_port: ${{ secrets.SMTP_PORT || 587 }}
+          server_address: ${{ env.SMTP_HOST != '' && env.SMTP_HOST || 'smtp.hostinger.com' }}
+          server_port: ${{ env.SMTP_PORT != '' && env.SMTP_PORT || 587 }}
           secure: false
-          username: ${{ secrets.SMTP_USER }}
-          password: ${{ secrets.SMTP_PASS }}
+          username: ${{ env.SMTP_USER }}
+          password: ${{ env.SMTP_PASS }}
           subject: "[city-alert-data] stage validation FAILED — ${{ github.sha }}"
-          to: ${{ secrets.NOTIFY_MAIL_TO }}
-          from: City Alert Data CI <${{ secrets.SMTP_USER }}>
+          to: ${{ env.NOTIFY_MAIL_TO }}
+          from: City Alert Data CI <${{ env.SMTP_USER }}>
           body: |
             Content validation failed on branch stage.
 
