@@ -1,0 +1,63 @@
+name: Validate content (stage)
+
+# Runs content Vitest suite on every push to `stage`.
+# On failure, emails NOTIFY_MAIL_TO via SMTP secrets.
+#
+# Required GitHub repo secrets (Settings → Secrets and variables → Actions):
+#   SMTP_USER        e.g. info@citymission.lt
+#   SMTP_PASS        mailbox password
+#   NOTIFY_MAIL_TO   e.g. sinedas@gmail.com
+#
+# Optional overrides (default = Hostinger):
+#   SMTP_HOST   default smtp.hostinger.com
+#   SMTP_PORT   default 587
+
+on:
+  push:
+    branches:
+      - stage
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        # package-lock.json is gitignored in this repo
+        run: npm install
+
+      - name: Run content validation tests
+        run: npm test
+
+      - name: Send failure email
+        if: ${{ failure() && secrets.SMTP_PASS != '' && secrets.NOTIFY_MAIL_TO != '' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST || 'smtp.hostinger.com' }}
+          server_port: ${{ secrets.SMTP_PORT || 587 }}
+          secure: false
+          username: ${{ secrets.SMTP_USER }}
+          password: ${{ secrets.SMTP_PASS }}
+          subject: "[city-alert-data] stage validation FAILED — ${{ github.sha }}"
+          to: ${{ secrets.NOTIFY_MAIL_TO }}
+          from: City Alert Data CI <${{ secrets.SMTP_USER }}>
+          body: |
+            Content validation failed on branch stage.
+
+            Repository: ${{ github.repository }}
+            Commit: ${{ github.sha }}
+            Actor: ${{ github.actor }}
+            Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Open the workflow run log for details.

@@ -5,7 +5,13 @@
   "scripts": {
     "validate": "node scripts/validate.js",
     "validate:mission": "node scripts/validate.js",
-    "optimize": "node scripts/optimize-images.js"
+    "optimize": "node scripts/optimize-images.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:data": "vitest run __tests__/"
+  },
+  "devDependencies": {
+    "vitest": "^1.2.0"
   },
   "repository": {
     "type": "git",

@@ -78,7 +78,8 @@ fi
 ```
 
 **GitHub Actions:**
-See `.github/workflows/validate.yml` (coming soon)
+`.github/workflows/validate-stage.yml` runs `npm test` on every push to `stage`.
+On failure it emails `NOTIFY_MAIL_TO` (requires repo secrets `SMTP_USER`, `SMTP_PASS`, `NOTIFY_MAIL_TO`).
 
 ### Validation Rules
 
