@@ -546,7 +546,7 @@
         "attempts": 5,
         "time": 5,
         "rewardType": "carousel",
-        "reward": {
+        "rewardCarousel": {
             "text": [
                 "Spynoje pavaizduotas driežas."
             ],
