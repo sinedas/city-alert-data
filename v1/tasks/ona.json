@@ -545,9 +545,10 @@
         "points": 4,
         "attempts": 5,
         "time": 5,
+        "rewardType": "carousel",
         "reward": {
             "text": [
-                "Driežas."
+                "Spynoje pavaizduotas driežas."
             ],
             "images": ["lizard.webp"]
         }
