@@ -76,7 +76,8 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
@@ -121,7 +122,8 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
@@ -166,7 +168,8 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
@@ -211,7 +214,8 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
@@ -256,7 +260,8 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
@@ -301,17 +306,18 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
-        "answer": ["gele.webp"],      
+        "answer": ["saltis.webp"],      
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
           "text": "",
-          "image": "gele.webp"
+          "image": "saltis.webp"
         }
       },
       {
@@ -346,7 +352,8 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
@@ -391,7 +398,8 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
@@ -436,7 +444,8 @@
             "gele.webp",
             "durys.webp",
             "arkliai.webp",
-            "1932.webp"
+            "1932.webp",
+            "masina.webp"
           ],
           "displayCount": 10
         },
