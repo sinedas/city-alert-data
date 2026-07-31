@@ -317,8 +317,8 @@
       {
         "id": "108",
         "name": "Fotaalbumas",
-        "lat": 54.89634834985222,
-        "lng": 23.911641240119938,
+        "lat": 54.89557713040458,
+        "lng": 23.91525149345398,
         "startType": "carousel",
           "startCarousel": {
               "text": [
@@ -363,7 +363,7 @@
         "id": "109",
         "name": "Fotaalbumas",
         "lat": 54.89336827618932,
-        "lng": 23.9093548965458,
+            "lng": 23.9093548965458,
         "startType": "carousel",
           "startCarousel": {
               "text": [
@@ -395,13 +395,13 @@
           ],
           "displayCount": 10
         },
-        "answer": ["arkliai.webp"],      
+        "answer": ["jautis.webp"],      
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
           "text": "",
-          "image": "arkliai.webp"
+          "image": "jautis.webp"
         }
       }
 
