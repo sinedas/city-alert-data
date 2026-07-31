@@ -403,6 +403,51 @@
           "text": "",
           "image": "jautis.webp"
         }
+      },
+      {
+        "id": "110",
+        "name": "Fotaalbumas",
+        "lat": 54.893803269629025,
+        "lng": 23.917123675346378,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Fotoalbumo užduotis",
+                  "",
+                  "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images":[
+                  "albumas.webp"
+              ] 
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "vazonas.webp",
+            "variklis.webp",
+            "saltis.webp",
+            "natos.webp",
+            "paukstis.webp",
+            "laivas.webp",
+            "kose.webp",
+            "jautis.webp",
+            "gele.webp",
+            "durys.webp",
+            "arkliai.webp",
+            "1932.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["1932.webp"],      
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "1932.webp"
+        }
       }
 
 ]
