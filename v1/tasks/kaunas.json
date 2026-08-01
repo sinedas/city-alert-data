@@ -217,7 +217,20 @@
             ],
             "points": 2
         }
-    },   
+    },
+    {
+        "id": "12",
+        "name": "Tiltas",
+        "lat": 54.89426602345025,
+        "lng": 23.907006382942203,
+        "text": [
+            "Suraskite baltą Gabijos ir Emilio vestuvių dienos spyną. Kokia jų vestuvių dienos data?"
+        ],
+        "answer": ["2026-06-27"],
+        "points": 4,
+        "attempts": 5,
+        "time": 5
+    },
     {
         "id": "13",
         "name": "Grandinėlė",
@@ -362,8 +375,8 @@
     {
         "id": "20",
         "name": "Juliaus draugai",
-        "lat": 54.893239,
-        "lng": 23.910004,
+        "lat": 54.8937878444101,
+        "lng": 23.90451192855835,
         "image": "children.webp",        
         
         "text": [
