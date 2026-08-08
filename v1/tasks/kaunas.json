@@ -224,9 +224,9 @@
         "lat": 54.89426602345025,
         "lng": 23.907006382942203,
         "text": [
-            "Suraskite baltą Gabijos ir Emilio vestuvių dienos spyną. Kokia jų vestuvių dienos data?"
+            "Suraskite baltą Gabijos ir Emilio vestuvių dienos spyną. Kokia jų vestuvių dienos data? Formatas YYYY-MM-DD."
         ],
-        "answer": ["2026-06-27"],
+        "answer": ["2026-06-27", "2026.06.27", "27.06.2026", "2026 06 27"],
         "points": 4,
         "attempts": 5,
         "time": 5
