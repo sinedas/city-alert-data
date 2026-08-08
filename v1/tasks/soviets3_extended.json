@@ -1,0 +1,280 @@
+[
+    {
+      "id": "101",
+      "name": "Holograminiai akiniai",
+      "lat": 54.69316548154952,
+"lng": 25.289012979478105,
+      "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Izaokas Goldšteinas gatvėje paliko jums holograminius akinius.",
+                "Pro juos galite išvysti ateities Vilniaus hologramas.",
+                "Jūsų užduotis – surasti hologramoje matomą vietą ir taip sureguliuoti erdvėlaikį.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images":[
+                "holograma.webp"
+            ] 
+        }, 
+      "type": "matchmaker",
+      "iconType": "book",
+      "text": "Per holograminius akinius apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+      "matchmaker": {
+          "images": [
+            "geles.webp",
+            "trolis.webp",
+            "hipiai.webp",
+            "azuoliukas.webp",            
+            "kubiliute.webp",
+            "kristiana.webp",
+            "karalius.webp",
+            "lvovas.webp",
+            "fontanas.webp",
+            "roze.webp",
+            "vytis.webp",
+            "spygos.webp",
+            "pauksciai.webp"
+          ],
+          "displayCount": 10
+        },
+      "answer": ["geles.webp"],      
+      "points": 2,
+      "attempts": 1,
+      "time": 5,
+      "reward": {
+        "text": "",
+        "image": "geles.webp"
+      }
+    },
+    {
+        "id": "102",
+        "name": "Holograminiai akiniai",
+        "lat": 54.68781614589866,
+        "lng":  25.289050321272775,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Jūsų užduotis – surasti hologramoje matomą vietą ir taip sureguliuoti erdvėlaikį.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "holograma.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Per holograminius akinius apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "geles.webp",
+            "trolis.webp",
+            "hipiai.webp",
+            "azuoliukas.webp",            
+            "kubiliute.webp",
+            "kristiana.webp",
+            "karalius.webp",
+            "lvovas.webp",
+            "fontanas.webp",
+            "roze.webp",
+            "vytis.webp",
+            "spygos.webp",
+            "pauksciai.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["azuoliukas.webp"],
+        "hint": {
+              "text": "Eikite prie ąžuolo.",
+              "points": 1
+          },
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "Ši nuotrauka padaryta prie ąžuolo, pasodinto Hermano Perelšteino atminimui.",
+          "image": "azuoliukas.webp"
+        }
+      },
+      {
+        "id": "103",
+        "name": "Holograminiai akiniai",
+        "lat": 54.68504319168913,
+        "lng": 25.284301342566835,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Jūsų užduotis – surasti hologramoje matomą vietą ir taip sureguliuoti erdvėlaikį.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "holograma.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Per holograminius akinius apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "geles.webp",
+            "trolis.webp",
+            "hipiai.webp",
+            "azuoliukas.webp",            
+            "kubiliute.webp",
+            "kristiana.webp",
+            "karalius.webp",
+            "lvovas.webp",
+            "fontanas.webp",
+            "roze.webp",
+            "vytis.webp",
+            "spygos.webp",
+            "pauksciai.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["trolis.webp"],
+        "hint": {
+              "text": "Prie numerio 5.",
+              "points": 1
+          },
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "trolis.webp"
+        }
+      },
+      {
+        "id": "104",
+        "name": "Holograminiai akiniai",
+        "lat": 54.68499202494835,
+        "lng": 25.279934803521932,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Jūsų užduotis – surasti hologramoje matomą vietą ir taip sureguliuoti erdvėlaikį.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "holograma.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Per holograminius akinius apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "geles.webp",
+            "trolis.webp",
+            "hipiai.webp",
+            "azuoliukas.webp",            
+            "kubiliute.webp",
+            "kristiana.webp",
+            "karalius.webp",
+            "lvovas.webp",
+            "fontanas.webp",
+            "roze.webp",
+            "vytis.webp",
+            "spygos.webp",
+            "pauksciai.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["kubiliute.webp"],
+        "hint": {
+              "text": "",
+              "points": 1
+          },
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "kubiliute.webp"
+        }
+      },
+      {
+        "id": "105",
+        "name": "Holograminiai akiniai",
+        "lat": 54.68450309504571,
+        "lng": 25.280090304256746,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Jūsų užduotis – surasti hologramoje matomą vietą ir taip sureguliuoti erdvėlaikį.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "holograma.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Per holograminius akinius apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "geles.webp",
+            "trolis.webp",
+            "hipiai.webp",
+            "azuoliukas.webp",            
+            "kubiliute.webp",
+            "kristiana.webp",
+            "karalius.webp",
+            "lvovas.webp",
+            "fontanas.webp",
+            "roze.webp",
+            "vytis.webp",
+            "spygos.webp",
+            "pauksciai.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["hipiai.webp"],
+        "hint": {
+              "text": "",
+              "points": 1
+          },
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "hipiai.webp"
+        }
+      },
+      {
+        "id": "106",
+        "name": "Tiltas",
+        "lat": 54.68907999253995,
+        "lng": 25.28839189318047,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                "Holograminių akinių pagalba suraskite spynelę.",
+                "",
+                "Užduočiai atlikti turite 6 minutes."
+              ],
+              "images": [
+                  "holograma.webp"
+              ]
+          }, 
+        "text": [
+            "Suraskite raudoną spynelę, kur įsimylėjėlių širdys susiėjo begalybėje. Datos formatas YYYY-MM-DD."
+        ],
+        "answer": ["2013-05-18"],
+        "hint": {
+              "text": "Ieškokite Thomas ir Daniel širdelės.",
+              "points": 2   
+          },
+        "points": 4,
+        "attempts": 5,
+        "time": 6
+    }
+
+      
+]
