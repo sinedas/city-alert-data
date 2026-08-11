@@ -1,0 +1,52 @@
+[
+   
+    {
+      "id": "11",
+      "name": "Fotoalbumas",
+      "lat": 54.68781614589866,
+      "lng":  25.289050321272775,
+      "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Fėjos sąsiuvinys staiga virto stebuklingu fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        }, 
+      "type": "matchmaker",
+      "iconType": "book",
+      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+      "matchmaker": {
+        "images": [
+          "bona.webp",
+          "fontanas.webp",
+          "arkliukas.webp",
+          "azuoliukas.webp",
+          "lvovas.webp",
+          "vytis.webp",
+          "roze.webp",
+          "zuikis.webp",
+          "kubiliute.webp",
+          "mumis.webp"
+        ],
+        "displayCount": 10
+      },
+      "answer": ["azuoliukas.webp"],
+      "hint": {
+            "text": "Eikite prie ąžuolo.",
+            "points": 1
+        },
+      "points": 2,
+      "attempts": 1,
+      "time": 5,
+      "reward": {
+        "text": "Ši nuotrauka padaryta prie ąžuolo, pasodinto Hermano Perelšteino atminimui.",
+        "image": "azuoliukas.webp"
+      }
+    }  
+  ]
+  
