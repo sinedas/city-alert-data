@@ -1,0 +1,151 @@
+[
+    {
+        "id": "1",
+        "name": "Raidžių matematika",
+        "lat": 54.64091151679769,
+        "lng": 24.933009679990125,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Trakų Švn. Dievo Motinos Gimimo cerkvės randate kuprinę, lazdelę su žvaigždute ir sąsiuvinį.",
+                "Sąsiuvinio viršelyje parašyta:",                
+                "Vėtrunės Išsiblaškėlės",
+                "Fėjų mokyklos",
+                "3a klasės mokinės",
+                "Magijos pagrindai",
+                "Užduočiai atlikti turite 7 minutes."
+            ],
+            "images": [
+                "kuprine.webp"
+            ]
+        },    
+        "image": "sasiuvinys.webp",
+        "text": [
+            "Įdomu, kaip atidaryti kuprinę? Staiga sąsiuvinys atsivertė ties uždavinio sąlyga:",
+            "Vienas turi 6",
+            "Du turi 2",
+            "Trys turi 4",
+            "Kiek turi Trylika?",
+            "Atsakymas pasakys, kiek kartų mostelėti lazdele, kad kuprinė atsidarytų."
+        ],
+        "answer": ["7"],
+        "points": 5,
+        "attempts": 5,
+        "time": 7,
+        "hint": {
+            "text": "Atkreipkite dėmesį į žodį „Raidžių“.",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Jūs mostelėjote lazdele septynis kartus ir kuprinė atsidarė.",
+                "Joje radote jaunosios fėjos mokymosi priemones.",
+                "Jūs pasiimate fėjos daiktus ir einate atlikti kitų užduočių."
+            ],
+            "images": ["atidaryta.webp"]
+        }
+    },
+    {
+        "id": "2",
+        "name": "Magiškas gyvūnas",
+        "lat": 54.642226783920535,
+        "lng": 24.932225749172662,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Staiga sąsiuvinys atsivertė.",
+                "Pažaiskime žodlę. Spėkite magišką gyvūną. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
+                "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "Turite 10 bandymų (10 taškų). Kiekvienas neteisingas bandymas – minus 1 taškas."
+            ],
+            "images": [
+                "gyvunas.webp"
+            ]
+        },
+        "text": [
+            "Spėkite magišką gyvūną, minimą jaunosios fėjos sąsiuvinyje."
+        ],
+        "type": "wordle",
+        "answer": [
+            "FENIKSAS"  
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+             "text": [
+                "Magiškas gyvūnas - feniksas."
+            ],
+
+            "images": ["feniksas.webp"]
+        }
+    },
+    {
+        "id": "3",
+        "name": "Lazdelės išdaigos",
+        "lat": 54.64255215026658,
+        "lng": 24.932231960446043,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Fėjos lazdelė ėmė išdikauti.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "lazdele.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės.",
+            "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally. Each person should hold a funny object such as a magic wand, frying pan, broom, clothes iron, or similar humorous prop."
+        },
+        "text": [
+            "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
+            "O tuo metu Trakus puolė kryžiuočių būrys.",
+            "Padarykite nuotrauką taip, tarsi gintumėtės nuo užpuolikų ir rankose laikytumėte kardus, ietis bei skydus."
+        ],
+        "points": 4,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Stebuklingi pieštukai",
+        "lat": 54.64378762618628,
+        "lng": 24.9345199799943,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [               
+                "Šalia Šokoladinės kuprinė atsidarė, ir iš jos pabiro pieštukai.",
+                "",     
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["piestukai.webp"],
+            "changeInterval": 0
+        }, 
+        "image": "1945.webp",
+        "text": [
+            "Pieštukai susidėliojo į skaičių.",
+            "Perkelkite du pieštukus taip, kad gautumėte mažiausią įmanomą teigiamą skaičių.",
+            "Atsakyme įrašykite tą skaičių."
+        ],
+        "answer": ["846"],
+        "points": 5,
+        "attempts": 6,
+        "time": 6,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Šalia Mindaugo paminklo ant pievelės randate lagaminą.",
+                "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Bernardinų burtininkas“"
+            ],
+            "images": ["lagaminasv2.webp"]
+        }
+        
+    }
+]
