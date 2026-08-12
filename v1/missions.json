@@ -403,6 +403,46 @@
     }   
   },
   {
+    "code": "kauno_burtininkas",
+    "title": "Kauno burtininkas",
+    "image": "lagaminas.webp",
+    "location": {
+      "lat": 54.89927128496517,
+      "lng": 23.885371688821536
+    },
+    "initialDiameter": 1950,
+    "finalDiameter": 150,
+    "duration": 120,
+    "level": "Lengvas",
+    "active": true,
+    "locked": true,
+    "circle": true,
+    "description": "Kauno burtininko lagaminas ir burtų lazdelė.",
+    "start": "Perėja",
+    "finish": "Kauno pilis",
+    "startLocation": {
+      "lat": 54.89666197488589,
+      "lng": 23.89562547061457
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+        "Jūs pradėjote magišką orientacinį žaidimą.",
+        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
+        "Užduočių ratas tolygiai siaurėja.",
+        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
+        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
+    }
+  },
+  {
     "code": "vilnius_kuprine",
     "title": "Fėjos kuprinė Vilniuje",
     "image": "kuprine.webp",
