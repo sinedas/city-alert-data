@@ -87,8 +87,8 @@
     {
         "id": "3",
         "name": "Lazdelės išdaigos",
-        "lat": 54.64255215026658,
-        "lng": 24.932231960446043,
+        "lat": 54.64307152816677,
+        "lng": 24.93274694976127,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -103,12 +103,12 @@
         "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės.",
-            "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally. Each person should hold a funny object such as a magic wand, frying pan, broom, clothes iron, or similar humorous prop."
+            "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, ochre, cream, earthy tones, soft greens), simplified shapes, flat shading, watercolor texture and dark outlines; replace all people with life-sized cardboard standees in a bold retro comic vector style (flat colors, no gradients, thick outlines), preserving their original poses, positions and recognizable facial identity, including face shape, hairstyle, hair color, facial hair and key facial features, while keeping faces stylized rather than photorealistic; replace modern clothing with Napoleonic-era military uniforms featuring fitted coats, cross-belts, high collars, trousers, boots and tall military shakos; preserve the original environment, composition and perspective so the figures integrate naturally into the illustrated scene."
         },
         "text": [
-            "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
-            "O tuo metu Trakus puolė kryžiuočių būrys.",
-            "Padarykite nuotrauką taip, tarsi gintumėtės nuo užpuolikų ir rankose laikytumėte kardus, ietis bei skydus."
+            "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į 1812 metus.",
+            "Kad sugrižti atgal,  suraskite lentelę su 1812 metų paminėjimu ir Napoleono kariais.",
+            "Padarykite komandos nuotrauką taip, kad matytųsi komanda, lentelė ir Trakų bažnyčia."
         ],
         "points": 4,
         "time": 5
