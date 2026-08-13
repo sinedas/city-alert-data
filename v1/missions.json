@@ -447,26 +447,21 @@
     "title": "Fėjos kuprinė Kaune",
     "image": "kuprine.webp",
     "location": {
-      "lat": 54.896630098466055,
-      "lng": 23.89564635122789
+      "lat": 54.896630098371915,
+      "lng": 23.895509460701614
     },
-    "initialDiameter": 800,
+    "initialDiameter": 1000,
     "finalDiameter": 200,
-    "duration": 30,
-    "level": "Lengvas",
+    "duration": 30,    
     "active": true,
     "locked": false,
     "circle": true,
-    "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",
-    "start": "Senoji prezedentūra",
-    "finish": "Kauno perėja",
-    "startLocation": {
+    "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",    "start": "Senoji prezedentūra",
+    "finish": "Kauno perėja",    "startLocation": {
       "lat": 54.89664243777086,
       "lng": 23.895667100362584
-    },
-    "routeImageUrl": "",
-    "hints": 20,
-    "checkLocation": true,
+    },    "routeImageUrl": "",
+    "hints": 20,    "checkLocation": true,
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
