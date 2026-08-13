@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "id": "101",
+        "name": "Fotoalbumas",
+        "lat": 54.64198814152205,
+        "lng": 24.93309568699292,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "paulius.webp",
+            "namukas.webp",
+            "vytautas.webp",
+            "akis.webp",
+            "knyga.webp",
+            "klebonija.webp",
+            "mama.webp",
+            "deglai.webp",
+            "kibinlar.webp",
+            "galve.webp",
+            "galva.webp",
+            "kepykla.webp",
+            "gaisrine.webp",
+            "stiklines.webp",
+            "aukstai.webp",
+            "ratas.webp",
+            "kaukes.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "ratas.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "ratas.webp"
+        }
+      },
+      {
+        "id": "102",
+        "name": "Fotoalbumas",
+        "lat": 54.64298150573452,
+        "lng": 24.93242996390339,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "paulius.webp",
+            "namukas.webp",
+            "vytautas.webp",
+            "akis.webp",
+            "knyga.webp",
+            "klebonija.webp",
+            "mama.webp",
+            "deglai.webp",
+            "kibinlar.webp",
+            "galve.webp",
+            "galva.webp",
+            "kepykla.webp",
+            "gaisrine.webp",
+            "stiklines.webp",
+            "aukstai.webp",
+            "ratas.webp",
+            "kaukes.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "kaukes.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "kaukes.webp"
+        }
+      },
+      {
+        "id": "103",
+        "name": "Fotoalbumas",
+        "lat": 54.643447136853645,
+        "lng": 24.93352462479348,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "paulius.webp",
+            "namukas.webp",
+            "vytautas.webp",
+            "akis.webp",
+            "knyga.webp",
+            "klebonija.webp",
+            "mama.webp",
+            "deglai.webp",
+            "kibinlar.webp",
+            "galve.webp",
+            "galva.webp",
+            "kepykla.webp",
+            "gaisrine.webp",
+            "stiklines.webp",
+            "aukstai.webp",
+            "ratas.webp",
+            "kaukes.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "aukstai.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "aukstai.webp"
+        }
+      }
+      
+]
