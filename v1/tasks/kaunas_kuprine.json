@@ -1,0 +1,150 @@
+[
+    {
+        "id": "1",
+        "name": "Raidžių matematika",
+        "lat": 54.89780072644724,
+        "lng":  23.900112451541506,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs randate kuprinę, lazdelę su žvaigždute ir sąsiuvinį.",
+                "Sąsiuvinio viršelyje parašyta:",                
+                "Vėtrunės Išsiblaškėlės",
+                "Fėjų mokyklos",
+                "3a klasės mokinės",
+                "Magijos pagrindai",
+                "Užduočiai atlikti turite 7 minutes."
+            ],
+            "images": [
+                "kuprine.webp"
+            ]
+        },    
+        "image": "sasiuvinys.webp",
+        "text": [
+            "Įdomu, kaip atidaryti kuprinę? Staiga sąsiuvinys atsivertė ties uždavinio sąlyga:",
+            "Vienas turi 6",
+            "Du turi 2",
+            "Trys turi 4",
+            "Kiek turi Trylika?",
+            "Atsakymas pasakys, kiek kartų mostelėti lazdele, kad kuprinė atsidarytų."
+        ],
+        "answer": ["7"],
+        "points": 5,
+        "attempts": 5,
+        "time": 7,
+        "hint": {
+            "text": "Atkreipkite dėmesį į žodį „Raidžių“.",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Jūs mostelėjote lazdele septynis kartus ir kuprinė atsidarė.",
+                "Joje radote jaunosios fėjos mokymosi priemones.",
+                "Jūs pasiimate fėjos daiktus ir einate atlikti kitų užduočių."
+            ],
+            "images": ["atidaryta.webp"]
+        }
+    },
+    {
+        "id": "2",
+        "name": "Magiškas gyvūnas",
+        "lat": 54.89709075841936,
+        "lng": 23.898485410022378,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Staiga sąsiuvinys atsivertė.",
+                "Pažaiskime žodlę. Spėkite magišką gyvūną. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
+                "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "Turite 10 bandymų (10 taškų). Kiekvienas neteisingas bandymas – minus 1 taškas."
+            ],
+            "images": [
+                "gyvunas.webp"
+            ]
+        },
+        "text": [
+            "Spėkite magišką gyvūną, minimą jaunosios fėjos sąsiuvinyje."
+        ],
+        "type": "wordle",
+        "answer": [
+            "FENIKSAS"  
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+             "text": [
+                "Magiškas gyvūnas - feniksas."
+            ],
+
+            "images": ["feniksas.webp"]
+        }
+    },
+    {
+        "id": "3",
+        "name": "Lazdelės išdaigos",
+        "lat": 54.896889627523755,
+        "lng": 23.897338014389586,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Fėjos lazdelė ėmė išdikauti.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "lazdele.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės.",
+            "transformationPrompt": "Transform the input photo into a stylized non-photorealistic semi-cartoon illustration using warm beige, ochre, cream and earthy tones with muted greens; simplify details, use flat shading, subtle watercolor texture and clean dark outlines; preserve each person's recognizable appearance, hairstyle, body proportions and original pose. For EACH person individually, preserve their gender presentation from the original photo and apply ONLY matching early-1900s Belle Époque / Edwardian clothing: males wear masculine attire with trousers, tailored suit, waistcoat, tie, overcoat and top hat; females wear feminine attire with a long skirt or dress, fitted blouse or bodice and decorated period hat. Never swap or mix male and female clothing between people. Preserve the number, positions and gender presentation of all people. Maintain a cohesive retro comic watercolor + vector look."
+        },
+        "text": [
+            "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į 1923 metus.",
+            "Kad sugrižti atgal, padarykite komandos narių nuotrauką vaizduojančių Kauno aukštuomenę."
+        ],
+        "points": 4,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Stebuklingi pieštukai",
+        "lat": 54.896630098466055,
+        "lng": 23.89564635122789,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [               
+                "Kuprinė atsidarė, ir iš jos pabiro pieštukai.",
+                "",     
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["piestukai.webp"],
+            "changeInterval": 0
+        }, 
+        "image": "1945.webp",
+        "text": [
+            "Pieštukai susidėliojo į skaičių.",
+            "Perkelkite du pieštukus taip, kad gautumėte mažiausią įmanomą teigiamą skaičių.",
+            "Atsakyme įrašykite tą skaičių."
+        ],
+        "answer": ["846"],
+        "points": 5,
+        "attempts": 6,
+        "time": 6,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Jūs randate lagaminą.",
+                "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Kauno burtininkas“"
+            ],
+            "images": ["lagaminasv2.webp"]
+        }
+        
+    }
+]
