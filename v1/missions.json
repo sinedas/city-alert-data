@@ -456,12 +456,16 @@
     "active": true,
     "locked": false,
     "circle": true,
-    "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",    "start": "Senoji prezedentūra",
-    "finish": "Kauno perėja",    "startLocation": {
+    "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",    
+    "start": "Vilniaus g. 1",
+    "finish": "Perėja į senamiestį",    
+    "startLocation": {
       "lat": 54.89664243777086,
       "lng": 23.895667100362584
-    },    "routeImageUrl": "",
-    "hints": 20,    "checkLocation": true,
+    },    
+    "routeImageUrl": "",
+    "hints": 20,    
+    "checkLocation": true,
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
