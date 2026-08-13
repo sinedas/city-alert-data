@@ -403,6 +403,45 @@
     }   
   },
   {
+    "code": "kaunas_kuprine",
+    "title": "Fėjos kuprinė Kaune",
+    "image": "kuprine.webp",
+    "location": {
+      "lat": 54.89662958421843,
+      "lng": 23.895520710433082
+    },
+    "initialDiameter": 1000,
+    "finalDiameter": 200,
+    "duration": 30,    
+    "active": true,
+    "locked": false,
+    "circle": true,
+    "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",    
+    "start": "Vilniaus g. 1",
+    "finish": "Perėja į senamiestį",    
+    "startLocation": {
+      "lat": 54.89664243777086,
+      "lng": 23.895667100362584
+    },    
+    "routeImageUrl": "",
+    "hints": 20,    
+    "checkLocation": true,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+        "Jūs pradėjote magišką orientacinį žaidimą.",
+        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
+        "Užduočių ratas tolygiai siaurėja.",
+        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
+        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
+    }
+  },
+  {
     "code": "kauno_burtininkas",
     "title": "Kauno burtininkas",
     "image": "lagaminas.webp",
@@ -426,45 +465,6 @@
     },
     "routeImageUrl": "",
     "hints": 20,
-    "checkLocation": true,
-    "teamName": {
-      "title": "Komandos pavadinimas",
-      "time": 4,
-      "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
-        "",
-        "Užduočiai atlikti turite 4 minutes."
-      ],
-      "points": 2
-    }
-  },
-  {
-    "code": "kaunas_kuprine",
-    "title": "Fėjos kuprinė Kaune",
-    "image": "kuprine.webp",
-    "location": {
-      "lat": 54.89662958421843,
-      "lng": 23.895520710433082
-    },
-    "initialDiameter": 1000,
-    "finalDiameter": 200,
-    "duration": 30,    
-    "active": true,
-    "locked": false,
-    "circle": true,
-    "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",    
-    "start": "Vilniaus g. 1",
-    "finish": "Perėja į senamiestį",    
-    "startLocation": {
-      "lat": 54.89664243777086,
-      "lng": 23.895667100362584
-    },    
-    "routeImageUrl": "",
-    "hints": 20,    
     "checkLocation": true,
     "teamName": {
       "title": "Komandos pavadinimas",
