@@ -7,7 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Šalia Trakų Švn. Dievo Motinos Gimimo cerkvės randate kuprinę, lazdelę su žvaigždute ir sąsiuvinį.",
+                "Šalia Trakų Švč. Dievo Motinos Gimimo cerkvės randate kuprinę, lazdelę su žvaigždute ir sąsiuvinį.",
                 "Sąsiuvinio viršelyje parašyta:",                
                 "Vėtrunės Išsiblaškėlės",
                 "Fėjų mokyklos",
@@ -107,7 +107,7 @@
         },
         "text": [
             "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į 1812 metus.",
-            "Kad sugrižti atgal,  suraskite lentelę su 1812 metų paminėjimu ir Napoleono kariais.",
+            "Kad sugrižtumėte,  suraskite lentelę su 1812 metų paminėjimu ir Napoleono kariais.",
             "Padarykite komandos nuotrauką taip, kad matytųsi komanda, lentelė ir Trakų bažnyčia."
         ],
         "points": 4,
@@ -142,7 +142,7 @@
         "rewardCarousel": {
             "text": [
                 "Šalia Šokoladinės randate lagaminą.",
-                "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Trakų burtininkas“"
+                "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Trakų burtininkas“."
             ],
             "images": ["lagaminasv2.webp"]
         }
