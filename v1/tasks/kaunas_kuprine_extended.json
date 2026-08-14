@@ -1,0 +1,56 @@
+[
+   
+    {
+      "id": "11",
+      "name": "Fotoalbumas",
+      "lat": 54.89705271740863,
+      "lng": 23.89834907491403,
+      "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Fėjos sąsiuvinys staiga virto stebuklingu fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        }, 
+      "type": "matchmaker",
+      "iconType": "book",
+      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+      "matchmaker": {
+        "images": [
+          "suniukas.webp",
+          "zuvys.webp",
+          "white.webp",
+          "simboliai.webp",
+          "pentinas.webp",
+          "medus.webp",
+          "medicina.webp",
+          "laivas2.webp",
+          "kunigaikstis.webp",
+          "dvyniai.webp",
+          "dantis.webp",
+          "variklis.webp",
+          "paukstis.webp",
+          "masina.webp",
+          "laivas.webp",
+          "gele.webp",
+          "natos.webp",
+          "1932.webp"
+        ],
+        "displayCount": 10
+      },
+      "answer": ["suniukas.webp"],
+      "points": 2,
+      "attempts": 1,
+      "time": 5,
+      "reward": {
+        "text": "",
+        "image": "suniukas.webp"
+      }
+    }  
+  ]
+  

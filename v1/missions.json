@@ -410,7 +410,7 @@
       "lat": 54.89662958421843,
       "lng": 23.895520710433082
     },
-    "initialDiameter": 1000,
+    "initialDiameter": 800,
     "finalDiameter": 200,
     "duration": 30,    
     "active": false,
@@ -449,8 +449,8 @@
       "lat": 54.89927128496517,
       "lng": 23.885371688821536
     },
-    "initialDiameter": 1950,
-    "finalDiameter": 150,
+    "initialDiameter": 1800,
+    "finalDiameter": 100,
     "duration": 120,
     "level": "Lengvas",
     "active": false,

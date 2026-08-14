@@ -7,7 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs randate kuprinę, lazdelę su žvaigždute ir sąsiuvinį.",
+                "Laisvės alėjos ir Vilniaus gatvės sankryžoje jūs randate kuprinę, lazdelę su žvaigždute ir sąsiuvinį.",
                 "Sąsiuvinio viršelyje parašyta:",                
                 "Vėtrunės Išsiblaškėlės",
                 "Fėjų mokyklos",
@@ -49,8 +49,8 @@
     {
         "id": "2",
         "name": "Magiškas gyvūnas",
-        "lat": 54.89709075841936,
-        "lng": 23.898485410022378,
+        "lat": 54.897404382423545,
+        "lng": 23.899072344975064,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -143,7 +143,7 @@
                 "Jūs randate lagaminą.",
                 "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Kauno burtininkas“"
             ],
-            "images": ["lagaminasv2.webp"]
+            "images": ["kaunas.webp"]
         }
         
     }

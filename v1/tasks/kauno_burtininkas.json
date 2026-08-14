@@ -14,7 +14,7 @@
                 "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
             ],
             "images": [
-                "lagaminasv2.webp"
+                "kaunas.webp"
             ]
         },
         "text": [
@@ -38,7 +38,7 @@
                 "Paimkite lagaminą, knygą, lazdelę, ieškokite užduočių telefono žemėlapyje ir jas atlikite."
             ],
 
-            "images": ["atidarytasv2.webp"]
+            "images": ["kaunas2.webp"]
         }
     },
     
@@ -49,7 +49,8 @@
         "lng": 23.894860788821404,
         "type": "chain",
         "text": [
-            "Išspręskite akmeninių išminčių sugalvotą grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
+            "Šalia Jonos Jablonskio namo sutinkate senuką, kuris turi jums 4 mįsles.",
+            "Išspręskite senuko sugalvotą grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
             "",
             "1. Medžiaga iš kurios austas nepermatomas apsiaustas?",
             "2. Kas pasakoje gaudė žuvis savo uodega?",
