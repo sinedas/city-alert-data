@@ -50,7 +50,7 @@
         "type": "chain",
         "text": [
             "Šalia Jonos Jablonskio namo sutinkate senuką, kuris turi jums 4 mįsles.",
-            "Išspręskite senuko sugalvotą grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
+            "Išspręskite senuko sugalvotą grandinėlę. Kiekvienas sekos žodis nuo ankstesnio skiriasi viena raide.",
             "",
             "1. Medžiaga iš kurios austas nepermatomas apsiaustas?",
             "2. Kas pasakoje gaudė žuvis savo uodega?",
@@ -104,7 +104,7 @@
                 "image": "vangog.webp"
             },
             {
-                "name": "Napoleonas Orša",
+                "name": "Napoleonas Orda",
                 "order": 4,
                 "image": "kaunas.jpg"
             }
@@ -268,13 +268,13 @@
     },
     {
         "id": "12",
-        "name": "Fontanas",
-        "lat": 54.897772386407304,
-        "lng": 23.8956161349909,
+        "name": "Neris",
+        "lat": 54.89980097572791,
+        "lng": 23.886033095111745,
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Kolba iš lagamino iššoko, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios.",
+                "Kolba iššoko iš lagamino, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios.",
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
@@ -284,7 +284,7 @@
         },
         "image": "colors2.webp",
         "text": [
-            "Fontanas pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
+            "Neries upė pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
             "Kokia spalva yra užšifruota šioje lygtyje?"
         ],
         "answer": [
@@ -510,8 +510,8 @@
     {
         "id": "23",
         "name": "Matematinė lygtis",
-        "lat": 54.89992867129814,
-        "lng": 23.885197605054525,
+        "lat": 54.89837699279873,
+        "lng": 23.884093342810917,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -569,7 +569,7 @@
         "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės?",
-            "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally. Each person should hold a funny object such as a magic wand, frying pan, broom, clothes iron."
+            "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, ochre, cream, earthy tones, soft greens), simplified shapes, reduced detail, flat shading, watercolor texture and thin-to-medium dark outlines. Keep the original environment, composition and perspective, avoiding photorealistic lighting and textures. Transform all people into naturally integrated retro comic-style illustrated characters with flat colors and clean outlines, preserving their original poses, positions, clothing, proportions and recognizable facial features. Place an upside-down cooking pot on each person’s head like a funny helmet, keeping faces visible. Give each person a different humorous object to hold, such as a magic wand, frying pan, broom or clothes iron. Keep everything cohesive, playful and naturally integrated into the illustrated scene."
         },
         "text": [
             "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
@@ -602,9 +602,97 @@
             "transformationPrompt": "Transform the input photo into a stylized non-photorealistic semi-cartoon illustration using warm beige, ochre, cream and earthy tones with muted greens; simplify details, use flat shading, subtle watercolor texture and clean dark outlines; preserve each person's recognizable appearance, hairstyle, body proportions and original pose. For EACH person individually, preserve their gender presentation from the original photo and apply ONLY matching early-1900s Belle Époque / Edwardian clothing: males wear masculine attire with trousers, tailored suit, waistcoat, tie, overcoat and top hat; females wear feminine attire with a long skirt or dress, fitted blouse or bodice and decorated period hat. Never swap or mix male and female clothing between people. Preserve the number, positions and gender presentation of all people. Maintain a cohesive retro comic watercolor + vector look."
         },
         "text": [
-            "Padarykite komandos nario ar narių nuotrauką, kur pozuojate tarsi aukštuomenė rotušės plane."
+            "Padarykite komandos nario ar narių nuotrauką, kur pozuojate tarsi aukštuomenė rotušės fone."
+        ],
+        "points": 5,
+        "time": 7
+    },
+    {
+        "id": "22",
+        "name": "Šuniukai",
+        "lat": 54.89707439982259,
+        "lng": 23.88545594671299,
+        "iconType": "photo",
+        "type": "photoValidation",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia šuniukų baseino stebuklingoji knyga atsivertė ties pasaka 'Dvylika mėnesių'.",
+                "Pasirodo, baseino šuniukai, ne šiaip šuniukai, o našlaitės pamotė kartu su dukromis.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "menesiai.webp"
+            ]
+        },
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomi žmogus arba žmonės?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle dog features: **gently integrated dog ears**, and **a gently integrated dog tail that follows the body’s posture**. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."
+        },
+        "text": [
+            "O burtų lazdelė ėmė kvailioti. Ji pavertė komandos narius šuniukais.",
+            "Padarykite komandos narių nuotrauką, kur jie atsistoję ant keturių šalia šuniukų skulptūrų.",
+            "Padarius nuotrauką, burtai išsisklaidys ir sugrįš žmonių pavidalas."
         ],
         "points": 6,
         "time": 7
+    },
+    {
+        "id": "36",
+        "name": "Vaižganto suolelis",
+        "lat": 54.89512250426442,
+        "lng": 23.88664132177058,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Laiko atsuktuvas vėl suveikė ir nukeldino jus į praeitį į Juozo Tumo Vaižganto laikus.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "atsuktuvas.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas žmogus arba žmonės?",
+            "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, ochre, cream, earthy tones, soft greens), simplified shapes, reduced detail, flat shading, watercolor texture and thin-to-medium dark outlines. Keep the original environment, composition and perspective, avoiding photorealistic lighting and textures. Transform all people into naturally integrated retro comic-style illustrated characters, preserving their original poses, positions, proportions and recognizable facial features. Replace their modern clothing with traditional medieval monk robes: long simple brown or beige hooded habits, rope belts and plain footwear, appropriate for each person while keeping faces clearly visible. Keep the overall scene cohesive, natural and historically inspired."
+        },
+        "text": [
+            "Padarykite komandos nario ar narių nuotrauką, kur sėdite ant suolelio šalia Vaižganto."
+        ],
+        "points": 5,
+        "time": 6
+    },
+    {
+        "id": "37",
+        "name": "Lazdelės išdaigos",
+        "lat": 54.8953035512147,
+        "lng": 23.887739057440466,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Fėjos lazdelė ėmė išdikauti.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "lazdele.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės?",
+            "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, ochre, cream, earthy tones, soft greens), simplified shapes, reduced detail, flat shading, watercolor texture and thin-to-medium dark outlines. Keep the original environment, composition and perspective, avoiding photorealistic lighting and textures. Transform all people into naturally integrated retro comic-style illustrated characters, preserving their original poses, positions, proportions and recognizable facial features. Replace their modern clothing with authentic Ancient Greek attire: draped chitons, tunics, himations, cloaks, leather sandals and simple period accessories, with historically appropriate variations for men and women. Keep the scene cohesive, natural and clearly illustrated."
+        },
+        "text": [
+            "Fėjos lazdelė ėmė išdikauti ir drebinti tunelį. Tunelio lubos gali nugriūti.",
+            ".",
+            "Padarykite komandos narių nuotrauką, kur jūs laikote tunelio lubas. Padarius nuotrauką, lazdelės išdaigos pasibaigs."
+        ],
+        "points": 5,
+        "time": 6
     }
 ]
