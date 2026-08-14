@@ -457,7 +457,7 @@
     "locked": false,
     "circle": true,
     "description": "Kauno burtininko lagaminas ir burtų lazdelė.",
-    "start": "Perėja",
+    "start": "Perėja į senamiestį",
     "finish": "Kauno pilis",
     "startLocation": {
       "lat": 54.89666197488589,
