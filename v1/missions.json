@@ -194,8 +194,9 @@
       "lat": 54.689519126507015,
       "lng": 25.27091553917187
     },
-    "initialDiameter": 4000,
-    "finalDiameter": 3950,
+    "initialDiameter": 4500,
+    "finalDiameter": 200,
+    "circle": true,
     "duration": 150,
     "level": "Sunkus",
     "active": true,
