@@ -168,7 +168,7 @@
       "lat": 54.68624660216154,
       "lng": 25.28664033430569
     },
-    "routeImageUrl": "",
+    "routeImageUrl": "https://citymission.lt/maps/ona_map.webp",
     "hints": 5,
     "checkLocation": true,
     "teamName": {
@@ -209,7 +209,7 @@
       "lat": 54.69462270359624,
       "lng": 25.288656190486307
     },
-    "routeImageUrl": "",
+    "routeImageUrl": "https://citymission.lt/maps/soviets_map.webp",
     "checkLocation": true,
     "pointsPerLeftMinutes": 10,
     "teamName": {
@@ -464,7 +464,7 @@
       "lat": 54.89666197488589,
       "lng": 23.89562547061457
     },
-    "routeImageUrl": "https://citymission.lt/maps/kauno_burtininkas_map.webp",
+    "routeImageUrl": "https://citymission.lt/maps/kaunas_burtininkas_map.webp",
     "hints": 20,
     "checkLocation": true,
     "teamName": {
