@@ -464,7 +464,7 @@
       "lat": 54.89666197488589,
       "lng": 23.89562547061457
     },
-    "routeImageUrl": "",
+    "routeImageUrl": "https://citymission.lt/maps/kauno_burtininkas_map.webp",
     "hints": 20,
     "checkLocation": true,
     "teamName": {
