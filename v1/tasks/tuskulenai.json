@@ -155,7 +155,7 @@
             "changeInterval": 0
         }, 
         "image": "matches.png",
-        "text": "Jums reikia uždegti dektuką koplytėlės kolumbariume. Vieną degtuką perkelkite, o kitą pasiimkite, kad sąlyga būtų teisinga. Sąlygą užrašykite paprastais skaitmenimis ir ženklais.",
+        "text": "Jums reikia uždegti degtuką koplytėlės kolumbariume. Vieną degtuką perkelkite, o kitą pasiimkite, kad sąlyga būtų teisinga. Sąlygą užrašykite paprastais skaitmenimis ir ženklais.",
         "answer": [
             "3+5=8", 
             "8-6=2",
@@ -230,7 +230,7 @@
             "changeInterval": 0
         }, 
         "text": [
-            "Suraskite šį asmenį. Sužinokite šio asmens antrąją pavardę.",
+            "Suraskite šį asmenį ir sužinokite jo antrąją pavardę.",
             "",
             "[href=\"http://old.hamradio.lt/ab/morze_2.htm\"]Morzės kodas[/href]"
         ],
@@ -266,7 +266,7 @@
         },    
         "text": [
             "Raskite angelų sargų akmenį. Įdėmiai perskaitykite tekstą jame.",
-            "Padarykite komandos narių selfie nuotrauką šalia akmens."
+            "Padarykite komandos narių nuotrauką šalia akmens."
         ],
         "points": 2,
         "attempts": 2,
