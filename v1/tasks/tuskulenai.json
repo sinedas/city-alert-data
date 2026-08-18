@@ -1,6 +1,32 @@
 [
     {
         "id": "1",
+        "name": "Žirmūnų biblioteka",
+        "lat": 54.69892839600735,   
+        "lng": 25.30018131216362,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["bibliotekav2.webp"],
+            "changeInterval": 0
+        },    
+        "image": "petro.png",
+        "text": [
+            "Raidžių labirintas. Eikite po žingsnelį nuo raidės 'P' ir raskite knygos pavadinimą. Eiti galima žemyn, aukštyn, kairėn arba dešinėn."
+        ],
+        "answer": ["PETRO IMPERATORĖ"],
+        "points": 4,
+        "attempts": 5,
+        "time": 5,
+        "hint": {
+            "image": "petro_hint.png",
+            "points": 2
+        }
+    },
+    {
+        "id": "2",
         "name": "Tuskulėnų dvaro rūmai",
         "lat": 54.6990436702467,
         "lng": 25.303356395621584,
@@ -27,32 +53,6 @@
                 "",
                 "Kokias spalvas dar maišėte mokykloje?"
             ],
-            "points": 2
-        }
-    },
-    {
-        "id": "2",
-        "name": "Žirmūnų biblioteka",
-        "lat": 54.69892839600735,   
-        "lng": 25.30018131216362,
-        "startType": "carousel",
-        "startCarousel": {
-            "text": [                    
-                "Užduočiai atlikti turite 5 minutes."
-            ],
-            "images": ["bibliotekav2.webp"],
-            "changeInterval": 0
-        },    
-        "image": "petro.png",
-        "text": [
-            "Raidžių labirintas. Eikite po žingsnelį nuo raidės 'P' ir raskite knygos pavadinimą. Eiti galima žemyn, aukštyn, kairėn arba dešinėn."
-        ],
-        "answer": ["PETRO IMPERATORĖ"],
-        "points": 4,
-        "attempts": 5,
-        "time": 5,
-        "hint": {
-            "image": "petro_hint.png",
             "points": 2
         }
     },
