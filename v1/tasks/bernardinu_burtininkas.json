@@ -276,7 +276,15 @@
         "answer": ["ŠIRDIS"],
         "points": 6,
         "attempts": 5,
-        "time": 7
+        "time": 7,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+             "text": [
+                "Atsakymas - Širdis."
+            ],
+
+            "images": ["sirdis_answer.png"]
+        }
     },
     {
         "id": "9",
