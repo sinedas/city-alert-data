@@ -455,7 +455,7 @@
     "duration": 120,
     "level": "Lengvas",
     "active": true,
-    "locked": false,
+    "locked": true,
     "circle": true,
     "description": "Kauno burtininko lagaminas ir burtų lazdelė.",
     "start": "Perėja į senamiestį",
