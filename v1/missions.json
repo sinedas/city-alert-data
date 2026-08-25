@@ -647,8 +647,8 @@
     "title": "Žvėryno burtininkas",
     "image": "lagaminas.webp",
     "location": {
-      "lat": 54.69796615462954,
-      "lng": 25.25216868843415
+      "lat": 54.6915274079744,
+      "lng": 25.243318934252198
     },
     "initialDiameter": 2300,
     "finalDiameter": 150,
@@ -661,8 +661,8 @@
     "start": "Mergelės Marijos bažnyčia",
     "finish": "Vingio parko tiltas",
     "startLocation": {
-      "lat": 54.6437689365456,
-      "lng": 24.934509694576263
+      "lat": 54.69796615462954,
+      "lng": 25.25216868843415
     },
     "routeImageUrl": "",
     "hints": 20,
