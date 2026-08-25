@@ -641,6 +641,46 @@
       ],
       "points": 2
     }
+  },
+  {
+    "code": "zveryno_burtininkas",
+    "title": "Žvėryno burtininkas",
+    "image": "lagaminas.webp",
+    "location": {
+      "lat": 54.6915274079744,
+      "lng": 25.243318934252198
+    },
+    "initialDiameter": 2300,
+    "finalDiameter": 150,
+    "duration": 120,
+    "level": "Lengvas",
+    "active": true,
+    "locked": true,
+    "circle": true,
+    "description": "Žvėryno burtininko lagaminas ir burtų lazdelė.",
+    "start": "Mergelės Marijos bažnyčia",
+    "finish": "Vingio parko tiltas",
+    "startLocation": {
+      "lat": 54.6437689365456,
+      "lng": 24.934509694576263
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+        "Jūs pradėjote magišką orientacinį žaidimą.",
+        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
+        "Užduočių ratas tolygiai siaurėja.",
+        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
+        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "Laikas jau tiksi.",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
+    }
   }
 
 ]
