@@ -1,0 +1,382 @@
+[
+    {
+      "id": "101",
+      "name": "Fotoalbumas",
+      "lat": 54.6937287155032,
+      "lng": 25.246713463260605,
+      "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        }, 
+      "type": "matchmaker",
+      "iconType": "book",
+      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+      "matchmaker": {
+        "images": [
+          "jekaterina.webp",
+          "stiklas.webp",
+          "paukstis.webp",
+          "marija.webp",
+          "marija2.webp",
+          "kazachstan.webp",
+          "drugelis.webp",
+          "angelas.webp",
+          "1910.webp",
+          "bona.webp",
+          "fontanas.webp",
+          "arkliukas.webp",
+          "azuoliukas.webp",
+          "lvovas.webp",
+          "vytis.webp",
+          "roze.webp",
+          "zuikis.webp",
+          "kubiliute.webp",
+          "mumis.webp",
+          "stebuklas.webp"
+        ],
+        "displayCount": 10
+      },
+      "answer": ["marija2.webp"],      
+      "points": 2,
+      "attempts": 1,
+      "time": 5,
+      "reward": {
+        "text": "",
+        "image": "marija2.webp"
+      }
+    },
+    {
+        "id": "102",
+        "name": "Fotoalbumas",
+        "lat": 54.68964638389677,
+        "lng": 25.24659417238846,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Stebuklinga knyga staiga virto fotoalbumu.",
+                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                  "",
+                  "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "fotoalbumas.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "jekaterina.webp",
+            "stiklas.webp",
+            "paukstis.webp",
+            "marija.webp",
+            "marija2.webp",
+            "kazachstan.webp",
+            "drugelis.webp",
+            "angelas.webp",
+            "1910.webp",
+            "bona.webp",
+            "fontanas.webp",
+            "arkliukas.webp",
+            "azuoliukas.webp",
+            "lvovas.webp",
+            "vytis.webp",
+            "roze.webp",
+            "zuikis.webp",
+            "kubiliute.webp",
+            "mumis.webp",
+            "stebuklas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["kazachstan.webp"],      
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "kazachstan.webp"
+        }
+      },
+      {
+        "id": "103",
+        "name": "Fotoalbumas",
+        "lat": 54.69265701400386,
+        "lng": 25.24478360236307,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Stebuklinga knyga staiga virto fotoalbumu.",
+                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                  "",
+                  "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "fotoalbumas.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "jekaterina.webp",
+            "stiklas.webp",
+            "paukstis.webp",
+            "marija.webp",
+            "marija2.webp",
+            "kazachstan.webp",
+            "drugelis.webp",
+            "angelas.webp",
+            "1910.webp",
+            "bona.webp",
+            "fontanas.webp",
+            "arkliukas.webp",
+            "azuoliukas.webp",
+            "lvovas.webp",
+            "vytis.webp",
+            "roze.webp",
+            "zuikis.webp",
+            "kubiliute.webp",
+            "mumis.webp",
+            "stebuklas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["jekaterina.webp"],      
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "jekaterina.webp"
+        }
+      },
+      {
+        "id": "104",
+        "name": "Fotoalbumas",
+        "lat": 54.69704491997938,
+        "lng": 25.24298112324834,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Stebuklinga knyga staiga virto fotoalbumu.",
+                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                  "",
+                  "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "fotoalbumas.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "jekaterina.webp",
+            "stiklas.webp",
+            "paukstis.webp",
+            "marija.webp",
+            "marija2.webp",
+            "kazachstan.webp",
+            "drugelis.webp",
+            "angelas.webp",
+            "1910.webp",
+            "bona.webp",
+            "fontanas.webp",
+            "arkliukas.webp",
+            "azuoliukas.webp",
+            "lvovas.webp",
+            "vytis.webp",
+            "roze.webp",
+            "zuikis.webp",
+            "kubiliute.webp",
+            "mumis.webp",
+            "stebuklas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["marija.webp"],      
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "marija.webp"
+        }
+      },
+      {
+        "id": "105",
+        "name": "Fotoalbumas",
+        "lat": 54.6970800545078,
+        "lng": 25.24515552701019,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Stebuklinga knyga staiga virto fotoalbumu.",
+                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                  "",
+                  "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "fotoalbumas.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "jekaterina.webp",
+            "stiklas.webp",
+            "paukstis.webp",
+            "marija.webp",
+            "marija2.webp",
+            "kazachstan.webp",
+            "drugelis.webp",
+            "angelas.webp",
+            "1910.webp",
+            "bona.webp",
+            "fontanas.webp",
+            "arkliukas.webp",
+            "azuoliukas.webp",
+            "lvovas.webp",
+            "vytis.webp",
+            "roze.webp",
+            "zuikis.webp",
+            "kubiliute.webp",
+            "mumis.webp",
+            "stebuklas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["paukstis.webp"],      
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "paukstis.webp"
+        }
+      },
+      {
+        "id": "106",
+        "name": "Fotoalbumas",
+        "lat": 54.69337217379676,
+        "lng": 25.243001420760134,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Stebuklinga knyga staiga virto fotoalbumu.",
+                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                  "",
+                  "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "fotoalbumas.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "jekaterina.webp",
+            "stiklas.webp",
+            "paukstis.webp",
+            "marija.webp",
+            "marija2.webp",
+            "kazachstan.webp",
+            "drugelis.webp",
+            "angelas.webp",
+            "1910.webp",
+            "bona.webp",
+            "fontanas.webp",
+            "arkliukas.webp",
+            "azuoliukas.webp",
+            "lvovas.webp",
+            "vytis.webp",
+            "roze.webp",
+            "zuikis.webp",
+            "kubiliute.webp",
+            "mumis.webp",
+            "stebuklas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["stiklas.webp"],      
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "stiklas.webp"
+        }
+      },
+      {
+        "id": "107",
+        "name": "Fotoalbumas",
+        "lat": 54.6948644608394,
+        "lng": 25.24998651743984,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Stebuklinga knyga staiga virto fotoalbumu.",
+                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                  "",
+                  "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "fotoalbumas.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "jekaterina.webp",
+            "stiklas.webp",
+            "paukstis.webp",
+            "marija.webp",
+            "marija2.webp",
+            "kazachstan.webp",
+            "drugelis.webp",
+            "angelas.webp",
+            "1910.webp",
+            "bona.webp",
+            "fontanas.webp",
+            "arkliukas.webp",
+            "azuoliukas.webp",
+            "lvovas.webp",
+            "vytis.webp",
+            "roze.webp",
+            "zuikis.webp",
+            "kubiliute.webp",
+            "mumis.webp",
+            "stebuklas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["drugelis.webp"],      
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "drugelis.webp"
+        }
+      }
+      
+  ]
+    
