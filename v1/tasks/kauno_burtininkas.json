@@ -235,8 +235,8 @@
     {
         "id": "8",
         "name": "Meilės kryžiažodis",
-        "lat": 54.89522178478762,
-        "lng": 23.88992440743027,
+        "lat": 54.89522647777666,
+        "lng": 23.89097011363802,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -573,7 +573,7 @@
         },
         "text": [
             "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
-            "O tuo metu Trakų pilį puolė kryžiuočių būrys.",
+            "O tuo metu Kauno pilį puolė kryžiuočių būrys.",
             "Padarykite nuotrauką taip, tarsi gintumėtės nuo užpuolikų ir rankose laikytumėte kardus, ietis bei skydus."
         ],
         "points": 5,

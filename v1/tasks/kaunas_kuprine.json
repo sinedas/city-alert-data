@@ -106,8 +106,8 @@
             "transformationPrompt": "Transform the input photo into a stylized non-photorealistic semi-cartoon illustration using warm beige, ochre, cream and earthy tones with muted greens; simplify details, use flat shading, subtle watercolor texture and clean dark outlines; preserve each person's recognizable appearance, hairstyle, body proportions and original pose. For EACH person individually, preserve their gender presentation from the original photo and apply ONLY matching early-1900s Belle Époque / Edwardian clothing: males wear masculine attire with trousers, tailored suit, waistcoat, tie, overcoat and top hat; females wear feminine attire with a long skirt or dress, fitted blouse or bodice and decorated period hat. Never swap or mix male and female clothing between people. Preserve the number, positions and gender presentation of all people. Maintain a cohesive retro comic watercolor + vector look."
         },
         "text": [
-            "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į 1923 metus.",
-            "Kad sugrižti atgal, padarykite komandos narių nuotrauką vaizduojančių Kauno aukštuomenę."
+            "Fėjos lazdelė ėmė išdykauti. Ji perkėlė jus į praeitį – į 1923 metus.",
+            "Kad sugrįžtumėte į dabartį, padarykite komandos nuotrauką, kurioje įsikūnijate į 1923 metų Kauno aukštuomenę."
         ],
         "points": 4,
         "time": 5
