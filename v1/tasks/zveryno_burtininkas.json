@@ -390,8 +390,8 @@
     {
         "id": "14",
         "name": "Stebuklingi degtukai",
-        "lat": 54.69209273171074,
-        "lng": 25.24522853020552,
+        "lat": 54.692512326965335,
+        "lng": 25.24554235609497,
         "startType": "carousel",
         "startCarousel": {
             "text": [               
@@ -429,7 +429,7 @@
             "startType": "carousel",
             "startCarousel": {
                 "text": [
-                    "Ant pievelės Bernardinų sode yra stebuklinga transporto priemonė.",
+                    "Ant pievelės yra stebuklinga transporto priemonė.",
                     "Tik ji pasislėpusi po nepermatoma uždanga.",
                     "Užduočiai atlikti turite 5 minutes."
                 ],
@@ -474,7 +474,7 @@
         }, 
         "image": "chesstask.webp",
         "text": [
-            "Šachmatų figūros išsirikiavo ant Bernardinų šachmatų lentos.",
+            "Šachmatų figūros išsirikiavo ant staliuko šachmatų lentos.",
             "Suraskite pergalingą juodųjų ėjimą.",
             "",
             "Atsakyme įrašykite tik ėjimą, kur figura turi eiti, pvz.: A1"
@@ -554,7 +554,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Bernardinų sode atsirado stebuklingas laimės ratas.",
+                "Ant takelio atsirado stebuklingas laimės ratas.",
                 "Jūs radote auksinę penkių taškų monetą, už kurią galite sukti laimės ratą.",
                 "Spėkite spalvą – raudoną ar juodą. Kiekvieną kartą atspėjus jūsų taškai dvigubinasi. Pralaimėjus liekate prie pradinės dviejų taškų sumos."
             ],

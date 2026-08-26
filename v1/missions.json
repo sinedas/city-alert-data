@@ -654,7 +654,7 @@
     "finalDiameter": 150,
     "duration": 120,
     "level": "Lengvas",
-    "active": true,
+    "active": false,
     "locked": true,
     "circle": true,
     "description": "Žvėryno burtininko lagaminas ir burtų lazdelė.",
