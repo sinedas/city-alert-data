@@ -650,12 +650,12 @@
       "lat": 54.6915274079744,
       "lng": 25.243318934252198
     },
-    "initialDiameter": 2300,
+    "initialDiameter": 2350,
     "finalDiameter": 150,
     "duration": 120,
     "level": "Lengvas",
-    "active": false,
-    "locked": true,
+    "active": true,
+    "locked": false,
     "circle": true,
     "description": "Žvėryno burtininko lagaminas ir burtų lazdelė.",
     "start": "Mergelės Marijos bažnyčia",
@@ -672,9 +672,6 @@
       "time": 4,
       "text": [
         "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "Laikas jau tiksi.",
         "Užduočiai atlikti turite 4 minutes."

@@ -25,8 +25,7 @@
         ],
         "type": "wordle",
         "answer": [
-            "LYDEKA",
-            "SLIBINAS"
+            "DRAKONAS"
         ],
         "points": 10,
         "attempts": 10,
@@ -200,8 +199,8 @@
     {
         "id": "7",
         "name": "Akiniai",
-        "lat": 54.695193087308674,
-        "lng": 25.24242422220223,
+        "lat": 54.69500493230329,
+        "lng": 25.24181154803507,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -313,8 +312,8 @@
     {   
         "id": "12",
         "name": "Žvėryno tvenkiniai",
-        "lat": 54.69468464522959,
-        "lng": 25.24192376374391,
+        "lat": 54.69522187596388,
+        "lng": 25.24301164101442,
         "startType": "carousel",
         "startCarousel": {
             "text": [ 
@@ -625,6 +624,75 @@
             "Tegu komandos nariai iš savo rankų padaro širdelę. Padarykite komandos nuotrauką taip, kad tilto širdis atsidurtų komandos narių širdyje."],
         "points": 5,
         "time": 5
+    },
+    {   
+        "id": "34",
+        "name": "Užsirakinęs lagaminas",
+        "lat": 54.694580195624674,
+        "lng": 25.24214947885919,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [ 
+                "Lagaminas netikėtai užsirakino kodine spyna.",                                
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["spyna.webp"],
+            "changeInterval": 0
+        },
+        "image": "spyna.webp",
+        "text": [
+            "Lagaminą užrakino 4 skaitmenų kodinė spyna. Atrakinti ją padės atsakymas į šį klausimą.",
+            "Kuriais metais gimė „Žvėryno siela“ Vytautas Damaševičius?"
+        ],
+        "answer": ["1944"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Ant suoliuko yra Vytautui Damaševičiui atminti skirta lentelė."
+            ],
+            "points": 3
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Lagaminas atsirakino, o kodinė spyna išnyko."
+            ],
+            "images": ["lagaminas.webp"]
+        }
+    },
+    {   
+        "id": "36",
+        "name": "Užsirakinęs lagaminas",
+        "lat": 54.689340,
+        "lng":  25.245480,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [ 
+                "Lagaminas vėl užsirakino kodine spyna.",                                
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["spyna.webp"],
+            "changeInterval": 0
+        },
+        "image": "spyna.webp",
+        "text": [
+            "Lagaminą užrakino 4 skaitmenų kodinė spyna. Atrakinti ją padės atsakymas į šį klausimą.",
+            "Kuriais metais pastatytas Vingio parko pėsčiųjų tiltas?"
+        ],
+        "answer": ["1985"],
+        "points": 6,
+        "attempts": 5,
+        "time": 6,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Lagaminas atsirakino, o kodinė spyna išnyko."
+            ],
+            "images": ["lagaminas.webp"]
+        }
     }
+    
 
 ]
