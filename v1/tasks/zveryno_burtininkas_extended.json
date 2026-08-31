@@ -1,4 +1,56 @@
 [
+  {
+    "id": "100",
+    "name": "Fotoalbumas",
+    "lat": 54.69716479023086,
+    "lng": 25.24878921762783,
+    "startType": "carousel",
+      "startCarousel": {
+          "text": [
+              "Stebuklinga knyga staiga virto fotoalbumu.",
+              "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+              "",
+              "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+              "fotoalbumas.webp"
+          ]
+      }, 
+    "type": "matchmaker",
+    "iconType": "book",
+    "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+    "matchmaker": {
+      "images": [
+        "jekaterina.webp",
+        "stiklas.webp",
+        "paukstis.webp",
+        "marija.webp",
+        "marija2.webp",
+        "kazachstan.webp",
+        "drugelis.webp",
+        "angelas.webp",
+        "1910.webp",
+        "herbas.webp",
+        "peleda.webp"
+      ],  
+      "displayCount": 10
+    },
+    "answer": ["herbas.webp"],      
+    "points": 2,
+    "attempts": 1,
+    "time": 5,
+    "hint": 
+    {
+        "text": [
+            "Ieškokite pašto dėžutės."
+        ],   
+        "points": 1
+    },
+    "reward": {
+      "text": "",
+      "image": "herbas.webp"
+    }
+  },
     {
       "id": "101",
       "name": "Fotoalbumas",
@@ -30,18 +82,9 @@
           "drugelis.webp",
           "angelas.webp",
           "1910.webp",
-          "bona.webp",
-          "fontanas.webp",
-          "arkliukas.webp",
-          "azuoliukas.webp",
-          "lvovas.webp",
-          "vytis.webp",
-          "roze.webp",
-          "zuikis.webp",
-          "kubiliute.webp",
-          "mumis.webp",
-          "stebuklas.webp"
-        ],
+          "herbas.webp",
+          "peleda.webp"
+        ],  
         "displayCount": 10
       },
       "answer": ["marija2.webp"],      
@@ -138,17 +181,12 @@
             "drugelis.webp",
             "angelas.webp",
             "1910.webp",
-            "bona.webp",
+            "herbas.webp",
+            "peleda.webp",
+
             "fontanas.webp",
-            "arkliukas.webp",
             "azuoliukas.webp",
-            "lvovas.webp",
-            "vytis.webp",
-            "roze.webp",
-            "zuikis.webp",
-            "kubiliute.webp",
-            "mumis.webp",
-            "stebuklas.webp"
+            "lvovas.webp"
           ],
           "displayCount": 10
         },
@@ -192,17 +230,8 @@
             "drugelis.webp",
             "angelas.webp",
             "1910.webp",
-            "bona.webp",
-            "fontanas.webp",
-            "arkliukas.webp",
-            "azuoliukas.webp",
-            "lvovas.webp",
-            "vytis.webp",
-            "roze.webp",
-            "zuikis.webp",
-            "kubiliute.webp",
-            "mumis.webp",
-            "stebuklas.webp"
+            "herbas.webp",
+            "peleda.webp"
           ],
           "displayCount": 10
         },
@@ -237,7 +266,6 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
           "images": [
-            "jekaterina.webp",
             "stiklas.webp",
             "paukstis.webp",
             "marija.webp",
@@ -246,17 +274,8 @@
             "drugelis.webp",
             "angelas.webp",
             "1910.webp",
-            "bona.webp",
-            "fontanas.webp",
-            "arkliukas.webp",
-            "azuoliukas.webp",
-            "lvovas.webp",
-            "vytis.webp",
-            "roze.webp",
-            "zuikis.webp",
-            "kubiliute.webp",
-            "mumis.webp",
-            "stebuklas.webp"
+            "herbas.webp",
+            "peleda.webp"
           ],
           "displayCount": 10
         },
@@ -300,17 +319,12 @@
             "drugelis.webp",
             "angelas.webp",
             "1910.webp",
-            "bona.webp",
+            "herbas.webp",
+            "peleda.webp",
+
             "fontanas.webp",
-            "arkliukas.webp",
             "azuoliukas.webp",
-            "lvovas.webp",
-            "vytis.webp",
-            "roze.webp",
-            "zuikis.webp",
-            "kubiliute.webp",
-            "mumis.webp",
-            "stebuklas.webp"
+            "lvovas.webp"
           ],
           "displayCount": 10
         },
@@ -354,17 +368,12 @@
             "drugelis.webp",
             "angelas.webp",
             "1910.webp",
-            "bona.webp",
+            "herbas.webp",
+            "peleda.webp",
+
             "fontanas.webp",
-            "arkliukas.webp",
             "azuoliukas.webp",
-            "lvovas.webp",
-            "vytis.webp",
-            "roze.webp",
-            "zuikis.webp",
-            "kubiliute.webp",
-            "mumis.webp",
-            "stebuklas.webp"
+            "lvovas.webp"
           ],
           "displayCount": 10
         },
@@ -375,6 +384,55 @@
         "reward": {
           "text": "",
           "image": "drugelis.webp"
+        }
+      },
+      {
+        "id": "108",
+        "name": "Fotoalbumas",
+        "lat": 54.69487582843457,
+        "lng": 25.250404383103913,
+        "startType": "carousel",
+          "startCarousel": {
+              "text": [
+                  "Stebuklinga knyga staiga virto fotoalbumu.",
+                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                  "",
+                  "Užduočiai atlikti turite 5 minutes."
+              ],
+              "images": [
+                  "fotoalbumas.webp"
+              ]
+          }, 
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "jekaterina.webp",
+            "stiklas.webp",
+            "paukstis.webp",
+            "marija.webp",
+            "marija2.webp",
+            "kazachstan.webp",
+            "drugelis.webp",
+            "angelas.webp",
+            "1910.webp",
+            "herbas.webp",
+            "peleda.webp",
+
+            "fontanas.webp",
+            "azuoliukas.webp",
+            "lvovas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": ["peleda.webp"],      
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "peleda.webp"
         }
       }
       
