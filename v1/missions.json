@@ -29,9 +29,6 @@
       "time": 4,
       "text": [
         "Jūs pradėjote žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
@@ -176,9 +173,6 @@
       "time": 4,
       "text": [
         "Jūs pradėjote žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
@@ -280,10 +274,7 @@
       "time": 4,
       "text": [
         "You have started the game.",
-        "Plan your route, because you will only be able to start tasks when they are inside the red task zone.",
-        "The task zone gradually shrinks over time.",
-        "You will be able to submit answers later, as long as the task time has not expired.",
-        "Your first task is to come up with a team name.",
+         "Your first task is to come up with a team name.",
         "",
         "You have 4 minutes to complete the task."
       ],
@@ -393,9 +384,6 @@
       "time": 4,
       "text": [
         "Jūs pradėjote žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
@@ -432,14 +420,20 @@
       "time": 4,
       "text": [
         "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
       ],
       "points": 2
+    },
+    "endPage": {
+      "title": "Žaidimo pabaiga",
+      "text": [
+        "Jūsų magiškas nuotykis pasibaigė.",
+        "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
+        "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Bernardinų burtininkas“"
+      ],
+      "image": "lagaminasv2.webp"
     }
   },
   {
@@ -472,9 +466,6 @@
       "time": 4,
       "text": [
         "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
@@ -512,14 +503,20 @@
       "time": 4,
       "text": [
         "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
       ],
       "points": 2
+    },
+    "endPage": {
+      "title": "Žaidimo pabaiga",
+      "text": [
+        "Jūsų magiškas nuotykis pasibaigė.",
+        "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
+        "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Bernardinų burtininkas“"
+      ],
+      "image": "lagaminas.webp"
     }
   },
   {
@@ -552,9 +549,6 @@
       "time": 4,
       "text": [
         "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
@@ -592,14 +586,20 @@
       "time": 4,
       "text": [
         "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
       ],
       "points": 2
+    },
+    "endPage": {
+      "title": "Žaidimo pabaiga",
+      "text": [
+        "Jūsų magiškas nuotykis pasibaigė.",
+        "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
+        "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Bernardinų burtininkas“"
+      ],
+      "image": "lagaminasv2.webp"
     }
   },
   {
@@ -632,9 +632,6 @@
       "time": 4,
       "text": [
         "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Susiplanuokite maršrutą, nes užduotis galėsite pradėti tik tada, kai jos bus raudoname užduočių rate.",
-        "Užduočių ratas tolygiai siaurėja.",
-        "Atsakymus galėsite įvesti ir vėliau, jei užduoties laikas dar nebus pasibaigęs.",
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "Laikas jau tiksi.",
         "Užduočiai atlikti turite 4 minutes."
@@ -645,7 +642,7 @@
   {
     "code": "zveryno_burtininkas",
     "title": "Žvėryno burtininkas",
-    "image": "zveryno_lagaminas2.webp",
+    "image": "lagaminas.webp",
     "location": {
       "lat": 54.6915274079744,
       "lng": 25.243318934252198
