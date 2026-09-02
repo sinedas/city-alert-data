@@ -119,9 +119,11 @@ describe('Mission image files exist on disk', () => {
     expect(Array.isArray(list)).toBe(true);
 
     const missing: MissingImage[] = [];
+    let checked = 0;
     for (const m of list as any[]) {
       const cover = m?.image;
       if (!cover || typeof cover !== 'string' || isRemoteUrl(cover)) continue;
+      checked += 1;
       const expectedPath = path.join(IMG_DIR, cover.replace(/^\/+/, ''));
       if (!fs.existsSync(expectedPath)) {
         missing.push({
@@ -132,6 +134,8 @@ describe('Mission image files exist on disk', () => {
       }
     }
 
+    console.log(`\n🖼️ Mission cover images checked: ${checked}`);
+    expect(checked, 'Expected at least one missions.json cover image').toBeGreaterThan(0);
     expect(missing, formatMissing(missing)).toEqual([]);
   });
 
@@ -175,6 +179,7 @@ describe('Mission image files exist on disk', () => {
       checked,
       'Expected at least one missions.json endPage.image to verify on disk'
     ).toBeGreaterThan(0);
+    console.log(`🖼️ endPage images checked: ${checked}`);
     expect(missing, formatMissing(missing)).toEqual([]);
   });
 
@@ -212,6 +217,9 @@ describe('Mission image files exist on disk', () => {
     }
 
     expect(checked, 'Expected to find at least some local image references').toBeGreaterThan(0);
+    console.log(
+      `🖼️ Task JSON image references checked: ${checked} (${taskFiles.length} task files)`
+    );
     expect(missing, formatMissing(missing)).toEqual([]);
   });
 });
