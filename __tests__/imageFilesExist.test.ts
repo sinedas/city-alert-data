@@ -8,6 +8,7 @@
  * Path rules (mirror city-alert image loading):
  *  - mission cover `image` → v1/img/{file}
  *  - task images → v1/img/{folder}/{file}
+ *  - endPage.image → v1/img/{folder}/{file} (same as task images)
  *  - `shared/...` → v1/img/shared/...
  *  - folder = missions.json `folder` ?? code; `*_extended` uses parent folder
  *  - http(s) URLs skipped; `[img source=…]` text tags are app assets (not checked)
@@ -127,6 +128,43 @@ describe('Mission image files exist on disk', () => {
           source: `missions.json:${m.code ?? '?'}`,
           image: cover,
           expectedPath: path.relative(path.join(IMG_DIR, '..', '..'), expectedPath),
+        });
+      }
+    }
+
+    expect(missing, formatMissing(missing)).toEqual([]);
+  });
+
+  it('all missions.json endPage images exist under v1/img/{folder}/', () => {
+    expect(fs.existsSync(MISSIONS_JSON)).toBe(true);
+    const list = loadJson(MISSIONS_JSON);
+    expect(Array.isArray(list)).toBe(true);
+
+    const imageFolderByCode = getMissionImageFolderMap();
+    const missing: MissingImage[] = [];
+
+    for (const m of list as any[]) {
+      const endPageImage = m?.endPage?.image;
+      if (
+        !endPageImage ||
+        typeof endPageImage !== 'string' ||
+        isRemoteUrl(endPageImage)
+      ) {
+        continue;
+      }
+
+      const code = m?.code;
+      if (typeof code !== 'string') continue;
+
+      const imageFolder = resolveImageFolder(code, imageFolderByCode);
+      const absolute = resolveLocalImagePath(endPageImage, imageFolder);
+      if (!absolute) continue;
+
+      if (!fs.existsSync(absolute)) {
+        missing.push({
+          source: `missions.json:${code}:endPage`,
+          image: endPageImage,
+          expectedPath: path.relative(path.join(IMG_DIR, '..', '..'), absolute),
         });
       }
     }

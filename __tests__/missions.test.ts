@@ -750,5 +750,37 @@ describe('Mission List (missions.json)', () => {
         }
       });
     });
+
+    it('should have valid endPage structure (if present)', () => {
+      missions.forEach((mission, index) => {
+        if (mission.endPage) {
+          expect(
+            mission.endPage.title,
+            `Mission [${index}] "${mission.code}" endPage should have "title"`
+          ).toBeDefined();
+
+          if (mission.endPage.text) {
+            expect(
+              Array.isArray(mission.endPage.text),
+              `Mission [${index}] "${mission.code}" endPage.text should be an array`
+            ).toBe(true);
+
+            mission.endPage.text.forEach((textItem: any, textIndex: number) => {
+              expect(
+                typeof textItem === 'string',
+                `Mission [${index}] "${mission.code}" endPage.text[${textIndex}] should be a string`
+              ).toBe(true);
+            });
+          }
+
+          if (mission.endPage.image !== undefined) {
+            expect(
+              typeof mission.endPage.image,
+              `Mission [${index}] "${mission.code}" endPage.image should be a string`
+            ).toBe('string');
+          }
+        }
+      });
+    });
   });
 });
