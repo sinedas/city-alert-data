@@ -19,12 +19,15 @@ import fs from 'fs';
 import path from 'path';
 import { TASKS_DIR, MISSIONS_JSON, IMG_DIR } from './helpers/paths';
 
-interface MissingImage {
+interface ImageReference {
   source: string;
   task?: string;
   image: string;
   expectedPath: string;
+  absolute: string;
 }
+
+type MissingImage = Omit<ImageReference, 'absolute'>;
 
 function getTaskFiles(): string[] {
   if (!fs.existsSync(TASKS_DIR)) return [];
@@ -184,12 +187,12 @@ describe('Mission image files exist on disk', () => {
   });
 
   it('all task JSON image references exist under v1/img/', () => {
+    const startedAt = Date.now();
     const taskFiles = getTaskFiles();
     expect(taskFiles.length).toBeGreaterThan(0);
 
     const imageFolderByCode = getMissionImageFolderMap();
-    const missing: MissingImage[] = [];
-    let checked = 0;
+    const references: ImageReference[] = [];
 
     for (const filename of taskFiles) {
       const missionCode = filename.replace(/\.json$/, '');
@@ -203,23 +206,37 @@ describe('Mission image files exist on disk', () => {
         for (const imagePath of extractImagePaths(task)) {
           const absolute = resolveLocalImagePath(imagePath, imageFolder);
           if (!absolute) continue; // remote URL
-          checked += 1;
-          if (!fs.existsSync(absolute)) {
-            missing.push({
-              source: filename,
-              task: task.id ?? '(no id)',
-              image: imagePath,
-              expectedPath: path.relative(path.join(IMG_DIR, '..', '..'), absolute),
-            });
-          }
+          references.push({
+            source: filename,
+            task: task.id ?? '(no id)',
+            image: imagePath,
+            expectedPath: path.relative(path.join(IMG_DIR, '..', '..'), absolute),
+            absolute,
+          });
         }
       }
     }
 
-    expect(checked, 'Expected to find at least some local image references').toBeGreaterThan(0);
+    expect(
+      references.length,
+      'Expected to find at least some local image references'
+    ).toBeGreaterThan(0);
+
+    // One fs.existsSync per unique path (same file reused across tasks is normal).
+    const uniquePaths = new Set(references.map((r) => r.absolute));
+    const missing: MissingImage[] = [];
+    for (const absolute of uniquePaths) {
+      if (!fs.existsSync(absolute)) {
+        const { absolute: _a, ...entry } = references.find((r) => r.absolute === absolute)!;
+        missing.push(entry);
+      }
+    }
+
+    const elapsedMs = Date.now() - startedAt;
     console.log(
-      `🖼️ Task JSON image references checked: ${checked} (${taskFiles.length} task files)`
+      `🖼️ Task images: ${references.length} JSON references → ${uniquePaths.size} unique files checked on disk (${taskFiles.length} task files, ${elapsedMs}ms)`
     );
+
     expect(missing, formatMissing(missing)).toEqual([]);
   });
 });
