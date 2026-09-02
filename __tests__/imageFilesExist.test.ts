@@ -142,6 +142,7 @@ describe('Mission image files exist on disk', () => {
 
     const imageFolderByCode = getMissionImageFolderMap();
     const missing: MissingImage[] = [];
+    let checked = 0;
 
     for (const m of list as any[]) {
       const endPageImage = m?.endPage?.image;
@@ -160,6 +161,7 @@ describe('Mission image files exist on disk', () => {
       const absolute = resolveLocalImagePath(endPageImage, imageFolder);
       if (!absolute) continue;
 
+      checked += 1;
       if (!fs.existsSync(absolute)) {
         missing.push({
           source: `missions.json:${code}:endPage`,
@@ -169,6 +171,10 @@ describe('Mission image files exist on disk', () => {
       }
     }
 
+    expect(
+      checked,
+      'Expected at least one missions.json endPage.image to verify on disk'
+    ).toBeGreaterThan(0);
     expect(missing, formatMissing(missing)).toEqual([]);
   });
 
