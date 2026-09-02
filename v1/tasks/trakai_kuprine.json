@@ -92,7 +92,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdikauti.",
+                "Fėjos lazdelė ėmė išdykauti.",
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
@@ -106,7 +106,7 @@
             "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, ochre, cream, earthy tones, soft greens), simplified shapes, flat shading, watercolor texture and dark outlines; redraw all people in a bold retro comic-inspired illustration style (flat colors, minimal shading, clean strong outlines), preserving their original poses, positions and recognizable facial identity, including face shape, hairstyle, hair color, facial hair and key facial features, while keeping faces stylized rather than photorealistic; replace modern clothing with Napoleonic-era military uniforms featuring fitted coats, cross-belts, high collars, trousers, boots and tall military shakos; preserve the original environment, composition and perspective so the figures integrate naturally into the illustrated scene."
         },
         "text": [
-            "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į 1812 metus.",
+            "Fėjos lazdelė ėmė išdykauti. Ji perkėlė jus į praeitį - į 1812 metus.",
             "Kad sugrižtumėte,  suraskite lentelę su 1812 metų paminėjimu ir Napoleono kariais.",
             "Padarykite komandos nuotrauką taip, kad matytųsi komanda, lentelė ir Trakų bažnyčia."
         ],

@@ -558,7 +558,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdikauti.",
+                "Fėjos lazdelė ėmė išdykauti.",
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
@@ -572,7 +572,7 @@
             "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, ochre, cream, earthy tones, soft greens), simplified shapes, reduced detail, flat shading, watercolor texture and thin-to-medium dark outlines. Keep the original environment, composition and perspective, avoiding photorealistic lighting and textures. Transform all people into naturally integrated retro comic-style illustrated characters with flat colors and clean outlines, preserving their original poses, positions, clothing, proportions and recognizable facial features. Place an upside-down cooking pot on each person’s head like a funny helmet, keeping faces visible. Give each person a different humorous object to hold, such as a magic wand, frying pan, broom or clothes iron. Keep everything cohesive, playful and naturally integrated into the illustrated scene."
         },
         "text": [
-            "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
+            "Fėjos lazdelė ėmė išdykauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
             "O tuo metu Kauno pilį puolė kryžiuočių būrys.",
             "Padarykite nuotrauką taip, tarsi gintumėtės nuo užpuolikų ir rankose laikytumėte kardus, ietis bei skydus."
         ],
@@ -674,7 +674,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdikauti.",
+                "Fėjos lazdelė ėmė išdykauti.",
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
@@ -688,7 +688,7 @@
             "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, ochre, cream, earthy tones, soft greens), simplified shapes, reduced detail, flat shading, watercolor texture and thin-to-medium dark outlines. Keep the original environment, composition and perspective, avoiding photorealistic lighting and textures. Transform all people into naturally integrated retro comic-style illustrated characters, preserving their original poses, positions, proportions and recognizable facial features. Replace their modern clothing with authentic Ancient Greek attire: draped chitons, tunics, himations, cloaks, leather sandals and simple period accessories, with historically appropriate variations for men and women. Keep the scene cohesive, natural and clearly illustrated."
         },
         "text": [
-            "Fėjos lazdelė ėmė išdikauti ir drebinti tunelį. Tunelio lubos gali nugriūti.",
+            "Fėjos lazdelė ėmė išdykauti ir drebinti tunelį. Tunelio lubos gali nugriūti.",
             ".",
             "Padarykite komandos narių nuotrauką, kur jūs laikote tunelio lubas. Padarius nuotrauką, lazdelės išdaigos pasibaigs."
         ],

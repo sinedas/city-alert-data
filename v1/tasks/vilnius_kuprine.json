@@ -92,7 +92,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdikauti.",
+                "Fėjos lazdelė ėmė išdykauti.",
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
@@ -106,7 +106,7 @@
             "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally. Each person should hold a funny object such as a magic wand, frying pan, broom, clothes iron, or similar humorous prop."
         },
         "text": [
-            "Fėjos lazdelė ėmė išdikauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
+            "Fėjos lazdelė ėmė išdykauti. Ji perkėlė jus į praeitį - į Vytauto Didžiojo laikus.",
             "O tuo metu Gedimino pilį puolė kryžiuočių būrys.",
             "Padarykite nuotrauką taip, tarsi gintumėtės nuo užpuolikų ir rankose laikytumėte kardus, ietis bei skydus."
         ],
