@@ -138,13 +138,17 @@
         "points": 5,
         "attempts": 6,
         "time": 6,
-        "rewardType": "carousel",
+        "hint": {
+            "text": "Vieną pieštuką perkėlėm, o kur perkelti antrą?",
+            "image": "1945_hint.webp",
+            "points": 2
+        },
+        "rewardType": "carousel",        
         "rewardCarousel": {
             "text": [
-                "Šalia Šokoladinės randate lagaminą.",
-                "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Trakų burtininkas“."
+                "Atsakymas - 846."
             ],
-            "images": ["lagaminasv2.webp"]
+            "images": ["846.webp"]
         }
         
     }
