@@ -536,6 +536,100 @@
     }
   },
   {
+    "code": "vilnius_kuprine_en",
+    "folder": "vilnius_kuprine",
+    "title": "Fėjos kuprinė Vilniuje",
+    "image": "kuprine.webp",
+    "location": {
+      "lat": 54.68748589826468,
+      "lng": 25.28872933687652
+    },
+    "initialDiameter": 800,
+    "finalDiameter": 200,
+    "duration": 30,
+    "level": "Lengvas",
+    "active": true,
+    "locked": false,
+    "circle": true,
+    "description": "Įvadinė Bernardinų burtininko misija su stebuklinga kuprine ir lazdele.",
+    "start": "Taikomasis Dailės muziejus- Arsenalo g. 3А",
+    "finish": "Mindaugo paminklas",
+    "startLocation": {
+      "lat": 54.68847474351601,
+      "lng": 25.292252436954136
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+        "Jūs pradėjote magišką orientacinį žaidimą.",
+        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
+    },
+    "endPage": {
+      "title": "Žaidimo pabaiga",
+      "text": [
+        "Jūsų magiškas nuotykis pasibaigė.",
+        "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
+        "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Bernardinų burtininkas“"
+      ],
+      "image": "lagaminas.webp"
+    }
+  },
+  {
+    "code": "vilnius_fairy_en",
+    "folder": "vilnius_kuprine",
+    "title": "The Fairy's Backpack in Vilnius",
+    "image": "kuprine.webp",
+    "location": {
+      "lat": 54.68748589826468,
+      "lng": 25.28872933687652
+    },
+    "initialDiameter": 800,
+    "finalDiameter": 200,
+    "duration": 30,
+    "level": "Easy",
+    "active": true,
+    "locked": true,
+    "circle": true,
+    "description": "An introductory mission to Bernardinai Wizard, featuring a magical backpack and wand.",
+    "start": "Museum of Applied Arts and Design — 3A Arsenalo St.",
+    "finish": "Monument to King Mindaugas",
+    "startLocation": {
+      "lat": 54.68847474351601,
+      "lng": 25.292252436954136
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Team name",
+      "time": 4,
+      "text": [
+        "You have started a magical scavenger hunt.",
+        "Your first task is to come up with a team name.",
+        "",
+        "You have 4 minutes to complete the task."
+      ],
+      "points": 2
+    },
+    "endPage": {
+      "title": "End of the game",
+      "text": [
+        "Your magical adventure is over.",
+        "But near the location of the final task, you found a mysterious suitcase.",
+        "If you want to discover what is inside, play the \"Bernardinai Wizard\" mission."
+      ],
+      "image": "lagaminas.webp"
+    }
+  },
+  {
     "code": "bernardinu_burtininkas",
     "title": "Bernardinų burtininkas",
     "image": "lagaminas.webp",
@@ -569,6 +663,44 @@
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
+    }
+  },
+  {
+    "code": "bernardinai_wizard_en",
+    "folder": "bernardinu_burtininkas",
+    "title": "The Bernardinai Wizard",
+    "image": "lagaminas.webp",
+    "location": {
+      "lat": 54.6837165738804,
+      "lng": 25.297270020588194
+    },
+    "initialDiameter": 1950,
+    "finalDiameter": 150,
+    "duration": 120,
+    "level": "Easy",
+    "active": true,
+    "locked": true,
+    "circle": true,
+    "description": "The Bernardinai Wizard's suitcase and magic wand.",
+    "start": "King Mindaugas Monument",
+    "finish": "Bernardinai Garden",
+    "startLocation": {
+      "lat": 54.687636841936694,
+      "lng": 25.28850095091941
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Team Name",
+      "time": 4,
+      "text": [
+        "You have started a magical outdoor adventure.",
+        "Your first task is to come up with a name for your team.",
+        "",
+        "You have 4 minutes to complete the task."
       ],
       "points": 2
     }

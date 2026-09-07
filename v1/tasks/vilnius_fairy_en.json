@@ -1,0 +1,153 @@
+[
+    {
+        "id": "1",
+        "name": "Letter maths",
+        "lat": 54.68847474351601,
+        "lng": 25.292252436954136,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Next to the entrance of the Museum of Applied Arts you find a backpack, a wand with a little star, and a notebook.",
+                "On the notebook cover it says:",
+                "Scatterbrain Vėtrunė",
+                "Fairy School",
+                "Class 3a",
+                "Basics of Magic",
+                "You have 7 minutes to complete the task."
+            ],
+            "images": [
+                "kuprine.webp"
+            ]
+        },
+        "image": "letters.webp",
+        "text": [
+            "I wonder how to open the backpack? Suddenly the notebook flips open to a problem:",
+            "One has 3",
+            "Three has 5",
+            "Five has 4",
+            "How many does Thirteen have?",
+            "The answer tells you how many times to wave the wand for the backpack to open."
+        ],
+        "answer": ["8"],
+        "points": 5,
+        "attempts": 5,
+        "time": 7,
+        "hint": {
+            "text": "Pay attention to the word \"Letter\".",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "You waved the wand eight times and the backpack opened.",
+                "Inside you found the young fairy's school supplies.",
+                "You take the fairy's things and go on to the next tasks."
+            ],
+            "images": ["atidaryta.webp"]
+        }
+    },
+    {
+        "id": "2",
+        "name": "Magical animal",
+        "lat": 54.688066103256595,
+        "lng": 25.290295037996213,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Suddenly the notebook opened.",
+                "Let's play Wordle. Guess the magical animal. A correct letter in the right place will be green. Correct but in the wrong place – yellow. Wrong – grey.",
+                "E.g.: word LATVIA, and you entered LITHUA:",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "You have 10 attempts (10 points). Each wrong attempt – minus 1 point."
+            ],
+            "images": [
+                "gyvunas.webp"
+            ]
+        },
+        "text": [
+            "Guess the magical animal mentioned in the young fairy's notebook."
+        ],
+        "type": "wordle",
+        "answer": [
+            "PHOENIX"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The magical animal is the phoenix."
+            ],
+            "images": ["feniksas.webp"]
+        }
+    },
+    {
+        "id": "3",
+        "name": "Wand mischief",
+        "lat": 54.68771600487349,
+        "lng": 25.29008711971373,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The fairy's wand started to play tricks.",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": [
+                "lazdele.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Does the photo show a person or people.",
+            "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally. Each person should hold a funny object such as a magic wand, frying pan, broom, clothes iron, or similar humorous prop."
+        },
+        "text": [
+            "The fairy's wand started to play tricks. It carried you into the past — to the times of Vytautas the Great.",
+            "At that moment a band of Teutonic Knights was attacking Gediminas Castle.",
+            "Take a photo as if you were defending yourselves from the attackers, holding swords, spears and shields."
+        ],
+        "points": 4,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Magic pencils",
+        "lat": 54.687636841936694,
+        "lng": 25.28850095091941,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Next to the Mindaugas monument the backpack opened and pencils spilled out.",
+                "",
+                "You have 6 minutes to complete the task."
+            ],
+            "images": ["piestukai.webp"],
+            "changeInterval": 0
+        },
+        "image": "1945.webp",
+        "text": [
+            "The pencils arranged themselves into a number.",
+            "Move two pencils so that you get the smallest possible positive number.",
+            "Enter that number as your answer."
+        ],
+        "answer": ["846"],
+        "points": 5,
+        "attempts": 6,
+        "time": 6,
+        "hint": {
+            "text": "We moved one pencil — where should the second one go?",
+            "image": "1945_hint.webp",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The answer is 846."
+            ],
+            "images": ["846.webp"]
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "11",
+        "name": "Photo album",
+        "lat": 54.68781614589866,
+        "lng": 25.289050321272775,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The fairy's notebook suddenly turned into a magical photo album.",
+                "The place captured in one of its photos is very close by. Find it!",
+                "",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Look around and choose the photo that was taken in this place.",
+        "matchmaker": {
+            "images": [
+                "bona.webp",
+                "fontanas.webp",
+                "arkliukas.webp",
+                "azuoliukas.webp",
+                "lvovas.webp",
+                "vytis.webp",
+                "roze.webp",
+                "zuikis.webp",
+                "kubiliute.webp",
+                "mumis.webp"
+            ],
+            "displayCount": 10
+        },
+        "answer": ["azuoliukas.webp"],
+        "hint": {
+            "text": "Go to the oak tree.",
+            "points": 1
+        },
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+            "text": "This photo was taken by the oak planted in memory of Hermanas Perelšteinas.",
+            "image": "azuoliukas.webp"
+        }
+    }
+]
