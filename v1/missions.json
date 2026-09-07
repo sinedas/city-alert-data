@@ -535,53 +535,7 @@
       "image": "lagaminas.webp"
     }
   },
-  {
-    "code": "vilnius_kuprine_en",
-    "folder": "vilnius_kuprine",
-    "title": "Fėjos kuprinė Vilniuje",
-    "image": "kuprine.webp",
-    "location": {
-      "lat": 54.68748589826468,
-      "lng": 25.28872933687652
-    },
-    "initialDiameter": 800,
-    "finalDiameter": 200,
-    "duration": 30,
-    "level": "Lengvas",
-    "active": true,
-    "locked": false,
-    "circle": true,
-    "description": "Įvadinė Bernardinų burtininko misija su stebuklinga kuprine ir lazdele.",
-    "start": "Taikomasis Dailės muziejus- Arsenalo g. 3А",
-    "finish": "Mindaugo paminklas",
-    "startLocation": {
-      "lat": 54.68847474351601,
-      "lng": 25.292252436954136
-    },
-    "routeImageUrl": "",
-    "hints": 20,
-    "checkLocation": true,
-    "teamName": {
-      "title": "Komandos pavadinimas",
-      "time": 4,
-      "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
-        "",
-        "Užduočiai atlikti turite 4 minutes."
-      ],
-      "points": 2
-    },
-    "endPage": {
-      "title": "Žaidimo pabaiga",
-      "text": [
-        "Jūsų magiškas nuotykis pasibaigė.",
-        "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
-        "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Bernardinų burtininkas“"
-      ],
-      "image": "lagaminas.webp"
-    }
-  },
+  
   {
     "code": "vilnius_fairy_en",
     "folder": "vilnius_kuprine",
@@ -599,6 +553,7 @@
     "locked": true,
     "circle": true,
     "description": "An introductory mission to Bernardinai Wizard, featuring a magical backpack and wand.",
+    "city": "Vilnius",
     "start": "Museum of Applied Arts and Design — 3A Arsenalo St.",
     "finish": "Monument to King Mindaugas",
     "startLocation": {
@@ -684,6 +639,7 @@
     "locked": true,
     "circle": true,
     "description": "The Bernardinai Wizard's suitcase and magic wand.",
+    "city": "Vilnius",
     "start": "King Mindaugas Monument",
     "finish": "Bernardinai Garden",
     "startLocation": {
