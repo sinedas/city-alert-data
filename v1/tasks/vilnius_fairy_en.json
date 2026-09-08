@@ -9,14 +9,14 @@
             "text": [
                 "Next to the entrance of the Museum of Applied Arts you find a backpack, a wand with a little star, and a notebook.",
                 "On the notebook cover it says:",
-                "Scatterbrain Vėtrunė",
+                "Fundamentals of Magic",
+                "Wendy Scatterbrain",
                 "Fairy School",
-                "Class 3a",
-                "Basics of Magic",
+                "Class 3A Student",
                 "You have 7 minutes to complete the task."
             ],
             "images": [
-                "kuprine.webp"
+                "bagpack.webp"
             ]
         },
         "image": "letters.webp",
@@ -43,7 +43,7 @@
                 "Inside you found the young fairy's school supplies.",
                 "You take the fairy's things and go on to the next tasks."
             ],
-            "images": ["atidaryta.webp"]
+            "images": ["opened.webp"]
         }
     },
     {
@@ -61,7 +61,7 @@
                 "You have 10 attempts (10 points). Each wrong attempt – minus 1 point."
             ],
             "images": [
-                "gyvunas.webp"
+                "creature.webp"
             ]
         },
         "text": [
@@ -80,7 +80,7 @@
             "text": [
                 "The magical animal is the phoenix."
             ],
-            "images": ["feniksas.webp"]
+            "images": ["phoenix.webp"]
         }
     },
     {
