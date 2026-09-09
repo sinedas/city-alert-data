@@ -149,7 +149,7 @@
             "In the magic suitcase there was an object in which adding seven to ten gives five.",
             "What kind of object is it?"
         ],
-        "answer": ["Clock", "A clock"],
+        "answer": ["Watch", "A watch", "The watch","Clock", "A clock", "The clock"],
         "points": 5,
         "time": 6,
         "hint": {
@@ -163,8 +163,8 @@
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "The answer is – a clock.",
-                "But this is no ordinary clock — it is a time-twister, which may yet be of service to you."
+                "The answer is – a watch.",
+                "But this is no ordinary watch — it is a time-twister, which may yet be of service to you."
             ],
             "images": ["atsuktuvas.webp"]
         }
@@ -324,7 +324,7 @@
         "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Vilniaus pilių maketas.",
-            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them as an early-1900s European painter wearing a traditional black painter's beret, period artist clothing, and a painter's smock while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
         },
         "text": [
             "Your task is to create a picture of Vilnius.",
