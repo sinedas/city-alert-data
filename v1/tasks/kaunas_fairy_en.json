@@ -1,0 +1,164 @@
+[
+    {
+        "id": "1",
+        "name": "Letter maths",
+        "lat": 54.89780072644724,
+        "lng": 23.900112451541506,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "At the crossroads of Laisvės Alėja and Vilniaus Street you find a backpack, a wand with a little star, and a notebook.",
+                "On the notebook cover it says:",
+                "Fundamentals of Magic",
+                "Wendy Scatterbrain",
+                "Fairy School",
+                "Class 3A Student",
+                "You have 7 minutes to complete the task."
+            ],
+            "images": [
+                "bagpack.webp"
+            ]
+        },
+        "image": "letters.webp",
+        "text": [
+            "I wonder how to open the backpack? Suddenly the notebook flips open to a problem:",
+            "One has 3",
+            "Three has 5",
+            "Five has 4",
+            "How many does Thirteen have?",
+            "The answer tells you how many times to wave the wand for the backpack to open."
+        ],
+        "answer": [
+            "8"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 7,
+        "hint": {
+            "text": "Pay attention to the word \"Letter\".",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "You waved the wand eight times and the backpack opened.",
+                "Inside you found the young fairy's school supplies.",
+                "You take the fairy's things and go on to the next tasks."
+            ],
+            "images": [
+                "opened.webp"
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "name": "Magical animal",
+        "lat": 54.897404382423545,
+        "lng": 23.899072344975064,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Suddenly the notebook opened.",
+                "Let's play Wordle. Guess the magical animal. A correct letter in the right place will be green. Correct but in the wrong place – yellow. Wrong – grey.",
+                "E.g.: word LATVIA, and you entered LITHUA:",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "You have 10 attempts (10 points). Each wrong attempt – minus 1 point."
+            ],
+            "images": [
+                "creature.webp"
+            ]
+        },
+        "text": [
+            "Guess the magical animal mentioned in the young fairy's notebook."
+        ],
+        "type": "wordle",
+        "answer": [
+            "PHOENIX"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The magical animal is the phoenix."
+            ],
+            "images": [
+                "phoenix.webp"
+            ]
+        }
+    },
+    {
+        "id": "3",
+        "name": "Wand mischief",
+        "lat": 54.896889627523755,
+        "lng": 23.897338014389586,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The fairy's wand started to play tricks.",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": [
+                "lazdele.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės.",
+            "transformationPrompt": "Transform the input photo into a stylized non-photorealistic semi-cartoon illustration using warm beige, ochre, cream and earthy tones with muted greens; simplify details, use flat shading, subtle watercolor texture and clean dark outlines; preserve each person's recognizable appearance, hairstyle, body proportions and original pose. For EACH person individually, preserve their gender presentation from the original photo and apply ONLY matching early-1900s Belle Époque / Edwardian clothing: males wear masculine attire with trousers, tailored suit, waistcoat, tie, overcoat and top hat; females wear feminine attire with a long skirt or dress, fitted blouse or bodice and decorated period hat. Never swap or mix male and female clothing between people. Preserve the number, positions and gender presentation of all people. Maintain a cohesive retro comic watercolor + vector look."
+        },
+        "text": [
+            "The fairy's wand started to play tricks. It carried you back in time — to the year 1923.",
+            "To return to the present, take a team photo in which you become the high society of 1923 Kaunas."
+        ],
+        "points": 4,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Magic pencils",
+        "lat": 54.896630098466055,
+        "lng": 23.89564635122789,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The backpack opened, and pencils spilled out.",
+                "",
+                "You have 6 minutes to complete the task."
+            ],
+            "images": [
+                "piestukai.webp"
+            ],
+            "changeInterval": 0
+        },
+        "image": "1945.webp",
+        "text": [
+            "The pencils arranged themselves into a number.",
+            "Move two pencils so that you get the smallest possible positive number.",
+            "Enter that number as your answer."
+        ],
+        "answer": [
+            "846"
+        ],
+        "points": 5,
+        "attempts": 6,
+        "time": 6,
+        "hint": {
+            "text": "We moved one pencil — where should the second one go?",
+            "image": "1945_hint.webp",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The answer is 846."
+            ],
+            "images": [
+                "846.webp"
+            ]
+        }
+    }
+]

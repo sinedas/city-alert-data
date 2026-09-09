@@ -4,7 +4,7 @@
     "title": "Tuskulėnų vaiduoklis",
     "image": "tuskulenaiv2.webp",
     "location": {
-      "lat": 54.698039582832486, 
+      "lat": 54.698039582832486,
       "lng": 25.302702381449947
     },
     "initialDiameter": 700,
@@ -19,7 +19,7 @@
     "start": "Žirmūnų biblioteka",
     "finish": "Tuskulėnų dvaro parkas",
     "startLocation": {
-      "lat": 54.69892839600735,   
+      "lat": 54.69892839600735,
       "lng": 25.30018131216362
     },
     "routeImageUrl": "https://citymission.lt/maps/tuskulenai_map.webp",
@@ -62,16 +62,16 @@
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-            "Jūs esate Londone, kur jūsų laukia įvairiausi nuotykiai ir užduotys.",
-            "Atlikus pirmą užduotį, pamatysite Londono žemėlapį.",
-            "Žemėlapyje bus markeriai, žymintys tuo metu aktyvią užduotį:",
-            "[img source=\"shield_icon.jpg\"/] ar [img source=\"photo_icon.jpg\"/] ",
-            "Spauskitę markerį, kad pakliutį į užduoties langą.",
-            "",
-            "Pirma užduotis- sugalvokite komandos pavadinimą.",
-            "Užduočiai atlikti turite 4 minutes."
-        ],
-        "points": 2
+        "Jūs esate Londone, kur jūsų laukia įvairiausi nuotykiai ir užduotys.",
+        "Atlikus pirmą užduotį, pamatysite Londono žemėlapį.",
+        "Žemėlapyje bus markeriai, žymintys tuo metu aktyvią užduotį:",
+        "[img source=\"shield_icon.jpg\"/] ar [img source=\"photo_icon.jpg\"/] ",
+        "Spauskitę markerį, kad pakliutį į užduoties langą.",
+        "",
+        "Pirma užduotis- sugalvokite komandos pavadinimą.",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
     }
   },
   {
@@ -100,16 +100,16 @@
       "title": "Team name",
       "time": 4,
       "text": [
-            "You are in London, where various adventures and tasks await.",
-            "After completing the first task, you will see the map of London.",
-            "On the map there will be markers for the currently active task:",
-            "[img source=\"shield_icon.jpg\"/] or [img source=\"photo_icon.jpg\"/] ",
-            "Tap the marker to open the task screen.",
-            "",
-            "First task: come up with a team name.",
-            "You have 4 minutes to complete the task."
-        ],
-        "points": 2
+        "You are in London, where various adventures and tasks await.",
+        "After completing the first task, you will see the map of London.",
+        "On the map there will be markers for the currently active task:",
+        "[img source=\"shield_icon.jpg\"/] or [img source=\"photo_icon.jpg\"/] ",
+        "Tap the marker to open the task screen.",
+        "",
+        "First task: come up with a team name.",
+        "You have 4 minutes to complete the task."
+      ],
+      "points": 2
     }
   },
   {
@@ -137,14 +137,14 @@
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-            "Ištrauka iš Izaoko Goldšteino tyrimų žurnalo. Prieigos lygis: KONFIDENCIALU.",
-            "'Komandos nariai laiko kilpos perėjimą išgyveno sėkmingai. Jokių akivaizdžių šalutinių poveikių neužfiksuota. Kraujo rodikliai stabilūs. Kraujospūdis normos ribose. Širdies veikla sinchronizuota, nukrypimų nefiksuota.",
-            "Psichologinė būsena teigiama. Stebimas nepaaiškinamas pakylėjimo efektas — galimas laiko lauko poveikis.",
-            "Pastaba sau: komandai būtina suteikti pavadinimą. Identitetas gali turėti įtakos grupės stabilumui laiko anomalijose.'",
-            "Sugalvokite komandos pavadinimą.",
-            "Užduočiai atlikti turite 4 minutes."
-        ],
-        "points": 2
+        "Ištrauka iš Izaoko Goldšteino tyrimų žurnalo. Prieigos lygis: KONFIDENCIALU.",
+        "'Komandos nariai laiko kilpos perėjimą išgyveno sėkmingai. Jokių akivaizdžių šalutinių poveikių neužfiksuota. Kraujo rodikliai stabilūs. Kraujospūdis normos ribose. Širdies veikla sinchronizuota, nukrypimų nefiksuota.",
+        "Psichologinė būsena teigiama. Stebimas nepaaiškinamas pakylėjimo efektas — galimas laiko lauko poveikis.",
+        "Pastaba sau: komandai būtina suteikti pavadinimą. Identitetas gali turėti įtakos grupės stabilumui laiko anomalijose.'",
+        "Sugalvokite komandos pavadinimą.",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
     }
   },
   {
@@ -216,15 +216,15 @@
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-          "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.",
-          "Mašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate šalia buvosio Žalgirio stadiono, kur radote raštelį nuo Izaoko Goldšteino:",
-          "„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį okupuotą Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į Lenino aikštę, kur lauksiu jūsų.",
-          "Pirma užduotis, apsimeskite kolektyvu iš kokios nors sovietinės organizacijos. Sugalvokite organizacijos pavadinimą.",
-          "",
-          "Jūsų draugas Izaokas Goldšteinas.“",
-          "Užduočiai atlikti turite 4 minutes."
-        ],
-        "points": 2
+        "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.",
+        "Mašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate šalia buvosio Žalgirio stadiono, kur radote raštelį nuo Izaoko Goldšteino:",
+        "„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį okupuotą Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į Lenino aikštę, kur lauksiu jūsų.",
+        "Pirma užduotis, apsimeskite kolektyvu iš kokios nors sovietinės organizacijos. Sugalvokite organizacijos pavadinimą.",
+        "",
+        "Jūsų draugas Izaokas Goldšteinas.“",
+        "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
     }
   },
   {
@@ -232,7 +232,7 @@
     "title": "Sovietinis Vilnius",
     "image": "sovietsv3.webp",
     "location": {
-      "lat": 54.69079963514012, 
+      "lat": 54.69079963514012,
       "lng": 25.290875962339644
     },
     "initialDiameter": 4000,
@@ -249,7 +249,6 @@
     "checkLocation": false,
     "pointsPerLeftMinutes": 10
   },
-  
   {
     "code": "ona_en",
     "folder": "ona_en",
@@ -282,7 +281,7 @@
       "time": 4,
       "text": [
         "You have started the game.",
-         "Your first task is to come up with a team name.",
+        "Your first task is to come up with a team name.",
         "",
         "You have 4 minutes to complete the task."
       ],
@@ -293,7 +292,7 @@
     "code": "soviets",
     "title": "Žydų kapinės ir sovietiniai monstrai (old version)",
     "location": {
-      "lat": 54.69079963514012, 
+      "lat": 54.69079963514012,
       "lng": 25.290875962339644
     },
     "initialDiameter": 4000,
@@ -312,7 +311,7 @@
     "code": "worlde",
     "title": "Žaidimas Worlde",
     "location": {
-      "lat": 54.69516497128628, 
+      "lat": 54.69516497128628,
       "lng": 25.277428796153
     },
     "initialDiameter": 4000,
@@ -367,21 +366,21 @@
     "checkLocation": true
   },
   {
-    "code": "kaunas",    
+    "code": "kaunas",
     "title": "Laikinoji sostinė",
     "image": "zalgiris.jpg",
-    "location": {    
-      "lat": 54.89299768651124,    
-      "lng": 23.905853229993056    
-    },    
-    "initialDiameter": 2500,    
-    "finalDiameter": 200,    
-    "duration": 150,    
-    "active": true,    
-    "level": "Vidutinis",    
-    "locked": true,    
+    "location": {
+      "lat": 54.89299768651124,
+      "lng": 23.905853229993056
+    },
+    "initialDiameter": 2500,
+    "finalDiameter": 200,
+    "duration": 150,
+    "active": true,
+    "level": "Vidutinis",
+    "locked": true,
     "circle": true,
-    "description": "Kauno naujamiestis: Vienybės aikštė, Laisvės alėja. Nemuno sala.",    
+    "description": "Kauno naujamiestis: Vienybės aikštė, Laisvės alėja. Nemuno sala.",
     "city": "Kaunas",
     "start": "Čiurlionio dailės muziejus",
     "finish": "Mokslo sala",
@@ -402,7 +401,7 @@
         "Užduočiai atlikti turite 4 minutes."
       ],
       "points": 2
-    }   
+    }
   },
   {
     "code": "kaunas_kuprine",
@@ -414,20 +413,20 @@
     },
     "initialDiameter": 800,
     "finalDiameter": 200,
-    "duration": 30,    
+    "duration": 30,
     "active": true,
     "locked": false,
     "circle": true,
-    "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",    
+    "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",
     "city": "Kaunas",
     "start": "Vilniaus g. 1",
-    "finish": "Perėja į senamiestį",    
+    "finish": "Perėja į senamiestį",
     "startLocation": {
       "lat": 54.89664243777086,
       "lng": 23.895667100362584
-    },    
+    },
     "routeImageUrl": "",
-    "hints": 20,    
+    "hints": 20,
     "checkLocation": true,
     "teamName": {
       "title": "Komandos pavadinimas",
@@ -446,6 +445,54 @@
         "Jūsų magiškas nuotykis pasibaigė.",
         "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
         "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Kauno burtininkas“"
+      ],
+      "image": "kaunas.webp"
+    }
+  },
+  {
+    "code": "kaunas_fairy_en",
+    "folder": "kaunas_kuprine",
+    "title": "Kaunas Fairy",
+    "image": "kuprine.webp",
+    "location": {
+      "lat": 54.89662958421843,
+      "lng": 23.895520710433082
+    },
+    "initialDiameter": 800,
+    "finalDiameter": 200,
+    "duration": 30,
+    "level": "Easy",
+    "active": true,
+    "locked": false,
+    "circle": true,
+    "description": "An introductory mission to the Kaunas Wizard, featuring a magical backpack and wand.",
+    "city": "Kaunas",
+    "start": "Vilniaus g. 1",
+    "finish": "Crossing into the Old Town",
+    "startLocation": {
+      "lat": 54.89664243777086,
+      "lng": 23.895667100362584
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Team Name",
+      "time": 4,
+      "text": [
+        "You have started a magical scavenger hunt.",
+        "Your first task is to come up with a team name.",
+        "",
+        "You have 4 minutes to complete the task."
+      ],
+      "points": 2
+    },
+    "endPage": {
+      "title": "End of the game",
+      "text": [
+        "Your magical adventure is over.",
+        "But near the location of the final task, you found a mysterious suitcase.",
+        "If you want to discover what is inside, play the \"Kaunas Wizard\" mission."
       ],
       "image": "kaunas.webp"
     }
@@ -484,6 +531,45 @@
         "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
         "",
         "Užduočiai atlikti turite 4 minutes."
+      ],
+      "points": 2
+    }
+  },
+  {
+    "code": "kaunas_wizard_en",
+    "folder": "kauno_burtininkas",
+    "title": "The Kaunas Wizard",
+    "image": "kaunas.webp",
+    "location": {
+      "lat": 54.89927128496517,
+      "lng": 23.885371688821536
+    },
+    "initialDiameter": 1900,
+    "finalDiameter": 100,
+    "duration": 120,
+    "level": "Easy",
+    "active": true,
+    "locked": true,
+    "circle": true,
+    "description": "The Kaunas Wizard's suitcase and magic wand.",
+    "city": "Kaunas",
+    "start": "Crossing into the Old Town",
+    "finish": "Kaunas Castle",
+    "startLocation": {
+      "lat": 54.89666197488589,
+      "lng": 23.89562547061457
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "teamName": {
+      "title": "Team Name",
+      "time": 4,
+      "text": [
+        "You have started a magical outdoor adventure.",
+        "Your first task is to come up with a name for your team.",
+        "",
+        "You have 4 minutes to complete the task."
       ],
       "points": 2
     }
@@ -535,7 +621,6 @@
       "image": "lagaminas.webp"
     }
   },
-  
   {
     "code": "vilnius_fairy_en",
     "folder": "vilnius_kuprine",
@@ -549,7 +634,7 @@
     "finalDiameter": 200,
     "duration": 30,
     "level": "Easy",
-    "active": false,
+    "active": true,
     "locked": false,
     "circle": true,
     "description": "An introductory mission to Bernardinai Wizard, featuring a magical backpack and wand.",
@@ -682,7 +767,7 @@
     "finish": "Šokoladinė",
     "startLocation": {
       "lat": 54.64091151679769,
-        "lng": 24.933009679990125
+      "lng": 24.933009679990125
     },
     "routeImageUrl": "",
     "hints": 20,
@@ -784,6 +869,4 @@
       "points": 2
     }
   }
-
 ]
-
