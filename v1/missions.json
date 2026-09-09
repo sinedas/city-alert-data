@@ -538,7 +538,7 @@
   {
     "code": "kaunas_wizard_en",
     "folder": "kauno_burtininkas",
-    "title": "The Kaunas Wizard",
+    "title": "Kaunas Wizard",
     "image": "kaunas.webp",
     "location": {
       "lat": 54.89927128496517,
@@ -549,7 +549,7 @@
     "duration": 120,
     "level": "Easy",
     "active": true,
-    "locked": true,
+    "locked": false,
     "circle": true,
     "description": "The Kaunas Wizard's suitcase and magic wand.",
     "city": "Kaunas",
