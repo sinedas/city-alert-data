@@ -721,7 +721,7 @@
     "duration": 120,
     "level": "Easy",
     "active": true,
-    "locked": true,
+    "locked": false,
     "circle": true,
     "description": "The Bernardinai Wizard's suitcase and magic wand.",
     "city": "Vilnius",
