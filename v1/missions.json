@@ -624,7 +624,7 @@
   {
     "code": "vilnius_fairy_en",
     "folder": "vilnius_kuprine",
-    "title": "The Fairy's Backpack in Vilnius",
+    "title": "Vilnius Fairy",
     "image": "kuprine.webp",
     "location": {
       "lat": 54.68748589826468,
@@ -710,7 +710,7 @@
   {
     "code": "bernardinai_wizard_en",
     "folder": "bernardinu_burtininkas",
-    "title": "The Bernardinai Wizard",
+    "title": "Bernardinai Wizard",
     "image": "lagaminas.webp",
     "location": {
       "lat": 54.6837165738804,
@@ -720,7 +720,7 @@
     "finalDiameter": 150,
     "duration": 120,
     "level": "Easy",
-    "active": false,
+    "active": true,
     "locked": true,
     "circle": true,
     "description": "The Bernardinai Wizard's suitcase and magic wand.",
