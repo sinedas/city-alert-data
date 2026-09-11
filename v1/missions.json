@@ -452,7 +452,7 @@
   {
     "code": "kaunas_fairy_en",
     "folder": "kaunas_kuprine",
-    "title": "Kaunas Fairy",
+    "title": "The Kaunas Fairy",
     "image": "kuprine.webp",
     "location": {
       "lat": 54.89662958421843,
@@ -538,7 +538,7 @@
   {
     "code": "kaunas_wizard_en",
     "folder": "kauno_burtininkas",
-    "title": "Kaunas Wizard",
+    "title": "The Kaunas Wizard",
     "image": "kaunas.webp",
     "location": {
       "lat": 54.89927128496517,
@@ -624,7 +624,7 @@
   {
     "code": "vilnius_fairy_en",
     "folder": "vilnius_kuprine",
-    "title": "Vilnius Fairy",
+    "title": "The Vilnius Fairy",
     "image": "kuprine.webp",
     "location": {
       "lat": 54.68748589826468,
@@ -710,7 +710,7 @@
   {
     "code": "bernardinai_wizard_en",
     "folder": "bernardinu_burtininkas",
-    "title": "Bernardinai Wizard",
+    "title": "The Bernardinai Wizard",
     "image": "lagaminas.webp",
     "location": {
       "lat": 54.6837165738804,
