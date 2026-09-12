@@ -1,27 +1,24 @@
 [
     {
         "id": "1",
-        "name": "The Wizard's Suitcase",
+        "name": "Fairy-tale Creature",
         "lat": 54.687636841936694,
         "lng": 25.28850095091941,
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Near a bench close to the Mindaugas monument, a strange man left a suitcase and a magic wand and hurried off, muttering something.",
-                "Let's play Wordle. Guess the magic word. A correct letter in the right place will be green. Correct but in the wrong place – yellow. Wrong – grey.",
-                "E.g.: word KINGDOM, and you entered KITCHEN:",
+                "Near the King Mindaugas Monument, the words \"Fairy-tale Creature\" appeared on the cover of the magic book. Open the book and complete a new task.",
+                "Let's play Wordle. A correct letter in the right place will be green. A correct letter in thelify wrong place will be yellow. An incorrect letter will be grey.",
+                "For example, the word is KINGDOM, and you entered KITCHEN:",
                 "[img source=\"kitchen.jpg\" width=\"300\" height=\"50\"/]",
-                "You have 10 attempts (10 points). Each attempt – minus 1 point."
+                "You have 10 attempts and can earn up to 10 points. Each wrong attempt costs 1 point."
             ],
             "images": [
-                "lagaminas.webp"
+                "fairy_tale.webp"
             ]
         },
         "text": [
-            "The strange man hurried off towards the Palace of the Grand Dukes, muttering:",
-            "- A fairy-tale creature, a fairy-tale creature...",
-            "Take the magic wand and play Wordle.",
-            "It seems that guessing the fairy-tale creature will open the suitcase."
+            "Guess the fairy-tale creature."
         ],
         "type": "wordle",
         "answer": [
@@ -31,13 +28,14 @@
         "attempts": 10,
         "minusPointsOnAttempt": 1,
         "time": 5,
-        "rewardType": "carousel",
+        "reward eyeball": "carousel",
         "rewardCarousel": {
             "text": [
-                "You have managed to open the suitcase. Inside you find a book with no title, a box of matches, watercolour paints, a map with tasks and many other mysterious things.",
-                "Take the suitcase, the book and the wand, look for the tasks on the map on your phone and complete them."
+                "The magic book fell open to an image of a dragon."
             ],
-            "images": ["atidarytasv2.webp"]
+            "images": [
+                "dragon.webp"
+            ]
         }
     },
     {

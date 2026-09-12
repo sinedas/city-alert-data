@@ -1,49 +1,42 @@
 [
     {
         "id": "1",
-        "name": "Letter maths",
+        "name": "Letter Magic Challenge",
         "lat": 54.68847474351601,
         "lng": 25.292252436954136,
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Next to the entrance of the Museum of Applied Arts you find a backpack, a wand with a little star, and a notebook.",
-                "On the notebook cover it says:",
-                "Fundamentals of Magic",
-                "Wendy Scatterbrain",
-                "Fairy School",
-                "Class 3A Student",
+                "The notebook opened to a task called \"Letter Magic Challenge\".",
                 "You have 7 minutes to complete the task."
             ],
             "images": [
-                "bagpack.webp"
+                "letters_question.webp"
             ]
         },
         "image": "letters.webp",
         "text": [
-            "I wonder how to open the backpack? Suddenly the notebook flips open to a problem:",
-            "One has 3",
-            "Three has 5",
-            "Five has 4",
+            "New sentences appeared in the problem:",
+            "One has 3.",
+            "Three has 5.",
+            "Five has 4.",
             "How many does Thirteen have?",
-            "The answer tells you how many times to wave the wand for the backpack to open."
+            "Enter a number as your answer."
         ],
         "answer": ["8"],
         "points": 5,
         "attempts": 5,
         "time": 7,
         "hint": {
-            "text": "Pay attention to the word \"Letter\".",
+            "text": "Pay attention to the word \"Letter\" in the task title.",
             "points": 2
         },
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "You waved the wand eight times and the backpack opened.",
-                "Inside you found the young fairy's school supplies.",
-                "You take the fairy's things and go on to the next tasks."
+                "Thirteen has 8 letters."
             ],
-            "images": ["opened.webp"]
+            "images": ["letters_answer.webp"]
         }
     },
     {

@@ -459,12 +459,12 @@
       "lng": 23.895520710433082
     },
     "initialDiameter": 800,
-    "finalDiameter": 200,
+    "finalDiameter": 795,
     "duration": 30,
     "level": "Easy",
     "active": true,
     "locked": false,
-    "circle": true,
+    "circle": false,
     "description": "An introductory mission to the Kaunas Wizard, featuring a magical backpack and wand.",
     "city": "Kaunas",
     "start": "Vilniaus g. 1",
@@ -545,12 +545,12 @@
       "lng": 23.885371688821536
     },
     "initialDiameter": 1900,
-    "finalDiameter": 100,
+    "finalDiameter": 1895,
     "duration": 120,
     "level": "Easy",
     "active": true,
     "locked": true,
-    "circle": true,
+    "circle": false,
     "description": "The Kaunas Wizard's suitcase and magic wand.",
     "city": "Kaunas",
     "start": "Crossing into the Old Town",
@@ -631,16 +631,17 @@
       "lng": 25.28872933687652
     },
     "initialDiameter": 800,
-    "finalDiameter": 200,
+    "finalDiameter": 795,
     "duration": 30,
     "level": "Easy",
     "active": true,
     "locked": false,
-    "circle": true,
-    "description": "An introductory mission to Bernardinai Wizard, featuring a magical backpack and wand.",
+    "circleMode": "fixed",
+    "circle": false,
+    "description": "An introductory mission to The Bernardinai Wizard, featuring a magical backpack and wand.",
     "city": "Vilnius",
-    "start": "Museum of Applied Arts and Design — 3A Arsenalo St.",
-    "finish": "Monument to King Mindaugas",
+    "start": "Museum of Applied Arts and Design — Arsenalo g. 3A",
+    "finish": "King Mindaugas Monument",
     "startLocation": {
       "lat": 54.68847474351601,
       "lng": 25.292252436954136
@@ -648,23 +649,50 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "A left-behind backpack",
+      "text": [
+        "On Arsenalo Street you found a left-behind backpack, a magic wand, and a notebook.",
+        "On the notebook cover it says:",
+        "\"Basics of Magic",
+        "Wendy Scatterbrain",
+        "Fairy School",
+        "Class 3a student\"",
+        "I wonder what's inside and how to open it?",
+        "",
+        "If you're ready for the adventure, tap \"Next\"."
+      ],
+      "image": "kuprine.webp"
+    },
     "teamName": {
       "title": "Team name",
       "time": 4,
       "text": [
-        "You have started a magical scavenger hunt.",
-        "Your first task is to come up with a team name.",
+        "On Arsenalo Street you found a left-behind backpack and a magic wand.",
+        "The backpack will only open once you invent a team name, wave the wand, and say the name out loud.",
+        "Come up with a team name and enter it in the field.",
         "",
-        "You have 4 minutes to complete the task."
+        "This task is worth 2 points, and you have 4 minutes to complete it."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "What's in the backpack",
+      "text": [
+        "The backpack opened. Inside you found notebooks, pencils, and other things.",
+        "Your team is ready for the adventure.",
+        "Now follow the map and complete the tasks one by one.",
+        "",
+        "Good luck!"
+      ],
+      "image": "atidaryta.webp"
     },
     "endPage": {
       "title": "End of the game",
       "text": [
         "Your magical adventure is over.",
         "But near the location of the final task, you found a mysterious suitcase.",
-        "If you want to discover what is inside, play the \"Bernardinai Wizard\" mission."
+        "If you want to discover what is inside, play “The Bernardinai Wizard”."
       ],
       "image": "lagaminas.webp"
     }
@@ -717,12 +745,12 @@
       "lng": 25.297270020588194
     },
     "initialDiameter": 1950,
-    "finalDiameter": 150,
+    "finalDiameter": 1945,
     "duration": 120,
     "level": "Easy",
     "active": true,
     "locked": true,
-    "circle": true,
+    "circle": false,
     "description": "The Bernardinai Wizard's suitcase and magic wand.",
     "city": "Vilnius",
     "start": "King Mindaugas Monument",
