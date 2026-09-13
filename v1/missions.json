@@ -476,23 +476,49 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "A Left-Behind Backpack",
+      "text": [
+        "On Vilniaus Street in Kaunas, you found a backpack that someone had left behind, along with a magic wand and a notebook.",
+        "The notebook cover reads:",
+        "\"Basics of Magic",
+        "Wendy Scatterbrain",
+        "Fairy School",
+        "Class 3A student\"",
+        "I wonder what's inside and how to open it?",
+        "",
+        "If you're ready for the adventure, tap \"Next\"."
+      ],
+      "image": "kuprine.webp"
+    },
     "teamName": {
       "title": "Team Name",
       "time": 4,
       "text": [
-        "You have started a magical scavenger hunt.",
-        "Your first task is to come up with a team name.",
+        "The backpack will only open once you come up with a team name, wave the wand, and say the name out loud.",
+        "Come up with a team name and enter it in the field.",
         "",
-        "You have 4 minutes to complete the task."
+        "This task is worth 2 points, and you have 4 minutes to complete it."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "What's in the Backpack?",
+      "text": [
+        "The backpack opened. Inside, you found notebooks, pencils, and other mysterious objects.",
+        "Your team is ready for the adventure.",
+        "Now follow the map and complete the tasks one by one.",
+        "",
+        "Good luck!"
+      ],
+      "image": "atidaryta.webp"
     },
     "endPage": {
       "title": "End of the game",
       "text": [
         "Your magical adventure is over.",
         "But near the location of the final task, you found a mysterious suitcase.",
-        "If you want to discover what is inside, play the \"Kaunas Wizard\" mission."
+        "If you want to discover what is inside, play “The Kaunas Wizard”."
       ],
       "image": "kaunas.webp"
     }
