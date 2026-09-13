@@ -664,11 +664,11 @@
       ]
     },
     "teamName": {
-      "title": "Team name",
+      "title": "Team Name",
       "time": 4,
       "text": [
-        "On Arsenalo Street you found a left-behind backpack and a magic wand.",
-        "The backpack will only open once you invent a team name, wave the wand, and say the name out loud.",
+        "On Arsenalo Street, you found a backpack that someone had left behind, along with a magic wand.",
+        "The backpack will only open once you come up with a team name, wave the wand, and say the name out loud.",
         "Come up with a team name and enter it in the field.",
         "",
         "This task is worth 2 points, and you have 4 minutes to complete it."
@@ -676,9 +676,9 @@
       "points": 2
     },
     "afterTeamName": {
-      "title": "What's in the backpack",
+      "title": "What's in the Backpack?",
       "text": [
-        "The backpack opened. Inside you found notebooks, pencils, and other things.",
+        "The backpack opened. Inside, you found notebooks, pencils, and other things.",
         "Your team is ready for the adventure.",
         "Now follow the map and complete the tasks one by one.",
         "",
