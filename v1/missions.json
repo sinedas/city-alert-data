@@ -271,6 +271,7 @@
     "start": "Cathedral Bell Tower",
     "finish": "Užupis Angel",
     "route": "Cathedral Square, Pilies Street, St. Anne’s Church, Bernardine Garden, Užupis",
+    "details": "Start anywhere and complete the tasks in any order.",
     "startLocation": {
       "lat": 54.68633639202634,
       "lng": 25.286890322996783
