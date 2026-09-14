@@ -259,16 +259,18 @@
       "lng": 25.29538049958262
     },
     "initialDiameter": 2000,
-    "finalDiameter": 150,
+    "finalDiameter": 1995,
     "duration": 120,
     "active": true,
     "level": "Medium",
     "locked": false,
-    "circle": true,
-    "description": "Vilnius Old Town, Pilies Street, St. Anne’s Church, Bernardine Garden, Užupis",
+    "circle": false,
+    "circleMode": "fixed",
+    "description": "Explore the secrets of Vilnius Old Town: Cathedral Square, Pilies Street, St. Anne’s Church, Bernardine Garden, and Užupis.",
     "city": "Vilnius",
     "start": "Cathedral Bell Tower",
     "finish": "Užupis Angel",
+    "route": "Cathedral Square, Pilies Street, St. Anne’s Church, Bernardine Garden, Užupis",
     "startLocation": {
       "lat": 54.68633639202634,
       "lng": 25.286890322996783
