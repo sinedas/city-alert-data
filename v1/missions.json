@@ -467,6 +467,7 @@
     "level": "Easy",
     "active": true,
     "locked": false,
+    "circleMode": "fixed",
     "circle": false,
     "description": "An introductory mission to the Kaunas Wizard, featuring a magical backpack and wand.",
     "city": "Kaunas",
