@@ -1,27 +1,24 @@
 [
     {
         "id": "1",
-        "name": "Burtininko lagaminas",
+        "name": "Pasakų gyvūnas",
         "lat": 54.89666505975709,
         "lng": 23.89554082306808,
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Šalia suoliuko netoli Dominikonų vienuolyno keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+                "Netoli Dominikonų vienuolyno magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
                 "Pažaiskime burtažodlę. Spėkite burtažodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
                 "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
                 "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
                 "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
             ],
             "images": [
-                "kaunas.webp"
+                "pasaku_gyvunas.webp"
             ]
         },
         "text": [
-            "Keistas vyriškis nuskubėjo rotušės link ir murmėjo:",
-            "- Pasakų gyvūnas, pasakų gyvūnas...",
-            "Paimkite burtų lazdelę ir pažaiskite Žodlę.",
-            "Atrodo, kad atspėjus pasakų gyvūną,  lagaminas atsidarys."
+            "Atspėkite pasakų gyvūną."
         ],
         "type": "wordle",
         "answer": [
@@ -34,11 +31,10 @@
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "Lagaminą pavyko atidaryti. Jame randate knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
-                "Paimkite lagaminą, knygą, lazdelę, ieškokite užduočių telefono žemėlapyje ir jas atlikite."
+                "Magiška knyga atsivertė ties slibino paveikslu."
             ],
             "images": [
-                "kaunas2.webp"
+                "slibinas.webp"
             ]
         }
     },

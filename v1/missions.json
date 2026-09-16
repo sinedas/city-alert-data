@@ -218,10 +218,10 @@
       "text": [
         "Jūsų draugas, žydų mokslininkas Izaokas Goldšteinas pasiūlė išmėginti savo naują išradimą- laiko mašiną. Jis pasiūlė persikelti penkiomis minutėmis atgal.",
         "Mašina suveikė, bet kažkas įvyko ne taip, kaip tikėtasi. Mašina jus perkėlė į praeities Vilniaus miestą. Jūs esate šalia buvosio Žalgirio stadiono, kur radote raštelį nuo Izaoko Goldšteino:",
-        "„Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį okupuotą Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į Lenino aikštę, kur lauksiu jūsų.",
+        "\"Mielieji, mano mašinoje įvyko trumpas jungimas, ir ji perkėlė jus į sovietinį okupuotą Vilnių. Atlikite užduotis, sužinokite šios dienos datą ir laiką, ir ateikite į Lenino aikštę, kur lauksiu jūsų.",
         "Pirma užduotis, apsimeskite kolektyvu iš kokios nors sovietinės organizacijos. Sugalvokite organizacijos pavadinimą.",
         "",
-        "Jūsų draugas Izaokas Goldšteinas.“",
+        "Jūsų draugas Izaokas Goldšteinas.\"",
         "Užduočiai atlikti turite 4 minutes."
       ],
       "points": 2
@@ -415,11 +415,12 @@
       "lng": 23.895520710433082
     },
     "initialDiameter": 800,
-    "finalDiameter": 200,
+    "finalDiameter": 795,
     "duration": 30,
     "active": true,
     "locked": false,
-    "circle": true,
+    "circleMode": "fixed",
+    "circle": false,
     "description": "Įvadinė Kauno burtininko misija su stebuklinga kuprine ir lazdele.",
     "city": "Kaunas",
     "start": "Vilniaus g. 1",
@@ -431,23 +432,48 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Palikta kuprinė",
+      "text": [
+        "Vilniaus gatvėje Kaune radote paliktą kuprinę, burtų lazdelę ir sąsiuvinį.",
+        "Sąsiuvinio viršelyje parašyta:",
+        "\"Magijos pagrindai",
+        "Vėtrunės Išsiblaškėlės",
+        "Fėjų mokyklos",
+        "3a klasės mokinės\"",
+        "Įdomu, kas viduje ir kaip ją atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "Kuprinė atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
         "",
-        "Užduočiai atlikti turite 4 minutes."
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas kuprinėje?",
+      "text": [
+        "Kuprinė atsidarė. Joje radote sąsiuvinius, pieštukus ir kitus paslaptingus daiktus.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "atidaryta.webp"
     },
     "endPage": {
       "title": "Žaidimo pabaiga",
       "text": [
         "Jūsų magiškas nuotykis pasibaigė.",
         "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
-        "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Kauno burtininkas“"
+        "O jei norite sužinoti, kas jame slypi, žaiskite misiją \"Kauno burtininkas\""
       ],
       "image": "kaunas.webp"
     }
@@ -521,7 +547,7 @@
       "text": [
         "Your magical adventure is over.",
         "But near the location of the final task, you found a mysterious suitcase.",
-        "If you want to discover what is inside, play “The Kaunas Wizard”."
+        "If you want to discover what is inside, play \"The Kaunas Wizard\"."
       ],
       "image": "kaunas.webp"
     }
@@ -535,12 +561,13 @@
       "lng": 23.885371688821536
     },
     "initialDiameter": 1900,
-    "finalDiameter": 100,
+    "finalDiameter": 1895,
     "duration": 120,
     "level": "Lengvas",
     "active": true,
     "locked": true,
-    "circle": true,
+    "circleMode": "fixed",
+    "circle": false,
     "description": "Kauno burtininko lagaminas ir burtų lazdelė.",
     "city": "Kaunas",
     "start": "Perėja į senamiestį",
@@ -552,16 +579,36 @@
     "routeImageUrl": "https://citymission.lt/maps/kaunas_burtininkas_map.webp",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Paliktas lagaminas",
+      "text": [
+        "Šalia suoliuko netoli Dominikonų vienuolyno keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+        "Įdomu, kas viduje ir kaip jį atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "Lagaminas atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
         "",
-        "Užduočiai atlikti turite 4 minutes."
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas lagamine?",
+      "text": [
+        "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "kaunas2.webp"
     }
   },
   {
@@ -579,6 +626,7 @@
     "level": "Easy",
     "active": true,
     "locked": true,
+    "circleMode": "fixed",
     "circle": false,
     "description": "The Kaunas Wizard's suitcase and magic wand.",
     "city": "Kaunas",
@@ -591,16 +639,36 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "A Left-Behind Suitcase",
+      "text": [
+        "Near a bench close to the Dominican Monastery, a strange man left behind a suitcase and a magic wand, then hurried away murmuring something.",
+        "I wonder what's inside and how to open it?",
+        "",
+        "If you're ready for the adventure, tap \"Next\"."
+      ]
+    },
     "teamName": {
       "title": "Team Name",
       "time": 4,
       "text": [
-        "You have started a magical outdoor adventure.",
-        "Your first task is to come up with a name for your team.",
+        "The suitcase will only open once you come up with a team name, wave the wand, and say the name out loud.",
+        "Come up with a team name and enter it in the field.",
         "",
-        "You have 4 minutes to complete the task."
+        "This task is worth 2 points, and you have 4 minutes to complete it."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "What's in the Suitcase?",
+      "text": [
+        "The suitcase opened. Inside, you found a nameless book, a matchbox, watercolor paints, a map with tasks, and many other mysterious objects.",
+        "Your team is ready for the adventure.",
+        "Now follow the map and complete the tasks one by one.",
+        "",
+        "Good luck!"
+      ],
+      "image": "kaunas2.webp"
     }
   },
   {
@@ -612,12 +680,13 @@
       "lng": 25.28872933687652
     },
     "initialDiameter": 800,
-    "finalDiameter": 200,
+    "finalDiameter": 795,
     "duration": 30,
     "level": "Lengvas",
     "active": true,
     "locked": false,
-    "circle": true,
+    "circleMode": "fixed",
+    "circle": false,
     "description": "Įvadinė Bernardinų burtininko misija su stebuklinga kuprine ir lazdele.",
     "city": "Vilnius",
     "start": "Taikomasis Dailės muziejus- Arsenalo g. 3А",
@@ -629,23 +698,48 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Palikta kuprinė",
+      "text": [
+        "Arsenalo gatvėje radote paliktą kuprinę, burtų lazdelę ir sąsiuvinį.",
+        "Sąsiuvinio viršelyje parašyta:",
+        "\"Magijos pagrindai",
+        "Vėtrunės Išsiblaškėlės",
+        "Fėjų mokyklos",
+        "3a klasės mokinės\"",
+        "Įdomu, kas viduje ir kaip ją atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "Kuprinė atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
         "",
-        "Užduočiai atlikti turite 4 minutes."
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas kuprinėje?",
+      "text": [
+        "Kuprinė atsidarė. Joje radote sąsiuvinius, pieštukus ir kitus daiktus.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "atidaryta.webp"
     },
     "endPage": {
       "title": "Žaidimo pabaiga",
       "text": [
         "Jūsų magiškas nuotykis pasibaigė.",
         "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
-        "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Bernardinų burtininkas“"
+        "O jei norite sužinoti, kas jame slypi, žaiskite misiją \"Bernardinų burtininkas\""
       ],
       "image": "lagaminas.webp"
     }
@@ -720,7 +814,7 @@
       "text": [
         "Your magical adventure is over.",
         "But near the location of the final task, you found a mysterious suitcase.",
-        "If you want to discover what is inside, play “The Bernardinai Wizard”."
+        "If you want to discover what is inside, play \"The Bernardinai Wizard\"."
       ],
       "image": "lagaminas.webp"
     }
@@ -734,12 +828,13 @@
       "lng": 25.297270020588194
     },
     "initialDiameter": 1950,
-    "finalDiameter": 150,
+    "finalDiameter": 1945,
     "duration": 120,
     "level": "Lengvas",
     "active": true,
     "locked": true,
-    "circle": true,
+    "circleMode": "fixed",
+    "circle": false,
     "description": "Bernardinų burtininko lagaminas ir burtų lazdelė.",
     "city": "Vilnius",
     "start": "Mindaugo paminklas",
@@ -751,16 +846,36 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Paliktas lagaminas",
+      "text": [
+        "Šalia suoliuko netoli Mindaugo paminklo keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+        "Įdomu, kas viduje ir kaip jį atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "Lagaminas atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
         "",
-        "Užduočiai atlikti turite 4 minutes."
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas lagamine?",
+      "text": [
+        "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "atidarytasv2.webp"
     }
   },
   {
@@ -778,6 +893,7 @@
     "level": "Easy",
     "active": true,
     "locked": true,
+    "circleMode": "fixed",
     "circle": false,
     "description": "The Bernardinai Wizard's suitcase and magic wand.",
     "city": "Vilnius",
@@ -790,16 +906,36 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "A Left-Behind Suitcase",
+      "text": [
+        "Near a bench by the King Mindaugas Monument, a strange man left behind a suitcase and a magic wand, then hurried away murmuring something.",
+        "I wonder what's inside and how to open it?",
+        "",
+        "If you're ready for the adventure, tap \"Next\"."
+      ]
+    },
     "teamName": {
       "title": "Team Name",
       "time": 4,
       "text": [
-        "You have started a magical outdoor adventure.",
-        "Your first task is to come up with a name for your team.",
+        "The suitcase will only open once you come up with a team name, wave the wand, and say the name out loud.",
+        "Come up with a team name and enter it in the field.",
         "",
-        "You have 4 minutes to complete the task."
+        "This task is worth 2 points, and you have 4 minutes to complete it."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "What's in the Suitcase?",
+      "text": [
+        "The suitcase opened. Inside, you found a nameless book, a matchbox, watercolor paints, a map with tasks, and many other mysterious objects.",
+        "Your team is ready for the adventure.",
+        "Now follow the map and complete the tasks one by one.",
+        "",
+        "Good luck!"
+      ],
+      "image": "atidarytasv2.webp"
     }
   },
   {
@@ -811,12 +947,13 @@
       "lng": 24.9345199799943
     },
     "initialDiameter": 800,
-    "finalDiameter": 200,
+    "finalDiameter": 795,
     "duration": 30,
     "level": "Lengvas",
     "active": true,
     "locked": false,
-    "circle": true,
+    "circleMode": "fixed",
+    "circle": false,
     "description": "Įvadinė Trakų burtininko misija su stebuklinga kuprine ir lazdele.",
     "city": "Trakai",
     "start": "Trakų Švč. Dievo Motinos Gimimo cerkvė",
@@ -828,23 +965,48 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Palikta kuprinė",
+      "text": [
+        "Šalia Trakų Švč. Dievo Motinos Gimimo cerkvės radote paliktą kuprinę, burtų lazdelę ir sąsiuvinį.",
+        "Sąsiuvinio viršelyje parašyta:",
+        "\"Magijos pagrindai",
+        "Vėtrunės Išsiblaškėlės",
+        "Fėjų mokyklos",
+        "3a klasės mokinės\"",
+        "Įdomu, kas viduje ir kaip ją atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
+        "Kuprinė atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
         "",
-        "Užduočiai atlikti turite 4 minutes."
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas kuprinėje?",
+      "text": [
+        "Kuprinė atsidarė. Joje radote sąsiuvinius, pieštukus ir kitus daiktus.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "atidaryta.webp"
     },
     "endPage": {
       "title": "Žaidimo pabaiga",
       "text": [
         "Jūsų magiškas nuotykis pasibaigė.",
         "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
-        "O jei norite sužinoti, kas jame slypi, žaiskite misiją „Trakų burtininkas“"
+        "O jei norite sužinoti, kas jame slypi, žaiskite misiją \"Trakų burtininkas\""
       ],
       "image": "lagaminasv2.webp"
     }
@@ -858,12 +1020,13 @@
       "lng": 24.933352674435888
     },
     "initialDiameter": 2300,
-    "finalDiameter": 150,
+    "finalDiameter": 2295,
     "duration": 120,
     "level": "Lengvas",
     "active": true,
     "locked": true,
-    "circle": true,
+    "circleMode": "fixed",
+    "circle": false,
     "description": "Trakų burtininko lagaminas ir burtų lazdelė.",
     "city": "Trakai",
     "start": "Šokoladinė",
@@ -875,16 +1038,36 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Paliktas lagaminas",
+      "text": [
+        "Šalia Šokoladinės keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+        "Įdomu, kas viduje ir kaip jį atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
-        "Laikas jau tiksi.",
-        "Užduočiai atlikti turite 4 minutes."
+        "Lagaminas atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
+        "",
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas lagamine?",
+      "text": [
+        "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "atidarytasv3.webp"
     }
   },
   {
@@ -896,12 +1079,13 @@
       "lng": 25.243318934252198
     },
     "initialDiameter": 2400,
-    "finalDiameter": 150,
+    "finalDiameter": 2395,
     "duration": 120,
     "level": "Lengvas",
     "active": true,
     "locked": false,
-    "circle": true,
+    "circleMode": "fixed",
+    "circle": false,
     "description": "Žvėryno burtininko lagaminas ir burtų lazdelė.",
     "city": "Vilnius",
     "start": "Mergelės Marijos bažnyčia",
@@ -913,16 +1097,36 @@
     "routeImageUrl": "",
     "hints": 20,
     "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Paliktas lagaminas",
+      "text": [
+        "Šalia suoliuko netoli Mergelės Marijos bažnyčios keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+        "Įdomu, kas viduje ir kaip jį atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
     "teamName": {
       "title": "Komandos pavadinimas",
       "time": 4,
       "text": [
-        "Jūs pradėjote magišką orientacinį žaidimą.",
-        "Pirmoji jūsų užduotis – sugalvoti komandos pavadinimą.",
-        "Laikas jau tiksi.",
-        "Užduočiai atlikti turite 4 minutes."
+        "Lagaminas atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
+        "",
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
       ],
       "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas lagamine?",
+      "text": [
+        "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "atidarytasv2.webp"
     }
   }
 ]

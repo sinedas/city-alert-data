@@ -7,26 +7,20 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Šalia įėjimo į Taikomosios dailės muziejų randate kuprinę, lazdelę su žvaigždute ir sąsiuvinį.",
-                "Sąsiuvinio viršelyje parašyta:",                
-                "Vėtrunės Išsiblaškėlės",
-                "Fėjų mokyklos",
-                "3a klasės mokinės",
-                "Magijos pagrindai",
+                "Sąsiuvinys atsivertė ties uždaviniu „Raidžių Magijos uždavinys“.",
                 "Užduočiai atlikti turite 7 minutes."
             ],
             "images": [
-                "kuprine.webp"
+                "raides_klausimas.webp"
             ]
-        },    
-        "image": "sasiuvinys.webp",
+        },
         "text": [
-            "Įdomu, kaip atidaryti kuprinę? Staiga sąsiuvinys atsivertė ties uždavinio sąlyga:",
+            "Sąsiuvinyje atsirado naujos sąlygos:",
             "Vienas turi 6",
             "Du turi 2",
             "Trys turi 4",
             "Kiek turi Trylika?",
-            "Atsakymas pasakys, kiek kartų mostelėti lazdele, kad kuprinė atsidarytų."
+            "Atsakymą įrašykite skaičiumi."
         ],
         "answer": ["7"],
         "points": 5,
@@ -39,11 +33,9 @@
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "Jūs mostelėjote lazdele septynis kartus ir kuprinė atsidarė.",
-                "Joje radote jaunosios fėjos mokymosi priemones.",
-                "Jūs pasiimate fėjos daiktus ir einate atlikti kitų užduočių."
+                "Trylika turi 7 raides."
             ],
-            "images": ["atidaryta.webp"]
+            "images": ["raides_atsakymas.webp"]
         }
     },
     {

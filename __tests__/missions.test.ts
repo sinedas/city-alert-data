@@ -610,6 +610,25 @@ describe('Mission List (missions.json)', () => {
       });
     });
 
+    it('circleMode "fixed" missions should have circle: false and a near-static diameter', () => {
+      missions.forEach((mission, index) => {
+        if (mission.circleMode !== 'fixed') return;
+
+        expect(
+          mission.circle,
+          `Mission [${index}] "${mission.code}" has circleMode "fixed" and must set circle: false`
+        ).toBe(false);
+
+        if (mission.initialDiameter !== undefined && mission.finalDiameter !== undefined) {
+          const diameterDelta = Math.abs(mission.initialDiameter - mission.finalDiameter);
+          expect(
+            diameterDelta,
+            `Mission [${index}] "${mission.code}" has circleMode "fixed" - initialDiameter/finalDiameter must differ by at most 10m (got ${diameterDelta}m)`
+          ).toBeLessThanOrEqual(10);
+        }
+      });
+    });
+
     it('all tasks should fall within the initial alert circle', () => {
       const failures: string[] = [];
 
