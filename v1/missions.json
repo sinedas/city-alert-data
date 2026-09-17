@@ -271,7 +271,7 @@
     "start": "Cathedral Bell Tower",
     "finish": "Užupis Angel",
     "route": "Cathedral Square, Pilies Street, St. Anne’s Church, Bernardine Garden, Užupis",
-    "details": "Start anywhere and complete the tasks in any order.",
+    "details": "Cathedral Square, Pilies Street, St. Anne’s Church, Bernardine Garden, Užupis",
     "startLocation": {
       "lat": 54.68633639202634,
       "lng": 25.286890322996783
@@ -476,7 +476,8 @@
         "O jei norite sužinoti, kas jame slypi, žaiskite misiją \"Kauno burtininkas\""
       ],
       "image": "kaunas.webp"
-    }
+    },
+    "details": "Vilniaus gatvė, Senoji prezidentūra."
   },
   {
     "code": "kaunas_fairy_en",
@@ -550,7 +551,8 @@
         "If you want to discover what is inside, play \"The Kaunas Wizard\"."
       ],
       "image": "kaunas.webp"
-    }
+    },
+    "details": "Vilniaus Street, Old Presidential Palace."
   },
   {
     "code": "kauno_burtininkas",
@@ -609,7 +611,8 @@
         "Sėkmės!"
       ],
       "image": "kaunas2.webp"
-    }
+    },
+    "details": "Vilniaus gatvė, Senoji prezidentūra, Perkūno namas, Kauno Šv. Petro ir Povilo katedra, Kauno rotušė, Kauno pilis."
   },
   {
     "code": "kaunas_wizard_en",
@@ -669,7 +672,8 @@
         "Good luck!"
       ],
       "image": "kaunas2.webp"
-    }
+    },
+    "details": "Vilniaus Street, Perkūnas House, Kaunas Town Hall, Kaunas Castle."
   },
   {
     "code": "vilnius_kuprine",
@@ -742,7 +746,8 @@
         "O jei norite sužinoti, kas jame slypi, žaiskite misiją \"Bernardinų burtininkas\""
       ],
       "image": "lagaminas.webp"
-    }
+    },
+    "details": "Taikomasis dailės muziejus, Arsenalo gatvė, Mindaugo paminklas."
   },
   {
     "code": "vilnius_fairy_en",
@@ -817,7 +822,8 @@
         "If you want to discover what is inside, play \"The Bernardinai Wizard\"."
       ],
       "image": "lagaminas.webp"
-    }
+    },
+    "details": "Museum of Applied Arts and Design, King Mindaugas Monument."
   },
   {
     "code": "bernardinu_burtininkas",
@@ -876,7 +882,8 @@
         "Sėkmės!"
       ],
       "image": "atidarytasv2.webp"
-    }
+    },
+    "details": "Mindaugo paminklas, Valdovų rūmai, Katedros aikštė, Šv. Onos bažnyčia, Bernardinų sodas."
   },
   {
     "code": "bernardinai_wizard_en",
@@ -897,6 +904,7 @@
     "circle": false,
     "description": "The Bernardinai Wizard's suitcase and magic wand.",
     "city": "Vilnius",
+    "details": "Cathedral square, Bernardinai Garden, St. Anne’s Church.",
     "start": "King Mindaugas Monument",
     "finish": "Bernardinai Garden",
     "startLocation": {
@@ -1009,7 +1017,8 @@
         "O jei norite sužinoti, kas jame slypi, žaiskite misiją \"Trakų burtininkas\""
       ],
       "image": "lagaminasv2.webp"
-    }
+    },
+    "details": "Trakų Švč. Dievo Motinos Gimimo cerkvė, Vytauto gatvė, Šokoladinė."
   },
   {
     "code": "traku_burtininkas",
@@ -1068,7 +1077,8 @@
         "Sėkmės!"
       ],
       "image": "atidarytasv3.webp"
-    }
+    },
+    "details": "Šokoladinė, Trakų Švč. Mergelės Marijos Apsilankymo bazilika, Trakų pusiasalio pilis, Karaimų gatvė, Trakų salos pilis."
   },
   {
     "code": "zveryno_burtininkas",
@@ -1127,6 +1137,7 @@
         "Sėkmės!"
       ],
       "image": "atidarytasv2.webp"
-    }
+    },
+    "details": "Švč. M. Marijos Nekaltojo Prasidėjimo bažnyčia, Latvių, Žalioji, Žvėryno tvenkiniai, Vingio parko tiltas."
   }
 ]
