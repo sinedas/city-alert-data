@@ -263,7 +263,7 @@
     "duration": 120,
     "active": true,
     "level": "Medium",
-    "locked": false,
+    "locked": true,
     "circle": false,
     "circleMode": "fixed",
     "description": "Explore the secrets of Vilnius Old Town: Cathedral Square, Pilies Street, St. Anne’s Church, Bernardine Garden, and Užupis.",
