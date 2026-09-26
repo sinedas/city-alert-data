@@ -1081,6 +1081,67 @@
     "details": "Šokoladinė, Trakų Švč. Mergelės Marijos Apsilankymo bazilika, Trakų pusiasalio pilis, Karaimų gatvė, Trakų salos pilis."
   },
   {
+    "code": "birzu_burtininkas",
+    "title": "Biržų burtininkas",
+    "folder": "bernardinu_burtininkas",
+    "image": "lagaminas.webp",
+    "location": {
+      "lat": 56.204778,
+      "lng":  24.753194
+    },
+    "initialDiameter": 2300,
+    "finalDiameter": 2295,
+    "duration": 120,
+    "level": "Lengvas",
+    "active": true,
+    "locked": true,
+    "circleMode": "fixed",
+    "circle": false,
+    "description": "Biržų burtininko lagaminas ir burtų lazdelė.",
+    "city": "Biržai",
+    "start": "Siaurukas",
+    "finish": "Biržų pilis",
+    "startLocation": {
+      "lat": 56.204778,
+      "lng":  24.753194
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Paliktas lagaminas",
+      "text": [
+        "Šalia SiaurukoO keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+        "Įdomu, kas viduje ir kaip jį atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+        "Lagaminas atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
+        "",
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
+      ],
+      "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas lagamine?",
+      "text": [
+        "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "atidarytasv3.webp"
+    },
+    "details": "Šokoladinė, Trakų Švč. Mergelės Marijos Apsilankymo bazilika, Trakų pusiasalio pilis, Karaimų gatvė, Trakų salos pilis."
+  },
+  {
     "code": "zveryno_burtininkas",
     "title": "Žvėryno burtininkas",
     "image": "zveryno_lagaminas2.webp",
