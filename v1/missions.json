@@ -16,6 +16,7 @@
     "circle": true,
     "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
     "city": "Vilnius",
+    "missingPhotosCount": 5,
     "start": "Žirmūnų biblioteka",
     "finish": "Tuskulėnų dvaro parkas",
     "startLocation": {
