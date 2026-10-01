@@ -18,11 +18,11 @@
             ]
         },
         "text": [
-            "Atspėkite pasakų gyvūną."
+            "Atspėkite pasakų veikėją."
         ],
         "type": "wordle",
         "answer": [
-            "SLIBINAS"
+            "TROLIS"
         ],
         "points": 10,
         "attempts": 10,
@@ -31,10 +31,10 @@
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "Magiška knyga atsivertė ties slibino paveikslu."
+                "Magiška knyga atsivertė ties trolio paveikslu."
             ],
             "images": [
-                "slibinas.webp"
+                "trolis.webp"
             ]
         }
     },
