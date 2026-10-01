@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "name": "Pasakų gyvūnas",
+        "name": "Pasakų veikėjas",
         "lat": 56.204778,
         "lng":  24.753194,
         "startType": "carousel",
@@ -14,7 +14,7 @@
                 "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
             ],
             "images": [
-                "pasaku_gyvunas.webp"
+                "pasaku_veikejas.webp"
             ]
         },
         "text": [
