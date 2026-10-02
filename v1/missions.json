@@ -17,6 +17,15 @@
     "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
     "city": "Vilnius",
     "missingPhotosCount": 5,
+    "missingPhotosIntro": {
+      "title": "Tuščias fotoalbumas",
+      "text": [
+        "Tuskulėnų dvaro vaiduoklis paliko jums savo seną fotoalbumą – tačiau visos jo nuotraukos išblėso.",
+        "Padėkite vaiduokliui prisiminti: užpildykite albumą įdomiausių pakeliui sutiktų objektų nuotraukomis.",
+        "",
+        "Mūsų dirbtinis intelektas įvertins nuotrauką ir skirs nuo 1 iki 3 taškų."
+      ]
+    },
     "start": "Žirmūnų biblioteka",
     "finish": "Tuskulėnų dvaro parkas",
     "startLocation": {
