@@ -7,7 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Netoli Biržų pilies magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
+                "Netoli Biržų evangelikų reformatų bažnyčios magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
                 "Pažaiskime burtažodlę. Spėkite burtažodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
                 "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
                 "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
@@ -199,9 +199,9 @@
       },
       {
         "id": "12",
-        "name": "Širvėnos ežeras",
-        "lat": 56.20223018797796,
-        "lng": 24.75366587582121,
+        "name": "Širvėnos fontanai",
+        "lat": 56.20197903134483,
+  "lng": 24.753896445035938,
         "startType": "carousel",
         "startCarousel": {
           "text": [
@@ -215,7 +215,7 @@
         },
         "image": "colors2.webp",
         "text": [
-          "Galvės ežeras pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
+          "Širvėnos ežero fontanai pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
           "Kokia spalva yra užšifruota šioje lygtyje?"
         ],
         "answer": [
@@ -249,8 +249,8 @@
       {
         "id": "13",
         "name": "Radijo imtuvas",
-        "lat": 56.201575685489615,
-    "lng": 24.74798294257039,
+        "lat": 56.20477647455639,
+"lng": 24.7526827454567,
         "type": "audio",
         "audio": "elfas.wav",
         "startType": "carousel",

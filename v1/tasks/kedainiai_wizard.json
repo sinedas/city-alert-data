@@ -1,0 +1,758 @@
+[
+    {
+        "id": "1",
+        "name": "Pasakų gyvūnas",
+        "lat": 55.286820,
+        "lng": 23.979310,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Didžiosios Rinkos aikštės magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
+                "Pažaiskime burtažodlę. Spėkite burtažodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
+                "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
+            ],
+            "images": [
+                "pasaku_gyvunas.webp"
+            ]
+        },
+        "text": [
+            "Atspėkite pasakų gyvūną."
+        ],
+        "type": "wordle",
+        "answer": [
+            "SLIBINAS"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Magiška knyga atsivertė ties slibino paveikslu."
+            ],
+            "images": [
+                "slibinas.webp"
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "name": "Trys išminčiai",
+        "lat": 55.286350,
+        "lng": 23.979820,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Kėdainių rotušės kiemelyje randate tris suakmenėjusias galvas.",
+                "Bet tai ne paprastos galvos, o trys suakmenėję išminčiai.",
+                "Mostelėjus burtų lazdele, galvos prabudo ir prakalbo į jus, užduodamos keturis klausimus.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "galvos.webp"
+            ]
+        },
+        "type": "chain",
+        "text": [
+            "Išspręskite akmeninių išminčių sugalvotą grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
+            "",
+            "1. Medžiaga iš kurios austas nepermatomas apsiaustas?",
+            "2. Kas pasakoje gaudė žuvis savo uodega?",
+            "3. Bjaurusis ančiukas buvo?",
+            "4. Karalių į karą lydi kareivių ...?",
+            "",
+            "Kiekvienas bandymas – minus 1 taškas."
+        ],
+        "answer": ["Šilkas", "Vilkas", "Pilkas", "Pulkas"],
+        "points": 7,
+        "attempts": 7,
+        "time": 5,
+        "minusPointsOnAttempt": 1
+    },
+    {
+        "id": "3",
+        "name": "Škotų namo rėmas",
+        "lat": 55.286100,
+        "lng": 23.978900,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Teptukai ir dažai netikėtai iššoko iš atsidariusio lagamino ir atsidūrė vienos komandos nario rankose.",
+                "Reikės nupiešti paveikslą šalia istorinius laikus menančio Škotų namo.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "painting.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės įkišę galvas į paveikslo rėmą šalia Škotų namo ar senamiesčio fone.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
+        },
+        "text": [
+            "Suraskite gražią senamiesčio vietą ar istorinį rėmą šalia Škotų namo.",
+            "Įsivaizduokite, kad vienas komandos narys yra dailininkas ir piešia paveikslą.",
+            "Padarykite komandos narių nuotrauką, kur komandos nariai yra paveikslo rėme."
+        ],
+        "points": 4,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Kėdainių valdovai",
+        "lat": 55.285810,
+        "lng": 23.977450,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Evangelikų reformatų bažnyčios knygos viršelyje atsirado raidės ir susidėliojo į užrašą: 'Dailės istorija'.",
+                "Atverskite knygą ir atlikite naują užduotį"
+            ],
+            "images": [
+                "daile.webp"
+            ]
+        },
+        "type": "timepointer",
+        "text": "Knygos puslapiuose atsirado keturių garsių dailininkų paveikslai. Atpažinkite paveikslų autorius ir surikiuokite juos.",
+        "events": [
+            { "name": "Čiurlionis", "order": 1, "image": "ciurlionis.webp"},
+            { "name": "Leonardas da Vinčis", "order": 2, "image": "mona.webp"},
+            { "name": "Van Gogas", "order": 3, "image": "vangog.webp"},
+            { "name": "Dobužinskis", "order": 4, "image": "dobuzinskis.webp"}
+        ],
+        "points": 7,
+        "attempts": 7,
+        "minusPointsOnAttempt": 1,
+        "time": 4
+    },
+    {
+        "id": "5",
+        "name": "Didžioji Rinka",
+        "lat": 55.286610,
+        "lng": 23.979600,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["katedra.webp"],
+            "changeInterval": 3
+        },
+        "text": [
+            "Stebuklingame lagamine buvo daiktas, kuriame prie dešimt pridėjus septynis gaunama penki.",
+            "Kas tai per daiktas?"            
+        ],
+        "answer": ["Laikrodis"],
+        "points": 5,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Štai atidarytas lagaminas.",
+                "Apsidairykite aplinkui senamiesčio aikštėje, ir tikrai surasite šį daiktą."
+            ],
+            "image": "katedra_hint.webp",     
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+             "text": [
+                "Atsakymas – Laikrodis.",
+                "Tik tai – nepaprastas laikrodis, o laiko atsuktuvas, kuris dar gali jums pasitarnauti."
+            ],
+            "images": ["atsuktuvas.webp"]
+        }
+    },
+    {
+        "id": "6",
+        "name": "Pasaka",
+        "lat": 55.287230,
+        "lng": 23.979110,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [                    
+                "Stebuklingos knygos viršelis vėl pasikeitė. Atverskite ją ir spėkite pasakos pavadinimą.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["pasakos.webp"],
+            "changeInterval": 0
+        }, 
+        "image": "katinas.png",
+        "text": "Sudėkite dėlionės dalis į kvadratą ir atspėkite pasakos pavadinimą.",
+        "answer": ["Batuotas katinas"],
+        "points": 7,
+        "attempts": 5,
+        "time": 5,
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "Stebuklinga knyga atsivertė ties pasaka – Batuotas katinas."
+            ],
+            "image": "batuotas.webp"
+        }
+    },
+    {
+        "id": "7",
+        "name": "Akiniai",
+        "lat": 55.287910,
+        "lng": 23.978200,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Vieno jūsų komandos narių akiniai nukrito ir sudužo.",
+                "Laikas pasiimti burtų lazdelę ir spėti stebuklingą skaičių.",
+                ""
+            ],
+            "images": [
+                "akiniai_brokenv4.webp"
+            ]
+        },
+        "text": [
+            "Akinius sutaisyti gali burtų lazdelė. Kiek kartų mostelėti ja, gali padėti šis uždavinys.",
+            "8800 turi 6.",
+            "6900 turi 4.",
+            "8888 turi 8.",
+            "Kiek turi 6980 ?"
+        ],
+        "answer": [
+            "5"
+        ],
+        "points": 5,
+        "attempts": 4,
+        "time": 5,
+        "hint": {
+            "text": [
+                "Kiek kiekvienas skaitmuo turi skrituliukų?"
+            ],
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "Burtai suveikė ir akiniai susitaisė."
+            ],
+            "image": "akiniaiv4.webp"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Meilės kryžiažodis",
+        "lat": 55.286210,
+        "lng": 23.978050,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Radvilų paveldo apsptyje knygos pavadinime atsirado užrašas: 'Meilės kryžiažodis'.",
+                "Atverskite knygą ir atlikite naują užduotį",
+                "",
+                "Užduočiai atlikti turite 7 minutes."
+            ],
+            "images": [
+                "sforca.webp"
+            ]
+        },
+        "image": "sirdis.jpg",
+        "text": [
+            "Į kryžiažodį įrašykite antrą įsimylėjėlį poroje. Atsakyme įrašykite pilką žodį.",
+            "1. ... ir Fiona",
+            "2. Eglė ir ...",
+            "3. Augustas ir ...",
+            "4. Romeo ir ...",
+            "5. Gražuolė ir ...",
+            "6. ... ir Hermiona"
+        ],
+        "answer": ["ŠIRDIS"],
+        "points": 6,
+        "attempts": 5,
+        "time": 7,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+             "text": [
+                "Atsakymas - Širdis."
+            ],
+            "images": ["sirdis_answer.png"]
+        }
+    },
+    {
+        "id": "9",
+        "name": "Jonušo Radvilos paminklas",
+        "lat": 55.286580,
+        "lng": 23.979250,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Jonušo Radvilos paminklo knygos pavadinime atsirado užrašas: 'Gyvūnas'.",
+                "Atverskite knygą ir atlikite naują užduotį",
+                "",
+                "Užduočiai atlikti turite 5 minutes ir 7 bandymus."
+            ],
+            "images": ["gyvunas.webp"]  
+        },
+        "type": "wordle",
+        "text": [
+            "Suraskite miško gyvūną, kuris dažnai vaizduojamas senovės herbuose ir pasakose."
+        ],
+        "answer": [
+            "VILKAS"
+        ],
+        "points": 7,
+        "attempts": 7,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "Stebuklinga knyga atsivertė ties legenda – Geležinis Vilkas."
+            ],
+            "image": "vilkas.webp"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Kėdainių senamiesčio maketas",
+        "lat": 55.287010,
+        "lng": 23.978500,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Teptukai ir dažai iš lagamino vėl ėmė išdykauti. Jie iššoko iš lagamino ir atsidūrė kažkurio jūsų rankose.",
+                "Reikės nupiešti paveikslą",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["painting.webp"]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Kėdainių senamiesčio pastatų ar krašto muziejaus fono elementai.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them as an early-1900s European painter wearing a traditional black painter's beret, period artist clothing, and a painter's smock while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+        },
+        "text": [
+            "Jūsų užduotis – sukurti Kėdainių senamiesčio piešinį.",
+            "Padarykite nuotrauką taip, kad keli komandos nariai iš rankų padaro paveikslo rėmą, o tame rėme matosi Kėdainių senamiesčio grožis."
+        ],
+        "points": 5,
+        "time": 5
+    },
+    {   
+        "id": "12",
+        "name": "Nevėžio krantinė",
+        "lat": 55.285400,
+        "lng": 23.980100,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [ 
+                "Kolba iš lagamino iššoko, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios.",
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["colors_start.webp"],
+            "changeInterval": 0
+        },
+        "image": "colors2.webp",
+        "text": [
+            "Nevėžio upės tėkmė pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
+            "Kokia spalva yra užšifruota šioje lygtyje?"
+        ],
+        "answer": ["ŽALIA"],
+        "points": 6,
+        "attempts": 4,
+        "time": 6,
+        "hint": {
+            "image": "colors_hint2.webp",
+            "text": [
+                "Prisiminkite dailės pamokas. ",
+                "",
+                "Geltona ir raudona sudaro oranžinę spalvą.",
+                "Raudona ir mėlyna sudaro violetinę spalvą.",
+                "",
+                "Kokias spalvas dar maišėte mokykloje?"
+            ],
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Lygties sprendimas – ŽALIA."
+            ],
+            "images": ["colors_solution.webp"]
+        }
+    },
+    {
+        "id": "13",
+        "name": "Radijo imtuvas",
+        "lat": 55.288500,
+        "lng": 23.978800,
+        "type": "audio",
+        "audio": "elfas.wav",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [               
+                "Lagaminas atsidarė ant pievelės. Jo neatrastame skyriuje vietoj matytų daiktų atsirado radijo imtuvas.",
+                "",     
+                "Užduočiai atlikti turite 10 minučių."
+            ],
+            "images": ["imtuvasv2.webp"],
+            "changeInterval": 0
+        },
+        "image": "imtuvasv2.webp",
+        "text": [
+            "Į imtuvą jūs gavote garsinį pranešimą. Jame užkoduotas pasakų veikėjo vardas.",
+            "",
+            "Morzės kodas jums padės:",
+            "A  ·−        G  −−·       M  −−        T  −    ",
+            "B  −···      H  ····         N  −·          U  ··−  ",
+            "C  −·−·     I  ··            O  −−−       V  ···− ",
+            "D  −··       J  ·−−−      P  ·−−·       Z  −−·· ",
+            "E  ·           K  −·−        R  ·−·",          
+            "F  ··−·       L  ·−··        S  ··· "
+        ],
+        "answer": ["ELFAS"],
+        "points": 10,
+        "attempts": 5,
+        "time": 10,
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "Pasakos personažas – Elfas."
+            ],
+            "image": "elfas.webp"
+        }
+    },
+    {
+        "id": "14",
+        "name": "Stebuklingi degtukai",
+        "lat": 55.287600,
+        "lng": 23.979900,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [               
+                "Degtukų dėžutė netikėtai pati atsidarė",
+                "",     
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": ["degtukai.webp"],
+            "changeInterval": 0
+        }, 
+        "image": "degtuku_uzduotis.webp",
+        "text": [
+            "Degtukai iššoko iš dėžutės ir susidėjo į lygybę, tačiau neteisingai.",
+            "Perkelkite vieną degtuką taip, kad lygybė būtų teisinga.",
+            "Atsakyme parašykite lygybę paprastais skaičiais ir ženklais."
+        ],
+        "answer": ["3+6=9", "3+5=8"],
+        "points": 5,
+        "attempts": 5,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Ši užduotis turi ne vieną sprendimą. Vienas jų yra šis."
+            ],
+            "images": ["degtukai_sprendimas.webp"]
+        }
+    },
+    {
+        "id": "15",
+        "name": "Transporto priemonė",
+        "lat": 55.289100,
+        "lng": 23.979200,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Kėdainių miesto parko pievelėje yra stebuklinga transporto priemonė.",
+                "Tik ji pasislėpusi po nepermatoma uždanga.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "zole.webp"
+            ]
+        },
+        "text": [
+            "Žodlė. Atspėkite stebuklingą transporto priemonę. Spėdami nepamirškite mostelėti stebuklinga lazdele."
+        ],
+        "type": "wordle",
+        "answer": [
+            "KILIMAS"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "Ant pievelės buvo skraidantis kilimas. Galite pasiimti jį su savimi."
+            ],
+            "image": "kilimas.webp"
+        }
+    },
+    {
+        "id": "16",
+        "name": "Kėdainių šachmatai",
+        "lat": 55.288200,
+        "lng": 23.980500,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [               
+                "Lagaminas atsidarė ant suoliuko ir jame atsirado šachmatų figūros.",
+                "",     
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["sachmatai.webp"],
+            "changeInterval": 0
+        }, 
+        "image": "chesstask.webp",
+        "text": [
+            "Šachmatų figūros išsirikiavo ant lentos.",
+            "Suraskite pergalingą juodųjų ėjimą.",
+            "",
+            "Atsakyme įrašykite tik ėjimą, kur figura turi eiti, pvz.: A1"
+        ],
+        "answer": ["D6"],
+        "points": 6,
+        "attempts": 4,
+        "time": 6,
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "Pergalingas juodųjų ėjimas – žirgas d6."
+            ],
+            "image": "chesssolution.webp"
+        }
+    },
+    {
+        "id": "17",
+        "name": "Laivų mūšis",
+        "lat": 55.284800,
+        "lng": 23.980800,
+        "type": "bomb",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia upės pėsčiųjų tilto lagaminas atsidarė, o jame atsirado laivų mūšis.",
+                "Spėkite, į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos, visi taškai sudega",
+                "Laiku sustokite."
+            ],
+            "images": ["mina.webp"]
+        },
+        "text": [
+            "Spėkite saugų laukelį jūrų laivui. Sėkmingas spėjimas +1 taškas. Užplaukus ant minos taškai sudega. Laiku sustokite."
+        ],
+        "points": 9,
+        "time": 5
+    },
+    {
+        "id": "18",
+        "name": "Laiko atsuktuvas",
+        "lat": 55.288800,
+        "lng": 23.980100,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Knygos viršelyje atsirado raidės ir susidėliojo į užrašą: 'Išradimai'.",
+                "Atverskite knygą ir atlikite naują užduotį"
+            ],
+            "images": [
+                "isradimai.webp"
+            ]
+        },
+        "type": "timepointer",
+        "text": [
+            "Jūsų užduotis yra suderinti laiko atsuktuvą.",
+            "Knyga atsivertė ties įvairių išradimų paveikslu",
+            "Surikiuokite šiuos išradimus pagal jų sukūrimo laiką."
+        ],
+        "image": "shared/museums/inventions1.webp",
+        "events": [
+            { "name": "Kompasas", "order": 1, "text": "2-as amžius prieš m. e." },
+            { "name": "Knygų spaudos presas", "order": 2, "text": "1440" },
+            { "name": "Teleskopas", "order": 3, "text": "1608" },
+            { "name": "Oro balionas", "order": 4, "text": "1783" }
+        ],
+        "points": 7,
+        "attempts": 7,
+        "minusPointsOnAttempt": 1,
+        "time": 4
+    },
+    {
+        "id": "19",
+        "name": "Laimės ratas",
+        "lat": 55.289400,
+        "lng": 23.978100,
+        "type": "roulette",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Miesto parke atsirado stebuklingas laimės ratas.",
+                "Jūs radote auksinę penkių taškų monetą, už kurią galite sukti laimės ratą.",
+                "Spėkite spalvą – raudoną ar juodą. Kiekvieną kartą atspėjus jūsų taškai dvigubinasi. Pralaimėjus liekate prie pradinės dviejų taškų sumos."
+            ],
+            "images": ["ratas.webp"]
+        },
+        "points": 5,
+        "time": 5
+    },
+    {
+        "id": "20",
+        "name": "Batukai",
+        "lat": 55.286900,
+        "lng": 23.980800,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Stebuklinga lazdelė vieno jūsų rankose nusprendė paišdykauti.",
+                "Jinai išsprūdo iš rankų, pati padarė kelis mostus ir pavertė jus į nykštukus."
+            ],
+            "images": [
+                "lazdele.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas bent vienas tikras žmogus ir vienas ar du dideli raudoni objektai, primenantys batus?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation, using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent dark outlines, with a subtle watercolor texture. Replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style, each wearing a tall, pointed red fairy-tale gnome hat and matching curled-toe red boots. Ensure these characters maintain their original poses and clothing, but with uniform flat tan skin tones and a whimsical storybook aesthetic (avoiding Christmas motifs). The standees should have thick dark outlines and flat colors, integrating into the environment with consistent perspective while remaining more graphic than the background."
+        },
+        "text": [
+            "Suraskite didelius raudonus batus ir padarykite komandos narių nuotrauką šalia jų.",
+            "Padarius nuotrauką, burtai išsisklaidys ir sugrąžins jūsų dydį.",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+        ],
+        "points": 6,
+        "time": 5
+    },
+    {
+        "id": "21",
+        "name": "Kunigaikštis Radvila",
+        "lat": 55.285880,
+        "lng": 23.977800,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Laiko atsuktuvas suveikė ir nukeldino jus į XVII amžių, o vieną jūsų pavertė Kėdainių valdovu Radvila.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "napoleonas.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės. Šalia jo delno yra Evangelikų reformatų bažnyčia ar kitas žymus Kėdainių pastatas.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them in 17th-century European noble/Radvila era clothing with a hat while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+        },
+        "text": [
+            "Kunigaikštis Radvila norėjo, kad jo miestas būtų didingas ir matomas iš tolo.",
+            "\"Šį architektūros šedevrą aš ant delno išlaikyčiau per visus amžius!\"",
+            "",
+            "Padarykite komandos nario ar narių nuotrauką, tarsi jis ar jie ant delno laikytų Evangelikų reformatų bažnyčią ar rotušę.",
+            "Padarius nuotrauką, burtai išsisklaidys ir sugrąžins jus atgal į dabartį."
+        ],
+        "points": 6,
+        "time": 7
+    },
+    {
+        "id": "22",
+        "name": "Šuniukai",
+        "lat": 55.287400,
+        "lng": 23.981200,
+        "iconType": "photo",
+        "type": "photoValidation",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Miesto parke stebuklingoji knyga atsivertė ties pasaka 'Dvylika mėnesių'.",
+                "Pasirodo, sutikti personažai – tai našlaitės pamotė kartu su dukromis.",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "menesiai.webp"
+            ]
+        },
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės parko ar senamiesčio fone.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle dog features: **gently integrated dog ears**, and **a gently integrated dog tail that follows the body’s posture**. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."
+        },
+        "text": [
+            "O burtų lazdelė ėmė kvailioti. Ji pavertė komandos narius šuniukais.",
+            "Padarykite komandos narių nuotrauką, kur jie atsistoję ant keturių.",
+            "Padarius nuotrauką, burtai išsisklaidys ir sugrįš žmonių pavidalas."
+        ],
+        "points": 6,
+        "time": 7
+    },
+    {   
+        "id": "23",
+        "name": "Matematinė lygtis",
+        "lat": 55.288000,
+        "lng": 23.979000,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [ 
+                "Kolba iš lagamino iššoko, ir pasidalino į dvi kolbas.",
+                "Kolbos prisipildė vandens, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis.",                                
+                "Užduočiai atlikti turite 6 minutes."
+            ],
+            "images": ["lygtis_start.webp"],
+            "changeInterval": 0
+        },
+        "image": "lygtis.webp",
+        "text": [
+            "Išspręskite lygtis su laiko atsuktuvu ir aukso ir sidabro skysčiais."
+        ],
+        "answer": ["18"],
+        "points": 8,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Atkreipkite dėmesį į tai ką rodo laiko atsuktuvas."
+            ],
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Atsakymas – 18."
+            ],
+            "images": ["sprendimas.webp"]
+        }
+    },
+    {
+        "id": "24",
+        "name": "Karaliaus sostas",
+        "lat": 55.286400,
+        "lng": 23.978800,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Jūs priėjote garbingą vietą, kurioje stovi istorinis sostas.",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "sostas.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas bent vienas žmogus, atsisėdęs ant skulptūros ar suoliuko-sosto? Nuotraukoje gali būti ir kitų žmonių.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, clothing, poses, and recognizability unchanged. Add elegant golden royal crowns to every visible person's head, matching the same illustrated style, perspective, lighting, and scale, integrating them naturally into the scene without exaggeration or distortion."
+        },
+        "text": [
+            "Žaiskite vaskiči. Laimėtojas tampa karaliumi ar karaliene. Tegu jis ar ji atsisėda į sostą, o likę atsistoja šalia.",
+            "Padarykite komandos nuotrauką"
+        ],
+        "points": 4,
+        "time": 5
+    }
+]

@@ -643,6 +643,20 @@
     "circle": false,
     "description": "The Kaunas Wizard's suitcase and magic wand.",
     "city": "Kaunas",
+    "missingPhotosCount": 5,
+    "missingPhotosIntro": {
+      "title": "The Empty Photo Album",
+      "text": [
+        "You picked up the nameless book – and the moment you opened it, it turned into an empty photo album.",
+        "The wizard's album must not stay empty. Your task is to fill it with photos of the most interesting sights you discover along the way.",
+        "",
+        "The album itself will decide how many points – from 1 to 3 – each photo is worth."
+      ]
+    },
+    "missingPhotosAlbumText": [
+      "Found something interesting during the mission – a sculpture, graffiti or an old door? Take a photo!",
+      "The album itself will decide how many points – from 1 to 3 – you get. No people in the photo."
+    ],
     "start": "Crossing into the Old Town",
     "finish": "Kaunas Castle",
     "startLocation": {
@@ -914,6 +928,20 @@
     "circle": false,
     "description": "The Bernardinai Wizard's suitcase and magic wand.",
     "city": "Vilnius",
+    "missingPhotosCount": 5,
+    "missingPhotosIntro": {
+      "title": "The Empty Photo Album",
+      "text": [
+        "You picked up the nameless book – and the moment you opened it, it turned into an empty photo album.",
+        "The wizard's album must not stay empty. Your task is to fill it with photos of the most interesting sights you discover along the way.",
+        "",
+        "The album itself will decide how many points – from 1 to 3 – each photo is worth."
+      ]
+    },
+    "missingPhotosAlbumText": [
+      "Found something interesting during the mission – a sculpture, graffiti or an old door? Take a photo!",
+      "The album itself will decide how many points – from 1 to 3 – you get. No people in the photo."
+    ],
     "details": "Cathedral square, Bernardinai Garden, St. Anne’s Church.",
     "start": "King Mindaugas Monument",
     "finish": "Bernardinai Garden",
@@ -1210,5 +1238,65 @@
       "image": "atidarytasv2.webp"
     },
     "details": "Švč. M. Marijos Nekaltojo Prasidėjimo bažnyčia, Latvių, Žalioji, Žvėryno tvenkiniai, Vingio parko tiltas."
+  },
+  {
+    "code": "vytauto_karuna",
+    "title": "Vytauto karūna",
+    "image": "trakai.webp",
+    "location": {
+      "lat": 54.65183773072356,
+      "lng": 24.933352674435888
+    },
+    "initialDiameter": 2800,
+    "finalDiameter": 2795,
+    "duration": 120,
+    "level": "Vidutinis",
+    "active": false,
+    "locked": true,
+    "circleMode": "fixed",
+    "circle": false,
+    "description": "1430-ieji. Padėkite nugabenti karūną Vytautui į Trakų salos pilį.",
+    "city": "Trakai",
+    "start": "Cerkvė arba bažnyčia",
+    "finish": "Trakų salos pilis",
+    "startLocation": {
+      "lat": 54.64091151679769,
+      "lng": 24.933009679990125
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Laiko mašina",
+      "text": [
+        "Jūs dalyvaujate mokslininko Izaoko Goldšteino eksperimente.",
+        "Laiko mašina netrukus nukels jus į 1430-uosius, į tuometinę Lietuvos sostinę Trakus.",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+        "Laiko mašina įsijungs tik tada, kai sugalvosite komandos pavadinimą.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
+        "",
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
+      ],
+      "points": 2
+    },
+    "afterTeamName": {
+      "title": "1430-ieji",
+      "text": [
+        "Laiko mašina suveikė. Jūs esate Trakuose, 1430 metais.",
+        "Vytautas laukia karūnos, bet ne visi nori, kad ji atkeliautų.",
+        "Sekite žemėlapį ir atlikite užduotis. Rekomenduojame pradėti prie cerkvės arba bažnyčios ir baigti prie Salos pilies.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "vezimas.webp"
+    },
+    "details": "Švč. Dievo Motinos Gimimo cerkvė, Trakų Švč. Mergelės Marijos Apsilankymo bazilika, Nepomuko koplytstulpis, Trakų pusiasalio pilis, Karaimų gatvė, Trakų salos pilis."
   }
 ]

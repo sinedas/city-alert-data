@@ -1,0 +1,541 @@
+[
+  {
+    "id": "1",
+    "name": "Kokie dabar metai?",
+    "lat": 54.64091151679769,
+    "lng": 24.933009679990125,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Jūs dalyvaujate mokslininko Izaoko Goldšteino eksperimente. Laiko mašina sužimba ir nukelia jus į viduramžius, į tuometinę Lietuvos sostinę Trakus.",
+        "Prie cerkvės sutinkate vežimą su senoliu ir keliais ginkluotais vyrais. Senolis klausia, kas jūs tokie. Atsakote, kad esate paklydėliai iš ateities.",
+        "Senolis persižegnoja: neseniai jis susapnavo pranašingą sapną, ir jūs jame buvote. „Lipkite į vežimą.“",
+        "",
+        "Užduočiai atlikti turite 5 minutes."
+      ],
+      "images": [
+        "luckas.webp"
+      ]
+    },
+    "image": "luckas.webp",
+    "text": [
+      "Paklausiate senolio, kokie dabar metai. Senolis atsako:",
+      "„Pernai man teko su Vytautu keliauti į Lucką, į didįjį suvažiavimą. Ten buvo ir karalius Jogaila, ir pats imperatorius Zigmantas Liuksemburgietis.“",
+      "",
+      "Kokie dabar metai? Atsakymą įrašykite skaičiumi."
+    ],
+    "answer": [
+      "1430"
+    ],
+    "points": 6,
+    "attempts": 5,
+    "time": 5,
+    "hint": {
+      "text": [
+        "Senolis prisimena: „Prieš dvidešimt metų kovojau didžiajame mūšyje su kryžiuočiais tarp Tanenbergo ir Griunvaldo.“"
+      ],
+      "points": 2
+    },
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "Dabar 1430-ieji. Lucko suvažiavimas vyko 1429 metais, o mūšis tarp Tanenbergo ir Griunvaldo – 1410 metais. Šiandien jį vadiname Žalgirio mūšiu: Žalgiris yra lietuviškas Griunvaldo (Grünwald) kaimo pavadinimas."
+      ],
+      "images": [
+        "senolis.webp"
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "name": "Persirengimas",
+    "lat": 54.64307152816677,
+    "lng": 24.93274694976127,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Senolis nužvelgia jus: „Keistai jūs atrodote. Reikėtų persirengti, kad žmonės neišsigąstų.“",
+        "",
+        "Užduočiai atlikti turite 5 minutes."
+      ],
+      "images": [
+        "persirengimas.webp"
+      ]
+    },
+    "type": "photoValidation",
+    "iconType": "photo",
+    "photoValidation": {
+      "prompt": "Ar nuotraukoje yra žmogus ar žmonės?",
+      "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading, subtle watercolor texture and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw each person as a character in a bold retro comic-inspired style, preserving their poses and positions, and dress them in early 15th-century Lithuanian and Eastern European medieval clothing: linen tunics, wool cloaks, leather belts, simple caps or hoods, leather boots; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+    },
+    "text": [
+      "Padarykite komandos nuotrauką prie bažnyčios. Laiko mašina pasirūpins, kad atrodytumėte kaip tikri XV amžiaus trakiečiai."
+    ],
+    "points": 4,
+    "time": 5
+  },
+  {
+    "id": "3",
+    "name": "Senolio palyda",
+    "lat": 54.643806914327286,
+    "lng": 24.9361478106685,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Senolio palydoje yra įvairiai apsirengusių žmonių. Jie kalba skirtingomis kalbomis, bet visi tarnauja Vytautui.",
+        "",
+        "Užduočiai atlikti turite 6 minutes."
+      ],
+      "images": [
+        "palyda.webp"
+      ]
+    },
+    "image": "palyda_figuros.webp",
+    "text": [
+      "Paveikslėlyje sunumeruoti keturi palydos nariai. Pagal aprangą, skydus ir šalmus atpažinkite, kuris iš jų yra lietuvis, karaimas, lenkas ir rusėnas.",
+      "",
+      "Atsakyme įrašykite numerius tokia tvarka: lietuvis, karaimas, lenkas, rusėnas. Pvz.: 1234"
+    ],
+    "answer": [
+      "NUSTATYTI"
+    ],
+    "points": 6,
+    "attempts": 5,
+    "time": 6,
+    "hint": {
+      "text": [
+        "Atkreipkite dėmesį į skydų herbus."
+      ],
+      "points": 2
+    },
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "Vytauto kariuomenėje ir dvare buvo įvairių tautų žmonių. Trakuose iki šiol gyvena karaimai."
+      ],
+      "images": [
+        "palyda_atsakymas.webp"
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "name": "Vežimo skrynia",
+    "lat": 54.6444704718074,
+    "lng": 24.936231672763828,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Vežime stovi skrynia su keistu skaitmeniniu užraktu. Senolis duoda jums lapelį su skaičiais ir keturiais įvykiais.",
+        "",
+        "Užduočiai atlikti turite 7 minutes."
+      ],
+      "images": [
+        "skrynia.webp"
+      ]
+    },
+    "image": "skrynia_lentele.webp",
+    "text": [
+      "Lapelyje surašyti keturi įvykiai:",
+      "Lietuvos krikštas",
+      "Žalgirio mūšis",
+      "Lucko suvažiavimas",
+      "Krėvos unija",
+      "",
+      "Lentelėje suraskite kiekvieno įvykio metus ir sujunkite skaičius linijomis. Kokį kodą parodys linijos?"
+    ],
+    "answer": [
+      "77"
+    ],
+    "points": 8,
+    "attempts": 5,
+    "time": 7,
+    "hint": {
+      "text": [
+        "Metus padalinkite į dvi dalis. Pvz., 1429 → 14 ir 29."
+      ],
+      "points": 2
+    },
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "Krėvos unija – 1385, Lietuvos krikštas – 1387, Žalgirio mūšis – 1410, Lucko suvažiavimas – 1429.",
+        "Skrynia atsidarė. Joje – Vytauto karūna! Senolis sako, kad ją reikia nugabenti į pilį."
+      ],
+      "images": [
+        "karuna.webp"
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "name": "Žalgirio mūšis",
+    "lat": 54.645333874228996,
+    "lng": 24.93594280699373,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Šalia Pusiasalio pilies senolis prisimena mūšį tarp Tanenbergo ir Griunvaldo. Jis išsitraukia paveikslą, kurį po daugelio metų nutapys dailininkas Janas Matejka.",
+        "",
+        "Užduočiai atlikti turite 6 minutes."
+      ],
+      "images": [
+        "matejka_zalgiris.webp"
+      ]
+    },
+    "type": "timepointer",
+    "text": "Surikiuokite asmenybes Jano Mateikos paveiksle \"Žalgirio mūšis\".",
+    "events": [
+        { "name": "Zaviša Juodasis", "order": 1, "image": "zavisa.webp"},
+        { "name": "Janas Žižka", "order": 2, "image": "zicka.webp"},
+        { "name": "Ulrichas fon Jungingenas", "order": 3, "image": "ulrichas.webp"},
+        { "name": "Vytautas", "order": 4, "image": "vytautas.webp"}
+    ],
+    "points": 6,
+    "attempts": 3,
+    "time": 6,
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "J. Matejka buvo lenkų dailininkas. Pagalvokite, kaip jis pavaizdavo Vytautą ir Jogailą. Apie tai pakalbėsite pabaigoje su mokytoju."
+      ],
+      "images": [
+        "matejka_zalgiris.webp"
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "name": "Senolio sapnas",
+    "lat": 54.64717452316563,
+    "lng": 24.935604976606818,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Senolis užsnūsta vežime. Pabudęs jis pasakoja keistą sapną apie ateities Lietuvą.",
+        "Sapne jis matė keturis vaizdus, bet nebeprisimena, kuris buvo pirmas."
+      ],
+      "images": [
+        "sapnas.webp"
+      ]
+    },
+    "type": "timepointer",
+    "text": [
+      "Padėkite senoliui sudėlioti sapną.",
+      "Surikiuokite vaizdus pagal tai, kada vyko juose pavaizduoti įvykiai."
+    ],
+    "image": "sapnas_vaizdai.webp",
+    "events": [
+      {
+        "name": "Liublino unija",
+        "order": 1,
+        "text": "1569"
+      },
+      {
+        "name": "Steponas Batoras prie Pskovo",
+        "order": 2,
+        "text": "1582"
+      },
+      {
+        "name": "Gegužės 3-iosios konstitucija",
+        "order": 3,
+        "text": "1791"
+      },
+      {
+        "name": "Konkordatas su Šventuoju Sostu",
+        "order": 4,
+        "text": "1927"
+      }
+    ],
+    "points": 7,
+    "attempts": 7,
+    "minusPointsOnAttempt": 1,
+    "time": 5
+  },
+  {
+    "id": "7",
+    "name": "Vytauto protėviai",
+    "lat": 54.648049354863346,
+    "lng": 24.934091269969944,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Paklausiate senolio, kiek jam metų. Jis pasakoja:",
+        "„Gimiau dar valdant Vytauto seneliui Gediminui, o tarnavau jo dėdei Algirdui ir tėvui Kęstučiui.“"
+      ],
+      "images": [
+        "senolis.webp"
+      ]
+    },
+    "type": "timepointer",
+    "text": [
+      "Surikiuokite Lietuvos valdovus valdymo tvarka."
+    ],
+    "image": "proteviai.webp",
+    "events": [
+      {
+        "name": "Vytenis",
+        "order": 1,
+        "text": "apie 1295–1316"
+      },
+      {
+        "name": "Gediminas",
+        "order": 2,
+        "text": "1316–1341"
+      },
+      {
+        "name": "Jaunutis",
+        "order": 3,
+        "text": "1341–1345"
+      },
+      {
+        "name": "Algirdas ir Kęstutis",
+        "order": 4,
+        "text": "nuo 1345"
+      }
+    ],
+    "points": 7,
+    "attempts": 7,
+    "minusPointsOnAttempt": 1,
+    "time": 4
+  },
+  {
+    "id": "8",
+    "name": "Trys langai",
+    "lat": 54.6486608064,
+    "lng": 24.932326051930843,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Karaimų gatvėje stovi mediniai karaimų namai. Senolis sako, kad karaimus į Trakus atvedė pats Vytautas.",
+        "",
+        "Užduočiai atlikti turite 5 minutes."
+      ],
+      "images": [
+        "karaimu_namas.webp"
+      ]
+    },
+    "text": [
+      "Suraskite karaimų namą, kuris į gatvę atgręžtas trimis langais.",
+      "Legenda pasakoja, kad vienas langas skirtas Dievui, kitas – šeimai.",
+      "Kam skirtas trečias langas?"
+    ],
+    "answer": [
+      "Vytautui",
+      "Vytautas",
+      "Vytautui Didžiajam"
+    ],
+    "points": 6,
+    "attempts": 3,
+    "time": 5,
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "Pagal legendą trečias langas skirtas Vytautui. Pagalvokite: ar tai faktas, ar legenda? Kuo jie skiriasi?"
+      ],
+      "images": [
+        "karaimu_langai.webp"
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "name": "Šachmatai",
+    "lat": 54.646743092074495,
+    "lng": 24.939301800508222,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Prie Pusiasalio pilies senolis išsitraukia šachmatų lentą su nebaigta partija.",
+        "",
+        "Užduočiai atlikti turite 6 minutes."
+      ],
+      "images": [
+        "sachmatai.webp"
+      ]
+    },
+    "image": "sachmatai_uzdavinys.webp",
+    "text": [
+      "Baltieji paskelbia matą vienu ėjimu. Koks tai ėjimas?",
+      "Atsakymą įrašykite šachmatų žymėjimu, pvz., Vh5."
+    ],
+    "answer": [
+      "NUSTATYTI"
+    ],
+    "points": 6,
+    "attempts": 4,
+    "time": 6,
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "Matas! Senolis patenkintas."
+      ],
+      "images": [
+        "sachmatai_sprendimas.webp"
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "name": "Paslaptinga žinutė",
+    "lat": 54.65047451777183,
+    "lng": 24.933476105169966,
+    "type": "audio",
+    "audio": "jogaila.wav",
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Jūsų prietaisas iš ateities staiga ima pypsėti. Kažkas jums siunčia žinutę.",
+        "",
+        "Užduočiai atlikti turite 8 minutes."
+      ],
+      "images": [
+        "zinute.webp"
+      ]
+    },
+    "image": "zinute.webp",
+    "text": [
+      "Žinutė užkoduota Morzės kodu. Kas joje parašyta?",
+      "",
+      "Morzės kodas jums padės:",
+      "A  ·−        G  −−·       M  −−        T  −    ",
+      "B  −···      H  ····         N  −·          U  ··−  ",
+      "C  −·−·     I  ··            O  −−−       V  ···− ",
+      "D  −··       J  ·−−−      P  ·−−·       Z  −−·· ",
+      "E  ·           K  −·−        R  ·−·",
+      "F  ··−·       L  ·−··        S  ··· "
+    ],
+    "answer": [
+      "JOGAILA"
+    ],
+    "points": 10,
+    "attempts": 5,
+    "time": 8,
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "JOGAILA. Bet kas siuntė šią žinutę ir ką ji reiškia? Ar Jogaila – Vytauto draugas, ar priešas?"
+      ],
+      "images": [
+        "jogaila.webp"
+      ]
+    }
+  },
+  {
+    "id": "11",
+    "name": "Antros pusės",
+    "lat": 54.64946623232961,
+    "lng": 24.934354126453403,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Senolis pasakoja apie didžiųjų kunigaikščių šeimas.",
+        "",
+        "Užduočiai atlikti turite 6 minutes."
+      ],
+      "images": [
+        "kryziazodis_pradzia.webp"
+      ]
+    },
+    "image": "kryziazodis.webp",
+    "text": [
+      "Į kryžiažodį įrašykite poros antrąją pusę. Atsakyme įrašykite pažymėtą žodį.",
+      "1. Vytautas ir ...",
+      "2. Kęstutis ir ..."
+    ],
+    "answer": [
+      "NUSTATYTI"
+    ],
+    "points": 6,
+    "attempts": 5,
+    "time": 6,
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "Vytauto žmona buvo Ona, o jo tėvų – Kęstučio ir Birutės – istorija tapo legenda."
+      ],
+      "images": [
+        "kryziazodis_atsakymas.webp"
+      ]
+    }
+  },
+  {
+    "id": "12",
+    "name": "Salos pilis",
+    "lat": 54.651966209998385,
+    "lng": 24.932467192411423,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Pagaliau pasiekiate Salos pilį. Prie vartų jūsų laukia dėlionė.",
+        "",
+        "Užduočiai atlikti turite 5 minutes."
+      ],
+      "images": [
+        "salos_pilis.webp"
+      ]
+    },
+    "image": "delione.webp",
+    "text": [
+      "Sudėkite dėlionės dalis ir perskaitykite, kam turite įteikti karūną."
+    ],
+    "answer": [
+      "Žygimantas Kęstutaitis",
+      "Žygimantui Kęstutaičiui",
+      "Zygimantas Kestutaitis"
+    ],
+    "points": 7,
+    "attempts": 5,
+    "time": 5,
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "Jūs įteikiate karūną Žygimantui Kęstutaičiui, Vytauto broliui.",
+        "Tai žaidimo fikcija: istorijoje Žygimantas tapo didžiuoju kunigaikščiu tik po Vytauto mirties, o karūnos negavo. Apie tai pakalbėsite su mokytoju."
+      ],
+      "images": [
+        "zygimantas.webp"
+      ]
+    }
+  },
+  {
+    "id": "13",
+    "name": "Karūnacija",
+    "lat": 54.65311189000591,
+    "lng": 24.93421041427952,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Karūnacija, kurios istorijoje taip ir nebuvo, gali įvykti dabar.",
+        "Suraskite suoliuką prie pilies ir surežisuokite karūnacijos sceną.",
+        "",
+        "Užduočiai atlikti turite 7 minutes."
+      ],
+      "images": [
+        "karunacija.webp"
+      ]
+    },
+    "type": "photoValidation",
+    "iconType": "photo",
+    "photoValidation": {
+      "prompt": "Ar nuotraukoje matomi keli žmonės, kurių vienas sėdi arba stovi centre, o kiti yra priklaupę ar susibūrę aplink jį?",
+      "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, gold accents, earthy tones) with reduced contrast; simplify shapes, use flatter shading, subtle watercolor texture and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; turn the scene into a medieval coronation in early 15th-century Lithuania: the central person wears a golden royal crown and a red ermine-trimmed mantle, the other people wear medieval noble and knight clothing, keep everyone's poses and positions, add a hint of castle walls in the background; avoid realistic lighting and textures and keep a cohesive semi-cartoon watercolor + vector look."
+    },
+    "text": [
+      "Vienam komandos nariui uždėkite karūną (ar ką nors, kas ją primintų), o kiti tegul priklaupia aplink.",
+      "Sugalvokite, kas yra kas: kunigaikštis, didikai, pasiuntiniai. Padarykite nuotrauką."
+    ],
+    "points": 8,
+    "time": 7,
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "Vytautas taip ir nespėjo karūnuotis. 1430 metų spalį jis mirė Trakuose, o karūna į Lietuvą taip ir neatkeliavo.",
+        "Kaip būtų pakrypusi Lietuvos istorija, jei jam būtų pavykę? Apie tai pakalbėkite su mokytoju."
+      ],
+      "images": [
+        "pabaiga.webp"
+      ]
+    }
+  }
+]
