@@ -93,8 +93,8 @@
     {
         "id": "4",
         "name": "Art history",
-        "lat": 50.08795512631071,
-        "lng": 14.397845864295961,
+        "lat": 50.08906167443345,
+        "lng": 14.403598942625612,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -223,8 +223,8 @@
     {
         "id": "8",
         "name": "The Love Crossword",
-        "lat": 50.08731321343568,
-        "lng": 14.397961199283602,
+        "lat": 50.086467068512164,
+"lng": 14.405704332299292,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -676,4 +676,4 @@
             "images": ["sprendimas.webp"]
         }
     }
-]
+]
