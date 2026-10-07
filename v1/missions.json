@@ -970,7 +970,7 @@
     "duration": 120,
     "level": "Easy",
     "active": true,
-    "locked": true,
+    "locked": false,
     "circleMode": "fixed",
     "circle": false,
     "description": "The Prague alchemist's suitcase and magic wand.",
