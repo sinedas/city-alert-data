@@ -1,0 +1,679 @@
+[
+    {
+        "id": "1",
+        "name": "Fairy-tale Creature",
+        "lat": 50.08712046580025,
+        "lng": 14.403285384178163,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "On Tržiště Street, the words \"Fairy-tale Creature\" appeared on the cover of the magic book. Open the book and complete a new task.",
+                "Let's play Wordle. A correct letter in the right place will be green. A correct letter in the wrong place will be yellow. An incorrect letter will be grey.",
+                "For example, the word is KINGDOM, and you entered KITCHEN:",
+                "[img source=\"kitchen.jpg\" width=\"300\" height=\"50\"/]",
+                "You have 10 attempts and can earn up to 10 points. Each wrong attempt costs 1 point."
+            ],
+            "images": [
+                "fairy_tale.webp"
+            ]
+        },
+        "text": [
+            "Guess the fairy-tale creature."
+        ],
+        "type": "wordle",
+        "answer": [
+            "DRAGON"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "reward eyeball": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The magic book fell open to an image of a dragon."
+            ],
+            "images": [
+                "dragon.webp"
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "name": "The Old Man's Riddles",
+        "lat": 50.08765,
+        "lng": 14.40230,
+        "type": "chain",
+        "text": [
+            "On Tržiště Street you meet an old man who has 4 riddles for you.",
+            "Solve the old man's word ladder. Each word in the sequence differs from the one before it by a single letter.",
+            "",
+            "1. What is a warm winter jumper made of?",
+            "2. What was Pinocchio carved from?",
+            "3. Complete the name of the legendary outlaw: Robin ...?",
+            "4. What might a pirate have instead of a hand?",
+            "",
+            "Each attempt – minus 1 point."
+        ],
+        "answer": ["WOOL", "WOOD", "HOOD", "HOOK"],
+        "points": 7,
+        "attempts": 7,
+        "time": 5,
+        "minusPointsOnAttempt": 1
+    },
+    {
+        "id": "3",
+        "name": "The Lennon Wall",
+        "lat": 50.086137785001945,
+        "lng": 14.406828582286836,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The brushes and paints suddenly leapt out of the open suitcase and landed in the hands of one team member.",
+                "You will have to paint a picture.",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": [
+                "painting.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them as an early-1900s European painter wearing a traditional black painter's beret, period artist clothing, and a painter's smock while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+        },
+        "text": [
+            "Your task is to create a picture of the Lennon Wall – the most colourful wall in Prague.",
+            "Take a photo so that several team members form a picture frame with their hands, and inside that frame is the Lennon Wall."
+        ],
+        "points": 4,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Art history",
+        "lat": 50.08795512631071,
+        "lng": 14.397845864295961,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+            "Among the old palaces of Vlašská Street, the magic book opened to a chapter titled “Art History”.",
+            "Turn the page and complete the task."
+            ],
+            "images": [
+                "art_history.webp"
+            ]
+        },
+        "type": "timepointer",
+        "text":  "Four paintings by four different artists appeared on the pages of the book. Identify the artists and arrange them chronologically by the artists’ dates of birth.",
+        "events": [
+            { "name": "Čiurlionis", "order": 1, "image": "ciurlionis.webp"},
+            { "name": "Leonardo da Vinci", "order": 2, "image": "mona.webp"},
+            { "name": "Van Gogh", "order": 3, "image": "vangog.webp"},
+            { "name": "Dobuzhinsky", "order": 4, "image": "dobuzinskis.webp"}
+        ],
+        "points": 7,
+        "attempts": 7,
+        "minusPointsOnAttempt": 1,
+        "time": 4
+    },
+    {
+        "id": "5",
+        "name": "Malostranské Square",
+        "lat": 50.088411171789076,
+        "lng": 14.40411150455475,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "On Malostranské Square, in the shadow of St. Nicholas Church, the suitcase opened by itself.",
+                "You have 6 minutes to complete the task."
+            ],
+            "images": ["katedra.webp"],
+            "changeInterval": 3
+        },
+        "text": [
+            "In the magic suitcase there was an object in which adding seven to ten gives five.",
+            "What kind of object is it?"
+        ],
+        "answer": ["Watch", "A watch", "The watch","Clock", "A clock", "The clock"],
+        "points": 5,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Here is the open suitcase.",
+                "Look around the square, and you will surely find this object."
+            ],
+            "image": "katedra_hint.webp",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The answer is – a watch.",
+                "But this is no ordinary watch — it is a time-twister, which may yet be of service to you."
+            ],
+            "images": ["atsuktuvas.webp"]
+        }
+    },
+    {
+        "id": "6",
+        "name": "Famous Book",
+        "lat": 50.08856777508446,
+        "lng": 14.401493668556215,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "On Nerudova Street, famous for its old house signs, the cover of the magic book has changed. Open it and identify the famous book.",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": ["book.webp"],
+            "changeInterval": 0
+        },
+        "image": "alice.png",
+        "text": "Put the puzzle pieces together to form a square and identify the book.",
+        "answer": ["Alice in Wonderland"],
+        "points": 7,
+        "attempts": 5,
+        "time": 5
+    },
+    {
+        "id": "7",
+        "name": "Glasses",
+        "lat": 50.08835,
+        "lng": 14.40320,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "One team member’s glasses fell to the ground and broke.",
+                "It is time to take the magic wand and guess the magic number.",
+                ""
+            ],
+            "images": [
+                "akiniai_brokenv4.webp"
+            ]
+        },
+        "text": [
+            "The magic wand can repair the glasses. This puzzle will tell you how many times to wave it.",
+            "8800 has 6.",
+            "6900 has 4.",
+            "8888 has 8.",
+            "How many does 6980 have?"
+        ],
+        "answer": [
+            "5"
+        ],
+        "points": 5,
+        "attempts": 4,
+        "time": 5,
+        "hint": {
+            "text": [
+                "How many circles does each digit have?"
+            ],
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "The magic worked and the glasses were repaired."
+            ],
+            "image": "akiniaiv4.webp"
+        }
+    },
+    {
+        "id": "8",
+        "name": "The Love Crossword",
+        "lat": 50.08731321343568,
+        "lng": 14.397961199283602,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "In a quiet Malá Strana courtyard, an inscription appeared on the title of the book: 'The Love Crossword'.",
+                "Open the book and complete a new task.",
+                "",
+                "You have 7 minutes to complete the task."
+            ],
+            "images": [
+                "love.webp"
+            ]
+        },
+        "image": "heart.png",
+        "text": [
+            "Complete each famous couple in the crossword. Enter the word formed by the grey squares as your answer.",
+            "1. ... and Fiona",
+            "2. Beauty and the ...",
+            "3. ... and Josephine",
+            "4. Hermione and ...",
+            "5. Romeo and ..."
+            ],
+        "answer": ["HEART"],
+        "points": 6,
+        "attempts": 5,
+        "time": 7,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The answer is - Heart."
+            ],
+            "images": ["heart_answer.png"]
+        }
+    },
+    {
+        "id": "9",
+        "name": "The Coat of Arms",
+        "lat": 50.08676078287196,
+        "lng": 14.40387547016144,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "An inscription appeared on the title of the book: 'Animal'.",
+                "Open the book and complete a new task.",
+                "",
+                "You have 5 minutes and 7 attempts to complete the task."
+            ],
+            "images": ["animal.webp"]
+        },
+        "type": "wordle",
+        "text": [
+            "Guess the animal from the Czech coat of arms. It wears a crown and has two tails."
+        ],
+        "answer": [
+            "LION"
+        ],
+        "points": 7,
+        "attempts": 7,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "The magic book fell open at the Czech coat of arms – a silver lion with two tails."
+            ],
+            "image": "wolf.webp"
+        }
+    },
+    {
+        "id": "10",
+        "name": "The Čertovka Water Wheel",
+        "lat": 50.086174,
+        "lng":  14.407626,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The brushes and paints from the suitcase started playing tricks again. They leapt out of the suitcase and landed in someone's hands.",
+                "You will have to paint a picture.",
+                "",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": ["painting.webp"]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir vandens malūno ratas.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them as an early-1900s European painter wearing a traditional black painter's beret, period artist clothing, and a painter's smock while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+        },
+        "text": [
+            "Your task is to create a picture of Prague.",
+            "Take a photo so that several team members form a picture frame with their hands, and inside that frame is the old water wheel on the Čertovka stream."
+        ],
+        "points": 5,
+        "time": 5
+    },
+    {
+        "id": "12",
+        "name": "Čertovka Waters",
+        "lat": 50.08369218193069,
+        "lng": 14.407048523426058,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "A flask jumped out of the suitcase and began dividing into identical flasks. Two, three, four, five.",
+                "You have 6 minutes to complete the task."
+            ],
+            "images": ["colors_start.webp"],
+            "changeInterval": 0
+        },
+        "image": "colors2.webp",
+        "text": [
+            "The waters of the Čertovka stream filled the flasks, and the paints jumped into the flasks and formed a paint equation.",
+            "Which colour is encoded in this equation?"
+        ],
+        "answer": ["GREEN"],
+        "points": 6,
+        "attempts": 4,
+        "time": 6,
+        "hint": {
+            "image": "colors_hint2.webp",
+            "text": [
+                "Remember your art lessons. ",
+                "",
+                "Yellow and red make orange.",
+                "Red and blue make purple.",
+                "",
+                "What other colours did you mix at school?"
+            ],
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The solution to the equation is – GREEN."
+            ],
+            "images": ["colors_solution.webp"]
+        }
+    },
+    {
+        "id": "13",
+        "name": "Radio Receiver",
+        "lat": 50.08306914417519,
+        "lng": 14.407799541950228,
+        "type": "audio",
+        "audio": "gnome.wav",
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "The suitcase opened on the lawn. Inside a previously undiscovered compartment, you find a radio receiver instead of the familiar objects.",
+            "",
+            "You have 10 minutes to complete the task."
+          ],
+          "images": ["imtuvasv2.webp"],
+          "changeInterval": 0
+        },
+        "image": "imtuvasv2.webp",
+        "text": [
+          "You received an audio message through the radio. It contains the encoded name of a fairy-tale character.",
+          "",
+          "The Morse code chart will help you:",
+          "A  ·−        G  −−·        M  −−         T  −",
+          "B  −···      H  ····       N  −·          U  ··−",
+          "C  −·−·      I  ··         O  −−−         V  ···−",
+          "D  −··       J  ·−−−       P  ·−−·        Z  −−··",
+          "E  ·         K  −·−        R  ·−·",
+          "F  ··−·      L  ·−··       S  ···"
+        ],
+        "answer": ["GNOME"],
+        "points": 10,
+        "attempts": 5,
+        "time": 10,
+        "rewardType": "carousel",
+        "reward": {
+          "text": [
+            "The fairy-tale character is a gnome."
+          ],
+          "image": "gnome.webp"
+        }
+    },
+    {
+        "id": "14",
+        "name": "Magic Matches",
+        "lat": 50.08380,
+        "lng": 14.40440,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The matchbox suddenly opened by itself.",
+                "",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": ["degtukai.webp"],
+            "changeInterval": 0
+        },
+        "image": "degtuku_uzduotis.webp",
+        "text": [
+            "The matches jumped out of the box and formed an equation, but an incorrect one.",
+            "Move one match so that the equation becomes correct.",
+            "Write your answer as a full equation using plain numbers and symbols."
+        ],
+        "answer": ["3+6=9", "3+5=8"],
+        "points": 5,
+        "attempts": 5,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "This task has more than one solution. This is one of them."
+            ],
+            "images": ["degtukai_sprendimas.webp"]
+        }
+    },
+    {
+        "id": "15",
+        "name": "Means of Transport",
+        "lat": 50.084704170749134,
+        "lng": 14.408048987388613,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "On the lawn in Kampa Park there is a magical means of transport.",
+                "But it is hidden under an opaque cover.",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": [
+                "zole.webp"
+            ]
+        },
+        "text": [
+            "Wordle. Guess the magical means of transport. While guessing, don't forget to wave the magic wand."
+        ],
+        "type": "wordle",
+        "answer": [
+            "CARPET"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "On the lawn there was a flying carpet. You may take it with you."
+            ],
+            "image": "kilimas.webp"
+        }
+    },
+    {
+        "id": "16",
+        "name": "Kampa Chess",
+        "lat": 50.08400,
+        "lng": 14.40780,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The suitcase opened on the lawn and chess pieces appeared inside it.",
+                "",
+                "You have 6 minutes to complete the task."
+            ],
+            "images": ["sachmatai.webp"],
+            "changeInterval": 0
+        },
+        "image": "chesstask.webp",
+        "text": [
+            "The chess pieces lined up on a magic chessboard in Kampa Park.",
+            "Find the winning move for Black.",
+            "",
+            "In your answer write only the square the piece must move to, e.g.: A1"
+        ],
+        "answer": ["D6"],
+        "points": 6,
+        "attempts": 4,
+        "time": 6,
+        "rewardType": "carousel",
+        "reward": {
+            "text": [
+                "The winning move for Black is – knight to d6."
+            ],
+            "image": "chesssolution.webp"
+        }
+    },
+    {
+        "id": "17",
+        "name": "Battleship",
+        "lat": 50.08490,
+        "lng": 14.40700,
+        "type": "bomb",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "On the bank of the Čertovka stream the suitcase opened, and a game of battleship appeared inside it.",
+                "Guess which square the ship can safely travel to. Guessing a safe spot gives +1 point. Hit a mine and all points are lost.",
+                "Stop in time."
+            ],
+            "images": ["mina.webp"]
+        },
+        "text": [
+            "Guess a safe square for the ship. A successful guess gives +1 point. Sail onto a mine and your points are lost. Stop in time."
+        ],
+        "points": 9,
+        "time": 5
+    },
+    {
+        "id": "18",
+        "name": "The Time-Twister",
+        "lat": 50.08481603894994,
+        "lng": 14.405613541603088,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Letters appeared on the cover of the book and formed the word: 'Inventions'.",
+                "Open the book and complete a new task."
+            ],
+            "images": [
+                "inventions.webp"
+            ]
+        },
+        "type": "timepointer",
+        "text": [
+            "Your task is to set the time-twister.",
+            "The book fell open to a page showing various inventions.",
+            "Put these inventions in order according to when they were created."
+        ],
+        "image": "shared/museums/inventions1.webp",
+        "events": [
+            { "name": "Compass", "order": 1, "text": "2nd century BC" },
+            { "name": "Printing press", "order": 2, "text": "1440" },
+            { "name": "Telescope", "order": 3, "text": "1608" },
+            { "name": "Hot air balloon", "order": 4, "text": "1783" }
+        ],
+        "points": 7,
+        "attempts": 7,
+        "minusPointsOnAttempt": 1,
+        "time": 4
+    },
+    {
+        "id": "19",
+        "name": "Wheel of Fortune",
+        "lat": 50.08520,
+        "lng": 14.40800,
+        "type": "roulette",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "A magical wheel of fortune appeared in Kampa Park.",
+                "You found a golden five-point coin which lets you spin the wheel of fortune.",
+                "Guess the colour – red or black. Each time you guess correctly your points double. If you lose, you are left with the starting sum of five points."
+            ],
+            "images": ["ratas.webp"]
+        },
+        "points": 5,
+        "time": 5
+    },
+    {
+        "id": "20",
+        "name": "Giant Babies",
+        "lat": 50.08470,
+        "lng": 14.40850,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The magic wand decided to play another trick.",
+                "It slipped from one team member’s hands, waved itself several times and turned you into gnomes."
+            ],
+            "images": [
+                "lazdele.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas bent vienas tikras žmogus ir didelė ropojančio kūdikio skulptūra?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation, using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent dark outlines, with a subtle watercolor texture. Replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style, each wearing a tall, pointed red fairy-tale gnome hat and matching curled-toe red boots, while the large baby sculptures stay unchanged. Ensure these characters maintain their original poses and clothing, but with uniform flat tan skin tones and a whimsical storybook aesthetic (avoiding Christmas motifs). The standees should have thick dark outlines and flat colors, integrating into the environment with consistent perspective while remaining more graphic than the background."
+        },
+        "text": [
+            "Find the giant crawling babies by David Černý in Kampa Park and take a photo of the team members next to them – now you are smaller than a baby!",
+            "Once the photo is taken, the spell will break and return you to your normal size.",
+            "",
+            "You have 5 minutes to complete the task."
+        ],
+        "points": 6,
+        "time": 5
+    },
+    {
+        "id": "21",
+        "name": "Charles IV",
+        "lat": 50.08660,
+        "lng": 14.40820,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "The time-twister worked and carried you back to the year 1357, turning one of you into Emperor Charles IV.",
+                "",
+                "You have 5 minutes to complete the task."
+            ],
+            "images": [
+                "napoleonas.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės. Šalia jo delno yra senas akmeninis tiltas.",
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them as a 14th-century medieval emperor with a golden crown and a red royal mantle while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+        },
+        "text": [
+            "According to legend, Charles IV laid the foundation stone of Charles Bridge on 9 July 1357 at 5:31 – a magical moment that reads 1-3-5-7-9-7-5-3-1 in both directions.",
+            "",
+            "Take a photo of a team member or members as if they were holding Charles Bridge in the palm of their hand.",
+            "Once the photo is taken, the spell will break and return you to the present."
+        ],
+        "points": 6,
+        "time": 7
+    },
+    {
+        "id": "23",
+        "name": "Mathematical Equation",
+        "lat": 50.08625,
+        "lng": 14.40780,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "A flask jumped out of the suitcase and split into two flasks.",
+                "The flasks filled with water, and the paints jumped into them and coloured them gold and silver.",
+                "You have 6 minutes to complete the task."
+            ],
+            "images": ["lygtis_start.webp"],
+            "changeInterval": 0
+        },
+        "image": "lygtis.webp",
+        "text": [
+            "Solve the equations with the time-twister and the gold and silver liquids."
+        ],
+        "answer": ["18"],
+        "points": 8,
+        "attempts": 5,
+        "time": 6,
+        "hint": {
+            "text": [
+                "Pay attention to what the time-twister is showing."
+            ],
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "The answer is – 18."
+            ],
+            "images": ["sprendimas.webp"]
+        }
+    }
+]

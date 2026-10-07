@@ -957,6 +957,81 @@
     }
   },
   {
+    "code": "prague_wizard_en",
+    "folder": "bernardinu_burtininkas",
+    "title": "The Prague alchemist",
+    "image": "lagaminas.webp",
+    "location": {
+      "lat": 50.0855,
+      "lng": 14.404
+    },
+    "initialDiameter": 1950,
+    "finalDiameter": 1945,
+    "duration": 120,
+    "level": "Easy",
+    "active": true,
+    "locked": true,
+    "circleMode": "fixed",
+    "circle": false,
+    "description": "The Prague alchemist's suitcase and magic wand.",
+    "city": "Prague",
+    "missingPhotosCount": 5,
+    "missingPhotosIntro": {
+      "title": "The Empty Photo Album",
+      "text": [
+        "You picked up the nameless book – and the moment you opened it, it turned into an empty photo album.",
+        "The wizard's album must not stay empty. Your task is to fill it with photos of the most interesting sights you discover along the way.",
+        "",
+        "The album itself will decide how many points – from 1 to 3 – each photo is worth."
+      ]
+    },
+    "missingPhotosAlbumText": [
+      "Found something interesting during the mission – a sculpture, graffiti or an old door? Take a photo!",
+      "The album itself will decide how many points – from 1 to 3 – you get. No people in the photo."
+    ],
+    "details": "Tržiště Street, Čertovka and Kampa Island, Jan Neruda Statue.",
+    "start": "Tržiště Street",
+    "finish": "Kampa Island (Čertovka)",
+    "startLocation": {
+      "lat": 50.0874,
+      "lng": 14.4033
+    },
+    "routeImageUrl": "",
+    "hints": 20,
+    "checkLocation": true,
+    "beforeTeamName": {
+      "title": "A Left-Behind Suitcase",
+      "text": [
+        "Near a bench on Tržiště Street, a strange man left behind a suitcase and a magic wand, then hurried away murmuring something.",
+        "I wonder what's inside and how to open it?",
+        "",
+        "If you're ready for the adventure, tap \"Next\"."
+      ]
+    },
+    "teamName": {
+      "title": "Team Name",
+      "time": 4,
+      "text": [
+        "The suitcase will only open once you come up with a team name, wave the wand, and say the name out loud.",
+        "Come up with a team name and enter it in the field.",
+        "",
+        "This task is worth 2 points, and you have 4 minutes to complete it."
+      ],
+      "points": 2
+    },
+    "afterTeamName": {
+      "title": "What's in the Suitcase?",
+      "text": [
+        "The suitcase opened. Inside, you found a nameless book, a matchbox, watercolor paints, a map with tasks, and many other mysterious objects.",
+        "Your team is ready for the adventure.",
+        "Now follow the map and complete the tasks one by one.",
+        "",
+        "Good luck!"
+      ],
+      "image": "atidarytasv2.webp"
+    }
+  },
+  {
     "code": "trakai_kuprine",
     "title": "Fėjos kuprinė Trakuose",
     "image": "kuprine.webp",
