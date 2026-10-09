@@ -41,8 +41,8 @@
     {
         "id": "2",
         "name": "The Old Man's Riddles",
-        "lat": 50.08765,
-        "lng": 14.40230,
+        "lat": 50.087820319618665,
+        "lng": 14.402546217146595,
         "type": "chain",
         "text": [
             "On Tržiště Street you meet an old man who has 4 riddles for you.",
@@ -93,8 +93,8 @@
     {
         "id": "4",
         "name": "Art history",
-        "lat": 50.08906167443345,
-        "lng": 14.403598942625612,
+        "lat": 50.083520646578435,
+        "lng": 14.407769051193714,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -159,8 +159,8 @@
     {
         "id": "6",
         "name": "Famous Book",
-        "lat": 50.08856777508446,
-        "lng": 14.401493668556215,
+        "lat": 50.08856031780504,
+"lng": 14.402484503070973,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -180,8 +180,9 @@
     {
         "id": "7",
         "name": "Glasses",
-        "lat": 50.08835,
-        "lng": 14.40320,
+        "lat": 50.0825189595524,
+"lng": 14.407394676560855,
+        
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -260,9 +261,9 @@
     },
     {
         "id": "9",
-        "name": "The Coat of Arms",
-        "lat": 50.08676078287196,
-        "lng": 14.40387547016144,
+        "name": "The Animal",
+        "lat": 50.0865978634181,
+"lng": 14.4045832536475,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -275,7 +276,7 @@
         },
         "type": "wordle",
         "text": [
-            "Guess the animal from the Czech coat of arms. It wears a crown and has two tails."
+            "Guess the animal."
         ],
         "answer": [
             "LION"
@@ -407,8 +408,8 @@
     {
         "id": "14",
         "name": "Magic Matches",
-        "lat": 50.08380,
-        "lng": 14.40440,
+        "lat": 50.08326248182132,
+        "lng": 14.405693418627363,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -509,8 +510,8 @@
     {
         "id": "17",
         "name": "Battleship",
-        "lat": 50.08490,
-        "lng": 14.40700,
+        "lat": 50.08326248182132,
+        "lng": 14.405693418627363,
         "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
@@ -581,8 +582,8 @@
     {
         "id": "20",
         "name": "Giant Babies",
-        "lat": 50.08470,
-        "lng": 14.40850,
+        "lat": 50.08410065166181,
+        "lng": 14.40837558432135,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -642,8 +643,8 @@
     {
         "id": "23",
         "name": "Mathematical Equation",
-        "lat": 50.08625,
-        "lng": 14.40780,
+        "lat": 50.08574424812177,
+"lng": 14.40915920042096,
         "startType": "carousel",
         "startCarousel": {
             "text": [
