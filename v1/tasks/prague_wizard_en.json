@@ -2,8 +2,8 @@
     {
         "id": "1",
         "name": "Fairy-tale Creature",
-        "lat": 50.08712046580025,
-        "lng": 14.403285384178163,
+        "lat": 50.0871629162739,
+"lng": 14.402763672301104,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -262,8 +262,8 @@
     {
         "id": "9",
         "name": "The Animal",
-        "lat": 50.0865978634181,
-"lng": 14.4045832536475,
+        "lat": 50.08647395246347,
+"lng": 14.404867355049305,
         "startType": "carousel",
         "startCarousel": {
             "text": [

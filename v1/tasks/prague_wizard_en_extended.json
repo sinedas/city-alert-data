@@ -182,7 +182,288 @@
           "text": "",
           "image": "drum.webp"
         }
+      },
+      {
+        "id": "105",
+        "name": "Photo Album",
+        "lat": 50.082240135701994,
+"lng": 14.407799470629518,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "The magic book suddenly turned into a photo album.",
+            "The place captured in one of its photos is very close by. Find it!",
+            "",
+            "You have 5 minutes to complete the task."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Look around and choose the photo that was taken in this place.",
+        "matchmaker": {
+          "images": [
+            "vaclav.webp",
+            "tank.webp",
+            "scissors.webp",
+            "mill.webp",
+            "gaidys.webp",
+            "drum.webp",
+            "astro.webp",
+            "gandrai.webp", 
+            "octopus.webp",
+            "girl.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "vaclav.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "vaclav.webp"
+        }
+      },
+      {
+        "id": "106",
+        "name": "Photo Album",
+       "lat": 50.08858383694949,
+"lng": 14.40485656075053,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "The magic book suddenly turned into a photo album.",
+            "The place captured in one of its photos is very close by. Find it!",
+            "",
+            "You have 5 minutes to complete the task."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Look around and choose the photo that was taken in this place.",
+        "matchmaker": {
+          "images": [
+            "vaclav.webp",
+            "tank.webp",
+            "scissors.webp",
+            "mill.webp",
+            "gaidys.webp",
+            "drum.webp",
+            "astro.webp",
+            "gandrai.webp", 
+            "octopus.webp",
+            "girl.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "astro.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "astro.webp"
+        }
+      },
+      {
+        "id": "107",
+        "name": "Photo Album",
+        "lat": 50.08644,
+"lng": 14.40864,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "The magic book suddenly turned into a photo album.",
+            "The place captured in one of its photos is very close by. Find it!",
+            "",
+            "You have 5 minutes to complete the task."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Look around and choose the photo that was taken in this place.",
+        "matchmaker": {
+          "images": [
+            "vaclav.webp",
+            "tank.webp",
+            "scissors.webp",
+            "mill.webp",
+            "gaidys.webp",
+            "drum.webp",
+            "astro.webp",
+            "gandrai.webp", 
+            "octopus.webp",
+            "girl.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "scissors.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "scissors.webp"
+        }
+      },
+      {
+        "id": "108",
+        "name": "Photo Album",
+        "lat": 50.08665,
+"lng":  14.40465,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "The magic book suddenly turned into a photo album.",
+            "The place captured in one of its photos is very close by. Find it!",
+            "",
+            "You have 5 minutes to complete the task."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Look around and choose the photo that was taken in this place.",
+        "matchmaker": {
+          "images": [
+            "vaclav.webp",
+            "tank.webp",
+            "scissors.webp",
+            "mill.webp",
+            "gaidys.webp",
+            "drum.webp",
+            "astro.webp",
+            "gandrai.webp", 
+            "octopus.webp",
+            "girl.webp",
+            "key.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "key.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "key.webp"
+        }
+      },
+      {
+        "id": "109",
+        "name": "Photo Album",
+        "lat": 50.08836183879433,
+"lng": 14.403689743993235,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "The magic book suddenly turned into a photo album.",
+            "The place captured in one of its photos is very close by. Find it!",
+            "",
+            "You have 5 minutes to complete the task."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Look around and choose the photo that was taken in this place.",
+        "matchmaker": {
+          "images": [
+            "vaclav.webp",
+            "tank.webp",
+            "scissors.webp",
+            "mill.webp",
+            "gaidys.webp",
+            "drum.webp",
+            "astro.webp",
+            "gandrai.webp", 
+            "octopus.webp",
+            "girl.webp",
+            "key.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "girl.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "girl.webp"
+        }
+      },
+      {
+        "id": "110",
+        "name": "Photo Album",
+        "lat": 50.087076868048314,
+"lng": 14.403375435449044,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "The magic book suddenly turned into a photo album.",
+            "The place captured in one of its photos is very close by. Find it!",
+            "",
+            "You have 5 minutes to complete the task."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Look around and choose the photo that was taken in this place.",
+        "matchmaker": {
+          "images": [
+            "vaclav.webp",
+            "tank.webp",
+            "scissors.webp",
+            "mill.webp",
+            "gaidys.webp",
+            "drum.webp",
+            "astro.webp",
+            "gandrai.webp", 
+            "octopus.webp",
+            "girl.webp",
+            "key.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "pupets.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "pupets.webp"
+        }
       }
+
+
 
       
 ]
