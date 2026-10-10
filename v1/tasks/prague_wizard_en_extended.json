@@ -560,6 +560,56 @@
           "text": "",
           "image": "gandrai.webp"
         }
+      },
+      {
+        "id": "113",
+        "name": "Photo Album",
+        "lat": 50.088406582691306,
+"lng": 14.402171574220658,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "The magic book suddenly turned into a photo album.",
+            "The place captured in one of its photos is very close by. Find it!",
+            "",
+            "You have 5 minutes to complete the task."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Look around and choose the photo that was taken in this place.",
+        "matchmaker": {
+          "images": [
+            "vaclav.webp",
+            "tank.webp",
+            "scissors.webp",
+            "mill.webp",
+            "gaidys.webp",
+            "drum.webp",
+            "astro.webp",
+            "gandrai.webp", 
+            "octopus.webp",
+            "girl.webp",
+            "key.webp",
+            "pupets.webp",
+            "saint.webp",
+            "head.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "head.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "head.webp"
+        }
       }
 
 
