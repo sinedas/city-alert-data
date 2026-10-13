@@ -27,7 +27,7 @@
     "answer": [
       "1430"
     ],
-    "points": 6,
+    "points": 4,
     "attempts": 5,
     "time": 5,
     "hint": {
@@ -554,7 +554,7 @@
         "kryziazodis_pradzia.webp"
       ]
     },
-    "image": "kryziazodis.webp",
+    "image": "karaimai.png",
     "text": [
       "Į kryžiažodį įrašykite karaimiškus žodžius. Atsakyme įrašykite pilkame stulpelyje gautą žodį.",
    "Visus žodžius rasite Visuotinės lietuvių enciklopedijos straipsnyje [href=\"https://www.vle.lt/straipsnis/lietuvos-karaimai/\"]„Lietuvos karaimai“[/href].",
@@ -568,7 +568,7 @@
     "answer": [
       "TRAKAI"
     ],
-    "points": 6,
+    "points": 8,
     "attempts": 5,
     "time": 6,
     "hint": {
