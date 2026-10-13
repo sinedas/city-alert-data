@@ -2,13 +2,13 @@
   {
     "id": "1",
     "name": "Kokie dabar metai?",
-    "lat": 54.64091151679769,
-    "lng": 24.933009679990125,
+    "lat": 54.64307152816677,
+    "lng": 24.93274694976127,
     "startType": "carousel",
     "startCarousel": {
       "text": [
         "Jūs dalyvaujate mokslininko Izaoko Goldšteino eksperimente. Laiko mašina sužimba ir nukelia jus į viduramžius, į tuometinę Lietuvos sostinę Trakus.",
-        "Prie cerkvės sutinkate vežimą su senoliu ir keliais ginkluotais vyrais. Senolis klausia, kas jūs tokie. Atsakote, kad esate paklydėliai iš ateities.",
+        "Prie bažnyčios sutinkate vežimą su senoliu ir keliais ginkluotais vyrais. Senolis klausia, kas jūs tokie. Atsakote, kad esate paklydėliai iš ateities.",
         "Senolis persižegnoja: neseniai jis susapnavo pranašingą sapną, ir jūs jame buvote. „Lipkite į vežimą.“",
         "",
         "Užduočiai atlikti turite 5 minutes."
@@ -39,10 +39,15 @@
     "rewardType": "carousel",
     "rewardCarousel": {
       "text": [
-        "Dabar 1430-ieji. Lucko suvažiavimas vyko 1429 metais, o mūšis tarp Tanenbergo ir Griunvaldo – 1410 metais. Šiandien jį vadiname Žalgirio mūšiu: Žalgiris yra lietuviškas Griunvaldo (Grünwald) kaimo pavadinimas."
+        "Teisingai, dabar 1430-ieji.",
+        "Lucko suvažiavimas vyko 1429 m. sausį. Jo iniciatorius buvo imperatorius Zigmantas, o dalyvavo Vytautas, Jogaila ir daugelio valstybių pasiuntiniai. Iš pradžių suvažiavimą buvo numatyta surengti Trakuose.",
+        "Suvažiavimo pabaigoje imperatorius pasiūlė vainikuoti Vytautą Lietuvos karaliumi. Lenkijos ponai tam griežtai priešinosi, ir klausimas taip ir liko neišspręstas.",
+        "Paveiksle – Jono Mackevičiaus kūrinys apie Lucko suvažiavimą.",
+        "",
+        "Mūšis tarp Tanenbergo ir Griunvaldo vyko 1410 metais. Šiandien jį vadiname Žalgirio mūšiu: Žalgiris yra lietuviškas Griunvaldo (Grünwald) kaimo pavadinimas."
       ],
       "images": [
-        "senolis.webp"
+        "luckas.webp"
       ]
     }
   },
@@ -82,7 +87,8 @@
     "startType": "carousel",
     "startCarousel": {
       "text": [
-        "Senolio palydoje yra įvairiai apsirengusių žmonių. Jie kalba skirtingomis kalbomis, bet visi tarnauja Vytautui.",
+        "Bandote susipažinti su senolio palyda. Keturi kariai prisistato: Jonas, Ivanas, Janas ir Timuras.",
+        "Kuris yra kuris, jie nesako. Tik šypsosi: „Pažiūrėkite į mūsų skydus ir atspėsite patys.“",
         "",
         "Užduočiai atlikti turite 6 minutes."
       ],
@@ -90,31 +96,52 @@
         "palyda.webp"
       ]
     },
-    "image": "palyda_figuros.webp",
+    "type": "timepointer",
     "text": [
-      "Paveikslėlyje sunumeruoti keturi palydos nariai. Pagal aprangą, skydus ir šalmus atpažinkite, kuris iš jų yra lietuvis, karaimas, lenkas ir rusėnas.",
-      "",
-      "Atsakyme įrašykite numerius tokia tvarka: lietuvis, karaimas, lenkas, rusėnas. Pvz.: 1234"
+      "Kiekvienas senolio palydovas turi savo skydą. Pagal palydovų skydus atspėkite, kas yra kas.",
+      "Sudėliokite vardus pagal skydų numerius."
     ],
-    "answer": [
-      "NUSTATYTI"
+    "image": "skydai.webp",
+    "events": [
+      {
+        "name": "Jonas",
+        "order": 1
+      },
+      {
+        "name": "Janas",
+        "order": 2
+      },
+      {
+        "name": "Ivanas",
+        "order": 3
+      },
+      {
+        "name": "Timuras",
+        "order": 4
+      }
     ],
     "points": 6,
     "attempts": 5,
+    "minusPointsOnAttempt": 1,
     "time": 6,
     "hint": {
       "text": [
-        "Atkreipkite dėmesį į skydų herbus."
+        "Vardai rodo, iš kokio krašto karys: Jonas – lietuviškas vardas, Janas – lenkiškas, Ivanas – rusėniškas, Timuras – totoriškas."
       ],
       "points": 2
     },
     "rewardType": "carousel",
     "rewardCarousel": {
       "text": [
-        "Vytauto kariuomenėje ir dvare buvo įvairių tautų žmonių. Trakuose iki šiol gyvena karaimai."
+        "1. Jonas – lietuvis. Jo skyde Gediminaičių stulpai, Vytauto ženklas.",
+        "2. Janas – lenkas. Jo skyde baltasis erelis, Lenkijos herbas.",
+        "3. Ivanas – rusėnas. Jo skyde šventasis Jurgis, ypač gerbiamas stačiatikių kraštuose.",
+        "4. Timuras – totorius. Pintas apvalus skydas buvo būdingas stepių raiteliams.",
+        "",
+        "Vytauto kariuomenėje ir dvare tarnavo įvairių tautų žmonės."
       ],
       "images": [
-        "palyda_atsakymas.webp"
+        "skydai.webp"
       ]
     }
   },
@@ -126,7 +153,7 @@
     "startType": "carousel",
     "startCarousel": {
       "text": [
-        "Vežime stovi skrynia su keistu skaitmeniniu užraktu. Senolis duoda jums lapelį su skaičiais ir keturiais įvykiais.",
+        "Vežime stovi skrynia su keistu užraktu: devyni mygtukai su metais ir raidėmis. Senolis duoda jums lapelį su keturiais įvykiais.",
         "",
         "Užduočiai atlikti turite 7 minutes."
       ],
@@ -137,29 +164,30 @@
     "image": "skrynia_lentele.webp",
     "text": [
       "Lapelyje surašyti keturi įvykiai:",
+      "Vorsklos mūšis",
+      "Torunės taika",
       "Lietuvos krikštas",
-      "Žalgirio mūšis",
-      "Lucko suvažiavimas",
-      "Krėvos unija",
+      "Krėvos sutartis",
       "",
-      "Lentelėje suraskite kiekvieno įvykio metus ir sujunkite skaičius linijomis. Kokį kodą parodys linijos?"
+      "Ir užrašas: „Spausk įvykius nuo seniausio iki naujausio.“",
+      "Kokius mygtukus ir kokia tvarka reikia paspausti? Įrašykite raides."
     ],
     "answer": [
-      "77"
+      "ABEH"
     ],
     "points": 8,
     "attempts": 5,
     "time": 7,
     "hint": {
       "text": [
-        "Metus padalinkite į dvi dalis. Pvz., 1429 → 14 ir 29."
+        "Seniausias įvykis – Krėvos sutartis (1385). Pradėkite nuo jo."
       ],
       "points": 2
     },
     "rewardType": "carousel",
     "rewardCarousel": {
       "text": [
-        "Krėvos unija – 1385, Lietuvos krikštas – 1387, Žalgirio mūšis – 1410, Lucko suvažiavimas – 1429.",
+        "Krėvos sutartis – 1385, Lietuvos krikštas – 1387, Vorsklos mūšis – 1399 (Vytautas pralaimėjo Aukso ordai), Torunės taika – 1411 (Lietuva atgavo Žemaitiją).",
         "Skrynia atsidarė. Joje – Vytauto karūna! Senolis sako, kad ją reikia nugabenti į pilį."
       ],
       "images": [
@@ -175,7 +203,8 @@
     "startType": "carousel",
     "startCarousel": {
       "text": [
-        "Šalia Pusiasalio pilies senolis prisimena mūšį tarp Tanenbergo ir Griunvaldo. Jis išsitraukia paveikslą, kurį po daugelio metų nutapys dailininkas Janas Matejka.",
+        "Šalia Pusiasalio pilies senolis prisimena didįjį mūšį tarp Tanenbergo ir Griunvaldo:",
+        "„Ten kovojau ir aš. Kirtausi visai šalia narsiojo Žižkos, o netoliese grūmėsi pats Zaviša Juodasis. Savo akimis mačiau, kaip krito kryžiuočių didysis magistras Ulrichas fon Jungingenas.“",
         "",
         "Užduočiai atlikti turite 6 minutes."
       ],
@@ -197,10 +226,65 @@
     "rewardType": "carousel",
     "rewardCarousel": {
       "text": [
-        "J. Matejka buvo lenkų dailininkas. Pagalvokite, kaip jis pavaizdavo Vytautą ir Jogailą. Apie tai pakalbėsite pabaigoje su mokytoju."
+        "J. Mateika buvo lenkų dailininkas. Pagalvokite, kaip jis pavaizdavo Vytautą ir Jogailą. Apie tai pakalbėsite pabaigoje su mokytoju."
       ],
       "images": [
         "matejka_zalgiris.webp"
+      ]
+    }
+  },
+  {
+    "id": "15",
+    "name": "Ką rašė Dlugošas?",
+    "lat": 54.645933874228994,
+    "lng": 24.93634280699373,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Netyčia iš kelionmaišio iškrenta knyga iš ateities – lenkų kronikininko Jano Dlugošo kronika. Jūs paklausiate senolio: „Ar tiesa, kad Žalgirio mūšyje lietuviai bėgo iš mūšio lauko?“",
+        "Senolis supyksta: „Bėgo? Aš ten buvau! Ką dar tas kronikininkas apie mus prirašė?“"
+      ],
+      "images": [
+        "kronika.webp"
+      ]
+    },
+    "type": "truefalse",
+    "text": [
+      "Ar tiesa, kad Janas Dlugošas savo kronikoje rašė…"
+    ],
+    "statements": [
+      {
+        "text": "…kad Žalgirio mūšyje lietuviai pabėgo iš mūšio lauko, o pergalę iškovojo lenkai?",
+        "answer": true
+      },
+      {
+        "text": "…kad Lietuvoje dėl žiaurių šalčių lietuviams masiškai nušąla nosys?",
+        "answer": true
+      },
+      {
+        "text": "…kad lietuviai yra pati išsilavinusi tauta tarp Šiaurės tautų?",
+        "answer": false
+      },
+      {
+        "text": "…kad lietuviai kilę iš vikingų?",
+        "answer": false
+      }
+    ],
+    "points": 6,
+    "attempts": 6,
+    "minusPointsOnAttempt": 1,
+    "time": 5,
+    "rewardType": "carousel",
+    "rewardCarousel": {
+      "text": [
+        "1. TAIP. Dlugošas pasitraukimą aprašė kaip visos Lietuvos kariuomenės sunaikinimą, nepaminėjo, kad lietuviai grįžo į mūšį, ir pergalę priskyrė lenkams. Tačiau 1963 metais rastame to meto laiške kryžiuočių magistrui rašoma, kad priešai „mėgins apsimesti, jog viena arba dvi vėliavos bėga, bet tai yra planas“. Daugelis istorikų mano, kad lietuviai traukėsi tyčia, o paskui grįžo ir smogė iš šono.",
+        "2. TAIP. Dlugošas rašė, kad Lietuvoje, išskyrus du vasaros mėnesius, viešpatauja žiaurūs šalčiai, nuo kurių lietuviams masiškai nušąla nosys.",
+        "3. NE. Dlugošas rašė priešingai: lietuviai, anot jo, „pati primityviausia tauta tarp Šiaurės tautų“.",
+        "4. NE. Dlugošas rašė, kad lietuviai kilę iš senovės romėnų ir kalba šiek tiek pagadinta lotynų kalba.",
+        "Dlugošas gimė 1415 metais ir Žalgirio mūšio nematė – aprašė jį praėjus maždaug 50 metų. Jo kronika yra svarbus šaltinis, bet lietuvius jis dažnai menkino, kad iškeltų lenkus."
+      ],
+      "images": [
+        "dlugosas.webp"
       ]
     }
   },
@@ -222,29 +306,29 @@
     "type": "timepointer",
     "text": [
       "Padėkite senoliui sudėlioti sapną.",
-      "Surikiuokite vaizdus pagal tai, kada vyko juose pavaizduoti įvykiai."
+      "Senolio sapno vaizdai – tai XIX a. dailininko Jano Mateikos paveikslai. Surikiuokite juos pagal tai, kada vyko juose pavaizduoti įvykiai."
     ],
     "image": "sapnas_vaizdai.webp",
     "events": [
       {
-        "name": "Liublino unija",
+        "name": "Prūsų priesaika",
         "order": 1,
+        "text": "1525"
+      },
+      {
+        "name": "Liublino unija",
+        "order": 2,
         "text": "1569"
       },
       {
         "name": "Steponas Batoras prie Pskovo",
-        "order": 2,
+        "order": 3,
         "text": "1582"
       },
       {
         "name": "Gegužės 3-iosios konstitucija",
-        "order": 3,
-        "text": "1791"
-      },
-      {
-        "name": "Konkordatas su Šventuoju Sostu",
         "order": 4,
-        "text": "1927"
+        "text": "1791"
       }
     ],
     "points": 7,
@@ -296,6 +380,37 @@
     ],
     "points": 7,
     "attempts": 7,
+    "minusPointsOnAttempt": 1,
+    "time": 4
+  },
+  {
+    "id": "14",
+    "name": "Sunykusios pilys",
+    "lat": 54.6468,
+    "lng": 24.9367,
+    "startType": "carousel",
+    "startCarousel": {
+      "text": [
+        "Vežime senolis vėl prisnūdo ir ėmė kalbėti per miegus:",
+        "„Regiu: prabėgs amžiai, ir sunyks Vytauto ir jo bočių pilys. Sugrius Kauno pilis, kurią taip įnirtingai puolė kryžiuočiai. Apleista stovės Krėvos pilis, kur buvo nužudytas Vytauto tėvas Kęstutis. Žolėmis užžels Medininkai. O nuo Trakų pilies teliks sienų griuvėsiai, kurie boluos prieš miestiečių akis.“"
+      ],
+      "images": [
+        "sapnas.webp"
+      ]
+    },
+    "type": "timepointer",
+    "text": [
+      "XIX amžiuje pilių griuvėsius akvarelėse užfiksavo dailininkas Napoleonas Orda.",
+      "Atpažinkite pilis meninko akvarelėse."
+    ],
+    "events": [
+        { "name": "Kauno pilis", "order": 1, "image": "kaunas.webp"},
+        { "name": "Krėvos pilis", "order": 2, "image": "kreva.webp"},
+        { "name": "Medininkų pilis", "order": 3, "image": "medininkai.webp"},
+        { "name": "Trakų pilis", "order": 4, "image": "trakai.webp"}
+    ],
+    "points": 5,
+    "attempts": 5,
     "minusPointsOnAttempt": 1,
     "time": 4
   },
@@ -385,7 +500,9 @@
     "startType": "carousel",
     "startCarousel": {
       "text": [
-        "Jūsų prietaisas iš ateities staiga ima pypsėti. Kažkas jums siunčia žinutę.",
+        "Prie jūsų pribėga berniukas, įspraudžia į rankas lapelį ir dingsta minioje. Lapelyje parašyta: „Jis jus stebi.“",
+        "",
+        "Tą pačią akimirką ima pypsėti jūsų laiko telegrafas: atėjo žinutė Morzės kodu. Gal ji atsakys, kas tas „jis“?",
         "",
         "Užduočiai atlikti turite 8 minutes."
       ],
@@ -395,7 +512,7 @@
     },
     "image": "zinute.webp",
     "text": [
-      "Žinutė užkoduota Morzės kodu. Kas joje parašyta?",
+      "Iššifruokite telegrafo žinutę. Kas jus stebi?",
       "",
       "Morzės kodas jums padės:",
       "A  ·−        G  −−·       M  −−        T  −    ",
@@ -414,7 +531,7 @@
     "rewardType": "carousel",
     "rewardCarousel": {
       "text": [
-        "JOGAILA. Bet kas siuntė šią žinutę ir ką ji reiškia? Ar Jogaila – Vytauto draugas, ar priešas?"
+        "JOGAILA. Tai jis jus stebi. Bet kodėl? Ar Jogaila – Vytauto draugas, ar priešas? Tai aptarsite pabaigoje su mokytoju."
       ],
       "images": [
         "jogaila.webp"
@@ -423,13 +540,13 @@
   },
   {
     "id": "11",
-    "name": "Antros pusės",
+    "name": "Karaimų žodžiai",
     "lat": 54.64946623232961,
     "lng": 24.934354126453403,
     "startType": "carousel",
     "startCarousel": {
       "text": [
-        "Senolis pasakoja apie didžiųjų kunigaikščių šeimas.",
+        "Senolio palydos karaimas kviečia pasivaišinti ir pasakoja apie savo tautos papročius. Jo kalboje skamba nepažįstami žodžiai.",
         "",
         "Užduočiai atlikti turite 6 minutes."
       ],
@@ -439,20 +556,32 @@
     },
     "image": "kryziazodis.webp",
     "text": [
-      "Į kryžiažodį įrašykite poros antrąją pusę. Atsakyme įrašykite pažymėtą žodį.",
-      "1. Vytautas ir ...",
-      "2. Kęstutis ir ..."
+      "Į kryžiažodį įrašykite karaimiškus žodžius. Atsakyme įrašykite pilkame stulpelyje gautą žodį.",
+   "Visus žodžius rasite Visuotinės lietuvių enciklopedijos straipsnyje [href=\"https://www.vle.lt/straipsnis/lietuvos-karaimai/\"]„Lietuvos karaimai“[/href].",
+      "1. Tiršta mėsiška naminių makaronų sriuba su pupelėmis",
+      "2. Aukso siūlais siuvinėtas aksominis moterų švarkelis",
+      "3. Miltų kukuliai su mėsos įdaru",
+      "4. Pusmėnulio formos pyragėliai su avienos įdaru",
+      "5. Septynių sluoksnių varškės pyragas",
+      "6. Poeto S. Kobeckio eilėraščių rinkinys „Dainos“ (1904)"
     ],
     "answer": [
-      "NUSTATYTI"
+      "TRAKAI"
     ],
     "points": 6,
     "attempts": 5,
     "time": 6,
+    "hint": {
+      "text": [
+        "Straipsnyje ieškokite pastraipų apie tradicinius drabužius, valgius ir tautosaką. Pirmas žodis: TUTMAČ."
+      ],
+      "points": 2
+    },
     "rewardType": "carousel",
     "rewardCarousel": {
       "text": [
-        "Vytauto žmona buvo Ona, o jo tėvų – Kęstučio ir Birutės – istorija tapo legenda."
+        "TUTMAČ, KYRCHA, KOPTA, KYBYN, KATLAMA, IRLAR.",
+        "Karaimai Trakuose gyvena nuo 1397 metų, kai Vytautas juos apgyvendino tarp dviejų pilių. Karaimų kalba šiandien nyksta: ja kalba vos keliasdešimt žmonių, ir tik Lietuvoje."
       ],
       "images": [
         "kryziazodis_atsakymas.webp"
