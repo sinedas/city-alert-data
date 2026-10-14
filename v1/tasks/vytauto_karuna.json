@@ -258,15 +258,15 @@
         "answer": true
       },
       {
-        "text": "…kad Lietuvoje dėl žiaurių šalčių lietuviams masiškai nušąla nosys?",
-        "answer": true
-      },
-      {
-        "text": "…kad lietuviai yra pati išsilavinusi tauta tarp Šiaurės tautų?",
+        "text": "…kad lietuviai kilę iš vikingų?",
         "answer": false
       },
       {
-        "text": "…kad lietuviai kilę iš vikingų?",
+        "text": "…kad iš visos Lietuvos kariuomenės pagyrimo už drąsą Žalgirio mūšyje verti tik Vytautas ir trys Smolensko pulkai?",
+        "answer": true
+      },
+      {
+        "text": "…kad Lietuvos ir Lenkijos kariuomenė Žalgirio mūšyje turėjo tik 10 vėliavų (pulkų)?",
         "answer": false
       }
     ],
@@ -277,11 +277,11 @@
     "rewardType": "carousel",
     "rewardCarousel": {
       "text": [
-        "1. TAIP. Dlugošas pasitraukimą aprašė kaip visos Lietuvos kariuomenės sunaikinimą, nepaminėjo, kad lietuviai grįžo į mūšį, ir pergalę priskyrė lenkams. Tačiau 1963 metais rastame to meto laiške kryžiuočių magistrui rašoma, kad priešai „mėgins apsimesti, jog viena arba dvi vėliavos bėga, bet tai yra planas“. Daugelis istorikų mano, kad lietuviai traukėsi tyčia, o paskui grįžo ir smogė iš šono.",
-        "2. TAIP. Dlugošas rašė, kad Lietuvoje, išskyrus du vasaros mėnesius, viešpatauja žiaurūs šalčiai, nuo kurių lietuviams masiškai nušąla nosys.",
-        "3. NE. Dlugošas rašė priešingai: lietuviai, anot jo, „pati primityviausia tauta tarp Šiaurės tautų“.",
-        "4. NE. Dlugošas rašė, kad lietuviai kilę iš senovės romėnų ir kalba šiek tiek pagadinta lotynų kalba.",
-        "Dlugošas gimė 1415 metais ir Žalgirio mūšio nematė – aprašė jį praėjus maždaug 50 metų. Jo kronika yra svarbus šaltinis, bet lietuvius jis dažnai menkino, kad iškeltų lenkus."
+        "1. TAIP. Dlugošas rašė, kad po valandos kovos lietuviai pabėgo iš mūšio lauko, jų nesustabdė net pats Vytautas, o pergalę iškovojo lenkai. Tačiau 1962 metais rastame ir 1963 metais paskelbtame to meto laiške Vokiečių ordino didžiajam magistrui įspėjama, kad priešai gali tyčia leisti vienai ar dviem vėliavoms trauktis ar bėgti, kad suardytų kryžiuočių rikiuotę, „kaip atsitiko Didžiajame mūšyje“. Daugelis istorikų mano, kad lietuviai traukėsi tyčia, o paskui grįžo į mūšį.",
+        "2. NE. Dlugošas vienas pirmųjų rašė, kad lietuviai kilę iš senovės romėnų.",
+        "3. TAIP. Iš visos Lietuvos kariuomenės Dlugošas pagyrė tik Vytautą ir tris Smolensko pulkus.",
+        "4. NE. Pasak Dlugošo, Lietuvos ir Lenkijos kariuomenė turėjo apie 90 vėliavų (pulkų): Lietuvos apie 40, Lenkijos apie 50.",
+        "Dlugošas gimė 1415 metais ir Žalgirio mūšio nematė – kroniką pradėjo rašyti tik 1455 metais. Ji yra vienas svarbiausių Lietuvos istorijos šaltinių, bet joje yra tendencingų, lietuvius menkinančių vertinimų."
       ],
       "images": [
         "dlugosas.webp"
@@ -370,7 +370,7 @@
       {
         "name": "Jaunutis",
         "order": 3,
-        "text": "1341–1345"
+        "text": "1342–1345"
       },
       {
         "name": "Algirdas ir Kęstutis",
@@ -581,7 +581,7 @@
     "rewardCarousel": {
       "text": [
         "TUTMAČ, KYRCHA, KOPTA, KYBYN, KATLAMA, IRLAR.",
-        "Karaimai Trakuose gyvena nuo 1397 metų, kai Vytautas juos apgyvendino tarp dviejų pilių. Karaimų kalba šiandien nyksta: ja kalba vos keliasdešimt žmonių, ir tik Lietuvoje."
+        "Karaimai Lietuvoje gyvena nuo 1397 metų. Vytautas juos apgyvendino Trakuose tarp dviejų pilių. Karaimų kalba šiandien nyksta: ja kalba vos keliasdešimt žmonių, ir tik Lietuvoje."
       ],
       "images": [
         "kryziazodis_atsakymas.webp"
