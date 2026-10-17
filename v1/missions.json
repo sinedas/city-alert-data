@@ -962,8 +962,8 @@
     "title": "The Prague alchemist",
     "image": "prague_wizard.webp",
     "location": {
-      "lat": 50.0855,
-      "lng": 14.404
+      "lat": 55.70897834090646,
+      "lng": 21.13342391617256
     },
     "initialDiameter": 1950,
     "finalDiameter": 1945,
@@ -974,7 +974,7 @@
     "circleMode": "fixed",
     "circle": false,
     "description": "The Prague alchemist's suitcase and magic wand.",
-    "city": "Prague",
+    "city": "Klaipėda",
     "missingPhotosCount": 20,
     "missingPhotosIntro": {
       "title": "The Empty Photo Album",
