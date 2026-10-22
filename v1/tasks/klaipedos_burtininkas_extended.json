@@ -1,0 +1,446 @@
+[
+    {
+      "id": "101",
+      "name": "Fotoalbumas",
+      "lat": 55.70993,
+      "lng": 21.13335,
+      "startType": "carousel",
+      "startCarousel": {
+        "text": [
+          "Stebuklinga knyga staiga virto fotoalbumu.",
+          "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+          "",
+          "Užduočiai atlikti turite 5 minutes."
+        ],
+        "images": [
+          "fotoalbumas.webp"
+        ]
+      },
+      "type": "matchmaker",
+      "iconType": "book",
+      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+      "matchmaker": {
+        "images": [
+          
+        ],
+        "displayCount": 10
+      },
+      "answer": [
+        "driezas.webp"
+      ],
+      "points": 2,
+      "attempts": 1,
+      "time": 5,
+      "reward": {
+        "text": "",
+        "image": "driezas.webp"
+      }
+    },
+    {
+        "id": "102",
+        "name": "Fotoalbumas",
+        "lat": 55.70854,
+        "lng": 21.13228,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "peliukas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "peliukas.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "peliukas.webp"
+        }
+      },
+      {
+        "id": "103",
+        "name": "Fotoalbumas",
+        "lat": 55.707527277810755,
+      "lng": 21.1325450022811,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "peda.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "peda.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "peda.webp"
+        }
+      },
+      {
+        "id": "104",
+        "name": "Fotoalbumas",
+        "lat": 55.70778,
+        "lng": 21.13470,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "suniukas.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "suniukas.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "suniukas.webp"
+        }
+      },
+      {
+        "id": "105",
+        "name": "Fotoalbumas",
+        "lat": 55.70849,
+        "lng": 21.13022,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "karuna.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "karuna.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "karuna.webp"
+        }
+      },
+      {
+        "id": "106",
+        "name": "Fotoalbumas",
+        "lat": 55.7066522811657,
+        "lng": 21.134940237073163,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "ramune.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "ramune.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "ramune.webp"
+        }
+      },
+      {
+        "id": "107",
+        "name": "Fotoalbumas",
+        "lat": 55.71045940640067,
+        "lng": 21.1341222383313,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "vytis.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "vytis.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "vytis.webp"
+        }
+      },
+      {
+        "id": "108",
+        "name": "Fotoalbumas",
+        "lat": 55.709457037072504,
+        "lng": 21.134020359716917,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "girtuokliai.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "girtuokliai.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "girtuokliai.webp"
+        }
+      },
+      {
+        "id": "109",
+        "name": "Fotoalbumas",
+        "lat": 55.70673086543037,
+"lng": 21.137088854964293,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "bricka.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "bricka.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "bricka.webp"
+        }
+      },
+      {
+        "id": "110",
+        "name": "Fotoalbumas",
+        "lat": 55.70714796388179,
+        "lng": 21.13796052283442,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "suniukai.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "suniukai.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "suniukai.webp"
+        }
+      },
+      {
+        "id": "111",
+        "name": "Fotoalbumas",
+        "lat": 55.70561404729391,
+        "lng": 21.133486503854282,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "trys.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "trys.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "trys.webp"
+        }
+      },
+      {
+        "id": "112",
+        "name": "Fotoalbumas",
+        "lat": 55.707222013503795,
+        "lng": 21.138124451420204,
+        "startType": "carousel",
+        "startCarousel": {
+          "text": [
+            "Stebuklinga knyga staiga virto fotoalbumu.",
+            "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+            "",
+            "Užduočiai atlikti turite 5 minutes."
+          ],
+          "images": [
+            "fotoalbumas.webp"
+          ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+          "images": [
+            "dainora.webp"
+          ],
+          "displayCount": 10
+        },
+        "answer": [
+          "dainora.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+          "text": "",
+          "image": "dainora.webp"
+        }
+      }
+]

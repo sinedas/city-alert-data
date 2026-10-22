@@ -625,6 +625,65 @@
     "details": "Vilniaus gatvė, Senoji prezidentūra, Perkūno namas, Kauno Šv. Petro ir Povilo katedra, Kauno rotušė, Kauno pilis."
   },
   {
+    "code": "klaipedos_burtininkas",
+    "title": "Klaipėdos burtininkas",
+    "image": "kaunas.webp",
+    "location": {
+      "lat": 55.71010953321128,
+      "lng":  21.133334876116262
+    },
+    "initialDiameter": 1900,
+    "finalDiameter": 1895,
+    "duration": 120,
+    "level": "Lengvas",
+    "active": false,
+    "locked": true,
+    "circleMode": "fixed",
+    "circle": false,
+    "description": "Klaipėdos burtininko lagaminas ir burtų lazdelė.",
+    "city": "Klaipėda",
+    "start": "Perėja į senamiestį",
+    "finish": "Kauno pilis",
+    "startLocation": {
+      "lat": 55.70766197,
+      "lng": 21.14046646
+    },  
+    "hints": 20,
+    "checkLocation": true,
+    "beforeTeamName": {
+      "title": "Paliktas lagaminas",
+      "text": [
+        "Šalia suoliuko netoli Dominikonų vienuolyno keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+        "Įdomu, kas viduje ir kaip jį atidaryti?",
+        "",
+        "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+      ]
+    },
+    "teamName": {
+      "title": "Komandos pavadinimas",
+      "time": 4,
+      "text": [
+        "Lagaminas atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+        "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
+        "",
+        "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
+      ],
+      "points": 2
+    },
+    "afterTeamName": {
+      "title": "Kas lagamine?",
+      "text": [
+        "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
+        "Jūsų komanda pasiruošusi nuotykiui.",
+        "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+        "",
+        "Sėkmės!"
+      ],
+      "image": "kaunas2.webp"
+    },
+    "details": "Vilniaus gatvė, Senoji prezidentūra, Perkūno namas, Kauno Šv. Petro ir Povilo katedra, Kauno rotušė, Kauno pilis."
+  },
+  {
     "code": "kaunas_wizard_en",
     "folder": "kauno_burtininkas",
     "title": "The Kaunas Wizard",
