@@ -69,12 +69,12 @@
     {
         "id": "4",
         "name": "Dailės istorija",
-        "lat": 55.70762983,
-        "lng": 21.13024951,
+        "lat": 55.70693236283806,
+"lng": 21.134282570155683,
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Šalia medicinos fakulteto knygos viršelyje atsirado raidės ir susidėliojo į užrašą: 'Dailės istorija'.",
+                "Šalia dailės akademijos knygos viršelyje atsirado raidės ir susidėliojo į užrašą: 'Dailės istorija'.",
                 "Atverskite knygą ir atlikite naują užduotį"
             ],
             "images": [
@@ -82,27 +82,32 @@
             ]
         },
         "type": "timepointer",
-        "text": "Knygos puslapiuose atsirado keturių garsių dailininkų paveikslai. Atpažinkite paveikslų autorius ir surikiuokite juos.",
+        "text": "Knygos puslapiuose atsirado penkių garsių dailininkų paveikslai jūros tema. Atpažinkite paveikslų autorius ir surikiuokite juos.",
         "events": [
             {
-                "name": "Čiurlionis",
+                "name": "M. K. Čiurlionis",
                 "order": 1,
-                "image": "ciurlionis.webp"
+                "image": "shared/sea/ciurlionis.webp"
             },
             {
-                "name": "Leonardas da Vinčis",
+                "name": "Klodas Monė",
                 "order": 2,
-                "image": "mona.webp"
+                "image": "shared/sea/mone.webp"
             },
             {
-                "name": "Van Gogas",
+                "name": "Kacušika Hokusajus",
                 "order": 3,
-                "image": "vangog.webp"
+                "image": "shared/sea/kanagava.webp"
             },
             {
-                "name": "Napoleonas Orda",
+                "name": "Džozefas Terneris",
                 "order": 4,
-                "image": "kaunas.jpg"
+                "image": "shared/sea/turnier.webp"
+            },
+            {
+                "name": "Kasparas Davidas Frydrichas",
+                "order": 5,
+                "image": "shared/sea/friedrich.webp"
             }
         ],
         "points": 7,
@@ -157,8 +162,8 @@
     {
         "id": "6",
         "name": "Pasaka",
-        "lat": 55.70849091003484,
-        "lng": 21.132253110408787,
+        "lat": 55.708536748733444,
+        "lng": 21.1324753004661,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -189,8 +194,8 @@
     {
         "id": "7",
         "name": "Akiniai",
-        "lat": 55.71028387,
-        "lng": 21.1284092,
+        "lat": 55.707996251842765,
+        "lng": 21.134942468662924,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -232,8 +237,8 @@
     {
         "id": "8",
         "name": "Meilės kryžiažodis",
-        "lat": 55.70622648,
-        "lng": 21.13571494,
+        "lat": 55.70912609844158,
+        "lng": 21.135071795277614,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -323,8 +328,8 @@
     {
         "id": "13",
         "name": "Radijo imtuvas",
-        "lat": 55.70999712,
-        "lng": 21.12670272,
+        "lat": 55.708828906514385,
+        "lng": 21.129936480523686,
         "type": "audio",
         "audio": "elfas.wav",
         "startType": "carousel",
@@ -368,8 +373,8 @@
     {
         "id": "14",
         "name": "Stebuklingi degtukai",
-        "lat": 55.70658073,
-        "lng": 21.13130326,
+        "lat": 55.70668552837389,
+        "lng": 21.133030706418808,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -408,8 +413,8 @@
     {
         "id": "15",
         "name": "Transporto priemonė",
-        "lat": 55.70780483452591,
-        "lng": 21.13492727279663,
+        "lat": 55.707996251842765,
+        "lng": 21.134942468662924,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -443,8 +448,8 @@
     {
         "id": "17",
         "name": "Laivų mūšis",
-        "lat": 55.7100511,
-        "lng": 21.13156387,
+        "lat": 55.70905406730282,
+"lng": 21.129416977539993,
         "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
@@ -515,8 +520,8 @@
     {
         "id": "23",
         "name": "Matematinė lygtis",
-        "lat": 55.70937699,
-        "lng": 21.12869612,
+        "lat": 55.70780987189643,
+"lng": 21.131728130845406,
         "startType": "carousel",
         "startCarousel": {
             "text": [
