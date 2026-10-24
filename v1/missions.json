@@ -627,13 +627,14 @@
   {
     "code": "klaipedos_burtininkas",
     "title": "Klaipėdos burtininkas",
-    "image": "kaunas.webp",
+    "folder": "wizard",
+    "image": "klaipeda.webp",
     "location": {
       "lat": 55.71010953321128,
       "lng":  21.133334876116262
     },
-    "initialDiameter": 1900,
-    "finalDiameter": 1895,
+    "initialDiameter": 1300,
+    "finalDiameter": 1299,
     "duration": 120,
     "level": "Lengvas",
     "active": false,
@@ -642,8 +643,8 @@
     "circle": false,
     "description": "Klaipėdos burtininko lagaminas ir burtų lazdelė.",
     "city": "Klaipėda",
-    "start": "Perėja į senamiestį",
-    "finish": "Kauno pilis",
+    "start": "Biržos tiltas",
+    "finish": "",
     "startLocation": {
       "lat": 55.70766197,
       "lng": 21.14046646
@@ -653,7 +654,7 @@
     "beforeTeamName": {
       "title": "Paliktas lagaminas",
       "text": [
-        "Šalia suoliuko netoli Dominikonų vienuolyno keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+        "Keistas vyriškis su lagaminu trapu išlipo iš „Meridiano“ laivo šalia Danės upės. Neilgai pastovėjęs, jis paliko lagaminą ir keista lazdelę, o pats nuskubėjo turgaus aikštės pusėn.",
         "Įdomu, kas viduje ir kaip jį atidaryti?",
         "",
         "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
@@ -679,9 +680,9 @@
         "",
         "Sėkmės!"
       ],
-      "image": "kaunas2.webp"
+      "image": "klaipedos_burtininkas/klaipeda_atidarytas.webp"
     },
-    "details": "Vilniaus gatvė, Senoji prezidentūra, Perkūno namas, Kauno Šv. Petro ir Povilo katedra, Kauno rotušė, Kauno pilis."
+    "details": "Biržos tiltas, Klaipėdos senamiestis, Danė, Turgaus, Karskronos aikšės, Didžioji Vandens, Pilies gatvės."
   },
   {
     "code": "kaunas_wizard_en",

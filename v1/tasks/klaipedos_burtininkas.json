@@ -2,19 +2,19 @@
     {
         "id": "1",
         "name": "Pasakų gyvūnas",
-        "lat": 55.70766506,
-        "lng": 21.14038006,
+        "lat": 55.71061857420634,
+        "lng": 21.13479316234589,
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Netoli Dominikonų vienuolyno magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
+                "Priešais „Meridianą“, Danės krantinėje, magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
                 "Pažaiskime burtažodlę. Spėkite burtažodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
                 "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
-                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "[img source=\"/wizard/lietuva.jpg\" width=\"300\" height=\"50\"/]",
                 "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
             ],
             "images": [
-                "pasaku_gyvunas.webp"
+                "/wizard/pasaku_gyvunas.webp"
             ]
         },
         "text": [
@@ -31,22 +31,69 @@
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "Magiška knyga atsivertė ties slibino paveikslu."
+                "Magiška knyga atsivertė ties slibino paveikslu.",
+                "Atlikdami kitas užduotis, dar tikrai sutiksite slibiną, o kol kas eikite toliau."
             ],
             "images": [
-                "slibinas.webp"
+                "/wizard/slibinas.webp"
             ]
         }
     },
     {
         "id": "2",
-        "name": "Jonas Jablonskis",
-        "lat": 55.70762341,
-        "lng": 21.13968598,
-        "type": "chain",
+        "name": "Knygos herojus",
+        "lat": 55.70998693599838,
+        "lng": 21.13522633910179,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Knygos viršelis vėl pasikeitė, dabar jame užrašas „Knygos herojus“. Atverskite knygą ir atlikite naują užduotį."
+            ],
+            "images": [
+                "/wizard/herojus.webp"
+            ]
+        },
         "text": [
-            "Šalia Jonos Jablonskio namo sutinkate senuką, kuris turi jums 4 mįsles.",
-            "Išspręskite senuko sugalvotą grandinėlę. Kiekvienas sekos žodis nuo ankstesnio skiriasi viena raide.",
+            "Atspėkite knygos herojų."
+        ],
+        "type": "wordle",
+        "answer": [
+            "KARLSONAS"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Susipažinkite – tai Karlsonas, kuris gyvena ant stogo.",
+                "Ant stogo jis turi ir draugą. Pakelkite akis į viršų ir pamatysite Karlsono bičiulį kaminkrėtį."
+            ],
+            "images": [
+                "/wizard/karlsonas.webp"
+            ]
+        }
+    },
+    {
+        "id": "3",
+        "name": "Belsk į medį tris kartus",
+        "lat": 55.70843197450595,
+        "lng": 21.132925003767017,
+        "type": "chain",
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Suraskite duris su užrašu \"Belsk į medį tris kartus\".",
+                "Pabelskite į medį tris kartus."
+            ],
+            "images": [
+                "/klaipedos_burtininkas/durys.webp"
+            ]
+        },
+        "text": [
+            "Iš už durų pasigirdo 4 mįslės. Visi 4 atsakymai į mįsles sudaro grandinėlę.",
+            "Kiekvienas sekos žodis nuo ankstesnio skiriasi viena raide.",
             "",
             "1. Medžiaga iš kurios austas nepermatomas apsiaustas?",
             "2. Kas pasakoje gaudė žuvis savo uodega?",
@@ -70,7 +117,7 @@
         "id": "4",
         "name": "Dailės istorija",
         "lat": 55.70693236283806,
-"lng": 21.134282570155683,
+        "lng": 21.134282570155683,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -78,7 +125,7 @@
                 "Atverskite knygą ir atlikite naują užduotį"
             ],
             "images": [
-                "daile.webp"
+                "/wizard/daile.webp"
             ]
         },
         "type": "timepointer",
@@ -126,7 +173,7 @@
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
-                "katedra.webp"
+                "/wizard/katedra.webp"
             ],
             "changeInterval": 3
         },
@@ -143,9 +190,9 @@
         "hint": {
             "text": [
                 "Štai atidarytas lagaminas.",
-                "Apsidairykite aplinkui, ir tikrai surasite šį daiktą."
+                "Apsidairykite aplinkui, ir tikrai surasite šį daiktą ir ne vieną."
             ],
-            "image": "katedra_hint.webp",
+            "image": "/wizard/katedra_hint.webp",
             "points": 2
         },
         "rewardType": "carousel",
@@ -155,7 +202,7 @@
                 "Tik tai – nepaprastas laikrodis, o laiko atsuktuvas, kuris dar gali jums pasitarnauti."
             ],
             "images": [
-                "atsuktuvas.webp"
+                "/wizard/atsuktuvas.webp"
             ]
         }
     },
@@ -171,11 +218,11 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "pasakos.webp"
+                "/wizard/pasakos.webp"
             ],
             "changeInterval": 0
         },
-        "image": "katinas.png",
+        "image": "/wizard/katinas.png",
         "text": "Sudėkite dėlionės dalis į kvadratą ir atspėkite pasakos pavadinimą.",
         "answer": [
             "Batuotas katinas"
@@ -186,16 +233,17 @@
         "rewardType": "carousel",
         "reward": {
             "text": [
-                "Stebuklinga knyga atsivertė ties pasaka – Batuotas katinas."
+                "Stebuklinga knyga atsivertė ties pasaka – Batuotas katinas.",
+                "Apsidairykite aplinkui, tikrai surasite ir žmogėdrą iš pasakos, tik jis pasivertes. Kuo?"
             ],
-            "image": "batuotas.webp"
+            "image": "/wizard/batuotas.webp"
         }
     },
     {
         "id": "7",
         "name": "Akiniai",
-        "lat": 55.707996251842765,
-        "lng": 21.134942468662924,
+        "lat": 55.70672582796688,
+        "lng": 21.13600015640259,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -204,7 +252,7 @@
                 ""
             ],
             "images": [
-                "akiniai_brokenv4.webp"
+                "/wizard/akiniai_brokenv4.webp"
             ]
         },
         "text": [
@@ -231,7 +279,7 @@
             "text": [
                 "Burtai suveikė ir akiniai susitaisė."
             ],
-            "image": "akiniaiv4.webp"
+            "image": "/wizard/akiniaiv4.webp"
         }
     },
     {
@@ -242,21 +290,21 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Knygos pavadinime atsirado užrašas: 'Meilės kryžiažodis'.",
-                "Atverskite knygą ir atlikite naują užduotį",
+                "Senojo pašto balandžiai snape laikė voką su užrašu „Meilės kryžiažodis“.",
+                "Atverkite voką ir išspręskite kryžiažodį.",
                 "",
                 "Užduočiai atlikti turite 7 minutes."
             ],
             "images": [
-                "sforca.webp"
+                "/wizard/vokas.webp"
             ]
         },
-        "image": "sirdis.jpg",
+        "image": "/wizard/sirdis2.png",
         "text": [
             "Į kryžiažodį įrašykite antrą įsimylėjėlį poroje. Atsakyme įrašykite pilką žodį.",
             "1. ... ir Fiona",
             "2. Eglė ir ...",
-            "3. Augustas ir ...",
+            "3. ... ir Kąstytis",
             "4. Romeo ir ...",
             "5. Gražuolė ir ...",
             "6. ... ir Hermiona"
@@ -269,18 +317,19 @@
         "time": 7,
         "rewardType": "carousel",
         "rewardCarousel": {
-             "text": [
+            "text": [
                 "Atsakymas - Širdis."
             ],
-
-            "images": ["sirdis_answer.png"]
+            "images": [
+                "/wizard/sirdis_answer2.png"
+            ]
         }
     },
     {
-        "id": "12",
+        "id": "9",
         "name": "Karlskronos aikštė",
         "lat": 55.70859366920591,
-"lng": 21.130431890487674,
+        "lng": 21.130431890487674,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -288,11 +337,11 @@
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
-                "colors_start.webp"
+                "/wizard/colors_start.webp"
             ],
             "changeInterval": 0
         },
-        "image": "colors2.webp",
+        "image": "/wizard/colors2.webp",
         "text": [
             "Karlskronos aikštės fontanai pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
             "Kokia spalva yra užšifruota šioje lygtyje?"
@@ -304,7 +353,7 @@
         "attempts": 4,
         "time": 6,
         "hint": {
-            "image": "colors_hint2.webp",
+            "image": "/wizard/colors_hint2.webp",
             "text": [
                 "Prisiminkite dailės pamokas. ",
                 "",
@@ -321,14 +370,14 @@
                 "Lygties sprendimas – ŽALIA."
             ],
             "images": [
-                "colors_solution.webp"
+                "/wizard/colors_solution.webp"
             ]
         }
     },
     {
-        "id": "13",
+        "id": "10",
         "name": "Radijo imtuvas",
-        "lat": 55.708828906514385,
+        "lat": 55.708828906514384,
         "lng": 21.129936480523686,
         "type": "audio",
         "audio": "elfas.wav",
@@ -340,11 +389,11 @@
                 "Užduočiai atlikti turite 10 minučių."
             ],
             "images": [
-                "imtuvasv2.webp"
+                "/wizard/imtuvasv3.webp"
             ],
             "changeInterval": 0
         },
-        "image": "imtuvasv2.webp",
+        "image": "/wizard/imtuvasv3.webp",
         "text": [
             "Į imtuvą jūs gavote garsinį pranešimą. Jame užkoduotas pasakų veikėjo vardas.",
             "",
@@ -367,11 +416,11 @@
             "text": [
                 "Pasakos personažas – Elfas."
             ],
-            "image": "elfas.webp"
+            "image": "/wizard/elfas.webp"
         }
     },
     {
-        "id": "14",
+        "id": "11",
         "name": "Stebuklingi degtukai",
         "lat": 55.70668552837389,
         "lng": 21.133030706418808,
@@ -383,11 +432,11 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "degtukai.webp"
+                "/wizard/degtukai.webp"
             ],
             "changeInterval": 0
         },
-        "image": "degtuku_uzduotis.webp",
+        "image": "/wizard/degtuku_uzduotis.webp",
         "text": [
             "Degtukai iššoko iš dėžutės ir susidėjo į lygybę, tačiau neteisingai.",
             "Perkelkite vieną degtuką taip, kad lygybė būtų teisinga.",
@@ -406,12 +455,12 @@
                 "Ši užduotis turi ne vieną sprendimą. Vienas jų yra šis."
             ],
             "images": [
-                "degtukai_sprendimas.webp"
+                "/wizard/degtukai_sprendimas.webp"
             ]
         }
     },
     {
-        "id": "15",
+        "id": "12",
         "name": "Transporto priemonė",
         "lat": 55.707996251842765,
         "lng": 21.134942468662924,
@@ -423,7 +472,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "zole.webp"
+                "/wizard/zole.webp"
             ]
         },
         "text": [
@@ -442,14 +491,14 @@
             "text": [
                 "Ant pievelės buvo skraidantis kilimas. Galite pasiimti jį su savimi."
             ],
-            "image": "kilimas.webp"
+            "image": "/wizard/kilimas.webp"
         }
     },
     {
-        "id": "17",
+        "id": "13",
         "name": "Laivų mūšis",
         "lat": 55.70905406730282,
-"lng": 21.129416977539993,
+        "lng": 21.129416977539993,
         "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
@@ -459,7 +508,7 @@
                 "Laiku sustokite."
             ],
             "images": [
-                "mina.webp"
+                "/wizard/mina.webp"
             ]
         },
         "text": [
@@ -469,10 +518,10 @@
         "time": 5
     },
     {
-        "id": "18",
+        "id": "14",
         "name": "Laiko atsuktuvas",
-        "lat": 55.70981204,
-        "lng": 21.13348144,
+        "lat": 55.70749050515867,
+        "lng": 21.137458907390435,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -480,7 +529,7 @@
                 "Atverskite knygą ir atlikite naują užduotį"
             ],
             "images": [
-                "isradimai.webp"
+                "/wizard/isradimai.webp"
             ]
         },
         "type": "timepointer",
@@ -497,20 +546,26 @@
                 "text": "2-as amžius prieš m. e."
             },
             {
-                "name": "Knygų spaudos presas",
+                "name": "Barometras",
                 "order": 2,
-                "text": "1440"
-            },
+                "text": "1643"
+            }, 
             {
-                "name": "Teleskopas",
+                "name": "Sekstantas",
                 "order": 3,
-                "text": "1608"
+                "text": "1757"
             },
             {
-                "name": "Oro balionas",
+                "name": "Aktyvus sonaras",
                 "order": 4,
-                "text": "1783"
+                "text": "1915–1917"
+            },
+            {
+                "name": "Akvalangas",
+                "order": 5,
+                "text": "1943"
             }
+            
         ],
         "points": 7,
         "attempts": 7,
@@ -518,23 +573,23 @@
         "time": 4
     },
     {
-        "id": "23",
-        "name": "Matematinė lygtis",
+        "id": "15",
+        "name": "Anikės fontanas",
         "lat": 55.70780987189643,
-"lng": 21.131728130845406,
+        "lng": 21.131728130845406,
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Kolba iš lagamino iššoko, ir pasidalino į dvi kolbas.",
-                "Kolbos prisipildė vandens, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis.",
+                "Fontanas pripildė kolbas vandeniu, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis.",
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
-                "lygtis_start.webp"
+                "/wizard/lygtis_start.webp"
             ],
             "changeInterval": 0
         },
-        "image": "lygtis.webp",
+        "image": "/wizard/lygtis.webp",
         "text": [
             "Išspręskite lygtis su laiko atsuktuvu ir aukso ir sidabro skysčiais."
         ],
@@ -556,7 +611,7 @@
                 "Atsakymas – 18."
             ],
             "images": [
-                "sprendimas.webp"
+                "/wizard/sprendimas.webp"
             ]
         }
     },
@@ -572,7 +627,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "lazdele.webp"
+                "/wizard/lazdele.webp"
             ]
         },
         "type": "photoValidation",
@@ -602,7 +657,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "atsuktuvas.webp"
+                "/wizard/atsuktuvas.webp"
             ]
         },
         "type": "photoValidation",
@@ -633,7 +688,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "menesiai.webp"
+                "/wizard/menesiai.webp"
             ]
         },
         "photoValidation": {
@@ -661,7 +716,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "atsuktuvas.webp"
+                "/wizard/atsuktuvas.webp"
             ]
         },
         "type": "photoValidation",
@@ -688,7 +743,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "lazdele.webp"
+                "/wizard/lazdele.webp"
             ]
         },
         "type": "photoValidation",
