@@ -630,15 +630,15 @@
     "folder": "wizard",
     "image": "klaipeda.webp",
     "location": {
-      "lat": 55.71010953321128,
-      "lng":  21.133334876116262
+      "lat": 55.70861885526675,
+    "lng": 21.134444220860903
     },
-    "initialDiameter": 1300,
-    "finalDiameter": 1299,
+    "initialDiameter": 1000,
+    "finalDiameter": 999,
     "duration": 120,
     "level": "Lengvas",
     "active": false,
-    "locked": true,
+    "locked": false,
     "circleMode": "fixed",
     "circle": false,
     "description": "Klaipėdos burtininko lagaminas ir burtų lazdelė.",

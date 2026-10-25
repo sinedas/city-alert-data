@@ -25,13 +25,13 @@
                 "/klaipedos_burtininkas/peliukas.webp",
                 "/klaipedos_burtininkas/peda.webp",
                 "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
+                "/klaipedos_burtininkas/karuna.webp",   
                 "/klaipedos_burtininkas/ramune.webp",
                 "/klaipedos_burtininkas/vytis.webp",
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -79,7 +79,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -127,7 +127,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -175,7 +175,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -223,7 +223,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -271,7 +271,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -319,7 +319,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -367,7 +367,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -415,7 +415,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -463,7 +463,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
@@ -482,8 +482,8 @@
     {
         "id": "111",
         "name": "Fotoalbumas",
-        "lat": 55.70561404729391,
-        "lng": 21.133486503854282,
+        "lat": 55.710001543384585,
+        "lng": 21.134245464072634,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -511,20 +511,20 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/trys.webp"
+            "/klaipedos_burtininkas/pinigai.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/trys.webp"
+            "image": "/klaipedos_burtininkas/pinigai.webp"
         }
     },
     {
@@ -559,7 +559,7 @@
                 "/klaipedos_burtininkas/girtuokliai.webp",
                 "/klaipedos_burtininkas/bricka.webp",
                 "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/trys.webp",
+                "/klaipedos_burtininkas/pinigai.webp",
                 "/klaipedos_burtininkas/dainora.webp"
             ],
             "displayCount": 12
