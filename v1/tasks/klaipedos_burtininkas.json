@@ -10,11 +10,11 @@
                 "Priešais „Meridianą“, Danės krantinėje, magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
                 "Pažaiskime burtažodlę. Spėkite burtažodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
                 "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
-                "[img source=\"/wizard/lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
                 "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
             ],
             "images": [
-                "/wizard/pasaku_gyvunas.webp"
+                "pasaku_gyvunas.webp"
             ]
         },
         "text": [
@@ -35,7 +35,7 @@
                 "Atlikdami kitas užduotis, dar tikrai sutiksite slibiną, o kol kas eikite toliau."
             ],
             "images": [
-                "/wizard/slibinas.webp"
+                "slibinas.webp"
             ]
         }
     },
@@ -50,7 +50,7 @@
                 "Knygos viršelis vėl pasikeitė, dabar jame užrašas „Knygos herojus“. Atverskite knygą ir atlikite naują užduotį."
             ],
             "images": [
-                "/wizard/herojus.webp"
+                "herojus.webp"
             ]
         },
         "text": [
@@ -71,7 +71,7 @@
                 "Ant stogo jis turi ir draugą. Pakelkite akis į viršų ir pamatysite Karlsono bičiulį kaminkrėtį."
             ],
             "images": [
-                "/wizard/karlsonas.webp"
+                "karlsonas.webp"
             ]
         }
     },
@@ -125,7 +125,7 @@
                 "Atverskite knygą ir atlikite naują užduotį"
             ],
             "images": [
-                "/wizard/daile.webp"
+                "daile.webp"
             ]
         },
         "type": "timepointer",
@@ -173,7 +173,7 @@
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
-                "/wizard/katedra.webp"
+                "katedra.webp"
             ],
             "changeInterval": 3
         },
@@ -192,7 +192,7 @@
                 "Štai atidarytas lagaminas.",
                 "Apsidairykite aplinkui, ir tikrai surasite šį daiktą ir ne vieną."
             ],
-            "image": "/wizard/katedra_hint.webp",
+            "image": "katedra_hint.webp",
             "points": 2
         },
         "rewardType": "carousel",
@@ -202,7 +202,7 @@
                 "Tik tai – nepaprastas laikrodis, o laiko atsuktuvas, kuris dar gali jums pasitarnauti."
             ],
             "images": [
-                "/wizard/atsuktuvas.webp"
+                "atsuktuvas.webp"
             ]
         }
     },
@@ -218,11 +218,11 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/pasakos.webp"
+                "pasakos.webp"
             ],
             "changeInterval": 0
         },
-        "image": "/wizard/katinas.png",
+        "image": "katinas.png",
         "text": "Sudėkite dėlionės dalis į kvadratą ir atspėkite pasakos pavadinimą.",
         "answer": [
             "Batuotas katinas"
@@ -236,7 +236,7 @@
                 "Stebuklinga knyga atsivertė ties pasaka – Batuotas katinas.",
                 "Apsidairykite aplinkui, tikrai surasite ir žmogėdrą iš pasakos, tik jis pasivertes. Kuo?"
             ],
-            "image": "/wizard/batuotas.webp"
+            "image": "batuotas.webp"
         }
     },
     {
@@ -252,7 +252,7 @@
                 ""
             ],
             "images": [
-                "/wizard/akiniai_brokenv4.webp"
+                "akiniai_brokenv4.webp"
             ]
         },
         "text": [
@@ -279,7 +279,7 @@
             "text": [
                 "Burtai suveikė ir akiniai susitaisė."
             ],
-            "image": "/wizard/akiniaiv4.webp"
+            "image": "akiniaiv4.webp"
         }
     },
     {
@@ -296,10 +296,10 @@
                 "Užduočiai atlikti turite 7 minutes."
             ],
             "images": [
-                "/wizard/vokas.webp"
+                "vokas.webp"
             ]
         },
-        "image": "/wizard/sirdis2.png",
+        "image": "sirdis2.png",
         "text": [
             "Į kryžiažodį įrašykite antrą įsimylėjėlį poroje. Atsakyme įrašykite pilką žodį.",
             "1. ... ir Fiona",
@@ -321,7 +321,7 @@
                 "Atsakymas - Širdis."
             ],
             "images": [
-                "/wizard/sirdis_answer2.png"
+                "sirdis_answer2.png"
             ]
         }
     },
@@ -337,11 +337,11 @@
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
-                "/wizard/colors_start.webp"
+                "colors_start.webp"
             ],
             "changeInterval": 0
         },
-        "image": "/wizard/colors2.webp",
+        "image": "colors2.webp",
         "text": [
             "Karlskronos aikštės fontanai pripildė kolbas vandeniu, o dažai šoko į kolbas ir susidėliojo dažų lygtį.",
             "Kokia spalva yra užšifruota šioje lygtyje?"
@@ -353,7 +353,7 @@
         "attempts": 4,
         "time": 6,
         "hint": {
-            "image": "/wizard/colors_hint2.webp",
+            "image": "colors_hint2.webp",
             "text": [
                 "Prisiminkite dailės pamokas. ",
                 "",
@@ -370,7 +370,7 @@
                 "Lygties sprendimas – ŽALIA."
             ],
             "images": [
-                "/wizard/colors_solution.webp"
+                "colors_solution.webp"
             ]
         }
     },
@@ -389,11 +389,11 @@
                 "Užduočiai atlikti turite 10 minučių."
             ],
             "images": [
-                "/wizard/imtuvasv3.webp"
+                "imtuvasv3.webp"
             ],
             "changeInterval": 0
         },
-        "image": "/wizard/imtuvasv3.webp",
+        "image": "imtuvasv3.webp",
         "text": [
             "Į imtuvą jūs gavote garsinį pranešimą. Jame užkoduotas pasakų veikėjo vardas.",
             "",
@@ -416,7 +416,7 @@
             "text": [
                 "Pasakos personažas – Elfas."
             ],
-            "image": "/wizard/elfas.webp"
+            "image": "elfas.webp"
         }
     },
     {
@@ -432,11 +432,11 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/degtukai.webp"
+                "degtukai.webp"
             ],
             "changeInterval": 0
         },
-        "image": "/wizard/degtuku_uzduotis.webp",
+        "image": "degtuku_uzduotis.webp",
         "text": [
             "Degtukai iššoko iš dėžutės ir susidėjo į lygybę, tačiau neteisingai.",
             "Perkelkite vieną degtuką taip, kad lygybė būtų teisinga.",
@@ -455,7 +455,7 @@
                 "Ši užduotis turi ne vieną sprendimą. Vienas jų yra šis."
             ],
             "images": [
-                "/wizard/degtukai_sprendimas.webp"
+                "degtukai_sprendimas.webp"
             ]
         }
     },
@@ -472,7 +472,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/zole.webp"
+                "zole.webp"
             ]
         },
         "text": [
@@ -491,7 +491,7 @@
             "text": [
                 "Ant pievelės buvo skraidantis kilimas. Galite pasiimti jį su savimi."
             ],
-            "image": "/wizard/kilimas.webp"
+            "image": "kilimas.webp"
         }
     },
     {
@@ -508,7 +508,7 @@
                 "Laiku sustokite."
             ],
             "images": [
-                "/wizard/mina.webp"
+                "mina.webp"
             ]
         },
         "text": [
@@ -529,7 +529,7 @@
                 "Atverskite knygą ir atlikite naują užduotį"
             ],
             "images": [
-                "/wizard/isradimai.webp"
+                "isradimai.webp"
             ]
         },
         "type": "timepointer",
@@ -585,11 +585,11 @@
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
-                "/wizard/lygtis_start.webp"
+                "lygtis_start.webp"
             ],
             "changeInterval": 0
         },
-        "image": "/wizard/lygtis.webp",
+        "image": "lygtis.webp",
         "text": [
             "Išspręskite lygtis su laiko atsuktuvu ir aukso ir sidabro skysčiais."
         ],
@@ -611,7 +611,7 @@
                 "Atsakymas – 18."
             ],
             "images": [
-                "/wizard/sprendimas.webp"
+                "sprendimas.webp"
             ]
         }
     },
@@ -627,11 +627,11 @@
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
-                "/wizard/atsuktuvas.webp"
+                "atsuktuvas.webp"
             ],
             "changeInterval": 0
         },
-        "image": "/wizard/stotis.webp",
+        "image": "stotis.webp",
         "text": [
             "Moteris su skarele ir berniuku paklausė jūsų už kiek minučių pajuda traukinys į Kauną.",
             "Traukinys į Kauną pajuda 14.00.",
@@ -655,7 +655,7 @@
                 "Laiko atsuktuvas grąžino jus į dabartinius metus."
             ],
             "images": [
-                "/wizard/atsuktuvas.webp"
+                "atsuktuvas.webp"
             ]
         }
     },
@@ -702,7 +702,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/lazdele.webp"
+                "lazdele.webp"
             ]
         },
         "type": "photoValidation",
@@ -731,7 +731,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/atsuktuvas.webp"
+                "atsuktuvas.webp"
             ]
         },
         "type": "photoValidation",
@@ -762,7 +762,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/menesiai.webp"
+                "menesiai.webp"
             ]
         },
         "photoValidation": {
@@ -790,7 +790,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/atsuktuvas.webp"
+                "atsuktuvas.webp"
             ]
         },
         "type": "photoValidation",
@@ -817,7 +817,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/lazdele.webp"
+                "lazdele.webp"
             ]
         },
         "type": "photoValidation",
