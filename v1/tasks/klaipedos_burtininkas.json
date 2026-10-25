@@ -670,10 +670,10 @@
                 "Lagaminas netikėtai užsirakino kodine spyna.",                                
                 "Užduočiai atlikti turite 6 minutes."
             ],
-            "images": ["spyna.webp"],
+            "images": ["spyna2.webp"],
             "changeInterval": 0
         },
-        "image": "spyna.webp",
+        "image": "spyn2.webp",
         "text": [
             "Lagaminą užrakino 4 skaitmenų kodinė spyna. Atrakinti ją padės atsakymas į šį klausimą.",
             "Kelintais metais įvyko Elitos ir Gintaro vestuvės. Savo progą jie pažymėjo oranžinėjė spynoje."
