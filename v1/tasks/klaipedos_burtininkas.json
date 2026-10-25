@@ -84,20 +84,20 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Suraskite duris su užrašu \"Belsk į medį tris kartus\".",
+                "Suraskite duris su užrašu „Belsk į medį tris kartus“.",
                 "Pabelskite į medį tris kartus."
             ],
             "images": [
-                "/klaipedos_burtininkas/durys.webp"
+                "klaipedos_burtininkas/durys.webp"
             ]
         },
         "text": [
             "Iš už durų pasigirdo 4 mįslės. Visi 4 atsakymai į mįsles sudaro grandinėlę.",
             "Kiekvienas sekos žodis nuo ankstesnio skiriasi viena raide.",
             "",
-            "1. Medžiaga iš kurios austas nepermatomas apsiaustas?",
+            "1. Medžiaga, iš kurios austas nepermatomas apsiaustas?",
             "2. Kas pasakoje gaudė žuvis savo uodega?",
-            "3. Bjaurusis ančiukas buvo?",
+            "3. Koks buvo bjaurusis ančiukas?",
             "4. Karalių į karą lydi kareivių ...?",
             "",
             "Kiekvienas bandymas – minus 1 taškas."
@@ -121,8 +121,8 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Šalia dailės akademijos knygos viršelyje atsirado raidės ir susidėliojo į užrašą: 'Dailės istorija'.",
-                "Atverskite knygą ir atlikite naują užduotį"
+                "Šalia dailės akademijos knygos viršelyje atsirado raidės ir susidėliojo į užrašą: „Dailės istorija“.",
+                "Atverskite knygą ir atlikite naują užduotį."
             ],
             "images": [
                 "daile.webp"
@@ -178,9 +178,9 @@
             "changeInterval": 3
         },
         "text": [
-            "Stebuklingame lagamine buvo daiktas, kuriame prie dešimt pridėjus septynis gaunama penki.",
+            "Stebuklingame lagamine buvo daiktas, kuriame prie dešimties pridėjus septynis gaunami penki.",
             "Kas tai per daiktas?",
-            "Jei apsidarysite aplinkui, pamatysite jį net dvejose vietose."
+            "Jei apsidairysite aplinkui, pamatysite jį net dviejose vietose."
         ],
         "answer": [
             "Laikrodis"
@@ -190,7 +190,7 @@
         "hint": {
             "text": [
                 "Štai atidarytas lagaminas.",
-                "Apsidairykite aplinkui, ir tikrai surasite šį daiktą ir ne vieną."
+                "Apsidairykite aplinkui ir tikrai rasite ne vieną tokį daiktą."
             ],
             "image": "katedra_hint.webp",
             "points": 2
@@ -198,8 +198,8 @@
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "Atsakymas – Laikrodis.",
-                "Tik tai – nepaprastas laikrodis, o laiko atsuktuvas, kuris dar gali jums pasitarnauti."
+                "Atsakymas – laikrodis.",
+                "Tik tai ne paprastas laikrodis, o laiko atsuktuvas, kuris dar gali jums pasitarnauti."
             ],
             "images": [
                 "atsuktuvas.webp"
@@ -231,12 +231,14 @@
         "attempts": 5,
         "time": 5,
         "rewardType": "carousel",
-        "reward": {
+        "rewardCarousel": {
             "text": [
                 "Stebuklinga knyga atsivertė ties pasaka – Batuotas katinas.",
-                "Apsidairykite aplinkui, tikrai surasite ir žmogėdrą iš pasakos, tik jis pasivertes. Kuo?"
+                "Apsidairykite aplinkui, tikrai surasite ir žmogėdrą iš pasakos, tik jis pasivertęs. Kuo?"
             ],
-            "image": "batuotas.webp"
+            "images": [
+                "batuotas.webp"
+            ]
         }
     },
     {
@@ -247,7 +249,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Vieno jūsų komandos narių akiniai nukrito ir sudužo.",
+                "Vieno iš jūsų komandos narių akiniai nukrito ir sudužo.",
                 "Laikas pasiimti burtų lazdelę ir spėti stebuklingą skaičių.",
                 ""
             ],
@@ -256,11 +258,11 @@
             ]
         },
         "text": [
-            "Akinius sutaisyti gali burtų lazdelė. Kiek kartų mostelėti ja, gali padėti šis uždavinys.",
+            "Akinius sutaisyti gali burtų lazdelė. Kiek kartų ja mostelėti, padės sužinoti šis uždavinys.",
             "8800 turi 6.",
             "6900 turi 4.",
             "8888 turi 8.",
-            "Kiek turi 6980 ?"
+            "Kiek turi 6980?"
         ],
         "answer": [
             "5"
@@ -275,11 +277,13 @@
             "points": 2
         },
         "rewardType": "carousel",
-        "reward": {
+        "rewardCarousel": {
             "text": [
                 "Burtai suveikė ir akiniai susitaisė."
             ],
-            "image": "akiniaiv4.webp"
+            "images": [
+                "akiniaiv4.webp"
+            ]
         }
     },
     {
@@ -290,7 +294,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Senojo pašto balandžiai snape laikė voką su užrašu „Meilės kryžiažodis“.",
+                "Senamiesčio pašto balandžiai snape laikė voką su užrašu „Meilės kryžiažodis“.",
                 "Atverkite voką ir išspręskite kryžiažodį.",
                 "",
                 "Užduočiai atlikti turite 7 minutes."
@@ -299,7 +303,7 @@
                 "vokas.webp"
             ]
         },
-        "image": "sirdis2.png",
+        "image": "sirdis3.png",
         "text": [
             "Į kryžiažodį įrašykite antrą įsimylėjėlį poroje. Atsakyme įrašykite pilką žodį.",
             "1. ... ir Fiona",
@@ -318,10 +322,10 @@
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
-                "Atsakymas - Širdis."
+                "Atsakymas – širdis."
             ],
             "images": [
-                "sirdis_answer2.png"
+                "sirdis_answer3.png"
             ]
         }
     },
@@ -333,7 +337,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Kolba iššoko iš lagamino, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios.",
+                "Kolba iššoko iš lagamino ir ėmė dalytis į tokias pačias kolbas: dvi, tris, keturias, penkias.",
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
@@ -380,11 +384,11 @@
         "lat": 55.708828906514384,
         "lng": 21.129936480523686,
         "type": "audio",
-        "audio": "elfas.wav",
+        "audio": "nemo.wav",
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Lagaminas atsidarė ant pievelės. Jo neatrastame skyriuje vietoj matytų daiktų atsirado radijo imtuvas.",
+                "Lagaminas atsidarė ant pievelės. Anksčiau nepastebėtame jo skyriuje vietoj matytų daiktų atsirado radijo imtuvas.",
                 "",
                 "Užduočiai atlikti turite 10 minučių."
             ],
@@ -395,7 +399,7 @@
         },
         "image": "imtuvasv3.webp",
         "text": [
-            "Į imtuvą jūs gavote garsinį pranešimą. Jame užkoduotas pasakų veikėjo vardas.",
+            "Į imtuvą jūs gavote garsinį pranešimą. Jame užkoduotas knygos veikėjo vardas.",
             "",
             "Morzės kodas jums padės:",
             "A  ·−        G  −−·       M  −−        T  −    ",
@@ -406,17 +410,19 @@
             "F  ··−·       L  ·−··        S  ··· "
         ],
         "answer": [
-            "ELFAS"
+            "NEMO"
         ],
         "points": 10,
         "attempts": 5,
         "time": 10,
         "rewardType": "carousel",
-        "reward": {
+        "rewardCarousel": {
             "text": [
-                "Pasakos personažas – Elfas."
+                "Knygos veikėjas – kapitonas Nemo."
             ],
-            "image": "elfas.webp"
+            "images": [
+                "nemo.webp"
+            ]
         }
     },
     {
@@ -427,7 +433,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Degtukų dėžutė netikėtai pati atsidarė",
+                "Degtukų dėžutė netikėtai pati atsidarė.",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
@@ -467,7 +473,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Dienovydžio skvere ant pievelės yra stebuklinga transporto priemonė.",
+                "Dienovidžio skvere ant pievelės yra stebuklinga transporto priemonė.",
                 "Tik ji pasislėpusi po nepermatoma uždanga.",
                 "Užduočiai atlikti turite 5 minutes."
             ],
@@ -487,11 +493,13 @@
         "minusPointsOnAttempt": 1,
         "time": 5,
         "rewardType": "carousel",
-        "reward": {
+        "rewardCarousel": {
             "text": [
                 "Ant pievelės buvo skraidantis kilimas. Galite pasiimti jį su savimi."
             ],
-            "image": "kilimas.webp"
+            "images": [
+                "kilimas.webp"
+            ]
         }
     },
     {
@@ -504,7 +512,7 @@
         "startCarousel": {
             "text": [
                 "Lagaminas atsidarė ant pievelės, o jame atsirado laivų mūšis.",
-                "Spėkite, į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos, visi taškai sudega",
+                "Spėkite, į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos, visi taškai sudega.",
                 "Laiku sustokite."
             ],
             "images": [
@@ -525,8 +533,8 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Knygos viršelyje atsirado raidės ir susidėliojo į užrašą: 'Išradimai'.",
-                "Atverskite knygą ir atlikite naują užduotį"
+                "Knygos viršelyje atsirado raidės ir susidėliojo į užrašą: „Išradimai“.",
+                "Atverskite knygą ir atlikite naują užduotį."
             ],
             "images": [
                 "isradimai.webp"
@@ -535,7 +543,7 @@
         "type": "timepointer",
         "text": [
             "Jūsų užduotis yra suderinti laiko atsuktuvą.",
-            "Knyga atsivertė ties įvairių išradimų paveikslu",
+            "Knyga atsivertė ties įvairių išradimų paveikslu.",
             "Surikiuokite šiuos išradimus pagal jų sukūrimo laiką."
         ],
         "image": "shared/museums/inventions1.webp",
@@ -580,7 +588,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Kolba iš lagamino iššoko, ir pasidalino į dvi kolbas.",
+                "Kolba iššoko iš lagamino ir pasidalijo į dvi kolbas.",
                 "Fontanas pripildė kolbas vandeniu, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis.",
                 "Užduočiai atlikti turite 6 minutes."
             ],
@@ -591,7 +599,7 @@
         },
         "image": "lygtis.webp",
         "text": [
-            "Išspręskite lygtis su laiko atsuktuvu ir aukso ir sidabro skysčiais."
+            "Išspręskite lygtį su laiko atsuktuvais, aukso ir sidabro skysčiais."
         ],
         "answer": [
             "18"
@@ -601,7 +609,7 @@
         "time": 6,
         "hint": {
             "text": [
-                "Atkreipkite dėmesį į tai ką rodo laiko atsuktuvas."
+                "Atkreipkite dėmesį į tai, ką rodo laiko atsuktuvas."
             ],
             "points": 2
         },
@@ -623,7 +631,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Laiko atsuktuvas perkėlė jus į 1925 į Klapėdos traukinių stotį.",
+                "Laiko atsuktuvas perkėlė jus į 1935-uosius, į Klaipėdos geležinkelio stotį.",
                 "Užduočiai atlikti turite 6 minutes."
             ],
             "images": [
@@ -633,9 +641,9 @@
         },
         "image": "stotis.webp",
         "text": [
-            "Moteris su skarele ir berniuku paklausė jūsų už kiek minučių pajuda traukinys į Kauną.",
+            "Moteris su skarele ir berniuku paklausė jūsų, už kiek minučių pajuda traukinys į Kauną.",
             "Traukinys į Kauną pajuda 14.00.",
-            "Kiek minučių jie turi nueitį į traukinį?"
+            "Kiek minučių liko iki traukinio išvykimo?"
         ],
         "answer": [
             "7"
@@ -645,7 +653,7 @@
         "time": 6,
         "hint": {
             "text": [
-                "Ieškokite keraminikinės plytelės su skarota meterimi ir berniuku."
+                "Ieškokite keraminės plytelės su skarota moterimi ir berniuku."
             ],
             "points": 2
         },
@@ -676,7 +684,7 @@
         "image": "spyna2.webp",
         "text": [
             "Lagaminą užrakino 4 skaitmenų kodinė spyna. Atrakinti ją padės atsakymas į šį klausimą.",
-            "Kelintais metais įvyko Elitos ir Gintaro vestuvės. Savo progą jie pažymėjo oranžinėjė spynoje."
+            "Kelintais metais susituokė Elita ir Gintaras? Šią progą jie įamžino oranžinėje spynoje."
         ],
         "answer": ["2024"],
         "points": 5,
@@ -713,7 +721,7 @@
         },
         "text": [
             "Burtų lazdele mostelėjus „Meridiano“ burės išsiskleidė.",
-            "Padarykite nuotrauką, kur jūs esate jūreiviai, išvykstantys ir mojuojantys."
+            "Nusifotografuokite kaip jūreiviai, išplaukiantys ir mojuojantys krantui."
         ],
         "points": 5,
         "time": 5
@@ -726,7 +734,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Laiko atsuktuvas suveikė ir nukeldino jus į 1935 metus.",
+                "Laiko atsuktuvas suveikė ir nukėlė jus į 1935 metus.",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
@@ -741,11 +749,11 @@
             "transformationPrompt": "Transform the input photo into a stylized non-photorealistic semi-cartoon illustration using warm beige, ochre, cream and earthy tones with muted greens; simplify details, use flat shading, subtle watercolor texture and clean dark outlines; preserve each person's recognizable appearance, hairstyle, body proportions and original pose. For EACH person individually, preserve their gender presentation from the original photo and apply ONLY matching early-1900s Belle Époque / Edwardian clothing: males wear masculine attire with trousers, tailored suit, waistcoat, tie, overcoat and top hat; females wear feminine attire with a long skirt or dress, fitted blouse or bodice and decorated period hat. Never swap or mix male and female clothing between people. Preserve the number, positions and gender presentation of all people. Maintain a cohesive retro comic watercolor + vector look."
         },
         "text": [
-            "Padarykite komandos nario ar narių nuotrauką, kur pozuojate tarsi aukštuomenė teatro fone.",
+            "Padarykite komandos nario ar narių nuotrauką, kurioje pozuojate tarsi aukštuomenė teatro fone.",
             "Padarius nuotrauką, laiko atsuktuvas suveiks ir nukels jus į dabartinius metus."
         ],
         "points": 5,
-        "time": 7
+        "time": 5
     },
     {
         "id": "203",
@@ -762,7 +770,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "menesiai.webp"
+                "lazdele.webp"
             ]
         },
         "photoValidation": {
@@ -771,11 +779,11 @@
         },
         "text": [
             "O burtų lazdelė ėmė kvailioti. Ji pavertė komandos narius rokeriais.",
-            "Padarykite komandos narių nuotrauką, kur jie atsisėdę ant motociklo kartu su Antanu Poška.",
+            "Padarykite komandos narių nuotrauką, kurioje sėdite ant motociklo kartu su Antanu Poška.",
             "Padarius nuotrauką, burtai išsisklaidys ir sugrįšite į savo pavidalą."
         ],
-        "points": 6,
-        "time": 7
+        "points": 5,
+        "time": 5
     },
     {
         "id": "204",
@@ -790,7 +798,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "atsuktuvas.webp"
+                "lazdele.webp"
             ]
         },
         "type": "photoValidation",
@@ -803,17 +811,17 @@
             "Slibinas čiupo vieną iš jūsų už rankos ir bando ją praryti.",
             "Padarykite komandos nuotrauką. Vieno komandos nario ranka yra slibino nasruose. Kiti komandos nariai traukia nelaimėlį šalin nuo slibino."        ],
         "points": 5,
-        "time": 6
+        "time": 5
     },
     {
         "id": "205",
-        "name": "Lazdelės išdaigos",
+        "name": "Undinėlė",
         "lat": 55.71018690551442,
         "lng": 21.133164840027163,
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdykauti.",
+                "Burtų lazdelė ėmė išdykauti.",
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
@@ -827,9 +835,9 @@
             "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, cream, earthy tones) with muted seafoam greens and soft turquoise; simplify shapes, reduce fine detail, use flat shading, visible brushwork, subtle watercolor texture and consistent thin-to-medium dark outlines; redraw each person as a recognizable inhabitant of a mermaid’s underwater palace in a bold retro comic-inspired style, preserving their face, hairstyle, body proportions, legs and original pose; dress them in flowing aquatic robes with pearl accents, shell ornaments, subtle scale patterns and seaweed-like trims, keeping their human appearance; transform the surroundings into an underwater palace with coral, shells and gentle underwater light while preserving the original composition and perspective; avoid realistic lighting and textures; maintain a cohesive semi-cartoon watercolor + vector hybrid look."
         },
         "text": [
-            "Fėjos lazdelė ėmė išdykauti. Ji atgaivino undinėlę, o jūs perkėlė i povandeninių rūmus. Padarykite komandos nuotrauką, kur pavaizduota scena jūros gelmėse."
+            "Burtų lazdelė ėmė išdykauti. Ji atgaivino undinėlę, o jus perkėlė į povandeninius rūmus. Padarykite komandos nuotrauką, kurioje pavaizduota scena jūros gelmėse."
         ],
         "points": 5,
-        "time": 6
+        "time": 5
     }
 ]

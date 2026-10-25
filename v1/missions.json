@@ -637,7 +637,7 @@
     "finalDiameter": 999,
     "duration": 120,
     "level": "Lengvas",
-    "active": false,
+    "active": true,
     "locked": false,
     "circleMode": "fixed",
     "circle": false,
@@ -646,15 +646,15 @@
     "start": "Biržos tiltas",
     "finish": "",
     "startLocation": {
-      "lat": 55.70766197,
-      "lng": 21.14046646
+      "lat": 55.7101006,
+      "lng": 21.1334372
     },  
     "hints": 20,
     "checkLocation": true,
     "beforeTeamName": {
       "title": "Paliktas lagaminas",
       "text": [
-        "Keistas vyriškis su lagaminu trapu išlipo iš „Meridiano“ laivo šalia Danės upės. Neilgai pastovėjęs, jis paliko lagaminą ir keista lazdelę, o pats nuskubėjo turgaus aikštės pusėn.",
+        "Keistas vyriškis su lagaminu trapu išlipo iš laivo „Meridianas“ šalia Danės upės. Neilgai pastovėjęs, jis paliko lagaminą ir keistą lazdelę, o pats nuskubėjo Turgaus aikštės pusėn.",
         "Įdomu, kas viduje ir kaip jį atidaryti?",
         "",
         "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
@@ -682,7 +682,7 @@
       ],
       "image": "klaipedos_burtininkas/klaipeda_atidarytas.webp"
     },
-    "details": "Biržos tiltas, Klaipėdos senamiestis, Danė, Turgaus, Karskronos aikšės, Didžioji Vandens, Pilies gatvės."
+    "details": "Biržos tiltas, Klaipėdos senamiestis, Danė, Turgaus aištė, Didžioji Vandens gatvė, Karlskronos aikštės, Pilies gatvė."
   },
   {
     "code": "kaunas_wizard_en",
