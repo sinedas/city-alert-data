@@ -15,7 +15,11 @@
     "locked": false,
     "circle": true,
     "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
+    "longDescription": ["Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
+  "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją."
+],
     "city": "Vilnius",
+    "images": ["bibliotekav2.webp", "karuna.webp", "kolumbariumas.webp", "koplytele.webp"],
     "missingPhotosCount": 0,
     "missingPhotosIntro": {
       "title": "Tuščias fotoalbumas",
