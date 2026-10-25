@@ -13,7 +13,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -21,31 +21,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",   
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",   
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/driezas.webp"
+            "klaipedos_burtininkas/driezas.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/driezas.webp"
+            "image": "klaipedos_burtininkas/driezas.webp"
         }
     },
     {
@@ -62,7 +62,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -70,31 +70,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/peliukas.webp"
+            "klaipedos_burtininkas/peliukas.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/peliukas.webp"
+            "image": "klaipedos_burtininkas/peliukas.webp"
         }
     },
     {
@@ -111,7 +111,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -119,31 +119,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/peda.webp"
+            "klaipedos_burtininkas/peda.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/peda.webp"
+            "image": "klaipedos_burtininkas/peda.webp"
         }
     },
     {
@@ -160,7 +160,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -168,31 +168,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/suniukas.webp"
+            "klaipedos_burtininkas/suniukas.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/suniukas.webp"
+            "image": "klaipedos_burtininkas/suniukas.webp"
         }
     },
     {
@@ -209,7 +209,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -217,31 +217,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/karuna.webp"
+            "klaipedos_burtininkas/karuna.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/karuna.webp"
+            "image": "klaipedos_burtininkas/karuna.webp"
         }
     },
     {
@@ -258,7 +258,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -266,31 +266,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/ramune.webp"
+            "klaipedos_burtininkas/ramune.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/ramune.webp"
+            "image": "klaipedos_burtininkas/ramune.webp"
         }
     },
     {
@@ -307,7 +307,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -315,31 +315,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/vytis.webp"
+            "klaipedos_burtininkas/vytis.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/vytis.webp"
+            "image": "klaipedos_burtininkas/vytis.webp"
         }
     },
     {
@@ -356,7 +356,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -364,31 +364,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/girtuokliai.webp"
+            "klaipedos_burtininkas/girtuokliai.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/girtuokliai.webp"
+            "image": "klaipedos_burtininkas/girtuokliai.webp"
         }
     },
     {
@@ -405,7 +405,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -413,31 +413,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/bricka.webp"
+            "klaipedos_burtininkas/bricka.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/bricka.webp"
+            "image": "klaipedos_burtininkas/bricka.webp"
         }
     },
     {
@@ -454,7 +454,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -462,31 +462,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/suniukai.webp"
+            "klaipedos_burtininkas/suniukai.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/suniukai.webp"
+            "image": "klaipedos_burtininkas/suniukai.webp"
         }
     },
     {
@@ -503,7 +503,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -511,31 +511,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/pinigai.webp"
+            "klaipedos_burtininkas/pinigai.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/pinigai.webp"
+            "image": "klaipedos_burtininkas/pinigai.webp"
         }
     },
     {
@@ -552,7 +552,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -560,31 +560,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/dainora.webp"
+            "klaipedos_burtininkas/dainora.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/dainora.webp"
+            "image": "klaipedos_burtininkas/dainora.webp"
         }
     },
     {
@@ -601,7 +601,7 @@
                 "Užduočiai atlikti turite 5 minutes."
             ],
             "images": [
-                "/wizard/fotoalbumas.webp"
+                "fotoalbumas.webp"
             ]
         },
         "type": "matchmaker",
@@ -609,31 +609,31 @@
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
             "images": [
-                "/klaipedos_burtininkas/driezas.webp",
-                "/klaipedos_burtininkas/peliukas.webp",
-                "/klaipedos_burtininkas/peda.webp",
-                "/klaipedos_burtininkas/suniukas.webp",
-                "/klaipedos_burtininkas/karuna.webp",
-                "/klaipedos_burtininkas/ramune.webp",
-                "/klaipedos_burtininkas/vytis.webp",
-                "/klaipedos_burtininkas/girtuokliai.webp",
-                "/klaipedos_burtininkas/bricka.webp",
-                "/klaipedos_burtininkas/suniukai.webp",
-                "/klaipedos_burtininkas/pinigai.webp",
-                "/klaipedos_burtininkas/dainora.webp",
-                "/klaipedos_burtininkas/zuvis.webp"
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
             ],
             "displayCount": 12
         },
         "answer": [
-            "/klaipedos_burtininkas/zuvis.webp"
+            "klaipedos_burtininkas/zuvis.webp"
         ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
             "text": "",
-            "image": "/klaipedos_burtininkas/zuvis.webp"
+            "image": "klaipedos_burtininkas/zuvis.webp"
         }
     }
 ]
