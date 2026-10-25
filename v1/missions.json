@@ -1278,8 +1278,8 @@
     "title": "The Prague alchemist",
     "image": "prague_wizard.webp",
     "location": {
-      "lat": 55.70897834090646,
-      "lng": 21.13342391617256
+      "lat": 50.086636, 
+      "lng": 14.407929
     },
     "initialDiameter": 5000,
     "finalDiameter": 4999,
