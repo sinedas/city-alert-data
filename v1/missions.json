@@ -1289,7 +1289,7 @@
     "finalDiameter": 4999,
     "duration": 120,
     "level": "Easy",
-    "active": true,
+    "active": false,
     "locked": false,
     "circleMode": "fixed",
     "circle": false,
