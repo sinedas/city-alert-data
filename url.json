@@ -1,6 +1,6 @@
 {
-    "baseUrl": "https://raw.githubusercontent.com/sinedas/city-alert-data/stage",
-    "mediaBaseUrl": "https://cdn.jsdelivr.net/gh/sinedas/city-alert-data@stage",
+    "baseUrl": "https://city-alert-data.pages.dev",
+    "mediaBaseUrl": "https://city-alert-data.pages.dev",
     "apiEnabled": true,
     "apiUrl": "https://city-alert-backend-403536137676.europe-central2.run.app",
     "remoteCollections": [],
