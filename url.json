@@ -14,9 +14,9 @@
 
     "appUpdate": {
 
-        "ios": { "minBuild": 146, "recommendedBuild": 146 },
+        "ios": { "minBuild": 140, "recommendedBuild": 146 },
 
-        "android": { "minBuild": 146, "recommendedBuild": 146 },
+        "android": { "minBuild": 140, "recommendedBuild": 146 },
 
         "highlights": { 
             "lt": ["Sumigruota į google maps", "Naujas dizainas"],
