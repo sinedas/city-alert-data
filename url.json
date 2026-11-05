@@ -12,6 +12,19 @@
     
     "tileProvider": "osm",
 
+    "appUpdate": {
+
+        "ios": { "minBuild": 146, "recommendedBuild": 146 },
+
+        "android": { "minBuild": 146, "recommendedBuild": 146 },
+
+        "highlights": { 
+            "lt": ["Sumigruota į google maps", "Naujas dizainas"],
+            "en": ["Migrated to google maps", "New design"] 
+        }
+
+    },
+
     "remoteMissionVersions": {  
         "tuskulenai": "1.0.17",
         "ona": "1.0.16",
