@@ -1,0 +1,3 @@
+# Keep data files LF on every machine (two task files arrived with CRLF)
+*.json text eol=lf
+*.bat text eol=crlf

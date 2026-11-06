@@ -2,6 +2,7 @@ name: Validate content (stage)
 
 # Runs content Vitest suite on every push to `stage`.
 # On failure, emails NOTIFY_MAIL_TO via SMTP secrets.
+# The format check only warns: it never fails the run or sends the email.
 #
 # Required GitHub repo secrets (Settings → Secrets and variables → Actions):
 #   SMTP_USER        e.g. info@citymission.lt
@@ -44,6 +45,10 @@ jobs:
         # package-lock.json is gitignored in this repo
         run: npm install
 
+      - name: Check data file format
+        continue-on-error: true
+        run: npm run format:check
+
       - name: Run content validation tests
         run: npm test
 
@@ -56,11 +61,11 @@ jobs:
           secure: false
           username: ${{ env.SMTP_USER }}
           password: ${{ env.SMTP_PASS }}
-          subject: "[city-alert-data] stage validation FAILED — ${{ github.sha }}"
+          subject: "[city-alert-data] ${{ github.ref_name }} validation FAILED — ${{ github.sha }}"
           to: ${{ env.NOTIFY_MAIL_TO }}
           from: City Alert Data CI <${{ env.SMTP_USER }}>
           body: |
-            Content validation failed on branch stage.
+            Content validation failed on branch ${{ github.ref_name }}.
 
             Repository: ${{ github.repository }}
             Commit: ${{ github.sha }}

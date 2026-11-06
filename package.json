@@ -6,6 +6,8 @@
     "validate": "node scripts/validate.js",
     "validate:mission": "node scripts/validate.js",
     "optimize": "node scripts/optimize-images.js",
+    "format": "node scripts/format-data.js",
+    "format:check": "node scripts/format-data.js --check",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:data": "vitest run __tests__/"
