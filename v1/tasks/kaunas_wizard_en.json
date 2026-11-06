@@ -17,10 +17,10 @@
                 "fairy_tale.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Guess the fairy-tale creature."
         ],
-        "type": "wordle",
         "answer": [
             "DRAGON"
         ],
@@ -28,7 +28,7 @@
         "attempts": 10,
         "minusPointsOnAttempt": 1,
         "time": 5,
-        "reward eyeball": "carousel",
+        "reward": "carousel",
         "rewardCarousel": {
             "text": [
                 "The magic book fell open to an image of a dragon."
@@ -63,8 +63,8 @@
         ],
         "points": 7,
         "attempts": 7,
-        "time": 5,
-        "minusPointsOnAttempt": 1
+        "minusPointsOnAttempt": 1,
+        "time": 5
     },
     {
         "id": "4",
@@ -129,7 +129,14 @@
             "In the magic suitcase there was an object in which adding seven to ten gives five.",
             "What kind of object is it?"
         ],
-        "answer": ["Watch", "A watch", "The watch","Clock", "A clock", "The clock"],
+        "answer": [
+            "Watch",
+            "A watch",
+            "The watch",
+            "Clock",
+            "A clock",
+            "The clock"
+        ],
         "points": 5,
         "time": 6,
         "hint": {
@@ -289,7 +296,6 @@
         "attempts": 4,
         "time": 6,
         "hint": {
-            "image": "colors_hint2.webp",
             "text": [
                 "Remember your art lessons. ",
                 "",
@@ -298,6 +304,7 @@
                 "",
                 "What other colours did you mix at school?"
             ],
+            "image": "colors_hint2.webp",
             "points": 2
         },
         "rewardType": "carousel",
@@ -315,8 +322,6 @@
         "name": "Radio Receiver",
         "lat": 54.8989971191737,
         "lng": 23.88214027955372,
-        "type": "audio",
-        "audio": "gnome.wav",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -329,6 +334,8 @@
             ],
             "changeInterval": 0
         },
+        "type": "audio",
+        "audio": "gnome.wav",
         "image": "imtuvasv2.webp",
         "text": [
             "You received an audio message through the radio. It contains the encoded name of a fairy-tale character.",
@@ -411,10 +418,10 @@
                 "zole.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Wordle. Guess the magical means of transport. While guessing, don't forget to wave the magic wand."
         ],
-        "type": "wordle",
         "answer": [
             "CARPET"
         ],
@@ -435,7 +442,6 @@
         "name": "Battleship",
         "lat": 54.89905110038429,
         "lng": 23.88690305589815,
-        "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -447,6 +453,7 @@
                 "mina.webp"
             ]
         },
+        "type": "bomb",
         "text": [
             "Guess a safe square for the ship. A successful guess gives +1 point. Sail onto a mine and your points are lost. Stop in time."
         ],
@@ -469,12 +476,12 @@
             ]
         },
         "type": "timepointer",
+        "image": "shared/museums/inventions1.webp",
         "text": [
             "Your task is to set the time-twister.",
             "The book fell open to a page showing various inventions.",
             "Put these inventions in order according to when they were created."
         ],
-        "image": "shared/museums/inventions1.webp",
         "events": [
             {
                 "name": "Compass",
@@ -607,8 +614,6 @@
         "name": "Dog Sculptures",
         "lat": 54.89707439982259,
         "lng": 23.88545594671299,
-        "iconType": "photo",
-        "type": "photoValidation",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -621,6 +626,8 @@
                 "months.webp"
             ]
         },
+        "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat šunys arba šunų skulptūros.",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle dog features: **gently integrated dog ears**, and **a gently integrated dog tail that follows the body's posture**. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."

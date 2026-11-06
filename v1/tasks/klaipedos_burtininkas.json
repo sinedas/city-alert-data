@@ -17,10 +17,10 @@
                 "pasaku_gyvunas.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Atspėkite pasakų gyvūną."
         ],
-        "type": "wordle",
         "answer": [
             "SLIBINAS"
         ],
@@ -53,10 +53,10 @@
                 "herojus.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Atspėkite knygos herojų."
         ],
-        "type": "wordle",
         "answer": [
             "KARLSONAS"
         ],
@@ -80,7 +80,6 @@
         "name": "Belsk į medį tris kartus",
         "lat": 55.70843197450595,
         "lng": 21.132925003767017,
-        "type": "chain",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -91,6 +90,7 @@
                 "klaipedos_burtininkas/durys.webp"
             ]
         },
+        "type": "chain",
         "text": [
             "Iš už durų pasigirdo 4 mįslės. Visi 4 atsakymai į mįsles sudaro grandinėlę.",
             "Kiekvienas sekos žodis nuo ankstesnio skiriasi viena raide.",
@@ -110,8 +110,8 @@
         ],
         "points": 7,
         "attempts": 7,
-        "time": 5,
-        "minusPointsOnAttempt": 1
+        "minusPointsOnAttempt": 1,
+        "time": 5
     },
     {
         "id": "4",
@@ -357,7 +357,6 @@
         "attempts": 4,
         "time": 6,
         "hint": {
-            "image": "colors_hint2.webp",
             "text": [
                 "Prisiminkite dailės pamokas. ",
                 "",
@@ -366,6 +365,7 @@
                 "",
                 "Kokias spalvas dar maišėte mokykloje?"
             ],
+            "image": "colors_hint2.webp",
             "points": 2
         },
         "rewardType": "carousel",
@@ -383,8 +383,6 @@
         "name": "Radijo imtuvas",
         "lat": 55.708828906514384,
         "lng": 21.129936480523686,
-        "type": "audio",
-        "audio": "nemo.wav",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -397,6 +395,8 @@
             ],
             "changeInterval": 0
         },
+        "type": "audio",
+        "audio": "nemo.wav",
         "image": "imtuvasv3.webp",
         "text": [
             "Į imtuvą jūs gavote garsinį pranešimą. Jame užkoduotas knygos veikėjo vardas.",
@@ -481,10 +481,10 @@
                 "zole.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Žodlė. Atspėkite stebuklingą transporto priemonę. Spėdami nepamirškite mostelėti stebuklinga lazdele."
         ],
-        "type": "wordle",
         "answer": [
             "KILIMAS"
         ],
@@ -507,7 +507,6 @@
         "name": "Laivų mūšis",
         "lat": 55.70905406730282,
         "lng": 21.129416977539993,
-        "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -519,6 +518,7 @@
                 "mina2.webp"
             ]
         },
+        "type": "bomb",
         "text": [
             "Spėkite saugų laukelį jūrų laivui. Sėkmingas spėjimas +1 taškas. Užplaukus ant minos taškai sudega. Laiku sustokite."
         ],
@@ -541,12 +541,12 @@
             ]
         },
         "type": "timepointer",
+        "image": "shared/museums/inventions1.webp",
         "text": [
             "Jūsų užduotis yra suderinti laiko atsuktuvą.",
             "Knyga atsivertė ties įvairių išradimų paveikslu.",
             "Surikiuokite šiuos išradimus pagal jų sukūrimo laiką."
         ],
-        "image": "shared/museums/inventions1.webp",
         "events": [
             {
                 "name": "Kompasas",
@@ -557,7 +557,7 @@
                 "name": "Barometras",
                 "order": 2,
                 "text": "1643"
-            }, 
+            },
             {
                 "name": "Sekstantas",
                 "order": 3,
@@ -573,7 +573,6 @@
                 "order": 5,
                 "text": "1943"
             }
-            
         ],
         "points": 7,
         "attempts": 7,
@@ -667,18 +666,20 @@
             ]
         }
     },
-    {   
+    {
         "id": "17",
         "name": "Meilės medis",
         "lat": 55.71016121679454,
         "lng": 21.132730207553898,
         "startType": "carousel",
         "startCarousel": {
-            "text": [ 
-                "Lagaminas netikėtai užsirakino kodine spyna.",                                
+            "text": [
+                "Lagaminas netikėtai užsirakino kodine spyna.",
                 "Užduočiai atlikti turite 6 minutes."
             ],
-            "images": ["spyna2.webp"],
+            "images": [
+                "spyna2.webp"
+            ],
             "changeInterval": 0
         },
         "image": "spyna2.webp",
@@ -686,7 +687,9 @@
             "Lagaminą užrakino 4 skaitmenų kodinė spyna. Atrakinti ją padės atsakymas į šį klausimą.",
             "Kelintais metais susituokė Elita ir Gintaras? Šią progą jie įamžino oranžinėje spynoje."
         ],
-        "answer": ["2024"],
+        "answer": [
+            "2024"
+        ],
         "points": 5,
         "attempts": 3,
         "time": 6,
@@ -695,7 +698,9 @@
             "text": [
                 "Lagaminas atsirakino, o kodinė spyna išnyko."
             ],
-            "images": ["lagaminas2.webp"]
+            "images": [
+                "lagaminas2.webp"
+            ]
         }
     },
     {
@@ -760,8 +765,6 @@
         "name": "Antano Poškos motociklas",
         "lat": 55.70561404729391,
         "lng": 21.133486503854282,
-        "iconType": "photo",
-        "type": "photoValidation",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -773,6 +776,8 @@
                 "lazdele.webp"
             ]
         },
+        "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmogus arba žmonės?",
             "transformationPrompt": "Transform the input photo into a non-photorealistic semi-cartoon illustration with a warm natural palette (beige, ochre, cream, earthy tones, soft greens), simplified shapes, reduced detail, flat shading, watercolor texture and thin-to-medium dark outlines. Keep the original environment, composition and perspective; avoid photorealistic lighting and textures. Turn all people into retro comic-style characters with flat colors and clean outlines, preserving their poses, positions, proportions and recognizable facial features. Dress everyone in rocker outfits: leather biker jackets, vintage band T-shirts, ripped jeans, studded belts, chains and boots, using muted charcoal, faded denim and warm browns. Place an upside-down cooking pot on each head like a funny helmet, keeping faces visible. The pots should be the only humorous addition; do not add props or other comedic elements. Keep everything cohesive and naturally integrated."
@@ -809,7 +814,8 @@
         },
         "text": [
             "Slibinas čiupo vieną iš jūsų už rankos ir bando ją praryti.",
-            "Padarykite komandos nuotrauką. Vieno komandos nario ranka yra slibino nasruose. Kiti komandos nariai traukia nelaimėlį šalin nuo slibino."        ],
+            "Padarykite komandos nuotrauką. Vieno komandos nario ranka yra slibino nasruose. Kiti komandos nariai traukia nelaimėlį šalin nuo slibino."
+        ],
         "points": 5,
         "time": 5
     },

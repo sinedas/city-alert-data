@@ -23,7 +23,9 @@
             "How many does Thirteen have?",
             "Enter a number as your answer."
         ],
-        "answer": ["8"],
+        "answer": [
+            "8"
+        ],
         "points": 5,
         "attempts": 5,
         "time": 7,
@@ -36,7 +38,9 @@
             "text": [
                 "Thirteen has 8 letters."
             ],
-            "images": ["letters_answer.webp"]
+            "images": [
+                "letters_answer.webp"
+            ]
         }
     },
     {
@@ -57,10 +61,10 @@
                 "creature.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Guess the magical animal mentioned in the young fairy's notebook."
         ],
-        "type": "wordle",
         "answer": [
             "PHOENIX"
         ],
@@ -73,7 +77,9 @@
             "text": [
                 "The magical animal is the phoenix."
             ],
-            "images": ["phoenix.webp"]
+            "images": [
+                "phoenix.webp"
+            ]
         }
     },
     {
@@ -117,7 +123,9 @@
                 "",
                 "You have 6 minutes to complete the task."
             ],
-            "images": ["piestukai.webp"],
+            "images": [
+                "piestukai.webp"
+            ],
             "changeInterval": 0
         },
         "image": "1945.webp",
@@ -126,7 +134,9 @@
             "Move two pencils so that you get the smallest possible positive number.",
             "Enter that number as your answer."
         ],
-        "answer": ["846"],
+        "answer": [
+            "846"
+        ],
         "points": 5,
         "attempts": 6,
         "time": 6,
@@ -140,7 +150,9 @@
             "text": [
                 "The answer is 846."
             ],
-            "images": ["846.webp"]
+            "images": [
+                "846.webp"
+            ]
         }
     }
 ]

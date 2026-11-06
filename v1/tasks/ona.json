@@ -28,7 +28,9 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["gedimino.webp"]
+            "images": [
+                "gedimino.webp"
+            ]
         },
         "type": "timepointer",
         "text": [
@@ -36,13 +38,32 @@
             "Gedimino paminklas jums gali padėti. Įdėmiai jį apžiūrėkite."
         ],
         "events": [
-            { "name": "Jogaila", "order": 1, "text": "1377-1392 - 15m."},
-            { "name": "Gediminas", "order": 2, "text": "1316-1341 - 25m."},
-            { "name": "Algirdas", "order": 3, "text": "1345-1377 - 32m"},
-            { "name": "Kęstutis", "order": 4, "text": "1345-1382 - 37m."},
-            { "name": "Vytautas", "order": 5, "text": "1392-1430 - 38m."}
+            {
+                "name": "Jogaila",
+                "order": 1,
+                "text": "1377-1392 - 15m."
+            },
+            {
+                "name": "Gediminas",
+                "order": 2,
+                "text": "1316-1341 - 25m."
+            },
+            {
+                "name": "Algirdas",
+                "order": 3,
+                "text": "1345-1377 - 32m"
+            },
+            {
+                "name": "Kęstutis",
+                "order": 4,
+                "text": "1345-1382 - 37m."
+            },
+            {
+                "name": "Vytautas",
+                "order": 5,
+                "text": "1392-1430 - 38m."
+            }
         ],
-        
         "points": 7,
         "attempts": 7,
         "minusPointsOnAttempt": 1,
@@ -60,12 +81,14 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["maketasv2.webp"]
+            "images": [
+                "maketasv2.webp"
+            ]
         },
+        "type": "wordle",
         "text": [
             "Spėkite žodį: žymi istorinė asmenybė."
         ],
-        "type": "wordle",
         "answer": [
             "Vytenis"
         ],
@@ -87,7 +110,9 @@
         "lng": 25.289151856176485,
         "image": "independence.png",
         "text": "Raidžių labirintas. Eikite po žingsnelį arba viršun, arba žemyn, arba dešinėn, arba kairėn nuo raidės \"N\" ir perskaitykite žodį.",
-        "answer": ["Nepriklausomybė"],
+        "answer": [
+            "Nepriklausomybė"
+        ],
         "points": 6,
         "attempts": 5,
         "time": 6,
@@ -105,14 +130,16 @@
     {
         "id": "4",
         "name": "Šv. Onos bažnyčia",
-        "lat": 54.68319749673784, 
+        "lat": 54.68319749673784,
         "lng": 25.29293702706192,
         "image": "napoleon.png",
         "text": [
             "Įdėmiai perskaitykite Šv. Onos bažnyčios aprašymą.",
             "Sujunkite Vilniaus centrą su Paryžiaus centru. Napoleoną sujunkite su Ona ir gausite reikiamą datą."
         ],
-        "answer": ["1992"],
+        "answer": [
+            "1992"
+        ],
         "points": 8,
         "attempts": 4,
         "time": 6,
@@ -131,17 +158,19 @@
         "id": "5",
         "name": "Dailės akademija",
         "lat": 54.683450007863286,
-        "lng": 25.293268345852436       ,
+        "lng": 25.293268345852436,
         "image": "spalvos.webp",
         "text": "Kokia spalva užšifruota šioje lygtyje?",
-        "answer": ["Oranžinė"],
+        "answer": [
+            "Oranžinė"
+        ],
         "points": 7,
         "attempts": 5,
         "time": 6,
         "hint": {
             "text": [
                 "Prisiminkite dailės pamokas",
-                "Žalia ir raudona yra ruda", 
+                "Žalia ir raudona yra ruda",
                 "Mėlyna ir geltona yra žalia.",
                 "Kokias spalvas dar maišėte mokykloje?"
             ],
@@ -152,66 +181,73 @@
         "id": "6",
         "name": "Literatūrinis personažas",
         "lat": 54.68160840104892,
-        "lng": 25.291646172148862,       
+        "lng": 25.291646172148862,
         "image": "miunhauzenas.png",
         "text": "Sudėliokite dėlionę ir sužinokite literatūrinį personažą.",
-        "answer": ["Baronas Miunhauzenas"],
+        "answer": [
+            "Baronas Miunhauzenas"
+        ],
         "points": 7,
         "attempts": 5,
         "time": 6,
         "hint": {
             "image": "miunhauzenas_hint.png",
             "points": 3
-        }    
+        }
     },
     {
         "id": "7",
         "name": "Juliaus kontrolinis",
         "lat": 54.68278093252339,
-        "lng": 25.28977120905973,       
+        "lng": 25.28977120905973,
         "image": "kontrolinisv3.png",
         "text": [
             "Žymaus lenkų poeto bendravardis Julius sėkmingai parašė kontrolinį. Kontrolinio klausimai buvo:",
-            "Pirmas Lietuvos vardo paminėjimas", 
+            "Pirmas Lietuvos vardo paminėjimas",
             "Žalgirio mūšis",
-            "Napoleono žygis į Rusiją", 
+            "Napoleono žygis į Rusiją",
             "Lietuvos nepriklausomybės akto pasirašymas.",
             "Juliui labai padėjo skaičiai surašyti ant delno. Bet koks skaičius Juliui buvo laimingas?",
             "Nubrėžkite linijas jungiančias datų linijas ir gausite dviženklį atsakymo skaičių."
         ],
-        "answer": ["77"],
+        "answer": [
+            "77"
+        ],
+        "points": 9,
+        "attempts": 5,
+        "time": 6,
         "hint": {
             "text": [
                 "Gal pamiršote šitas datas?",
                 "1009- Lietuvos vardo paminėjimas.",
                 "1410- Žalgirio mūšis.",
-                "1812- Napoleono žygis į Rusiją.", 
+                "1812- Napoleono žygis į Rusiją.",
                 "1918- Lietuvos nepriklausomybės paskelbimas.",
                 "Prisiminę, suraskite datas ir nubrėžkite linijas jungiančias datų linijas."
             ],
             "points": 4
         },
-        "points": 9,
-        "attempts": 5,
-        "time": 6,
         "reward": {
             "text": [
                 "Juliaus laimingas skaičius buvo 77."
             ],
             "image": "kontrolinisv4.png"
-        }        
+        }
     },
     {
         "id": "8",
         "name": "Bernardinas Sienietis",
         "lat": 54.682324650725874,
-        "lng": 25.293966869795465,       
+        "lng": 25.293966869795465,
         "image": "degtukai.webp",
         "text": [
             "Perkelkite vieną degtuką, kad lygybė būtų teisinga.",
             "Atsakyme parašykite lygybę paprastais skaičiais ir ženklais."
         ],
-        "answer": ["7-2=5", "6-2=4"],
+        "answer": [
+            "7-2=5",
+            "6-2=4"
+        ],
         "points": 4,
         "attempts": 5,
         "time": 6,
@@ -225,16 +261,36 @@
     {
         "id": "9",
         "name": "Dailės galerija",
-        "lat": 54.68063588325186, 
+        "lat": 54.68063588325186,
         "lng": 25.288667028319995,
         "type": "timepointer",
         "text": "Surikiuokite pastatus pagal sąsajas su LDK didikų giminėmis.",
         "events": [
-            { "name": "Sapiegos", "order": 1, "image": "sapiegosv2.webp"},
-            { "name": "Pacai", "order": 2, "image": "pacai.webp"},
-            { "name": "Radvilos", "order": 3, "image": "radvilos.webp"},
-            { "name": "Chodkevičiai", "order": 4, "image": "chodkeviciai.webp"},
-            { "name": "Tiškevičiai", "order": 5, "image": "tiskeviciai.webp"}
+            {
+                "name": "Sapiegos",
+                "order": 1,
+                "image": "sapiegosv2.webp"
+            },
+            {
+                "name": "Pacai",
+                "order": 2,
+                "image": "pacai.webp"
+            },
+            {
+                "name": "Radvilos",
+                "order": 3,
+                "image": "radvilos.webp"
+            },
+            {
+                "name": "Chodkevičiai",
+                "order": 4,
+                "image": "chodkeviciai.webp"
+            },
+            {
+                "name": "Tiškevičiai",
+                "order": 5,
+                "image": "tiskeviciai.webp"
+            }
         ],
         "points": 7,
         "attempts": 7,
@@ -257,10 +313,12 @@
             "B  −···      H  ····         N  −·          U  ··−  ",
             "C  −·−·     I  ··            O  −−−       V  ···− ",
             "D  −··       J  ·−−−      P  ·−−·       Z  −−·· ",
-            "E  ·           K  −·−        R  ·−·",          
+            "E  ·           K  −·−        R  ·−·",
             "F  ··−·       L  ·−··        S  ··· "
         ],
-        "answer": ["VILKAS"],
+        "answer": [
+            "VILKAS"
+        ],
         "points": 7,
         "attempts": 5,
         "time": 7
@@ -268,14 +326,16 @@
     {
         "id": "11",
         "name": "Monmartro tiltas",
-        "lat":  54.67928767866252,
+        "lat": 54.67928767866252,
         "lng": 25.29570584987497,
         "text": [
             "Išspręskite šį uždavinį.",
             "",
             "Jei ELI yra 173, o LOIS yra 5107, tai kiek yra LESLIE?"
         ],
-        "answer": ["317537"],
+        "answer": [
+            "317537"
+        ],
         "points": 3,
         "attempts": 5,
         "time": 4
@@ -289,7 +349,9 @@
         "text": [
             "Suskaičiuokite, kiek kvadratų yra paveikslėlyje?"
         ],
-        "answer": ["11"],
+        "answer": [
+            "11"
+        ],
         "points": 2,
         "attempts": 2,
         "time": 2
@@ -298,13 +360,18 @@
         "id": "13",
         "name": "Pull'o kamuoliai",
         "lat": 54.68533726997318,
-        "lng": 25.291641109178286, 
+        "lng": 25.291641109178286,
         "image": "pool.webp",
         "text": [
             "Paveikslėlyje parodyti pull'o kamuoliai. Kuriuos kamuolius sudėjus gaunama suma - 30?",
             "Atsakyme įrašykite kamuolių skaičius, pvz.: 1 3 5."
         ],
-        "answer": ["6 11 13", "11 6 13", "11 13 6", "13 11 6"],
+        "answer": [
+            "6 11 13",
+            "11 6 13",
+            "11 13 6",
+            "13 11 6"
+        ],
         "points": 7,
         "attempts": 5,
         "time": 7,
@@ -319,14 +386,16 @@
         "id": "14",
         "name": "Bernardinų šachmatai",
         "lat": 54.68296622809605,
-        "lng": 25.29670771882843,  
+        "lng": 25.29670771882843,
         "image": "chess.webp",
         "text": [
             "Baltųjų pergalingas ėjimas?",
             "",
             "Atsakyme įrašykite tik ėjimą, kur figura turi eiti, pvz.: A1"
         ],
-        "answer": ["h4"],
+        "answer": [
+            "h4"
+        ],
         "points": 8,
         "attempts": 4,
         "time": 8,
@@ -345,37 +414,62 @@
         "type": "timepointer",
         "text": "Atpažinkite Vilniaus vietas Napoleono Ordos akvarelėse.",
         "events": [
-            { "name": "Vilniaus gatvė", "order": 1, "image": "vilniaus.webp"},
-            { "name": "Verkiai", "order": 2, "image": "verkiai.webp"},
-            { "name": "Pučkoriai", "order": 3, "image": "puckornia.webp"},
-            { "name": "Kalvarijos", "order": 4, "image": "kalvarija.webp"},
-            { "name": "Bernardinai", "order": 5, "image": "bernardiniai.webp"}
+            {
+                "name": "Vilniaus gatvė",
+                "order": 1,
+                "image": "vilniaus.webp"
+            },
+            {
+                "name": "Verkiai",
+                "order": 2,
+                "image": "verkiai.webp"
+            },
+            {
+                "name": "Pučkoriai",
+                "order": 3,
+                "image": "puckornia.webp"
+            },
+            {
+                "name": "Kalvarijos",
+                "order": 4,
+                "image": "kalvarija.webp"
+            },
+            {
+                "name": "Bernardinai",
+                "order": 5,
+                "image": "bernardiniai.webp"
+            }
         ],
         "points": 7,
         "attempts": 7,
         "minusPointsOnAttempt": 1,
         "time": 5
     },
-        {
-            "id": "16",
-            "name": "Šv. Baltramiejaus bažnyčia",
-            "lat": 54.680550526442424,
-            "lng": 25.297470477467403,
-            "type": "chain",
-            "text": [
-                "Išspręskite grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
-                "",
-                "1. Sutikote lenkų turistą. Jei paklaustumėte, kur jis yra, jis atsakytų ...?",
-                "2. Balta kaip sniegas, bet ne sniegas; šildo, bet ne ugnis.",
-                "3. Miestas, kur muzika skamba seniau nei radijas, o valsas sukasi greičiau nei laikrodis.",
-                "4. Kas ryte gimsta, vakare miršta?"
-            ],
-            "answer": ["Vilno", "Vilna", "Viena", "Diena"],
-            "points": 5,
-            "attempts": 5,
-            "time": 5,
-            "minusPointsOnAttempt": 1
-        },
+    {
+        "id": "16",
+        "name": "Šv. Baltramiejaus bažnyčia",
+        "lat": 54.680550526442424,
+        "lng": 25.297470477467403,
+        "type": "chain",
+        "text": [
+            "Išspręskite grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
+            "",
+            "1. Sutikote lenkų turistą. Jei paklaustumėte, kur jis yra, jis atsakytų ...?",
+            "2. Balta kaip sniegas, bet ne sniegas; šildo, bet ne ugnis.",
+            "3. Miestas, kur muzika skamba seniau nei radijas, o valsas sukasi greičiau nei laikrodis.",
+            "4. Kas ryte gimsta, vakare miršta?"
+        ],
+        "answer": [
+            "Vilno",
+            "Vilna",
+            "Viena",
+            "Diena"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 5
+    },
     {
         "id": "17",
         "name": "R. Kuncos dirbtuvė",
@@ -383,10 +477,12 @@
         "lng": 25.293415077029966,
         "startType": "carousel",
         "startCarousel": {
-            "images": ["kunca.webp"],
             "text": [
                 "R. Kuncos dirbtuvės. Apsidairykite.",
                 "Užduočiai atlikti turite 8 minutes."
+            ],
+            "images": [
+                "kunca.webp"
             ]
         },
         "image": "sliekas.jpg",
@@ -398,7 +494,9 @@
             "4. Ne \"Po šimts pypkių\", bet \"Po šimts ...\" .",
             "5. Tu ... uodega ."
         ],
-        "answer": ["PILKA"],
+        "answer": [
+            "PILKA"
+        ],
         "points": 8,
         "attempts": 3,
         "time": 8
@@ -407,7 +505,7 @@
         "id": "18",
         "name": "Žemėlapis",
         "lat": 54.682761931971484,
-        "lng": 25.293114577068327,  
+        "lng": 25.293114577068327,
         "image": "mapv3.png",
         "text": [
             "Jus suradote seną 1921 metų žemėlapį lenkų kalba. Kad išspręsti kryžiažodį, suraskite kaip tuo metu vadinosi šios gatvės:",
@@ -417,7 +515,9 @@
             "[href=\"https://lietuvoskartografija.lt/lithuanianmaps/wp-content/uploads/2024/02/1921_Wilna_city_plan.jpg\"]Plan miasta Wilna[/href].",
             "Atsakyme įrašykite gautą pilką žodį."
         ],
-        "answer": ["AKLA"],
+        "answer": [
+            "AKLA"
+        ],
         "points": 8,
         "attempts": 5,
         "time": 7
@@ -427,8 +527,8 @@
         "name": "Šuniukai",
         "lat": 54.686090803589956,
         "lng": 25.293531057719957,
-        "iconType": "photo",
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus arba žmonės, ir taip pat šunys arba šunų skulptūros.",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
@@ -463,15 +563,17 @@
         "name": "Užupio angelas",
         "lat": 54.680620191758,
         "lng": 25.295227674027846,
-        "type": "roulette",
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Šalia Užupio Angelo jūs randate dviejų eurų monetą.", 
+                "Šalia Užupio Angelo jūs randate dviejų eurų monetą.",
                 "Taip pat sutinkate cirko artistų grupę. Už monetą jie siūlo sukti laimės ratą ir spėti spalvą – raudoną ar juodą. Kiekvieną kartą atspėjus jūsų taškai dvigubinasi. Pralaimėjus liekate prie pradinės dviejų taškų sumos."
             ],
-            "images": ["angelas.webp"]
+            "images": [
+                "angelas.webp"
+            ]
         },
+        "type": "roulette",
         "points": 2,
         "time": 5
     },
@@ -484,7 +586,10 @@
             "Lazdynų pelėda žiūri į kairę ir dešinę rodyklių kryptimi. Kokį šešiaženklį skaičių ji mato?",
             "Pelėda trumparegė, todėl nežiūri labai toli."
         ],
-        "answer": ["162166", "166162"],
+        "answer": [
+            "162166",
+            "166162"
+        ],
         "points": 5,
         "attempts": 5,
         "time": 4
@@ -513,17 +618,19 @@
         "name": "Povandeninė mina",
         "lat": 54.6822371948869,
         "lng": 25.29563055590525,
-        "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Jūs randate povandeninę miną.",
-                "Ta proga, pažaiskime minų žaidimą", 
+                "Ta proga, pažaiskime minų žaidimą",
                 "Spėkite, į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos, visi taškai sudega",
                 "Laiku sustokite."
             ],
-            "images": ["mina.webp"]
+            "images": [
+                "mina.webp"
+            ]
         },
+        "type": "bomb",
         "text": [
             "Spėkite saugų laukelį jūrų laivui. Sėkmingas spėjimas +1 taškas. Užplaukus ant minos taškai sudega. Laiku sustokite."
         ],
@@ -558,7 +665,9 @@
         "text": [
             "Suraskite didelę spyną šalia ryškios žydros spynelės. Koks gyvūnas joje pavaizduotas?"
         ],
-        "answer": ["Driežas"],
+        "answer": [
+            "Driežas"
+        ],
         "points": 4,
         "attempts": 5,
         "time": 5,
@@ -567,7 +676,9 @@
             "text": [
                 "Spynoje pavaizduotas driežas."
             ],
-            "images": ["lizard.webp"]
+            "images": [
+                "lizard.webp"
+            ]
         }
     },
     {
@@ -578,7 +689,11 @@
         "text": [
             "Suraskite ryškiai raudoną Justynos ir Kšištofo vestuvių dienos spyną. Kokia jų vestuvių dienos data?"
         ],
-        "answer": ["2017-08-26", "2017 08 26", "20170826"],
+        "answer": [
+            "2017-08-26",
+            "2017 08 26",
+            "20170826"
+        ],
         "points": 4,
         "attempts": 5,
         "time": 5
@@ -608,7 +723,7 @@
         "id": "29",
         "name": "Užupio konstitucija",
         "lat": 54.68004924908212,
-        "lng": 25.295833431727665,  
+        "lng": 25.295833431727665,
         "image": "uzupisv2.png",
         "text": [
             "Užupio konstitucija padės jums išspręsti kryžiažodį. Atsakyme įrašykite pilką žodį.",
@@ -619,25 +734,28 @@
             "5. Kitame kontekste šis žodis dar yra tas pats kas Justicija.",
             "6. Šeimos narys paminėtas konstitucijoje."
         ],
-        "answer": ["UŽUPIS"],
+        "answer": [
+            "UŽUPIS"
+        ],
         "points": 5,
         "attempts": 5,
         "time": 6
     },
-    
-    {   
+    {
         "id": "31",
         "name": "Lagaminas",
         "lat": 54.68072166667506,
         "lng": 25.29186789550304,
         "startType": "carousel",
         "startCarousel": {
-            "text": [ 
+            "text": [
                 "Priešais Šv. Dievo Motinos cerkvę jus randate lagaminą su spyna.",
-                "",                               
+                "",
                 "Užduočiai atlikti turite 7 minutes."
             ],
-            "images": ["varpelis.webp"],
+            "images": [
+                "varpelis.webp"
+            ],
             "changeInterval": 0
         },
         "image": "varpelis.webp",
@@ -645,7 +763,9 @@
             "Ant lagamino pavaizduotas varpelis. Lagaminas turi 4 skaitmenų kodo spyną.",
             "Įveskite 4 skaitmenų kodą į spyną ir atrakinkite lagaminą"
         ],
-        "answer": ["1421"],
+        "answer": [
+            "1421"
+        ],
         "points": 8,
         "attempts": 7,
         "time": 7,
@@ -660,7 +780,9 @@
             "text": [
                 "Lagaminas atsirakino, o jame radote daug įdomių dalykų."
             ],
-            "images": ["katedra_hint.webp"]
+            "images": [
+                "katedra_hint.webp"
+            ]
         }
     }
 ]

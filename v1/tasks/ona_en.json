@@ -4,8 +4,6 @@
         "name": "Dobuzhinsky Frame Photo",
         "lat": 54.68633639202634,
         "lng": 25.286890322996783,
-        "type": "photoValidation",
-        "iconType": "photo",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -13,8 +11,12 @@
                 "",
                 "You have 5 minutes to complete this task."
             ],
-            "images": ["dobuzinskis.jpg"]
+            "images": [
+                "dobuzinskis.jpg"
+            ]
         },
+        "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Does the photo show one or more people placing their heads inside the picture frame?",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
@@ -37,7 +39,9 @@
                 "",
                 "You have 5 minutes to complete this task."
             ],
-            "images": ["gedimino.webp"]
+            "images": [
+                "gedimino.webp"
+            ]
         },
         "type": "timepointer",
         "text": [
@@ -45,11 +49,31 @@
             "The Gediminas Monument may help you. Take a close look at it."
         ],
         "events": [
-            {"name": "Jogaila", "order": 1, "text": "1377–1392 — 15 years"},
-            {"name": "Gediminas", "order": 2, "text": "1316–1341 — 25 years"},
-            {"name": "Algirdas", "order": 3, "text": "1345–1377 — 32 years"},
-            {"name": "Kęstutis", "order": 4, "text": "1345–1382 — 37 years"},
-            {"name": "Vytautas", "order": 5, "text": "1392–1430 — 38 years"}
+            {
+                "name": "Jogaila",
+                "order": 1,
+                "text": "1377–1392 — 15 years"
+            },
+            {
+                "name": "Gediminas",
+                "order": 2,
+                "text": "1316–1341 — 25 years"
+            },
+            {
+                "name": "Algirdas",
+                "order": 3,
+                "text": "1345–1377 — 32 years"
+            },
+            {
+                "name": "Kęstutis",
+                "order": 4,
+                "text": "1345–1382 — 37 years"
+            },
+            {
+                "name": "Vytautas",
+                "order": 5,
+                "text": "1392–1430 — 38 years"
+            }
         ],
         "points": 7,
         "attempts": 7,
@@ -61,8 +85,8 @@
         "name": "Dogs",
         "lat": 54.68613535436004,
         "lng": 25.293654332452178,
-        "iconType": "photo",
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Does the photo show one or more real people, and also dogs or dog sculptures?",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
@@ -104,8 +128,10 @@
             "A hidden word lies within this letter maze.",
             "Start from the letter \"I\" and connect the letters to form the word.",
             "One letter in the maze does not belong."
-        ],        
-        "answer": ["INDEPENDENCE"],
+        ],
+        "answer": [
+            "INDEPENDENCE"
+        ],
         "points": 6,
         "attempts": 5,
         "time": 6,
@@ -119,7 +145,7 @@
     {
         "id": "6",
         "name": "Art gallery",
-        "lat": 54.68063588325186, 
+        "lat": 54.68063588325186,
         "lng": 25.288667028319995,
         "startType": "carousel",
         "startCarousel": {
@@ -128,22 +154,26 @@
                 "[img source=\"kitchen.jpg\" width=\"300\" height=\"50\"/]",
                 "You have 10 attempts (10 points). Each attempt minus 1 point."
             ],
-            "images": ["chodkeviciai.webp"]
+            "images": [
+                "chodkeviciai.webp"
+            ]
         },
+        "type": "wordle",
         "text": [
             "Guess the word: famous writer."
         ],
+        "answer": [
+            "STENDHAL"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
         "reward": {
             "text": [
                 "Take a moment to look around — you may spot a commemorative plaque marking that Marie-Henri Beyle, better known as Stendhal, once stayed here in 1812."
             ]
-        },
-        "type": "wordle",
-        "answer": ["STENDHAL"],
-        "points": 10,
-        "attempts": 10,
-        "minusPointsOnAttempt": 1,
-        "time": 5
+        }
     },
     {
         "id": "7",
@@ -152,12 +182,13 @@
         "lng": 25.2903304569357,
         "image": "baron.png",
         "text": "Solve the puzzle to reveal the literary character.",
-        "answer": ["BARON MUNCHAUSEN"],
+        "answer": [
+            "BARON MUNCHAUSEN"
+        ],
         "points": 5,
         "attempts": 5,
         "time": 6
-      }
-    ,
+    },
     {
         "id": "8",
         "name": "Vilnius Academy of Arts",
@@ -168,7 +199,9 @@
             "What color is hidden in this equation?",
             "Write the color name."
         ],
-        "answer": ["ORANGE"],
+        "answer": [
+            "ORANGE"
+        ],
         "points": 7,
         "attempts": 5,
         "time": 6,
@@ -185,7 +218,7 @@
     {
         "id": "9",
         "name": "St. Anne's Church",
-        "lat": 54.68319749673784, 
+        "lat": 54.68319749673784,
         "lng": 25.29293702706192,
         "startType": "carousel",
         "startCarousel": {
@@ -194,22 +227,26 @@
                 "[img source=\"kitchen.jpg\" width=\"300\" height=\"50\"/]",
                 "You have 10 attempts (10 points). Each attempt minus 1 point."
             ],
-            "images": ["ona.webp"]
+            "images": [
+                "ona.webp"
+            ]
         },
+        "type": "wordle",
         "text": [
             "Guess the word: very famous historical figure."
         ],
-        "type": "wordle",
-        "answer": ["NAPOLEON"],
+        "answer": [
+            "NAPOLEON"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
         "reward": {
             "text": [
                 "Nice! According to legend, Napoleon was so impressed by St. Anne’s Church that he wished he could take it back to Paris in the palm of his hand."
             ]
-        },
-        "points": 10,
-        "attempts": 10,
-        "minusPointsOnAttempt": 1,
-        "time": 5
+        }
     },
     {
         "id": "10",
@@ -241,12 +278,17 @@
             "Move one matchstick to make the equation correct.",
             "Write your answer as a full equation using numbers and standard symbols. Include the equals sign."
         ],
-        "answer": ["7-2=5", "6-2=4"],
+        "answer": [
+            "7-2=5",
+            "6-2=4"
+        ],
         "points": 4,
         "attempts": 5,
         "time": 6,
         "reward": {
-            "text": [""],
+            "text": [
+                ""
+            ],
             "image": "degtukaianswer.webp"
         }
     },
@@ -255,7 +297,6 @@
         "name": "Underwater Mine",
         "lat": 54.6822371948869,
         "lng": 25.29563055590525,
-        "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -264,8 +305,11 @@
                 "Choose a tile where the ship can safely move. Each safe guess gives you +1 point. If you hit a mine, you lose all points.",
                 "Stop in time."
             ],
-            "images": ["mina.webp"]
+            "images": [
+                "mina.webp"
+            ]
         },
+        "type": "bomb",
         "text": [
             "Choose a safe tile for the ship. Each successful guess gives you +1 point. If you hit a mine, you lose all points. Stop whenever you want."
         ],
@@ -291,7 +335,6 @@
         "points": 6,
         "time": 5
     },
-    
     {
         "id": "14",
         "name": "Montmartre Bridge",
@@ -302,25 +345,29 @@
             "",
             "If ELI is 173 and LOIS is 5107, what is LESLIE?"
         ],
-        "answer": ["317537"],
+        "answer": [
+            "317537"
+        ],
         "points": 3,
         "attempts": 5,
         "time": 4
-    },    
+    },
     {
         "id": "15",
         "name": "Užupis Angel",
         "lat": 54.680620191758,
         "lng": 25.295227674027846,
-        "type": "roulette",
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Near the Užupis Angel, you find a two-euro coin.",
                 "You also meet a group of circus performers. For the coin, they offer you a chance to spin the wheel of fortune and guess the color — red or black. Each correct guess doubles your points. If you lose, you return to the starting amount of two points."
             ],
-            "images": ["angelas.webp"]
+            "images": [
+                "angelas.webp"
+            ]
         },
+        "type": "roulette",
         "points": 2,
         "time": 5
     },
@@ -343,8 +390,6 @@
         "points": 5,
         "time": 5
     },
-    
-    
     {
         "id": "17",
         "name": "Užupis Bridge",
@@ -354,16 +399,20 @@
             "Look for a large padlock near a bright blue lock on Užupis Bridge.",
             "What animal is shown on the large padlock?"
         ],
-        "answer": ["Lizard"],
+        "answer": [
+            "Lizard"
+        ],
         "points": 4,
-        "attempts": 5,  
+        "attempts": 5,
         "time": 5,
         "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
                 "It's a lizard."
             ],
-            "images": ["lizard.webp"]
+            "images": [
+                "lizard.webp"
+            ]
         }
     },
     {
@@ -375,7 +424,11 @@
             "Look for the bright red wedding lock of Justyna and Krzysztof on Paplauja Bridge.",
             "What is their wedding date?"
         ],
-        "answer": ["2017-08-26", "2017 08 26", "20170826"],
+        "answer": [
+            "2017-08-26",
+            "2017 08 26",
+            "20170826"
+        ],
         "points": 4,
         "attempts": 5,
         "time": 5
@@ -392,7 +445,9 @@
                 "",
                 "You have 7 minutes to complete this task."
             ],
-            "images": ["varpelis.webp"],
+            "images": [
+                "varpelis.webp"
+            ],
             "changeInterval": 0
         },
         "image": "varpelis.webp",
@@ -400,7 +455,9 @@
             "A bell is depicted on the suitcase. The suitcase has a 4-digit combination lock.",
             "Enter the 4-digit code to unlock the suitcase."
         ],
-        "answer": ["1421"],
+        "answer": [
+            "1421"
+        ],
         "points": 8,
         "attempts": 7,
         "time": 7,
@@ -415,7 +472,9 @@
             "text": [
                 "The suitcase unlocked, and inside you found many interesting things."
             ],
-            "images": ["katedra_hint.webp"]
+            "images": [
+                "katedra_hint.webp"
+            ]
         }
     }
 ]

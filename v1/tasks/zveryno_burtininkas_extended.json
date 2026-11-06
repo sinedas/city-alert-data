@@ -1,62 +1,10 @@
 [
-  {
-    "id": "100",
-    "name": "Fotoalbumas",
-    "lat": 54.69716479023086,
-    "lng": 25.24878921762783,
-    "startType": "carousel",
-      "startCarousel": {
-          "text": [
-              "Stebuklinga knyga staiga virto fotoalbumu.",
-              "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-              "",
-              "Užduočiai atlikti turite 5 minutes."
-          ],
-          "images": [
-              "fotoalbumas.webp"
-          ]
-      }, 
-    "type": "matchmaker",
-    "iconType": "book",
-    "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
-    "matchmaker": {
-      "images": [
-        "jekaterina.webp",
-        "stiklas.webp",
-        "paukstis.webp",
-        "marija.webp",
-        "marija2.webp",
-        "kazachstan.webp",
-        "drugelis.webp",
-        "angelas.webp",
-        "1910.webp",
-        "herbas.webp",
-        "peleda.webp"
-      ],  
-      "displayCount": 10
-    },
-    "answer": ["herbas.webp"],      
-    "points": 2,
-    "attempts": 1,
-    "time": 5,
-    "hint": 
     {
-        "text": [
-            "Ieškokite pašto dėžutės."
-        ],   
-        "points": 1
-    },
-    "reward": {
-      "text": "",
-      "image": "herbas.webp"
-    }
-  },
-    {
-      "id": "101",
-      "name": "Fotoalbumas",
-      "lat": 54.6937287155032,
-      "lng": 25.246713463260605,
-      "startType": "carousel",
+        "id": "100",
+        "name": "Fotoalbumas",
+        "lat": 54.69716479023086,
+        "lng": 25.24878921762783,
+        "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Stebuklinga knyga staiga virto fotoalbumu.",
@@ -67,34 +15,89 @@
             "images": [
                 "fotoalbumas.webp"
             ]
-        }, 
-      "type": "matchmaker",
-      "iconType": "book",
-      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
-      "matchmaker": {
-        "images": [
-          "jekaterina.webp",
-          "stiklas.webp",
-          "paukstis.webp",
-          "marija.webp",
-          "marija2.webp",
-          "kazachstan.webp",
-          "drugelis.webp",
-          "angelas.webp",
-          "1910.webp",
-          "herbas.webp",
-          "peleda.webp"
-        ],  
-        "displayCount": 10
-      },
-      "answer": ["marija2.webp"],      
-      "points": 2,
-      "attempts": 1,
-      "time": 5,
-      "reward": {
-        "text": "",
-        "image": "marija2.webp"
-      }
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+            "images": [
+                "jekaterina.webp",
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "herbas.webp",
+                "peleda.webp"
+            ],
+            "displayCount": 10
+        },
+        "answer": [
+            "herbas.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "hint": {
+            "text": [
+                "Ieškokite pašto dėžutės."
+            ],
+            "points": 1
+        },
+        "reward": {
+            "text": "",
+            "image": "herbas.webp"
+        }
+    },
+    {
+        "id": "101",
+        "name": "Fotoalbumas",
+        "lat": 54.6937287155032,
+        "lng": 25.246713463260605,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+            "images": [
+                "jekaterina.webp",
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "herbas.webp",
+                "peleda.webp"
+            ],
+            "displayCount": 10
+        },
+        "answer": [
+            "marija2.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+            "text": "",
+            "image": "marija2.webp"
+        }
     },
     {
         "id": "102",
@@ -102,339 +105,347 @@
         "lat": 54.68964638389677,
         "lng": 25.24659417238846,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Stebuklinga knyga staiga virto fotoalbumu.",
-                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images": [
-                  "fotoalbumas.webp"
-              ]
-          }, 
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "jekaterina.webp",
-            "stiklas.webp",
-            "paukstis.webp",
-            "marija.webp",
-            "marija2.webp",
-            "kazachstan.webp",
-            "drugelis.webp",
-            "angelas.webp",
-            "1910.webp",
-            "bona.webp",
-            "fontanas.webp",
-            "arkliukas.webp",
-            "azuoliukas.webp",
-            "lvovas.webp",
-            "vytis.webp",
-            "roze.webp",
-            "zuikis.webp",
-            "kubiliute.webp",
-            "mumis.webp",
-            "stebuklas.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "jekaterina.webp",
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "bona.webp",
+                "fontanas.webp",
+                "arkliukas.webp",
+                "azuoliukas.webp",
+                "lvovas.webp",
+                "vytis.webp",
+                "roze.webp",
+                "zuikis.webp",
+                "kubiliute.webp",
+                "mumis.webp",
+                "stebuklas.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["kazachstan.webp"],      
+        "answer": [
+            "kazachstan.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "kazachstan.webp"
+            "text": "",
+            "image": "kazachstan.webp"
         }
-      },
-      {
+    },
+    {
         "id": "103",
         "name": "Fotoalbumas",
         "lat": 54.69265701400386,
         "lng": 25.24478360236307,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Stebuklinga knyga staiga virto fotoalbumu.",
-                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images": [
-                  "fotoalbumas.webp"
-              ]
-          }, 
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "jekaterina.webp",
-            "stiklas.webp",
-            "paukstis.webp",
-            "marija.webp",
-            "marija2.webp",
-            "kazachstan.webp",
-            "drugelis.webp",
-            "angelas.webp",
-            "1910.webp",
-            "herbas.webp",
-            "peleda.webp",
-
-            "fontanas.webp",
-            "azuoliukas.webp",
-            "lvovas.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "jekaterina.webp",
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "herbas.webp",
+                "peleda.webp",
+                "fontanas.webp",
+                "azuoliukas.webp",
+                "lvovas.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["jekaterina.webp"],      
+        "answer": [
+            "jekaterina.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "jekaterina.webp"
+            "text": "",
+            "image": "jekaterina.webp"
         }
-      },
-      {
+    },
+    {
         "id": "104",
         "name": "Fotoalbumas",
         "lat": 54.69704491997938,
         "lng": 25.24298112324834,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Stebuklinga knyga staiga virto fotoalbumu.",
-                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images": [
-                  "fotoalbumas.webp"
-              ]
-          }, 
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "jekaterina.webp",
-            "stiklas.webp",
-            "paukstis.webp",
-            "marija.webp",
-            "marija2.webp",
-            "kazachstan.webp",
-            "drugelis.webp",
-            "angelas.webp",
-            "1910.webp",
-            "herbas.webp",
-            "peleda.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "jekaterina.webp",
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "herbas.webp",
+                "peleda.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["marija.webp"],      
+        "answer": [
+            "marija.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "marija.webp"
+            "text": "",
+            "image": "marija.webp"
         }
-      },
-      {
+    },
+    {
         "id": "105",
         "name": "Fotoalbumas",
         "lat": 54.6970800545078,
         "lng": 25.24515552701019,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Stebuklinga knyga staiga virto fotoalbumu.",
-                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images": [
-                  "fotoalbumas.webp"
-              ]
-          }, 
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "stiklas.webp",
-            "paukstis.webp",
-            "marija.webp",
-            "marija2.webp",
-            "kazachstan.webp",
-            "drugelis.webp",
-            "angelas.webp",
-            "1910.webp",
-            "herbas.webp",
-            "peleda.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "herbas.webp",
+                "peleda.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["paukstis.webp"],      
+        "answer": [
+            "paukstis.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "paukstis.webp"
+            "text": "",
+            "image": "paukstis.webp"
         }
-      },
-      {
+    },
+    {
         "id": "106",
         "name": "Fotoalbumas",
         "lat": 54.69337217379676,
         "lng": 25.243001420760134,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Stebuklinga knyga staiga virto fotoalbumu.",
-                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images": [
-                  "fotoalbumas.webp"
-              ]
-          }, 
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "jekaterina.webp",
-            "stiklas.webp",
-            "paukstis.webp",
-            "marija.webp",
-            "marija2.webp",
-            "kazachstan.webp",
-            "drugelis.webp",
-            "angelas.webp",
-            "1910.webp",
-            "herbas.webp",
-            "peleda.webp",
-
-            "fontanas.webp",
-            "azuoliukas.webp",
-            "lvovas.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "jekaterina.webp",
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "herbas.webp",
+                "peleda.webp",
+                "fontanas.webp",
+                "azuoliukas.webp",
+                "lvovas.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["stiklas.webp"],      
+        "answer": [
+            "stiklas.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "stiklas.webp"
+            "text": "",
+            "image": "stiklas.webp"
         }
-      },
-      {
+    },
+    {
         "id": "107",
         "name": "Fotoalbumas",
         "lat": 54.69487582843457,
         "lng": 25.250404383103913,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Stebuklinga knyga staiga virto fotoalbumu.",
-                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images": [
-                  "fotoalbumas.webp"
-              ]
-          }, 
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "jekaterina.webp",
-            "stiklas.webp",
-            "paukstis.webp",
-            "marija.webp",
-            "marija2.webp",
-            "kazachstan.webp",
-            "drugelis.webp",
-            "angelas.webp",
-            "1910.webp",
-            "herbas.webp",
-            "peleda.webp",
-
-            "fontanas.webp",
-            "azuoliukas.webp",
-            "lvovas.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "jekaterina.webp",
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "herbas.webp",
+                "peleda.webp",
+                "fontanas.webp",
+                "azuoliukas.webp",
+                "lvovas.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["drugelis.webp"],      
+        "answer": [
+            "drugelis.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "drugelis.webp"
+            "text": "",
+            "image": "drugelis.webp"
         }
-      },
-      {
+    },
+    {
         "id": "108",
         "name": "Fotoalbumas",
         "lat": 54.6948785939403,
         "lng": 25.249046270620322,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Stebuklinga knyga staiga virto fotoalbumu.",
-                  "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images": [
-                  "fotoalbumas.webp"
-              ]
-          }, 
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "jekaterina.webp",
-            "stiklas.webp",
-            "paukstis.webp",
-            "marija.webp",
-            "marija2.webp",
-            "kazachstan.webp",
-            "drugelis.webp",
-            "angelas.webp",
-            "1910.webp",
-            "herbas.webp",
-            "peleda.webp",
-
-            "fontanas.webp",
-            "azuoliukas.webp",
-            "lvovas.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "jekaterina.webp",
+                "stiklas.webp",
+                "paukstis.webp",
+                "marija.webp",
+                "marija2.webp",
+                "kazachstan.webp",
+                "drugelis.webp",
+                "angelas.webp",
+                "1910.webp",
+                "herbas.webp",
+                "peleda.webp",
+                "fontanas.webp",
+                "azuoliukas.webp",
+                "lvovas.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["peleda.webp"],      
+        "answer": [
+            "peleda.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "peleda.webp"
+            "text": "",
+            "image": "peleda.webp"
         }
-      }
-      
-  ]
-    
+    }
+]

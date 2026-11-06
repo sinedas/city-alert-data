@@ -22,7 +22,9 @@
             "Kiek turi Trylika?",
             "Atsakymą įrašykite skaičiumi."
         ],
-        "answer": ["7"],
+        "answer": [
+            "7"
+        ],
         "points": 5,
         "attempts": 5,
         "time": 7,
@@ -35,7 +37,9 @@
             "text": [
                 "Trylika turi 7 raides."
             ],
-            "images": ["raides_atsakymas.webp"]
+            "images": [
+                "raides_atsakymas.webp"
+            ]
         }
     },
     {
@@ -56,12 +60,12 @@
                 "gyvunas.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Spėkite magišką gyvūną, minimą jaunosios fėjos sąsiuvinyje."
         ],
-        "type": "wordle",
         "answer": [
-            "FENIKSAS"  
+            "FENIKSAS"
         ],
         "points": 10,
         "attempts": 10,
@@ -69,11 +73,12 @@
         "time": 5,
         "rewardType": "carousel",
         "rewardCarousel": {
-             "text": [
+            "text": [
                 "Magiškas gyvūnas - feniksas."
             ],
-
-            "images": ["feniksas.webp"]
+            "images": [
+                "feniksas.webp"
+            ]
         }
     },
     {
@@ -112,21 +117,25 @@
         "lng": 24.9345199799943,
         "startType": "carousel",
         "startCarousel": {
-            "text": [               
+            "text": [
                 "Šalia Šokoladinės kuprinė atsidarė, ir iš jos pabiro pieštukai.",
-                "",     
+                "",
                 "Užduočiai atlikti turite 6 minutes."
             ],
-            "images": ["piestukai.webp"],
+            "images": [
+                "piestukai.webp"
+            ],
             "changeInterval": 0
-        }, 
+        },
         "image": "1945.webp",
         "text": [
             "Pieštukai susidėliojo į skaičių.",
             "Perkelkite du pieštukus taip, kad gautumėte mažiausią įmanomą teigiamą skaičių.",
             "Atsakyme įrašykite tą skaičių."
         ],
-        "answer": ["846"],
+        "answer": [
+            "846"
+        ],
         "points": 5,
         "attempts": 6,
         "time": 6,
@@ -135,13 +144,14 @@
             "image": "1945_hint.webp",
             "points": 2
         },
-        "rewardType": "carousel",        
+        "rewardType": "carousel",
         "rewardCarousel": {
             "text": [
                 "Atsakymas - 846."
             ],
-            "images": ["846.webp"]
+            "images": [
+                "846.webp"
+            ]
         }
-        
     }
 ]

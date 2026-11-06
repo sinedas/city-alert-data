@@ -2,14 +2,14 @@
     {
         "id": "1",
         "name": "Skulptūrų skveras",
-        "lat": 54.90083568828561, 
+        "lat": 54.90083568828561,
         "lng": 23.911810404060574,
-        "iconType": "photo",
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomas vienas tikras žmogus ar žmonės?",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures, and replace all people with life-sized cardboard standees illustrated in a bold retro comic vector style (flat colors, no gradients, thick dark outlines, uniform flat tan skin tones), preserving their poses and clothing, and adding a clean white cutout border around each figure, with consistent perspective and lighting so they integrate naturally while remaining more graphic than the background."
-        },    
+        },
         "text": [
             "Išsirinkite skulptūrą. Padarykite komandos narių nuotrauką, vaizduojančią tą skulptūrą."
         ],
@@ -23,15 +23,19 @@
         "lng": 23.911630839231115,
         "startType": "carousel",
         "startCarousel": {
-            "text": [                    
+            "text": [
                 "Užduočiai atlikti turite 6 minutes."
             ],
-            "images": ["ciurlionis.webp"],
+            "images": [
+                "ciurlionis.webp"
+            ],
             "changeInterval": 0
         },
         "image": "melyna.png",
         "text": "Kokia spalva yra užšifruota šioje lygtyje?",
-        "answer": ["ŽALIA"],
+        "answer": [
+            "ŽALIA"
+        ],
         "points": 6,
         "attempts": 4,
         "time": 6,
@@ -45,25 +49,26 @@
                 "Kokias spalvas dar maišėte mokykloje?"
             ],
             "points": 2
-        }   
-    },  
-    
+        }
+    },
     {
         "id": "3",
         "name": "Povandeninė mina",
         "lat": 54.89977803963593,
         "lng": 23.911975507572283,
-        "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Prie Karo muziejaus jus randate povandeninę miną.",
-                "Ta proga, pažaiskime minų žaidimą", 
+                "Ta proga, pažaiskime minų žaidimą",
                 "Spėkite, į kurį laukelį galima keliauti su laivu. Atspėjus saugią vietą +1 taškas. Pataikius ant minos, visi taškai sudega",
                 "Laiku sustokite."
             ],
-            "images": ["karo.jpg"]
+            "images": [
+                "karo.jpg"
+            ]
         },
+        "type": "bomb",
         "text": [
             "Spėkite saugų laukelį jūrų laivui. Sėkmingas spėjimas +1 taškas. Užplaukus ant minos taškai sudega. Laiku sustokite."
         ],
@@ -75,19 +80,19 @@
         "name": "Nuotrauka",
         "lat": 54.899625297569045,
         "lng": 23.911814840113863,
-        "iconType": "photo",        
-        "text": [
-            "Padarykite komandos narių nuotrauką taip, kad joje matytųsi didelis daiktas, kuriame prie vienuolikos pridėjus šešis gaunama penki."
-        ],
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Bokštas su laikrodžiu?",
             "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
         },
+        "text": [
+            "Padarykite komandos narių nuotrauką taip, kad joje matytųsi didelis daiktas, kuriame prie vienuolikos pridėjus šešis gaunama penki."
+        ],
         "points": 5,
         "time": 6,
         "hint": {
-            "text": [ 
+            "text": [
                 "Šį daiktą paprastai nešiojate ant rankos. Ką jis rodo?",
                 "Kur dar galite pamatyti šį daiktą?"
             ],
@@ -106,7 +111,9 @@
             "",
             "Kokią raidę nubraižėte bevaikščiodami?"
         ],
-        "answer": ["H"],
+        "answer": [
+            "H"
+        ],
         "points": 8,
         "time": 7
     },
@@ -115,15 +122,15 @@
         "name": "Liūtukai",
         "lat": 54.897869,
         "lng": 23.904018,
-        "iconType": "photo",
-        "text": [
-            "Iš Tado Ivanausko muziejaus darbuotojai išnešė liūtų iškamšas. Padarykite nuotrauką, kur komandos nariai atsistoję ant keturių letenų ir vaizduoja liūtus."            
-        ],       
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės pasilenkę, galimai vaizduojantys liūtus.",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle cat features: thin natural cat whiskers, and a gently integrated cat tail that follows the body’s posture. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."
         },
+        "text": [
+            "Iš Tado Ivanausko muziejaus darbuotojai išnešė liūtų iškamšas. Padarykite nuotrauką, kur komandos nariai atsistoję ant keturių letenų ir vaizduoja liūtus."
+        ],
         "points": 5,
         "time": 6
     },
@@ -140,30 +147,33 @@
             "",
             "Atsakyme įrašykite gautą pilką žodį."
         ],
-        "answer": ["KINAS"],
+        "answer": [
+            "KINAS"
+        ],
         "points": 7,
         "time": 7
     },
     {
         "id": "8",
         "name": "Literatūrinis personažas",
-        "lat": 54.89759508368894,   
-        "lng": 23.90903603074648,            
+        "lat": 54.89759508368894,
+        "lng": 23.90903603074648,
         "image": "kruzas.png",
         "text": [
             "Raidžių labirintas. Eikite po žingsnelį nuo raidės 'R' ir raskite atsakymą. Einama žemyn, viršun, kairėn arba dešinėn."
         ],
-        "answer": ["Robinzonas Kruzas"],
+        "answer": [
+            "Robinzonas Kruzas"
+        ],
         "points": 6,
         "attempts": 5,
-        "time": 6        
+        "time": 6
     },
     {
         "id": "9",
         "name": "Atlikėjas",
-        "lat": 54.89746024885304, 
-        "lng": 23.91349195947697,        
-        "type": "wordle",
+        "lat": 54.89746024885304,
+        "lng": 23.91349195947697,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -172,8 +182,11 @@
                 "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
                 "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
             ],
-            "images": ["zalgiris.jpg"]
+            "images": [
+                "zalgiris.jpg"
+            ]
         },
+        "type": "wordle",
         "text": [
             "Spėkite žodį: atlikėjas."
         ],
@@ -188,11 +201,14 @@
     {
         "id": "10",
         "name": "Romuvos kinoteatras",
-        "lat": 54.897494, 
-        "lng":  23.915735,      
+        "lat": 54.897494,
+        "lng": 23.915735,
         "image": "kronikas.png",
         "text": "Sudėliokite dėlionę ir sužinokite, kokį filmą šiandien rodo Romuvos kinoteatre.",
-        "answer": ["PIETINIA KRONIKAS", "PIETINIO KRONIKOS"],        
+        "answer": [
+            "PIETINIA KRONIKAS",
+            "PIETINIO KRONIKOS"
+        ],
         "points": 4,
         "attempts": 5,
         "time": 6
@@ -207,12 +223,14 @@
             "",
             "Jei ELI yra 173, o LOIS yra 5107, tai kiek yra LESLIE?"
         ],
-        "answer": ["317537"],
+        "answer": [
+            "317537"
+        ],
         "points": 5,
         "attempts": 5,
         "time": 4,
         "hint": {
-            "text": [ 
+            "text": [
                 "Jei apversite ekraną?"
             ],
             "points": 2
@@ -226,7 +244,12 @@
         "text": [
             "Suraskite baltą Gabijos ir Emilio vestuvių dienos spyną. Kokia jų vestuvių dienos data? Formatas YYYY-MM-DD."
         ],
-        "answer": ["2026-06-27", "2026.06.27", "27.06.2026", "2026 06 27"],
+        "answer": [
+            "2026-06-27",
+            "2026.06.27",
+            "27.06.2026",
+            "2026 06 27"
+        ],
         "points": 4,
         "attempts": 5,
         "time": 5
@@ -246,26 +269,33 @@
             "3. Mitologinė būtybė, nešanti turtus.",
             "4. Nei plauko, nei ... (įrašykite vardininko forma)."
         ],
-        "answer": ["Kainas", "Kaunas", "Kaukas", "Taukas"],
+        "answer": [
+            "Kainas",
+            "Kaunas",
+            "Kaukas",
+            "Taukas"
+        ],
         "points": 5,
         "attempts": 5,
-        "time": 5,
-        "minusPointsOnAttempt": 1
+        "minusPointsOnAttempt": 1,
+        "time": 5
     },
     {
         "id": "14",
         "name": "Žalgirio arena",
         "lat": 54.892039614687604,
         "lng": 23.912981298985812,
-        "iconType": "photo",
-        "type": "photoValidation",
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["zalgiris.jpg"]
+            "images": [
+                "zalgiris.jpg"
+            ]
         },
+        "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmonės ar žmogus?",
             "transformationPrompt": "Transform the input photo into a stylized semi-cartoon illustration with warm natural tones, soft watercolor texture, simplified shapes, flatter shading, and clean dark outlines, making the scene look illustrated rather than photorealistic. Replace all people with life-sized cardboard standees in a bold retro comic vector style with flat colors, thick outlines, and white cutout borders, while preserving their poses and clothing. Add subtle green-and-white fan-style accessories and details inspired by a basketball supporter atmosphere — such as scarves, jerseys, caps, flags, or face paint — integrated naturally into the scene without overpowering the overall aesthetic."
@@ -280,13 +310,18 @@
         "id": "15",
         "name": "Biliardo klubas",
         "lat": 54.89580746257721,
-        "lng": 23.90926447833643,  
+        "lng": 23.90926447833643,
         "image": "pool.webp",
         "text": [
             "Paveikslėlyje parodyti pull'o kamuoliai. Kuriuos kamuolius sudėjus gaunama suma - 30?",
             "Atsakyme įrašykite kamuolių skaičius, pvz.: 1 3 5."
         ],
-        "answer": ["6 11 13", "11 6 13", "11 13 6", "13 11 6"],
+        "answer": [
+            "6 11 13",
+            "11 6 13",
+            "11 13 6",
+            "13 11 6"
+        ],
         "points": 7,
         "attempts": 5,
         "time": 7,
@@ -306,12 +341,13 @@
         "text": [
             "Suskaičiuokite, kiek kvadratų yra paveikslėlyje?"
         ],
-        "answer": ["11"],
+        "answer": [
+            "11"
+        ],
         "points": 2,
         "attempts": 2,
         "time": 2
     },
-    
     {
         "id": "17",
         "name": "Napoleonas Orda",
@@ -320,10 +356,26 @@
         "type": "timepointer",
         "text": "Atpažinkite vietas Napoleono Ordos akvarelėse.",
         "events": [
-            { "name": "Radvilų rūmai Vilniuje", "order": 1, "image": "radvilos.webp"},
-            { "name": "Kauno pilis", "order": 2, "image": "kaunas.webp"},
-            { "name": "Trakų pilis", "order": 3, "image": "trakai.webp"},
-            { "name": "Krėvos pilis", "order": 4, "image": "kreva.webp"}
+            {
+                "name": "Radvilų rūmai Vilniuje",
+                "order": 1,
+                "image": "radvilos.webp"
+            },
+            {
+                "name": "Kauno pilis",
+                "order": 2,
+                "image": "kaunas.webp"
+            },
+            {
+                "name": "Trakų pilis",
+                "order": 3,
+                "image": "trakai.webp"
+            },
+            {
+                "name": "Krėvos pilis",
+                "order": 4,
+                "image": "kreva.webp"
+            }
         ],
         "points": 5,
         "attempts": 5,
@@ -335,28 +387,29 @@
         "name": "Laimės ratas",
         "lat": 54.89377945066689,
         "lng": 23.906944411165153,
-        "type": "roulette",
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs randate 5 eurų banknotą.", 
+                "Jūs randate 5 eurų banknotą.",
                 "Taip pat sutinkate cirko artistų grupę. Už banknotą jie siūlo sukti laimės ratą ir spėti spalvą – raudoną ar juodą. Kiekvieną kartą atspėjus jūsų taškai dvigubinasi. Pralaimėjus liekate prie pradinės dviejų taškų sumos."
             ],
-            "images": ["zalgiris.jpg"]
+            "images": [
+                "zalgiris.jpg"
+            ]
         },
+        "type": "roulette",
         "points": 5,
         "time": 5
     },
-
     {
         "id": "19",
         "name": "Degtukai",
-        "lat": 54.892574550779656, 
+        "lat": 54.892574550779656,
         "lng": 23.909914991294645,
         "image": "matches.png",
         "text": "Degtukų uždavinys. Vieną degtuką perkelkite, o kitą pasiimkite, kad sąlyga būtų teisinga. Sąlygą užrašykite paprastais skaitmenimis ir ženklais.",
         "answer": [
-            "3+5=8", 
+            "3+5=8",
             "8-6=2",
             "6-6=0",
             "9-9=0"
@@ -369,7 +422,9 @@
             "text": [
                 "Ši užduotis turi net 4 sprendimus. Vienas jų yra šis."
             ],
-            "images": ["matches_solution.png"]
+            "images": [
+                "matches_solution.png"
+            ]
         }
     },
     {
@@ -377,8 +432,7 @@
         "name": "Juliaus draugai",
         "lat": 54.8937878444101,
         "lng": 23.90451192855835,
-        "image": "children.webp",        
-        
+        "image": "children.webp",
         "text": [
             "Jūs sutinkate berniuką Julių su draugų kompanija.",
             "Įsižiūrėkite į paveiksliuką.",
@@ -396,8 +450,8 @@
     {
         "id": "21",
         "name": "Wordle",
-        "lat": 54.892879, 
-        "lng":  23.911551,
+        "lat": 54.892879,
+        "lng": 23.911551,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -406,19 +460,22 @@
                 "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
                 "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
             ],
-            "images": ["zalgiris.jpg"]
-        },       
+            "images": [
+                "zalgiris.jpg"
+            ]
+        },
+        "type": "wordle",
         "text": [
             "Spėkite žodį: gyvūnas."
         ],
-        "type": "wordle",
         "answer": [
-            "ANTIS", "BARSUKAS", "DRAMBLYS"
+            "ANTIS",
+            "BARSUKAS",
+            "DRAMBLYS"
         ],
         "points": 9,
         "attempts": 9,
         "minusPointsOnAttempt": 1,
         "time": 5
     }
-    
 ]

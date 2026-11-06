@@ -1,48 +1,50 @@
 [
     {
-      "id": "101",
-      "name": "Vienybės aikštė",
-      "lat": 54.89970452490052,
+        "id": "101",
+        "name": "Vienybės aikštė",
+        "lat": 54.89970452490052,
         "lng": 23.91284823417664,
-      "startType": "carousel",
+        "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Fotoalbumo užduotis",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images":[
+            "images": [
                 "albumas.webp"
-            ] 
-        }, 
-      "type": "matchmaker",
-      "iconType": "book",
-      "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
-      "matchmaker": {
-        "images": [
-          "vazonas.webp",
-          "variklis.webp",
-          "saltis.webp",
-          "natos.webp",
-          "paukstis.webp",
-          "laivas.webp",
-          "kose.webp",
-          "jautis.webp",
-          "gele.webp",
-          "durys.webp",
-          "arkliai.webp",
-          "1932.webp"
+            ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp"
+            ],
+            "displayCount": 10
+        },
+        "answer": [
+            "laivas.webp"
         ],
-        "displayCount": 10
-      },
-      "answer": ["laivas.webp"],      
-      "points": 2,
-      "attempts": 1,
-      "time": 5,
-      "reward": {
-        "text": "",
-        "image": "laivas.webp"
-      }
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+            "text": "",
+            "image": "laivas.webp"
+        }
     },
     {
         "id": "102",
@@ -50,413 +52,430 @@
         "lat": 54.89817185053512,
         "lng": 23.912531733512882,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["variklis.webp"],      
+        "answer": [
+            "variklis.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "variklis.webp"
+            "text": "",
+            "image": "variklis.webp"
         }
-      },
-      {
+    },
+    {
         "id": "103",
         "name": "Fotaalbumas",
         "lat": 54.89752520226603,
         "lng": 23.912681937217716,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["kose.webp"],      
+        "answer": [
+            "kose.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "kose.webp"
+            "text": "",
+            "image": "kose.webp"
         }
-      },
-      {
+    },
+    {
         "id": "104",
         "name": "Fotaalbumas",
         "lat": 54.89729847190673,
         "lng": 23.907261192798618,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["paukstis.webp"],      
+        "answer": [
+            "paukstis.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "paukstis.webp"
+            "text": "",
+            "image": "paukstis.webp"
         }
-      },
-      {
+    },
+    {
         "id": "105",
         "name": "Fotaalbumas",
         "lat": 54.89672469958073,
         "lng": 23.906185626983643,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["natos.webp"],      
+        "answer": [
+            "natos.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "natos.webp"
+            "text": "",
+            "image": "natos.webp"
         }
-      },
-      {
+    },
+    {
         "id": "106",
         "name": "Fotaalbumas",
         "lat": 54.89650413438773,
         "lng": 23.907631337642673,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["gele.webp"],      
+        "answer": [
+            "gele.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "gele.webp"
+            "text": "",
+            "image": "gele.webp"
         }
-      },
-      {
+    },
+    {
         "id": "107",
         "name": "Fotaalbumas",
         "lat": 54.89634834985222,
         "lng": 23.911641240119938,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["saltis.webp"],      
+        "answer": [
+            "saltis.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "saltis.webp"
+            "text": "",
+            "image": "saltis.webp"
         }
-      },
-      {
+    },
+    {
         "id": "108",
         "name": "Fotaalbumas",
         "lat": 54.89557713040458,
         "lng": 23.91525149345398,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["arkliai.webp"],      
+        "answer": [
+            "arkliai.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "arkliai.webp"
+            "text": "",
+            "image": "arkliai.webp"
         }
-      },
-      {
+    },
+    {
         "id": "109",
         "name": "Fotaalbumas",
         "lat": 54.89336827618932,
-            "lng": 23.9093548965458,
+        "lng": 23.9093548965458,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["jautis.webp"],      
+        "answer": [
+            "jautis.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "jautis.webp"
+            "text": "",
+            "image": "jautis.webp"
         }
-      },
-      {
+    },
+    {
         "id": "110",
         "name": "Fotaalbumas",
         "lat": 54.893803269629025,
         "lng": 23.917123675346378,
         "startType": "carousel",
-          "startCarousel": {
-              "text": [
-                  "Fotoalbumo užduotis",
-                  "",
-                  "Užduočiai atlikti turite 5 minutes."
-              ],
-              "images":[
-                  "albumas.webp"
-              ] 
-          }, 
+        "startCarousel": {
+            "text": [
+                "Fotoalbumo užduotis",
+                "",
+                "Užduočiai atlikti turite 5 minutes."
+            ],
+            "images": [
+                "albumas.webp"
+            ]
+        },
         "type": "matchmaker",
         "iconType": "book",
         "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
         "matchmaker": {
-          "images": [
-            "vazonas.webp",
-            "variklis.webp",
-            "saltis.webp",
-            "natos.webp",
-            "paukstis.webp",
-            "laivas.webp",
-            "kose.webp",
-            "jautis.webp",
-            "gele.webp",
-            "durys.webp",
-            "arkliai.webp",
-            "1932.webp",
-            "masina.webp"
-          ],
-          "displayCount": 10
+            "images": [
+                "vazonas.webp",
+                "variklis.webp",
+                "saltis.webp",
+                "natos.webp",
+                "paukstis.webp",
+                "laivas.webp",
+                "kose.webp",
+                "jautis.webp",
+                "gele.webp",
+                "durys.webp",
+                "arkliai.webp",
+                "1932.webp",
+                "masina.webp"
+            ],
+            "displayCount": 10
         },
-        "answer": ["1932.webp"],      
+        "answer": [
+            "1932.webp"
+        ],
         "points": 2,
         "attempts": 1,
         "time": 5,
         "reward": {
-          "text": "",
-          "image": "1932.webp"
+            "text": "",
+            "image": "1932.webp"
         }
-      }
-
+    }
 ]

@@ -23,7 +23,9 @@
             "How many does Thirteen have?",
             "Enter a number as your answer."
         ],
-        "answer": ["8"],
+        "answer": [
+            "8"
+        ],
         "points": 5,
         "attempts": 5,
         "time": 7,
@@ -36,7 +38,9 @@
             "text": [
                 "Thirteen has 8 letters."
             ],
-            "images": ["letters_answer.webp"]
+            "images": [
+                "letters_answer.webp"
+            ]
         }
     },
     {
@@ -57,10 +61,10 @@
                 "creature.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Guess the magical animal mentioned in the young fairy's notebook."
         ],
-        "type": "wordle",
         "answer": [
             "PHOENIX"
         ],

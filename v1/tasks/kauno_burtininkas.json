@@ -17,10 +17,10 @@
                 "pasaku_gyvunas.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Atspėkite pasakų gyvūną."
         ],
-        "type": "wordle",
         "answer": [
             "SLIBINAS"
         ],
@@ -63,8 +63,8 @@
         ],
         "points": 7,
         "attempts": 7,
-        "time": 5,
-        "minusPointsOnAttempt": 1
+        "minusPointsOnAttempt": 1,
+        "time": 5
     },
     {
         "id": "4",
@@ -189,7 +189,7 @@
         "id": "7",
         "name": "Akiniai",
         "lat": 54.89928386534169,
-        "lng": 23.883812221546046,
+        "lng": 23.883812221546044,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -263,11 +263,12 @@
         "time": 7,
         "rewardType": "carousel",
         "rewardCarousel": {
-             "text": [
+            "text": [
                 "Atsakymas - Širdis."
             ],
-
-            "images": ["sirdis_answer.png"]
+            "images": [
+                "sirdis_answer.png"
+            ]
         }
     },
     {
@@ -298,7 +299,6 @@
         "attempts": 4,
         "time": 6,
         "hint": {
-            "image": "colors_hint2.webp",
             "text": [
                 "Prisiminkite dailės pamokas. ",
                 "",
@@ -307,6 +307,7 @@
                 "",
                 "Kokias spalvas dar maišėte mokykloje?"
             ],
+            "image": "colors_hint2.webp",
             "points": 2
         },
         "rewardType": "carousel",
@@ -324,8 +325,6 @@
         "name": "Radijo imtuvas",
         "lat": 54.8989971191737,
         "lng": 23.88214027955372,
-        "type": "audio",
-        "audio": "elfas.wav",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -338,6 +337,8 @@
             ],
             "changeInterval": 0
         },
+        "type": "audio",
+        "audio": "elfas.wav",
         "image": "imtuvasv2.webp",
         "text": [
             "Į imtuvą jūs gavote garsinį pranešimą. Jame užkoduotas pasakų veikėjo vardas.",
@@ -420,10 +421,10 @@
                 "zole.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Žodlė. Atspėkite stebuklingą transporto priemonę. Spėdami nepamirškite mostelėti stebuklinga lazdele."
         ],
-        "type": "wordle",
         "answer": [
             "KILIMAS"
         ],
@@ -444,7 +445,6 @@
         "name": "Laivų mūšis",
         "lat": 54.89905110038429,
         "lng": 23.88690305589815,
-        "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -456,6 +456,7 @@
                 "mina.webp"
             ]
         },
+        "type": "bomb",
         "text": [
             "Spėkite saugų laukelį jūrų laivui. Sėkmingas spėjimas +1 taškas. Užplaukus ant minos taškai sudega. Laiku sustokite."
         ],
@@ -478,12 +479,12 @@
             ]
         },
         "type": "timepointer",
+        "image": "shared/museums/inventions1.webp",
         "text": [
             "Jūsų užduotis yra suderinti laiko atsuktuvą.",
             "Knyga atsivertė ties įvairių išradimų paveikslu",
             "Surikiuokite šiuos išradimus pagal jų sukūrimo laiką."
         ],
-        "image": "shared/museums/inventions1.webp",
         "events": [
             {
                 "name": "Kompasas",
@@ -616,8 +617,6 @@
         "name": "Šuniukai",
         "lat": 54.89707439982259,
         "lng": 23.88545594671299,
-        "iconType": "photo",
-        "type": "photoValidation",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -630,6 +629,8 @@
                 "menesiai.webp"
             ]
         },
+        "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje matomi žmogus arba žmonės?",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle dog features: **gently integrated dog ears**, and **a gently integrated dog tail that follows the body’s posture**. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."

@@ -17,10 +17,10 @@
                 "fairy_tale.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Guess the fairy-tale creature."
         ],
-        "type": "wordle",
         "answer": [
             "DRAGON"
         ],
@@ -28,7 +28,7 @@
         "attempts": 10,
         "minusPointsOnAttempt": 1,
         "time": 5,
-        "reward eyeball": "carousel",
+        "reward": "carousel",
         "rewardCarousel": {
             "text": [
                 "The magic book fell open to an image of a dragon."
@@ -42,7 +42,7 @@
         "id": "2",
         "name": "The Old Man's Riddles",
         "lat": 50.08785129651717,
-"lng": 14.402683408194862,
+        "lng": 14.402683408194862,
         "type": "chain",
         "text": [
             "On Tržiště Street you meet an old man who has 4 riddles for you.",
@@ -55,11 +55,16 @@
             "",
             "Each attempt – minus 1 point."
         ],
-        "answer": ["WOOL", "WOOD", "HOOD", "HOOK"],
+        "answer": [
+            "WOOL",
+            "WOOD",
+            "HOOD",
+            "HOOK"
+        ],
         "points": 7,
         "attempts": 7,
-        "time": 5,
-        "minusPointsOnAttempt": 1
+        "minusPointsOnAttempt": 1,
+        "time": 5
     },
     {
         "id": "3",
@@ -98,20 +103,36 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-            "Among the old palaces of Vlašská Street, the magic book opened to a chapter titled “Art History”.",
-            "Turn the page and complete the task."
+                "Among the old palaces of Vlašská Street, the magic book opened to a chapter titled “Art History”.",
+                "Turn the page and complete the task."
             ],
             "images": [
                 "art_history.webp"
             ]
         },
         "type": "timepointer",
-        "text":  "Four paintings by four different artists appeared on the pages of the book. Identify the artists and arrange them chronologically by the artists’ dates of birth.",
+        "text": "Four paintings by four different artists appeared on the pages of the book. Identify the artists and arrange them chronologically by the artists’ dates of birth.",
         "events": [
-            { "name": "Čiurlionis", "order": 1, "image": "ciurlionis.webp"},
-            { "name": "Leonardo da Vinci", "order": 2, "image": "mona.webp"},
-            { "name": "Van Gogh", "order": 3, "image": "vangog.webp"},
-            { "name": "Dobuzhinsky", "order": 4, "image": "dobuzinskis.webp"}
+            {
+                "name": "Čiurlionis",
+                "order": 1,
+                "image": "ciurlionis.webp"
+            },
+            {
+                "name": "Leonardo da Vinci",
+                "order": 2,
+                "image": "mona.webp"
+            },
+            {
+                "name": "Van Gogh",
+                "order": 3,
+                "image": "vangog.webp"
+            },
+            {
+                "name": "Dobuzhinsky",
+                "order": 4,
+                "image": "dobuzinskis.webp"
+            }
         ],
         "points": 7,
         "attempts": 7,
@@ -129,14 +150,23 @@
                 "On Malostranské Square, in the shadow of St. Nicholas Church, the suitcase opened by itself.",
                 "You have 6 minutes to complete the task."
             ],
-            "images": ["katedra.webp"],
+            "images": [
+                "katedra.webp"
+            ],
             "changeInterval": 3
         },
         "text": [
             "In the magic suitcase there was an object in which adding seven to ten gives five.",
             "What kind of object is it?"
         ],
-        "answer": ["Watch", "A watch", "The watch","Clock", "A clock", "The clock"],
+        "answer": [
+            "Watch",
+            "A watch",
+            "The watch",
+            "Clock",
+            "A clock",
+            "The clock"
+        ],
         "points": 5,
         "time": 6,
         "hint": {
@@ -153,26 +183,32 @@
                 "The answer is – a watch.",
                 "But this is no ordinary watch — it is a time-twister, which may yet be of service to you."
             ],
-            "images": ["atsuktuvas.webp"]
+            "images": [
+                "atsuktuvas.webp"
+            ]
         }
     },
     {
         "id": "6",
         "name": "Famous Book",
         "lat": 50.08856031780504,
-"lng": 14.402484503070973,
+        "lng": 14.402484503070973,
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "On Nerudova Street, famous for its old house signs, the cover of the magic book has changed. Open it and identify the famous book.",
                 "You have 5 minutes to complete the task."
             ],
-            "images": ["book.webp"],
+            "images": [
+                "book.webp"
+            ],
             "changeInterval": 0
         },
         "image": "alice.png",
         "text": "Put the puzzle pieces together to form a square and identify the book.",
-        "answer": ["Alice in Wonderland"],
+        "answer": [
+            "Alice in Wonderland"
+        ],
         "points": 7,
         "attempts": 5,
         "time": 5
@@ -181,8 +217,7 @@
         "id": "7",
         "name": "Glasses",
         "lat": 50.0825189595524,
-"lng": 14.407394676560855,
-        
+        "lng": 14.407394676560855,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -225,7 +260,7 @@
         "id": "8",
         "name": "The Love Crossword",
         "lat": 50.08640511290582,
-"lng": 14.405495227817042,
+        "lng": 14.405495227817042,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -246,8 +281,10 @@
             "3. ... and Josephine",
             "4. Hermione and ...",
             "5. Romeo and ..."
-            ],
-        "answer": ["HEART"],
+        ],
+        "answer": [
+            "HEART"
+        ],
         "points": 6,
         "attempts": 5,
         "time": 7,
@@ -256,14 +293,16 @@
             "text": [
                 "The answer is - Heart."
             ],
-            "images": ["heart_answer.png"]
+            "images": [
+                "heart_answer.png"
+            ]
         }
     },
     {
         "id": "9",
         "name": "The Animal",
         "lat": 50.08647395246347,
-"lng": 14.404867355049305,
+        "lng": 14.404867355049305,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -272,7 +311,9 @@
                 "",
                 "You have 5 minutes and 7 attempts to complete the task."
             ],
-            "images": ["animal.webp"]
+            "images": [
+                "animal.webp"
+            ]
         },
         "type": "wordle",
         "text": [
@@ -297,7 +338,7 @@
         "id": "10",
         "name": "The Čertovka Water Wheel",
         "lat": 50.086174,
-        "lng":  14.407626,
+        "lng": 14.407626,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -306,7 +347,9 @@
                 "",
                 "You have 5 minutes to complete the task."
             ],
-            "images": ["painting.webp"]
+            "images": [
+                "painting.webp"
+            ]
         },
         "type": "photoValidation",
         "iconType": "photo",
@@ -332,7 +375,9 @@
                 "A flask jumped out of the suitcase and began dividing into identical flasks. Two, three, four, five.",
                 "You have 6 minutes to complete the task."
             ],
-            "images": ["colors_start.webp"],
+            "images": [
+                "colors_start.webp"
+            ],
             "changeInterval": 0
         },
         "image": "colors2.webp",
@@ -340,12 +385,13 @@
             "The waters of the Čertovka stream filled the flasks, and the paints jumped into the flasks and formed a paint equation.",
             "Which colour is encoded in this equation?"
         ],
-        "answer": ["GREEN"],
+        "answer": [
+            "GREEN"
+        ],
         "points": 6,
         "attempts": 4,
         "time": 6,
         "hint": {
-            "image": "colors_hint2.webp",
             "text": [
                 "Remember your art lessons. ",
                 "",
@@ -354,6 +400,7 @@
                 "",
                 "What other colours did you mix at school?"
             ],
+            "image": "colors_hint2.webp",
             "points": 2
         },
         "rewardType": "carousel",
@@ -361,7 +408,9 @@
             "text": [
                 "The solution to the equation is – GREEN."
             ],
-            "images": ["colors_solution.webp"]
+            "images": [
+                "colors_solution.webp"
+            ]
         }
     },
     {
@@ -369,40 +418,44 @@
         "name": "Radio Receiver",
         "lat": 50.08306914417519,
         "lng": 14.407799541950228,
-        "type": "audio",
-        "audio": "gnome.wav",
         "startType": "carousel",
         "startCarousel": {
-          "text": [
-            "The suitcase opened on the lawn. Inside a previously undiscovered compartment, you find a radio receiver instead of the familiar objects.",
-            "",
-            "You have 10 minutes to complete the task."
-          ],
-          "images": ["imtuvasv2.webp"],
-          "changeInterval": 0
+            "text": [
+                "The suitcase opened on the lawn. Inside a previously undiscovered compartment, you find a radio receiver instead of the familiar objects.",
+                "",
+                "You have 10 minutes to complete the task."
+            ],
+            "images": [
+                "imtuvasv2.webp"
+            ],
+            "changeInterval": 0
         },
+        "type": "audio",
+        "audio": "gnome.wav",
         "image": "imtuvasv2.webp",
         "text": [
-          "You received an audio message through the radio. It contains the encoded name of a fairy-tale character.",
-          "",
-          "The Morse code chart will help you:",
-          "A  ·−        G  −−·        M  −−         T  −",
-          "B  −···      H  ····       N  −·          U  ··−",
-          "C  −·−·      I  ··         O  −−−         V  ···−",
-          "D  −··       J  ·−−−       P  ·−−·        Z  −−··",
-          "E  ·         K  −·−        R  ·−·",
-          "F  ··−·      L  ·−··       S  ···"
+            "You received an audio message through the radio. It contains the encoded name of a fairy-tale character.",
+            "",
+            "The Morse code chart will help you:",
+            "A  ·−        G  −−·        M  −−         T  −",
+            "B  −···      H  ····       N  −·          U  ··−",
+            "C  −·−·      I  ··         O  −−−         V  ···−",
+            "D  −··       J  ·−−−       P  ·−−·        Z  −−··",
+            "E  ·         K  −·−        R  ·−·",
+            "F  ··−·      L  ·−··       S  ···"
         ],
-        "answer": ["GNOME"],
+        "answer": [
+            "GNOME"
+        ],
         "points": 10,
         "attempts": 5,
         "time": 10,
         "rewardType": "carousel",
         "reward": {
-          "text": [
-            "The fairy-tale character is a gnome."
-          ],
-          "image": "gnome.webp"
+            "text": [
+                "The fairy-tale character is a gnome."
+            ],
+            "image": "gnome.webp"
         }
     },
     {
@@ -417,7 +470,9 @@
                 "",
                 "You have 5 minutes to complete the task."
             ],
-            "images": ["degtukai.webp"],
+            "images": [
+                "degtukai.webp"
+            ],
             "changeInterval": 0
         },
         "image": "degtuku_uzduotis.webp",
@@ -426,7 +481,10 @@
             "Move one match so that the equation becomes correct.",
             "Write your answer as a full equation using plain numbers and symbols."
         ],
-        "answer": ["3+6=9", "3+5=8"],
+        "answer": [
+            "3+6=9",
+            "3+5=8"
+        ],
         "points": 5,
         "attempts": 5,
         "time": 5,
@@ -435,7 +493,9 @@
             "text": [
                 "This task has more than one solution. This is one of them."
             ],
-            "images": ["degtukai_sprendimas.webp"]
+            "images": [
+                "degtukai_sprendimas.webp"
+            ]
         }
     },
     {
@@ -454,10 +514,10 @@
                 "zole.webp"
             ]
         },
+        "type": "wordle",
         "text": [
             "Wordle. Guess the magical means of transport. While guessing, don't forget to wave the magic wand."
         ],
-        "type": "wordle",
         "answer": [
             "CARPET"
         ],
@@ -476,8 +536,8 @@
     {
         "id": "16",
         "name": "Kampa Chess",
-        "lat": 50.08400,
-        "lng": 14.40780,
+        "lat": 50.084,
+        "lng": 14.4078,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -485,7 +545,9 @@
                 "",
                 "You have 6 minutes to complete the task."
             ],
-            "images": ["sachmatai.webp"],
+            "images": [
+                "sachmatai.webp"
+            ],
             "changeInterval": 0
         },
         "image": "chesstask.webp",
@@ -495,7 +557,9 @@
             "",
             "In your answer write only the square the piece must move to, e.g.: A1"
         ],
-        "answer": ["D6"],
+        "answer": [
+            "D6"
+        ],
         "points": 6,
         "attempts": 4,
         "time": 6,
@@ -512,7 +576,6 @@
         "name": "Battleship",
         "lat": 50.08326248182132,
         "lng": 14.405693418627363,
-        "type": "bomb",
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -520,8 +583,11 @@
                 "Guess which square the ship can safely travel to. Guessing a safe spot gives +1 point. Hit a mine and all points are lost.",
                 "Stop in time."
             ],
-            "images": ["mina.webp"]
+            "images": [
+                "mina.webp"
+            ]
         },
+        "type": "bomb",
         "text": [
             "Guess a safe square for the ship. A successful guess gives +1 point. Sail onto a mine and your points are lost. Stop in time."
         ],
@@ -544,17 +610,33 @@
             ]
         },
         "type": "timepointer",
+        "image": "shared/museums/inventions1.webp",
         "text": [
             "Your task is to set the time-twister.",
             "The book fell open to a page showing various inventions.",
             "Put these inventions in order according to when they were created."
         ],
-        "image": "shared/museums/inventions1.webp",
         "events": [
-            { "name": "Compass", "order": 1, "text": "2nd century BC" },
-            { "name": "Printing press", "order": 2, "text": "1440" },
-            { "name": "Telescope", "order": 3, "text": "1608" },
-            { "name": "Hot air balloon", "order": 4, "text": "1783" }
+            {
+                "name": "Compass",
+                "order": 1,
+                "text": "2nd century BC"
+            },
+            {
+                "name": "Printing press",
+                "order": 2,
+                "text": "1440"
+            },
+            {
+                "name": "Telescope",
+                "order": 3,
+                "text": "1608"
+            },
+            {
+                "name": "Hot air balloon",
+                "order": 4,
+                "text": "1783"
+            }
         ],
         "points": 7,
         "attempts": 7,
@@ -564,9 +646,8 @@
     {
         "id": "19",
         "name": "Wheel of Fortune",
-        "lat": 50.08520,
-        "lng": 14.40800,
-        "type": "roulette",
+        "lat": 50.0852,
+        "lng": 14.408,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -574,8 +655,11 @@
                 "You found a golden five-point coin which lets you spin the wheel of fortune.",
                 "Guess the colour – red or black. Each time you guess correctly your points double. If you lose, you are left with the starting sum of five points."
             ],
-            "images": ["ratas.webp"]
+            "images": [
+                "ratas.webp"
+            ]
         },
+        "type": "roulette",
         "points": 5,
         "time": 5
     },
@@ -612,8 +696,8 @@
     {
         "id": "21",
         "name": "Charles IV",
-        "lat": 50.08660,
-        "lng": 14.40820,
+        "lat": 50.0866,
+        "lng": 14.4082,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -644,7 +728,7 @@
         "id": "23",
         "name": "Mathematical Equation",
         "lat": 50.08574424812177,
-"lng": 14.40915920042096,
+        "lng": 14.40915920042096,
         "startType": "carousel",
         "startCarousel": {
             "text": [
@@ -652,14 +736,18 @@
                 "The flasks filled with water, and the paints jumped into them and coloured them gold and silver.",
                 "You have 6 minutes to complete the task."
             ],
-            "images": ["lygtis_start.webp"],
+            "images": [
+                "lygtis_start.webp"
+            ],
             "changeInterval": 0
         },
         "image": "lygtis.webp",
         "text": [
             "Solve the equations with the time-twister and the gold and silver liquids."
         ],
-        "answer": ["18"],
+        "answer": [
+            "18"
+        ],
         "points": 8,
         "attempts": 5,
         "time": 6,
@@ -674,7 +762,9 @@
             "text": [
                 "The answer is – 18."
             ],
-            "images": ["sprendimas.webp"]
+            "images": [
+                "sprendimas.webp"
+            ]
         }
     }
 ]

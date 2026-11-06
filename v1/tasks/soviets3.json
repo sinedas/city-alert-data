@@ -1,5 +1,4 @@
 [
-
     {
         "id": "1",
         "name": "Žalgirio stadionas",
@@ -12,13 +11,15 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["stadionas.webp"],
+            "images": [
+                "stadionas.webp"
+            ],
             "changeInterval": 3
         },
         "image": "zalgiris.webp",
         "text": [
             "Jūs stovite šalia Žalgirio stadiono. Tenai neseniai vyko varžybos, kurios baigėsi lygiu rezultatu. Bet švieslentė sugedo ir rezultatas joje nelygus.",
-            "Perkelkite vieną brūkšnelį rezultate, kad lygybė būtų teisinga.",  
+            "Perkelkite vieną brūkšnelį rezultate, kad lygybė būtų teisinga.",
             "Atsakyme įrašykite kiek viso įvarčių buvo imušta per varžybas."
         ],
         "answer": [
@@ -37,26 +38,28 @@
         "id": "2",
         "name": "Žalgirio stadionas",
         "lat": 54.69392131777821,
-        "lng":  25.290029537284926,
-        "iconType": "photo",
+        "lng": 25.290029537284926,
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["stadionas.webp"],
+            "images": [
+                "stadionas.webp"
+            ],
             "changeInterval": 3
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės",
+            "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
         },
         "text": [
             "Vartai į stadioną buvo atrakinti. Jūs užėjote į vidų kur sutikote Žalgirio sirgalius",
             "Jie pasiūlė nusifotografuoti.",
             "Padarykite komandos narių nuotrauką, kur jie iškėlę rankas virš galvos."
         ],
-        "type": "photoValidation",
-        "photoValidation": {
-            "prompt": "Ar nuotraukoje yra žmogus ar žmonės",
-            "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
-        },
         "points": 5,
         "time": 6
     },
@@ -72,7 +75,9 @@
                 "",
                 "Užduočiai atlikti turite 8 minutes."
             ],
-            "images": ["lagaminelis.webp"],
+            "images": [
+                "lagaminelis.webp"
+            ],
             "changeInterval": 3
         },
         "text": [
@@ -126,10 +131,12 @@
         "lng": 25.28962892500207,
         "startType": "carousel",
         "startCarousel": {
-            "text": [                
+            "text": [
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["sporto_rumai2.webp"],
+            "images": [
+                "sporto_rumai2.webp"
+            ],
             "changeInterval": 3
         },
         "image": "sporto_rumai.webp",
@@ -140,38 +147,41 @@
             "[href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href]"
         ],
         "answer": [
-            "Eidukevičiaus", "Eidukevičius"
+            "Eidukevičiaus",
+            "Eidukevičius"
         ],
-        "reward": {
-            "text": [
-                "Okupuotoje sovietinėje Lietuvoje gatvės dažnai buvo pavadintos sovietinių ir komunistinių veikėjų vardais – tai buvo daroma ideologiniais tikslais, siekiant įtvirtinti tuo metu vyravusią sistemą.",                
-                "Vienas tokių pavyzdžių – mažiau žinomas komunistinis veikėjas [href=\"https://lt.wikipedia.org/wiki/Pranas_Eidukevi%C4%8Dius#:~:text=Pranas%20Eidukevi%C4%8Dius%20(slapyvardis%20Marcelka%3B%201869,Rusijos%20socialdemokrat%C5%B3%20darbinink%C5%B3%20partijos%20veik%C4%97jas\"]Pranas Eidukevičius.[/href]",                
-                "Atkūrus nepriklausomybę, dauguma šių pavadinimų buvo pakeisti, sugrąžinant istorinius ar vietos tradicijas atspindinčius gatvių vardus."
-            ]
-        },
         "points": 2,
         "attempts": 5,
-        "time": 5
+        "time": 5,
+        "reward": {
+            "text": [
+                "Okupuotoje sovietinėje Lietuvoje gatvės dažnai buvo pavadintos sovietinių ir komunistinių veikėjų vardais – tai buvo daroma ideologiniais tikslais, siekiant įtvirtinti tuo metu vyravusią sistemą.",
+                "Vienas tokių pavyzdžių – mažiau žinomas komunistinis veikėjas [href=\"https://lt.wikipedia.org/wiki/Pranas_Eidukevi%C4%8Dius#:~:text=Pranas%20Eidukevi%C4%8Dius%20(slapyvardis%20Marcelka%3B%201869,Rusijos%20socialdemokrat%C5%B3%20darbinink%C5%B3%20partijos%20veik%C4%97jas\"]Pranas Eidukevičius.[/href]",
+                "Atkūrus nepriklausomybę, dauguma šių pavadinimų buvo pakeisti, sugrąžinant istorinius ar vietos tradicijas atspindinčius gatvių vardus."
+            ]
+        }
     },
     {
         "id": "5",
         "name": "Vilniaus elektrinė",
         "lat": 54.69012935540837,
-        "lng": 25.288086532429077, 
+        "lng": 25.288086532429077,
         "startType": "carousel",
-        "startCarosel": {
+        "startCarousel": {
             "text": [
                 "Jūsų užduotis – Žodlė. Spėkite žodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
                 "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
                 "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
                 "Turite 10 bandymų (10 taškų). Kiekvienas bandymas – minus 1 taškas."
             ],
-            "images": ["elektrine.webp"]
+            "images": [
+                "elektrine.webp"
+            ]
         },
+        "type": "wordle",
         "text": [
             "Spėkite žodį: jis yra susijęs su šia vieta."
         ],
-        "type": "wordle",
         "answer": [
             "VOLTAS"
         ],
@@ -192,17 +202,19 @@
         "name": "Pontoninis tiltas",
         "lat": 54.68947278806482,
         "lng": 25.28853341123034,
-        "image": "children.webp",        
+        "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Jūs priėjote Nerį. Tuo metu Mindaugo tiltas dar nebuvo pastatytas, o vasaromis buvo įrengiamas laikinas pontoninis tiltas.",
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["pontonas.webp"],
+            "images": [
+                "pontonas.webp"
+            ],
             "changeInterval": 3
         },
-        "startType": "carousel",
+        "image": "children.webp",
         "text": [
             "Šalia pontoninio tilto, jūs sutinkate berniuką Julių su draugų kompanija.",
             "Įsižiūrėkite į paveiksliuką.",
@@ -217,10 +229,10 @@
         "attempts": 4,
         "time": 6,
         "reward": {
-            "image": "pontonas.webp",
             "text": [
                 "1975 m. balandžio 13 d. įvykus Lietuvą sukrėtusiai tilto griūčiai, pareikalavusiai žmonių aukų, pontoninis tiltas buvo galutinai išmontuotas."
-            ]
+            ],
+            "image": "pontonas.webp"
         }
     },
     {
@@ -235,7 +247,9 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["pionieriu_namai.webp"],
+            "images": [
+                "pionieriu_namai.webp"
+            ],
             "changeInterval": 3
         },
         "image": "marks2.webp",
@@ -255,10 +269,10 @@
             "points": 2
         },
         "reward": {
-            "image": "coffee.webp",
             "text": [
                 "Jūs gaunate KAVOS dėžutę, paliktą jums Izaoko Goldšteino. Kava buvo deficitinė prekė tuo metu ir jos nebuvo galima įsigyti parduotuvėse."
-            ]
+            ],
+            "image": "coffee.webp"
         }
     },
     {
@@ -266,27 +280,29 @@
         "name": "Katedros aikštė",
         "lat": 54.685851172662325,
         "lng": 25.286643927572907,
-        "iconType": "photo",
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["katedra.webp"],
+            "images": [
+                "katedra.webp"
+            ],
             "changeInterval": 3
         },
-        "text": [
-            "Padarykite komandos narių nuotrauką taip, kad joje matytųsi didelis daiktas, kuriame prie vienuolikos pridėjus šešis gaunama penki."            
-        ],
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės ir Vilniaus varpinės bokštas su laikrodžiu?",
             "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
         },
+        "text": [
+            "Padarykite komandos narių nuotrauką taip, kad joje matytųsi didelis daiktas, kuriame prie vienuolikos pridėjus šešis gaunama penki."
+        ],
         "points": 5,
         "time": 6,
         "hint": {
-            "text": [ 
+            "text": [
                 "Šį daiktą paprastai nešiojate ant rankos. Ką jis rodo?",
                 "Kur dar galite pamatyti šį daiktą?"
             ],
@@ -304,7 +320,9 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["katedra.webp"],
+            "images": [
+                "katedra.webp"
+            ],
             "changeInterval": 3
         },
         "image": "clockv2.webp",
@@ -312,22 +330,27 @@
             "Katedros Varpinės laikrodis dėl nepriežiūros sugedo. Meistrai sutvarkė laikrodį, bet reikia nustatyti gerą dienos laiką.",
             "Sužinoti koks dabar laikas jums padės šis laikrodis, tik nėra aiškų kuri rodyklė ką rodo.",
             "Atsakyme įrašykite laiką formatu HH:MM:SS",
-            "(valandoms naudokite tik 00-11 valandas)."],
-        "answer": [
-            "04:50:00", "4:50:00", "4:50:0", "04:50", "4:50"
+            "(valandoms naudokite tik 00-11 valandas)."
         ],
+        "answer": [
+            "04:50:00",
+            "4:50:00",
+            "4:50:0",
+            "04:50",
+            "4:50"
+        ],
+        "points": 7,
+        "attempts": 4,
+        "time": 5,
         "hint": {
             "text": "Sekundžių rodyklė rodo 0. Pasukite laikrodį taip, kad sekundžių rodyklė būtų nukreipta į viršų. Ką rodo kitos rodyklės?",
             "points": 2
         },
-        "points": 7,
-        "attempts": 4,
-        "time": 5,        
         "reward": {
-            "image": "clock_rez.webp",
             "text": [
                 "Laikrodis dabar rodo teisingą laiką."
-            ]
+            ],
+            "image": "clock_rez.webp"
         }
     },
     {
@@ -335,18 +358,18 @@
         "name": "Liūtukai",
         "lat": 54.68621456249128,
         "lng": 25.284671323460454,
-        "iconType": "photo",
-        "text": [
-            "Suraskite liūtukus ir pasidarykite nuotrauką šalia liūtukų, kurioje komandos nariai būtų atsistoję ant visų keturių letenų ir imituotų liūtus."            
-        ],       
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės pasilenkę, galimai vaizduojantys liūtus.",
             "transformationPrompt": "Transform the input photo into a clearly stylized, non-photorealistic semi-cartoon illustration with a warm natural palette (beige, light ochre, warm cream, earthy tones) enriched with subtle natural color variation (including soft greens and muted complementary tones), using simplified shapes, reduced fine detail, flatter shading, visible brush stylization, and consistent thin to medium dark outlines across the entire environment, with a subtle watercolor texture, ensuring the image looks illustrated rather than photographic, avoiding realistic lighting and textures. Preserve all people exactly as they are, keeping their faces, proportions, expressions, and recognizability unchanged. Only add subtle cat features: thin natural cat whiskers, and a gently integrated cat tail that follows the body’s posture. These additions should match the same illustration style, perspective, and lighting, and blend naturally into the scene without exaggeration or distortion."
         },
+        "text": [
+            "Suraskite liūtukus ir pasidarykite nuotrauką šalia liūtukų, kurioje komandos nariai būtų atsistoję ant visų keturių letenų ir imituotų liūtus."
+        ],
         "points": 5,
         "time": 6
-    },    
+    },
     {
         "id": "11",
         "name": "Lietuvos Paštas",
@@ -354,10 +377,12 @@
         "lng": 25.282889263923398,
         "startType": "carousel",
         "startCarousel": {
-            "text": [                
+            "text": [
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["pastas.webp"],
+            "images": [
+                "pastas.webp"
+            ],
             "changeInterval": 3
         },
         "image": "pastas.webp",
@@ -382,11 +407,31 @@
         "type": "timepointer",
         "text": "Jūs atėjote į Černiachovskio aikštę, kur stovėjo skulptūra sovietiniam generolui Černiahovskiui. Tačiau sovietinės skulptūros stovėjo ir kitose Vilniaus vietose. Surikiuokite, kas kur stovėjo:",
         "events": [
-            { "name": "A.Jakšto- Kaštonų g sankryžoje.", "order": 1, "image": "jaksto_monument.webp"},
-            { "name": "Petro Cvirkos aikštėje.", "order": 2, "image": "cvirkos_monument.webp"},
-            { "name": "Kudirkos aikštėje", "order": 3, "image": "cerniachovskis_monument.webp"},
-            { "name": "Lukiškių aikštėje", "order": 4, "image": "lenino_monument.webp"},
-            { "name": "Ant Žaliojo tilto", "order": 5, "image": "zaliasis_monument.webp"}
+            {
+                "name": "A.Jakšto- Kaštonų g sankryžoje.",
+                "order": 1,
+                "image": "jaksto_monument.webp"
+            },
+            {
+                "name": "Petro Cvirkos aikštėje.",
+                "order": 2,
+                "image": "cvirkos_monument.webp"
+            },
+            {
+                "name": "Kudirkos aikštėje",
+                "order": 3,
+                "image": "cerniachovskis_monument.webp"
+            },
+            {
+                "name": "Lukiškių aikštėje",
+                "order": 4,
+                "image": "lenino_monument.webp"
+            },
+            {
+                "name": "Ant Žaliojo tilto",
+                "order": 5,
+                "image": "zaliasis_monument.webp"
+            }
         ],
         "points": 5,
         "attempts": 5,
@@ -411,7 +456,9 @@
                 "",
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["vaiku_pasaulis.webp"],
+            "images": [
+                "vaiku_pasaulis.webp"
+            ],
             "changeInterval": 3
         },
         "text": [
@@ -423,14 +470,14 @@
         "answer": [
             "15:02"
         ],
+        "points": 5,
+        "attempts": 5,
+        "time": 5,
         "hint": {
             "text": "Laikrodis atsispindėjo veidrodyje.",
             "image": "cup_hint.png",
             "points": 2
-        },
-        "points": 5,
-        "attempts": 5,
-        "time": 5
+        }
     },
     {
         "id": "14",
@@ -442,7 +489,9 @@
             "text": [
                 "Užduočiai atlikti turite 5 minutes."
             ],
-            "images": ["knygynas.webp"],
+            "images": [
+                "knygynas.webp"
+            ],
             "changeInterval": 3
         },
         "image": "guliveris.png",
@@ -455,7 +504,7 @@
         ],
         "points": 5,
         "attempts": 5,
-        "time": 8,        
+        "time": 8,
         "hint": {
             "image": "guliveris_hint.png",
             "points": 2
@@ -466,12 +515,11 @@
         "name": "Juliaus laiškas",
         "lat": 54.684811107668416,
         "lng": 25.276287105731818,
+        "image": "julius.png",
         "text": [
             "Pionierius Julius skubėdamas pametė laišką. Pats to nežinodamas Julius sugalvojo šriftą naudojamą dar Julijaus Cezario laikais. Berniukas naudojo trijų raidžių žingsnį. ",
             "Perskaitykite Juliaus laišką. Kuriame kinoteatre jis laukia savo draugo? Atsakyme įrašykite, koks buvo kinoteatro pavadinimas."
-            
         ],
-        "image": "julius.png",
         "answer": [
             "Pergalė"
         ],
@@ -488,30 +536,31 @@
         "name": "Petro Cvirkos aikštė",
         "lat": 54.684352778235,
         "lng": 25.276472036679984,
-        "iconType": "photo",        
-        "text": [
-            "Padarykite komandos narių nuotrauką, kur jie vaizduoja sovietinio paminklo skulptūrą."
-        ],
         "type": "photoValidation",
+        "iconType": "photo",
         "photoValidation": {
             "prompt": "Ar nuotraukoje yra žmogus ar žmonės",
             "transformationPrompt": "Stylize the photo into a warm semi-cartoon illustration (beige/ochre/cream, simplified shapes, brush feel, thin-medium outlines, subtle watercolor). Replace people with life-sized cardboard standees in bold retro comic style (flat colors, thick outlines, flat tan skin), same poses/clothes; background stays more painterly. Not photorealistic."
         },
+        "text": [
+            "Padarykite komandos narių nuotrauką, kur jie vaizduoja sovietinio paminklo skulptūrą."
+        ],
         "points": 5,
         "time": 6
     },
     {
         "id": "17",
         "name": "Kinoteatras",
-        "lat": 54.6862437010621, 
+        "lat": 54.6862437010621,
         "lng": 25.275005803009805,
-        
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Užduočiai atlikti turite 8 minutes."
             ],
-            "images": ["pergale.webp"],
+            "images": [
+                "pergale.webp"
+            ],
             "changeInterval": 3
         },
         "text": [
@@ -525,23 +574,27 @@
             "Atsakymų ieškokite žemėlapyje:",
             "[href=\"https://i0.wp.com/aidai.lt/wp-content/uploads/2023/10/Zemelapis-Vilniaus-sovietmeciu.jpg?ssl=1\"]Vilniaus žemėlapis[/href]"
         ],
-        "answer": ["4 tankistai ir šuo", "Keturi tankistai ir šuo"],
+        "answer": [
+            "4 tankistai ir šuo",
+            "Keturi tankistai ir šuo"
+        ],
         "points": 10,
         "attempts": 5,
         "time": 8
-        
     },
     {
         "id": "18",
         "name": "Lozungas",
-        "lat": 54.68723902915875,     
+        "lat": 54.68723902915875,
         "lng": 25.271600457362418,
         "startType": "carousel",
         "startCarousel": {
             "text": [
                 "Užduočiai atlikti turite 7 minutes."
             ],
-            "images": ["profsajunga.webp"],
+            "images": [
+                "profsajunga.webp"
+            ],
             "changeInterval": 3
         },
         "image": "leninv2.jpg",
@@ -550,10 +603,12 @@
             "Išspreskite raidžių labirintą.Eikite po žingsnelį pagal rodykles nuo raidės 'L' (eikite į ↑ arba ← arba ↓ arba → ir perskaitykite šūkį).",
             "Atsakyme įrašykite paskutinį šūkio žodį."
         ],
-        "answer": ["nemarios"],
+        "answer": [
+            "nemarios"
+        ],
         "points": 6,
         "attempts": 5,
-        "time": 7,        
+        "time": 7,
         "hint": {
             "image": "lenin_hintv2.jpg",
             "points": 2
@@ -575,10 +630,12 @@
             "B  −···      H  ····         N  −·          U  ··−  ",
             "C  −·−·     I  ··            O  −−−       V  ···− ",
             "D  −··       J  ·−−−      P  ·−−·       Z  −−·· ",
-            "E  ·           K  −·−        R  ·−·",          
+            "E  ·           K  −·−        R  ·−·",
             "F  ··−·       L  ·−··        S  ··· "
         ],
-        "answer": ["KGB"],
+        "answer": [
+            "KGB"
+        ],
         "points": 7,
         "attempts": 5,
         "time": 7,
@@ -592,7 +649,7 @@
     {
         "id": "20",
         "name": "Lenino aikštė",
-        "lat":  54.68912380475053,   
+        "lat": 54.68912380475053,
         "lng": 25.270910018666058,
         "startType": "carousel",
         "startCarousel": {
@@ -603,8 +660,9 @@
                 "",
                 "Užduočiai atlikti turite 8 minutes."
             ],
-            "images": ["leninoaikste.webp"],
-            
+            "images": [
+                "leninoaikste.webp"
+            ],
             "changeInterval": 3
         },
         "image": "leninoaikste.webp",
@@ -614,10 +672,12 @@
             "1969 metais per jų gimimo dieną, Julius buvo vyresnis už Marių lygiai du kartus.",
             "Kokie yra dabar metai?"
         ],
-        "answer": ["1975"],
+        "answer": [
+            "1975"
+        ],
         "points": 8,
         "attempts": 5,
-        "time": 8,        
+        "time": 8,
         "hint": {
             "text": [
                 "Įsisvaizduokite, M yra Mariaus metai 1969 metais. Kadangi Julius tais metais buvo du kartus vyresnis, galima parašyti lygtį:",
@@ -633,6 +693,4 @@
             "image": "veliavav2.webp"
         }
     }
-
-    
 ]
