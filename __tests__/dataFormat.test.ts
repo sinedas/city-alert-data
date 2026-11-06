@@ -25,7 +25,7 @@ describe('formatDocument', () => {
   });
 
   it('strips a byte order mark', () => {
-    const { output } = formatDocument('�[]', 'tasks');
+    const { output } = formatDocument('\uFEFF[]', 'tasks');
     expect(output).toBe('[]\n');
   });
 
