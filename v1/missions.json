@@ -19,7 +19,7 @@
         "active": true,
         "level": "Vidutinis",
         "locked": false,
-        "circle": false,
+        "circle": true,
         "description": "Atskleiskite Tuskulėnų dvaro paslaptis ir sužinokite vaiduoklio istoriją.",
         "longDescription": [
             "Tuskulėnų dvaras turi turtingą istoriją. Taip pat jis slepia ne vieną paslaptį ir ne vieną tikrų žmonių istoriją.",
