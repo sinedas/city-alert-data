@@ -750,6 +750,15 @@
         "folder": "wizard",
         "title": "Klaipėdos burtininkas",
         "image": "klaipeda.webp",
+        "images": [
+            "dane.webp",
+            "dane2.webp",
+            "pastatas.webp",
+            "kiemas.webp",
+            "balandziai.webp",
+            "ponios.webp",
+            "siena.wepb"
+        ],
         "location": {
             "lat": 55.70861885526675,
             "lng": 21.134444220860903
