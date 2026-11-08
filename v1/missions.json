@@ -474,6 +474,12 @@
         "code": "kaunas",
         "title": "Laikinoji sostinė",
         "image": "zalgiris.jpg",
+        "images": [
+            "ciurlionis.webp",
+            "kaunas.webp",
+            "romuva.webp",
+            "arena2.webp"
+        ],
         "location": {
             "lat": 54.89299768651124,
             "lng": 23.905853229993056
