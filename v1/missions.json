@@ -248,6 +248,13 @@
         "code": "soviets3",
         "title": "Sovietinis Vilnius",
         "image": "soviets3.webp",
+        "images": [
+            "stadionas.webp",
+            "elektrine.webp",
+            "pontonasv2.webp",
+            "pionieriu_namai.webp",
+            "leninoaikste.webp"
+        ],
         "location": {
             "lat": 54.689519126507015,
             "lng": 25.27091553917187
