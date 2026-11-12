@@ -23,9 +23,7 @@
         "lng": 23.911630839231115,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 6 minutes."
-            ],
+            "text": [],
             "images": [
                 "ciurlionis.webp"
             ],
@@ -287,9 +285,7 @@
         "lng": 23.912981298985812,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "zalgiris.jpg"
             ]

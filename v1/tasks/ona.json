@@ -24,9 +24,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Gedimino paminklas.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Gedimino paminklas."
             ],
             "images": [
                 "gedimino.webp"
@@ -77,9 +75,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Vilniaus pilių maketas.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Vilniaus pilių maketas."
             ],
             "images": [
                 "maketasv2.webp"
@@ -478,8 +474,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "R. Kuncos dirbtuvės. Apsidairykite.",
-                "Užduočiai atlikti turite 8 minutes."
+                "R. Kuncos dirbtuvės. Apsidairykite."
             ],
             "images": [
                 "kunca.webp"
@@ -749,9 +744,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Priešais Šv. Dievo Motinos cerkvę jus randate lagaminą su spyna.",
-                "",
-                "Užduočiai atlikti turite 7 minutes."
+                "Priešais Šv. Dievo Motinos cerkvę jus randate lagaminą su spyna."
             ],
             "images": [
                 "varpelis.webp"

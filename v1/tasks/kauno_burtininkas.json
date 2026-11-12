@@ -117,9 +117,7 @@
         "lng": 23.887214048621686,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 6 minutes."
-            ],
+            "text": [],
             "images": [
                 "katedra.webp"
             ],
@@ -161,8 +159,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Stebuklingos knygos viršelis vėl pasikeitė. Atverskite ją ir spėkite pasakos pavadinimą.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Stebuklingos knygos viršelis vėl pasikeitė. Atverskite ją ir spėkite pasakos pavadinimą."
             ],
             "images": [
                 "pasakos.webp"
@@ -237,9 +234,7 @@
         "startCarousel": {
             "text": [
                 "Knygos pavadinime atsirado užrašas: 'Meilės kryžiažodis'.",
-                "Atverskite knygą ir atlikite naują užduotį",
-                "",
-                "Užduočiai atlikti turite 7 minutes."
+                "Atverskite knygą ir atlikite naują užduotį"
             ],
             "images": [
                 "sforca.webp"
@@ -279,8 +274,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Kolba iššoko iš lagamino, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Kolba iššoko iš lagamino, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios."
             ],
             "images": [
                 "colors_start.webp"
@@ -373,9 +367,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Degtukų dėžutė netikėtai pati atsidarė",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Degtukų dėžutė netikėtai pati atsidarė"
             ],
             "images": [
                 "degtukai.webp"
@@ -414,8 +406,7 @@
         "startCarousel": {
             "text": [
                 "Ant pievelės yra stebuklinga transporto priemonė.",
-                "Tik ji pasislėpusi po nepermatoma uždanga.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Tik ji pasislėpusi po nepermatoma uždanga."
             ],
             "images": [
                 "zole.webp"
@@ -521,8 +512,7 @@
         "startCarousel": {
             "text": [
                 "Kolba iš lagamino iššoko, ir pasidalino į dvi kolbas.",
-                "Kolbos prisipildė vandens, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Kolbos prisipildė vandens, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis."
             ],
             "images": [
                 "lygtis_start.webp"
@@ -563,8 +553,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdykauti.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Fėjos lazdelė ėmė išdykauti."
             ],
             "images": [
                 "lazdele.webp"
@@ -592,9 +581,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Laiko atsuktuvas suveikė ir nukeldino jus į 1928 metus.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Laiko atsuktuvas suveikė ir nukeldino jus į 1928 metus."
             ],
             "images": [
                 "atsuktuvas.webp"
@@ -621,9 +608,7 @@
         "startCarousel": {
             "text": [
                 "Šalia šuniukų baseino stebuklingoji knyga atsivertė ties pasaka 'Dvylika mėnesių'.",
-                "Pasirodo, baseino šuniukai, ne šiaip šuniukai, o našlaitės pamotė kartu su dukromis.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Pasirodo, baseino šuniukai, ne šiaip šuniukai, o našlaitės pamotė kartu su dukromis."
             ],
             "images": [
                 "menesiai.webp"
@@ -651,9 +636,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Laiko atsuktuvas vėl suveikė ir nukeldino jus į praeitį į Juozo Tumo Vaižganto laikus.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Laiko atsuktuvas vėl suveikė ir nukeldino jus į praeitį į Juozo Tumo Vaižganto laikus."
             ],
             "images": [
                 "atsuktuvas.webp"
@@ -679,8 +662,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdykauti.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Fėjos lazdelė ėmė išdykauti."
             ],
             "images": [
                 "lazdele.webp"

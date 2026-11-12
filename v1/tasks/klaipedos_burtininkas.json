@@ -169,9 +169,7 @@
         "lng": 21.132904887199402,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 6 minutes."
-            ],
+            "text": [],
             "images": [
                 "katedra.webp"
             ],
@@ -214,8 +212,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Stebuklingos knygos viršelis vėl pasikeitė. Atverskite ją ir spėkite pasakos pavadinimą.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Stebuklingos knygos viršelis vėl pasikeitė. Atverskite ją ir spėkite pasakos pavadinimą."
             ],
             "images": [
                 "pasakos.webp"
@@ -295,9 +292,7 @@
         "startCarousel": {
             "text": [
                 "Senamiesčio pašto balandžiai snape laikė voką su užrašu „Meilės kryžiažodis“.",
-                "Atverkite voką ir išspręskite kryžiažodį.",
-                "",
-                "Užduočiai atlikti turite 7 minutes."
+                "Atverkite voką ir išspręskite kryžiažodį."
             ],
             "images": [
                 "vokas.webp"
@@ -337,8 +332,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Kolba iššoko iš lagamino ir ėmė dalytis į tokias pačias kolbas: dvi, tris, keturias, penkias.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Kolba iššoko iš lagamino ir ėmė dalytis į tokias pačias kolbas: dvi, tris, keturias, penkias."
             ],
             "images": [
                 "colors_start.webp"
@@ -433,9 +427,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Degtukų dėžutė netikėtai pati atsidarė.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Degtukų dėžutė netikėtai pati atsidarė."
             ],
             "images": [
                 "degtukai.webp"
@@ -474,8 +466,7 @@
         "startCarousel": {
             "text": [
                 "Dienovidžio skvere ant pievelės yra stebuklinga transporto priemonė.",
-                "Tik ji pasislėpusi po nepermatoma uždanga.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Tik ji pasislėpusi po nepermatoma uždanga."
             ],
             "images": [
                 "zole.webp"
@@ -588,8 +579,7 @@
         "startCarousel": {
             "text": [
                 "Kolba iššoko iš lagamino ir pasidalijo į dvi kolbas.",
-                "Fontanas pripildė kolbas vandeniu, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Fontanas pripildė kolbas vandeniu, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis."
             ],
             "images": [
                 "lygtis_start.webp"
@@ -630,8 +620,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Laiko atsuktuvas perkėlė jus į 1935-uosius, į Klaipėdos geležinkelio stotį.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Laiko atsuktuvas perkėlė jus į 1935-uosius, į Klaipėdos geležinkelio stotį."
             ],
             "images": [
                 "atsuktuvas.webp"
@@ -674,8 +663,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Lagaminas netikėtai užsirakino kodine spyna.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Lagaminas netikėtai užsirakino kodine spyna."
             ],
             "images": [
                 "spyna2.webp"
@@ -711,8 +699,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Burtų lazdele mostelėjus „Meridiano“ burės išsiskleidė.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Burtų lazdele mostelėjus „Meridiano“ burės išsiskleidė."
             ],
             "images": [
                 "lazdele.webp"
@@ -739,9 +726,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Laiko atsuktuvas suveikė ir nukėlė jus į 1935 metus.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Laiko atsuktuvas suveikė ir nukėlė jus į 1935 metus."
             ],
             "images": [
                 "atsuktuvas.webp"
@@ -768,9 +753,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Lazdelė pavertė jus rokeriais.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Lazdelė pavertė jus rokeriais."
             ],
             "images": [
                 "lazdele.webp"
@@ -798,9 +781,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Lazdelė atgaivino slibiną ant sienos.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Lazdelė atgaivino slibiną ant sienos."
             ],
             "images": [
                 "lazdele.webp"
@@ -827,8 +808,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Burtų lazdelė ėmė išdykauti.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Burtų lazdelė ėmė išdykauti."
             ],
             "images": [
                 "lazdele.webp"

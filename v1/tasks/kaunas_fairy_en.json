@@ -7,8 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "The notebook opened to a task called \"Letter Magic Challenge\".",
-                "You have 7 minutes to complete the task."
+                "The notebook opened to a task called \"Letter Magic Challenge\"."
             ],
             "images": [
                 "letters_question.webp"
@@ -90,8 +89,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "The fairy's wand started to play tricks.",
-                "You have 5 minutes to complete the task."
+                "The fairy's wand started to play tricks."
             ],
             "images": [
                 "lazdele.webp"
@@ -118,9 +116,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "The backpack opened, and pencils spilled out.",
-                "",
-                "You have 6 minutes to complete the task."
+                "The backpack opened, and pencils spilled out."
             ],
             "images": [
                 "piestukai.webp"

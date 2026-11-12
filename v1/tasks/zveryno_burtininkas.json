@@ -83,8 +83,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdykauti.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Fėjos lazdelė ėmė išdykauti."
             ],
             "images": [
                 "lazdele.webp"
@@ -154,9 +153,7 @@
         "lng": 25.24973436409676,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 6 minutes."
-            ],
+            "text": [],
             "images": [
                 "katedra.webp"
             ],
@@ -198,8 +195,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Stebuklingos knygos viršelis vėl pasikeitė. Atverskite ją ir spėkite pasakos pavadinimą.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Stebuklingos knygos viršelis vėl pasikeitė. Atverskite ją ir spėkite pasakos pavadinimą."
             ],
             "images": [
                 "pasakos.webp"
@@ -274,9 +270,7 @@
         "startCarousel": {
             "text": [
                 "Knygos viršelyje atsirado užrašas: 'Meilės kryžiažodis'.",
-                "Atverskite knygą ir atlikite naują užduotį.",
-                "",
-                "Užduočiai atlikti turite 7 minutes."
+                "Atverskite knygą ir atlikite naują užduotį."
             ],
             "images": [
                 "sforca.webp"
@@ -316,9 +310,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Laiko atsuktuvas suveikė ir nukeldino jus į 1926 metus, kai Vilnius priklausė Lenkijai.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Laiko atsuktuvas suveikė ir nukeldino jus į 1926 metus, kai Vilnius priklausė Lenkijai."
             ],
             "images": [
                 "atsuktuvas.webp"
@@ -344,8 +336,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Kolba iš lagamino iššoko, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Kolba iš lagamino iššoko, ėmė dalintis į tokias pat kolbas. Dvi, trys, keturios, penkios."
             ],
             "images": [
                 "colors_start.webp"
@@ -438,9 +429,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Degtukų dėžutė netikėtai pati atsidarė.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Degtukų dėžutė netikėtai pati atsidarė."
             ],
             "images": [
                 "degtukai.webp"
@@ -479,8 +468,7 @@
         "startCarousel": {
             "text": [
                 "Ant pievelės yra stebuklinga transporto priemonė.",
-                "Tik ji pasislėpusi po nepermatoma uždanga.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Tik ji pasislėpusi po nepermatoma uždanga."
             ],
             "images": [
                 "zole.webp"
@@ -513,9 +501,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Lagaminas atsidarė ant pievelės ir jame atsirado šachmatų figūros.",
-                "",
-                "Užduočiai atlikti turite 6 minutes."
+                "Lagaminas atsidarė ant pievelės ir jame atsirado šachmatų figūros."
             ],
             "images": [
                 "sachmatai.webp"
@@ -644,8 +630,7 @@
         "startCarousel": {
             "text": [
                 "Kolba iš lagamino iššoko ir pasidalino į dvi kolbas.",
-                "Kolbos prisipildė vandens, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Kolbos prisipildė vandens, o dažai šoko į kolbas ir nuspalvino jas aukso ir sidabro spalvomis."
             ],
             "images": [
                 "lygtis_start.webp"
@@ -704,8 +689,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Lagaminas netikėtai užsirakino kodine spyna.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Lagaminas netikėtai užsirakino kodine spyna."
             ],
             "images": [
                 "spyna.webp"
@@ -747,8 +731,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Lagaminas vėl užsirakino kodine spyna.",
-                "Užduočiai atlikti turite 6 minutes."
+                "Lagaminas vėl užsirakino kodine spyna."
             ],
             "images": [
                 "spyna.webp"

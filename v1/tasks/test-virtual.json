@@ -1,0 +1,248 @@
+[
+    {
+        "id": "1",
+        "name": "Komandos vardas",
+        "lat": 54.8985,
+        "lng": 23.8861,
+        "type": "team_name",
+        "text": [
+            "🧪 TEST VIRTUAL MISSION",
+            "",
+            "Sveiki! Tai testavimo misija.",
+            "Įveskite savo komandos vardą."
+        ],
+        "answer": [],
+        "points": 1,
+        "attempts": 1,
+        "time": 5,
+        "nextTaskId": "2"
+    },
+    {
+        "id": "2",
+        "name": "Foto testas",
+        "lat": 54.8992,
+        "lng": 23.8878,
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje matomi žmonės ar žmogus?",
+            "transformationPrompt": "Transform this image into a colorful cartoon style illustration."
+        },
+        "text": [
+            "📷 FOTO TESTAS",
+            "",
+            "Nufotografuokite bet ką.",
+            "(Kol spręsite kitas užduotis, foto bus apdorota)"
+        ],
+        "answer": [],
+        "points": 5,
+        "attempts": 1,
+        "time": 5,
+        "nextTaskId": "3"
+    },
+    {
+        "id": "3",
+        "name": "Atsakymas su hint",
+        "lat": 54.8978,
+        "lng": 23.8845,
+        "type": "text_answer",
+        "text": [
+            "💡 HINT TESTAS",
+            "",
+            "Koks yra Lietuvos sostinės pavadinimas?",
+            "",
+            "(Jei nežinote - naudokite užuominą)"
+        ],
+        "answer": [
+            "vilnius",
+            "Vilnius",
+            "VILNIUS"
+        ],
+        "points": 3,
+        "attempts": 3,
+        "time": 5,
+        "hint": {
+            "text": "Pradžia: V, pabaiga: S",
+            "points": 1
+        },
+        "nextTaskId": "4"
+    },
+    {
+        "id": "4",
+        "name": "Neįmanomas atsakymas",
+        "lat": 54.9001,
+        "lng": 23.8832,
+        "type": "text_answer",
+        "text": [
+            "❌ FAIL TESTAS",
+            "",
+            "Ši užduotis visada nepavyks.",
+            "Tikslas: patikrinti fail logiką.",
+            "",
+            "Įveskite bet ką ir spauskite atsakyti."
+        ],
+        "answer": [
+            "e7b8f9a2-4c3d-4e5f-a6b7-8c9d0e1f2a3b"
+        ],
+        "points": 5,
+        "attempts": 2,
+        "time": 2,
+        "nextTaskId": "5"
+    },
+    {
+        "id": "5",
+        "name": "TimePointer testas",
+        "lat": 54.8969,
+        "lng": 23.8889,
+        "type": "timepointer",
+        "text": [
+            "📊 TIMEPOINTER TESTAS",
+            "",
+            "Surikiuokite įvykius chronologine tvarka."
+        ],
+        "answer": [],
+        "events": [
+            {
+                "name": "Pirmasis",
+                "order": 1,
+                "description": "Tai pirmas įvykis"
+            },
+            {
+                "name": "Antrasis",
+                "order": 2,
+                "description": "Tai antras įvykis"
+            },
+            {
+                "name": "Trečiasis",
+                "order": 3,
+                "description": "Tai trečias įvykis"
+            },
+            {
+                "name": "Ketvirtasis",
+                "order": 4,
+                "description": "Tai ketvirtas įvykis"
+            }
+        ],
+        "points": 5,
+        "attempts": 2,
+        "time": 5,
+        "nextTaskId": "51"
+    },
+    {
+        "id": "51",
+        "name": "Grandinėlė",
+        "lat": 54.897,
+        "lng": 23.889,
+        "type": "chain",
+        "text": [
+            "🔗 GRANDINĖLĖ TESTAS",
+            "",
+            "Užpildykite grandinėlę teisingais atsakymais (4 laukai)."
+        ],
+        "answer": [
+            "Pirmas",
+            "Antras",
+            "Trečias",
+            "Ketvirtas"
+        ],
+        "points": 5,
+        "attempts": 3,
+        "time": 5,
+        "nextTaskId": "6"
+    },
+    {
+        "id": "6",
+        "name": "Alternative testas",
+        "lat": 54.8988,
+        "lng": 23.8912,
+        "type": "text_answer",
+        "text": [
+            "🔄 ALTERNATIVE TESTAS",
+            "",
+            "Kiek yra 2 + 2?",
+            "",
+            "(Pirmą kartą atlikę, antrą kartą matysite kitą klausimą)"
+        ],
+        "answer": [
+            "4",
+            "keturi"
+        ],
+        "points": 3,
+        "attempts": 3,
+        "time": 5,
+        "alternative": {
+            "type": "text_answer",
+            "text": "🔄 ALTERNATYVUS KLAUSIMAS\n\nKiek yra 3 + 3?"
+        },
+        "nextTaskId": "7"
+    },
+    {
+        "id": "7",
+        "name": "Kazino testas",
+        "lat": 54.8973,
+        "lng": 23.8825,
+        "type": "roulette",
+        "text": [
+            "🎰 KAZINO TESTAS",
+            "",
+            "Sukite ruletę ir laimėkite taškus!"
+        ],
+        "answer": [],
+        "points": 10,
+        "attempts": 1,
+        "time": 5,
+        "nextTaskId": "8"
+    },
+    {
+        "id": "8",
+        "name": "Wordle testas",
+        "lat": 54.9005,
+        "lng": 23.8871,
+        "type": "wordle",
+        "text": [
+            "🟩 WORDLE TESTAS",
+            "",
+            "Atspėkite 6 raidžių žodį."
+        ],
+        "answer": [],
+        "word": "TESTAS",
+        "points": 5,
+        "attempts": 6,
+        "time": 10,
+        "nextTaskId": "9"
+    },
+    {
+        "id": "9",
+        "name": "Pabaiga",
+        "lat": 54.8981,
+        "lng": 23.8855,
+        "type": "text_answer",
+        "text": [
+            "🏆 FINALAS",
+            "",
+            "Paskutinis klausimas.",
+            "Atsakymas: BAIGTA"
+        ],
+        "answer": [
+            "baigta",
+            "BAIGTA",
+            "Baigta"
+        ],
+        "points": 5,
+        "attempts": 3,
+        "time": 5,
+        "rewardType": "carousel",
+        "reward": {
+            "text": "Puiku! Testavimas baigtas sėkmingai! 🎉",
+            "transformedImage": "2"
+        },
+        "rewardCarousel": {
+            "text": [
+                "🎉 Sveikiname!",
+                "Testavimo misija baigta!",
+                "Transformuota nuotrauka (jei buvo):"
+            ],
+            "images": []
+        }
+    }
+]

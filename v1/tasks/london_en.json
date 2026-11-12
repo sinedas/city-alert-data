@@ -1,0 +1,481 @@
+[
+    {
+        "id": "1",
+        "name": "Westminster Bridge",
+        "lat": 51.50135104841392,
+        "lng": -0.11983933227424697,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Play Wordle. A correct letter in the right place will be green. Correct but in the wrong place – yellow. Wrong – grey. E.g.: word KINGDOM, and you entered KITCHEN:",
+                "[img source=\"kitchen.jpg\" width=\"300\" height=\"50\"/]",
+                "You have 10 attempts (10 points). Each attempt minus 1 point."
+            ],
+            "images": [
+                "bridgev6.webp"
+            ]
+        },
+        "type": "wordle",
+        "text": [
+            "Guess the word: famous historical figure."
+        ],
+        "answer": [
+            "Newton",
+            "Darwin",
+            "Nelson"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "nextTaskId": "2"
+    },
+    {
+        "id": "2",
+        "name": "London Eye",
+        "lat": 51.50349925563062,
+        "lng": -0.11967875312898077,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "You have risen to the top of the London Eye.",
+                "",
+                "Your task is to take a team photo."
+            ],
+            "images": [
+                "eye5.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Are there people or a person visible in the photo?",
+            "transformationPrompt": "Transform the photo. Keep the same number of people as in the original photo and do not add any new persons. The people are standing on London Tower Bridge, holding lots of money in their hands, and banknotes are falling from the sky around them. Everyone looks natural, as if in a real situation, without caricature; if there are women in the photo, they should look slightly enhanced, neat and aesthetic, with softly even skin, subtly emphasised facial features, pleasant, friendly expressions, natural makeup and without excessive glamour effect. The overall scene is realistic and lively, the bridge scale visible, London city atmosphere, style cinematic, balanced and authentic."
+        },
+        "text": [
+            "You are standing on the top of the London Eye. Your task is to take a team photo."
+        ],
+        "points": 3,
+        "attempts": 1,
+        "time": 5,
+        "nextTaskId": "3"
+    },
+    {
+        "id": "3",
+        "name": "Houses of Parliament",
+        "lat": 51.50085837642932,
+        "lng": -0.12383467226999799,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Tip: tapping the image will expand it to full screen."
+            ],
+            "images": [
+                "parlamentv4.webp"
+            ]
+        },
+        "type": "timepointer",
+        "random": "england",
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "nextTaskId": "4"
+    },
+    {
+        "id": "4",
+        "name": "Westminster Abbey",
+        "lat": 51.49902732571633,
+        "lng": -0.12739075156914137,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [],
+            "images": [
+                "abbeyv4.webp"
+            ]
+        },
+        "image": "matches5.webp",
+        "text": [
+            "Move one matchstick to make the equation correct.",
+            "Write the answer as an equation using Arabic numerals and symbols."
+        ],
+        "answer": [
+            "1+4=5"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 5,
+        "reward": {
+            "text": [
+                "You board the tube and travel to South Kensington."
+            ],
+            "image": "metro.webp"
+        },
+        "nextTaskId": "41"
+    },
+    {
+        "id": "41",
+        "name": "South Kensington",
+        "lat": 51.497028905325635,
+        "lng": -0.17640142077487364,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "South Kensington, home to London's most famous museums:",
+                "Natural History Museum,",
+                "Science Museum,",
+                "Victoria and Albert Museum."
+            ],
+            "images": [
+                "museums.webp"
+            ],
+            "changeInterval": 3
+        },
+        "type": "timepointer",
+        "random": "museums",
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "nextTaskId": "5"
+    },
+    {
+        "id": "5",
+        "name": "Buckingham Palace",
+        "lat": 51.502013910137904,
+        "lng": -0.1400057311445804,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [],
+            "images": [
+                "buckinghamv4.webp"
+            ]
+        },
+        "image": "holmesv2.png",
+        "text": "Arrange the puzzle pieces into a square and you will discover the literary character.",
+        "answer": [
+            "Sherlock Holmes"
+        ],
+        "points": 6,
+        "time": 4,
+        "nextTaskId": "51"
+    },
+    {
+        "id": "51",
+        "name": "Soho",
+        "lat": 51.51178723162537,
+        "lng": -0.13245958996556553,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [],
+            "images": [
+                "sohov5.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Are there people or a person visible in the photo?",
+            "transformationPrompt": "Transform the photo. The people are at Wembley Stadium during a football match, looking natural as if live at the stadium – with real emotions, no artificiality; women should look especially neat, kind and aesthetic, with natural, softly enhanced beauty and without excessive makeup. Everyone is wearing red shirts with \"{team_name}\" branding, also holding red scarves with \"{team_name}\" symbol, some team members wear \"{team_name}\" fan caps, and one of the team members wears a large fun hat with bells, typical of stadium fans. In the background the football arena and stands are clearly visible, the live match atmosphere, stadium scale and energy are felt, style is realistic, warm and natural, without caricature."
+        },
+        "text": [
+            "In Chinatown you meet a group of football fans. Take a team photo as if you were photographing with football fans. Keep your hands raised as if holding scarves."
+        ],
+        "points": 3,
+        "time": 5,
+        "nextTaskId": "6"
+    },
+    {
+        "id": "6",
+        "name": "Piccadilly Circus",
+        "lat": 51.50993767400209,
+        "lng": -0.13461210919238184,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [],
+            "images": [
+                "picadillyv7.webp"
+            ]
+        },
+        "type": "timepointer",
+        "text": "Sort the companies by founding date (oldest to newest)",
+        "random": "companies",
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 4,
+        "nextTaskId": "7"
+    },
+    {
+        "id": "7",
+        "name": "Leicester Square",
+        "lat": 51.510242197541345,
+        "lng": -0.1301869244352545,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "At Leicester Square you find a 2 pound coin.",
+                "You also meet a group of circus performers. For the coin they offer to spin the wheel of fortune and guess the colour – red or black. Each correct guess doubles your points. If you lose you stay at the initial sum of two points.",
+                "Important to stop in time."
+            ],
+            "images": [
+                "leicester.webp"
+            ]
+        },
+        "type": "roulette",
+        "points": 2,
+        "time": 5,
+        "nextTaskId": "8"
+    },
+    {
+        "id": "8",
+        "name": "Trafalgar Square",
+        "lat": 51.50856066360781,
+        "lng": -0.12825513100902566,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Trafalgar Square.",
+                "",
+                "You have 9 attempts and 4 minutes to complete the task."
+            ],
+            "images": [
+                "trafalgarv4.webp"
+            ]
+        },
+        "type": "wordle",
+        "text": [
+            "Guess the word: a literary character."
+        ],
+        "answer": [
+            "Romeo",
+            "Juliet",
+            "Hamlet"
+        ],
+        "points": 9,
+        "attempts": 9,
+        "minusPointsOnAttempt": 1,
+        "time": 4,
+        "nextTaskId": "11"
+    },
+    {
+        "id": "11",
+        "name": "National Gallery",
+        "lat": 51.50819668646975,
+        "lng": -0.12811696653132779,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "National Gallery."
+            ],
+            "images": [
+                "galleryv5.webp"
+            ]
+        },
+        "type": "timepointer",
+        "text": "Sort the artists.",
+        "random": "paintings",
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 4,
+        "nextTaskId": "81"
+    },
+    {
+        "id": "81",
+        "name": "King's Cross Station",
+        "lat": 51.53161419821,
+        "lng": -0.12447090193320982,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "You board the train and travel to King's Cross station."
+            ],
+            "images": [
+                "cross_outsidev4.webp"
+            ]
+        },
+        "image": "crossv4.webp",
+        "text": [
+            "At King's Cross there is a platform mentioned as invisible in a certain book. What is its number? "
+        ],
+        "answer": [
+            "9 3/4",
+            "93/4",
+            "934",
+            "9 34",
+            "9¾",
+            "9.75",
+            "9,75",
+            "9 3 4",
+            "9-3/4",
+            "9 3\\4",
+            "9 3.4",
+            "9 3,4",
+            "9 3|4"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 5,
+        "reward": {
+            "text": [
+                "From here you travel to Greenwich."
+            ],
+            "image": "platformv4.webp"
+        },
+        "alternative": {
+            "type": "timepointer",
+            "random": "fantasy"
+        },
+        "nextTaskId": "82"
+    },
+    {
+        "id": "82",
+        "name": "Royal Observatory Greenwich",
+        "lat": 51.47688929598302,
+        "lng": 0,
+        "image": "observatoryv4.webp",
+        "text": [
+            "You are at the Greenwich Observatory. Your latitude is 51.47688929598302. I wonder what the longitude is?"
+        ],
+        "answer": [
+            "0",
+            "Zero"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 5,
+        "hint": {
+            "text": [
+                "Info from wikipedia can help you:",
+                "",
+                "[href=\"https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich\"]Royal Observatory, Greenwich[/href]."
+            ]
+        },
+        "reward": {
+            "text": [
+                "You remember the football fans mentioning a match today. You board the train."
+            ],
+            "image": "greenwichv4.webp"
+        },
+        "alternative": {
+            "type": "timepointer",
+            "random": "astronomy"
+        },
+        "nextTaskId": "83"
+    },
+    {
+        "id": "83",
+        "name": "Wembley stadium",
+        "lat": 51.55545908008477,
+        "lng": -0.28389781132451325,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Wembley Stadium."
+            ],
+            "images": [
+                "wembleyv4.webp"
+            ]
+        },
+        "type": "timepointer",
+        "random": "football_clubs",
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "reward": {
+            "text": [
+                "You are watching the football match at Wembley Stadium."
+            ],
+            "transformedImage": "51"
+        },
+        "nextTaskId": "9"
+    },
+    {
+        "id": "9",
+        "name": "Tower of London",
+        "lat": 51.508803650062156,
+        "lng": -0.0785585770626463,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "After the football match you board the train and head to the Tower of London."
+            ],
+            "images": [
+                "towerv4.webp"
+            ]
+        },
+        "type": "timepointer",
+        "text": "Sort the events in English history.",
+        "random": "monarchs",
+        "points": 5,
+        "attempts": 5,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "nextTaskId": "10"
+    },
+    {
+        "id": "10",
+        "name": "Tower Bridge",
+        "lat": 51.50663179191841,
+        "lng": -0.07467169767970523,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "You have 8 attempts and 3 minutes to complete the task."
+            ],
+            "images": [
+                "towerbridgev4.webp"
+            ]
+        },
+        "type": "wordle",
+        "text": [
+            "Guess the word: an animal."
+        ],
+        "answer": [
+            "BEAVER",
+            "WILDCAT",
+            "BADGER"
+        ],
+        "points": 9,
+        "attempts": 9,
+        "minusPointsOnAttempt": 1,
+        "time": 3,
+        "reward": {
+            "text": [
+                "You board the tube again."
+            ]
+        },
+        "nextTaskId": "12"
+    },
+    {
+        "id": "12",
+        "name": "St. Paul's Cathedral",
+        "lat": 51.514339354426134,
+        "lng": -0.09880121531651369,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "You head to St Paul's Cathedral. There you find a 10 pound note",
+                "And again you meet the group of circus performers. For the note they offer to spin the wheel of fortune and guess the colour – red or black. Each correct guess doubles your points. If you lose you stay at the initial sum of 10 points.",
+                "Important to stop in time, as this is your last task."
+            ],
+            "images": [
+                "stpaul.webp"
+            ]
+        },
+        "type": "roulette",
+        "points": 10,
+        "time": 5,
+        "reward": {
+            "text": [
+                "That was the last task in London.",
+                "Time to go home.",
+                "You are the best City Alert team!"
+            ],
+            "image": "piccadillyv4.webp",
+            "transformedImage": "2"
+        }
+    }
+]

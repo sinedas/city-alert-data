@@ -7,9 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs stovite šalia įėjimo į tuometinį Vilniaus Žalgirio stadiono.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Jūs stovite šalia įėjimo į tuometinį Vilniaus Žalgirio stadiono."
             ],
             "images": [
                 "stadionas.webp"
@@ -41,9 +39,7 @@
         "lng": 25.290029537284926,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "stadionas.webp"
             ],
@@ -71,9 +67,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Eidami toliau jūs randate paslaptingą lagaminėlį.",
-                "",
-                "Užduočiai atlikti turite 8 minutes."
+                "Eidami toliau jūs randate paslaptingą lagaminėlį."
             ],
             "images": [
                 "lagaminelis.webp"
@@ -131,9 +125,7 @@
         "lng": 25.28962892500207,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "sporto_rumai2.webp"
             ],
@@ -205,9 +197,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Jūs priėjote Nerį. Tuo metu Mindaugo tiltas dar nebuvo pastatytas, o vasaromis buvo įrengiamas laikinas pontoninis tiltas.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Jūs priėjote Nerį. Tuo metu Mindaugo tiltas dar nebuvo pastatytas, o vasaromis buvo įrengiamas laikinas pontoninis tiltas."
             ],
             "images": [
                 "pontonas.webp"
@@ -243,9 +233,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Valdovų rūmų anuomet nebuvo. Jų vietoje stovėjo Šliosbergo rūmai, juose anuomet buvo įsikūrę pionierių namai.",
-                "",
-                "Užduočiai atlikti turite 5 minutes."
+                "Valdovų rūmų anuomet nebuvo. Jų vietoje stovėjo Šliosbergo rūmai, juose anuomet buvo įsikūrę pionierių namai."
             ],
             "images": [
                 "pionieriu_namai.webp"
@@ -282,9 +270,7 @@
         "lng": 25.286643927572907,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "katedra.webp"
             ],
@@ -316,10 +302,7 @@
         "lng": 25.28651535946051,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "",
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "katedra.webp"
             ],
@@ -377,9 +360,7 @@
         "lng": 25.282889263923398,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "pastas.webp"
             ],
@@ -452,10 +433,7 @@
         "lng": 25.27920708785223,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "",
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "vaiku_pasaulis.webp"
             ],
@@ -486,9 +464,7 @@
         "lng": 25.279374125506813,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "knygynas.webp"
             ],
@@ -555,9 +531,7 @@
         "lng": 25.275005803009805,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 8 minutes."
-            ],
+            "text": [],
             "images": [
                 "pergale.webp"
             ],
@@ -589,9 +563,7 @@
         "lng": 25.271600457362418,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 7 minutes."
-            ],
+            "text": [],
             "images": [
                 "profsajunga.webp"
             ],
@@ -656,9 +628,7 @@
             "text": [
                 "Lenino aikštėje jūsų laukia Izaokas Goldšteinas su laiko mašina. Laikas grįžti namo.",
                 "",
-                "Kad galėtų jūsų grąžinti, Izaokas mašinoje turi įvesti metus, kuriuose esate dabar. Jums reikės suskaičiuoti, kokie dabar metai?",
-                "",
-                "Užduočiai atlikti turite 8 minutes."
+                "Kad galėtų jūsų grąžinti, Izaokas mašinoje turi įvesti metus, kuriuose esate dabar. Jums reikės suskaičiuoti, kokie dabar metai?"
             ],
             "images": [
                 "leninoaikste.webp"

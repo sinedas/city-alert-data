@@ -48,8 +48,7 @@
             "text": [
                 "At the foot of Gediminas Hill you find three petrified heads.",
                 "But these are no ordinary heads — they are three petrified wise men.",
-                "At a wave of the magic wand, the heads woke up and spoke to you, asking four questions.",
-                "You have 5 minutes to complete the task."
+                "At a wave of the magic wand, the heads woke up and spoke to you, asking four questions."
             ],
             "images": [
                 "galvos.webp"
@@ -86,8 +85,7 @@
         "startCarousel": {
             "text": [
                 "The brushes and paints suddenly leapt out of the open suitcase and landed in the hands of one team member.",
-                "You will have to paint a picture.",
-                "You have 5 minutes to complete the task."
+                "You will have to paint a picture."
             ],
             "images": [
                 "painting.webp"
@@ -158,9 +156,7 @@
         "lng": 25.28653587535374,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "You have 6 minutes to complete the task."
-            ],
+            "text": [],
             "images": [
                 "katedra.webp"
             ],
@@ -207,8 +203,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "The cover of the magic book has changed. Open it and identify the famous book.",
-                "You have 5 minutes to complete the task."
+                "The cover of the magic book has changed. Open it and identify the famous book."
             ],
             "images": [
                 "book.webp"
@@ -276,9 +271,7 @@
         "startCarousel": {
             "text": [
                 "In Bona Sforza's courtyard, an inscription appeared on the title of the book: 'The Love Crossword'.",
-                "Open the book and complete a new task.",
-                "",
-                "You have 7 minutes to complete the task."
+                "Open the book and complete a new task."
             ],
             "images": [
                 "love.webp"
@@ -354,9 +347,7 @@
         "startCarousel": {
             "text": [
                 "The brushes and paints from the suitcase started playing tricks again. They leapt out of the suitcase and landed in someone's hands.",
-                "You will have to paint a picture.",
-                "",
-                "You have 5 minutes to complete the task."
+                "You will have to paint a picture."
             ],
             "images": [
                 "painting.webp"
@@ -383,8 +374,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "A flask jumped out of the suitcase and began dividing into identical flasks. Two, three, four, five.",
-                "You have 6 minutes to complete the task."
+                "A flask jumped out of the suitcase and began dividing into identical flasks. Two, three, four, five."
             ],
             "images": [
                 "colors_start.webp"
@@ -432,9 +422,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "The suitcase opened on the lawn. Inside a previously undiscovered compartment, you find a radio receiver instead of the familiar objects.",
-                "",
-                "You have 10 minutes to complete the task."
+                "The suitcase opened on the lawn. Inside a previously undiscovered compartment, you find a radio receiver instead of the familiar objects."
             ],
             "images": [
                 "imtuvasv2.webp"
@@ -477,9 +465,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "The matchbox suddenly opened by itself.",
-                "",
-                "You have 5 minutes to complete the task."
+                "The matchbox suddenly opened by itself."
             ],
             "images": [
                 "degtukai.webp"
@@ -518,8 +504,7 @@
         "startCarousel": {
             "text": [
                 "On the lawn in the Bernardine Garden there is a magical means of transport.",
-                "But it is hidden under an opaque cover.",
-                "You have 5 minutes to complete the task."
+                "But it is hidden under an opaque cover."
             ],
             "images": [
                 "zole.webp"
@@ -552,9 +537,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "The suitcase opened on the lawn and chess pieces appeared inside it.",
-                "",
-                "You have 6 minutes to complete the task."
+                "The suitcase opened on the lawn and chess pieces appeared inside it."
             ],
             "images": [
                 "sachmatai.webp"
@@ -712,9 +695,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "The time-twister worked and carried you back to the year 1812, turning one of you into Napoleon.",
-                "",
-                "You have 5 minutes to complete the task."
+                "The time-twister worked and carried you back to the year 1812, turning one of you into Napoleon."
             ],
             "images": [
                 "napoleonas.webp"
@@ -745,9 +726,7 @@
         "startCarousel": {
             "text": [
                 "Next to the puppy sculptures, the magic book fell open to the fairy tale “The Twelve Months”.",
-                "It turns out that these are no ordinary puppies — they are the orphan girl’s stepmother and stepsisters, transformed by magic.",
-                "",
-                "You have 5 minutes to complete the task."
+                "It turns out that these are no ordinary puppies — they are the orphan girl’s stepmother and stepsisters, transformed by magic."
             ],
             "images": [
                 "months.webp"
@@ -776,8 +755,7 @@
         "startCarousel": {
             "text": [
                 "A flask jumped out of the suitcase and split into two flasks.",
-                "The flasks filled with water, and the paints jumped into them and coloured them gold and silver.",
-                "You have 6 minutes to complete the task."
+                "The flasks filled with water, and the paints jumped into them and coloured them gold and silver."
             ],
             "images": [
                 "lygtis_start.webp"
@@ -818,8 +796,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "You have come to a throne that once belonged to a king.",
-                "You have 5 minutes to complete the task."
+                "You have come to a throne that once belonged to a king."
             ],
             "images": [
                 "throne.webp"

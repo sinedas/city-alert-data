@@ -6,9 +6,7 @@
         "lng": 25.30018131216362,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 5 minutes."
-            ],
+            "text": [],
             "images": [
                 "bibliotekav2.webp"
             ],
@@ -36,9 +34,7 @@
         "lng": 25.303356395621584,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 6 minutes."
-            ],
+            "text": [],
             "images": [
                 "tuskulenaiv2.webp"
             ],
@@ -71,9 +67,7 @@
         "lng": 25.30033912031935,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 6 minutes."
-            ],
+            "text": [],
             "images": [
                 "vrm.webp"
             ],
@@ -134,9 +128,7 @@
         "lng": 25.302705141614247,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 6 minutes."
-            ],
+            "text": [],
             "images": [
                 "koplytele.webp"
             ],
@@ -167,9 +159,7 @@
         "lng": 25.30311978032033,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduočiai atlikti turite 6 minutes."
-            ],
+            "text": [],
             "images": [
                 "kolumbariumas.webp"
             ],
@@ -220,9 +210,7 @@
         "lng": 25.30227412688501,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduoties laikas neribojamas."
-            ],
+            "text": [],
             "images": [
                 "karuna.webp"
             ],
@@ -251,9 +239,7 @@
         "lng": 25.301736572827075,
         "startType": "carousel",
         "startCarousel": {
-            "text": [
-                "Užduoties laikas neribojamas."
-            ],
+            "text": [],
             "images": [
                 "oficina.webp"
             ],

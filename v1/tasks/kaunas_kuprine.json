@@ -7,8 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Sąsiuvinys atsivertė ties uždaviniu „Raidžių Magijos uždavinys“.",
-                "Užduočiai atlikti turite 7 minutes."
+                "Sąsiuvinys atsivertė ties uždaviniu „Raidžių Magijos uždavinys“."
             ],
             "images": [
                 "raides_klausimas.webp"
@@ -89,8 +88,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Fėjos lazdelė ėmė išdykauti.",
-                "Užduočiai atlikti turite 5 minutes."
+                "Fėjos lazdelė ėmė išdykauti."
             ],
             "images": [
                 "lazdele.webp"
@@ -117,9 +115,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Kuprinė atsidarė, ir iš jos pabiro pieštukai.",
-                "",
-                "Užduočiai atlikti turite 6 minutes."
+                "Kuprinė atsidarė, ir iš jos pabiro pieštukai."
             ],
             "images": [
                 "piestukai.webp"

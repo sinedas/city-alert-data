@@ -7,9 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Mstislav Dobuzhinsky picture frame.",
-                "",
-                "You have 5 minutes to complete this task."
+                "Mstislav Dobuzhinsky picture frame."
             ],
             "images": [
                 "dobuzinskis.jpg"
@@ -35,9 +33,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Gediminas Monument.",
-                "",
-                "You have 5 minutes to complete this task."
+                "Gediminas Monument."
             ],
             "images": [
                 "gedimino.webp"
@@ -441,9 +437,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "In front of the Church of St. Mary of the Mother of God, you find a suitcase with a lock.",
-                "",
-                "You have 7 minutes to complete this task."
+                "In front of the Church of St. Mary of the Mother of God, you find a suitcase with a lock."
             ],
             "images": [
                 "varpelis.webp"
