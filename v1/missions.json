@@ -1384,7 +1384,7 @@
         "initialDiameter": 2300,
         "finalDiameter": 2295,
         "duration": 120,
-        "active": true,
+        "active": false,
         "level": "Lengvas",
         "circleMode": "fixed",
         "locked": true,
