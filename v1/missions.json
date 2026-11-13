@@ -485,23 +485,24 @@
             "lng": 23.905853229993056
         },
         "initialDiameter": 2500,
-        "finalDiameter": 200,
+        "finalDiameter": 2495,
         "duration": 150,
         "active": true,
         "level": "Vidutinis",
+        "circleMode": "fixed",
         "locked": true,
-        "circle": true,
+        "circle": false,
         "description": "Kauno naujamiestis: Vienybės aikštė, Laisvės alėja. Nemuno sala.",
         "longDescription": [
-            "Orientacinis žaidimas Kauno naujamiestyje – smagus komandinis nuotykis nuo M. K. Čiurlionio dailės muziejaus per Laisvės alėją iki Nemuno salos. Ieškosite užduočių miesto gatvėse ir aikštėse, spręsite mįsles, galvosūkius ir foto užduotis.",
-            "Žaidimo zona telefono žemėlapyje pažymėta ratu, kuris laikui bėgant traukiasi, todėl teks greitai nuspręsti, kur eiti pirmiausia.",
+            "Orientacinis žaidimas Kauno Naujamiestyje – smagus komandinis nuotykis tarp M. K. Čiurlionio dailės muziejaus ir Nemuno salos. Ieškosite užduočių miesto gatvėse ir aikštėse, spręsite mįsles ir galvosūkius, atliksite foto užduotis.",
+            "Pradėti galite nuo bet kurios užduoties, o užduotis atlikti bet kuria tvarka.",
             "Maršrutas.",
             "- M. K. Čiurlionio dailės muziejus",
             "- Vienybės aikštė",
             "- Laisvės alėja",
             "- Romuvos kinoteatras",
-            "- Žalgirio arena",
-            "- Mokslo sala"
+            "- Muzikinio teatro sodas",
+            "- Nemuno sala"
         ],
         "city": "Kaunas",
         "start": "Čiurlionio dailės muziejus",
@@ -510,9 +511,11 @@
             "lat": 54.90083568828561,
             "lng": 23.911810404060574
         },
+        "route": "M. K. Čiurlionio dailės muziejus, Vienybės aikštė, Laisvės alėja, Romuvos kinoteatras, Muzikinio teatro sodas, Nemuno sala",
         "routeImageUrl": "",
         "hints": 5,
         "checkLocation": true,
+        "details": "M. K. Čiurlionio dailės muziejus, Vienybės aikštė, Laisvės alėja, Romuvos kinoteatras, Muzikinio teatro sodas, Nemuno sala.",
         "teamName": {
             "title": "Komandos pavadinimas",
             "time": 4,
