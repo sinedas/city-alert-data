@@ -199,6 +199,12 @@
         "code": "ona",
         "title": "Šv. Onos paslaptis",
         "image": "ona.webp",
+        "images": [
+            "gedimino.webp",
+            "signataraiv2.webp",
+            "boksto.webp",
+            "angelas.webp"
+        ],
         "location": {
             "lat": 54.680644159957176,
             "lng": 25.29538049958262
