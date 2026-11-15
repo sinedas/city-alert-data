@@ -1314,6 +1314,12 @@
         "code": "traku_burtininkas",
         "title": "Trakų burtininkas",
         "image": "trakai.webp",
+        "images": [
+            "nepomukas.webp",
+            "kenesa.webp",
+            "pusiasalis.webp",
+            "pilis.webp"
+        ],
         "location": {
             "lat": 54.65183773072356,
             "lng": 24.933352674435888
