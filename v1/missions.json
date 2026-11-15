@@ -536,7 +536,7 @@
     },
     {
         "code": "kaunas_kuprine",
-        "title": "Fėjos kuprinė Kaune",
+        "title": "Kauno fėja",
         "image": "kuprine.webp",
         "location": {
             "lat": 54.89662958421843,
@@ -921,7 +921,7 @@
     },
     {
         "code": "vilnius_kuprine",
-        "title": "Fėjos kuprinė Vilniuje",
+        "title": "Vilniaus fėja",
         "image": "kuprine.webp",
         "location": {
             "lat": 54.68748589826468,
@@ -1230,7 +1230,7 @@
     },
     {
         "code": "trakai_kuprine",
-        "title": "Fėjos kuprinė Trakuose",
+        "title": "Trakų fėja",
         "image": "kuprine.webp",
         "location": {
             "lat": 54.643806328772584,
