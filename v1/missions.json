@@ -848,6 +848,87 @@
         }
     },
     {
+        "code": "klaipeda_kuprine",
+        "folder": "wizard",
+        "title": "Klaipėdos fėja",
+        "image": "kuprine.webp",
+        "location": {
+            "lat": 55.71093671781183,
+            "lng": 21.134741772391475
+        },
+        "initialDiameter": 600,
+        "finalDiameter": 595,
+        "duration": 30,
+        "active": true,
+        "level": "Lengvas",
+        "circleMode": "fixed",
+        "locked": false,
+        "circle": false,
+        "description": "Įvadinė Klaipėdos burtininko misija su stebuklinga kuprine ir lazdele.",
+        "longDescription": [
+            "Klaipėdoje, šalia Danės upės, radote kažkieno paliktą kuprinę ir burtų lazdelę. Ant sąsiuvinio parašyta „Magijos pagrindai“ – kuprinė priklauso Fėjų mokyklos mokinei Vėtrunei Išsiblaškėlei.",
+            "Atskleiskite mergaitės kuprinės paslaptis. Tai trumpa nemokama misija – įžanga į didesnį nuotykį „Klaipėdos burtininkas“.",
+            "Maršrutas.",
+            "- Danės krantinė"
+        ],
+        "city": "Vilnius",
+        "start": "Danės krantinė",
+        "finish": "Biržos tiltas",
+        "startLocation": {
+            "lat": 55.711399238562066,
+            "lng": 21.13838405459224
+        },
+        "routeImageUrl": "",
+        "hints": 20,
+        "beforeTeamName": {
+            "title": "Palikta kuprinė",
+            "text": [
+                "Klaipėdoje, šalia Danės upės, radote paliktą kuprinę, burtų lazdelę ir sąsiuvinį.",
+                "Sąsiuvinio viršelyje parašyta:",
+                "\"Magijos pagrindai",
+                "Vėtrunės Išsiblaškėlės",
+                "Fėjų mokyklos",
+                "3a klasės mokinės\"",
+                "Įdomu, kas viduje ir kaip ją atidaryti?",
+                "",
+                "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
+            ]
+        },
+        "checkLocation": true,
+        "details": "Danės krantinė.",
+        "teamName": {
+            "title": "Komandos pavadinimas",
+            "time": 4,
+            "text": [
+                "Kuprinė atsidarys tik tada, kai sugalvosite komandos pavadinimą, mostelėsite lazdele ir garsiai jį ištarsite.",
+                "Sugalvokite komandos pavadinimą ir įrašykite jį į laukelį.",
+                "",
+                "Užduotis verta 2 taškų, o atlikti ją turite 4 minutes."
+            ],
+            "points": 2
+        },
+        "afterTeamName": {
+            "title": "Kas kuprinėje?",
+            "text": [
+                "Kuprinė atsidarė. Joje radote sąsiuvinius, pieštukus ir kitus daiktus.",
+                "Jūsų komanda pasiruošusi nuotykiui.",
+                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "",
+                "Sėkmės!"
+            ],
+            "image": "atidaryta.webp"
+        },
+        "endPage": {
+            "title": "Žaidimo pabaiga",
+            "text": [
+                "Jūsų magiškas nuotykis pasibaigė.",
+                "Tačiau šalia paskutinės užduoties vietos, jūs radote paslaptingą lagaminą.",
+                "O jei norite sužinoti, kas jame slypi, žaiskite misiją \"Klaipėdos burtininkas\""
+            ],
+            "image": "klaipeda.webp"
+        }
+    },
+    {
         "code": "kaunas_wizard_en",
         "folder": "kauno_burtininkas",
         "title": "The Kaunas Wizard",

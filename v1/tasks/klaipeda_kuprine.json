@@ -1,0 +1,199 @@
+[
+    {
+        "id": "1",
+        "name": "Raidžių matematika",
+        "lat": 55.711252670964,
+        "lng": 21.137584518487596,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Sąsiuvinys atsivertė ties uždaviniu „Raidžių Magijos uždavinys“."
+            ],
+            "images": [
+                "raides_klausimas.webp"
+            ]
+        },
+        "text": [
+            "Sąsiuvinyje atsirado naujos sąlygos:",
+            "Vienas turi 6",
+            "Du turi 2",
+            "Trys turi 4",
+            "Kiek turi Trylika?",
+            "Atsakymą įrašykite skaičiumi."
+        ],
+        "answer": [
+            "7"
+        ],
+        "points": 5,
+        "attempts": 5,
+        "time": 7,
+        "hint": {
+            "text": "Atkreipkite dėmesį į žodį „Raidžių“.",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Trylika turi 7 raides."
+            ],
+            "images": [
+                "raides_atsakymas.webp"
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "name": "Magiškas gyvūnas",
+        "lat": 55.71124305317104,
+        "lng": 21.135827067878555,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Staiga sąsiuvinys atsivertė.",
+                "Pažaiskime žodlę. Spėkite magišką gyvūną. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
+                "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
+                "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
+                "Turite 10 bandymų (10 taškų). Kiekvienas neteisingas bandymas – minus 1 taškas."
+            ],
+            "images": [
+                "magiskas_gyvunas.webp"
+            ]
+        },
+        "type": "wordle",
+        "text": [
+            "Spėkite magišką gyvūną, minimą jaunosios fėjos sąsiuvinyje."
+        ],
+        "answer": [
+            "FENIKSAS"
+        ],
+        "points": 10,
+        "attempts": 10,
+        "minusPointsOnAttempt": 1,
+        "time": 5,
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Magiškas gyvūnas - feniksas."
+            ],
+            "images": [
+                "feniksas.webp"
+            ]
+        }
+    },
+    {
+        "id": "3",
+        "name": "Lazdelės išdaigos",
+        "lat": 55.7103862302904,
+        "lng": 21.13397256317739,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Burtų lazdele mostelėjus „Meridiano“ burės išsiskleidė."
+            ],
+            "images": [
+                "lazdele.webp"
+            ]
+        },
+        "type": "photoValidation",
+        "iconType": "photo",
+        "photoValidation": {
+            "prompt": "Ar nuotraukoje yra žmogus ar žmonės?",
+            "transformationPrompt": "Transform the input photo into a clearly stylized non-photorealistic semi-cartoon illustration using a warm natural palette (beige, light ochre, warm cream, earthy tones) with subtle muted greens and reduced contrast; simplify shapes, reduce fine detail, use flatter shading with visible brush stylization, subtle watercolor texture, and consistent thin-to-medium dark outlines so the image looks illustrated, not photographic; redraw the person as a real character in a bold retro comic-inspired style (flat colors, minimal shading, clean outlines, simplified but natural facial features), dress them in a traditional sailor uniform with a sailor cap while preserving the original pose; avoid realistic lighting and textures and maintain a cohesive semi-cartoon watercolor + vector hybrid look."
+        },
+        "text": [
+            "Burtų lazdele mostelėjus „Meridiano“ burės išsiskleidė.",
+            "Nusifotografuokite kaip jūreiviai, išplaukiantys ir mojuojantys krantui."
+        ],
+        "points": 4,
+        "time": 5
+    },
+    {
+        "id": "4",
+        "name": "Stebuklingi pieštukai",
+        "lat": 55.710537758771856,
+        "lng": 21.13351825672973,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Šalia Lietuvos Arkos kuprinė atsidarė, ir iš jos pabiro pieštukai."
+            ],
+            "images": [
+                "piestukai.webp"
+            ],
+            "changeInterval": 0
+        },
+        "image": "1945.webp",
+        "text": [
+            "Pieštukai susidėliojo į skaičių.",
+            "Perkelkite du pieštukus taip, kad gautumėte mažiausią įmanomą teigiamą skaičių.",
+            "Atsakyme įrašykite tą skaičių."
+        ],
+        "answer": [
+            "846"
+        ],
+        "points": 5,
+        "attempts": 6,
+        "time": 6,
+        "hint": {
+            "text": "Vieną pieštuką perkėlėm, o kur perkelti antrą?",
+            "image": "1945_hint.webp",
+            "points": 2
+        },
+        "rewardType": "carousel",
+        "rewardCarousel": {
+            "text": [
+                "Atsakymas - 846."
+            ],
+            "images": [
+                "846.webp"
+            ]
+        }
+    },
+    {
+        "id": "101",
+        "name": "Fotoalbumas",
+        "lat": 55.71045940640067,
+        "lng": 21.1341222383313,
+        "startType": "carousel",
+        "startCarousel": {
+            "text": [
+                "Stebuklinga knyga staiga virto fotoalbumu.",
+                "Vienoje jo nuotraukų užfiksuota vieta yra visai netoliese. Suraskite ją!"
+            ],
+            "images": [
+                "fotoalbumas.webp"
+            ]
+        },
+        "type": "matchmaker",
+        "iconType": "book",
+        "text": "Apžiūrėkite aplinką ir pasirinkite nuotrauką, padarytą šioje vietoje.",
+        "matchmaker": {
+            "images": [
+                "klaipedos_burtininkas/driezas.webp",
+                "klaipedos_burtininkas/peliukas.webp",
+                "klaipedos_burtininkas/peda.webp",
+                "klaipedos_burtininkas/suniukas.webp",
+                "klaipedos_burtininkas/karuna.webp",
+                "klaipedos_burtininkas/ramune.webp",
+                "klaipedos_burtininkas/vytis.webp",
+                "klaipedos_burtininkas/girtuokliai.webp",
+                "klaipedos_burtininkas/bricka.webp",
+                "klaipedos_burtininkas/suniukai.webp",
+                "klaipedos_burtininkas/pinigai.webp",
+                "klaipedos_burtininkas/dainora.webp",
+                "klaipedos_burtininkas/zuvis.webp"
+            ],
+            "displayCount": 12
+        },
+        "answer": [
+            "klaipedos_burtininkas/vytis.webp"
+        ],
+        "points": 2,
+        "attempts": 1,
+        "time": 5,
+        "reward": {
+            "text": "",
+            "image": "klaipedos_burtininkas/vytis.webp"
+        }
+    }
+]
