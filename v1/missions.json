@@ -791,7 +791,7 @@
         "active": true,
         "level": "Lengvas",
         "circleMode": "fixed",
-        "locked": false,
+        "locked": true,
         "circle": false,
         "description": "Klaipėdos burtininko lagaminas ir burtų lazdelė.",
         "longDescription": [
