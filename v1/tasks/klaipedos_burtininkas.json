@@ -7,7 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Priešais Meridianą, Danės krantinėje, magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
+                "Priešais Meridianą, Danės krantinėje, stebuklingos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
                 "Pažaiskime burtažodlę. Spėkite burtažodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
                 "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
                 "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
@@ -542,7 +542,7 @@
             {
                 "name": "Kompasas",
                 "order": 1,
-                "text": "2-as amžius prieš m. e."
+                "text": "II a. pr. Kr."
             },
             {
                 "name": "Barometras",

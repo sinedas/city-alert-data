@@ -598,7 +598,7 @@
             "text": [
                 "Kuprinė atsidarė. Joje radote sąsiuvinius, pieštukus ir kitus paslaptingus daiktus.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
@@ -760,7 +760,7 @@
             "text": [
                 "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
@@ -840,7 +840,7 @@
             "text": [
                 "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
@@ -871,7 +871,7 @@
             "Maršrutas.",
             "- Danės krantinė"
         ],
-        "city": "Vilnius",
+        "city": "Klaipėda",
         "start": "Danės krantinė",
         "finish": "Biržos tiltas",
         "startLocation": {
@@ -912,7 +912,7 @@
             "text": [
                 "Kuprinė atsidarė. Joje radote sąsiuvinius, pieštukus ir kitus daiktus.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
@@ -1066,7 +1066,7 @@
             "text": [
                 "Kuprinė atsidarė. Joje radote sąsiuvinius, pieštukus ir kitus daiktus.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
@@ -1230,7 +1230,7 @@
             "text": [
                 "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
@@ -1375,7 +1375,7 @@
             "text": [
                 "Kuprinė atsidarė. Joje radote sąsiuvinius, pieštukus ir kitus daiktus.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
@@ -1461,7 +1461,7 @@
             "text": [
                 "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
@@ -1470,51 +1470,51 @@
     },
     {
         "code": "birzu_burtininkas",
-        "folder": "bernardinu_burtininkas",
+        "folder": "wizard",
         "title": "Biržų burtininkas",
         "image": "lagaminas.webp",
         "location": {
-            "lat": 56.204778,
-            "lng": 24.753194
+            "lat": 56.20705605337813,
+            "lng": 24.7587525844574
         },
-        "initialDiameter": 2300,
-        "finalDiameter": 2295,
+        "initialDiameter": 1610,
+        "finalDiameter": 1605,
         "duration": 120,
-        "active": false,
+        "active": true,
         "level": "Lengvas",
         "circleMode": "fixed",
-        "locked": true,
+        "locked": false,
         "circle": false,
         "description": "Biržų burtininko lagaminas ir burtų lazdelė.",
         "longDescription": [
-            "Biržuose, prie Siauruko, keistas vyriškis paliko lagaminą ir burtų lazdelę, o pats nuskubėjo kažką murmėdamas.",
+            "Biržuose ant pievelės keistas vyriškis paliko lagaminą ir burtų lazdelę, o pats nuskubėjo kažką murmėdamas neaiškia kryptimi.",
             "Atidarykite burtininko lagaminą ir leiskitės į magišką nuotykį po Biržus: jūsų laukia pasakų įkvėpti galvosūkiai, dėlionės ir foto užduotys.",
             "Maršrutas.",
-            "- Siaurukas",
+            "- Evangelikų reformatų bažnyčia",
             "- Širvėnos ežeras",
-            "- Nepomuko koplytstulpis",
-            "- Biržų pilis"
+            "- J. Janonio aikštė",
+            "- Biržų pilis",
+            "- Meko skveras"
         ],
         "city": "Biržai",
-        "start": "Siaurukas",
-        "finish": "Biržų pilis",
+        "start": "Evangelikų reformatų bažnyčia",
         "startLocation": {
-            "lat": 56.204778,
-            "lng": 24.753194
+            "lat": 56.20705605337813,
+            "lng": 24.7587525844574
         },
         "routeImageUrl": "",
         "hints": 20,
         "beforeTeamName": {
             "title": "Paliktas lagaminas",
             "text": [
-                "Šalia SiaurukoO keistas vyriškis paliko lagaminą ir burtų lazdelę ir nuskubėjo kažką murmėdamas.",
+                "Biržuose ant pievelės keistas vyriškis paliko lagaminą ir burtų lazdelę, o pats nuskubėjo kažką murmėdamas neaiškia kryptimi.",
                 "Įdomu, kas viduje ir kaip jį atidaryti?",
                 "",
                 "Jei esate pasiruošę nuotykiui, spauskite \"Toliau\"."
             ]
         },
         "checkLocation": true,
-        "details": "Šokoladinė, Trakų Švč. Mergelės Marijos Apsilankymo bazilika, Trakų pusiasalio pilis, Karaimų gatvė, Trakų salos pilis.",
+        "details": "Biržų evangelikų reformatų bažnyčia, Širvėnos ežeras, J. Janonio aikštė, Biržų pilis, Meko skveras.",
         "teamName": {
             "title": "Komandos pavadinimas",
             "time": 4,
@@ -1531,11 +1531,11 @@
             "text": [
                 "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],
-            "image": "atidarytasv3.webp"
+            "image": "atidarytasv2.webp"
         }
     },
     {
@@ -1602,7 +1602,7 @@
             "text": [
                 "Lagaminas atsidarė. Jame radote knygą be pavadinimo, degtukų dėžutę, akvarelinius dažus, žemėlapį su užduotimis ir daug kitų paslaptingų daiktų.",
                 "Jūsų komanda pasiruošusi nuotykiui.",
-                "Dabar sekite žemėlapį ir atlikite užduotis vieną po kitos.",
+                "Dabar sekite žemėlapį ir atlikite užduotis bet kuria tvarka.",
                 "",
                 "Sėkmės!"
             ],

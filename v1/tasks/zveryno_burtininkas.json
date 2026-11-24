@@ -7,7 +7,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Netoli Mergelės Marijos bažnyčios magiškos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
+                "Netoli Mergelės Marijos bažnyčios stebuklingos knygos viršelyje atsirado užrašas „Pasakų gyvūnas“. Atverskite knygą ir atlikite naują užduotį.",
                 "Pažaiskime burtažodlę. Spėkite burtažodį. Atspėta raidė savo vietoje bus žalia. Atspėta, bet ne savo vietoje – gelsva. Neatspėta – pilka.",
                 "Pvz.: žodis LATVIJA, o jūs parašėte LIETUVA:",
                 "[img source=\"lietuva.jpg\" width=\"300\" height=\"50\"/]",
@@ -54,7 +54,7 @@
         },
         "type": "chain",
         "text": [
-            "Jūs sutinkate angeliuką, kuris turi jums 4 mįsles.",
+            "Jūs sutinkate angeliuką, kuris užduoda jums 4 mįsles.",
             "Išspręskite angeliuko sugalvotą grandinėlę. Kiekvienas žodis sekoje skiriasi nuo prieš jį esančio viena raide.",
             "",
             "1. Medžiaga, iš kurios austas nepermatomas apsiaustas?",
@@ -226,7 +226,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Vieno jūsų komandos narių akiniai nukrito ir sudužo.",
+                "Vieno jūsų komandos nario akiniai nukrito ir sudužo.",
                 "Laikas pasiimti burtų lazdelę ir spėti stebuklingą skaičių.",
                 ""
             ],
@@ -239,7 +239,7 @@
             "8800 turi 6.",
             "6900 turi 4.",
             "8888 turi 8.",
-            "Kiek turi 6980 ?"
+            "Kiek turi 6980?"
         ],
         "answer": [
             "5"
@@ -384,7 +384,7 @@
         "startType": "carousel",
         "startCarousel": {
             "text": [
-                "Lagaminas atsidarė ant pievelės. Jo neatrastame skyriuje vietoj matytų daiktų atsirado radijo imtuvas.",
+                "Lagaminas atsidarė ant pievelės. Slaptame jo skyriuje atsirado radijo imtuvas.",
                 "",
                 "Užduočiai atlikti turite 10 minučių."
             ],
@@ -578,7 +578,7 @@
             {
                 "name": "Kompasas",
                 "order": 1,
-                "text": "2-as amžius prieš m. e."
+                "text": "II a. pr. Kr."
             },
             {
                 "name": "Knygų spaudos presas",
@@ -639,7 +639,7 @@
         },
         "image": "lygtis.webp",
         "text": [
-            "Išspręskite lygtis su laiko atsuktuvu ir aukso ir sidabro skysčiais."
+            "Išspręskite lygtis su laiko atsuktuvu, aukso ir sidabro skysčiais."
         ],
         "answer": [
             "18"
